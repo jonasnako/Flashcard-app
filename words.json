@@ -1,5 +1,382 @@
 [
   {
+    "id": "bdd5d391-7149-490c-9a75-c370799f4fee",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il cliente",
+      "sentence": "Il cliente ha apprezzato molto il nostro servizio."
+    },
+    "de": {
+      "word": "der Kunde",
+      "sentence": "Der Kunde hat unseren Service sehr geschätzt."
+    }
+  },
+  {
+    "id": "e59c187f-d0bd-422b-a5f3-f58abe5b40cc",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il settore",
+      "sentence": "Lavoro nel settore tecnologico da più di dieci anni."
+    },
+    "de": {
+      "word": "der Bereich",
+      "sentence": "Ich arbeite seit über zehn Jahren im Technologiebereich."
+    }
+  },
+  {
+    "id": "a2fe9686-14f0-4040-a1ef-cbfca64748d6",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "l'azienda",
+      "sentence": "Lavoro in un'azienda che produce software innovativo."
+    },
+    "de": {
+      "word": "das Unternehmen",
+      "sentence": "Ich arbeite in einem Unternehmen, das innovative Software herstellt."
+    }
+  },
+  {
+    "id": "5a7e3151-7cd1-4873-aa37-5664205071d4",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il successo",
+      "sentence": "Il successo della campagna pubblicitaria ha superato le aspettative."
+    },
+    "de": {
+      "word": "der Erfolg",
+      "sentence": "Der Erfolg der Werbekampagne hat die Erwartungen übertroffen."
+    }
+  },
+  {
+    "id": "cda1b4e1-abc0-4520-a9fb-854b8ab329ae",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il fallimento",
+      "sentence": "Abbiamo imparato dal fallimento del progetto precedente."
+    },
+    "de": {
+      "word": "das Scheitern",
+      "sentence": "Wir haben aus dem Scheitern des vorherigen Projekts gelernt."
+    }
+  },
+  {
+    "id": "c8d61d16-100c-48f5-8b4d-4fcd395d5412",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la soddisfazione",
+      "sentence": "Provo una grande soddisfazione quando completoun progetto con successo."
+    },
+    "de": {
+      "word": "die Zufriedenheit",
+      "sentence": "Ich empfinde große Zufriedenheit, wenn ich ein Projekt erfolgreich abschließe."
+    }
+  },
+  {
+    "id": "da5f66c7-2c7f-4f10-80a1-4a68ae5c632d",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "lo stress",
+      "sentence": "Il mio lavoro comporta molto stress ma è gratificante."
+    },
+    "de": {
+      "word": "der Stress",
+      "sentence": "Meine Arbeit ist stressig, aber lohnend."
+    }
+  },
+  {
+    "id": "8cff2753-e708-4ad2-8563-9f51be5c5f98",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la malattia",
+      "sentence": "Sono stata a casa per malattia la scorsa settimana."
+    },
+    "de": {
+      "word": "die Krankheit",
+      "sentence": "Ich war letzte Woche wegen Krankheit zu Hause."
+    }
+  },
+  {
+    "id": "9200cabd-ab99-4c96-b62d-cab9f7d8b92e",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il congedo",
+      "sentence": "Prenderò due settimane di congedo in agosto."
+    },
+    "de": {
+      "word": "der Urlaub",
+      "sentence": "Ich werde im August zwei Wochen Urlaub nehmen."
+    }
+  },
+  {
+    "id": "8c8cb664-4857-4086-a627-9dace8afebb0",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la pausa",
+      "sentence": "Durante la pausa pranzo vado al bar con i colleghi."
+    },
+    "de": {
+      "word": "die Pause",
+      "sentence": "Während der Mittagspause gehe ich mit Kollegen in die Bar."
+    }
+  },
+  {
+    "id": "7f2aba4c-4d61-40c8-9580-6e0223ea2015",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il riposo",
+      "sentence": "Dopo una giornata stancante, ho bisogno di riposo."
+    },
+    "de": {
+      "word": "die Ruhe",
+      "sentence": "Nach einem anstrengenden Tag brauche ich Ruhe."
+    }
+  },
+  {
+    "id": "61061d9b-d1c9-4f4c-8183-171dc1052b71",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il turno",
+      "sentence": "Questa settimana ho il turno pomeridiano in fabbrica."
+    },
+    "de": {
+      "word": "die Schicht",
+      "sentence": "Diese Woche habe ich die Nachmittagsschicht in der Fabrik."
+    }
+  },
+  {
+    "id": "4522fb3c-53a0-4e12-9882-a821d681af28",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "l'orario di lavoro",
+      "sentence": "Il mio orario di lavoro è dalle 8 alle 17 con pausa pranzo."
+    },
+    "de": {
+      "word": "die Arbeitszeit",
+      "sentence": "Meine Arbeitszeit ist von 8 bis 17 Uhr mit Mittagspause."
+    }
+  },
+  {
+    "id": "996fed1f-d443-4c03-be62-90534d555c02",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la promozione",
+      "sentence": "Ho ricevuto una promozione a responsabile del reparto."
+    },
+    "de": {
+      "word": "die Beförderung",
+      "sentence": "Ich habe eine Beförderung zum Abteilungsleiter erhalten."
+    }
+  },
+  {
+    "id": "6e6e89a6-fa05-4c04-805a-843edc492aff",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la carriera",
+      "sentence": "La mia carriera è progredita significativamente negli ultimi anni."
+    },
+    "de": {
+      "word": "die Karriere",
+      "sentence": "Meine Karriere hat sich in den letzten Jahren erheblich entwickelt."
+    }
+  },
+  {
+    "id": "fec46664-f660-4349-b022-761714d57718",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il curriculum",
+      "sentence": "Devo aggiornare il mio curriculum con le nuove competenze."
+    },
+    "de": {
+      "word": "der Lebenslauf",
+      "sentence": "Ich muss meinen Lebenslauf mit neuen Fähigkeiten aktualisieren."
+    }
+  },
+  {
+    "id": "8798770b-e3a2-4b35-809f-2ebfa7cb5fec",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la candidatura",
+      "sentence": "Ho inviato la mia candidatura per quella posizione interessante."
+    },
+    "de": {
+      "word": "die Bewerbung",
+      "sentence": "Ich habe meine Bewerbung für diese interessante Stelle eingereicht."
+    }
+  },
+  {
+    "id": "aba0cf6b-8fc7-4000-aba7-f5f178bdf80b",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il colloquio",
+      "sentence": "Il colloquio per il nuovo lavoro è andato molto bene."
+    },
+    "de": {
+      "word": "das Bewerbungsgespräch",
+      "sentence": "Das Bewerbungsgespräch für die neue Stelle ist sehr gut gelaufen."
+    }
+  },
+  {
+    "id": "fb8706de-df8e-4144-86ff-1791e0da25f2",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il compito",
+      "sentence": "Il mio compito principale è gestire i progetti clienti."
+    },
+    "de": {
+      "word": "die Aufgabe",
+      "sentence": "Meine Hauptaufgabe ist die Verwaltung von Kundenprojekten."
+    }
+  },
+  {
+    "id": "45bbbba1-c241-4a08-9a6a-73728960c5bc",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la competenza",
+      "sentence": "Una competenza importante nel mio lavoro è la comunicazione."
+    },
+    "de": {
+      "word": "die Fähigkeit",
+      "sentence": "Eine wichtige Fähigkeit in meiner Arbeit ist die Kommunikation."
+    }
+  },
+  {
+    "id": "9f76046f-0710-4087-aa3b-afff0b8298db",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il contratto",
+      "sentence": "Ho firmato un nuovo contratto di lavoro con l'azienda."
+    },
+    "de": {
+      "word": "der Vertrag",
+      "sentence": "Ich habe einen neuen Arbeitsvertrag mit dem Unternehmen unterzeichnet."
+    }
+  },
+  {
+    "id": "09c1e319-39af-412e-9209-4e07fdac97c4",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "lo stipendio",
+      "sentence": "Il mio stipendio è depositato sul conto ogni mese."
+    },
+    "de": {
+      "word": "das Gehalt",
+      "sentence": "Mein Gehalt wird jeden Monat auf mein Konto eingezahlt."
+    }
+  },
+  {
+    "id": "7c08959f-e458-4d81-afe7-04398b2aef9d",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la scadenza",
+      "sentence": "La scadenza per questo compito è il prossimo venerdì."
+    },
+    "de": {
+      "word": "die Frist",
+      "sentence": "Die Frist für diese Aufgabe ist nächsten Freitag."
+    }
+  },
+  {
+    "id": "0a7a8a85-252d-4eb5-8a15-dc4f145a33a5",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il progetto",
+      "sentence": "Sto lavorando a un nuovo progetto interessante."
+    },
+    "de": {
+      "word": "das Projekt",
+      "sentence": "Ich arbeite an einem neuen interessanten Projekt."
+    }
+  },
+  {
+    "id": "2d9ca9c2-4dfe-4dde-ae7d-f26ee5dd4373",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la riunione",
+      "sentence": "Domani avrò una riunione importante con i clienti."
+    },
+    "de": {
+      "word": "das Treffen",
+      "sentence": "Morgen habe ich ein wichtiges Treffen mit den Kunden."
+    }
+  },
+  {
+    "id": "84362946-bd1d-4ba9-8e0a-08e6a55634cf",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il capo",
+      "sentence": "Il capo ha approvato la mia proposta di lavoro."
+    },
+    "de": {
+      "word": "der Chef",
+      "sentence": "Der Chef hat meinen Arbeitsvorschlag genehmigt."
+    }
+  },
+  {
+    "id": "b50aed43-ee51-4e85-bf5b-caaf68ffd9e2",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il collega",
+      "sentence": "Mio collega mi ha aiutato con il progetto difficile."
+    },
+    "de": {
+      "word": "der Kollege",
+      "sentence": "Mein Kollege hat mir bei dem schwierigen Projekt geholfen."
+    }
+  },
+  {
+    "id": "b3fced70-50ac-41f6-99f1-fe196e6a6f33",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "l'ufficio",
+      "sentence": "Lavoro in un ufficio moderno nel centro della città."
+    },
+    "de": {
+      "word": "das Büro",
+      "sentence": "Ich arbeite in einem modernen Büro im Stadtzentrum."
+    }
+  },
+  {
+    "id": "56e22df8-2ff8-49a1-bd3f-0f30f06e0297",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il lavoro",
+      "sentence": "Mi piace molto il mio lavoro perché è interessante e stimolante."
+    },
+    "de": {
+      "word": "die Arbeit",
+      "sentence": "Mir gefällt meine Arbeit sehr, weil sie interessant und anregend ist."
+    }
+  },
+  {
     "id": "bab44744-9000-459f-a51e-bcfed0f0fc3a",
     "level": "B1",
     "topic": "Body",
