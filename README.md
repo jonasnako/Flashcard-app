@@ -1,14 +1,14 @@
 # lessico
 
-An Italian ↔ German flashcard app. Single static site — no build step, no server, no dependencies. Just one file: `index.html` (dictionary and app logic are embedded).
+An Italian ↔ German flashcard app. Single static site — no build step, no server, no dependencies. `index.html` holds the dictionary and all the app logic; `sw.js` is a small service worker that keeps the app up to date and lets it work offline.
 
 ## Put it online (GitHub Pages)
 
-This file goes in the **root** of your repo.
+These files go in the **root** of your repo.
 
 ```bash
 # from inside your cloned, empty repo:
-cp /path/to/index.html /path/to/.nojekyll .
+cp /path/to/index.html /path/to/sw.js /path/to/.nojekyll .
 git add .
 git commit -m "lessico flashcard app"
 git push
@@ -23,6 +23,10 @@ https://<your-username>.github.io/<your-repo>/
 ```
 
 Open that URL in Chrome on your phone → menu → **Add to Home screen** for a full-screen app icon.
+
+### Updates and offline
+
+`sw.js` uses a **network-first** strategy: whenever you open the app online it loads the latest version straight from the network (so you never have to clear your cache to get an update), and it falls back to the last cached copy when you're offline. Your scores live in the browser's `localStorage` and are **not** affected by updates — only an explicit "clear site data" wipes them. When you push a new `index.html`, existing installs pick it up on their next online open.
 
 ## Editing the dictionary
 
