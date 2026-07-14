@@ -41,6 +41,17 @@ Each entry looks like:
 - **Settings → Focus** controls which words a session draws from: **Mixed** (any due word), **Seen only** (drill words you've already been tested on, instead of a fresh random draw each session), or **New only** (words you've never been tested on).
 - The **Words** tab is filterable by **Level** and **Topic**, on top of the search box.
 
+## Hands-free (audio) mode
+
+On the **Session** tab, **▶ Hands-free** reads each card aloud and runs the whole session without touching the screen — useful while cooking, walking, or driving. Tap **🔊** any time to just hear the current card. Two rating styles (pick one with the segmented control on the Session tab, or under **Settings → Voice**):
+
+- **Self-assess** — the app reads the prompt, pauses, then reads the answer. You say **“yes”** or **“no”** and it scores the card and moves on.
+- **Auto-rate** — the app reads the prompt and listens for you to *say the translation out loud*. It compares what you said to the correct answer (article-insensitive, with a little tolerance for mishearing) and scores it automatically.
+
+**Settings → Voice → Read example sentences too** also speaks the example sentences, not just the words.
+
+Voice input uses the browser's Web Speech API, so hands-free scoring works best in a **Chromium-based browser (Chrome/Edge)** and needs microphone permission (granted automatically over https, e.g. GitHub Pages). In browsers without speech recognition, ▶ Hands-free still reads each card aloud and you tap ✓/✕ to rate.
+
 ## Generating words with Claude
 
 The app can generate new vocabulary — with translations and example sentences — and auto-complete cards you start yourself, using the Claude API directly from your browser.

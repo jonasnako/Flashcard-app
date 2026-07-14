@@ -76,6 +76,11 @@ select.inp{appearance:none}
 .tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:rgba(30,45,47,.94);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
 .tabs button{flex:1;background:none;border:0;color:rgba(246,241,230,.5);font-family:inherit;font-size:12px;font-weight:500;padding:14px 4px;cursor:pointer}
 .tabs button.on{color:var(--paper)}
+.atools{display:flex;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.atools .ghost{padding:8px 12px}
+.atools .seg{margin-left:auto}
+.atools .seg button{padding:6px 11px;font-size:12px}
+.astat{text-align:center;font-size:15px;color:rgba(246,241,230,.82);padding:16px 10px;min-height:26px;line-height:1.4}
 @media(prefers-reduced-motion:reduce){.card{transition:none}}
 </style>
 </head>
@@ -192,8 +197,13 @@ const SEED = [
 
 /* ============ storage ============ */
 const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1", KEY_KEY="lessico_key_v1";
-const DEFAULTS={direction:"mixed",level:"all",topic:"all",sessionSize:30,learnY:3,deprecate:"forever",retireN:0,focus:"mixed"};
+const DEFAULTS={direction:"mixed",level:"all",topic:"all",sessionSize:30,learnY:3,deprecate:"forever",retireN:0,focus:"mixed",audioMode:"self",audioSentence:false};
 const MODEL="claude-haiku-4-5"; // Claude model for word generation — swap for e.g. "claude-opus-4-8" for higher quality
+const LANG={it:"it-IT",de:"de-DE"};
+const ttsOK=("speechSynthesis" in window);
+const SRClass=window.SpeechRecognition||window.webkitSpeechRecognition||null;
+const srOK=!!SRClass;
+let audioOn=false, audioGen=0, curRecog=null, audioStatus="", voicesCache=[];
 let settings={...DEFAULTS};
 let lib=[];
 const uid=()=>(crypto.randomUUID?crypto.randomUUID():String(Date.now()+Math.random()));
@@ -248,7 +258,7 @@ function startSession(){
   flipped=false;
 }
 const cur=()=>session&&session.queue[0]?lib.find(c=>c.id===session.queue[0].id):null;
-function assess(known){
+function rate(known){
   const head=session.queue[0];const c=lib.find(x=>x.id===head.id);if(!c)return;
   const was=c.streak>=settings.learnY;
   c.seen=(c.seen||0)+1;
@@ -258,8 +268,8 @@ function assess(known){
   session.queue=known?session.queue.slice(1):[...session.queue.slice(1),{id:head.id,f:front()}];
   flipped=false;
   if(!session.queue.length)session.active=false;
-  paintSession();
 }
+function assess(known){rate(known);paintSession();}
 
 /* ============ tiny DOM helper ============ */
 function el(tag,props,kids){const e=document.createElement(tag);
@@ -287,7 +297,7 @@ function render(){
   else paintSettings();
   tabs.innerHTML="";
   [["session","Session"],["words","Words"],["settings","Settings"]].forEach(([id,label])=>{
-    tabs.appendChild(el("button",{class:view===id?"on":"",onclick:()=>{view=id;if(id==="words"){search="";page=0;}render();}},[label]));
+    tabs.appendChild(el("button",{class:view===id?"on":"",onclick:()=>{stopAudio();view=id;if(id==="words"){search="";page=0;}render();}},[label]));
   });
 }
 
@@ -309,7 +319,16 @@ function paintSession(){
   area.appendChild(el("div",{class:"meta"},[el("span",{},[session.queue.length+" left"]),el("span",{},[session.learned+" learned"])]));
   area.appendChild(el("div",{class:"progress"},[el("i",{style:{width:Math.round(donePart/session.total*100)+"%"}})]));
   const f=session.queue[0].f, b=f==="it"?"de":"it";
-  const card=el("div",{class:"card"+(flipped?" flip":""),onclick:()=>{flipped=!flipped;card.classList.toggle("flip",flipped);paintButtons();}},[face(c,f,false),face(c,b,true)]);
+  if(ttsOK){
+    const mseg=el("div",{class:"seg"});
+    [["self","Self-assess"],["auto","Auto-rate"]].forEach(o=>mseg.appendChild(el("button",{class:settings.audioMode===o[0]?"on":"",onclick:()=>{settings.audioMode=o[0];saveSet();if(!audioOn)paintSession();}},[o[1]])));
+    area.appendChild(el("div",{class:"atools"},[
+      el("button",{class:"ghost",title:"Hear it",onclick:()=>speakCard(c,f)},["🔊"]),
+      audioOn?el("button",{class:"ghost dngr",onclick:()=>{stopAudio();paintSession();}},["■ Stop"]):el("button",{class:"ghost",onclick:runHandsFree},["▶ Hands-free"]),
+      mseg
+    ]));
+  }
+  const card=el("div",{class:"card"+(flipped?" flip":""),onclick:()=>{if(audioOn)return;flipped=!flipped;card.classList.toggle("flip",flipped);paintButtons();}},[face(c,f,false),face(c,b,true)]);
   area.appendChild(el("div",{class:"scene"},[card]));
   area.appendChild(el("div",{id:"btns"}));
   paintButtons();
@@ -328,6 +347,7 @@ function face(c,lang,back){
 }
 function paintButtons(){
   const a=document.getElementById("btns");if(!a)return;a.innerHTML="";
+  if(audioOn){a.appendChild(el("div",{class:"astat",id:"astat"},[audioStatus||"…"]));return;}
   if(!flipped)a.appendChild(el("div",{class:"assess"},[el("button",{class:"btn wide",onclick:()=>{flipped=true;document.querySelector(".card").classList.add("flip");paintButtons();}},["Show answer"])]));
   else a.appendChild(el("div",{class:"assess"},[
     el("button",{class:"btn miss",onclick:()=>assess(false)},["✕ Missed"]),
@@ -450,6 +470,15 @@ function paintSettings(){
   app.appendChild(el("div",{class:"field"},[el("label",{},["Bring learned words back after…"]),seg([["forever","Never"],["month","1 month"],["week","1 week"]],settings.deprecate,v=>{settings.deprecate=v;saveSet();})]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Retire after N total correct (0 = off)"]),num(settings.retireN,0,n=>{settings.retireN=n;saveSet();}),el("span",{class:"sub"},["Once right this many times ever, a word never returns."])]));
 
+  app.appendChild(el("div",{class:"sec"},["Voice"]));
+  if(!ttsOK){
+    app.appendChild(el("div",{class:"hint"},["This browser doesn’t support speech, so the hands-free reader is unavailable."]));
+  }else{
+    app.appendChild(el("div",{class:"field"},[el("label",{},["Hands-free rating"]),seg([["self","Self-assess"],["auto","Auto-rate"]],settings.audioMode,v=>{settings.audioMode=v;saveSet();}),el("span",{class:"sub"},["Self-assess reads the card, then you say “yes” or “no”. Auto-rate listens to you say the translation and scores it for you."])]));
+    app.appendChild(el("div",{class:"field"},[el("label",{},["Read example sentences too"]),seg([["off","Off"],["on","On"]],settings.audioSentence?"on":"off",v=>{settings.audioSentence=(v==="on");saveSet();})]));
+    app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},[srOK?"Start it with the ▶ Hands-free button on the Session tab. Needs microphone permission (works on https).":"Voice input needs a Chromium-based browser (Chrome/Edge). Without it, ▶ Hands-free reads each card aloud and you tap ✓/✕ to rate."]));
+  }
+
   app.appendChild(el("div",{class:"sec"},["Claude"]));
   const keyInput=el("input",{class:"inp",type:"password",placeholder:"sk-ant-…",value:getKey()});
   app.appendChild(el("div",{class:"field"},[el("label",{},["Anthropic API key"]),keyInput,el("span",{class:"sub"},[getKey()?"Key saved on this device.":"Paste your Anthropic API key to enable word generation."])]));
@@ -508,6 +537,106 @@ async function assistCard(it,de){
   const given=[it?("Italian word: "+it):"",de?("German word: "+de):""].filter(Boolean).join("\n");
   const user="Complete this Italian–German flashcard.\n"+given+"\nReturn: it (Italian, with article if a noun), de (German translation, with article if a noun), its (a natural Italian example sentence using the word), des (the German translation of that sentence). Keep any word already provided.";
   return claudeJSON(user,schema,1000);
+}
+
+/* ============ hands-free audio ============ */
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+const alive=gen=>audioOn&&gen===audioGen;
+function loadVoices(){try{voicesCache=speechSynthesis.getVoices()||[];}catch(e){voicesCache=[];}}
+function pickVoice(lang){const p=lang.slice(0,2).toLowerCase();if(!voicesCache.length)loadVoices();
+  return voicesCache.find(v=>v.lang&&v.lang.toLowerCase().replace("_","-")===lang.toLowerCase())
+    ||voicesCache.find(v=>v.lang&&v.lang.toLowerCase().slice(0,2)===p)||null;}
+if(ttsOK){loadVoices();try{speechSynthesis.onvoiceschanged=loadVoices;}catch(e){}}
+function speak(text,lang){return new Promise(res=>{
+  if(!ttsOK||!text){res();return;}
+  let done=false;const fin=()=>{if(done)return;done=true;res();};
+  try{speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(text);u.lang=lang;const v=pickVoice(lang);if(v)u.voice=v;u.rate=.95;
+    u.onend=fin;u.onerror=fin;speechSynthesis.speak(u);
+    setTimeout(fin,Math.min(12000,1500+text.length*90));
+  }catch(e){fin();}
+});}
+function listen(lang,timeout){return new Promise(res=>{
+  if(!srOK){res("");return;}
+  let done=false,to=null;
+  const fin=v=>{if(done)return;done=true;if(to)clearTimeout(to);try{r.stop();}catch(e){}if(curRecog===r)curRecog=null;res(v);};
+  const r=new SRClass();curRecog=r;r.lang=lang;r.interimResults=false;r.maxAlternatives=1;r.continuous=false;
+  r.onresult=e=>{try{fin((e.results[0][0].transcript||"").trim());}catch(_){fin("");}};
+  r.onerror=()=>fin("");r.onend=()=>fin("");
+  to=setTimeout(()=>fin(""),timeout||6000);
+  try{r.start();}catch(e){fin("");}
+});}
+function normWord(s){return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+  .replace(/['’]/g," ").replace(/[^a-z\s]/g," ")
+  .replace(/\b(il|lo|la|i|gli|le|un|uno|una|der|die|das|den|dem|des|ein|eine|einen|einem|to|the|sich)\b/g," ")
+  .replace(/\s+/g," ").trim();}
+function lev(a,b){const m=a.length,n=b.length;if(!m)return n;if(!n)return m;
+  const d=Array.from({length:n+1},(_,i)=>i);
+  for(let i=1;i<=m;i++){let prev=d[0];d[0]=i;for(let j=1;j<=n;j++){const t=d[j];d[j]=Math.min(d[j]+1,d[j-1]+1,prev+(a[i-1]===b[j-1]?0:1));prev=t;}}return d[n];}
+function similar(said,target){
+  const a=normWord(said),b=normWord(target);if(!a||!b)return false;if(a===b)return true;
+  const at=a.split(" ").filter(Boolean),bt=b.split(" ").filter(Boolean);
+  const hit=bt.filter(tb=>at.some(ta=>ta===tb||(tb.length>3&&(ta.includes(tb)||tb.includes(ta)))||lev(ta,tb)<=Math.max(1,Math.floor(tb.length/4)))).length;
+  if(bt.length===1?hit>=1:hit>=bt.length)return true;
+  return lev(a,b)/Math.max(a.length,b.length)<=0.34;
+}
+function parseYesNo(t){const s=(t||"").toLowerCase();if(!s)return null;
+  if(/\b(no|nope|nah|nein|falsch|sbagliat\w*|wrong|missed|miss|forgot)\b/.test(s))return false;
+  if(/\b(yes|yeah|yep|yup|right|correct|knew|know|known|got|ja|genau|richtig|si|s[iì]|ok|okay|good)\b/.test(s))return true;
+  return null;}
+async function listenYesNo(gen){
+  for(let k=0;k<2;k++){if(!alive(gen))return null;
+    const yn=parseYesNo(await listen("en-US",6000));
+    if(yn!==null)return yn;
+    if(k===0)setAStat("🎙 Yes or no?");}
+  return null;}
+function setAStat(s){audioStatus=s;const e=document.getElementById("astat");if(e)e.textContent=s;}
+function reveal(){flipped=true;const cd=document.querySelector(".card");if(cd)cd.classList.add("flip");}
+function speakCard(c,f){if(!ttsOK)return;speak(c[f].word,LANG[f]);}
+function stopAudio(){audioOn=false;audioGen++;audioStatus="";try{if(ttsOK)speechSynthesis.cancel();}catch(e){}if(curRecog){try{curRecog.abort();}catch(e){}curRecog=null;}}
+async function runHandsFree(){
+  if(!ttsOK)return;
+  stopAudio();audioGen++;const gen=audioGen;audioOn=true;audioStatus="";
+  if(!session||!session.active)startSession();
+  paintSession();
+  try{
+    while(alive(gen)&&session&&session.active){
+      const head=session.queue[0],c=cur();if(!c)break;
+      const f=head.f,b=f==="it"?"de":"it";
+      flipped=false;const cd=document.querySelector(".card");if(cd)cd.classList.remove("flip");
+      setAStat("🔊 "+(f==="it"?"Italian":"German")+"…");
+      await speak(c[f].word,LANG[f]);
+      if(settings.audioSentence&&c[f].sentence)await speak(c[f].sentence,LANG[f]);
+      if(!alive(gen))break;
+      let known;
+      if(settings.audioMode==="auto"&&srOK){
+        setAStat("🎙 Say it in "+(b==="it"?"Italian":"German")+"…");
+        const said=await listen(LANG[b],7000);
+        if(!alive(gen))break;
+        known=similar(said,c[b].word);
+        reveal();setAStat((known?"✓ ":"✕ ")+(said?("“"+said+"”"):"(no answer)"));
+        await speak(c[b].word,LANG[b]);
+      }else{
+        await wait(1300);if(!alive(gen))break;
+        reveal();setAStat("🔊 "+(b==="it"?"Italian":"German")+"…");
+        await speak(c[b].word,LANG[b]);
+        if(settings.audioSentence&&c[b].sentence)await speak(c[b].sentence,LANG[b]);
+        if(!alive(gen))break;
+        if(srOK){
+          setAStat("🎙 Knew it? Say “yes” or “no”.");
+          known=await listenYesNo(gen);
+          if(!alive(gen))break;
+          if(known===null){setAStat("Didn’t catch that — tap ✓ or ✕.");audioOn=false;paintSession();return;}
+        }else{setAStat("Tap ✓ or ✕ to rate.");audioOn=false;paintSession();return;}
+      }
+      if(!alive(gen))break;
+      await wait(450);
+      rate(known);
+      if(alive(gen)&&session.active)paintSession();
+    }
+  }catch(e){}
+  if(gen===audioGen)audioOn=false;
+  if(session&&!session.active)paintSession();
 }
 
 /* ============ boot ============ */
