@@ -566,7 +566,7 @@ function paintSettings(){
     app.appendChild(el("div",{class:"hint"},["This browser doesn’t support speech, so the hands-free reader is unavailable."]));
   }else{
     app.appendChild(el("div",{class:"field"},[el("label",{},["Hands-free rating"]),seg([["self","Self-assess"],["auto","Auto-rate"]],settings.audioMode,v=>{settings.audioMode=v;saveSet();}),el("span",{class:"sub"},["Self-assess reads the prompt, waits for you to say “reveal”, reads the answer, then you say “yes” or “no”. Auto-rate listens to you say the translation, tells you if you were right, and scores it."])]));
-    app.appendChild(el("div",{class:"field"},[el("label",{},["Read example sentences too"]),seg([["off","Off"],["on","On"]],settings.audioSentence?"on":"off",v=>{settings.audioSentence=(v==="on");saveSet();})]));
+    app.appendChild(el("div",{class:"field"},[el("label",{},["Read example sentences (hands-free)"]),seg([["off","Off"],["on","On"]],settings.audioSentence?"on":"off",v=>{settings.audioSentence=(v==="on");saveSet();}),el("span",{class:"sub"},["When on, hands-free reads each card's example sentence after the word, not just the word."])]));
     app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},[srOK?"Start it with the ▶ Hands-free button on the Session tab. Needs microphone permission (works on https).":"Voice input needs a Chromium-based browser (Chrome/Edge). Without it, ▶ Hands-free reads each card aloud and you tap ✓/✕ to rate."]));
   }
 
@@ -666,16 +666,27 @@ function speak(text,lang){return new Promise(res=>{
     setTimeout(fin,Math.min(12000,1500+text.length*90));
   }catch(e){fin();}
 });}
-function listen(lang,timeout){return new Promise(res=>{
-  if(!srOK){res("");return;}
-  let done=false,to=null;
-  const fin=v=>{if(done)return;done=true;if(to)clearTimeout(to);try{r.stop();}catch(e){}if(curRecog===r)curRecog=null;res(v);};
-  const r=new SRClass();curRecog=r;r.lang=lang;r.interimResults=false;r.maxAlternatives=1;r.continuous=false;
-  r.onresult=e=>{try{fin((e.results[0][0].transcript||"").trim());}catch(_){fin("");}};
-  r.onerror=()=>fin("");r.onend=()=>fin("");
-  to=setTimeout(()=>fin(""),timeout||6000);
-  try{r.start();}catch(e){fin("");}
-});}
+function settle(){
+  // Wait until text-to-speech has fully stopped, then a short buffer, so the
+  // mic never records our own speech (which caused wrong answers).
+  return (async()=>{
+    for(let i=0;i<80&&ttsOK&&speechSynthesis.speaking;i++)await wait(50); // up to ~4s
+    await wait(400);
+  })();
+}
+async function listen(lang,timeout){
+  if(!srOK)return "";
+  await settle();
+  return new Promise(res=>{
+    let done=false,to=null;
+    const fin=v=>{if(done)return;done=true;if(to)clearTimeout(to);try{r.stop();}catch(e){}if(curRecog===r)curRecog=null;res(v);};
+    const r=new SRClass();curRecog=r;r.lang=lang;r.interimResults=false;r.maxAlternatives=1;r.continuous=false;
+    r.onresult=e=>{try{fin((e.results[0][0].transcript||"").trim());}catch(_){fin("");}};
+    r.onerror=()=>fin("");r.onend=()=>fin("");
+    to=setTimeout(()=>fin(""),timeout||6000);
+    try{r.start();}catch(e){fin("");}
+  });
+}
 function normWord(s){return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
   .replace(/['’]/g," ").replace(/[^a-z\s]/g," ")
   .replace(/\b(il|lo|la|i|gli|le|un|uno|una|der|die|das|den|dem|des|ein|eine|einen|einem|to|the|sich)\b/g," ")
@@ -704,6 +715,17 @@ async function listenCommand(gen){
   // Wait for the learner to speak before revealing — any word counts as the command.
   while(alive(gen)){const t=await listen("en-US",8000);if(!alive(gen))return;if(t&&t.trim())return;await wait(150);}
 }
+async function listenAnswer(lang,gen){
+  // Keep listening (restarting if the recognizer stops on silence) for a
+  // generous window before giving up, so slow answers still register.
+  const end=Date.now()+14000;
+  while(alive(gen)&&Date.now()<end){
+    const t=await listen(lang,Math.min(8000,end-Date.now()));
+    if(!alive(gen))return "";
+    if(t&&t.trim())return t.trim();
+  }
+  return "";
+}
 function setAStat(s){audioStatus=s;const e=document.getElementById("astat");if(e)e.textContent=s;}
 function reveal(){flipped=true;const cd=document.querySelector(".card");if(cd)cd.classList.add("flip");}
 function speakCard(c,f){if(!ttsOK)return;speak(c[f].word,LANG[f]);}
@@ -724,8 +746,8 @@ async function runHandsFree(){
       if(!alive(gen))break;
       let known;
       if(settings.audioMode==="auto"&&srOK){
-        setAStat("🎙 Say it in "+(b==="it"?"Italian":"German")+"…");
-        const said=await listen(LANG[b],7000);
+        setAStat("🎙 Now say it in "+(b==="it"?"Italian":"German")+"…");
+        const said=await listenAnswer(LANG[b],gen);
         if(!alive(gen))break;
         known=similar(said,c[b].word);
         reveal();setAStat((known?"✓ ":"✕ ")+(said?("“"+said+"”"):"(no answer)"));
