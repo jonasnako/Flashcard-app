@@ -4,63 +4,43 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#1E2D2F" />
-<meta name="mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
 <title>lessico</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap');
-:root{--bg:#1E2D2F;--bg-2:#223335;--paper:#F6F1E6;--paper-edge:#EBE3D2;--ink:#2A2823;--ink-soft:#6C665A;--line:rgba(246,241,230,0.10);--green:#7A9A57;--ochre:#CB9235}
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap');
+:root{--bg:#1E2D2F;--bg2:#223335;--paper:#F6F1E6;--edge:#EBE3D2;--ink:#2A2823;--line:rgba(246,241,230,.10);--green:#7A9A57;--ochre:#CB9235}
 *{box-sizing:border-box}
 html,body{margin:0}
-body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 120% at 50% 0%,var(--bg-2) 0%,var(--bg) 60%) fixed;color:var(--paper);min-height:100vh;-webkit-font-smoothing:antialiased}
+body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 120% at 50% 0%,var(--bg2) 0%,var(--bg) 60%) fixed;color:var(--paper);min-height:100vh;-webkit-font-smoothing:antialiased}
 .wrap{max-width:620px;margin:0 auto;padding:max(24px,env(safe-area-inset-top)) 20px calc(84px + env(safe-area-inset-bottom))}
 .head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px}
-.brand{display:flex;align-items:baseline;gap:12px}
-.logo{font-family:'Fraunces',serif;font-weight:600;font-size:28px;letter-spacing:-.02em;line-height:1}
-.logo .dot{color:var(--green)}
-.tagline{font-size:12px;color:rgba(246,241,230,.5);letter-spacing:.14em;text-transform:uppercase}
+.logo{font-family:'Fraunces',serif;font-weight:600;font-size:28px;letter-spacing:-.02em}
+.logo i{color:var(--green);font-style:normal}
 .counts{text-align:right;font-size:12px;color:rgba(246,241,230,.55);line-height:1.5}
-.counts b{color:var(--paper);font-weight:600}
-.rowlabel{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:rgba(246,241,230,.42);width:60px;flex:none}
-.ctrlrow{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:12px}
-.chip{font-family:inherit;font-size:12px;font-weight:500;color:rgba(246,241,230,.6);background:rgba(246,241,230,.05);border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;transition:.16s;display:inline-flex;align-items:center;gap:6px}
-.chip.on{background:rgba(122,154,87,.18);border-color:rgba(122,154,87,.5);color:#CDE0B4}
-.chip.mic.on{background:rgba(203,146,53,.2);border-color:rgba(203,146,53,.55);color:#EAC98A}
-.hint{font-size:12px;color:rgba(246,241,230,.5);line-height:1.5;margin:0 0 14px}
-.hint.warn{color:#E7B77B}
+.counts b{color:var(--paper)}
 .scene{perspective:1600px;margin-bottom:18px}
-.card{position:relative;width:100%;min-height:clamp(280px,44vw,350px);transform-style:preserve-3d;transition:transform .58s cubic-bezier(.2,.85,.25,1);cursor:pointer}
+.card{position:relative;width:100%;min-height:clamp(280px,44vw,350px);transform-style:preserve-3d;transition:transform .55s cubic-bezier(.2,.85,.25,1);cursor:pointer}
 .card.flip{transform:rotateY(180deg)}
-.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--paper);color:var(--ink);border-radius:18px;padding:16px 26px 22px;display:flex;flex-direction:column;box-shadow:0 22px 44px -20px rgba(0,0,0,.55),0 2px 0 var(--paper-edge);overflow:hidden}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--paper);color:var(--ink);border-radius:18px;padding:22px 26px;display:flex;flex-direction:column;justify-content:center;box-shadow:0 22px 44px -20px rgba(0,0,0,.55),0 2px 0 var(--edge);overflow:hidden}
 .face.back{transform:rotateY(180deg)}
 .spine{position:absolute;left:0;top:0;bottom:0;width:7px}
-.facetop{display:flex;align-items:center;justify-content:flex-end;min-height:34px}
-.iconbtn{width:36px;height:36px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;background:rgba(42,40,35,.05);border:1px solid rgba(42,40,35,.14);color:var(--ink-soft)}
-.iconbtn:hover{background:rgba(42,40,35,.1);color:var(--ink)}
-.body{flex:1;display:flex;flex-direction:column;justify-content:center}
 .word{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(30px,8vw,44px);line-height:1.05;letter-spacing:-.02em;margin:0}
-.sentence{font-family:'Fraunces',serif;font-style:italic;font-weight:400;font-size:clamp(16px,4.4vw,19px);line-height:1.5;color:#4A463C;margin-top:14px;max-width:42ch}
-.foot{display:flex;align-items:center;justify-content:space-between;padding-top:16px}
+.sentence{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(16px,4.4vw,19px);line-height:1.5;color:#4A463C;margin-top:14px;max-width:42ch}
+.foot{display:flex;align-items:center;justify-content:space-between;padding-top:18px}
 .dots{display:inline-flex;gap:5px;flex-wrap:wrap}
 .dots span{width:7px;height:7px;border-radius:999px;background:rgba(42,40,35,.16)}
 .dots span.f{background:var(--ink)}
-.refresh-tag{font-size:10.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ochre)}
+.rtag{font-size:10.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ochre)}
 .progress{height:5px;border-radius:999px;background:rgba(246,241,230,.08);overflow:hidden;margin:2px 0 16px}
 .progress i{display:block;height:100%;background:var(--green);transition:width .3s}
-.sessmeta{display:flex;justify-content:space-between;font-size:12px;color:rgba(246,241,230,.55);margin-bottom:6px}
-.assess{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
-.btn{font-family:inherit;font-size:15px;font-weight:600;cursor:pointer;border-radius:13px;padding:15px 16px;border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;gap:9px;transition:transform .12s,filter .18s;color:var(--paper);background:rgba(246,241,230,.06)}
-.btn:active{transform:translateY(1px) scale(.99)}
+.meta{display:flex;justify-content:space-between;font-size:12px;color:rgba(246,241,230,.55);margin-bottom:6px}
+.assess{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.btn{font-family:inherit;font-size:15px;font-weight:600;cursor:pointer;border-radius:13px;padding:15px 16px;border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;gap:8px;color:var(--paper);background:rgba(246,241,230,.06)}
+.btn:active{transform:translateY(1px)}
 .btn.miss{background:rgba(203,146,53,.14);border-color:rgba(203,146,53,.4);color:#EAC98A}
 .btn.know{background:rgba(122,154,87,.16);border-color:rgba(122,154,87,.45);color:#BBD69A}
 .btn.wide{grid-column:1/-1;background:var(--paper);color:var(--ink);border-color:transparent}
-.kbd{font-size:11px;opacity:.55;font-weight:500}
-.result{background:rgba(246,241,230,.05);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:12px}
-.result .rlabel{font-weight:600;font-size:14px;margin-bottom:6px}
-.result .rrow{color:rgba(246,241,230,.65);font-size:13px;line-height:1.7}
-.result b{color:var(--paper);font-weight:600;font-family:'Fraunces',serif}
 .state{text-align:center;padding:34px 18px}
-.state .big{font-family:'Fraunces',serif;font-size:24px;font-weight:500;margin:0 0 8px}
+.state .big{font-family:'Fraunces',serif;font-size:24px;margin:0 0 8px}
 .state p{color:rgba(246,241,230,.6);font-size:14.5px;line-height:1.55;margin:0 auto 18px;max-width:34ch}
 .sec{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:rgba(246,241,230,.42);margin:22px 0 10px;padding-top:16px;border-top:1px solid var(--line)}
 .sec.first{border-top:0;padding-top:0;margin-top:6px}
@@ -68,9 +48,8 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .field label{font-size:12px;color:rgba(246,241,230,.72)}
 .field .sub{font-size:11.5px;color:rgba(246,241,230,.42);line-height:1.4}
 .inp{font-family:inherit;font-size:15px;color:var(--paper);background:rgba(246,241,230,.05);border:1px solid var(--line);border-radius:11px;padding:11px 13px;outline:none;width:100%}
-.inp:focus{border-color:rgba(246,241,230,.34);background:rgba(246,241,230,.08)}
+.inp:focus{border-color:rgba(246,241,230,.34)}
 select.inp{appearance:none}
-.numrow{display:flex;align-items:center;gap:12px}
 .numrow .inp{width:100px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .seg{display:inline-flex;background:rgba(246,241,230,.06);border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px;flex-wrap:wrap}
@@ -82,370 +61,356 @@ select.inp{appearance:none}
 .dngr{color:#E7B77B;border-color:rgba(231,183,123,.3)}
 .btnwrap{display:flex;gap:8px;flex-wrap:wrap}
 .err{color:#E7B77B;font-size:13px;margin-top:8px}
+.hint{font-size:12px;color:rgba(246,241,230,.5);line-height:1.5;margin:0 0 14px}
 .search{width:100%;margin-bottom:12px}
 .row{display:flex;align-items:center;gap:10px;padding:11px 2px;border-bottom:1px solid var(--line)}
 .row .pair{flex:1;min-width:0}
-.row .it{font-family:'Fraunces',serif;font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.row .de{font-size:13px;color:rgba(246,241,230,.55);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.row .st{font-size:10px;font-weight:600;letter-spacing:.04em;border-radius:5px;padding:3px 6px;white-space:nowrap}
+.row .a{font-family:'Fraunces',serif;font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .b{font-size:13px;color:rgba(246,241,230,.55);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .st{font-size:10px;font-weight:600;border-radius:5px;padding:3px 6px;white-space:nowrap}
 .st.learning{color:#CDE0B4;border:1px solid rgba(122,154,87,.4)}
 .st.learned{color:#EAC98A;border:1px solid rgba(203,146,53,.4)}
 .st.mastered{color:var(--paper);border:1px solid var(--line);background:rgba(246,241,230,.08)}
-.row .del{background:none;border:0;color:rgba(246,241,230,.35);cursor:pointer;padding:4px;display:inline-flex}
+.row .del{background:none;border:0;color:rgba(246,241,230,.35);cursor:pointer;padding:4px;font-size:15px;line-height:1}
 .pager{display:flex;align-items:center;justify-content:space-between;margin-top:14px;font-size:13px;color:rgba(246,241,230,.6)}
-.tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:rgba(30,45,47,.92);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
-.tabs button{flex:1;background:none;border:0;color:rgba(246,241,230,.5);font-family:inherit;font-size:11px;font-weight:500;padding:11px 4px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px}
+.tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:rgba(30,45,47,.94);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
+.tabs button{flex:1;background:none;border:0;color:rgba(246,241,230,.5);font-family:inherit;font-size:12px;font-weight:500;padding:14px 4px;cursor:pointer}
 .tabs button.on{color:var(--paper)}
-.spin{animation:rot .8s linear infinite}
-@keyframes rot{to{transform:rotate(360deg)}}
-@media(prefers-reduced-motion:reduce){.card{transition:none}.spin{animation:none}}
-svg{display:block}
+@media(prefers-reduced-motion:reduce){.card{transition:none}}
 </style>
 </head>
 <body>
 <div class="wrap" id="app"></div>
 <nav class="tabs" id="tabs"></nav>
 
-<script src="words.js"></script>
 <script>
 "use strict";
-const DECK_KEY="lessico_deck_v3", SET_KEY="lessico_settings_v1";
-const DEFAULT_SETTINGS={direction:"mixed",level:"all",topic:"all",autoSpeak:true,readSentence:true,sessionSize:30,learnY:3,deprecate:"forever",retireN:0,answerMode:"self"};
-let settings={...DEFAULT_SETTINGS};
-function loadSettings(){try{const r=localStorage.getItem(SET_KEY);if(r)settings={...DEFAULT_SETTINGS,...JSON.parse(r)};}catch(e){}}
-function saveSettings(){try{localStorage.setItem(SET_KEY,JSON.stringify(settings));}catch(e){}}
 
-const uid=()=>(crypto&&crypto.randomUUID?crypto.randomUUID():String(Date.now()+Math.random()));
-const now=()=>Date.now(), DAY=864e5;
-function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-function normalizeCard(c){
+/* ============ seed: only used once, to fill an empty library ============ */
+const SEED = [
+{it:"le faccende domestiche",de:"die Hausarbeit",its:"Ci dividiamo le faccende domestiche in modo che nessuno si senta sovraccarico.",des:"Wir teilen uns die Hausarbeit so auf, dass sich niemand überlastet fühlt.",level:"B2",topic:"Household"},
+{it:"passare l'aspirapolvere",de:"staubsaugen",its:"Prima che arrivino gli ospiti, passo velocemente l'aspirapolvere in salotto.",des:"Bevor die Gäste kommen, sauge ich schnell im Wohnzimmer Staub.",level:"B2",topic:"Household"},
+{it:"stendere il bucato",de:"die Wäsche aufhängen",its:"Se non stendo il bucato subito, i vestiti prendono un cattivo odore.",des:"Wenn ich die Wäsche nicht sofort aufhänge, riechen die Kleider unangenehm.",level:"B2",topic:"Household"},
+{it:"stirare",de:"bügeln",its:"Odio stirare le camicie, perciò cerco di comprarne di stropicciabili.",des:"Ich hasse es, Hemden zu bügeln, deshalb kaufe ich möglichst knitterfreie.",level:"B2",topic:"Household"},
+{it:"sparecchiare",de:"abräumen",its:"Dopo cena tocca ai bambini sparecchiare la tavola.",des:"Nach dem Essen sind die Kinder dran, den Tisch abzuräumen.",level:"B2",topic:"Household"},
+{it:"spolverare",de:"Staub wischen",its:"Ogni sabato spolvero i mobili e i ripiani della libreria.",des:"Jeden Samstag wische ich Staub von den Möbeln und den Regalen.",level:"B2",topic:"Household"},
+{it:"il detersivo",de:"das Waschmittel",its:"Preferisco un detersivo ecologico che non irriti la pelle dei bambini.",des:"Ich bevorzuge ein umweltfreundliches Waschmittel, das die Kinderhaut nicht reizt.",level:"B2",topic:"Household"},
+{it:"la lavastoviglie",de:"die Spülmaschine",its:"Conviene accendere la lavastoviglie soltanto quando è piena.",des:"Es lohnt sich, die Spülmaschine erst dann anzustellen, wenn sie voll ist.",level:"B2",topic:"Household"},
+{it:"buttare la spazzatura",de:"den Müll rausbringen",its:"Ti ricordi di buttare la spazzatura prima di andare a letto?",des:"Denkst du daran, den Müll rauszubringen, bevor du ins Bett gehst?",level:"B2",topic:"Household"},
+{it:"riordinare",de:"aufräumen",its:"I bambini devono imparare a riordinare la propria stanza da soli.",des:"Die Kinder müssen lernen, ihr Zimmer selbst aufzuräumen.",level:"B2",topic:"Household"},
+{it:"il disordine",de:"die Unordnung",its:"Con un neonato in casa, un po' di disordine è inevitabile.",des:"Mit einem Säugling im Haus ist ein bisschen Unordnung unvermeidlich.",level:"B2",topic:"Household"},
+{it:"innaffiare le piante",de:"die Pflanzen gießen",its:"Mentre siamo in vacanza, il vicino innaffia le nostre piante.",des:"Während wir im Urlaub sind, gießt der Nachbar unsere Pflanzen.",level:"B2",topic:"Household"},
+{it:"l'elettrodomestico",de:"das Haushaltsgerät",its:"Questo elettrodomestico consuma meno energia del vecchio modello.",des:"Dieses Haushaltsgerät verbraucht weniger Strom als das alte Modell.",level:"B2",topic:"Household"},
+{it:"la bolletta",de:"die Rechnung",its:"In inverno le bollette del riscaldamento aumentano parecchio.",des:"Im Winter steigen die Rechnungen für die Heizung deutlich.",level:"B2",topic:"Household"},
+{it:"fare la spesa",de:"einkaufen",its:"Faccio la spesa una volta a settimana per risparmiare tempo.",des:"Ich kaufe einmal pro Woche ein, um Zeit zu sparen.",level:"B2",topic:"Household"},
+{it:"la ripartizione dei compiti",de:"die Aufgabenverteilung",its:"Una ripartizione equa dei compiti evita molte discussioni in famiglia.",des:"Eine faire Aufgabenverteilung erspart der Familie viele Diskussionen.",level:"B2",topic:"Household"},
+{it:"la routine quotidiana",de:"der Alltag",its:"Con due figli piccoli, la routine quotidiana richiede molta organizzazione.",des:"Mit zwei kleinen Kindern erfordert der Alltag viel Organisation.",level:"B2",topic:"Household"},
+{it:"il carico mentale",de:"die mentale Belastung",its:"Spesso il carico mentale della gestione familiare ricade su un solo genitore.",des:"Oft lastet die mentale Belastung der Familienorganisation auf nur einem Elternteil.",level:"B2",topic:"Household"},
+{it:"impegnativo",de:"anstrengend",its:"Occuparsi contemporaneamente della casa e dei bambini è davvero impegnativo.",des:"Sich gleichzeitig um Haushalt und Kinder zu kümmern, ist wirklich anstrengend.",level:"B2",topic:"Household"},
+{it:"conciliare famiglia e lavoro",de:"Familie und Beruf vereinbaren",its:"Non è sempre facile conciliare famiglia e lavoro.",des:"Es ist nicht immer leicht, Familie und Beruf zu vereinbaren.",level:"B2",topic:"Children"},
+{it:"l'educazione",de:"die Erziehung",its:"Sull'educazione dei figli i due genitori dovrebbero essere d'accordo.",des:"Bei der Erziehung der Kinder sollten sich beide Eltern einig sein.",level:"B2",topic:"Children"},
+{it:"crescere",de:"großziehen",its:"Crescere un figlio da soli richiede molta forza.",des:"Ein Kind allein großzuziehen erfordert viel Kraft.",level:"B2",topic:"Children"},
+{it:"il congedo parentale",de:"die Elternzeit",its:"Dopo la nascita, ha preso sei mesi di congedo parentale.",des:"Nach der Geburt hat er sechs Monate Elternzeit genommen.",level:"B2",topic:"Children"},
+{it:"il pannolino",de:"die Windel",its:"Bisogna cambiare il pannolino non appena il bambino è bagnato.",des:"Man muss die Windel wechseln, sobald das Baby nass ist.",level:"B2",topic:"Children"},
+{it:"il passeggino",de:"der Kinderwagen",its:"Il passeggino nuovo entra a malapena nell'ascensore.",des:"Der neue Kinderwagen passt kaum in den Aufzug.",level:"B2",topic:"Children"},
+{it:"il ciuccio",de:"der Schnuller",its:"A due anni sarebbe ora di togliergli il ciuccio.",des:"Mit zwei Jahren wäre es Zeit, ihm den Schnuller abzugewöhnen.",level:"B2",topic:"Children"},
+{it:"l'asilo nido",de:"die Kita",its:"Nostro figlio frequenta l'asilo nido tre giorni a settimana.",des:"Unser Sohn geht drei Tage pro Woche in die Kita.",level:"B2",topic:"Children"},
+{it:"il capriccio",de:"der Wutanfall",its:"Al supermercato ha fatto un capriccio perché voleva le caramelle.",des:"Im Supermarkt bekam er einen Wutanfall, weil er Süßigkeiten wollte.",level:"B2",topic:"Children"},
+{it:"viziare",de:"verwöhnen",its:"I nonni tendono a viziare i nipoti con troppi regali.",des:"Die Großeltern neigen dazu, die Enkel mit zu vielen Geschenken zu verwöhnen.",level:"B2",topic:"Children"},
+{it:"il pisolino",de:"der Mittagsschlaf",its:"Dopo il pisolino pomeridiano il bambino è molto più tranquillo.",des:"Nach dem Mittagsschlaf ist das Kind viel ausgeglichener.",level:"B2",topic:"Children"},
+{it:"addormentarsi",de:"einschlafen",its:"Il piccolo fatica ad addormentarsi senza la sua coperta.",des:"Der Kleine kann ohne seine Decke nur schwer einschlafen.",level:"B2",topic:"Children"},
+{it:"i compiti",de:"die Hausaufgaben",its:"Dopo la scuola deve finire i compiti prima di giocare.",des:"Nach der Schule muss er die Hausaufgaben fertig machen, bevor er spielt.",level:"B2",topic:"Children"},
+{it:"sorvegliare",de:"beaufsichtigen",its:"Bisogna sempre sorvegliare i bambini quando giocano vicino all'acqua.",des:"Man sollte Kinder immer beaufsichtigen, wenn sie am Wasser spielen.",level:"B2",topic:"Children"},
+{it:"i fratelli",de:"die Geschwister",its:"I fratelli litigano spesso, ma in fondo si vogliono bene.",des:"Die Geschwister streiten sich oft, aber im Grunde haben sie sich lieb.",level:"B2",topic:"Children"},
+{it:"la gelosia",de:"die Eifersucht",its:"Dopo la nascita del secondo figlio, un po' di gelosia è normale.",des:"Nach der Geburt des zweiten Kindes ist ein wenig Eifersucht ganz normal.",level:"B2",topic:"Children"},
+{it:"rimproverare",de:"schimpfen",its:"Invece di rimproverarlo subito, cerco di spiegargli l'errore.",des:"Anstatt sofort mit ihm zu schimpfen, versuche ich, ihm den Fehler zu erklären.",level:"B2",topic:"Children"},
+{it:"la ricompensa",de:"die Belohnung",its:"Come ricompensa per i buoni voti, andremo al cinema.",des:"Als Belohnung für die guten Noten gehen wir ins Kino.",level:"B2",topic:"Children"},
+{it:"obbediente",de:"gehorsam",its:"Non pretendo un figlio sempre obbediente, ma rispettoso sì.",des:"Ich erwarte kein immer gehorsames Kind, aber ein respektvolles schon.",level:"B2",topic:"Children"},
+{it:"testardo",de:"stur",its:"È così testardo che non cambia idea nemmeno davanti ai fatti.",des:"Er ist so stur, dass er selbst angesichts der Fakten seine Meinung nicht ändert.",level:"B2",topic:"Children"},
+{it:"sfinito",de:"erschöpft",its:"La sera, dopo aver messo a letto i bambini, siamo completamente sfiniti.",des:"Abends, nachdem wir die Kinder ins Bett gebracht haben, sind wir völlig erschöpft.",level:"B2",topic:"Children"},
+{it:"la pazienza",de:"die Geduld",its:"Educare i figli richiede molta pazienza e coerenza.",des:"Kinder zu erziehen erfordert viel Geduld und Konsequenz.",level:"B2",topic:"Children"},
+{it:"la responsabilità",de:"die Verantwortung",its:"Prendersi cura di un neonato è una grande responsabilità.",des:"Sich um einen Säugling zu kümmern, ist eine große Verantwortung.",level:"B2",topic:"Children"},
+{it:"allattare",de:"stillen",its:"Ha deciso di allattare il bambino per i primi sei mesi.",des:"Sie hat beschlossen, das Baby die ersten sechs Monate zu stillen.",level:"B2",topic:"Children"},
+{it:"il pediatra",de:"der Kinderarzt",its:"Portiamo la bambina dal pediatra per i controlli di routine.",des:"Wir bringen die Kleine für die Routineuntersuchungen zum Kinderarzt.",level:"B2",topic:"Children"},
+{it:"coccolare",de:"kuscheln",its:"La sera ci piace coccolare i bambini leggendo una favola.",des:"Abends kuscheln wir gern mit den Kindern und lesen ein Märchen.",level:"B2",topic:"Children"},
+{it:"il lettino",de:"das Kinderbett",its:"Abbiamo spostato il lettino accanto al nostro letto.",des:"Wir haben das Kinderbett neben unser Bett gestellt.",level:"B2",topic:"Children"},
+{it:"brontolare",de:"meckern",its:"Smette di brontolare solo quando ottiene ciò che vuole.",des:"Er hört erst auf zu meckern, wenn er bekommt, was er will.",level:"B2",topic:"Children"},
+{it:"affidare",de:"anvertrauen",its:"La sera affidiamo i bambini a una babysitter di fiducia.",des:"Abends vertrauen wir die Kinder einem zuverlässigen Babysitter an.",level:"B2",topic:"Children"},
+{it:"le regole",de:"die Regeln",its:"In casa nostra le regole valgono per tutti, anche per gli adulti.",des:"Bei uns zu Hause gelten die Regeln für alle, auch für die Erwachsenen.",level:"B2",topic:"Children"},
+{it:"lo sviluppo",de:"die Entwicklung",its:"Ogni bambino ha i suoi tempi di sviluppo e non serve fare paragoni.",des:"Jedes Kind hat sein eigenes Tempo in der Entwicklung, und Vergleiche bringen nichts.",level:"B2",topic:"Children"},
+{it:"la cucina",de:"die Küche",its:"In cucina c'è sempre un buon odore quando la mamma cucina.",des:"In der Küche riecht es immer gut, wenn Mama kocht.",level:"B1",topic:"Household"},
+{it:"cucinare",de:"kochen",its:"Il fine settimana mi piace cucinare qualcosa di speciale.",des:"Am Wochenende koche ich gern etwas Besonderes.",level:"B1",topic:"Household"},
+{it:"lavare i piatti",de:"abwaschen",its:"Chi cucina non lava i piatti, questa è la regola.",des:"Wer kocht, wäscht nicht ab, das ist die Regel.",level:"B1",topic:"Household"},
+{it:"la camera da letto",de:"das Schlafzimmer",its:"La nostra camera da letto è piccola ma accogliente.",des:"Unser Schlafzimmer ist klein, aber gemütlich.",level:"B1",topic:"Household"},
+{it:"il salotto",de:"das Wohnzimmer",its:"La sera guardiamo la televisione in salotto.",des:"Abends schauen wir im Wohnzimmer fern.",level:"B1",topic:"Household"},
+{it:"il bagno",de:"das Badezimmer",its:"Il bagno è occupato, puoi aspettare cinque minuti?",des:"Das Badezimmer ist besetzt, kannst du fünf Minuten warten?",level:"B1",topic:"Household"},
+{it:"pulire",de:"putzen",its:"Il sabato mattina puliamo tutta la casa insieme.",des:"Am Samstagmorgen putzen wir zusammen die ganze Wohnung.",level:"B1",topic:"Household"},
+{it:"la scopa",de:"der Besen",its:"Prendi la scopa, per favore, ci sono delle briciole sul pavimento.",des:"Hol bitte den Besen, auf dem Boden liegen Krümel.",level:"B1",topic:"Household"},
+{it:"spazzare",de:"fegen",its:"Dopo cena spazzo sempre il pavimento della cucina.",des:"Nach dem Essen fege ich immer den Küchenboden.",level:"B1",topic:"Household"},
+{it:"la finestra",de:"das Fenster",its:"Apri la finestra, fa caldo qui dentro.",des:"Mach das Fenster auf, hier drinnen ist es warm.",level:"B1",topic:"Household"},
+{it:"la porta",de:"die Tür",its:"Chiudi la porta, per favore, entra freddo.",des:"Mach bitte die Tür zu, es zieht.",level:"B1",topic:"Household"},
+{it:"il frigorifero",de:"der Kühlschrank",its:"Il latte è nel frigorifero, in alto a destra.",des:"Die Milch ist im Kühlschrank, oben rechts.",level:"B1",topic:"Household"},
+{it:"il forno",de:"der Backofen",its:"Metto la pizza nel forno per dieci minuti.",des:"Ich schiebe die Pizza für zehn Minuten in den Backofen.",level:"B1",topic:"Household"},
+{it:"la lavatrice",de:"die Waschmaschine",its:"La lavatrice ha finito, possiamo stendere i panni.",des:"Die Waschmaschine ist fertig, wir können die Wäsche aufhängen.",level:"B1",topic:"Household"},
+{it:"il letto",de:"das Bett",its:"I bambini vanno a letto alle otto di sera.",des:"Die Kinder gehen um acht Uhr abends ins Bett.",level:"B1",topic:"Household"},
+{it:"fare il letto",de:"das Bett machen",its:"Ogni mattina i bambini devono fare il letto.",des:"Jeden Morgen müssen die Kinder ihr Bett machen.",level:"B1",topic:"Household"},
+{it:"la sedia",de:"der Stuhl",its:"Manca una sedia a tavola per il nostro ospite.",des:"Am Tisch fehlt ein Stuhl für unseren Gast.",level:"B1",topic:"Household"},
+{it:"il tavolo",de:"der Tisch",its:"Mettiamo il regalo sul tavolo della cucina.",des:"Wir legen das Geschenk auf den Küchentisch.",level:"B1",topic:"Household"},
+{it:"l'armadio",de:"der Schrank",its:"I vestiti puliti sono già nell'armadio.",des:"Die sauberen Kleider sind schon im Schrank.",level:"B1",topic:"Household"},
+{it:"il cassetto",de:"die Schublade",its:"Le posate sono nel primo cassetto a sinistra.",des:"Das Besteck ist in der ersten Schublade links.",level:"B1",topic:"Household"},
+{it:"apparecchiare la tavola",de:"den Tisch decken",its:"Puoi apparecchiare la tavola mentre finisco di cucinare?",des:"Kannst du den Tisch decken, während ich zu Ende koche?",level:"B1",topic:"Household"},
+{it:"la spugna",de:"der Schwamm",its:"Pulisci il tavolo con la spugna, per favore.",des:"Wisch bitte den Tisch mit dem Schwamm ab.",level:"B1",topic:"Household"},
+{it:"asciugare",de:"abtrocknen",its:"Tu lavi e io asciugo i piatti, va bene?",des:"Du wäschst ab und ich trockne das Geschirr ab, einverstanden?",level:"B1",topic:"Household"},
+{it:"la chiave",de:"der Schlüssel",its:"La chiave di casa è appesa vicino alla porta.",des:"Der Schlüssel hängt neben der Tür.",level:"B1",topic:"Household"},
+{it:"accendere la luce",de:"das Licht anmachen",its:"È buio, accendi la luce per favore.",des:"Es ist dunkel, mach bitte das Licht an.",level:"B1",topic:"Household"},
+{it:"il bambino",de:"das Kind",its:"Il bambino gioca in giardino con il cane.",des:"Das Kind spielt im Garten mit dem Hund.",level:"B1",topic:"Children"},
+{it:"giocare",de:"spielen",its:"I bambini giocano insieme al parco ogni pomeriggio.",des:"Die Kinder spielen jeden Nachmittag zusammen im Park.",level:"B1",topic:"Children"},
+{it:"il giocattolo",de:"das Spielzeug",its:"Dopo aver giocato, rimetti i giocattoli nella scatola.",des:"Nach dem Spielen räumst du das Spielzeug in die Kiste.",level:"B1",topic:"Children"},
+{it:"dormire",de:"schlafen",its:"Il neonato dorme quasi tutto il giorno.",des:"Das Baby schläft fast den ganzen Tag.",level:"B1",topic:"Children"},
+{it:"svegliarsi",de:"aufwachen",its:"La bambina si sveglia spesso durante la notte.",des:"Das Mädchen wacht nachts oft auf.",level:"B1",topic:"Children"},
+{it:"piangere",de:"weinen",its:"Il piccolo piange perché ha fame.",des:"Der Kleine weint, weil er Hunger hat.",level:"B1",topic:"Children"},
+{it:"ridere",de:"lachen",its:"Quando il papà fa le facce buffe, i bambini ridono.",des:"Wenn Papa Grimassen macht, lachen die Kinder.",level:"B1",topic:"Children"},
+{it:"mangiare",de:"essen",its:"A pranzo i bambini mangiano pasta e verdura.",des:"Zu Mittag essen die Kinder Nudeln und Gemüse.",level:"B1",topic:"Children"},
+{it:"la merenda",de:"der Snack",its:"Nel pomeriggio prepariamo una merenda con frutta e pane.",des:"Am Nachmittag machen wir einen Snack mit Obst und Brot.",level:"B1",topic:"Children"},
+{it:"il biberon",de:"das Fläschchen",its:"La mamma prepara il biberon per il neonato.",des:"Die Mama macht das Fläschchen für das Baby fertig.",level:"B1",topic:"Children"},
+{it:"imparare",de:"lernen",its:"A scuola i bambini imparano a leggere e a scrivere.",des:"In der Schule lernen die Kinder lesen und schreiben.",level:"B1",topic:"Children"},
+{it:"disegnare",de:"malen",its:"Mia figlia ama disegnare animali con i pennarelli.",des:"Meine Tochter malt gern Tiere mit Filzstiften.",level:"B1",topic:"Children"},
+{it:"il disegno",de:"die Zeichnung",its:"Ha appeso il suo disegno sul frigorifero.",des:"Sie hat ihre Zeichnung an den Kühlschrank gehängt.",level:"B1",topic:"Children"},
+{it:"raccontare una storia",de:"eine Geschichte erzählen",its:"Ogni sera papà racconta una storia prima di dormire.",des:"Jeden Abend erzählt Papa vor dem Schlafen eine Geschichte.",level:"B1",topic:"Children"},
+{it:"abbracciare",de:"umarmen",its:"La bambina abbraccia forte la sua mamma.",des:"Das Mädchen umarmt seine Mama fest.",level:"B1",topic:"Children"},
+{it:"la scuola",de:"die Schule",its:"Mio figlio va a scuola a piedi ogni mattina.",des:"Mein Sohn geht jeden Morgen zu Fuß zur Schule.",level:"B1",topic:"Children"},
+{it:"la maestra",de:"die Lehrerin",its:"La maestra è molto gentile con i bambini.",des:"Die Lehrerin ist sehr nett zu den Kindern.",level:"B1",topic:"Children"},
+{it:"i genitori",de:"die Eltern",its:"I genitori aspettano i bambini davanti alla scuola.",des:"Die Eltern warten vor der Schule auf die Kinder.",level:"B1",topic:"Children"},
+{it:"la nonna",de:"die Oma",its:"La nonna prepara sempre una buona torta la domenica.",des:"Die Oma backt sonntags immer einen guten Kuchen.",level:"B1",topic:"Children"},
+{it:"il nonno",de:"der Opa",its:"Il nonno porta i bambini a giocare al parco.",des:"Der Opa nimmt die Kinder zum Spielen in den Park mit.",level:"B1",topic:"Children"},
+{it:"il compleanno",de:"der Geburtstag",its:"Domani è il compleanno di mia figlia e facciamo una festa.",des:"Morgen hat meine Tochter Geburtstag und wir feiern.",level:"B1",topic:"Children"},
+{it:"il regalo",de:"das Geschenk",its:"Il bambino apre il regalo con grande gioia.",des:"Das Kind packt das Geschenk voller Freude aus.",level:"B1",topic:"Children"},
+{it:"avere paura",de:"Angst haben",its:"Di notte il piccolo ha paura del buio.",des:"Nachts hat der Kleine Angst vor der Dunkelheit.",level:"B1",topic:"Children"},
+{it:"lavarsi i denti",de:"die Zähne putzen",its:"Prima di dormire i bambini si lavano i denti.",des:"Vor dem Schlafen putzen sich die Kinder die Zähne.",level:"B1",topic:"Children"},
+{it:"vestirsi",de:"sich anziehen",its:"Al mattino mia figlia si veste da sola.",des:"Am Morgen zieht sich meine Tochter allein an.",level:"B1",topic:"Children"}
+];
+
+/* ============ storage ============ */
+const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1";
+const DEFAULTS={direction:"mixed",level:"all",topic:"all",sessionSize:30,learnY:3,deprecate:"forever",retireN:0};
+let settings={...DEFAULTS};
+let lib=[];
+const uid=()=>(crypto.randomUUID?crypto.randomUUID():String(Date.now()+Math.random()));
+const DAY=864e5;
+
+function norm(c){
   const it=(c.it&&typeof c.it==="object")?c.it:{word:c.it||"",sentence:c.its||""};
   const de=(c.de&&typeof c.de==="object")?c.de:{word:c.de||"",sentence:c.des||""};
-  return {id:c.id||uid(),level:(c.level||"B1").toUpperCase(),topic:c.topic||"Added",
+  return {id:c.id||uid(),level:(c.level||"B1").toUpperCase(),topic:c.topic||"Other",
     it:{word:it.word||"",sentence:it.sentence||""},de:{word:de.word||"",sentence:de.sentence||""},
-    streak:c.streak||0,correct:c.correct||0,seen:c.seen||0,learnedAt:c.learnedAt||null};
+    streak:c.streak||0,correct:c.correct||0,learnedAt:c.learnedAt||null};
 }
-const seedList=()=>(window.LESSICO_SEED||[]).map(normalizeCard);
+function load(){
+  try{const s=localStorage.getItem(SET_KEY);if(s)settings={...DEFAULTS,...JSON.parse(s)};}catch(e){}
+  try{const l=localStorage.getItem(LIB_KEY);
+    if(l){const arr=JSON.parse(l);if(Array.isArray(arr)&&arr.length){lib=arr.map(norm);return;}}
+  }catch(e){}
+  lib=SEED.map(norm);saveLib();
+}
+function saveSet(){try{localStorage.setItem(SET_KEY,JSON.stringify(settings));}catch(e){}}
+let t=null;
+function saveLib(){if(t)clearTimeout(t);t=setTimeout(()=>{t=null;try{localStorage.setItem(LIB_KEY,JSON.stringify(lib));}catch(e){}},300);}
+function saveLibNow(){if(t)clearTimeout(t);t=null;try{localStorage.setItem(LIB_KEY,JSON.stringify(lib));}catch(e){}}
+window.addEventListener("pagehide",saveLibNow);
+document.addEventListener("visibilitychange",()=>{if(document.hidden)saveLibNow();});
 
-let deck=[], session=null, flipped=false, handsFree=false, view="session", cardEl=null;
-let searchText="", page=0; const PAGE=50;
-let answerState="prompt", saidText="", gradedOk=null, answerRec=null;
-
-function loadDeck(){try{const raw=localStorage.getItem(DECK_KEY);if(raw)deck=JSON.parse(raw).map(normalizeCard);else{deck=seedList();saveDeckNow();}}catch(e){deck=seedList();}}
-let saveTimer=null;
-function scheduleSave(){if(saveTimer)clearTimeout(saveTimer);saveTimer=setTimeout(saveDeckNow,450);}
-function saveDeckNow(){saveTimer=null;try{localStorage.setItem(DECK_KEY,JSON.stringify(deck));}catch(e){}}
-
-function cardStatus(c){
+/* ============ learning model ============ */
+function status(c){
   if(settings.retireN>0&&c.correct>=settings.retireN)return "mastered";
   if(c.streak>=settings.learnY){
     if(settings.deprecate==="forever")return "learned";
     const iv=settings.deprecate==="week"?7:30;
-    return now()>=((c.learnedAt||0)+iv*DAY)?"refresh":"learned";
+    return Date.now()>=((c.learnedAt||0)+iv*DAY)?"refresh":"learned";
   }
   return "learning";
 }
-const isEligible=c=>{const s=cardStatus(c);return s==="learning"||s==="refresh";};
-const matchesFilter=c=>(settings.level==="all"||c.level===settings.level)&&(settings.topic==="all"||c.topic===settings.topic);
-function pickFront(){return settings.direction==="it"||settings.direction==="de"?settings.direction:(Math.random()<.5?"it":"de");}
+const eligible=c=>{const s=status(c);return s==="learning"||s==="refresh";};
+const inFilter=c=>(settings.level==="all"||c.level===settings.level)&&(settings.topic==="all"||c.topic===settings.topic);
+const front=()=>settings.direction==="it"||settings.direction==="de"?settings.direction:(Math.random()<.5?"it":"de");
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
+/* ============ session ============ */
+let session=null, flipped=false, view="session";
 function startSession(){
-  const pool=deck.filter(c=>matchesFilter(c)&&isEligible(c));
-  shuffle(pool);
+  const pool=shuffle(lib.filter(c=>inFilter(c)&&eligible(c)));
   const chosen=pool.slice(0,Math.max(1,settings.sessionSize|0));
-  session={queue:chosen.map(c=>({id:c.id,front:pickFront()})),total:chosen.length,learnedThis:0,active:chosen.length>0};
+  session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,active:chosen.length>0};
   flipped=false;
 }
-function currentCard(){return session&&session.queue[0]?deck.find(c=>c.id===session.queue[0].id):null;}
-
-let voices=[];
-function loadVoices(){voices=window.speechSynthesis?speechSynthesis.getVoices():[];}
-if(window.speechSynthesis){loadVoices();speechSynthesis.onvoiceschanged=loadVoices;}
-function voiceFor(lang){const p=lang==="it"?"it":"de";return voices.find(v=>v.lang&&v.lang.toLowerCase().startsWith(p+"-"))||voices.find(v=>v.lang&&v.lang.toLowerCase().startsWith(p))||null;}
-let speaking=false;
-function speak(text,lang){if(!window.speechSynthesis||!text)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang=lang==="it"?"it-IT":"de-DE";const v=voiceFor(lang);if(v)u.voice=v;u.rate=.95;speaking=true;u.onend=u.onerror=()=>{speaking=false;};speechSynthesis.speak(u);}
-function sideText(c,lang){const s=c[lang];return (settings.readSentence&&s.sentence)?s.word+". "+s.sentence:s.word;}
-function speakVisible(){const c=currentCard();if(!c)return;const f=session.queue[0].front;const lang=flipped?(f==="it"?"de":"it"):f;speak(sideText(c,lang),lang);}
-
-const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
-let rec=null,recRunning=false,wantListen=false;
-const CMD={
-  flip:["flip","show","answer","turn","gira","girala","mostra","umdrehen","zeig","zeige","antwort","lösung"],
-  known:["knew","know","got it","yes","yeah","correct","right","si","sì","giusto","esatto","ja","gewusst","richtig","konnte"],
-  missed:["miss","missed","no","not","wrong","nope","sbagliato","errato","nein","falsch","nicht","vergessen"],
-  next:["next","skip","avanti","prossima","salta","weiter","nächste","überspringen"],
-  repeat:["repeat","again","ancora","ripeti","nochmal","wiederhole","wiederholen"]
-};
-function matchCmd(t){t=" "+t.toLowerCase().replace(/[^\p{L}\s]/gu," ").replace(/\s+/g," ")+" ";for(const cat of ["flip","known","missed","next","repeat"])for(const kw of CMD[cat])if(t.includes(" "+kw+" "))return cat;return null;}
-async function requestOnDevice(){if(!SR||!SR.available)return;try{const o={langs:[navigator.language||"de-DE","de-DE","it-IT","en-US"],processLocally:true};const s=await SR.available(o);if(s==="downloadable"&&SR.install)await SR.install(o);}catch(e){}}
-function initRec(){if(!SR)return null;const r=new SR();r.lang=navigator.language||"de-DE";r.continuous=true;r.interimResults=false;r.maxAlternatives=1;try{if("processLocally" in r)r.processLocally=true;}catch(e){}
-  r.onstart=()=>recRunning=true;r.onend=()=>{recRunning=false;if(wantListen)safeStart();};
-  r.onerror=e=>{if(e.error==="not-allowed"||e.error==="service-not-allowed"){wantListen=false;handsFree=false;if(view==="session")render();}};
-  r.onresult=e=>{if(speaking)return;const res=e.results[e.results.length-1];if(!res||!res.isFinal)return;const cmd=matchCmd(res[0].transcript);if(cmd)runCommand(cmd);};return r;}
-function safeStart(){if(!rec||recRunning)return;try{rec.start();}catch(e){}}
-function startListening(){if(!SR)return;wantListen=true;if(!rec)rec=initRec();requestOnDevice().finally(safeStart);}
-function stopListening(){wantListen=false;if(rec&&recRunning){try{rec.abort();}catch(e){}}}
-function runCommand(cmd){const c=currentCard();if(!c)return;
-  if(cmd==="repeat"){speakVisible();return;}
-  if(!flipped){if(cmd==="flip"||cmd==="known"||cmd==="missed"){doFlip();return;}if(cmd==="next"){skip();return;}}
-  else{if(cmd==="known"){assess(true);return;}if(cmd==="missed"){assess(false);return;}if(cmd==="next"){skip();return;}if(cmd==="flip"){doFlip();return;}}}
-
-/* ---- spoken-answer checking ---- */
-const ARTICLES=/\b(il|lo|la|i|gli|le|l|un|uno|una|der|die|das|den|dem|des|ein|eine|einen|einem|einer|zu)\b/g;
-function normalizeAns(s){return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^\p{L}\s]/gu," ").replace(ARTICLES," ").replace(/\s+/g," ").trim();}
-function lev(a,b){const m=a.length,n=b.length;if(!m)return n;if(!n)return m;const d=Array.from({length:m+1},(_,i)=>[i,...Array(n).fill(0)]);for(let j=0;j<=n;j++)d[0][j]=j;for(let i=1;i<=m;i++)for(let j=1;j<=n;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]?0:1));return d[m][n];}
-function isAnswerCorrect(said,target){const S=normalizeAns(said),T=normalizeAns(target);if(!S||!T)return false;if(S===T)return true;const Sw=S.split(" ").sort().join(" "),Tw=T.split(" ").sort().join(" ");if(Sw===Tw)return true;const Sp=" "+S+" ",Tp=" "+T+" ";if(Sp.includes(Tp)||Tp.includes(Sp))return true;return lev(S,T)<=Math.max(1,Math.floor(T.length*0.2));}
-function gradeAnswer(said,alts,target){return [said,...(alts||[])].some(s=>isAnswerCorrect(s,target));}
-function recognizeAnswer(lang){return new Promise((resolve,reject)=>{if(!SR){reject("no-sr");return;}const r=new SR();answerRec=r;r.lang=lang==="it"?"it-IT":"de-DE";r.continuous=false;r.interimResults=true;r.maxAlternatives=3;try{if("processLocally" in r)r.processLocally=true;}catch(e){}let finalTx="",alts=[];
-  r.onresult=e=>{let interim="";for(let i=e.resultIndex;i<e.results.length;i++){const res=e.results[i];if(res.isFinal){finalTx=res[0].transcript;for(let k=0;k<res.length;k++)alts.push(res[k].transcript);}else interim+=res[0].transcript;}if(interim){const ib=document.getElementById("interim");if(ib)ib.textContent="“"+interim+"”";}};
-  r.onerror=e=>{answerRec=null;reject(e.error||"err");};r.onend=()=>{answerRec=null;resolve({text:finalTx,alts});};
-  try{r.start();}catch(e){answerRec=null;reject("start");}});}
-function startAnswerCapture(){const c=currentCard();if(!c)return;const target=session.queue[0].front==="it"?"de":"it";answerState="listening";saidText="";renderAssess();
-  recognizeAnswer(target).then(res=>{const said=(res.text||"").trim();gradedOk=gradeAnswer(said,res.alts,c[target].word);saidText=said;answerState="graded";flipped=true;if(cardEl)cardEl.classList.add("flip");renderAssess();if(settings.autoSpeak)speak(sideText(c,target),target);})
-  .catch(err=>{answerState="prompt";if(err==="not-allowed"||err==="service-not-allowed")alert("Microphone permission is needed for spoken answers.");renderAssess();});}
-function stopAnswerCapture(){if(answerRec){try{answerRec.stop();}catch(e){}}}
-function renderSpeakControls(a){const c=currentCard();if(!c)return;const target=session.queue[0].front==="it"?"de":"it";
-  if(answerState==="prompt"){
-    a.appendChild(el("div",{class:"assess"},[el("button",{class:"btn know",style:{gridColumn:"1/-1"},onclick:startAnswerCapture,html:"🎤 Speak the answer ("+(target==="it"?"Italian":"German")+")"})]));
-    a.appendChild(el("button",{class:"ghost",style:{width:"100%"},onclick:()=>{answerState="reveal";if(!flipped)doFlip();else renderAssess();}},["Reveal answer instead"]));
-  }else if(answerState==="listening"){
-    a.appendChild(el("div",{class:"assess"},[el("button",{class:"btn",style:{gridColumn:"1/-1"},onclick:stopAnswerCapture,html:'<span class="spin">◎</span>&nbsp; Listening… tap to stop'})]));
-    a.appendChild(el("div",{class:"hint",id:"interim"},["Say the word aloud."]));
-  }else if(answerState==="graded"){
-    a.appendChild(el("div",{class:"result"},[
-      el("div",{class:"rlabel",style:{color:gradedOk?"#BBD69A":"#EAC98A"}},[gradedOk?"✓ Correct":"✗ Not quite"]),
-      el("div",{class:"rrow"},["You said: ",el("b",{},[saidText||"—"])]),
-      el("div",{class:"rrow"},["Answer: ",el("b",{},[c[target].word])])
-    ]));
-    if(gradedOk)a.appendChild(el("div",{class:"assess"},[el("button",{class:"btn wide",onclick:()=>{const ok=gradedOk;answerState="prompt";assess(ok);},html:"Next →"})]));
-    else a.appendChild(el("div",{class:"assess"},[
-      el("button",{class:"btn",onclick:()=>{answerState="prompt";assess(false);},html:"Next →"}),
-      el("button",{class:"btn know",onclick:()=>{answerState="prompt";assess(true);},html:"I was right"})
-    ]));
-  }
-}
-
-function doFlip(){flipped=!flipped;if(cardEl)cardEl.classList.toggle("flip",flipped);renderAssess();if(settings.autoSpeak)speakVisible();}
+const cur=()=>session&&session.queue[0]?lib.find(c=>c.id===session.queue[0].id):null;
 function assess(known){
-  const head=session.queue[0];if(!head)return;const c=deck.find(x=>x.id===head.id);if(!c)return;
-  const wasLearned=c.streak>=settings.learnY;c.seen++;
-  if(known){c.correct++;c.streak++;if(c.streak>=settings.learnY){if(!wasLearned)session.learnedThis++;c.learnedAt=now();}}
+  const head=session.queue[0];const c=lib.find(x=>x.id===head.id);if(!c)return;
+  const was=c.streak>=settings.learnY;
+  if(known){c.correct++;c.streak++;if(c.streak>=settings.learnY){if(!was)session.learned++;c.learnedAt=Date.now();}}
   else{c.streak=0;c.learnedAt=null;}
-  scheduleSave();
-  session.queue=known?session.queue.slice(1):[...session.queue.slice(1),{...head,front:pickFront()}];
-  flipped=false;if(session.queue.length===0)session.active=false;renderSession();
+  saveLib();
+  session.queue=known?session.queue.slice(1):[...session.queue.slice(1),{id:head.id,f:front()}];
+  flipped=false;
+  if(!session.queue.length)session.active=false;
+  paintSession();
 }
-function skip(){if(!session||session.queue.length<2)return;const head=session.queue[0];session.queue=[...session.queue.slice(1),{...head,front:pickFront()}];flipped=false;renderSession();}
 
+/* ============ tiny DOM helper ============ */
 function el(tag,props,kids){const e=document.createElement(tag);
   if(props)for(const k in props){const v=props[k];
     if(k==="class")e.className=v;else if(k==="html")e.innerHTML=v;
-    else if(k.startsWith("on"))e.addEventListener(k.slice(2).toLowerCase(),v);
+    else if(k.startsWith("on"))e.addEventListener(k.slice(2),v);
     else if(k==="style"&&typeof v==="object")Object.assign(e.style,v);
     else if(v!=null&&v!==false)e.setAttribute(k,v);}
-  (kids||[]).forEach(c=>{if(c==null||c===false)return;e.appendChild(typeof c==="string"?document.createTextNode(c):c);});return e;}
-const I={
-  speaker:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg>',
-  check:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>',
-  x:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>',
-  trash:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6"/></svg>',
-  cards:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>',
-  list:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>',
-  gear:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.9 2.8 1.6 1.6 0 0 0-2.7 1.1V21a2 2 0 0 1-4 0 1.6 1.6 0 0 0-2.7-1.2 2 2 0 1 1-2.8-2.8A1.6 1.6 0 0 0 3 15.4a2 2 0 0 1 0-4 1.6 1.6 0 0 0 1.1-2.7 2 2 0 1 1 2.8-2.8A1.6 1.6 0 0 0 9.6 5 2 2 0 0 1 13.6 5a1.6 1.6 0 0 0 2.7 1.1 2 2 0 1 1 2.8 2.8A1.6 1.6 0 0 0 21 11.6a2 2 0 0 1 0 4 1.6 1.6 0 0 0-1.6 1.4z"/></svg>'
-};
+  (kids||[]).forEach(c=>{if(c==null||c===false)return;e.appendChild(typeof c==="string"?document.createTextNode(c):c);});
+  return e;}
 
-const app=document.getElementById("app"), tabsEl=document.getElementById("tabs");
+/* ============ render ============ */
+const app=document.getElementById("app"), tabs=document.getElementById("tabs");
+let search="", page=0; const PAGE=50; let addOpen=false;
+
 function render(){
   app.innerHTML="";
-  const st={};deck.forEach(c=>{const s=cardStatus(c);st[s]=(st[s]||0)+1;});
+  const st={};lib.forEach(c=>{const s=status(c);st[s]=(st[s]||0)+1;});
   app.appendChild(el("div",{class:"head"},[
-    el("div",{class:"brand"},[el("span",{class:"logo",html:'lessico<span class="dot">.</span>'}),el("span",{class:"tagline"},["IT · DE"])]),
+    el("span",{class:"logo",html:"lessico<i>.</i>"}),
     el("div",{class:"counts"},[el("div",{html:"<b>"+(st.learning||0)+"</b> learning"}),el("div",{},[(st.learned||0)+" learned"+(st.mastered?" · "+st.mastered+" mastered":"")])])
   ]));
-  if(view==="session")renderSessionView();else if(view==="words")renderWordsView();else renderSettingsView();
-  renderTabs();
+  if(view==="session")paintSessionView();
+  else if(view==="words")paintWords();
+  else paintSettings();
+  tabs.innerHTML="";
+  [["session","Session"],["words","Words"],["settings","Settings"]].forEach(([id,label])=>{
+    tabs.appendChild(el("button",{class:view===id?"on":"",onclick:()=>{view=id;if(id==="words"){search="";page=0;}render();}},[label]));
+  });
 }
-function renderTabs(){tabsEl.innerHTML="";
-  const t=(id,label,icon)=>el("button",{class:view===id?"on":"",onclick:()=>setView(id)},[el("span",{html:icon}),el("span",{},[label])]);
-  tabsEl.appendChild(t("session","Session",I.cards));tabsEl.appendChild(t("words","Words",I.list));tabsEl.appendChild(t("settings","Settings",I.gear));}
-function setView(id){if(view==="session"&&id!=="session"){stopListening();handsFree=false;}view=id;if(id==="session"&&!session)startSession();if(id==="words"){searchText="";page=0;}render();}
 
-function chip(label,active,on,cls){return el("button",{class:"chip"+(active?" on":"")+(cls?" "+cls:""),onclick:on},[label]);}
-
-function renderSessionView(){
-  app.appendChild(el("div",{class:"ctrlrow"},[
-    el("span",{class:"rowlabel"},["Audio"]),
-    chip("🔊 Auto-speak",settings.autoSpeak,()=>{settings.autoSpeak=!settings.autoSpeak;saveSettings();render();if(settings.autoSpeak)speakVisible();}),
-    chip("Sentence",settings.readSentence,()=>{settings.readSentence=!settings.readSentence;saveSettings();render();}),
-    (SR&&settings.answerMode!=="speak")?chip(handsFree?"🎤 Listening":"🎤 Hands-free",handsFree,()=>{handsFree=!handsFree;handsFree?startListening():stopListening();render();},"mic"):null
-  ]));
-  if(settings.answerMode==="speak"){
-    if(!SR)app.appendChild(el("div",{class:"hint warn"},["Speak-answer mode needs a browser with speech recognition (try Chrome) — using self-assess for now."]));
-    else if(!window.isSecureContext)app.appendChild(el("div",{class:"hint warn"},["Speak-answer mode needs an https page for the mic. Open the installed app or an https URL."]));
-    else app.appendChild(el("div",{class:"hint"},["Tap “Speak the answer”, say the translation, and it grades you."]));
-  }else if(handsFree){
-    if(!window.isSecureContext)app.appendChild(el("div",{class:"hint warn"},["Voice commands need an https page. Open the installed home-screen app or an https URL, then re-enable."]));
-    else app.appendChild(el("div",{class:"hint"},['Say “flip”, then “knew it” or “missed”. Also “next”, “repeat”.']));
-  }
-  app.appendChild(el("div",{id:"sessionArea"}));renderSession();
-}
-function renderSession(){
-  const area=document.getElementById("sessionArea");if(!area)return;area.innerHTML="";
+/* ---- session ---- */
+function paintSessionView(){app.appendChild(el("div",{id:"sess"}));paintSession();}
+function paintSession(){
+  const area=document.getElementById("sess");if(!area)return;area.innerHTML="";
   if(!session||!session.active){
-    const anyEligible=deck.filter(c=>matchesFilter(c)&&isEligible(c)).length;
-    if(session&&session.total>0){
-      area.appendChild(el("div",{class:"state"},[
-        el("p",{class:"big"},["Session complete"]),
-        el("p",{},["You worked through "+session.total+" word"+(session.total>1?"s":"")+(session.learnedThis?" and learned "+session.learnedThis+" of them":"")+"."]),
-        el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"0 auto"},onclick:()=>{startSession();renderSession();}},["New session"])
-      ]));
-    }else{
-      area.appendChild(el("div",{class:"state"},[
-        el("p",{class:"big"},[anyEligible?"Ready when you are":"All caught up"]),
-        el("p",{},[anyEligible?"Start a session to drill up to "+settings.sessionSize+" words from your current filter.":"Nothing is due to learn under this filter. Adjust the filters in Settings, or add words."]),
-        anyEligible?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"0 auto"},onclick:()=>{startSession();renderSession();}},["Start session"]):null
-      ]));
-    }
+    const avail=lib.filter(c=>inFilter(c)&&eligible(c)).length;
+    const done=session&&session.total>0;
+    area.appendChild(el("div",{class:"state"},[
+      el("p",{class:"big"},[done?"Session complete":(avail?"Ready when you are":"All caught up")]),
+      el("p",{},[done?("You worked through "+session.total+" words"+(session.learned?" and learned "+session.learned:"")+"."):(avail?("Up to "+settings.sessionSize+" words from your current filter."):"Nothing to learn under this filter. Change filters or add words.")]),
+      avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"0 auto"},onclick:()=>{startSession();paintSession();}},[done?"New session":"Start session"]):null
+    ]));
     return;
   }
-  answerState="prompt";saidText="";gradedOk=null;
-  const c=currentCard(), done=session.total-session.queue.length;
-  area.appendChild(el("div",{class:"sessmeta"},[el("span",{},[session.queue.length+" left"]),el("span",{},[session.learnedThis+" learned"])]));
-  area.appendChild(el("div",{class:"progress"},[el("i",{style:{width:(session.total?Math.round(done/session.total*100):0)+"%"}})]));
-  const f=session.queue[0].front,b=f==="it"?"de":"it";
-  const scene=el("div",{class:"scene"});
-  cardEl=el("div",{class:"card"+(flipped?" flip":""),role:"button",tabindex:"0",onclick:doFlip},[face(f,c),face(b,c,true)]);
-  scene.appendChild(cardEl);area.appendChild(scene);
-  area.appendChild(el("div",{id:"assess"}));renderAssess();
-  if(settings.autoSpeak)speakVisible();
+  const c=cur(), donePart=session.total-session.queue.length;
+  area.appendChild(el("div",{class:"meta"},[el("span",{},[session.queue.length+" left"]),el("span",{},[session.learned+" learned"])]));
+  area.appendChild(el("div",{class:"progress"},[el("i",{style:{width:Math.round(donePart/session.total*100)+"%"}})]));
+  const f=session.queue[0].f, b=f==="it"?"de":"it";
+  const card=el("div",{class:"card"+(flipped?" flip":""),onclick:()=>{flipped=!flipped;card.classList.toggle("flip",flipped);paintButtons();}},[face(c,f,false),face(c,b,true)]);
+  area.appendChild(el("div",{class:"scene"},[card]));
+  area.appendChild(el("div",{id:"btns"}));
+  paintButtons();
 }
-function face(lang,c,back){
-  const s=c[lang],status=cardStatus(c);
+function face(c,lang,back){
+  const s=c[lang];
   return el("div",{class:"face"+(back?" back":"")},[
     el("div",{class:"spine",style:{background:lang==="it"?"#7A9A57":"#CB9235"}}),
-    el("div",{class:"facetop"},[el("button",{class:"iconbtn",title:"Speak",html:I.speaker,onclick:e=>{e.stopPropagation();speak(sideText(c,lang),lang);}})]),
-    el("div",{class:"body"},[el("h2",{class:"word"},[s.word]),s.sentence?el("p",{class:"sentence"},[s.sentence]):null]),
+    el("h2",{class:"word"},[s.word]),
+    s.sentence?el("p",{class:"sentence"},[s.sentence]):null,
     el("div",{class:"foot"},[
       el("span",{class:"dots"},Array.from({length:settings.learnY},(_,i)=>el("span",{class:i<c.streak?"f":""}))),
-      status==="refresh"?el("span",{class:"refresh-tag"},["refresh"]):null
+      status(c)==="refresh"?el("span",{class:"rtag"},["refresh"]):null
     ])
   ]);
 }
-function renderAssess(){
-  const a=document.getElementById("assess");if(!a)return;a.innerHTML="";
-  if(settings.answerMode==="speak"&&SR&&answerState!=="reveal"){renderSpeakControls(a);return;}
-  if(!flipped)a.appendChild(el("div",{class:"assess"},[el("button",{class:"btn wide",onclick:doFlip,html:"Show answer <span class='kbd'>space</span>"})]));
+function paintButtons(){
+  const a=document.getElementById("btns");if(!a)return;a.innerHTML="";
+  if(!flipped)a.appendChild(el("div",{class:"assess"},[el("button",{class:"btn wide",onclick:()=>{flipped=true;document.querySelector(".card").classList.add("flip");paintButtons();}},["Show answer"])]));
   else a.appendChild(el("div",{class:"assess"},[
-    el("button",{class:"btn miss",onclick:()=>assess(false),html:I.x+" Missed <span class='kbd'>1</span>"}),
-    el("button",{class:"btn know",onclick:()=>assess(true),html:I.check+" Knew it <span class='kbd'>2</span>"})
+    el("button",{class:"btn miss",onclick:()=>assess(false)},["✕ Missed"]),
+    el("button",{class:"btn know",onclick:()=>assess(true)},["✓ Knew it"])
   ]));
 }
 
-function renderWordsView(){
-  const search=el("input",{class:"inp search",placeholder:"Search words…",value:searchText});
-  search.addEventListener("input",()=>{searchText=search.value;page=0;renderList();});
-  app.appendChild(search);
-  app.appendChild(el("div",{id:"addWrap"}));renderAddForm();
-  app.appendChild(el("div",{id:"listWrap"}));renderList();
+/* ---- words ---- */
+function paintWords(){
+  const s=el("input",{class:"inp search",placeholder:"Search…",value:search});
+  s.addEventListener("input",()=>{search=s.value;page=0;paintList();});
+  app.appendChild(s);
+  app.appendChild(el("div",{id:"add"}));paintAdd();
+  app.appendChild(el("div",{id:"list"}));paintList();
 }
-let addOpen=false;
-function renderAddForm(){
-  const w=document.getElementById("addWrap");if(!w)return;w.innerHTML="";
-  w.appendChild(el("button",{class:"ghost",style:{marginBottom:"10px"},onclick:()=>{addOpen=!addOpen;renderAddForm();}},[addOpen?"Close":"+ Add a word"]));
+function paintAdd(){
+  const w=document.getElementById("add");if(!w)return;w.innerHTML="";
+  w.appendChild(el("button",{class:"ghost",style:{marginBottom:"10px"},onclick:()=>{addOpen=!addOpen;paintAdd();}},[addOpen?"Close":"+ Add a word"]));
   if(!addOpen)return;
   const g={};const mk=(k,label,ph)=>{const i=el("input",{class:"inp",placeholder:ph||""});g[k]=i;return el("div",{class:"field"},[el("label",{},[label]),i]);};
   const lvl=el("select",{class:"inp"},["A1","A2","B1","B2","C1","C2"].map(l=>el("option",{value:l},[l])));lvl.value="B1";
-  const topics=Array.from(new Set(["Household","Children","Added",...deck.map(c=>c.topic)]));
-  const top=el("select",{class:"inp"},topics.map(t=>el("option",{value:t},[t])));top.value="Added";
-  const errB=el("div",{class:"err",style:{display:"none"}});
+  const topics=Array.from(new Set(lib.map(c=>c.topic)));if(!topics.includes("Other"))topics.push("Other");
+  const top=el("select",{class:"inp"},topics.map(x=>el("option",{value:x},[x])));
+  const err=el("div",{class:"err",style:{display:"none"}});
   w.appendChild(el("div",{},[
     el("div",{class:"two"},[mk("it","Italian","la casa"),mk("de","German","das Haus")]),
     mk("its","Italian example (optional)"),mk("des","German example (optional)"),
     el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["Level"]),lvl]),el("div",{class:"field"},[el("label",{},["Topic"]),top])]),
     el("button",{class:"solid",onclick:()=>{
-      if(!g.it.value.trim()||!g.de.value.trim()){errB.textContent="Both words are required.";errB.style.display="block";return;}
-      deck=[normalizeCard({it:g.it.value.trim(),de:g.de.value.trim(),its:g.its.value.trim(),des:g.des.value.trim(),level:lvl.value,topic:top.value}),...deck];
-      saveDeckNow();addOpen=false;render();
-    }},["Add card"]),errB
+      if(!g.it.value.trim()||!g.de.value.trim()){err.textContent="Both words are required.";err.style.display="block";return;}
+      lib.unshift(norm({it:g.it.value.trim(),de:g.de.value.trim(),its:g.its.value.trim(),des:g.des.value.trim(),level:lvl.value,topic:top.value}));
+      saveLibNow();addOpen=false;render();
+    }},["Add"]),err
   ]));
 }
-function renderList(){
-  const w=document.getElementById("listWrap");if(!w)return;w.innerHTML="";
-  const q=searchText.trim().toLowerCase();
-  const all=q?deck.filter(c=>c.it.word.toLowerCase().includes(q)||c.de.word.toLowerCase().includes(q)):deck;
-  const total=all.length,pages=Math.max(1,Math.ceil(total/PAGE));if(page>=pages)page=pages-1;
+function paintList(){
+  const w=document.getElementById("list");if(!w)return;w.innerHTML="";
+  const q=search.trim().toLowerCase();
+  const all=q?lib.filter(c=>c.it.word.toLowerCase().includes(q)||c.de.word.toLowerCase().includes(q)):lib;
+  const pages=Math.max(1,Math.ceil(all.length/PAGE));if(page>=pages)page=pages-1;
   const slice=all.slice(page*PAGE,page*PAGE+PAGE);
-  w.appendChild(el("div",{class:"hint"},[total+" word"+(total!==1?"s":"")+(q?" match":"")]));
-  slice.forEach(c=>{const s=cardStatus(c);
+  w.appendChild(el("div",{class:"hint"},[all.length+" words"]));
+  slice.forEach(c=>{const s=status(c);
     w.appendChild(el("div",{class:"row"},[
-      el("div",{class:"pair"},[el("div",{class:"it"},[c.it.word]),el("div",{class:"de"},[c.de.word])]),
-      el("span",{class:"st "+(s==="learning"?"learning":s==="mastered"?"mastered":"learned")},[s==="learning"?("learning "+Math.min(c.streak,settings.learnY)+"/"+settings.learnY):s]),
-      el("button",{class:"del",title:"Delete",html:I.trash,onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){deck=deck.filter(x=>x.id!==c.id);if(session)session.queue=session.queue.filter(z=>z.id!==c.id);saveDeckNow();render();}}})
+      el("div",{class:"pair"},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
+      el("span",{class:"st "+(s==="learning"?"learning":s==="mastered"?"mastered":"learned")},[s==="learning"?(Math.min(c.streak,settings.learnY)+"/"+settings.learnY):s]),
+      el("button",{class:"del",html:"✕",onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){lib=lib.filter(x=>x.id!==c.id);if(session)session.queue=session.queue.filter(z=>z.id!==c.id);saveLibNow();render();}}})
     ]));
   });
   if(pages>1)w.appendChild(el("div",{class:"pager"},[
-    el("button",{class:"ghost",disabled:page===0,onclick:()=>{if(page>0){page--;renderList();}}},["‹ Prev"]),
-    el("span",{},["Page "+(page+1)+" / "+pages]),
-    el("button",{class:"ghost",disabled:page>=pages-1,onclick:()=>{if(page<pages-1){page++;renderList();}}},["Next ›"])
+    el("button",{class:"ghost",disabled:page===0,onclick:()=>{page--;paintList();}},["‹ Prev"]),
+    el("span",{},[ (page+1)+" / "+pages ]),
+    el("button",{class:"ghost",disabled:page>=pages-1,onclick:()=>{page++;paintList();}},["Next ›"])
   ]));
 }
 
-function renderSettingsView(){
-  const seg=(opts,val,on)=>{const s=el("div",{class:"seg"});opts.forEach(o=>s.appendChild(el("button",{class:val===o[0]?"on":"",onclick:()=>on(o[0])},[o[1]])));return s;};
-  const num=(val,min,on)=>{const i=el("input",{class:"inp",type:"number",min:String(min),value:String(val)});i.addEventListener("change",()=>{let n=parseInt(i.value,10);if(isNaN(n))n=min;n=Math.max(min,n);i.value=n;on(n);});return i;};
+/* ---- settings ---- */
+function paintSettings(){
+  const seg=(opts,val,on)=>{const s=el("div",{class:"seg"});opts.forEach(o=>s.appendChild(el("button",{class:val===o[0]?"on":"",onclick:()=>{on(o[0]);render();}},[o[1]])));return s;};
+  const num=(val,min,on)=>{const i=el("input",{class:"inp",type:"number",min:String(min),value:String(val)});i.addEventListener("change",()=>{let n=parseInt(i.value,10);if(isNaN(n)||n<min)n=min;i.value=n;on(n);});return el("div",{class:"numrow"},[i]);};
 
   app.appendChild(el("div",{class:"sec first"},["Study"]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSettings();})]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Answer mode"]),seg([["self","Self-assess"],["speak","Speak answer"]],settings.answerMode,v=>{settings.answerMode=v;saveSettings();}),el("span",{class:"sub"},[SR?"“Speak answer”: say the translation aloud and it grades you (needs https + microphone).":"“Speak answer” needs a browser with speech recognition, such as Chrome."])]));
-  const levels=["A1","A2","B1","B2","C1","C2"].filter(l=>deck.some(c=>c.level===l));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Level filter"]),seg([["all","All"],...levels.map(l=>[l,l])],settings.level,v=>{settings.level=v;saveSettings();render();})]));
-  const topics=Array.from(new Set(deck.map(c=>c.topic)));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Topic filter"]),seg([["all","All"],...topics.map(t=>[t,t])],settings.topic,v=>{settings.topic=v;saveSettings();render();})]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
+  const levels=["A1","A2","B1","B2","C1","C2"].filter(l=>lib.some(c=>c.level===l));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Level"]),seg([["all","All"],...levels.map(l=>[l,l])],settings.level,v=>{settings.level=v;saveSet();})]));
+  const topics=Array.from(new Set(lib.map(c=>c.topic)));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Topic"]),seg([["all","All"],...topics.map(x=>[x,x])],settings.topic,v=>{settings.topic=v;saveSet();})]));
 
-  app.appendChild(el("div",{class:"sec"},["Session & learning"]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),el("div",{class:"numrow"},[num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSettings();})])]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Correct in a row to mark learned"]),el("div",{class:"numrow"},[num(settings.learnY,1,n=>{settings.learnY=n;saveSettings();})]),el("span",{class:"sub"},["Learned words leave sessions to make room for new ones."])]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Bring learned words back after…"]),seg([["forever","Never"],["month","1 month"],["week","1 week"]],settings.deprecate,v=>{settings.deprecate=v;saveSettings();}),el("span",{class:"sub"},["“Never” keeps learned words out for good; otherwise they return once for a refresh."])]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Retire after N total correct (0 = off)"]),el("div",{class:"numrow"},[num(settings.retireN,0,n=>{settings.retireN=n;saveSettings();})]),el("span",{class:"sub"},["Hard mastery cap: once right this many times ever, a word never returns — even with refresh on."])]));
-
-  app.appendChild(el("div",{class:"sec"},["Audio defaults"]));
-  app.appendChild(el("div",{class:"ctrlrow"},[
-    chip("Auto-speak",settings.autoSpeak,()=>{settings.autoSpeak=!settings.autoSpeak;saveSettings();render();}),
-    chip("Read sentence",settings.readSentence,()=>{settings.readSentence=!settings.readSentence;saveSettings();render();})
-  ]));
+  app.appendChild(el("div",{class:"sec"},["Learning"]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Correct in a row to mark learned"]),num(settings.learnY,1,n=>{settings.learnY=n;saveSet();}),el("span",{class:"sub"},["Learned words leave sessions to make room for new ones."])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Bring learned words back after…"]),seg([["forever","Never"],["month","1 month"],["week","1 week"]],settings.deprecate,v=>{settings.deprecate=v;saveSet();})]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Retire after N total correct (0 = off)"]),num(settings.retireN,0,n=>{settings.retireN=n;saveSet();}),el("span",{class:"sub"},["Once right this many times ever, a word never returns."])]));
 
   app.appendChild(el("div",{class:"sec"},["Data"]));
   app.appendChild(el("div",{class:"btnwrap"},[
-    el("button",{class:"ghost",onclick:exportDeck},["Export deck (.json)"]),
-    el("button",{class:"ghost",onclick:importDeck},["Import deck"]),
-    el("button",{class:"ghost",onclick:mergeDictionary},["Merge dictionary"]),
-    el("button",{class:"ghost dngr",onclick:resetProgress},["Reset progress"]),
-    el("button",{class:"ghost dngr",onclick:resetDeck},["Reset to dictionary"])
+    el("button",{class:"ghost",onclick:exportLib},["Export (.json)"]),
+    el("button",{class:"ghost",onclick:importLib},["Import"]),
+    el("button",{class:"ghost dngr",onclick:()=>{if(confirm("Reset all progress? Words stay, scores go to zero.")){lib=lib.map(c=>({...c,streak:0,correct:0,learnedAt:null}));saveLibNow();session=null;render();}}},["Reset progress"])
   ]));
-  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["“Merge dictionary” adds new words from words.js without touching progress. Settings and scores save automatically."]));
+  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — use it as a backup or to move phones."]));
 }
+function exportLib(){const blob=new Blob([JSON.stringify(lib,null,2)],{type:"application/json"});const a=el("a",{href:URL.createObjectURL(blob),download:"lessico.json"});document.body.appendChild(a);a.click();a.remove();}
+function importLib(){const inp=el("input",{type:"file",accept:".json,application/json"});inp.addEventListener("change",()=>{const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(Array.isArray(d)&&d.length){lib=d.map(norm);saveLibNow();session=null;render();}else alert("Not a valid file.");}catch(e){alert("Could not read that file.");}};r.readAsText(f);});inp.click();}
 
-function exportDeck(){const blob=new Blob([JSON.stringify(deck,null,2)],{type:"application/json"});const a=el("a",{href:URL.createObjectURL(blob),download:"lessico-deck.json"});document.body.appendChild(a);a.click();a.remove();}
-function importDeck(){const inp=el("input",{type:"file",accept:"application/json,.json"});inp.addEventListener("change",()=>{const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(Array.isArray(d)){deck=d.map(normalizeCard);saveDeckNow();session=null;render();}else alert("Not a valid deck file.");}catch(e){alert("That file could not be read.");}};r.readAsText(f);});inp.click();}
-function mergeDictionary(){const have=new Set(deck.map(c=>(c.it.word+"||"+c.de.word).toLowerCase()));let added=0;seedList().forEach(s=>{const k=(s.it.word+"||"+s.de.word).toLowerCase();if(!have.has(k)){deck.push(s);have.add(k);added++;}});saveDeckNow();render();alert(added?("Added "+added+" new word"+(added>1?"s":"")+" from the dictionary."):"No new words to add — you already have them all.");}
-function resetProgress(){if(confirm("Reset all scores and learned status to zero? Your words stay; only progress is cleared.")){deck=deck.map(c=>({...c,streak:0,correct:0,seen:0,learnedAt:null}));saveDeckNow();session=null;render();}}
-function resetDeck(){if(confirm("Replace your whole deck with the original dictionary (words.js)? Added cards and all progress will be lost.")){deck=seedList();saveDeckNow();session=null;render();}}
-
-window.addEventListener("keydown",e=>{
-  if(e.target.tagName==="INPUT"||e.target.tagName==="SELECT"||e.target.tagName==="TEXTAREA")return;
-  if(view!=="session"||!currentCard())return;
-  if(e.code==="Space"||e.code==="Enter"){e.preventDefault();doFlip();}
-  else if(flipped&&(e.key==="1"||e.key.toLowerCase()==="j"))assess(false);
-  else if(flipped&&(e.key==="2"||e.key.toLowerCase()==="k"))assess(true);
-});
-window.addEventListener("pagehide",saveDeckNow);
-document.addEventListener("visibilitychange",()=>{if(document.hidden)saveDeckNow();});
-
-function iconURL(size){const cv=document.createElement("canvas");cv.width=cv.height=size;const x=cv.getContext("2d");const r=size*.22;x.fillStyle="#1E2D2F";x.beginPath();x.moveTo(r,0);x.arcTo(size,0,size,size,r);x.arcTo(size,size,0,size,r);x.arcTo(0,size,0,0,r);x.arcTo(0,0,size,0,r);x.closePath();x.fill();x.fillStyle="#F6F1E6";x.font="600 "+(size*.62)+"px Georgia,serif";x.textAlign="center";x.textBaseline="middle";x.fillText("l",size*.42,size*.52);x.fillStyle="#7A9A57";x.beginPath();x.arc(size*.62,size*.72,size*.07,0,7);x.fill();return cv.toDataURL("image/png");}
-function installManifest(){try{const m={name:"lessico",short_name:"lessico",start_url:".",scope:".",display:"standalone",orientation:"portrait",background_color:"#1E2D2F",theme_color:"#1E2D2F",icons:[{src:iconURL(192),sizes:"192x192",type:"image/png",purpose:"any"},{src:iconURL(512),sizes:"512x512",type:"image/png",purpose:"any maskable"}]};document.head.appendChild(el("link",{rel:"manifest",href:URL.createObjectURL(new Blob([JSON.stringify(m)],{type:"application/manifest+json"}))}));document.head.appendChild(el("link",{rel:"apple-touch-icon",href:iconURL(180)}));document.head.appendChild(el("link",{rel:"icon",href:iconURL(64)}));}catch(e){}}
-if("serviceWorker" in navigator&&location.protocol.startsWith("http"))navigator.serviceWorker.register("sw.js").catch(()=>{});
-
-installManifest();loadSettings();loadDeck();startSession();render();
+/* ============ boot ============ */
+load();
+startSession();
+render();
 </script>
 </body>
 </html>
