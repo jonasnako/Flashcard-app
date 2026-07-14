@@ -191,19 +191,22 @@ const SEED = [
 ];
 
 /* ============ storage ============ */
-const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1";
-const DEFAULTS={direction:"mixed",level:"all",topic:"all",sessionSize:30,learnY:3,deprecate:"forever",retireN:0};
+const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1", KEY_KEY="lessico_key_v1";
+const DEFAULTS={direction:"mixed",level:"all",topic:"all",sessionSize:30,learnY:3,deprecate:"forever",retireN:0,focus:"mixed"};
+const MODEL="claude-haiku-4-5"; // Claude model for word generation — swap for e.g. "claude-opus-4-8" for higher quality
 let settings={...DEFAULTS};
 let lib=[];
 const uid=()=>(crypto.randomUUID?crypto.randomUUID():String(Date.now()+Math.random()));
 const DAY=864e5;
+function getKey(){try{return localStorage.getItem(KEY_KEY)||"";}catch(e){return "";}}
+function setKey(k){try{if(k)localStorage.setItem(KEY_KEY,k);else localStorage.removeItem(KEY_KEY);}catch(e){}}
 
 function norm(c){
   const it=(c.it&&typeof c.it==="object")?c.it:{word:c.it||"",sentence:c.its||""};
   const de=(c.de&&typeof c.de==="object")?c.de:{word:c.de||"",sentence:c.des||""};
   return {id:c.id||uid(),level:(c.level||"B1").toUpperCase(),topic:c.topic||"Other",
     it:{word:it.word||"",sentence:it.sentence||""},de:{word:de.word||"",sentence:de.sentence||""},
-    streak:c.streak||0,correct:c.correct||0,learnedAt:c.learnedAt||null};
+    streak:c.streak||0,correct:c.correct||0,seen:c.seen||0,learnedAt:c.learnedAt||null};
 }
 function load(){
   try{const s=localStorage.getItem(SET_KEY);if(s)settings={...DEFAULTS,...JSON.parse(s)};}catch(e){}
@@ -232,12 +235,14 @@ function status(c){
 const eligible=c=>{const s=status(c);return s==="learning"||s==="refresh";};
 const inFilter=c=>(settings.level==="all"||c.level===settings.level)&&(settings.topic==="all"||c.topic===settings.topic);
 const front=()=>settings.direction==="it"||settings.direction==="de"?settings.direction:(Math.random()<.5?"it":"de");
+const focusMatch=c=>settings.focus==="seen"?c.seen>0:settings.focus==="new"?!c.seen:true;
+const inSession=c=>inFilter(c)&&eligible(c)&&focusMatch(c);
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
 /* ============ session ============ */
 let session=null, flipped=false, view="session";
 function startSession(){
-  const pool=shuffle(lib.filter(c=>inFilter(c)&&eligible(c)));
+  const pool=shuffle(lib.filter(inSession));
   const chosen=pool.slice(0,Math.max(1,settings.sessionSize|0));
   session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,active:chosen.length>0};
   flipped=false;
@@ -246,6 +251,7 @@ const cur=()=>session&&session.queue[0]?lib.find(c=>c.id===session.queue[0].id):
 function assess(known){
   const head=session.queue[0];const c=lib.find(x=>x.id===head.id);if(!c)return;
   const was=c.streak>=settings.learnY;
+  c.seen=(c.seen||0)+1;
   if(known){c.correct++;c.streak++;if(c.streak>=settings.learnY){if(!was)session.learned++;c.learnedAt=Date.now();}}
   else{c.streak=0;c.learnedAt=null;}
   saveLib();
@@ -267,7 +273,7 @@ function el(tag,props,kids){const e=document.createElement(tag);
 
 /* ============ render ============ */
 const app=document.getElementById("app"), tabs=document.getElementById("tabs");
-let search="", page=0; const PAGE=50; let addOpen=false;
+let search="", page=0; const PAGE=50; let addOpen=false, genOpen=false, listLevel="all", listTopic="all";
 
 function render(){
   app.innerHTML="";
@@ -290,7 +296,7 @@ function paintSessionView(){app.appendChild(el("div",{id:"sess"}));paintSession(
 function paintSession(){
   const area=document.getElementById("sess");if(!area)return;area.innerHTML="";
   if(!session||!session.active){
-    const avail=lib.filter(c=>inFilter(c)&&eligible(c)).length;
+    const avail=lib.filter(inSession).length;
     const done=session&&session.total>0;
     area.appendChild(el("div",{class:"state"},[
       el("p",{class:"big"},[done?"Session complete":(avail?"Ready when you are":"All caught up")]),
@@ -334,7 +340,13 @@ function paintWords(){
   const s=el("input",{class:"inp search",placeholder:"Search…",value:search});
   s.addEventListener("input",()=>{search=s.value;page=0;paintList();});
   app.appendChild(s);
+  const seg=(opts,val,on)=>{const d=el("div",{class:"seg"});opts.forEach(o=>d.appendChild(el("button",{class:val===o[0]?"on":"",onclick:()=>on(o[0])},[o[1]])));return d;};
+  const levels=["A1","A2","B1","B2","C1","C2"].filter(l=>lib.some(c=>c.level===l));
+  const topics=Array.from(new Set(lib.map(c=>c.topic)));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Level"]),seg([["all","All"],...levels.map(l=>[l,l])],listLevel,v=>{listLevel=v;page=0;render();})]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Topic"]),seg([["all","All"],...topics.map(x=>[x,x])],listTopic,v=>{listTopic=v;page=0;render();})]));
   app.appendChild(el("div",{id:"add"}));paintAdd();
+  app.appendChild(el("div",{id:"gen"}));paintGen();
   app.appendChild(el("div",{id:"list"}));paintList();
 }
 function paintAdd(){
@@ -350,17 +362,58 @@ function paintAdd(){
     el("div",{class:"two"},[mk("it","Italian","la casa"),mk("de","German","das Haus")]),
     mk("its","Italian example (optional)"),mk("des","German example (optional)"),
     el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["Level"]),lvl]),el("div",{class:"field"},[el("label",{},["Topic"]),top])]),
-    el("button",{class:"solid",onclick:()=>{
-      if(!g.it.value.trim()||!g.de.value.trim()){err.textContent="Both words are required.";err.style.display="block";return;}
-      lib.unshift(norm({it:g.it.value.trim(),de:g.de.value.trim(),its:g.its.value.trim(),des:g.des.value.trim(),level:lvl.value,topic:top.value}));
-      saveLibNow();addOpen=false;render();
-    }},["Add"]),err
+    el("div",{class:"btnwrap"},[
+      el("button",{class:"solid",onclick:()=>{
+        if(!g.it.value.trim()||!g.de.value.trim()){err.textContent="Both words are required.";err.style.display="block";return;}
+        lib.unshift(norm({it:g.it.value.trim(),de:g.de.value.trim(),its:g.its.value.trim(),des:g.des.value.trim(),level:lvl.value,topic:top.value}));
+        saveLibNow();addOpen=false;render();
+      }},["Add"]),
+      el("button",{class:"ghost",onclick:async(ev)=>{
+        const it=g.it.value.trim(),de=g.de.value.trim();
+        if(!it&&!de){err.textContent="Type an Italian or German word first.";err.style.display="block";return;}
+        if(!getKey()){err.textContent="Add your Claude API key in Settings first.";err.style.display="block";return;}
+        const btn=ev.target,old=btn.textContent;btn.textContent="…";btn.disabled=true;err.style.display="none";
+        try{const r=await assistCard(it,de);
+          if(r.it&&!g.it.value.trim())g.it.value=r.it;
+          if(r.de&&!g.de.value.trim())g.de.value=r.de;
+          if(r.its&&!g.its.value.trim())g.its.value=r.its;
+          if(r.des&&!g.des.value.trim())g.des.value=r.des;
+        }catch(e){err.textContent=e.message;err.style.display="block";}
+        btn.textContent=old;btn.disabled=false;
+      }},["✨ Auto-fill"])
+    ]),err
+  ]));
+}
+function paintGen(){
+  const w=document.getElementById("gen");if(!w)return;w.innerHTML="";
+  w.appendChild(el("button",{class:"ghost",style:{marginBottom:"10px"},onclick:()=>{genOpen=!genOpen;paintGen();}},[genOpen?"Close":"✨ Generate with Claude"]));
+  if(!genOpen)return;
+  if(!getKey()){w.appendChild(el("div",{class:"hint"},["Add your Claude API key in Settings to generate words."]));return;}
+  const cnt=el("input",{class:"inp",type:"number",min:"1",max:"40",value:"10"});
+  const lvl=el("select",{class:"inp"},["A1","A2","B1","B2","C1","C2"].map(l=>el("option",{value:l},[l])));lvl.value="B1";
+  const topics=Array.from(new Set(lib.map(c=>c.topic)));
+  const top=el("input",{class:"inp",placeholder:"e.g. Cooking",value:topics[0]||""});
+  const err=el("div",{class:"err",style:{display:"none"}});
+  const info=el("div",{class:"hint",style:{marginTop:"8px"}});
+  w.appendChild(el("div",{},[
+    el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["How many"]),cnt]),el("div",{class:"field"},[el("label",{},["Level"]),lvl])]),
+    el("div",{class:"field"},[el("label",{},["Topic"]),top]),
+    el("button",{class:"solid",onclick:async(ev)=>{
+      const n=Math.max(1,Math.min(40,parseInt(cnt.value,10)||10)),topic=top.value.trim();
+      if(!topic){err.textContent="Enter a topic.";err.style.display="block";return;}
+      const btn=ev.target,old=btn.textContent;btn.textContent="Generating…";btn.disabled=true;err.style.display="none";info.textContent="";
+      try{const r=await genWords(n,lvl.value,topic);
+        info.textContent="Added "+r.added+(r.skipped?(", skipped "+r.skipped+" duplicate"+(r.skipped>1?"s":"")):"")+".";
+        if(r.added)paintList();
+      }catch(e){err.textContent=e.message;err.style.display="block";}
+      btn.textContent=old;btn.disabled=false;
+    }},["Generate"]),err,info
   ]));
 }
 function paintList(){
   const w=document.getElementById("list");if(!w)return;w.innerHTML="";
   const q=search.trim().toLowerCase();
-  const all=q?lib.filter(c=>c.it.word.toLowerCase().includes(q)||c.de.word.toLowerCase().includes(q)):lib;
+  const all=lib.filter(c=>(listLevel==="all"||c.level===listLevel)&&(listTopic==="all"||c.topic===listTopic)&&(!q||c.it.word.toLowerCase().includes(q)||c.de.word.toLowerCase().includes(q)));
   const pages=Math.max(1,Math.ceil(all.length/PAGE));if(page>=pages)page=pages-1;
   const slice=all.slice(page*PAGE,page*PAGE+PAGE);
   w.appendChild(el("div",{class:"hint"},[all.length+" words"]));
@@ -389,12 +442,22 @@ function paintSettings(){
   app.appendChild(el("div",{class:"field"},[el("label",{},["Level"]),seg([["all","All"],...levels.map(l=>[l,l])],settings.level,v=>{settings.level=v;saveSet();})]));
   const topics=Array.from(new Set(lib.map(c=>c.topic)));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topic"]),seg([["all","All"],...topics.map(x=>[x,x])],settings.topic,v=>{settings.topic=v;saveSet();})]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["mixed","Mixed"],["seen","Seen only"],["new","New only"]],settings.focus,v=>{settings.focus=v;session=null;saveSet();}),el("span",{class:"sub"},["“Seen only” drills words you've already been tested on; “New only” shows untested ones."])]));
 
   app.appendChild(el("div",{class:"sec"},["Learning"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Correct in a row to mark learned"]),num(settings.learnY,1,n=>{settings.learnY=n;saveSet();}),el("span",{class:"sub"},["Learned words leave sessions to make room for new ones."])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Bring learned words back after…"]),seg([["forever","Never"],["month","1 month"],["week","1 week"]],settings.deprecate,v=>{settings.deprecate=v;saveSet();})]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Retire after N total correct (0 = off)"]),num(settings.retireN,0,n=>{settings.retireN=n;saveSet();}),el("span",{class:"sub"},["Once right this many times ever, a word never returns."])]));
+
+  app.appendChild(el("div",{class:"sec"},["Claude"]));
+  const keyInput=el("input",{class:"inp",type:"password",placeholder:"sk-ant-…",value:getKey()});
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Anthropic API key"]),keyInput,el("span",{class:"sub"},[getKey()?"Key saved on this device.":"Paste your Anthropic API key to enable word generation."])]));
+  app.appendChild(el("div",{class:"btnwrap"},[
+    el("button",{class:"solid",onclick:()=>{setKey(keyInput.value.trim());render();}},["Save key"]),
+    el("button",{class:"ghost dngr",onclick:()=>{setKey("");render();}},["Clear key"])
+  ]));
+  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Stored only in this browser — never uploaded or committed. Powers Auto-fill and Generate on the Words tab, via Claude ("+MODEL+")."]));
 
   app.appendChild(el("div",{class:"sec"},["Data"]));
   app.appendChild(el("div",{class:"btnwrap"},[
@@ -406,6 +469,46 @@ function paintSettings(){
 }
 function exportLib(){const blob=new Blob([JSON.stringify(lib,null,2)],{type:"application/json"});const a=el("a",{href:URL.createObjectURL(blob),download:"lessico.json"});document.body.appendChild(a);a.click();a.remove();}
 function importLib(){const inp=el("input",{type:"file",accept:".json,application/json"});inp.addEventListener("change",()=>{const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(Array.isArray(d)&&d.length){lib=d.map(norm);saveLibNow();session=null;render();}else alert("Not a valid file.");}catch(e){alert("Could not read that file.");}};r.readAsText(f);});inp.click();}
+
+/* ============ Claude integration ============ */
+const SYS='You create Italian–German vocabulary flashcards for a language learner. Italian and German nouns must include the definite article (e.g. "la casa", "das Haus"). Example sentences must be natural, everyday, correct, and appropriate to the requested CEFR level; the Italian and German example sentences must be faithful translations of each other. Use only real, correct vocabulary.';
+const clean=s=>(s||"").trim().toLowerCase().replace(/\s+/g," ");
+function existsWord(it,de){const i=clean(it),d=clean(de);return lib.some(c=>clean(c.it.word)===i||clean(c.de.word)===d);}
+async function claudeJSON(user,schema,maxTokens){
+  const key=getKey();
+  if(!key)throw new Error("No API key set — add one in Settings.");
+  const res=await fetch("https://api.anthropic.com/v1/messages",{
+    method:"POST",
+    headers:{"content-type":"application/json","x-api-key":key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+    body:JSON.stringify({model:MODEL,max_tokens:maxTokens||8000,system:SYS,messages:[{role:"user",content:user}],output_config:{format:{type:"json_schema",schema:schema}}})
+  });
+  if(!res.ok){let m=res.status+" "+res.statusText;try{const e=await res.json();if(e&&e.error&&e.error.message)m=e.error.message;}catch(_){}throw new Error("Claude API: "+m);}
+  const data=await res.json();
+  const tb=(data.content||[]).find(b=>b.type==="text");
+  if(!tb)throw new Error("Empty response from Claude.");
+  return JSON.parse(tb.text);
+}
+async function genWords(n,level,topic){
+  const existing=lib.map(c=>c.it.word).join("; ");
+  const item={type:"object",additionalProperties:false,required:["it","de","its","des"],properties:{it:{type:"string"},de:{type:"string"},its:{type:"string"},des:{type:"string"}}};
+  const schema={type:"object",additionalProperties:false,required:["words"],properties:{words:{type:"array",items:item}}};
+  const user='Generate '+n+' Italian–German vocabulary words for the topic "'+topic+'" at CEFR level '+level+'. For each provide: it (Italian, with article if a noun), de (German translation, with article if a noun), its (a natural Italian example sentence using the word), des (the German translation of that sentence). Do NOT include any of these words that already exist: '+existing;
+  const out=await claudeJSON(user,schema,8000);
+  const words=(out&&out.words)||[];
+  let added=0,skipped=0;
+  words.forEach(w=>{
+    if(!w.it||!w.de||existsWord(w.it,w.de)){skipped++;return;}
+    lib.unshift(norm({it:w.it,de:w.de,its:w.its,des:w.des,level:level,topic:topic}));added++;
+  });
+  if(added)saveLibNow();
+  return {added:added,skipped:skipped};
+}
+async function assistCard(it,de){
+  const schema={type:"object",additionalProperties:false,required:["it","de","its","des"],properties:{it:{type:"string"},de:{type:"string"},its:{type:"string"},des:{type:"string"}}};
+  const given=[it?("Italian word: "+it):"",de?("German word: "+de):""].filter(Boolean).join("\n");
+  const user="Complete this Italian–German flashcard.\n"+given+"\nReturn: it (Italian, with article if a noun), de (German translation, with article if a noun), its (a natural Italian example sentence using the word), des (the German translation of that sentence). Keep any word already provided.";
+  return claudeJSON(user,schema,1000);
+}
 
 /* ============ boot ============ */
 load();
