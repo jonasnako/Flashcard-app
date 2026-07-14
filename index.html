@@ -265,22 +265,23 @@ function ghCfg(){const a=ghAuto();return {owner:settings.ghOwner||a.owner,repo:s
 function wordsUrl(){const cfg=ghCfg();return new URL(cfg.path||"words.json",location.href).href+"?t="+Date.now();}
 const b64utf8=s=>btoa(unescape(encodeURIComponent(s)));
 function setSync(msg){syncStatus=msg;const e=document.getElementById("syncmsg");if(e){e.textContent=msg;e.style.display=msg?"block":"none";}}
-function ghErr(s,e){const m=(e&&e.message)?e.message:(""+s);
-  if(s===401)return "GitHub: token rejected (401) — check it's valid.";
-  if(s===403)return "GitHub: token lacks Contents write access to this repo (403).";
+function ghErr(s,e,phase){const m=(e&&e.message)?e.message:"";
+  if(s===401)return "GitHub: token rejected (401) — check it's valid and not expired.";
+  if(s===403)return "GitHub: token lacks Contents write access to this repo (403)"+(m?" — "+m:"")+".";
   if(s===404)return "GitHub: repo/branch/path not found (404) — check owner, repo, and branch in Settings.";
-  if(s===409||s===422)return "GitHub: conflict writing the file — reload and try again.";
-  return "GitHub: "+m;}
+  if(s===409||s===422)return "GitHub ("+s+"): "+(m||"invalid request")+" — reload and try again.";
+  if(s>=500)return "GitHub server error ("+s+") while "+(phase||"saving")+(m?": "+m:"")+" — usually temporary, try Push words now again in a moment.";
+  return "GitHub "+s+(m?": "+m:"")+".";}
 async function ghPut(cfg,content,message){
   const token=getGh();const base="https://api.github.com/repos/"+cfg.owner+"/"+cfg.repo+"/contents/"+cfg.path.split("/").map(encodeURIComponent).join("/");
   const H={Authorization:"Bearer "+token,Accept:"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"};
   let sha=null;
   const g=await fetch(base+"?ref="+encodeURIComponent(cfg.branch),{headers:H});
   if(g.ok){const j=await g.json();sha=j.sha;}
-  else if(g.status!==404){throw new Error(ghErr(g.status,await g.json().catch(()=>({})))); }
+  else if(g.status!==404){const e=await g.json().catch(()=>({}));console.error("lessico: GitHub GET",g.status,e);const err=new Error(ghErr(g.status,e,"reading the file"));err.status=g.status;throw err;}
   const body={message,content:b64utf8(content),branch:cfg.branch};if(sha)body.sha=sha;
   const p=await fetch(base,{method:"PUT",headers:{...H,"content-type":"application/json"},body:JSON.stringify(body)});
-  if(!p.ok)throw new Error(ghErr(p.status,await p.json().catch(()=>({}))));
+  if(!p.ok){const e=await p.json().catch(()=>({}));console.error("lessico: GitHub PUT",p.status,e);const err=new Error(ghErr(p.status,e,"writing the file"));err.status=p.status;throw err;}
   return p.json();
 }
 async function saveWords(reason){
@@ -290,9 +291,15 @@ async function saveWords(reason){
   const cfg=ghCfg();
   if(!cfg.owner||!cfg.repo){setSync("Set the repo owner and name in Settings → Sync to sync words into the site.");return {ok:false,error:"no repo"};}
   setSync("Syncing to "+cfg.owner+"/"+cfg.repo+"…");
-  try{await ghPut(cfg,JSON.stringify(wordsFromLib(),null,2),"lessico: update words ("+(reason||"edit")+")");
-    setSync("Synced to "+cfg.owner+"/"+cfg.repo+" — live on the site in ~1 min.");return {ok:true};
-  }catch(e){setSync(e.message+" (words are still saved in this browser)");return {ok:false,error:e.message};}
+  const payload=JSON.stringify(wordsFromLib(),null,2), msg="lessico: update words ("+(reason||"edit")+")";
+  for(let attempt=0;attempt<2;attempt++){
+    try{await ghPut(cfg,payload,msg);
+      setSync("Synced to "+cfg.owner+"/"+cfg.repo+" — live on the site in ~1 min.");return {ok:true};
+    }catch(e){
+      if(e.status>=500&&attempt===0){setSync("GitHub hiccup ("+e.status+") — retrying…");await wait(1500);continue;}
+      setSync(e.message+" (words are still saved in this browser)");return {ok:false,error:e.message};
+    }
+  }
 }
 async function syncFromRepo(){
   try{
