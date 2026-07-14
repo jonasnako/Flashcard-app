@@ -197,7 +197,7 @@ const SEED = [
 
 /* ============ storage ============ */
 const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1", KEY_KEY="lessico_key_v1";
-const DEFAULTS={direction:"mixed",level:"all",topic:"all",sessionSize:30,learnY:3,deprecate:"forever",retireN:0,focus:"mixed",audioMode:"self",audioSentence:false};
+const DEFAULTS={direction:"mixed",level:"all",topic:"all",sessionSize:30,learnY:3,deprecate:"forever",retireN:0,focus:"mixed",audioMode:"self",audioSentence:true};
 const MODEL="claude-haiku-4-5"; // Claude model for word generation — swap for e.g. "claude-opus-4-8" for higher quality
 const LANG={it:"it-IT",de:"de-DE"};
 const ttsOK=("speechSynthesis" in window);
@@ -474,7 +474,7 @@ function paintSettings(){
   if(!ttsOK){
     app.appendChild(el("div",{class:"hint"},["This browser doesn’t support speech, so the hands-free reader is unavailable."]));
   }else{
-    app.appendChild(el("div",{class:"field"},[el("label",{},["Hands-free rating"]),seg([["self","Self-assess"],["auto","Auto-rate"]],settings.audioMode,v=>{settings.audioMode=v;saveSet();}),el("span",{class:"sub"},["Self-assess reads the card, then you say “yes” or “no”. Auto-rate listens to you say the translation and scores it for you."])]));
+    app.appendChild(el("div",{class:"field"},[el("label",{},["Hands-free rating"]),seg([["self","Self-assess"],["auto","Auto-rate"]],settings.audioMode,v=>{settings.audioMode=v;saveSet();}),el("span",{class:"sub"},["Self-assess reads the prompt, waits for you to say “reveal”, reads the answer, then you say “yes” or “no”. Auto-rate listens to you say the translation, tells you if you were right, and scores it."])]));
     app.appendChild(el("div",{class:"field"},[el("label",{},["Read example sentences too"]),seg([["off","Off"],["on","On"]],settings.audioSentence?"on":"off",v=>{settings.audioSentence=(v==="on");saveSet();})]));
     app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},[srOK?"Start it with the ▶ Hands-free button on the Session tab. Needs microphone permission (works on https).":"Voice input needs a Chromium-based browser (Chrome/Edge). Without it, ▶ Hands-free reads each card aloud and you tap ✓/✕ to rate."]));
   }
@@ -590,6 +590,10 @@ async function listenYesNo(gen){
     if(yn!==null)return yn;
     if(k===0)setAStat("🎙 Yes or no?");}
   return null;}
+async function listenCommand(gen){
+  // Wait for the learner to speak before revealing — any word counts as the command.
+  while(alive(gen)){const t=await listen("en-US",8000);if(!alive(gen))return;if(t&&t.trim())return;await wait(150);}
+}
 function setAStat(s){audioStatus=s;const e=document.getElementById("astat");if(e)e.textContent=s;}
 function reveal(){flipped=true;const cd=document.querySelector(".card");if(cd)cd.classList.add("flip");}
 function speakCard(c,f){if(!ttsOK)return;speak(c[f].word,LANG[f]);}
@@ -615,9 +619,16 @@ async function runHandsFree(){
         if(!alive(gen))break;
         known=similar(said,c[b].word);
         reveal();setAStat((known?"✓ ":"✕ ")+(said?("“"+said+"”"):"(no answer)"));
+        await speak(known?"Correct.":(said?"Not quite.":"I didn’t hear you."),"en-US");
+        if(!alive(gen))break;
         await speak(c[b].word,LANG[b]);
+        if(settings.audioSentence&&c[b].sentence)await speak(c[b].sentence,LANG[b]);
       }else{
-        await wait(1300);if(!alive(gen))break;
+        if(srOK){
+          setAStat("🎙 Say “reveal” when you’re ready…");
+          await listenCommand(gen);
+          if(!alive(gen))break;
+        }else{await wait(1300);if(!alive(gen))break;}
         reveal();setAStat("🔊 "+(b==="it"?"Italian":"German")+"…");
         await speak(c[b].word,LANG[b]);
         if(settings.audioSentence&&c[b].sentence)await speak(c[b].sentence,LANG[b]);
