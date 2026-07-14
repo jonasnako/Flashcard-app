@@ -579,10 +579,11 @@ function paintSettings(){
   const pathI=el("input",{class:"inp",placeholder:"words.json",value:settings.ghPath||a.path||"words.json"});
   app.appendChild(el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["Repo owner"]),ownerI]),el("div",{class:"field"},[el("label",{},["Repo name"]),repoI])]));
   app.appendChild(el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["Branch"]),branchI]),el("div",{class:"field"},[el("label",{},["Words file path"]),pathI])]));
+  const persistGh=()=>{setGh(ghTok.value.trim());settings.ghOwner=ownerI.value.trim();settings.ghRepo=repoI.value.trim();settings.ghBranch=branchI.value.trim()||"main";settings.ghPath=pathI.value.trim()||"words.json";saveSet();};
   app.appendChild(el("div",{class:"btnwrap"},[
-    el("button",{class:"solid",onclick:()=>{setGh(ghTok.value.trim());settings.ghOwner=ownerI.value.trim();settings.ghRepo=repoI.value.trim();settings.ghBranch=branchI.value.trim()||"main";settings.ghPath=pathI.value.trim()||"words.json";saveSet();setSync("Saved. Use “Push words now” to write your current words to the repo.");render();}},["Save"]),
+    el("button",{class:"solid",onclick:()=>{persistGh();setSync("Saved. Use “Push words now” to write your current words to the repo.");render();}},["Save"]),
     el("button",{class:"ghost dngr",onclick:()=>{setGh("");render();}},["Clear token"]),
-    el("button",{class:"ghost",onclick:async(ev)=>{const b=ev.target,o=b.textContent;b.textContent="Pushing…";b.disabled=true;await saveWords("manual push");b.textContent=o;b.disabled=false;render();}},["Push words now"])
+    el("button",{class:"ghost",onclick:async(ev)=>{persistGh();const b=ev.target,o=b.textContent;b.textContent="Pushing…";b.disabled=true;await saveWords("manual push");b.textContent=o;b.disabled=false;render();}},["Push words now"])
   ]));
   app.appendChild(el("div",{class:"hint",id:"syncmsg",style:{marginTop:"10px",display:syncStatus?"block":"none"}},[syncStatus]));
   app.appendChild(el("div",{class:"hint",style:{marginTop:"8px"}},["Generated and added words are committed to “"+(settings.ghPath||a.path||"words.json")+"” in your repo, so every device loads the same list. Scores stay per-device. GitHub Pages takes about a minute to publish a change. The token lives only in this browser."]));
