@@ -1,5 +1,395 @@
 [
   {
+    "id": "bab44744-9000-459f-a51e-bcfed0f0fc3a",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il mento",
+      "sentence": "Ha una cicatrice sul mento dalla caduta."
+    },
+    "de": {
+      "word": "das Kinn",
+      "sentence": "Er hat eine Narbe am Kinn von seinem Sturz."
+    }
+  },
+  {
+    "id": "04eded38-a9e4-4878-833d-5202afd9b0f9",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la fronte",
+      "sentence": "Ho una ruga sulla fronte quando penso."
+    },
+    "de": {
+      "word": "die Stirn",
+      "sentence": "Ich habe eine Falte auf der Stirn, wenn ich nachdenke."
+    }
+  },
+  {
+    "id": "3184a415-be41-4a7b-88d8-b52bd0e8d047",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il fiato",
+      "sentence": "Ero senza fiato dopo aver corso velocemente."
+    },
+    "de": {
+      "word": "der Atem",
+      "sentence": "Mir fehlte der Atem, nachdem ich schnell gerannt bin."
+    }
+  },
+  {
+    "id": "c73f660b-1c08-4554-a0f3-8fa6451f0da6",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la spalla",
+      "sentence": "Mi fa male la spalla dopo aver portato zaini pesanti."
+    },
+    "de": {
+      "word": "die Schulter",
+      "sentence": "Meine Schulter tut weh, nachdem ich schwere Rucksäcke getragen habe."
+    }
+  },
+  {
+    "id": "a6fedbdc-c6a5-489b-a9a0-29d27c2c315e",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il ginocchio",
+      "sentence": "Il calciatore si è infortunato al ginocchio durante la partita."
+    },
+    "de": {
+      "word": "das Knie",
+      "sentence": "Der Fußballspieler hat sich während des Spiels das Knie verletzt."
+    }
+  },
+  {
+    "id": "e640be9b-e284-4569-ba08-b823c6bf7fb0",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il dito",
+      "sentence": "Mi sono punto il dito con un ago."
+    },
+    "de": {
+      "word": "der Finger",
+      "sentence": "Ich habe mir den Finger mit einer Nadel gestochen."
+    }
+  },
+  {
+    "id": "c40ad836-812b-429e-9a97-68d62e0c53b0",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il sangue",
+      "sentence": "Il medico ha prelevato un campione di sangue."
+    },
+    "de": {
+      "word": "das Blut",
+      "sentence": "Der Arzt hat eine Blutprobe entnommen."
+    }
+  },
+  {
+    "id": "7eee0d22-7fd0-4a70-a878-91b1806755da",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la pelle",
+      "sentence": "La mia pelle è sensibile al sole."
+    },
+    "de": {
+      "word": "die Haut",
+      "sentence": "Meine Haut ist empfindlich gegenüber der Sonne."
+    }
+  },
+  {
+    "id": "699dd54a-7343-459a-9ee0-e9159b94fcaf",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "l'osso",
+      "sentence": "Mi sono rotto un osso nel braccio l'anno scorso."
+    },
+    "de": {
+      "word": "der Knochen",
+      "sentence": "Ich habe mir letztes Jahr einen Knochen im Arm gebrochen."
+    }
+  },
+  {
+    "id": "5777798a-b95c-48a3-b26b-e1005c5840ba",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il muscolo",
+      "sentence": "Dopo l'allenamento, i miei muscoli sono affaticati."
+    },
+    "de": {
+      "word": "der Muskel",
+      "sentence": "Nach dem Training sind meine Muskeln müde."
+    }
+  },
+  {
+    "id": "9a867984-e776-4fc8-a6db-e788d0e087fd",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il fianco",
+      "sentence": "Mi fa male il fianco destro quando corro."
+    },
+    "de": {
+      "word": "die Seite",
+      "sentence": "Meine rechte Seite tut weh, wenn ich laufe."
+    }
+  },
+  {
+    "id": "a98bc8cf-c087-4886-bf63-f592e81ea0f0",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la pancia",
+      "sentence": "Dopo il pasto, ho la pancia piena."
+    },
+    "de": {
+      "word": "der Bauch",
+      "sentence": "Nach der Mahlzeit bin ich bauchvoll."
+    }
+  },
+  {
+    "id": "3dc4a099-1f26-4beb-a373-899ffc08bd80",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il petto",
+      "sentence": "Indossa una collana sul petto."
+    },
+    "de": {
+      "word": "die Brust",
+      "sentence": "Sie trägt eine Halskette auf der Brust."
+    }
+  },
+  {
+    "id": "9ecb5c39-8bfe-4664-a97c-8cb5ba05487d",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la schiena",
+      "sentence": "Ho dolore alla schiena dopo aver sollevato una scatola pesante."
+    },
+    "de": {
+      "word": "der Rücken",
+      "sentence": "Mein Rücken tut weh, nachdem ich eine schwere Schachtel gehoben habe."
+    }
+  },
+  {
+    "id": "b3c36728-3311-4772-853c-1f6c185cab10",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il collo",
+      "sentence": "Mi fa male il collo dopo aver dormito male."
+    },
+    "de": {
+      "word": "der Hals",
+      "sentence": "Mein Hals tut weh, nachdem ich schlecht geschlafen habe."
+    }
+  },
+  {
+    "id": "e761334b-a941-40ac-9f08-3980c72d0a45",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la bocca",
+      "sentence": "Apri la bocca per mostrare i denti al dentista."
+    },
+    "de": {
+      "word": "der Mund",
+      "sentence": "Öffne den Mund, um deine Zähne dem Zahnarzt zu zeigen."
+    }
+  },
+  {
+    "id": "9b9d25ae-396c-45cd-a5e9-bd5d7c395439",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il naso",
+      "sentence": "Mi prude il naso quando sono allergico."
+    },
+    "de": {
+      "word": "die Nase",
+      "sentence": "Meine Nase juckt, wenn ich Allergien habe."
+    }
+  },
+  {
+    "id": "c43bc18b-b5ea-4d7f-b4fa-f8246d110d83",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "l'occhio",
+      "sentence": "Ho un occhio più debole dell'altro."
+    },
+    "de": {
+      "word": "das Auge",
+      "sentence": "Ich habe ein schwächeres Auge als das andere."
+    }
+  },
+  {
+    "id": "9152207b-6aaf-4560-927a-83c45184532e",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "l'orecchio",
+      "sentence": "Non riesco a sentire bene dall'orecchio sinistro."
+    },
+    "de": {
+      "word": "das Ohr",
+      "sentence": "Ich kann vom linken Ohr nicht gut hören."
+    }
+  },
+  {
+    "id": "38aa7fad-aea5-43d7-93bf-a6e59e8b5b30",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la lingua",
+      "sentence": "Mi sono morso la lingua mentre mangiavo."
+    },
+    "de": {
+      "word": "die Zunge",
+      "sentence": "Ich habe mir die Zunge beim Essen gebissen."
+    }
+  },
+  {
+    "id": "fb1a1247-031c-450e-88c6-62fccd33ad82",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il dente",
+      "sentence": "Ho un dente che mi fa molto male."
+    },
+    "de": {
+      "word": "der Zahn",
+      "sentence": "Ich habe einen Zahn, der mir sehr weh tut."
+    }
+  },
+  {
+    "id": "b3d939e3-58fd-400d-9b05-fdcec38084d3",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il fegato",
+      "sentence": "Il medico mi ha controllato il fegato durante la visita."
+    },
+    "de": {
+      "word": "die Leber",
+      "sentence": "Der Arzt hat mir die Leber während des Besuchs überprüft."
+    }
+  },
+  {
+    "id": "64776c55-b0aa-43bc-ac43-266e9efcfeec",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "lo stomaco",
+      "sentence": "Ho mangiato troppo e ora mi fa male lo stomaco."
+    },
+    "de": {
+      "word": "der Magen",
+      "sentence": "Ich habe zu viel gegessen und nun tut mir der Magen weh."
+    }
+  },
+  {
+    "id": "cbb0640b-78f2-419e-8f91-4cb205d977b9",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il polmone",
+      "sentence": "È importante prendersi cura dei polmoni non fumando."
+    },
+    "de": {
+      "word": "die Lunge",
+      "sentence": "Es ist wichtig, die Lungen zu pflegen, indem man nicht raucht."
+    }
+  },
+  {
+    "id": "5df486f9-2032-46d3-ba3d-48bbf88f9d1a",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il cuore",
+      "sentence": "Il cuore batte velocemente quando sono nervoso."
+    },
+    "de": {
+      "word": "das Herz",
+      "sentence": "Das Herz schlägt schnell, wenn ich nervös bin."
+    }
+  },
+  {
+    "id": "5511724c-1a50-434b-b2cb-9d551188a3f8",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il piede",
+      "sentence": "Ho un dolore al piede sinistro."
+    },
+    "de": {
+      "word": "der Fuß",
+      "sentence": "Ich habe Schmerzen im linken Fuß."
+    }
+  },
+  {
+    "id": "1c1d8f3d-2822-440f-a9f3-21d5b34e3313",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la gamba",
+      "sentence": "Mi fa male la gamba dopo la corsa."
+    },
+    "de": {
+      "word": "das Bein",
+      "sentence": "Mein Bein tut weh, nachdem ich gelaufen bin."
+    }
+  },
+  {
+    "id": "c1d96e95-437a-4449-ab99-8f41fe790f4b",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la mano",
+      "sentence": "Mi sono lavato le mani prima di mangiare."
+    },
+    "de": {
+      "word": "die Hand",
+      "sentence": "Ich habe mir die Hände vor dem Essen gewaschen."
+    }
+  },
+  {
+    "id": "62806a7e-d3cb-479a-ae2b-a23c2da1ed76",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il braccio",
+      "sentence": "Ho alzato il braccio per fare una domanda in classe."
+    },
+    "de": {
+      "word": "der Arm",
+      "sentence": "Ich habe meinen Arm gehoben, um eine Frage im Unterricht zu stellen."
+    }
+  },
+  {
+    "id": "1c0544b4-7f2d-4502-b6a6-f98d1823a1b6",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la testa",
+      "sentence": "Mi duole la testa dopo aver lavorato tutto il giorno."
+    },
+    "de": {
+      "word": "der Kopf",
+      "sentence": "Mein Kopf tut weh, nachdem ich den ganzen Tag gearbeitet habe."
+    }
+  },
+  {
     "id": "5a3f7b8d-cc4a-4b38-86f3-351f3f2caf43",
     "level": "B1",
     "topic": "Household",
