@@ -423,7 +423,10 @@ function face(c,lang,back){
     el("div",{class:"spine",style:{background:lang==="it"?"#7A9A57":"#CB9235"}}),
     el("h2",{class:"word"},[s.word]),
     s.sentence?el("p",{class:"sentence"},[s.sentence]):null,
-    status(c)==="refresh"?el("div",{class:"foot"},[el("span",{class:"rtag"},["refresh"])]):null
+    el("div",{class:"foot"},[
+      el("span",{class:"dots"},Array.from({length:settings.learnY},(_,i)=>el("span",{class:i<c.streak?"f":""}))),
+      status(c)==="refresh"?el("span",{class:"rtag"},["refresh"]):null
+    ])
   ]);
 }
 function paintButtons(){
