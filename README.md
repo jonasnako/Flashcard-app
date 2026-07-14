@@ -39,7 +39,7 @@ Each entry looks like:
 ## Studying
 
 - **Settings → Focus** controls which words a session draws from: **Mixed** (any due word), **Seen only** (drill words you've already been tested on, instead of a fresh random draw each session), or **New only** (words you've never been tested on).
-- The **Words** tab is filterable by **Level** and **Topic**, on top of the search box.
+- The **Words** tab is filterable by **Level** and **Topic**, on top of the search box. **Tap any word** to expand its example sentences, level, and topic.
 
 ## Hands-free (audio) mode
 

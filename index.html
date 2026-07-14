@@ -18,13 +18,13 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .counts{text-align:right;font-size:12px;color:rgba(246,241,230,.55);line-height:1.5}
 .counts b{color:var(--paper)}
 .scene{perspective:1600px;margin-bottom:18px}
-.card{position:relative;width:100%;min-height:clamp(280px,44vw,350px);transform-style:preserve-3d;transition:transform .55s cubic-bezier(.2,.85,.25,1);cursor:pointer}
+.card{position:relative;width:100%;min-height:clamp(300px,48vw,380px);transform-style:preserve-3d;transition:transform .55s cubic-bezier(.2,.85,.25,1);cursor:pointer}
 .card.flip{transform:rotateY(180deg)}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--paper);color:var(--ink);border-radius:18px;padding:22px 26px;display:flex;flex-direction:column;justify-content:center;box-shadow:0 22px 44px -20px rgba(0,0,0,.55),0 2px 0 var(--edge);overflow:hidden}
 .face.back{transform:rotateY(180deg)}
 .spine{position:absolute;left:0;top:0;bottom:0;width:7px}
 .word{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(30px,8vw,44px);line-height:1.05;letter-spacing:-.02em;margin:0}
-.sentence{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(16px,4.4vw,19px);line-height:1.5;color:#4A463C;margin-top:14px;max-width:42ch}
+.sentence{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(19px,5.2vw,23px);line-height:1.55;color:#3B382E;margin-top:16px;max-width:40ch}
 .foot{display:flex;align-items:center;justify-content:space-between;padding-top:18px}
 .dots{display:inline-flex;gap:5px;flex-wrap:wrap}
 .dots span{width:7px;height:7px;border-radius:999px;background:rgba(42,40,35,.16)}
@@ -73,6 +73,13 @@ select.inp{appearance:none}
 .st.mastered{color:var(--paper);border:1px solid var(--line);background:rgba(246,241,230,.08)}
 .row .del{background:none;border:0;color:rgba(246,241,230,.35);cursor:pointer;padding:4px;font-size:15px;line-height:1}
 .pager{display:flex;align-items:center;justify-content:space-between;margin-top:14px;font-size:13px;color:rgba(246,241,230,.6)}
+.rowdet{padding:6px 2px 16px;border-bottom:1px solid var(--line)}
+.rowdet .ex{font-family:'Fraunces',serif;font-size:17px;line-height:1.55;margin:8px 0;padding-left:12px;border-left:2px solid var(--line);color:var(--paper)}
+.rowdet .ex.it{border-left-color:var(--green)}
+.rowdet .ex.de{border-left-color:var(--ochre);color:rgba(246,241,230,.82)}
+.rowdet .ex.muted{border-left-color:transparent;padding-left:0;font-style:italic;color:rgba(246,241,230,.45)}
+.rowdet .tags{display:flex;gap:8px;margin-top:12px;padding-left:12px}
+.rowdet .tag{font-size:11px;letter-spacing:.05em;text-transform:uppercase;border:1px solid var(--line);border-radius:6px;padding:4px 9px;color:rgba(246,241,230,.72)}
 .tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:rgba(30,45,47,.94);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
 .tabs button{flex:1;background:none;border:0;color:rgba(246,241,230,.5);font-family:inherit;font-size:12px;font-weight:500;padding:14px 4px;cursor:pointer}
 .tabs button.on{color:var(--paper)}
@@ -283,7 +290,7 @@ function el(tag,props,kids){const e=document.createElement(tag);
 
 /* ============ render ============ */
 const app=document.getElementById("app"), tabs=document.getElementById("tabs");
-let search="", page=0; const PAGE=50; let addOpen=false, genOpen=false, listLevel="all", listTopic="all";
+let search="", page=0; const PAGE=50; let addOpen=false, genOpen=false, listLevel="all", listTopic="all", expandedId=null;
 
 function render(){
   app.innerHTML="";
@@ -320,12 +327,9 @@ function paintSession(){
   area.appendChild(el("div",{class:"progress"},[el("i",{style:{width:Math.round(donePart/session.total*100)+"%"}})]));
   const f=session.queue[0].f, b=f==="it"?"de":"it";
   if(ttsOK){
-    const mseg=el("div",{class:"seg"});
-    [["self","Self-assess"],["auto","Auto-rate"]].forEach(o=>mseg.appendChild(el("button",{class:settings.audioMode===o[0]?"on":"",onclick:()=>{settings.audioMode=o[0];saveSet();if(!audioOn)paintSession();}},[o[1]])));
     area.appendChild(el("div",{class:"atools"},[
       el("button",{class:"ghost",title:"Hear it",onclick:()=>speakCard(c,f)},["🔊"]),
-      audioOn?el("button",{class:"ghost dngr",onclick:()=>{stopAudio();paintSession();}},["■ Stop"]):el("button",{class:"ghost",onclick:runHandsFree},["▶ Hands-free"]),
-      mseg
+      audioOn?el("button",{class:"ghost dngr",onclick:()=>{stopAudio();paintSession();}},["■ Stop"]):el("button",{class:"ghost",onclick:runHandsFree},["▶ Hands-free"])
     ]));
   }
   const card=el("div",{class:"card"+(flipped?" flip":""),onclick:()=>{if(audioOn)return;flipped=!flipped;card.classList.toggle("flip",flipped);paintButtons();}},[face(c,f,false),face(c,b,true)]);
@@ -339,10 +343,7 @@ function face(c,lang,back){
     el("div",{class:"spine",style:{background:lang==="it"?"#7A9A57":"#CB9235"}}),
     el("h2",{class:"word"},[s.word]),
     s.sentence?el("p",{class:"sentence"},[s.sentence]):null,
-    el("div",{class:"foot"},[
-      el("span",{class:"dots"},Array.from({length:settings.learnY},(_,i)=>el("span",{class:i<c.streak?"f":""}))),
-      status(c)==="refresh"?el("span",{class:"rtag"},["refresh"]):null
-    ])
+    status(c)==="refresh"?el("div",{class:"foot"},[el("span",{class:"rtag"},["refresh"])]):null
   ]);
 }
 function paintButtons(){
@@ -437,11 +438,17 @@ function paintList(){
   const pages=Math.max(1,Math.ceil(all.length/PAGE));if(page>=pages)page=pages-1;
   const slice=all.slice(page*PAGE,page*PAGE+PAGE);
   w.appendChild(el("div",{class:"hint"},[all.length+" words"]));
-  slice.forEach(c=>{const s=status(c);
+  slice.forEach(c=>{const s=status(c);const open=expandedId===c.id;
     w.appendChild(el("div",{class:"row"},[
-      el("div",{class:"pair"},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
+      el("div",{class:"pair",style:{cursor:"pointer"},onclick:()=>{expandedId=open?null:c.id;paintList();}},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
       el("span",{class:"st "+(s==="learning"?"learning":s==="mastered"?"mastered":"learned")},[s==="learning"?(Math.min(c.streak,settings.learnY)+"/"+settings.learnY):s]),
       el("button",{class:"del",html:"✕",onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){lib=lib.filter(x=>x.id!==c.id);if(session)session.queue=session.queue.filter(z=>z.id!==c.id);saveLibNow();render();}}})
+    ]));
+    if(open)w.appendChild(el("div",{class:"rowdet"},[
+      c.it.sentence?el("p",{class:"ex it"},[c.it.sentence]):null,
+      c.de.sentence?el("p",{class:"ex de"},[c.de.sentence]):null,
+      (!c.it.sentence&&!c.de.sentence)?el("p",{class:"ex muted"},["No example sentences."]):null,
+      el("div",{class:"tags"},[el("span",{class:"tag"},[c.level]),el("span",{class:"tag"},[c.topic])])
     ]));
   });
   if(pages>1)w.appendChild(el("div",{class:"pager"},[
