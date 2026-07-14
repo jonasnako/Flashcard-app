@@ -63,11 +63,27 @@ The app can generate new vocabulary — with translations and example sentences 
 
 The default model is `claude-haiku-4-5` (fast and cheap). To use a higher-quality model, change the `MODEL` constant near the top of the `<script>` in `index.html` (e.g. to `claude-opus-4-8`).
 
+## Syncing words into the site
+
+By default, words you add or generate live in your browser's `localStorage`. You can instead have them **committed back into this repo** so every device — and every fresh browser — loads the same word list. The app writes a `words.json` file to the repo via the GitHub API straight from your browser; GitHub Pages then republishes it (about a minute later). **Your scores stay per-device** — only the word list is shared.
+
+One-time setup:
+
+1. Create a **fine-grained personal access token** on GitHub: *Settings → Developer settings → Fine-grained tokens → Generate new token*. Under **Repository access** choose *Only select repositories* → this repo, and under **Permissions → Repository permissions** set **Contents: Read and write**.
+2. In the app, go to **Settings → Sync to repo**. Paste the token, confirm the **Repo owner** and **Repo name** (auto-filled when you're on `*.github.io`), and press **Save**.
+3. Press **Push words now** once to create `words.json` from your current words.
+
+From then on, **Generate with Claude**, **+ Add a word**, and deleting a word each commit the updated `words.json` automatically — the Words tab shows the sync status. The token is stored only in this browser (in `localStorage`, and never included in Export). If you don't set up a token, everything still works exactly as before, just per-browser.
+
+Notes:
+- On load, the app merges the repo's `words.json` with anything in this browser (**words are only ever added, never dropped** by a sync), so a word you just generated on one device won't disappear before the other device has caught up.
+- Because of that union, **deleting a word only removes it on the device you delete it from** and on the committed file — other devices that already have it keep their copy until you clear or re-import there.
+
 ## Backups
 
 **Settings → Export (.json)** saves a file with all your words *and* your scores. **Import** restores it. Handy before a big reset or when moving to a new phone.
 
 ## Notes
 
-- Progress and settings are stored in the browser (`localStorage`) on the device you study on — they don't sync across devices. Use Export/Import to move them.
+- Scores and settings are stored in the browser (`localStorage`) on the device you study on — they don't sync across devices. Use Export/Import to move them, or see **Syncing words into the site** to share the word list across devices.
 - **Settings → Reset progress** zeroes out scores but keeps your words.
