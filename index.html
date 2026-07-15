@@ -370,7 +370,7 @@ function el(tag,props,kids){const e=document.createElement(tag);
 
 /* ============ render ============ */
 const app=document.getElementById("app"), tabs=document.getElementById("tabs");
-let search="", page=0; const PAGE=50; let addOpen=false, genOpen=false, listLevel="all", listTopic="all", expandedId=null;
+let search="", page=0; const PAGE=50; let addOpen=false, genOpen=false, listLevel="all", listTopic="all", expandedId=null, editingId=null;
 
 function render(){
   app.innerHTML="";
@@ -524,16 +524,38 @@ function paintList(){
   w.appendChild(el("div",{class:"hint"},[all.length+" words"]));
   slice.forEach(c=>{const s=status(c);const open=expandedId===c.id;
     w.appendChild(el("div",{class:"row"},[
-      el("div",{class:"pair",style:{cursor:"pointer"},onclick:()=>{expandedId=open?null:c.id;paintList();}},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
+      el("div",{class:"pair",style:{cursor:"pointer"},onclick:()=>{expandedId=open?null:c.id;editingId=null;paintList();}},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
       el("span",{class:"st "+(s==="learning"?"learning":s==="mastered"?"mastered":"learned")},[s==="learning"?(Math.min(c.streak,settings.learnY)+"/"+settings.learnY):s]),
       el("button",{class:"del",html:"✕",onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){lib=lib.filter(x=>x.id!==c.id);if(session)session.queue=session.queue.filter(z=>z.id!==c.id);saveProgNow();saveWords("delete word");render();}}})
     ]));
-    if(open)w.appendChild(el("div",{class:"rowdet"},[
+    if(open&&editingId!==c.id)w.appendChild(el("div",{class:"rowdet"},[
       c.it.sentence?el("p",{class:"ex it"},[c.it.sentence]):null,
       c.de.sentence?el("p",{class:"ex de"},[c.de.sentence]):null,
       (!c.it.sentence&&!c.de.sentence)?el("p",{class:"ex muted"},["No example sentences."]):null,
-      el("div",{class:"tags"},[el("span",{class:"tag"},[c.level]),el("span",{class:"tag"},[c.topic])])
+      el("div",{class:"tags"},[el("span",{class:"tag"},[c.level]),el("span",{class:"tag"},[c.topic])]),
+      el("button",{class:"ghost",style:{marginTop:"12px"},onclick:()=>{editingId=c.id;paintList();}},["✏️ Edit"])
     ]));
+    if(open&&editingId===c.id){
+      const g={};const mk=(k,label,val)=>{const i=el("input",{class:"inp",value:val||""});g[k]=i;return el("div",{class:"field"},[el("label",{},[label]),i]);};
+      const lvlSel=el("select",{class:"inp"},["A1","A2","B1","B2","C1","C2"].map(l=>el("option",{value:l},[l])));lvlSel.value=c.level;
+      const eErr=el("div",{class:"err",style:{display:"none"}});
+      w.appendChild(el("div",{class:"rowdet"},[
+        el("div",{class:"two"},[mk("itw","Italian",c.it.word),mk("dew","German",c.de.word)]),
+        mk("its","Italian example",c.it.sentence),
+        mk("des","German example",c.de.sentence),
+        el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["Level"]),lvlSel]),mk("top","Topic",c.topic)]),
+        eErr,
+        el("div",{class:"btnwrap"},[
+          el("button",{class:"solid",onclick:()=>{
+            const itw=g.itw.value.trim(),dew=g.dew.value.trim();
+            if(!itw||!dew){eErr.textContent="Both words are required.";eErr.style.display="block";return;}
+            c.it.word=itw;c.de.word=dew;c.it.sentence=g.its.value.trim();c.de.sentence=g.des.value.trim();c.level=lvlSel.value;c.topic=snapTopic(g.top.value.trim());
+            editingId=null;saveWords("edit word");render();
+          }},["Save"]),
+          el("button",{class:"ghost",onclick:()=>{editingId=null;paintList();}},["Cancel"])
+        ])
+      ]));
+    }
   });
   if(pages>1)w.appendChild(el("div",{class:"pager"},[
     el("button",{class:"ghost",disabled:page===0,onclick:()=>{page--;paintList();}},["‹ Prev"]),
