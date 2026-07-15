@@ -30,6 +30,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .dots span{width:7px;height:7px;border-radius:999px;background:rgba(42,40,35,.16)}
 .dots span.f{background:var(--ink)}
 .rtag{font-size:10.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ochre)}
+.say{position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:999px;border:1px solid rgba(42,40,35,.16);background:rgba(42,40,35,.04);color:var(--ink);font-size:16px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;opacity:.55;z-index:2}
+.say:hover{opacity:.9}
+.say:active{transform:translateY(1px)}
+.say.playing{opacity:1;background:rgba(122,154,87,.18);border-color:rgba(122,154,87,.5)}
 .progress{height:5px;border-radius:999px;background:rgba(246,241,230,.08);overflow:hidden;margin:2px 0 16px}
 .progress i{display:block;height:100%;background:var(--green);transition:width .3s}
 .meta{display:flex;justify-content:space-between;font-size:12px;color:rgba(246,241,230,.55);margin-bottom:6px}
@@ -425,7 +429,6 @@ function paintSession(){
   const f=session.queue[0].f, b=f==="it"?"de":"it";
   const controls=[];
   if(ttsOK){
-    controls.push(el("button",{class:"ghost",title:"Hear it",onclick:()=>speakCard(c,f)},["🔊"]));
     controls.push(audioOn?el("button",{class:"ghost dngr",onclick:()=>{stopAudio();paintSession();}},["■ Stop"]):el("button",{class:"ghost",onclick:runHandsFree},["▶ Hands-free"]));
   }
   controls.push(el("button",{class:"ghost",style:{marginLeft:"auto"},title:"Start a fresh session",onclick:()=>{if(confirm("Start a new session? The current one is discarded (your scores are kept).")){stopAudio();startSession();paintSession();}}},["↻ New session"]));
@@ -439,6 +442,7 @@ function face(c,lang,back){
   const s=c[lang];
   return el("div",{class:"face"+(back?" back":"")},[
     el("div",{class:"spine",style:{background:lang==="it"?"#7A9A57":"#CB9235"}}),
+    ttsOK?el("button",{class:"say",title:"Hear this",onclick:(e)=>{e.stopPropagation();if(audioOn)return;speakFace(c,lang,e.currentTarget);}},["🔊"]):null,
     el("h2",{class:"word"},[s.word]),
     s.sentence?el("p",{class:"sentence"},[s.sentence]):null,
     el("div",{class:"foot"},[
@@ -785,7 +789,12 @@ async function listenAnswer(lang,gen){
 }
 function setAStat(s){audioStatus=s;const e=document.getElementById("astat");if(e)e.textContent=s;}
 function reveal(){flipped=true;const cd=document.querySelector(".card");if(cd)cd.classList.add("flip");}
-function speakCard(c,f){if(!ttsOK)return;speak(c[f].word,LANG[f]);}
+async function speakFace(c,lang,btn){
+  if(!ttsOK)return;
+  if(btn)btn.classList.add("playing");
+  try{await speak(c[lang].word,LANG[lang]);if(c[lang].sentence)await speak(c[lang].sentence,LANG[lang]);}catch(e){}
+  if(btn)btn.classList.remove("playing");
+}
 function stopAudio(){audioOn=false;audioGen++;audioStatus="";try{if(ttsOK)speechSynthesis.cancel();}catch(e){}if(curRecog){try{curRecog.abort();}catch(e){}curRecog=null;}}
 async function runHandsFree(){
   if(!ttsOK)return;
