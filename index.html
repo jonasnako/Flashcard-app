@@ -423,12 +423,13 @@ function paintSession(){
   area.appendChild(el("div",{class:"meta"},[el("span",{},[session.queue.length+" left"]),el("span",{},[session.learned+" learned"])]));
   area.appendChild(el("div",{class:"progress"},[el("i",{style:{width:Math.round(donePart/session.total*100)+"%"}})]));
   const f=session.queue[0].f, b=f==="it"?"de":"it";
+  const controls=[];
   if(ttsOK){
-    area.appendChild(el("div",{class:"atools"},[
-      el("button",{class:"ghost",title:"Hear it",onclick:()=>speakCard(c,f)},["🔊"]),
-      audioOn?el("button",{class:"ghost dngr",onclick:()=>{stopAudio();paintSession();}},["■ Stop"]):el("button",{class:"ghost",onclick:runHandsFree},["▶ Hands-free"])
-    ]));
+    controls.push(el("button",{class:"ghost",title:"Hear it",onclick:()=>speakCard(c,f)},["🔊"]));
+    controls.push(audioOn?el("button",{class:"ghost dngr",onclick:()=>{stopAudio();paintSession();}},["■ Stop"]):el("button",{class:"ghost",onclick:runHandsFree},["▶ Hands-free"]));
   }
+  controls.push(el("button",{class:"ghost",style:{marginLeft:"auto"},title:"Start a fresh session",onclick:()=>{if(confirm("Start a new session? The current one is discarded (your scores are kept).")){stopAudio();startSession();paintSession();}}},["↻ New session"]));
+  area.appendChild(el("div",{class:"atools"},controls));
   const card=el("div",{class:"card"+(flipped?" flip":""),onclick:()=>{if(audioOn)return;flipped=!flipped;card.classList.toggle("flip",flipped);paintButtons();}},[face(c,f,false),face(c,b,true)]);
   area.appendChild(el("div",{class:"scene"},[card]));
   area.appendChild(el("div",{id:"btns"}));
