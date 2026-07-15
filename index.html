@@ -206,7 +206,7 @@ const SEED = [
 // Words live in the repo (shared across devices, synced via GitHub); progress is per-device.
 const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1", KEY_KEY="lessico_key_v1";
 const WORDS_KEY="lessico_words_v1", PROG_KEY="lessico_prog_v1", GH_KEY="lessico_gh_v1";
-const DEFAULTS={direction:"mixed",level:"all",topic:"all",sessionSize:30,learnY:3,deprecate:"forever",retireN:0,focus:"mixed",audioMode:"self",audioSentence:true,ghOwner:"",ghRepo:"",ghBranch:"main",ghPath:"words.json"};
+const DEFAULTS={direction:"mixed",levels:[],topics:[],sessionSize:30,learnY:3,deprecate:"forever",retireN:0,focus:"mixed",audioMode:"self",audioSentence:true,ghOwner:"",ghRepo:"",ghBranch:"main",ghPath:"words.json"};
 const MODEL="claude-haiku-4-5"; // Claude model for word generation — swap for e.g. "claude-opus-4-8" for higher quality
 const LANG={it:"it-IT",de:"de-DE"};
 const ttsOK=("speechSynthesis" in window);
@@ -239,6 +239,11 @@ function buildLib(words,prog){return (words||[]).map(w=>norm({...w,...(prog&&pro
 
 function load(){
   try{const s=localStorage.getItem(SET_KEY);if(s)settings={...DEFAULTS,...JSON.parse(s)};}catch(e){}
+  // migrate old single-select level/topic ("all" or one value) to arrays ([] = all)
+  if(!Array.isArray(settings.levels))settings.levels=[];
+  if(!Array.isArray(settings.topics))settings.topics=[];
+  if(settings.level!==undefined){if(!settings.levels.length&&settings.level!=="all")settings.levels=[settings.level];delete settings.level;}
+  if(settings.topic!==undefined){if(!settings.topics.length&&settings.topic!=="all")settings.topics=[settings.topic];delete settings.topic;}
   let words=readJSON(WORDS_KEY), prog=readJSON(PROG_KEY)||{};
   if(!Array.isArray(words)||!words.length){
     const legacy=readJSON(LIB_KEY); // one-time migration from the old single-blob format
@@ -330,7 +335,7 @@ function status(c){
   return "learning";
 }
 const eligible=c=>{const s=status(c);return s==="learning"||s==="refresh";};
-const inFilter=c=>(settings.level==="all"||c.level===settings.level)&&(settings.topic==="all"||c.topic===settings.topic);
+const inFilter=c=>(!settings.levels.length||settings.levels.includes(c.level))&&(!settings.topics.length||settings.topics.includes(c.topic));
 const front=()=>settings.direction==="it"||settings.direction==="de"?settings.direction:(Math.random()<.5?"it":"de");
 const focusMatch=c=>settings.focus==="seen"?c.seen>0:settings.focus==="new"?!c.seen:true;
 const inSession=c=>inFilter(c)&&eligible(c)&&focusMatch(c);
@@ -569,12 +574,18 @@ function paintSettings(){
   const seg=(opts,val,on)=>{const s=el("div",{class:"seg"});opts.forEach(o=>s.appendChild(el("button",{class:val===o[0]?"on":"",onclick:()=>{on(o[0]);render();}},[o[1]])));return s;};
   const num=(val,min,on)=>{const i=el("input",{class:"inp",type:"number",min:String(min),value:String(val)});i.addEventListener("change",()=>{let n=parseInt(i.value,10);if(isNaN(n)||n<min)n=min;i.value=n;on(n);});return el("div",{class:"numrow"},[i]);};
 
+  // multi-select segmented control — empty selection means "all"
+  const multiSeg=(opts,sel,on)=>{const d=el("div",{class:"seg"});
+    d.appendChild(el("button",{class:sel.length===0?"on":"",onclick:()=>on([])},["All"]));
+    opts.forEach(o=>{const isOn=sel.includes(o);d.appendChild(el("button",{class:isOn?"on":"",onclick:()=>on(isOn?sel.filter(x=>x!==o):[...sel,o])},[o]));});
+    return d;};
+
   app.appendChild(el("div",{class:"sec first"},["Study"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
   const levels=["A1","A2","B1","B2","C1","C2"].filter(l=>lib.some(c=>c.level===l));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Level"]),seg([["all","All"],...levels.map(l=>[l,l])],settings.level,v=>{settings.level=v;saveSet();})]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Levels"]),multiSeg(levels,settings.levels,v=>{settings.levels=v;session=null;saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Sessions draw only from the selected levels."])]));
   const topics=Array.from(new Set(lib.map(c=>c.topic)));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Topic"]),seg([["all","All"],...topics.map(x=>[x,x])],settings.topic,v=>{settings.topic=v;saveSet();})]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),multiSeg(topics,settings.topics,v=>{settings.topics=v;session=null;saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”."])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["mixed","Mixed"],["seen","Seen only"],["new","New only"]],settings.focus,v=>{settings.focus=v;session=null;saveSet();}),el("span",{class:"sub"},["“Seen only” drills words you've already been tested on; “New only” shows untested ones."])]));
 
   app.appendChild(el("div",{class:"sec"},["Learning"]));
