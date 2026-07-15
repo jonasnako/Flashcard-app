@@ -497,18 +497,18 @@ function paintGen(){
   const cnt=el("input",{class:"inp",type:"number",min:"1",max:"40",value:"10"});
   const lvl=el("select",{class:"inp"},["A1","A2","B1","B2","C1","C2"].map(l=>el("option",{value:l},[l])));lvl.value="B1";
   const topics=Array.from(new Set(lib.map(c=>c.topic)));
-  const top=el("input",{class:"inp",placeholder:"e.g. Cooking",value:topics[0]||""});
+  const top=el("input",{class:"inp",placeholder:"e.g. Work — verbs & adjectives",value:topics[0]||""});
   const err=el("div",{class:"err",style:{display:"none"}});
   const info=el("div",{class:"hint",style:{marginTop:"8px"}});
   w.appendChild(el("div",{},[
     el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["How many"]),cnt]),el("div",{class:"field"},[el("label",{},["Level"]),lvl])]),
-    el("div",{class:"field"},[el("label",{},["Topic"]),top]),
+    el("div",{class:"field"},[el("label",{},["Topic"]),top,el("span",{class:"sub"},["Name a topic, or describe what you want (e.g. “Work — verbs & adjectives”). Claude labels the batch, reusing one of your topics when it fits."])]),
     el("button",{class:"solid",onclick:async(ev)=>{
-      const n=Math.max(1,Math.min(40,parseInt(cnt.value,10)||10)),topic=top.value.trim();
-      if(!topic){err.textContent="Enter a topic.";err.style.display="block";return;}
+      const n=Math.max(1,Math.min(40,parseInt(cnt.value,10)||10)),prompt=top.value.trim();
+      if(!prompt){err.textContent="Enter a topic or a short description.";err.style.display="block";return;}
       const btn=ev.target,old=btn.textContent;btn.textContent="Generating…";btn.disabled=true;err.style.display="none";info.textContent="";
-      try{const r=await genWords(n,lvl.value,topic);
-        info.textContent="Added "+r.added+(r.skipped?(", skipped "+r.skipped+" duplicate"+(r.skipped>1?"s":"")):"")+".";
+      try{const r=await genWords(n,lvl.value,prompt);
+        info.textContent="Added "+r.added+" to “"+r.topic+"”"+(r.skipped?(", skipped "+r.skipped+" duplicate"+(r.skipped>1?"s":"")):"")+".";
         if(r.added)paintList();
       }catch(e){err.textContent=e.message;err.style.display="block";}
       btn.textContent=old;btn.disabled=false;
@@ -627,20 +627,31 @@ async function claudeJSON(user,schema,maxTokens){
   if(!tb)throw new Error("Empty response from Claude.");
   return JSON.parse(tb.text);
 }
-async function genWords(n,level,topic){
+function snapTopic(t){
+  const c=(t||"").trim();if(!c)return "Other";
+  const hit=Array.from(new Set(lib.map(x=>x.topic))).find(x=>x.toLowerCase()===c.toLowerCase());
+  return hit||c; // reuse existing casing when it's the same topic
+}
+async function genWords(n,level,prompt){
   const existing=lib.map(c=>c.it.word).join("; ");
+  const topics=Array.from(new Set(lib.map(c=>c.topic)));
   const item={type:"object",additionalProperties:false,required:["it","de","its","des"],properties:{it:{type:"string"},de:{type:"string"},its:{type:"string"},des:{type:"string"}}};
-  const schema={type:"object",additionalProperties:false,required:["words"],properties:{words:{type:"array",items:item}}};
-  const user='Generate '+n+' Italian–German vocabulary words for the topic "'+topic+'" at CEFR level '+level+'. For each provide: it (Italian, with article if a noun), de (German translation, with article if a noun), its (a natural Italian example sentence using the word), des (the German translation of that sentence). Do NOT include any of these words that already exist: '+existing;
+  const schema={type:"object",additionalProperties:false,required:["topic","words"],properties:{topic:{type:"string"},words:{type:"array",items:item}}};
+  const user='Build a set of '+n+' Italian–German vocabulary flashcards. Request: "'+prompt+'". Target CEFR level: '+level+'.\n'
+    +'Unless the request asks for specific word types, include a balanced variety of nouns, verbs, and adjectives (plus useful adverbs).\n'
+    +'Also choose ONE concise topic label for the whole batch. Reuse one of these existing topics if it fits, with the exact same spelling: '+(topics.join("; ")||"(none yet)")+'. Only invent a new short label (1–2 words) if none fits.\n'
+    +'Return: topic (the batch label), and words — each with it (Italian, with article if a noun), de (German translation, with article if a noun), its (a natural Italian example sentence using the word), des (the German translation of that sentence).\n'
+    +'Do NOT include any of these words that already exist: '+existing;
   const out=await claudeJSON(user,schema,8000);
   const words=(out&&out.words)||[];
+  const topic=snapTopic((out&&out.topic)||prompt);
   let added=0,skipped=0;
   words.forEach(w=>{
     if(!w.it||!w.de||existsWord(w.it,w.de)){skipped++;return;}
     lib.unshift(norm({it:w.it,de:w.de,its:w.its,des:w.des,level:level,topic:topic}));added++;
   });
   if(added)await saveWords("generate "+topic);
-  return {added:added,skipped:skipped};
+  return {added:added,skipped:skipped,topic:topic};
 }
 async function assistCard(it,de){
   const schema={type:"object",additionalProperties:false,required:["it","de","its","des"],properties:{it:{type:"string"},de:{type:"string"},its:{type:"string"},des:{type:"string"}}};

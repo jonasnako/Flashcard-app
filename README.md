@@ -62,7 +62,7 @@ The app can generate new vocabulary — with translations and example sentences 
 
 1. In **Settings → Claude**, paste your Anthropic API key and press **Save key**. It's stored only in this browser's `localStorage` — never uploaded to the repo or anywhere else.
 2. On the **Words** tab:
-   - **✨ Generate with Claude** — pick a count, level, and topic; Claude adds that many new words, skipping any that already exist.
+   - **✨ Generate with Claude** — pick a count and level, then in **Topic** either name a topic or describe what you want (e.g. *“Work — verbs & adjectives”*). Claude generates that many new words — a balanced variety of nouns, verbs, and adjectives unless you ask for specific types — skipping any that already exist. It also picks one topic label for the whole batch, reusing one of your existing topics when it fits (case-insensitive) so related words stay grouped. The result line tells you which topic they landed in.
    - **+ Add a word → ✨ Auto-fill** — type just the Italian *or* German word and Claude fills in the translation and example sentences for you to review before saving.
 
 The default model is `claude-haiku-4-5` (fast and cheap). To use a higher-quality model, change the `MODEL` constant near the top of the `<script>` in `index.html` (e.g. to `claude-opus-4-8`).
