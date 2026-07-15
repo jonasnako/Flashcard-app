@@ -48,7 +48,7 @@ Each entry looks like:
 
 ## Hands-free (audio) mode
 
-On the **Session** tab, **▶ Hands-free** reads each card aloud and runs the whole session without touching the screen — useful while cooking, walking, or driving. Tap **🔊** any time to just hear the current card. Two rating styles (pick one with the segmented control on the Session tab, or under **Settings → Voice**):
+On the **Session** tab, **▶ Hands-free** reads each card aloud and runs the whole session without touching the screen — useful while cooking, walking, or driving. Tap the **🔊** on a card any time to hear just that side's word and example sentence. Two rating styles (pick one with the segmented control on the Session tab, or under **Settings → Voice**):
 
 - **Self-assess** — the app reads the prompt (word and example sentence), then waits for you to say **“reveal”** before it reads the answer. You say **“yes”** or **“no”** and it scores the card and moves on.
 - **Auto-rate** — the app reads the prompt and listens for you to *say the translation out loud*. It compares what you said to the correct answer (article-insensitive, with a little tolerance for mishearing), tells you **“Correct.”** or **“Not quite.”**, then reads the answer and scores it automatically.
