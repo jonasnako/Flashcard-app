@@ -259,8 +259,8 @@ function saveWordsLocal(words){try{localStorage.setItem(WORDS_KEY,JSON.stringify
 let pt=null;
 function saveProg(){if(pt)clearTimeout(pt);pt=setTimeout(()=>{pt=null;saveProgNow();},300);}
 function saveProgNow(prog){if(pt)clearTimeout(pt);pt=null;try{localStorage.setItem(PROG_KEY,JSON.stringify(prog||progFromLib()));}catch(e){}}
-window.addEventListener("pagehide",()=>saveProgNow());
-document.addEventListener("visibilitychange",()=>{if(document.hidden)saveProgNow();});
+window.addEventListener("pagehide",()=>{saveProgNow();saveSession();});
+document.addEventListener("visibilitychange",()=>{if(document.hidden){saveProgNow();saveSession();}});
 
 /* ---- word persistence: local cache + push to the repo via GitHub ---- */
 function ghAuto(){const h=location.hostname,parts=location.pathname.split("/").filter(Boolean);
@@ -343,11 +343,22 @@ function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random
 
 /* ============ session ============ */
 let session=null, flipped=false, view="session";
+const SESS_KEY="lessico_sess_v1";
+function saveSession(){try{if(session)localStorage.setItem(SESS_KEY,JSON.stringify(session));else localStorage.removeItem(SESS_KEY);}catch(e){}}
+function clearSession(){session=null;try{localStorage.removeItem(SESS_KEY);}catch(e){}}
+function loadSession(){
+  try{const s=JSON.parse(localStorage.getItem(SESS_KEY));
+    if(!s||!s.active||!Array.isArray(s.queue))return null;
+    const q=s.queue.filter(x=>x&&x.id&&lib.some(c=>c.id===x.id)); // drop cards no longer in the library
+    if(!q.length)return null;
+    return {queue:q,total:s.total||q.length,learned:s.learned||0,active:true};
+  }catch(e){return null;}
+}
 function startSession(){
   const pool=shuffle(lib.filter(inSession));
   const chosen=pool.slice(0,Math.max(1,settings.sessionSize|0));
   session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,active:chosen.length>0};
-  flipped=false;
+  flipped=false;saveSession();
 }
 const cur=()=>session&&session.queue[0]?lib.find(c=>c.id===session.queue[0].id):null;
 function rate(known){
@@ -360,6 +371,7 @@ function rate(known){
   session.queue=known?session.queue.slice(1):[...session.queue.slice(1),{id:head.id,f:front()}];
   flipped=false;
   if(!session.queue.length)session.active=false;
+  saveSession();
 }
 function assess(known){rate(known);paintSession();}
 
@@ -531,7 +543,7 @@ function paintList(){
     w.appendChild(el("div",{class:"row"},[
       el("div",{class:"pair",style:{cursor:"pointer"},onclick:()=>{expandedId=open?null:c.id;editingId=null;paintList();}},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
       el("span",{class:"st "+(s==="learning"?"learning":s==="mastered"?"mastered":"learned")},[s==="learning"?(Math.min(c.streak,settings.learnY)+"/"+settings.learnY):s]),
-      el("button",{class:"del",html:"✕",onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){lib=lib.filter(x=>x.id!==c.id);if(session)session.queue=session.queue.filter(z=>z.id!==c.id);saveProgNow();saveWords("delete word");render();}}})
+      el("button",{class:"del",html:"✕",onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){lib=lib.filter(x=>x.id!==c.id);if(session){session.queue=session.queue.filter(z=>z.id!==c.id);if(!session.queue.length)session.active=false;saveSession();}saveProgNow();saveWords("delete word");render();}}})
     ]));
     if(open&&editingId!==c.id)w.appendChild(el("div",{class:"rowdet"},[
       c.it.sentence?el("p",{class:"ex it"},[c.it.sentence]):null,
@@ -583,10 +595,10 @@ function paintSettings(){
   app.appendChild(el("div",{class:"sec first"},["Study"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
   const levels=["A1","A2","B1","B2","C1","C2"].filter(l=>lib.some(c=>c.level===l));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Levels"]),multiSeg(levels,settings.levels,v=>{settings.levels=v;session=null;saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Sessions draw only from the selected levels."])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Levels"]),multiSeg(levels,settings.levels,v=>{settings.levels=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Sessions draw only from the selected levels."])]));
   const topics=Array.from(new Set(lib.map(c=>c.topic)));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),multiSeg(topics,settings.topics,v=>{settings.topics=v;session=null;saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”."])]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["mixed","Mixed"],["seen","Seen only"],["new","New only"]],settings.focus,v=>{settings.focus=v;session=null;saveSet();}),el("span",{class:"sub"},["“Seen only” drills words you've already been tested on; “New only” shows untested ones."])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),multiSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”."])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["mixed","Mixed"],["seen","Seen only"],["new","New only"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();}),el("span",{class:"sub"},["“Seen only” drills words you've already been tested on; “New only” shows untested ones."])]));
 
   app.appendChild(el("div",{class:"sec"},["Learning"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
@@ -635,12 +647,12 @@ function paintSettings(){
   app.appendChild(el("div",{class:"btnwrap"},[
     el("button",{class:"ghost",onclick:exportLib},["Export (.json)"]),
     el("button",{class:"ghost",onclick:importLib},["Import"]),
-    el("button",{class:"ghost dngr",onclick:()=>{if(confirm("Reset all progress? Words stay, scores go to zero.")){lib=lib.map(c=>({...c,streak:0,correct:0,seen:0,learnedAt:null}));saveProgNow();session=null;render();}}},["Reset progress"])
+    el("button",{class:"ghost dngr",onclick:()=>{if(confirm("Reset all progress? Words stay, scores go to zero.")){lib=lib.map(c=>({...c,streak:0,correct:0,seen:0,learnedAt:null}));saveProgNow();clearSession();render();}}},["Reset progress"])
   ]));
   app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — use it as a backup or to move phones."]));
 }
 function exportLib(){const blob=new Blob([JSON.stringify(lib,null,2)],{type:"application/json"});const a=el("a",{href:URL.createObjectURL(blob),download:"lessico.json"});document.body.appendChild(a);a.click();a.remove();}
-function importLib(){const inp=el("input",{type:"file",accept:".json,application/json"});inp.addEventListener("change",()=>{const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(Array.isArray(d)&&d.length){lib=d.map(norm);saveProgNow();saveWords("import");session=null;render();}else alert("Not a valid file.");}catch(e){alert("Could not read that file.");}};r.readAsText(f);});inp.click();}
+function importLib(){const inp=el("input",{type:"file",accept:".json,application/json"});inp.addEventListener("change",()=>{const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(Array.isArray(d)&&d.length){lib=d.map(norm);saveProgNow();saveWords("import");clearSession();render();}else alert("Not a valid file.");}catch(e){alert("Could not read that file.");}};r.readAsText(f);});inp.click();}
 
 /* ============ Claude integration ============ */
 const SYS='You create Italian–German vocabulary flashcards for a language learner. Italian and German nouns must include the definite article (e.g. "la casa", "das Haus"). Example sentences must be natural, everyday, correct, and appropriate to the requested CEFR level; the Italian and German example sentences must be faithful translations of each other. Use only real, correct vocabulary.';
@@ -828,7 +840,8 @@ async function runHandsFree(){
 
 /* ============ boot ============ */
 load();
-startSession();
+session=loadSession();          // resume an in-progress session across reloads
+if(!session)startSession();
 render();
 syncFromRepo();
 

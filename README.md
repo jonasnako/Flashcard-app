@@ -90,5 +90,6 @@ Notes:
 
 ## Notes
 
+- A session you leave partway **resumes where you left off** when you come back — the remaining cards and order are saved on the device. Finishing a session, or changing the Level/Topic/Focus filters, starts a fresh one.
 - Scores and settings are stored in the browser (`localStorage`) on the device you study on — they don't sync across devices. Use Export/Import to move them, or see **Syncing words into the site** to share the word list across devices.
 - **Settings → Reset progress** zeroes out scores but keeps your words.
