@@ -49,7 +49,7 @@ Each entry looks like:
   - **New only** — words you've never been tested on.
   - **Recap** — reviews words you've already **learned** (within your Level/Topic filter). Miss one and its score resets to zero, so it drops back into the learning pool; get it right and it stays learned. This replaces time-based resurfacing: instead of learned words reappearing on a schedule, you recap deliberately and only the ones you've actually forgotten come back.
 
-  A word counts as **learned** once you get it right *N* times in a row (**Settings → Correct in a row to mark learned**). Learned words leave the normal (Mixed/Seen/New) sessions and are reviewed via Recap.
+  A word counts as **learned** once you get it right *N* times in a row (**Settings → Correct in a row to mark learned**). Learned words leave the normal (Mixed/Seen/New) sessions and are reviewed via Recap. There's no permanent "mastered/retired" state — the only two states are *learning* and *learned*, and Recap is what moves words between them.
 - The **Words** tab is filterable by **Level** and **Topic**, on top of the search box. **Tap any word** to expand its example sentences, level, and topic, then **✏️ Edit** to change any field — including moving it to a different topic (typing an existing topic name, in any case, folds it into that topic). Edits sync to the repo just like generated words.
 
 ## Hands-free (audio) mode

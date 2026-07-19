@@ -73,7 +73,6 @@ select.inp{appearance:none}
 .row .st{font-size:10px;font-weight:600;border-radius:5px;padding:3px 6px;white-space:nowrap}
 .st.learning{color:#CDE0B4;border:1px solid rgba(122,154,87,.4)}
 .st.learned{color:#EAC98A;border:1px solid rgba(203,146,53,.4)}
-.st.mastered{color:var(--paper);border:1px solid var(--line);background:rgba(246,241,230,.08)}
 .row .del{background:none;border:0;color:rgba(246,241,230,.35);cursor:pointer;padding:4px;font-size:15px;line-height:1}
 .pager{display:flex;align-items:center;justify-content:space-between;margin-top:14px;font-size:13px;color:rgba(246,241,230,.6)}
 .rowdet{padding:6px 2px 16px;border-bottom:1px solid var(--line)}
@@ -209,7 +208,7 @@ const SEED = [
 // Words live in the repo (shared across devices, synced via GitHub); progress is per-device.
 const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1", KEY_KEY="lessico_key_v1";
 const WORDS_KEY="lessico_words_v1", PROG_KEY="lessico_prog_v1", GH_KEY="lessico_gh_v1";
-const DEFAULTS={direction:"mixed",levels:[],topics:[],sessionSize:30,learnY:3,retireN:0,focus:"mixed",audioMode:"self",audioSentence:true,ghOwner:"",ghRepo:"",ghBranch:"main",ghPath:"words.json"};
+const DEFAULTS={direction:"mixed",levels:[],topics:[],sessionSize:30,learnY:3,focus:"mixed",audioMode:"self",audioSentence:true,ghOwner:"",ghRepo:"",ghBranch:"main",ghPath:"words.json"};
 const MODEL="claude-haiku-4-5"; // Claude model for word generation — swap for e.g. "claude-opus-4-8" for higher quality
 const LANG={it:"it-IT",de:"de-DE"};
 const ttsOK=("speechSynthesis" in window);
@@ -246,7 +245,7 @@ function load(){
   if(!Array.isArray(settings.topics))settings.topics=[];
   if(settings.level!==undefined){if(!settings.levels.length&&settings.level!=="all")settings.levels=[settings.level];delete settings.level;}
   if(settings.topic!==undefined){if(!settings.topics.length&&settings.topic!=="all")settings.topics=[settings.topic];delete settings.topic;}
-  delete settings.deprecate; // removed: time-based resurfacing of learned words
+  delete settings.deprecate;delete settings.retireN; // removed: time-based resurfacing and permanent retire
   let words=readJSON(WORDS_KEY), prog=readJSON(PROG_KEY)||{};
   if(!Array.isArray(words)||!words.length){
     const legacy=readJSON(LIB_KEY); // one-time migration from the old single-blob format
@@ -329,9 +328,7 @@ async function syncFromRepo(){
 
 /* ============ learning model ============ */
 function status(c){
-  if(settings.retireN>0&&c.correct>=settings.retireN)return "mastered";
-  if(c.streak>=settings.learnY)return "learned";
-  return "learning";
+  return c.streak>=settings.learnY?"learned":"learning";
 }
 const eligible=c=>status(c)==="learning";
 const inFilter=c=>(!settings.levels.length||settings.levels.includes(c.level))&&(!settings.topics.length||settings.topics.includes(c.topic));
@@ -401,7 +398,7 @@ function render(){
   const st={};lib.forEach(c=>{const s=status(c);st[s]=(st[s]||0)+1;});
   app.appendChild(el("div",{class:"head"},[
     el("span",{class:"logo",html:"lessico<i>.</i>"}),
-    el("div",{class:"counts"},[el("div",{html:"<b>"+(st.learning||0)+"</b> learning"}),el("div",{},[(st.learned||0)+" learned"+(st.mastered?" · "+st.mastered+" mastered":"")])])
+    el("div",{class:"counts"},[el("div",{html:"<b>"+(st.learning||0)+"</b> learning"}),el("div",{},[(st.learned||0)+" learned"])])
   ]));
   if(view==="session")paintSessionView();
   else if(view==="words")paintWords();
@@ -552,7 +549,7 @@ function paintList(){
   slice.forEach(c=>{const s=status(c);const open=expandedId===c.id;
     w.appendChild(el("div",{class:"row"},[
       el("div",{class:"pair",style:{cursor:"pointer"},onclick:()=>{expandedId=open?null:c.id;editingId=null;paintList();}},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
-      el("span",{class:"st "+(s==="learning"?"learning":s==="mastered"?"mastered":"learned")},[s==="learning"?(Math.min(c.streak,settings.learnY)+"/"+settings.learnY):s]),
+      el("span",{class:"st "+(s==="learning"?"learning":"learned")},[s==="learning"?(Math.min(c.streak,settings.learnY)+"/"+settings.learnY):s]),
       el("button",{class:"del",html:"✕",onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){lib=lib.filter(x=>x.id!==c.id);if(session){session.queue=session.queue.filter(z=>z.id!==c.id);if(!session.queue.length)session.active=false;saveSession();}saveProgNow();saveWords("delete word");render();}}})
     ]));
     if(open&&editingId!==c.id)w.appendChild(el("div",{class:"rowdet"},[
@@ -613,7 +610,6 @@ function paintSettings(){
   app.appendChild(el("div",{class:"sec"},["Learning"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Correct in a row to mark learned"]),num(settings.learnY,1,n=>{settings.learnY=n;saveSet();}),el("span",{class:"sub"},["Learned words leave normal sessions; review them with Focus → Recap."])]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Retire after N total correct (0 = off)"]),num(settings.retireN,0,n=>{settings.retireN=n;saveSet();}),el("span",{class:"sub"},["Once right this many times ever, a word never returns (not even in Recap)."])]));
 
   app.appendChild(el("div",{class:"sec"},["Voice"]));
   if(!ttsOK){
