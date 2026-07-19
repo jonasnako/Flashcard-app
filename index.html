@@ -29,7 +29,6 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .dots{display:inline-flex;gap:5px;flex-wrap:wrap}
 .dots span{width:7px;height:7px;border-radius:999px;background:rgba(42,40,35,.16)}
 .dots span.f{background:var(--ink)}
-.rtag{font-size:10.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ochre)}
 .say{position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:999px;border:1px solid rgba(42,40,35,.16);background:rgba(42,40,35,.04);color:var(--ink);font-size:16px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;opacity:.55;z-index:2}
 .say:hover{opacity:.9}
 .say:active{transform:translateY(1px)}
@@ -210,7 +209,7 @@ const SEED = [
 // Words live in the repo (shared across devices, synced via GitHub); progress is per-device.
 const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1", KEY_KEY="lessico_key_v1";
 const WORDS_KEY="lessico_words_v1", PROG_KEY="lessico_prog_v1", GH_KEY="lessico_gh_v1";
-const DEFAULTS={direction:"mixed",levels:[],topics:[],sessionSize:30,learnY:3,deprecate:"forever",retireN:0,focus:"mixed",audioMode:"self",audioSentence:true,ghOwner:"",ghRepo:"",ghBranch:"main",ghPath:"words.json"};
+const DEFAULTS={direction:"mixed",levels:[],topics:[],sessionSize:30,learnY:3,retireN:0,focus:"mixed",audioMode:"self",audioSentence:true,ghOwner:"",ghRepo:"",ghBranch:"main",ghPath:"words.json"};
 const MODEL="claude-haiku-4-5"; // Claude model for word generation — swap for e.g. "claude-opus-4-8" for higher quality
 const LANG={it:"it-IT",de:"de-DE"};
 const ttsOK=("speechSynthesis" in window);
@@ -221,7 +220,6 @@ let settings={...DEFAULTS};
 let lib=[];
 let syncStatus="";
 const uid=()=>(crypto.randomUUID?crypto.randomUUID():String(Date.now()+Math.random()));
-const DAY=864e5;
 function getKey(){try{return localStorage.getItem(KEY_KEY)||"";}catch(e){return "";}}
 function setKey(k){try{if(k)localStorage.setItem(KEY_KEY,k);else localStorage.removeItem(KEY_KEY);}catch(e){}}
 function getGh(){try{return localStorage.getItem(GH_KEY)||"";}catch(e){return "";}}
@@ -232,10 +230,10 @@ function norm(c){
   const de=(c.de&&typeof c.de==="object")?c.de:{word:c.de||"",sentence:c.des||""};
   return {id:c.id||uid(),level:(c.level||"B1").toUpperCase(),topic:c.topic||"Other",
     it:{word:it.word||"",sentence:it.sentence||""},de:{word:de.word||"",sentence:de.sentence||""},
-    streak:c.streak||0,correct:c.correct||0,seen:c.seen||0,learnedAt:c.learnedAt||null};
+    streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};
 }
 const stripWord=c=>({id:c.id,level:c.level,topic:c.topic,it:{word:c.it.word,sentence:c.it.sentence},de:{word:c.de.word,sentence:c.de.sentence}});
-const stripProg=c=>({streak:c.streak||0,correct:c.correct||0,seen:c.seen||0,learnedAt:c.learnedAt||null});
+const stripProg=c=>({streak:c.streak||0,correct:c.correct||0,seen:c.seen||0});
 const wordsFromLib=()=>lib.map(stripWord);
 function progFromLib(){const p={};lib.forEach(c=>{p[c.id]=stripProg(c);});return p;}
 function readJSON(k){try{const v=localStorage.getItem(k);return v?JSON.parse(v):null;}catch(e){return null;}}
@@ -248,6 +246,7 @@ function load(){
   if(!Array.isArray(settings.topics))settings.topics=[];
   if(settings.level!==undefined){if(!settings.levels.length&&settings.level!=="all")settings.levels=[settings.level];delete settings.level;}
   if(settings.topic!==undefined){if(!settings.topics.length&&settings.topic!=="all")settings.topics=[settings.topic];delete settings.topic;}
+  delete settings.deprecate; // removed: time-based resurfacing of learned words
   let words=readJSON(WORDS_KEY), prog=readJSON(PROG_KEY)||{};
   if(!Array.isArray(words)||!words.length){
     const legacy=readJSON(LIB_KEY); // one-time migration from the old single-blob format
@@ -331,18 +330,15 @@ async function syncFromRepo(){
 /* ============ learning model ============ */
 function status(c){
   if(settings.retireN>0&&c.correct>=settings.retireN)return "mastered";
-  if(c.streak>=settings.learnY){
-    if(settings.deprecate==="forever")return "learned";
-    const iv=settings.deprecate==="week"?7:30;
-    return Date.now()>=((c.learnedAt||0)+iv*DAY)?"refresh":"learned";
-  }
+  if(c.streak>=settings.learnY)return "learned";
   return "learning";
 }
-const eligible=c=>{const s=status(c);return s==="learning"||s==="refresh";};
+const eligible=c=>status(c)==="learning";
 const inFilter=c=>(!settings.levels.length||settings.levels.includes(c.level))&&(!settings.topics.length||settings.topics.includes(c.topic));
 const front=()=>settings.direction==="it"||settings.direction==="de"?settings.direction:(Math.random()<.5?"it":"de");
 const focusMatch=c=>settings.focus==="seen"?c.seen>0:settings.focus==="new"?!c.seen:true;
-const inSession=c=>inFilter(c)&&eligible(c)&&focusMatch(c);
+// "recap" draws only already-learned words within the filter; every other focus draws the learning pool
+const inSession=c=>settings.focus==="recap"?(inFilter(c)&&status(c)==="learned"):(inFilter(c)&&eligible(c)&&focusMatch(c));
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
 /* ============ session ============ */
@@ -367,12 +363,19 @@ function startSession(){
 const cur=()=>session&&session.queue[0]?lib.find(c=>c.id===session.queue[0].id):null;
 function rate(known){
   const head=session.queue[0];const c=lib.find(x=>x.id===head.id);if(!c)return;
-  const was=c.streak>=settings.learnY;
   c.seen=(c.seen||0)+1;
-  if(known){c.correct++;c.streak++;if(c.streak>=settings.learnY){if(!was)session.learned++;c.learnedAt=Date.now();}}
-  else{c.streak=0;c.learnedAt=null;}
+  const recap=settings.focus==="recap";
+  if(recap){
+    // Reviewing learned words: forgetting one resets its score so it re-enters learning; remembering keeps it learned.
+    if(!known){c.streak=0;c.correct=0;}
+  }else{
+    const was=c.streak>=settings.learnY;
+    if(known){c.correct++;c.streak++;if(c.streak>=settings.learnY&&!was)session.learned++;}
+    else{c.streak=0;}
+  }
   saveProg();
-  session.queue=known?session.queue.slice(1):[...session.queue.slice(1),{id:head.id,f:front()}];
+  // recap is a single pass; normal sessions requeue missed cards until you get them right
+  session.queue=(known||recap)?session.queue.slice(1):[...session.queue.slice(1),{id:head.id,f:front()}];
   flipped=false;
   if(!session.queue.length)session.active=false;
   saveSession();
@@ -416,10 +419,13 @@ function paintSession(){
   if(!session||!session.active){
     const avail=lib.filter(inSession).length;
     const done=session&&session.total>0;
+    const recap=settings.focus==="recap";
+    const emptyMsg=recap?"No learned words to recap under this filter yet — learn some first.":"Nothing to learn under this filter. Change filters or add words.";
+    const readyMsg=recap?("Up to "+settings.sessionSize+" learned words to recap from your current filter."):("Up to "+settings.sessionSize+" words from your current filter.");
     area.appendChild(el("div",{class:"state"},[
-      el("p",{class:"big"},[done?"Session complete":(avail?"Ready when you are":"All caught up")]),
-      el("p",{},[done?("You worked through "+session.total+" words"+(session.learned?" and learned "+session.learned:"")+"."):(avail?("Up to "+settings.sessionSize+" words from your current filter."):"Nothing to learn under this filter. Change filters or add words.")]),
-      avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"0 auto"},onclick:()=>{startSession();paintSession();}},[done?"New session":"Start session"]):null
+      el("p",{class:"big"},[done?(recap?"Recap complete":"Session complete"):(avail?"Ready when you are":"All caught up")]),
+      el("p",{},[done?("You worked through "+session.total+" words"+(session.learned?" and learned "+session.learned:"")+"."):(avail?readyMsg:emptyMsg)]),
+      avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"0 auto"},onclick:()=>{startSession();paintSession();}},[done?"New session":(recap?"Start recap":"Start session")]):null
     ]));
     return;
   }
@@ -446,8 +452,7 @@ function face(c,lang,back){
     el("h2",{class:"word"},[s.word]),
     s.sentence?el("p",{class:"sentence"},[s.sentence]):null,
     el("div",{class:"foot"},[
-      el("span",{class:"dots"},Array.from({length:settings.learnY},(_,i)=>el("span",{class:i<c.streak?"f":""}))),
-      status(c)==="refresh"?el("span",{class:"rtag"},["refresh"]):null
+      el("span",{class:"dots"},Array.from({length:settings.learnY},(_,i)=>el("span",{class:i<c.streak?"f":""})))
     ])
   ]);
 }
@@ -603,13 +608,12 @@ function paintSettings(){
   app.appendChild(el("div",{class:"field"},[el("label",{},["Levels"]),multiSeg(levels,settings.levels,v=>{settings.levels=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Sessions draw only from the selected levels."])]));
   const topics=Array.from(new Set(lib.map(c=>c.topic)));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),multiSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”."])]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["mixed","Mixed"],["seen","Seen only"],["new","New only"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();}),el("span",{class:"sub"},["“Seen only” drills words you've already been tested on; “New only” shows untested ones."])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["mixed","Mixed"],["seen","Seen only"],["new","New only"],["recap","Recap"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();}),el("span",{class:"sub"},["“Seen/New only” filter the learning pool. “Recap” reviews words you've already learned — miss one and its score resets so it returns to learning; get it right and it stays learned."])]));
 
   app.appendChild(el("div",{class:"sec"},["Learning"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Correct in a row to mark learned"]),num(settings.learnY,1,n=>{settings.learnY=n;saveSet();}),el("span",{class:"sub"},["Learned words leave sessions to make room for new ones."])]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Bring learned words back after…"]),seg([["forever","Never"],["month","1 month"],["week","1 week"]],settings.deprecate,v=>{settings.deprecate=v;saveSet();})]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Retire after N total correct (0 = off)"]),num(settings.retireN,0,n=>{settings.retireN=n;saveSet();}),el("span",{class:"sub"},["Once right this many times ever, a word never returns."])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Correct in a row to mark learned"]),num(settings.learnY,1,n=>{settings.learnY=n;saveSet();}),el("span",{class:"sub"},["Learned words leave normal sessions; review them with Focus → Recap."])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Retire after N total correct (0 = off)"]),num(settings.retireN,0,n=>{settings.retireN=n;saveSet();}),el("span",{class:"sub"},["Once right this many times ever, a word never returns (not even in Recap)."])]));
 
   app.appendChild(el("div",{class:"sec"},["Voice"]));
   if(!ttsOK){
@@ -652,7 +656,7 @@ function paintSettings(){
   app.appendChild(el("div",{class:"btnwrap"},[
     el("button",{class:"ghost",onclick:exportLib},["Export (.json)"]),
     el("button",{class:"ghost",onclick:importLib},["Import"]),
-    el("button",{class:"ghost dngr",onclick:()=>{if(confirm("Reset all progress? Words stay, scores go to zero.")){lib=lib.map(c=>({...c,streak:0,correct:0,seen:0,learnedAt:null}));saveProgNow();clearSession();render();}}},["Reset progress"])
+    el("button",{class:"ghost dngr",onclick:()=>{if(confirm("Reset all progress? Words stay, scores go to zero.")){lib=lib.map(c=>({...c,streak:0,correct:0,seen:0}));saveProgNow();clearSession();render();}}},["Reset progress"])
   ]));
   app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — use it as a backup or to move phones."]));
 }

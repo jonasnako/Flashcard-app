@@ -43,7 +43,13 @@ Each entry looks like:
 ## Studying
 
 - **Settings → Study → Levels / Topics** limit which words a session draws from. Both are multi-select: tap any combination of levels and topics (e.g. B1 + B2, or Household + Children), or **All** to clear a selection. An empty selection means everything.
-- **Settings → Focus** controls which words a session draws from: **Mixed** (any due word), **Seen only** (drill words you've already been tested on, instead of a fresh random draw each session), or **New only** (words you've never been tested on).
+- **Settings → Focus** controls which words a session draws from:
+  - **Mixed** — any word still being learned.
+  - **Seen only** — learning words you've already been tested on.
+  - **New only** — words you've never been tested on.
+  - **Recap** — reviews words you've already **learned** (within your Level/Topic filter). Miss one and its score resets to zero, so it drops back into the learning pool; get it right and it stays learned. This replaces time-based resurfacing: instead of learned words reappearing on a schedule, you recap deliberately and only the ones you've actually forgotten come back.
+
+  A word counts as **learned** once you get it right *N* times in a row (**Settings → Correct in a row to mark learned**). Learned words leave the normal (Mixed/Seen/New) sessions and are reviewed via Recap.
 - The **Words** tab is filterable by **Level** and **Topic**, on top of the search box. **Tap any word** to expand its example sentences, level, and topic, then **✏️ Edit** to change any field — including moving it to a different topic (typing an existing topic name, in any case, folds it into that topic). Edits sync to the repo just like generated words.
 
 ## Hands-free (audio) mode
