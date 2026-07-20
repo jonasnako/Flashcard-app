@@ -1,1718 +1,4045 @@
 [
   {
-    "id": "71c76690-e1b2-4b1e-af5b-33e6fcad3c2f",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "pensare a",
-      "sentence": "Penso spesso a quella conversazione."
-    },
-    "de": {
-      "word": "denken an",
-      "sentence": "Ich denke oft an dieses Gespräch."
-    }
-  },
-  {
-    "id": "3580dea5-f17a-4c50-bccd-8445e3682c65",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "riflettere su",
-      "sentence": "Devo riflettere su questa proposta."
-    },
-    "de": {
-      "word": "nachdenken über",
-      "sentence": "Ich muss über diesen Vorschlag nachdenken."
-    }
-  },
-  {
-    "id": "1d83a492-c115-4072-a059-1002458cfa32",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "ricordarsi di",
-      "sentence": "Non mi ricordo del suo nome."
-    },
-    "de": {
-      "word": "sich erinnern an",
-      "sentence": "Ich erinnere mich nicht an seinen Namen."
-    }
-  },
-  {
-    "id": "0d555acc-cf3f-4153-8a4d-f7a60c869a5f",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "dimenticare",
-      "sentence": "Ho dimenticato l'ombrello a casa."
-    },
-    "de": {
-      "word": "vergessen",
-      "sentence": "Ich habe den Regenschirm zu Hause vergessen."
-    }
-  },
-  {
-    "id": "31a0be95-54ac-4746-9524-2eabab781e2b",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "la memoria",
-      "sentence": "Ha una memoria eccezionale per i numeri."
-    },
-    "de": {
-      "word": "das Gedächtnis",
-      "sentence": "Er hat ein außergewöhnliches Gedächtnis für Zahlen."
-    }
-  },
-  {
-    "id": "39e9a33a-e934-4af7-a440-0db7cd9edbcb",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "immaginare",
-      "sentence": "Non riesco a immaginare la sua reazione."
-    },
-    "de": {
-      "word": "sich vorstellen",
-      "sentence": "Ich kann mir seine Reaktion nicht vorstellen."
-    }
-  },
-  {
-    "id": "fcd7f4aa-9b1f-4831-a7f8-3e18953d48e1",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "credere",
-      "sentence": "Credo che abbia ragione."
-    },
-    "de": {
-      "word": "glauben",
-      "sentence": "Ich glaube, dass er recht hat."
-    }
-  },
-  {
-    "id": "b184f903-c518-434c-a252-06ab3f9f6f91",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "supporre",
-      "sentence": "Suppongo che sia già partito."
-    },
-    "de": {
-      "word": "vermuten",
-      "sentence": "Ich vermute, dass er schon abgereist ist."
-    }
-  },
-  {
-    "id": "e6d87f9e-e7bb-47e5-98ea-5977e7ba808c",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "aspettarsi",
-      "sentence": "Non mi aspettavo questa risposta."
-    },
-    "de": {
-      "word": "erwarten",
-      "sentence": "Ich habe diese Antwort nicht erwartet."
-    }
-  },
-  {
-    "id": "4dad45fd-1594-435c-be2c-ebcf69270875",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "accorgersi di",
-      "sentence": "Mi sono accorto dell'errore troppo tardi."
-    },
-    "de": {
-      "word": "bemerken",
-      "sentence": "Ich habe den Fehler zu spät bemerkt."
-    }
-  },
-  {
-    "id": "62aebf60-c74e-4eb8-9c26-9a56323ad933",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "chiedersi",
-      "sentence": "Mi chiedo se sia la scelta giusta."
-    },
-    "de": {
-      "word": "sich fragen",
-      "sentence": "Ich frage mich, ob das die richtige Wahl ist."
-    }
-  },
-  {
-    "id": "c71cbbbe-5cd5-44a1-b38c-ee2219c32101",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "capire",
-      "sentence": "Non capisco perché sia arrabbiato."
-    },
-    "de": {
-      "word": "verstehen",
-      "sentence": "Ich verstehe nicht, warum er wütend ist."
-    }
-  },
-  {
-    "id": "6ad4d337-1db9-473a-bfc2-71dd6c5fe139",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "decidere",
-      "sentence": "Devo decidere entro domani."
-    },
-    "de": {
-      "word": "entscheiden",
-      "sentence": "Ich muss bis morgen entscheiden."
-    }
-  },
-  {
-    "id": "a5a93472-544e-4b52-b744-085e46d0b504",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "cambiare idea",
-      "sentence": "Ha cambiato idea all'ultimo momento."
-    },
-    "de": {
-      "word": "die Meinung ändern",
-      "sentence": "Er hat im letzten Moment die Meinung geändert."
-    }
-  },
-  {
-    "id": "2e15a7d9-a41e-49b2-b3fc-01cba49cff93",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "l'opinione",
-      "sentence": "Rispetto la tua opinione, ma non sono d'accordo."
-    },
-    "de": {
-      "word": "die Meinung",
-      "sentence": "Ich respektiere deine Meinung, bin aber nicht einverstanden."
-    }
-  },
-  {
-    "id": "41f1e064-b4db-4c96-830b-6e03217c0ca1",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "il dubbio",
-      "sentence": "Ho ancora qualche dubbio sul progetto."
-    },
-    "de": {
-      "word": "der Zweifel",
-      "sentence": "Ich habe noch einige Zweifel am Projekt."
-    }
-  },
-  {
-    "id": "af902d93-6ff6-4d15-a8d9-4ec6c8f7515f",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "essere sicuro",
-      "sentence": "Sei sicuro di aver spento il forno?"
-    },
-    "de": {
-      "word": "sicher sein",
-      "sentence": "Bist du sicher, dass du den Ofen ausgeschaltet hast?"
-    }
-  },
-  {
-    "id": "c48fe29d-b3c0-41ac-b1ba-a92704855213",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "convincersi",
-      "sentence": "Alla fine si è convinto ad accettare."
-    },
-    "de": {
-      "word": "sich überzeugen",
-      "sentence": "Am Ende hat er sich überzeugt anzunehmen."
-    }
-  },
-  {
-    "id": "bbe7b081-3523-4f53-86b9-bbd1acfd1f71",
+    "id": "498a4436-c236-42d5-85e6-2e79bbe940b6",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "la consapevolezza",
-      "sentence": "La sua consapevolezza del problema arrivò tardi."
+      "word": "le faccende domestiche",
+      "sentence": "Ci dividiamo le faccende domestiche in modo che nessuno si senta sovraccarico."
     },
     "de": {
-      "word": "das Bewusstsein",
-      "sentence": "Sein Bewusstsein für das Problem kam spät."
+      "word": "die Hausarbeit",
+      "sentence": "Wir teilen uns die Hausarbeit so auf, dass sich niemand überlastet fühlt."
     }
   },
   {
-    "id": "508e1cd9-6968-438a-a67b-1255d00d63d2",
+    "id": "95c3e5c0-3b21-48df-b15a-0d07e07a1b48",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "prendere in considerazione",
-      "sentence": "Dovremmo prendere in considerazione anche altre opzioni."
+      "word": "passare l'aspirapolvere",
+      "sentence": "Prima che arrivino gli ospiti, passo velocemente l'aspirapolvere in salotto."
     },
     "de": {
-      "word": "in Betracht ziehen",
-      "sentence": "Wir sollten auch andere Optionen in Betracht ziehen."
+      "word": "staubsaugen",
+      "sentence": "Bevor die Gäste kommen, sauge ich schnell im Wohnzimmer Staub."
     }
   },
   {
-    "id": "34587fc9-bd9e-4e8e-afc6-ec6ec0cf6c5b",
+    "id": "95916145-c665-44c3-8127-eb81237494e1",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "la riflessione",
-      "sentence": "Dopo lunga riflessione, ha rifiutato l'offerta."
+      "word": "stendere il bucato",
+      "sentence": "Se non stendo il bucato subito, i vestiti prendono un cattivo odore."
     },
     "de": {
-      "word": "das Nachdenken",
-      "sentence": "Nach langem Nachdenken hat er das Angebot abgelehnt."
+      "word": "die Wäsche aufhängen",
+      "sentence": "Wenn ich die Wäsche nicht sofort aufhänge, riechen die Kleider unangenehm."
     }
   },
   {
-    "id": "87a9a359-71fa-42f3-af58-5f23802a98b4",
+    "id": "623e9ed6-c5eb-4a48-a2fa-46add61f23c2",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "figurarsi",
-      "sentence": "Figurati la sua sorpresa quando l'ha visto!"
+      "word": "stirare",
+      "sentence": "Odio stirare le camicie, perciò cerco di comprarne di stropicciabili."
     },
     "de": {
-      "word": "sich vorstellen",
-      "sentence": "Stell dir seine Überraschung vor, als er ihn sah!"
+      "word": "bügeln",
+      "sentence": "Ich hasse es, Hemden zu bügeln, deshalb kaufe ich möglichst knitterfreie."
     }
   },
   {
-    "id": "01347199-7349-46db-8358-df20cb81fccc",
+    "id": "acffabc9-927b-49ca-99dc-21e35037ab57",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "la percezione",
-      "sentence": "La sua percezione del rischio era esagerata."
+      "word": "sparecchiare",
+      "sentence": "Dopo cena tocca ai bambini sparecchiare la tavola."
     },
     "de": {
-      "word": "die Wahrnehmung",
-      "sentence": "Seine Wahrnehmung des Risikos war übertrieben."
+      "word": "abräumen",
+      "sentence": "Nach dem Essen sind die Kinder dran, den Tisch abzuräumen."
     }
   },
   {
-    "id": "75fce01b-1e8d-48ca-bbda-7b5fb478bac2",
+    "id": "050100e2-1483-451d-817e-ad55dbd0f4f0",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "presumere",
-      "sentence": "Presumo che tu abbia già letto il rapporto."
+      "word": "spolverare",
+      "sentence": "Ogni sabato spolvero i mobili e i ripiani della libreria."
     },
     "de": {
-      "word": "annehmen",
-      "sentence": "Ich nehme an, dass du den Bericht schon gelesen hast."
+      "word": "Staub wischen",
+      "sentence": "Jeden Samstag wische ich Staub von den Möbeln und den Regalen."
     }
   },
   {
-    "id": "249cd8a6-cdc5-45be-8645-dd24fa9ea0a3",
+    "id": "2b8dda90-22f8-442c-b6eb-2cdf285c2356",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "il pregiudizio",
-      "sentence": "È difficile liberarsi dei propri pregiudizi."
+      "word": "il detersivo",
+      "sentence": "Preferisco un detersivo ecologico che non irriti la pelle dei bambini."
     },
     "de": {
-      "word": "das Vorurteil",
-      "sentence": "Es ist schwer, sich von den eigenen Vorurteilen zu lösen."
+      "word": "das Waschmittel",
+      "sentence": "Ich bevorzuge ein umweltfreundliches Waschmittel, das die Kinderhaut nicht reizt."
     }
   },
   {
-    "id": "eff7c102-a385-40d0-9801-b0e653bfd62b",
+    "id": "c48a0eb1-ef3f-4ad2-a83a-a11d1ba7684e",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "rendersi conto di",
-      "sentence": "Mi sono reso conto dell'errore solo dopo."
+      "word": "la lavastoviglie",
+      "sentence": "Conviene accendere la lavastoviglie soltanto quando è piena."
     },
     "de": {
-      "word": "sich bewusst werden",
-      "sentence": "Ich wurde mir des Fehlers erst später bewusst."
+      "word": "die Spülmaschine",
+      "sentence": "Es lohnt sich, die Spülmaschine erst dann anzustellen, wenn sie voll ist."
     }
   },
   {
-    "id": "d1f22647-b304-4a5a-8574-700befedea5c",
+    "id": "25807ad2-4789-4665-88e8-08839d57da77",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "il ripensamento",
-      "sentence": "Ebbe un ripensamento all'ultimo minuto."
+      "word": "buttare la spazzatura",
+      "sentence": "Ti ricordi di buttare la spazzatura prima di andare a letto?"
     },
     "de": {
-      "word": "der Sinneswandel",
-      "sentence": "Er hatte im letzten Moment einen Sinneswandel."
+      "word": "den Müll rausbringen",
+      "sentence": "Denkst du daran, den Müll rauszubringen, bevor du ins Bett gehst?"
     }
   },
   {
-    "id": "f039f5d5-3eff-404e-a72b-bf37a0489782",
+    "id": "f25543ac-a32f-47b4-923e-782c079f4be1",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "riconsiderare",
-      "sentence": "Dovremmo riconsiderare l'intera strategia."
+      "word": "riordinare",
+      "sentence": "I bambini devono imparare a riordinare la propria stanza da soli."
     },
     "de": {
-      "word": "überdenken",
-      "sentence": "Wir sollten die ganze Strategie überdenken."
+      "word": "aufräumen",
+      "sentence": "Die Kinder müssen lernen, ihr Zimmer selbst aufzuräumen."
     }
   },
   {
-    "id": "227f7fa2-b2bd-4a83-a50d-ea3f1518badf",
+    "id": "19c837b6-26bb-45b8-ad23-3da9b39a7908",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "trarre una conclusione",
-      "sentence": "Non è facile trarre una conclusione da questi dati."
+      "word": "il disordine",
+      "sentence": "Con un neonato in casa, un po' di disordine è inevitabile."
     },
     "de": {
-      "word": "eine Schlussfolgerung ziehen",
-      "sentence": "Es ist nicht leicht, aus diesen Daten eine Schlussfolgerung zu ziehen."
+      "word": "die Unordnung",
+      "sentence": "Mit einem Säugling im Haus ist ein bisschen Unordnung unvermeidlich."
     }
   },
   {
-    "id": "4919c799-048e-44b1-b289-4cf7b7eb833f",
+    "id": "940d04fc-a651-4874-bfd5-1a9f7ada00ee",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "l'intuizione",
-      "sentence": "Ha seguito l'intuizione e ha avuto ragione."
+      "word": "innaffiare le piante",
+      "sentence": "Mentre siamo in vacanza, il vicino innaffia le nostre piante."
     },
     "de": {
-      "word": "die Intuition",
-      "sentence": "Er folgte seiner Intuition und hatte recht."
+      "word": "die Pflanzen gießen",
+      "sentence": "Während wir im Urlaub sind, gießt der Nachbar unsere Pflanzen."
     }
   },
   {
-    "id": "acb1bbb2-1fe2-4716-be81-52f917175e9f",
+    "id": "9a79b029-3006-436b-90a2-e604755b5219",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "speculare su",
-      "sentence": "Preferisco non speculare sulle sue intenzioni."
+      "word": "l'elettrodomestico",
+      "sentence": "Questo elettrodomestico consuma meno energia del vecchio modello."
     },
     "de": {
-      "word": "spekulieren über",
-      "sentence": "Ich spekuliere lieber nicht über seine Absichten."
+      "word": "das Haushaltsgerät",
+      "sentence": "Dieses Haushaltsgerät verbraucht weniger Strom als das alte Modell."
     }
   },
   {
-    "id": "e4f98e1e-ccf1-4a42-8cd8-d9971ff60ef5",
+    "id": "636c43d0-697a-4455-9197-0c647aa1bb37",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "la bolletta",
+      "sentence": "In inverno le bollette del riscaldamento aumentano parecchio."
+    },
+    "de": {
+      "word": "die Rechnung",
+      "sentence": "Im Winter steigen die Rechnungen für die Heizung deutlich."
+    }
+  },
+  {
+    "id": "fa213a8d-58ed-42a0-875a-e3e0a360d77a",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "fare la spesa",
+      "sentence": "Faccio la spesa una volta a settimana per risparmiare tempo."
+    },
+    "de": {
+      "word": "einkaufen",
+      "sentence": "Ich kaufe einmal pro Woche ein, um Zeit zu sparen."
+    }
+  },
+  {
+    "id": "3b003905-f9a0-40e8-940a-7372a15b51be",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "la ripartizione dei compiti",
+      "sentence": "Una ripartizione equa dei compiti evita molte discussioni in famiglia."
+    },
+    "de": {
+      "word": "die Aufgabenverteilung",
+      "sentence": "Eine faire Aufgabenverteilung erspart der Familie viele Diskussionen."
+    }
+  },
+  {
+    "id": "959667b6-760b-45c0-bbc0-f1094acbc3a4",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "la routine quotidiana",
+      "sentence": "Con due figli piccoli, la routine quotidiana richiede molta organizzazione."
+    },
+    "de": {
+      "word": "der Alltag",
+      "sentence": "Mit zwei kleinen Kindern erfordert der Alltag viel Organisation."
+    }
+  },
+  {
+    "id": "ecf91157-aa7b-441e-a647-6e13e192693a",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il carico mentale",
+      "sentence": "Spesso il carico mentale della gestione familiare ricade su un solo genitore."
+    },
+    "de": {
+      "word": "die mentale Belastung",
+      "sentence": "Oft lastet die mentale Belastung der Familienorganisation auf nur einem Elternteil."
+    }
+  },
+  {
+    "id": "56b5c817-3676-4ded-a5f3-4cd9ede36b84",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "impegnativo",
+      "sentence": "Occuparsi contemporaneamente della casa e dei bambini è davvero impegnativo."
+    },
+    "de": {
+      "word": "anstrengend",
+      "sentence": "Sich gleichzeitig um Haushalt und Kinder zu kümmern, ist wirklich anstrengend."
+    }
+  },
+  {
+    "id": "72041a11-070c-42cb-8373-9971765f6523",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "conciliare famiglia e lavoro",
+      "sentence": "Non è sempre facile conciliare famiglia e lavoro."
+    },
+    "de": {
+      "word": "Familie und Beruf vereinbaren",
+      "sentence": "Es ist nicht immer leicht, Familie und Beruf zu vereinbaren."
+    }
+  },
+  {
+    "id": "252ecb1e-0153-4574-85a5-c95e221d0e75",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "l'educazione",
+      "sentence": "Sull'educazione dei figli i due genitori dovrebbero essere d'accordo."
+    },
+    "de": {
+      "word": "die Erziehung",
+      "sentence": "Bei der Erziehung der Kinder sollten sich beide Eltern einig sein."
+    }
+  },
+  {
+    "id": "a7a8676c-3906-45fb-a1b3-88cc07512b45",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "crescere",
+      "sentence": "Crescere un figlio da soli richiede molta forza."
+    },
+    "de": {
+      "word": "großziehen",
+      "sentence": "Ein Kind allein großzuziehen erfordert viel Kraft."
+    }
+  },
+  {
+    "id": "facfb0fd-8762-4016-b0b9-66b3e9db6470",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il congedo parentale",
+      "sentence": "Dopo la nascita, ha preso sei mesi di congedo parentale."
+    },
+    "de": {
+      "word": "die Elternzeit",
+      "sentence": "Nach der Geburt hat er sechs Monate Elternzeit genommen."
+    }
+  },
+  {
+    "id": "13e678fa-7138-4858-9972-1dd328ec285f",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il pannolino",
+      "sentence": "Bisogna cambiare il pannolino non appena il bambino è bagnato."
+    },
+    "de": {
+      "word": "die Windel",
+      "sentence": "Man muss die Windel wechseln, sobald das Baby nass ist."
+    }
+  },
+  {
+    "id": "7e6f222b-3b84-4a17-8bdd-69f4735a4fea",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il passeggino",
+      "sentence": "Il passeggino nuovo entra a malapena nell'ascensore."
+    },
+    "de": {
+      "word": "der Kinderwagen",
+      "sentence": "Der neue Kinderwagen passt kaum in den Aufzug."
+    }
+  },
+  {
+    "id": "21821583-0a9f-48c6-817c-1edd91be1292",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il ciuccio",
+      "sentence": "A due anni sarebbe ora di togliergli il ciuccio."
+    },
+    "de": {
+      "word": "der Schnuller",
+      "sentence": "Mit zwei Jahren wäre es Zeit, ihm den Schnuller abzugewöhnen."
+    }
+  },
+  {
+    "id": "8d146bbe-4909-4ad9-b439-175d6aaab83d",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "l'asilo nido",
+      "sentence": "Nostro figlio frequenta l'asilo nido tre giorni a settimana."
+    },
+    "de": {
+      "word": "die Kita",
+      "sentence": "Unser Sohn geht drei Tage pro Woche in die Kita."
+    }
+  },
+  {
+    "id": "362eeb30-161d-4bcd-9503-6ff43273aea7",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il capriccio",
+      "sentence": "Al supermercato ha fatto un capriccio perché voleva le caramelle."
+    },
+    "de": {
+      "word": "der Wutanfall",
+      "sentence": "Im Supermarkt bekam er einen Wutanfall, weil er Süßigkeiten wollte."
+    }
+  },
+  {
+    "id": "d51a0aaf-eb23-4268-a3ea-2222c0698e94",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "viziare",
+      "sentence": "I nonni tendono a viziare i nipoti con troppi regali."
+    },
+    "de": {
+      "word": "verwöhnen",
+      "sentence": "Die Großeltern neigen dazu, die Enkel mit zu vielen Geschenken zu verwöhnen."
+    }
+  },
+  {
+    "id": "c8daf4ee-00c3-4b56-b64c-6d088791e509",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il pisolino",
+      "sentence": "Dopo il pisolino pomeridiano il bambino è molto più tranquillo."
+    },
+    "de": {
+      "word": "der Mittagsschlaf",
+      "sentence": "Nach dem Mittagsschlaf ist das Kind viel ausgeglichener."
+    }
+  },
+  {
+    "id": "6ae6d2d8-87bf-401b-b7d4-731262baaa6b",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "addormentarsi",
+      "sentence": "Il piccolo fatica ad addormentarsi senza la sua coperta."
+    },
+    "de": {
+      "word": "einschlafen",
+      "sentence": "Der Kleine kann ohne seine Decke nur schwer einschlafen."
+    }
+  },
+  {
+    "id": "326071e6-17cb-4b27-b5b7-756f7dae15b4",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "i compiti",
+      "sentence": "Dopo la scuola deve finire i compiti prima di giocare."
+    },
+    "de": {
+      "word": "die Hausaufgaben",
+      "sentence": "Nach der Schule muss er die Hausaufgaben fertig machen, bevor er spielt."
+    }
+  },
+  {
+    "id": "54e4468e-7b49-4ed2-bc14-5f23644d721a",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "sorvegliare",
+      "sentence": "Bisogna sempre sorvegliare i bambini quando giocano vicino all'acqua."
+    },
+    "de": {
+      "word": "beaufsichtigen",
+      "sentence": "Man sollte Kinder immer beaufsichtigen, wenn sie am Wasser spielen."
+    }
+  },
+  {
+    "id": "613c2dfd-52d5-491c-8dec-568e24d725ba",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "i fratelli",
+      "sentence": "I fratelli litigano spesso, ma in fondo si vogliono bene."
+    },
+    "de": {
+      "word": "die Geschwister",
+      "sentence": "Die Geschwister streiten sich oft, aber im Grunde haben sie sich lieb."
+    }
+  },
+  {
+    "id": "166409c3-8265-4cd7-b20c-4d4912da8d36",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "la gelosia",
+      "sentence": "Dopo la nascita del secondo figlio, un po' di gelosia è normale."
+    },
+    "de": {
+      "word": "die Eifersucht",
+      "sentence": "Nach der Geburt des zweiten Kindes ist ein wenig Eifersucht ganz normal."
+    }
+  },
+  {
+    "id": "da44cbad-af50-4e55-bf97-ed7fe785808b",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "rimproverare",
+      "sentence": "Invece di rimproverarlo subito, cerco di spiegargli l'errore."
+    },
+    "de": {
+      "word": "schimpfen",
+      "sentence": "Anstatt sofort mit ihm zu schimpfen, versuche ich, ihm den Fehler zu erklären."
+    }
+  },
+  {
+    "id": "e3aaf07f-ad38-4ca7-910f-dc6371c45906",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "la ricompensa",
+      "sentence": "Come ricompensa per i buoni voti, andremo al cinema."
+    },
+    "de": {
+      "word": "die Belohnung",
+      "sentence": "Als Belohnung für die guten Noten gehen wir ins Kino."
+    }
+  },
+  {
+    "id": "ca33da42-dfcd-4850-8d4a-f4ee3a45081d",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "obbediente",
+      "sentence": "Non pretendo un figlio sempre obbediente, ma rispettoso sì."
+    },
+    "de": {
+      "word": "gehorsam",
+      "sentence": "Ich erwarte kein immer gehorsames Kind, aber ein respektvolles schon."
+    }
+  },
+  {
+    "id": "28af915f-0100-4312-b30f-92a93d275ca5",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "testardo",
+      "sentence": "È così testardo che non cambia idea nemmeno davanti ai fatti."
+    },
+    "de": {
+      "word": "stur",
+      "sentence": "Er ist so stur, dass er selbst angesichts der Fakten seine Meinung nicht ändert."
+    }
+  },
+  {
+    "id": "da77a891-0d70-483c-8247-db1f01a56720",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "sfinito",
+      "sentence": "La sera, dopo aver messo a letto i bambini, siamo completamente sfiniti."
+    },
+    "de": {
+      "word": "erschöpft",
+      "sentence": "Abends, nachdem wir die Kinder ins Bett gebracht haben, sind wir völlig erschöpft."
+    }
+  },
+  {
+    "id": "5b68eaed-21c8-4052-ad3d-53504613a4ae",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "la pazienza",
+      "sentence": "Educare i figli richiede molta pazienza e coerenza."
+    },
+    "de": {
+      "word": "die Geduld",
+      "sentence": "Kinder zu erziehen erfordert viel Geduld und Konsequenz."
+    }
+  },
+  {
+    "id": "dc4b1de5-8c91-4153-99b6-afbba4560997",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "la responsabilità",
+      "sentence": "Prendersi cura di un neonato è una grande responsabilità."
+    },
+    "de": {
+      "word": "die Verantwortung",
+      "sentence": "Sich um einen Säugling zu kümmern, ist eine große Verantwortung."
+    }
+  },
+  {
+    "id": "bc166f4f-a1c4-467c-b168-d6c14941179c",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "allattare",
+      "sentence": "Ha deciso di allattare il bambino per i primi sei mesi."
+    },
+    "de": {
+      "word": "stillen",
+      "sentence": "Sie hat beschlossen, das Baby die ersten sechs Monate zu stillen."
+    }
+  },
+  {
+    "id": "5ed41991-f8b8-45ce-b668-9762215fed2b",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il pediatra",
+      "sentence": "Portiamo la bambina dal pediatra per i controlli di routine."
+    },
+    "de": {
+      "word": "der Kinderarzt",
+      "sentence": "Wir bringen die Kleine für die Routineuntersuchungen zum Kinderarzt."
+    }
+  },
+  {
+    "id": "8d23c785-eea2-48b6-8455-5747a2e0c944",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "coccolare",
+      "sentence": "La sera ci piace coccolare i bambini leggendo una favola."
+    },
+    "de": {
+      "word": "kuscheln",
+      "sentence": "Abends kuscheln wir gern mit den Kindern und lesen ein Märchen."
+    }
+  },
+  {
+    "id": "1141ce88-9c3b-4308-91ec-d85941acb0a2",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il lettino",
+      "sentence": "Abbiamo spostato il lettino accanto al nostro letto."
+    },
+    "de": {
+      "word": "das Kinderbett",
+      "sentence": "Wir haben das Kinderbett neben unser Bett gestellt."
+    }
+  },
+  {
+    "id": "8a547dbe-c3d8-41ab-9722-03d135097d97",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "brontolare",
+      "sentence": "Smette di brontolare solo quando ottiene ciò che vuole."
+    },
+    "de": {
+      "word": "meckern",
+      "sentence": "Er hört erst auf zu meckern, wenn er bekommt, was er will."
+    }
+  },
+  {
+    "id": "b20fdffa-8a91-465d-bfb0-6f6325369190",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "affidare",
+      "sentence": "La sera affidiamo i bambini a una babysitter di fiducia."
+    },
+    "de": {
+      "word": "anvertrauen",
+      "sentence": "Abends vertrauen wir die Kinder einem zuverlässigen Babysitter an."
+    }
+  },
+  {
+    "id": "76e2caff-dbb1-417c-a98f-3b2c499b910e",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "le regole",
+      "sentence": "In casa nostra le regole valgono per tutti, anche per gli adulti."
+    },
+    "de": {
+      "word": "die Regeln",
+      "sentence": "Bei uns zu Hause gelten die Regeln für alle, auch für die Erwachsenen."
+    }
+  },
+  {
+    "id": "b844714a-1067-4a8c-b332-8f37e1eb9131",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "lo sviluppo",
+      "sentence": "Ogni bambino ha i suoi tempi di sviluppo e non serve fare paragoni."
+    },
+    "de": {
+      "word": "die Entwicklung",
+      "sentence": "Jedes Kind hat sein eigenes Tempo in der Entwicklung, und Vergleiche bringen nichts."
+    }
+  },
+  {
+    "id": "aebe1633-773f-46a4-871a-9e6a518b3bb0",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "il sentimento",
-      "sentence": "Non riesco a spiegare questo sentimento."
+      "word": "la cucina",
+      "sentence": "In cucina c'è sempre un buon odore quando la mamma cucina."
     },
     "de": {
-      "word": "das Gefühl",
-      "sentence": "Ich kann dieses Gefühl nicht erklären."
+      "word": "die Küche",
+      "sentence": "In der Küche riecht es immer gut, wenn Mama kocht."
     }
   },
   {
-    "id": "a45bbe51-45cc-43c0-b7a6-13606a9edd61",
+    "id": "e44198c1-a7d9-4298-89ce-ae5f254f03c0",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "sentirsi",
-      "sentence": "Mi sento meglio oggi."
+      "word": "cucinare",
+      "sentence": "Il fine settimana mi piace cucinare qualcosa di speciale."
     },
     "de": {
-      "word": "sich fühlen",
-      "sentence": "Ich fühle mich heute besser."
+      "word": "kochen",
+      "sentence": "Am Wochenende koche ich gern etwas Besonderes."
     }
   },
   {
-    "id": "50b5a1cb-cf50-4037-b1d9-164ef05841e5",
+    "id": "9c0ad931-3b69-4dd6-bc19-7cd936cb4e9a",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "provare",
-      "sentence": "Cosa provi quando lo vedi?"
+      "word": "lavare i piatti",
+      "sentence": "Chi cucina non lava i piatti, questa è la regola."
     },
     "de": {
-      "word": "empfinden",
-      "sentence": "Was empfindest du, wenn du ihn siehst?"
+      "word": "abwaschen",
+      "sentence": "Wer kocht, wäscht nicht ab, das ist die Regel."
     }
   },
   {
-    "id": "f30ed27a-c9a3-4e0b-8529-17d81002e438",
+    "id": "6106da02-2cb1-4965-b9fc-27e332904cb0",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "l'umore",
-      "sentence": "Il suo umore cambia in fretta."
+      "word": "la camera da letto",
+      "sentence": "La nostra camera da letto è piccola ma accogliente."
     },
     "de": {
-      "word": "die Stimmung",
-      "sentence": "Seine Stimmung ändert sich schnell."
+      "word": "das Schlafzimmer",
+      "sentence": "Unser Schlafzimmer ist klein, aber gemütlich."
     }
   },
   {
-    "id": "559e60fd-9445-4588-b85e-60c54ab4013c",
+    "id": "d336de81-b555-4b19-88c5-3c19e8533108",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "forte",
-      "sentence": "È un sentimento molto forte."
+      "word": "il salotto",
+      "sentence": "La sera guardiamo la televisione in salotto."
     },
     "de": {
-      "word": "stark",
-      "sentence": "Das ist ein sehr starkes Gefühl."
+      "word": "das Wohnzimmer",
+      "sentence": "Abends schauen wir im Wohnzimmer fern."
     }
   },
   {
-    "id": "ff54450b-da17-47b3-8e78-6ad0889aea05",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "l'emozione",
-      "sentence": "Cercava di nascondere le sue emozioni."
-    },
-    "de": {
-      "word": "die Emotion",
-      "sentence": "Er versuchte, seine Emotionen zu verbergen."
-    }
-  },
-  {
-    "id": "ded4ece6-3649-4557-9513-c5fa1c002a05",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "la sensazione",
-      "sentence": "Aveva una strana sensazione di déjà-vu."
-    },
-    "de": {
-      "word": "das Gespür",
-      "sentence": "Er hatte ein seltsames Gespür für Déjà-vu."
-    }
-  },
-  {
-    "id": "8bb5fd54-1157-425c-8e3a-b77bc8330d8a",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "travolgente",
-      "sentence": "Fu colto da un'emozione travolgente."
-    },
-    "de": {
-      "word": "überwältigend",
-      "sentence": "Er wurde von einer überwältigenden Emotion erfasst."
-    }
-  },
-  {
-    "id": "b48b8e09-23db-4d05-ae48-806eb5f9d23f",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "reprimere",
-      "sentence": "Cerca sempre di reprimere la rabbia."
-    },
-    "de": {
-      "word": "unterdrücken",
-      "sentence": "Er versucht immer, seine Wut zu unterdrücken."
-    }
-  },
-  {
-    "id": "1f760927-1ef6-4581-ac31-b72e7f8ebd30",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "esprimere",
-      "sentence": "Fatica a esprimere ciò che sente."
-    },
-    "de": {
-      "word": "ausdrücken",
-      "sentence": "Es fällt ihm schwer, auszudrücken, was er fühlt."
-    }
-  },
-  {
-    "id": "de7b3184-2b37-4f19-9c86-1f283bfe3c8a",
+    "id": "2a17a98d-a1ed-45c5-befd-c7c2686d0dbd",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "felice",
-      "sentence": "Non sono mai stato così felice."
+      "word": "il bagno",
+      "sentence": "Il bagno è occupato, puoi aspettare cinque minuti?"
     },
     "de": {
-      "word": "glücklich",
-      "sentence": "Ich war noch nie so glücklich."
+      "word": "das Badezimmer",
+      "sentence": "Das Badezimmer ist besetzt, kannst du fünf Minuten warten?"
     }
   },
   {
-    "id": "55fd2117-e831-4005-a0ee-420eaeb1a4d0",
+    "id": "b0490244-508a-4ffc-ba58-495c8667627d",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "la felicità",
-      "sentence": "La felicità non si compra."
+      "word": "pulire",
+      "sentence": "Il sabato mattina puliamo tutta la casa insieme."
     },
     "de": {
-      "word": "das Glück",
-      "sentence": "Glück kann man nicht kaufen."
+      "word": "putzen",
+      "sentence": "Am Samstagmorgen putzen wir zusammen die ganze Wohnung."
     }
   },
   {
-    "id": "77d584a7-512e-4183-bcc0-a2e931a3e9bc",
+    "id": "5e4ee8b2-e68b-42aa-a0e7-33fad44ec26c",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "la gioia",
-      "sentence": "Piangeva di gioia."
+      "word": "la scopa",
+      "sentence": "Prendi la scopa, per favore, ci sono delle briciole sul pavimento."
     },
     "de": {
-      "word": "die Freude",
-      "sentence": "Sie weinte vor Freude."
+      "word": "der Besen",
+      "sentence": "Hol bitte den Besen, auf dem Boden liegen Krümel."
     }
   },
   {
-    "id": "94a39b1c-12e1-4847-8502-fc09699162c6",
+    "id": "6d48dcf1-03df-49ba-b49e-b2e3d05e2806",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "sorridere",
-      "sentence": "Mi sorride ogni volta che mi vede."
+      "word": "spazzare",
+      "sentence": "Dopo cena spazzo sempre il pavimento della cucina."
     },
     "de": {
-      "word": "lächeln",
-      "sentence": "Er lächelt mich an, wann immer er mich sieht."
+      "word": "fegen",
+      "sentence": "Nach dem Essen fege ich immer den Küchenboden."
     }
   },
   {
-    "id": "00e7bb3d-1772-4c75-bc08-a695f9f47388",
+    "id": "a229b116-eadb-4386-b160-2e461f42ff92",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "ridere",
-      "sentence": "Abbiamo riso fino alle lacrime."
+      "word": "la finestra",
+      "sentence": "Apri la finestra, fa caldo qui dentro."
     },
     "de": {
-      "word": "lachen",
-      "sentence": "Wir haben bis zu Tränen gelacht."
+      "word": "das Fenster",
+      "sentence": "Mach das Fenster auf, hier drinnen ist es warm."
     }
   },
   {
-    "id": "8c175e92-8489-4f80-a8db-2bb670f4db0a",
+    "id": "7902e224-50f2-4238-969b-ccf52c624830",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "divertirsi",
-      "sentence": "Ci siamo divertiti moltissimo alla festa."
+      "word": "la porta",
+      "sentence": "Chiudi la porta, per favore, entra freddo."
     },
     "de": {
-      "word": "sich amüsieren",
-      "sentence": "Wir haben uns auf der Party sehr amüsiert."
+      "word": "die Tür",
+      "sentence": "Mach bitte die Tür zu, es zieht."
     }
   },
   {
-    "id": "4acb47e9-a64c-47ed-a804-c3f646a66e35",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "raggiante",
-      "sentence": "Era raggiante di gioia il giorno del matrimonio."
-    },
-    "de": {
-      "word": "strahlend",
-      "sentence": "Sie war am Hochzeitstag strahlend vor Freude."
-    }
-  },
-  {
-    "id": "23986c40-4418-4fb8-8617-7e53e670a6b6",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "l'euforia",
-      "sentence": "L'euforia della vittoria durò tutta la sera."
-    },
-    "de": {
-      "word": "die Euphorie",
-      "sentence": "Die Euphorie des Sieges hielt den ganzen Abend an."
-    }
-  },
-  {
-    "id": "0b00e78e-d755-4873-a397-baed5c22aac7",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "appagato",
-      "sentence": "Si sentiva finalmente appagato dalla sua vita."
-    },
-    "de": {
-      "word": "erfüllt",
-      "sentence": "Er fühlte sich endlich erfüllt von seinem Leben."
-    }
-  },
-  {
-    "id": "c134d109-1428-4238-a1af-97b33a5f2c0a",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "spensierato",
-      "sentence": "Passarono un'estate spensierata al mare."
-    },
-    "de": {
-      "word": "unbeschwert",
-      "sentence": "Sie verbrachten einen unbeschwerten Sommer am Meer."
-    }
-  },
-  {
-    "id": "0ac50b05-7e01-4863-b1f6-3d9ad5bdd5db",
+    "id": "0d016347-7246-4fb9-a4f2-ae88c5abaf82",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "triste",
-      "sentence": "Sembra triste da qualche giorno."
+      "word": "il frigorifero",
+      "sentence": "Il latte è nel frigorifero, in alto a destra."
     },
     "de": {
-      "word": "traurig",
-      "sentence": "Er wirkt seit einigen Tagen traurig."
+      "word": "der Kühlschrank",
+      "sentence": "Die Milch ist im Kühlschrank, oben rechts."
     }
   },
   {
-    "id": "8940d372-5dfd-48f3-8c15-5c49efe93123",
+    "id": "1ab3e9f2-a444-46c1-948a-dbb78bc7cd05",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "la tristezza",
-      "sentence": "Una vaga tristezza lo accompagnava."
+      "word": "il forno",
+      "sentence": "Metto la pizza nel forno per dieci minuti."
     },
     "de": {
-      "word": "die Traurigkeit",
-      "sentence": "Eine vage Traurigkeit begleitete ihn."
+      "word": "der Backofen",
+      "sentence": "Ich schiebe die Pizza für zehn Minuten in den Backofen."
     }
   },
   {
-    "id": "b1b674cf-2f9e-451d-9ecc-ce085bdc873f",
+    "id": "4a4b57a4-0e6e-45dd-9392-c340021531da",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
+    "it": {
+      "word": "la lavatrice",
+      "sentence": "La lavatrice ha finito, possiamo stendere i panni."
+    },
+    "de": {
+      "word": "die Waschmaschine",
+      "sentence": "Die Waschmaschine ist fertig, wir können die Wäsche aufhängen."
+    }
+  },
+  {
+    "id": "65b44299-ce85-47c7-87db-4c5a6129bc50",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il letto",
+      "sentence": "I bambini vanno a letto alle otto di sera."
+    },
+    "de": {
+      "word": "das Bett",
+      "sentence": "Die Kinder gehen um acht Uhr abends ins Bett."
+    }
+  },
+  {
+    "id": "6b69f9a8-597d-495c-9379-f8f5c204bb0c",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "fare il letto",
+      "sentence": "Ogni mattina i bambini devono fare il letto."
+    },
+    "de": {
+      "word": "das Bett machen",
+      "sentence": "Jeden Morgen müssen die Kinder ihr Bett machen."
+    }
+  },
+  {
+    "id": "83589dad-5b13-45fa-93ab-26cebf0ec41a",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la sedia",
+      "sentence": "Manca una sedia a tavola per il nostro ospite."
+    },
+    "de": {
+      "word": "der Stuhl",
+      "sentence": "Am Tisch fehlt ein Stuhl für unseren Gast."
+    }
+  },
+  {
+    "id": "9a81cb23-0cdc-4ca9-981d-216c5d2479dd",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il tavolo",
+      "sentence": "Mettiamo il regalo sul tavolo della cucina."
+    },
+    "de": {
+      "word": "der Tisch",
+      "sentence": "Wir legen das Geschenk auf den Küchentisch."
+    }
+  },
+  {
+    "id": "9f335a09-5310-4acd-995a-d99096203be8",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "l'armadio",
+      "sentence": "I vestiti puliti sono già nell'armadio."
+    },
+    "de": {
+      "word": "der Schrank",
+      "sentence": "Die sauberen Kleider sind schon im Schrank."
+    }
+  },
+  {
+    "id": "48b9c623-7b21-46ca-91b6-632df48966f4",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il cassetto",
+      "sentence": "Le posate sono nel primo cassetto a sinistra."
+    },
+    "de": {
+      "word": "die Schublade",
+      "sentence": "Das Besteck ist in der ersten Schublade links."
+    }
+  },
+  {
+    "id": "3ece59b9-6607-4ce3-9d2b-f6e55991864b",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "apparecchiare la tavola",
+      "sentence": "Puoi apparecchiare la tavola mentre finisco di cucinare?"
+    },
+    "de": {
+      "word": "den Tisch decken",
+      "sentence": "Kannst du den Tisch decken, während ich zu Ende koche?"
+    }
+  },
+  {
+    "id": "83e947f2-28a1-44f2-8ec1-e83a3a8f8712",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la spugna",
+      "sentence": "Pulisci il tavolo con la spugna, per favore."
+    },
+    "de": {
+      "word": "der Schwamm",
+      "sentence": "Wisch bitte den Tisch mit dem Schwamm ab."
+    }
+  },
+  {
+    "id": "3e735ee9-d2a5-4b56-9352-476b811bb834",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "asciugare",
+      "sentence": "Tu lavi e io asciugo i piatti, va bene?"
+    },
+    "de": {
+      "word": "abtrocknen",
+      "sentence": "Du wäschst ab und ich trockne das Geschirr ab, einverstanden?"
+    }
+  },
+  {
+    "id": "a6912111-0143-44a0-b088-6516a9a4c006",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la chiave",
+      "sentence": "La chiave di casa è appesa vicino alla porta."
+    },
+    "de": {
+      "word": "der Schlüssel",
+      "sentence": "Der Schlüssel hängt neben der Tür."
+    }
+  },
+  {
+    "id": "f97ff162-11b0-4da1-acab-d348fec42a32",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "accendere la luce",
+      "sentence": "È buio, accendi la luce per favore."
+    },
+    "de": {
+      "word": "das Licht anmachen",
+      "sentence": "Es ist dunkel, mach bitte das Licht an."
+    }
+  },
+  {
+    "id": "6e75d3bb-ed5d-4a03-9f92-7ddc6cd6f8bb",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il bambino",
+      "sentence": "Il bambino gioca in giardino con il cane."
+    },
+    "de": {
+      "word": "das Kind",
+      "sentence": "Das Kind spielt im Garten mit dem Hund."
+    }
+  },
+  {
+    "id": "85520634-f5b1-4414-abb6-d99e8d7e2b48",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "giocare",
+      "sentence": "I bambini giocano insieme al parco ogni pomeriggio."
+    },
+    "de": {
+      "word": "spielen",
+      "sentence": "Die Kinder spielen jeden Nachmittag zusammen im Park."
+    }
+  },
+  {
+    "id": "87d65441-e6b9-471a-a470-2a74568b6710",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il giocattolo",
+      "sentence": "Dopo aver giocato, rimetti i giocattoli nella scatola."
+    },
+    "de": {
+      "word": "das Spielzeug",
+      "sentence": "Nach dem Spielen räumst du das Spielzeug in die Kiste."
+    }
+  },
+  {
+    "id": "757fcaa0-f329-4d0f-80ac-fe30e7eef323",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "dormire",
+      "sentence": "Il neonato dorme quasi tutto il giorno."
+    },
+    "de": {
+      "word": "schlafen",
+      "sentence": "Das Baby schläft fast den ganzen Tag."
+    }
+  },
+  {
+    "id": "51a37a95-82fb-4e7b-aabd-8b431090b45e",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "svegliarsi",
+      "sentence": "La bambina si sveglia spesso durante la notte."
+    },
+    "de": {
+      "word": "aufwachen",
+      "sentence": "Das Mädchen wacht nachts oft auf."
+    }
+  },
+  {
+    "id": "7134d85e-1eb2-4841-97be-a032fbc02860",
+    "level": "B1",
+    "topic": "Children",
     "it": {
       "word": "piangere",
-      "sentence": "Ha pianto per tutta la notte."
+      "sentence": "Il piccolo piange perché ha fame."
     },
     "de": {
       "word": "weinen",
-      "sentence": "Sie hat die ganze Nacht geweint."
+      "sentence": "Der Kleine weint, weil er Hunger hat."
     }
   },
   {
-    "id": "8c7a8572-6cf0-46c9-9c83-7b49f3101eb0",
+    "id": "7cd3e6c7-6c10-473d-bae7-e48be16f5988",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "deludere",
-      "sentence": "Il risultato mi ha deluso."
+      "word": "ridere",
+      "sentence": "Quando il papà fa le facce buffe, i bambini ridono."
     },
     "de": {
-      "word": "enttäuschen",
-      "sentence": "Das Ergebnis hat mich enttäuscht."
+      "word": "lachen",
+      "sentence": "Wenn Papa Grimassen macht, lachen die Kinder."
     }
   },
   {
-    "id": "1d48a08b-1a5f-4480-b01d-83f1acb9a77a",
+    "id": "fbb16e92-37b2-4e28-891a-411ed081ef66",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "la delusione",
-      "sentence": "Ha nascosto bene la sua delusione."
+      "word": "mangiare",
+      "sentence": "A pranzo i bambini mangiano pasta e verdura."
     },
     "de": {
-      "word": "die Enttäuschung",
-      "sentence": "Er hat seine Enttäuschung gut verborgen."
+      "word": "essen",
+      "sentence": "Zu Mittag essen die Kinder Nudeln und Gemüse."
     }
   },
   {
-    "id": "a08da85d-a84d-4d1a-a14a-4fc4a1990ec6",
+    "id": "6b9c733c-0da7-4ef6-9a1a-79c380ae5a89",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "solo",
-      "sentence": "Si sentiva solo in una città nuova."
+      "word": "la merenda",
+      "sentence": "Nel pomeriggio prepariamo una merenda con frutta e pane."
     },
     "de": {
-      "word": "einsam",
-      "sentence": "Er fühlte sich einsam in einer neuen Stadt."
+      "word": "der Snack",
+      "sentence": "Am Nachmittag machen wir einen Snack mit Obst und Brot."
     }
   },
   {
-    "id": "96d480f1-c5ed-41fd-941e-0684693c42fa",
+    "id": "13ec58b1-dd47-4048-a970-6217ac08b8f5",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "soffrire",
-      "sentence": "Ha sofferto molto dopo la separazione."
+      "word": "il biberon",
+      "sentence": "La mamma prepara il biberon per il neonato."
     },
     "de": {
-      "word": "leiden",
-      "sentence": "Er hat nach der Trennung sehr gelitten."
+      "word": "das Fläschchen",
+      "sentence": "Die Mama macht das Fläschchen für das Baby fertig."
     }
   },
   {
-    "id": "0c80c964-cd65-4260-9fd9-d1a2832e0a55",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "lo sconforto",
-      "sentence": "Lo sconforto lo aveva paralizzato per settimane."
-    },
-    "de": {
-      "word": "die Mutlosigkeit",
-      "sentence": "Die Mutlosigkeit hatte ihn wochenlang gelähmt."
-    }
-  },
-  {
-    "id": "9a383963-3d93-48a0-8e16-83d8161257ad",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "l'abbattimento",
-      "sentence": "Un profondo abbattimento seguì la notizia."
-    },
-    "de": {
-      "word": "die Niedergeschlagenheit",
-      "sentence": "Tiefe Niedergeschlagenheit folgte der Nachricht."
-    }
-  },
-  {
-    "id": "1178bf7e-5a61-4bb1-bbfe-29fccb33a6db",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "la malinconia",
-      "sentence": "Guardava le vecchie foto con malinconia."
-    },
-    "de": {
-      "word": "die Wehmut",
-      "sentence": "Er betrachtete die alten Fotos mit Wehmut."
-    }
-  },
-  {
-    "id": "81b2dc36-255f-4b8c-bac4-2951b6b0f795",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "struggente",
-      "sentence": "Fu una scena struggente."
-    },
-    "de": {
-      "word": "herzzerreißend",
-      "sentence": "Es war eine herzzerreißende Szene."
-    }
-  },
-  {
-    "id": "88739175-e9b5-4bc7-9a95-849bc4b654da",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "il lutto",
-      "sentence": "Il lutto per la perdita fu lungo."
-    },
-    "de": {
-      "word": "die Trauer",
-      "sentence": "Die Trauer über den Verlust war lang."
-    }
-  },
-  {
-    "id": "461a166c-d7d4-4f64-a13e-4992948537f4",
+    "id": "5c66fb06-c12a-40ec-8a5c-de382b9d2933",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "soddisfatto",
-      "sentence": "Sono molto soddisfatto del risultato."
+      "word": "imparare",
+      "sentence": "A scuola i bambini imparano a leggere e a scrivere."
     },
     "de": {
-      "word": "zufrieden",
-      "sentence": "Ich bin sehr zufrieden mit dem Ergebnis."
+      "word": "lernen",
+      "sentence": "In der Schule lernen die Kinder lesen und schreiben."
     }
   },
   {
-    "id": "1682d22e-a191-4e20-aef4-73a67c2e5a4b",
+    "id": "44a0fb5c-e510-4987-aac1-2c718460f5e2",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "insoddisfatto",
-      "sentence": "È rimasto insoddisfatto del servizio."
+      "word": "disegnare",
+      "sentence": "Mia figlia ama disegnare animali con i pennarelli."
     },
     "de": {
-      "word": "unzufrieden",
-      "sentence": "Er blieb unzufrieden mit dem Service."
+      "word": "malen",
+      "sentence": "Meine Tochter malt gern Tiere mit Filzstiften."
     }
   },
   {
-    "id": "9401b20b-27d4-49ef-bf6f-e050b56d2bbf",
+    "id": "8f1ac1ca-bc0c-4ac1-8997-526c3f714401",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "avere abbastanza",
-      "sentence": "Ho abbastanza di queste scuse."
+      "word": "il disegno",
+      "sentence": "Ha appeso il suo disegno sul frigorifero."
     },
     "de": {
-      "word": "genug haben",
-      "sentence": "Ich habe genug von diesen Ausreden."
+      "word": "die Zeichnung",
+      "sentence": "Sie hat ihre Zeichnung an den Kühlschrank gehängt."
     }
   },
   {
-    "id": "3ea1f1fc-f549-46f0-8c6d-c7c30530a8ab",
+    "id": "30db17cd-b5b8-4b39-ab01-7b2acb87095f",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "contento",
-      "sentence": "Sono contento che tu sia venuto."
+      "word": "raccontare una storia",
+      "sentence": "Ogni sera papà racconta una storia prima di dormire."
     },
     "de": {
-      "word": "froh",
-      "sentence": "Ich bin froh, dass du gekommen bist."
+      "word": "eine Geschichte erzählen",
+      "sentence": "Jeden Abend erzählt Papa vor dem Schlafen eine Geschichte."
     }
   },
   {
-    "id": "4b950226-9a50-4f1e-bacb-2873cac92fac",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "la piena soddisfazione",
-      "sentence": "Il progetto fu completato con piena soddisfazione."
-    },
-    "de": {
-      "word": "die volle Zufriedenheit",
-      "sentence": "Das Projekt wurde mit voller Zufriedenheit abgeschlossen."
-    }
-  },
-  {
-    "id": "2d77b2d6-d4e4-4bc2-bf7d-ff828ef04b9f",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "esaudito",
-      "sentence": "Il suo desiderio fu finalmente esaudito."
-    },
-    "de": {
-      "word": "erfüllt",
-      "sentence": "Sein Wunsch wurde endlich erfüllt."
-    }
-  },
-  {
-    "id": "501c78ac-fa18-412a-85c1-60feeb540b01",
+    "id": "44fb87e2-53cf-466e-8eed-b4aa208f898d",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "sorprendere",
-      "sentence": "La sua reazione mi ha sorpreso."
+      "word": "abbracciare",
+      "sentence": "La bambina abbraccia forte la sua mamma."
     },
     "de": {
-      "word": "überraschen",
-      "sentence": "Seine Reaktion hat mich überrascht."
+      "word": "umarmen",
+      "sentence": "Das Mädchen umarmt seine Mama fest."
     }
   },
   {
-    "id": "0f3d488d-880d-41fd-830d-7f06f1de3400",
+    "id": "561741dc-118d-4a1e-9375-b16570d2bbe9",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "la sorpresa",
-      "sentence": "Che bella sorpresa vederti qui!"
+      "word": "la scuola",
+      "sentence": "Mio figlio va a scuola a piedi ogni mattina."
     },
     "de": {
-      "word": "die Überraschung",
-      "sentence": "Was für eine schöne Überraschung, dich hier zu sehen!"
+      "word": "die Schule",
+      "sentence": "Mein Sohn geht jeden Morgen zu Fuß zur Schule."
     }
   },
   {
-    "id": "ab01bc0c-6d1a-4873-8148-47112eb8bd8b",
+    "id": "8f1f8d47-988d-44e2-be61-9aed4ab4f50b",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "inaspettato",
-      "sentence": "L'esito fu del tutto inaspettato."
+      "word": "la maestra",
+      "sentence": "La maestra è molto gentile con i bambini."
     },
     "de": {
-      "word": "unerwartet",
-      "sentence": "Das Ergebnis war völlig unerwartet."
+      "word": "die Lehrerin",
+      "sentence": "Die Lehrerin ist sehr nett zu den Kindern."
     }
   },
   {
-    "id": "54cc3fc1-f045-4bb5-bd32-10b51e00869b",
+    "id": "4ee22157-da0b-4f4e-8286-7c3a76f10e35",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "stupito",
-      "sentence": "Rimase stupito dalla sua abilità."
+      "word": "i genitori",
+      "sentence": "I genitori aspettano i bambini davanti alla scuola."
     },
     "de": {
-      "word": "erstaunt",
-      "sentence": "Er war erstaunt über seine Fähigkeit."
+      "word": "die Eltern",
+      "sentence": "Die Eltern warten vor der Schule auf die Kinder."
     }
   },
   {
-    "id": "59aac65b-e044-4ffd-a084-623a47a04cb7",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "sbalordito",
-      "sentence": "Rimasi sbalordito dalla velocità del cambiamento."
-    },
-    "de": {
-      "word": "verblüfft",
-      "sentence": "Ich war verblüfft von der Geschwindigkeit der Veränderung."
-    }
-  },
-  {
-    "id": "3e07b614-d149-4431-9556-f85e647b961d",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "lo sbigottimento",
-      "sentence": "Lo sbigottimento si leggeva sui loro volti."
-    },
-    "de": {
-      "word": "die Fassungslosigkeit",
-      "sentence": "Die Fassungslosigkeit war ihnen ins Gesicht geschrieben."
-    }
-  },
-  {
-    "id": "8ea5600d-d684-479d-8576-a8137ab6bf22",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "sconcertante",
-      "sentence": "Fu una scoperta piuttosto sconcertante."
-    },
-    "de": {
-      "word": "verwirrend",
-      "sentence": "Es war eine ziemlich verwirrende Entdeckung."
-    }
-  },
-  {
-    "id": "9ad1d503-393d-4964-bec0-656833ca84cb",
+    "id": "986b38dd-f36d-44b2-b949-47fb229e0c2a",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "piacere",
-      "sentence": "Mi piace molto questo posto."
+      "word": "la nonna",
+      "sentence": "La nonna prepara sempre una buona torta la domenica."
     },
     "de": {
-      "word": "gefallen",
-      "sentence": "Dieser Ort gefällt mir sehr."
+      "word": "die Oma",
+      "sentence": "Die Oma backt sonntags immer einen guten Kuchen."
     }
   },
   {
-    "id": "3784f8f5-d9cc-4f2e-9249-46d029c98b08",
+    "id": "90a9eb37-f91a-4ec6-9a8a-5d05e182ffd2",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "preferire",
-      "sentence": "Preferisco il tè al caffè."
+      "word": "il nonno",
+      "sentence": "Il nonno porta i bambini a giocare al parco."
     },
     "de": {
-      "word": "bevorzugen",
-      "sentence": "Ich bevorzuge Tee gegenüber Kaffee."
+      "word": "der Opa",
+      "sentence": "Der Opa nimmt die Kinder zum Spielen in den Park mit."
     }
   },
   {
-    "id": "945ab62b-6a20-47ed-81f6-a44da0673c05",
+    "id": "c4e90f2a-4206-438d-92d0-320a4b1361e7",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "non sopportare",
-      "sentence": "Non sopporto la gente maleducata."
+      "word": "il compleanno",
+      "sentence": "Domani è il compleanno di mia figlia e facciamo una festa."
     },
     "de": {
-      "word": "nicht ausstehen können",
-      "sentence": "Ich kann unhöfliche Menschen nicht ausstehen."
+      "word": "der Geburtstag",
+      "sentence": "Morgen hat meine Tochter Geburtstag und wir feiern."
     }
   },
   {
-    "id": "f8944da6-0562-4634-a671-c0c4e4003572",
+    "id": "7ec9b710-2ee5-4e95-8ae8-f16b0a1208e6",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "odiare",
-      "sentence": "Odia aspettare in fila."
+      "word": "il regalo",
+      "sentence": "Il bambino apre il regalo con grande gioia."
     },
     "de": {
-      "word": "hassen",
-      "sentence": "Er hasst es, in der Schlange zu warten."
+      "word": "das Geschenk",
+      "sentence": "Das Kind packt das Geschenk voller Freude aus."
     }
   },
   {
-    "id": "1a5c3233-69df-4c59-ad03-291eabe7c8f5",
+    "id": "df7a22bf-4008-4e69-a648-759e599b200a",
     "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "amare",
-      "sentence": "Ama il proprio lavoro."
-    },
-    "de": {
-      "word": "lieben",
-      "sentence": "Er liebt seine Arbeit."
-    }
-  },
-  {
-    "id": "8e8e484f-525d-49d8-9aa9-6d5728ad98a5",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "gradevole",
-      "sentence": "È stata una serata molto gradevole."
-    },
-    "de": {
-      "word": "angenehm",
-      "sentence": "Es war ein sehr angenehmer Abend."
-    }
-  },
-  {
-    "id": "5533ab59-19c6-429f-84f9-6f379c0cdb20",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "spiacevole",
-      "sentence": "Ho avuto un incontro spiacevole."
-    },
-    "de": {
-      "word": "unangenehm",
-      "sentence": "Ich hatte eine unangenehme Begegnung."
-    }
-  },
-  {
-    "id": "f1d2646f-c26a-406b-954a-4a053d59b9f2",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "essere stufo di",
-      "sentence": "Sono stufo delle sue continue lamentele."
-    },
-    "de": {
-      "word": "überdrüssig sein",
-      "sentence": "Ich bin seiner ständigen Beschwerden überdrüssig."
-    }
-  },
-  {
-    "id": "707e3536-2514-4f4f-a426-d04dfa4e5a08",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "l'avversione",
-      "sentence": "Provava una forte avversione per il conflitto."
-    },
-    "de": {
-      "word": "die Abneigung",
-      "sentence": "Er empfand eine starke Abneigung gegen Konflikt."
-    }
-  },
-  {
-    "id": "4c8875e7-c3ac-42de-829d-d5bbbb457b67",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "attraente",
-      "sentence": "L'offerta era piuttosto attraente."
-    },
-    "de": {
-      "word": "reizvoll",
-      "sentence": "Das Angebot war ziemlich reizvoll."
-    }
-  },
-  {
-    "id": "33c38ce3-987c-4f7b-ae97-192d0b9b9b8d",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
       "word": "avere paura",
-      "sentence": "Ha paura del buio."
+      "sentence": "Di notte il piccolo ha paura del buio."
     },
     "de": {
       "word": "Angst haben",
-      "sentence": "Er hat Angst vor der Dunkelheit."
+      "sentence": "Nachts hat der Kleine Angst vor der Dunkelheit."
     }
   },
   {
-    "id": "cf3b67bd-ddc7-4c56-a80b-dbcb2a970a6c",
+    "id": "efe0dd12-48f6-42da-a765-30b88572eb97",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "la paura",
-      "sentence": "La paura lo bloccò sul posto."
+      "word": "lavarsi i denti",
+      "sentence": "Prima di dormire i bambini si lavano i denti."
     },
     "de": {
-      "word": "die Angst",
-      "sentence": "Die Angst hielt ihn auf der Stelle fest."
+      "word": "die Zähne putzen",
+      "sentence": "Vor dem Schlafen putzen sich die Kinder die Zähne."
     }
   },
   {
-    "id": "94f3e119-1e27-484c-805a-67b92cdd39f6",
+    "id": "b0c19746-04d5-44f8-a558-ed898a1c9061",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "preoccuparsi",
-      "sentence": "Non preoccuparti, andrà tutto bene."
+      "word": "vestirsi",
+      "sentence": "Al mattino mia figlia si veste da sola."
     },
     "de": {
-      "word": "sich Sorgen machen",
-      "sentence": "Mach dir keine Sorgen, es wird alles gut."
+      "word": "sich anziehen",
+      "sentence": "Am Morgen zieht sich meine Tochter allein an."
     }
   },
   {
-    "id": "35278941-0692-4fc9-ba31-7c0f436de097",
+    "id": "27656956-8e74-47a1-9920-5c105d254a93",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "la preoccupazione",
-      "sentence": "La sua principale preoccupazione era la salute dei figli."
+      "word": "lucidare",
+      "sentence": "Lucido l'argenteria prima delle feste."
     },
     "de": {
-      "word": "die Sorge",
-      "sentence": "Seine Hauptsorge war die Gesundheit der Kinder."
+      "word": "polieren",
+      "sentence": "Ich poliere das Silberbesteck vor den Feiertagen."
     }
   },
   {
-    "id": "8bcce83a-c650-41ef-9482-6692e694ada0",
+    "id": "f2d2e26a-5a93-49fb-9ea4-81be88e643ae",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "nervoso",
-      "sentence": "Era nervoso prima dell'esame."
+      "word": "disinfettare",
+      "sentence": "Disinfetto sempre il tagliere dopo la carne."
     },
     "de": {
-      "word": "nervös",
-      "sentence": "Er war vor der Prüfung nervös."
+      "word": "desinfizieren",
+      "sentence": "Ich desinfiziere das Schneidebrett immer nach dem Fleisch."
     }
   },
   {
-    "id": "7ce60983-8061-412b-8d1d-2b885dc24d4a",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "tranquillo",
-      "sentence": "Resta tranquillo, ci penso io."
-    },
-    "de": {
-      "word": "ruhig",
-      "sentence": "Bleib ruhig, ich kümmere mich darum."
-    }
-  },
-  {
-    "id": "fbc846aa-ad1f-48e5-addf-14c3df68da0e",
+    "id": "d42889c9-61f2-41f2-919c-d47849d199ad",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "l'angoscia",
-      "sentence": "Un'angoscia sottile lo accompagnava."
+      "word": "sgrassare",
+      "sentence": "Devo sgrassare bene la cappa della cucina."
     },
     "de": {
-      "word": "die Beklemmung",
-      "sentence": "Eine leise Beklemmung begleitete ihn."
+      "word": "entfetten",
+      "sentence": "Ich muss die Dunstabzugshaube gut entfetten."
     }
   },
   {
-    "id": "bd90cfd5-3878-4cd9-92f6-186d612406a1",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
+    "id": "b1671c6c-e02f-4ea0-9a24-5ffc393d42f4",
+    "level": "B1",
+    "topic": "Household",
     "it": {
-      "word": "inquieto",
-      "sentence": "Passò la notte inquieto e insonne."
+      "word": "piegare i vestiti",
+      "sentence": "Piego i vestiti appena si asciugano."
     },
     "de": {
-      "word": "unruhig",
-      "sentence": "Er verbrachte die Nacht unruhig und schlaflos."
+      "word": "die Kleidung falten",
+      "sentence": "Ich falte die Kleidung, sobald sie trocken ist."
     }
   },
   {
-    "id": "cc859e7e-432c-4ad3-8455-9b0389fdf037",
+    "id": "9b701b5e-15a3-4a4f-8323-43f1149e03ff",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
     "it": {
-      "word": "l'apprensione",
-      "sentence": "Aspettava i risultati con crescente apprensione."
+      "word": "rammendare",
+      "sentence": "Ha imparato a rammendare i calzini da sua nonna."
     },
     "de": {
-      "word": "die Besorgnis",
-      "sentence": "Er wartete mit wachsender Besorgnis auf die Ergebnisse."
+      "word": "stopfen",
+      "sentence": "Sie hat das Sockenstopfen von ihrer Großmutter gelernt."
     }
   },
   {
-    "id": "f03d4a81-3d41-4d0f-9bca-061358a28514",
+    "id": "0f120427-0771-4b30-8e0e-0c171b24c644",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "cucire un bottone",
+      "sentence": "Mi manca un bottone, devo cucirlo stasera."
+    },
+    "de": {
+      "word": "einen Knopf annähen",
+      "sentence": "Mir fehlt ein Knopf, ich muss ihn heute Abend annähen."
+    }
+  },
+  {
+    "id": "dcbd2aa3-b946-435e-90b1-33b829837a0f",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "svuotare la lavastoviglie",
+      "sentence": "Puoi svuotare la lavastoviglie prima di uscire?"
+    },
+    "de": {
+      "word": "die Spülmaschine ausräumen",
+      "sentence": "Kannst du die Spülmaschine ausräumen, bevor du gehst?"
+    }
+  },
+  {
+    "id": "14f1b84f-ac35-41dd-a2e0-238b85b1d4bf",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "caricare la lavatrice",
+      "sentence": "Carico la lavatrice ogni due giorni."
+    },
+    "de": {
+      "word": "die Waschmaschine beladen",
+      "sentence": "Ich beladen die Waschmaschine alle zwei Tage."
+    }
+  },
+  {
+    "id": "6978b46d-adcc-412b-abf7-6d05534457d3",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "cambiare le lenzuola",
+      "sentence": "Cambiamo le lenzuola ogni settimana."
+    },
+    "de": {
+      "word": "die Bettwäsche wechseln",
+      "sentence": "Wir wechseln die Bettwäsche jede Woche."
+    }
+  },
+  {
+    "id": "fde9df5a-0f24-4b2d-b4bd-beb622fdc687",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Household",
+    "it": {
+      "word": "organizzare la dispensa",
+      "sentence": "Ho organizzato la dispensa per categorie."
+    },
+    "de": {
+      "word": "die Vorratskammer ordnen",
+      "sentence": "Ich habe die Vorratskammer nach Kategorien geordnet."
+    }
+  },
+  {
+    "id": "f6065480-d6aa-4810-b4ce-b8eb27125e61",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "buttare via",
+      "sentence": "Butta via quello che è scaduto."
+    },
+    "de": {
+      "word": "wegwerfen",
+      "sentence": "Wirf weg, was abgelaufen ist."
+    }
+  },
+  {
+    "id": "cc0f4ea7-160b-4d5b-979f-132c1bb12588",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "riciclare",
+      "sentence": "Riicicliamo vetro, carta e plastica."
+    },
+    "de": {
+      "word": "recyceln",
+      "sentence": "Wir recyceln Glas, Papier und Plastik."
+    }
+  },
+  {
+    "id": "feeadb3b-5e28-45f6-8d11-18f0ea0dfc09",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "differenziare i rifiuti",
+      "sentence": "In Svizzera si differenziano molto i rifiuti."
+    },
+    "de": {
+      "word": "den Müll trennen",
+      "sentence": "In der Schweiz wird der Müll sehr genau getrennt."
+    }
+  },
+  {
+    "id": "9bc3e2cc-962b-4085-ab14-8f7ffb19e3b8",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "lavare a mano",
+      "sentence": "Questo maglione va lavato a mano."
+    },
+    "de": {
+      "word": "mit der Hand waschen",
+      "sentence": "Dieser Pullover muss mit der Hand gewaschen werden."
+    }
+  },
+  {
+    "id": "b66f37a9-0737-405a-9280-aeb7e84d2cd6",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "mettere ad asciugare",
+      "sentence": "Metto i panni ad asciugare sul balcone."
+    },
+    "de": {
+      "word": "zum Trocknen aufhängen",
+      "sentence": "Ich hänge die Wäsche zum Trocknen auf den Balkon."
+    }
+  },
+  {
+    "id": "1c088412-f3ef-4521-88f5-9dc102815985",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "l'aspirapolvere",
+      "sentence": "L'aspirapolvere ha smesso di funzionare."
+    },
+    "de": {
+      "word": "der Staubsauger",
+      "sentence": "Der Staubsauger hat aufgehört zu funktionieren."
+    }
+  },
+  {
+    "id": "caa568a9-a373-4503-ac3a-9e1eb7f4e321",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il ferro da stiro",
+      "sentence": "Il ferro da stiro è ancora caldo, attento."
+    },
+    "de": {
+      "word": "das Bügeleisen",
+      "sentence": "Das Bügeleisen ist noch heiß, sei vorsichtig."
+    }
+  },
+  {
+    "id": "faa362cd-9a1a-4d65-b48b-05fa652e7652",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "l'asciugatrice",
+      "sentence": "Non abbiamo un'asciugatrice, stendiamo tutto."
+    },
+    "de": {
+      "word": "der Wäschetrockner",
+      "sentence": "Wir haben keinen Wäschetrockner, wir hängen alles auf."
+    }
+  },
+  {
+    "id": "415b65dc-a7a0-439e-901a-bebd9efdec44",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il forno a microonde",
+      "sentence": "Riscalda la minestra nel forno a microonde."
+    },
+    "de": {
+      "word": "die Mikrowelle",
+      "sentence": "Erwärme die Suppe in der Mikrowelle."
+    }
+  },
+  {
+    "id": "c1f788bf-505c-4e82-a404-db2b40964f71",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il robot da cucina",
+      "sentence": "Il robot da cucina impasta al posto mio."
+    },
+    "de": {
+      "word": "die Küchenmaschine",
+      "sentence": "Die Küchenmaschine knetet den Teig für mich."
+    }
+  },
+  {
+    "id": "462ace50-9e93-4001-bebd-4fcd5c7913b1",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il frullatore",
+      "sentence": "Uso il frullatore per i frullati dei bambini."
+    },
+    "de": {
+      "word": "der Mixer",
+      "sentence": "Ich benutze den Mixer für die Smoothies der Kinder."
+    }
+  },
+  {
+    "id": "b43c76e7-2afc-4195-b44b-0944848851bd",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il tostapane",
+      "sentence": "Il tostapane si è bloccato di nuovo."
+    },
+    "de": {
+      "word": "der Toaster",
+      "sentence": "Der Toaster hat sich wieder verklemmt."
+    }
+  },
+  {
+    "id": "10bcd828-b6a2-4c23-b4f3-328720b5602a",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il bollitore",
+      "sentence": "Metto l'acqua nel bollitore per il tè."
+    },
+    "de": {
+      "word": "der Wasserkocher",
+      "sentence": "Ich gebe das Wasser für den Tee in den Wasserkocher."
+    }
+  },
+  {
+    "id": "f25ac798-eb1c-4c56-926b-9674896f570d",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il termostato",
+      "sentence": "Ho abbassato il termostato di due gradi."
+    },
+    "de": {
+      "word": "der Thermostat",
+      "sentence": "Ich habe den Thermostat um zwei Grad heruntergestellt."
+    }
+  },
+  {
+    "id": "8dcc61c4-84e0-4b27-859b-21a4220525cf",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la presa",
+      "sentence": "Non c'è nessuna presa libera in cucina."
+    },
+    "de": {
+      "word": "die Steckdose",
+      "sentence": "In der Küche gibt es keine freie Steckdose."
+    }
+  },
+  {
+    "id": "b9b8bd1f-51c0-49ea-9d74-2e037526e2a7",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la spina",
+      "sentence": "Stacca la spina prima di pulirlo."
+    },
+    "de": {
+      "word": "der Stecker",
+      "sentence": "Zieh den Stecker, bevor du es reinigst."
+    }
+  },
+  {
+    "id": "7e658f80-a65a-450b-a6ac-072ac30ab894",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il fusibile",
+      "sentence": "È saltato un fusibile durante il temporale."
+    },
+    "de": {
+      "word": "die Sicherung",
+      "sentence": "Während des Gewitters ist eine Sicherung durchgebrannt."
+    }
+  },
+  {
+    "id": "4dcdc7c7-4ad1-40b6-a7b0-05e07250149d",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il filtro",
+      "sentence": "Il filtro della cappa va pulito ogni mese."
+    },
+    "de": {
+      "word": "der Filter",
+      "sentence": "Der Filter der Dunstabzugshaube muss monatlich gereinigt werden."
+    }
+  },
+  {
+    "id": "f22886a2-283d-40c2-bebd-818491cbb0b1",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "guastarsi",
+      "sentence": "La lavatrice si è guastata proprio oggi."
+    },
+    "de": {
+      "word": "kaputtgehen",
+      "sentence": "Die Waschmaschine ist ausgerechnet heute kaputtgegangen."
+    }
+  },
+  {
+    "id": "f27bf911-b9e8-4414-b0d3-3bc843f74e01",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "riparare",
+      "sentence": "Ho fatto riparare il forno la settimana scorsa."
+    },
+    "de": {
+      "word": "reparieren",
+      "sentence": "Ich habe letzte Woche den Ofen reparieren lassen."
+    }
+  },
+  {
+    "id": "2490e0ab-0fc6-4be3-b611-cffc38c88721",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il guasto",
+      "sentence": "Il guasto era più serio del previsto."
+    },
+    "de": {
+      "word": "der Defekt",
+      "sentence": "Der Defekt war ernster als erwartet."
+    }
+  },
+  {
+    "id": "fd4be56d-49b7-4883-806b-95a1a417392f",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "la perdita d'acqua",
+      "sentence": "Abbiamo scoperto una perdita d'acqua sotto il lavandino."
+    },
+    "de": {
+      "word": "das Wasserleck",
+      "sentence": "Wir haben ein Wasserleck unter dem Waschbecken entdeckt."
+    }
+  },
+  {
+    "id": "fa65b66c-1a68-4df1-9940-d2f770ef39e7",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il rubinetto",
+      "sentence": "Il rubinetto della cucina gocciola."
+    },
+    "de": {
+      "word": "der Wasserhahn",
+      "sentence": "Der Küchenwasserhahn tropft."
+    }
+  },
+  {
+    "id": "be889af7-09bf-4aef-bfcf-5b91c5769660",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "l'idraulico",
+      "sentence": "Abbiamo chiamato l'idraulico per il tubo rotto."
+    },
+    "de": {
+      "word": "der Klempner",
+      "sentence": "Wir haben den Klempner wegen des kaputten Rohrs gerufen."
+    }
+  },
+  {
+    "id": "f4afc3bf-7b82-4f9f-a97e-35ad2a3c8ba5",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "l'elettricista",
+      "sentence": "L'elettricista ha controllato tutti gli impianti."
+    },
+    "de": {
+      "word": "der Elektriker",
+      "sentence": "Der Elektriker hat alle Anlagen überprüft."
+    }
+  },
+  {
+    "id": "c1c8f963-21c7-447b-aefd-af480ac7b7b3",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il fabbro",
+      "sentence": "Ho chiamato il fabbro perché mi sono chiuso fuori."
+    },
+    "de": {
+      "word": "der Schlosser",
+      "sentence": "Ich habe den Schlosser gerufen, weil ich mich ausgesperrt habe."
+    }
+  },
+  {
+    "id": "19f071ef-f5a2-4670-be23-9242ad6f0347",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "otturato",
+      "sentence": "Il lavandino è completamente otturato."
+    },
+    "de": {
+      "word": "verstopft",
+      "sentence": "Das Waschbecken ist völlig verstopft."
+    }
+  },
+  {
+    "id": "7660d795-cd9d-400d-9246-3553a2310d24",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "la muffa",
+      "sentence": "C'è della muffa nell'angolo del bagno."
+    },
+    "de": {
+      "word": "der Schimmel",
+      "sentence": "In der Ecke des Badezimmers ist Schimmel."
+    }
+  },
+  {
+    "id": "be532eee-34c1-418d-a367-fcb38dd40e23",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "l'umidità",
+      "sentence": "L'umidità in cantina rovina tutto."
+    },
+    "de": {
+      "word": "die Feuchtigkeit",
+      "sentence": "Die Feuchtigkeit im Keller ruiniert alles."
+    }
+  },
+  {
+    "id": "f97ab91d-6bb5-4b02-96c6-1a25ddee719a",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "verniciare",
+      "sentence": "Vogliamo verniciare la porta d'ingresso."
+    },
+    "de": {
+      "word": "lackieren",
+      "sentence": "Wir wollen die Eingangstür lackieren."
+    }
+  },
+  {
+    "id": "67f146ea-8f0d-4b98-897b-7699eb424312",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "imbiancare",
+      "sentence": "Bisogna imbiancare il soggiorno prima di trasferirci."
+    },
+    "de": {
+      "word": "weißeln",
+      "sentence": "Wir müssen das Wohnzimmer weißeln, bevor wir einziehen."
+    }
+  },
+  {
+    "id": "d14c1286-55f7-4b1f-9e78-acdd6adfc9fd",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il trapano",
+      "sentence": "Mi presti il trapano per appendere lo scaffale?"
+    },
+    "de": {
+      "word": "die Bohrmaschine",
+      "sentence": "Leihst du mir die Bohrmaschine, um das Regal aufzuhängen?"
+    }
+  },
+  {
+    "id": "f716b57b-ade6-43c0-bba0-8533463a0005",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "avvitare",
+      "sentence": "Devo avvitare meglio questa maniglia."
+    },
+    "de": {
+      "word": "festschrauben",
+      "sentence": "Ich muss diesen Griff besser festschrauben."
+    }
+  },
+  {
+    "id": "10f04d81-64b6-4b2a-a370-c652166e317d",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "svitare",
+      "sentence": "Non riesco a svitare questo tappo."
+    },
+    "de": {
+      "word": "losschrauben",
+      "sentence": "Ich schaffe es nicht, diesen Deckel loszuschrauben."
+    }
+  },
+  {
+    "id": "9202d264-5ecf-4ab2-b037-6fe9fd7cefb0",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il chiodo",
+      "sentence": "Serve un chiodo più lungo per quel quadro."
+    },
+    "de": {
+      "word": "der Nagel",
+      "sentence": "Für dieses Bild braucht man einen längeren Nagel."
+    }
+  },
+  {
+    "id": "5df42f89-637d-43ff-87ea-b5ad1a4f0602",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il martello",
+      "sentence": "Passami il martello, per favore."
+    },
+    "de": {
+      "word": "der Hammer",
+      "sentence": "Reich mir bitte den Hammer."
+    }
+  },
+  {
+    "id": "14d93a51-9fe3-4d28-b450-2e9732805b29",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "montare",
+      "sentence": "Abbiamo montato il mobile in due ore."
+    },
+    "de": {
+      "word": "zusammenbauen",
+      "sentence": "Wir haben das Möbelstück in zwei Stunden zusammengebaut."
+    }
+  },
+  {
+    "id": "d4033a00-d15c-4800-9404-9ed332fad236",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "smontare",
+      "sentence": "Bisogna smontare l'armadio per il trasloco."
+    },
+    "de": {
+      "word": "auseinanderbauen",
+      "sentence": "Der Schrank muss für den Umzug auseinandergebaut werden."
+    }
+  },
+  {
+    "id": "2eef9f7e-3dd9-4d3f-b70a-464dfba3e4ed",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il trasloco",
+      "sentence": "Il trasloco è previsto per la fine del mese."
+    },
+    "de": {
+      "word": "der Umzug",
+      "sentence": "Der Umzug ist für Ende des Monats geplant."
+    }
+  },
+  {
+    "id": "99f75fb8-3bd8-41a0-9776-473800b6ae76",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "traslocare",
+      "sentence": "Traslochiamo il mese prossimo."
+    },
+    "de": {
+      "word": "umziehen",
+      "sentence": "Wir ziehen nächsten Monat um."
+    }
+  },
+  {
+    "id": "e3055151-d1b8-46ed-948e-3cfb8d0b5e8d",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "l'affitto",
+      "sentence": "L'affitto è aumentato quest'anno."
+    },
+    "de": {
+      "word": "die Miete",
+      "sentence": "Die Miete ist dieses Jahr gestiegen."
+    }
+  },
+  {
+    "id": "b7fa97bf-7d01-4d47-ad95-be93206e3ff3",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il proprietario",
+      "sentence": "Il proprietario non vuole rinnovare il contratto."
+    },
+    "de": {
+      "word": "der Vermieter",
+      "sentence": "Der Vermieter möchte den Vertrag nicht verlängern."
+    }
+  },
+  {
+    "id": "55744174-458e-4d31-bd0c-f17d8d4931f2",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "l'inquilino",
+      "sentence": "L'inquilino precedente ha lasciato l'appartamento in ordine."
+    },
+    "de": {
+      "word": "der Mieter",
+      "sentence": "Der vorherige Mieter hat die Wohnung ordentlich hinterlassen."
+    }
+  },
+  {
+    "id": "e8483f3f-5b68-4692-8658-e4a8521c87df",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il contratto d'affitto",
+      "sentence": "Ho letto attentamente il contratto d'affitto."
+    },
+    "de": {
+      "word": "der Mietvertrag",
+      "sentence": "Ich habe den Mietvertrag sorgfältig gelesen."
+    }
+  },
+  {
+    "id": "8ab2d724-d972-419d-93ab-7f608e1610ce",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "la caparra",
+      "sentence": "Ci hanno chiesto tre mesi di caparra."
+    },
+    "de": {
+      "word": "die Kaution",
+      "sentence": "Man hat drei Monatsmieten Kaution von uns verlangt."
+    }
+  },
+  {
+    "id": "58fa6634-71e7-4abc-a6bc-b8495c32c134",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "disdire il contratto",
+      "sentence": "Vogliamo disdire il contratto entro marzo."
+    },
+    "de": {
+      "word": "den Vertrag kündigen",
+      "sentence": "Wir möchten den Vertrag bis März kündigen."
+    }
+  },
+  {
+    "id": "8f7490db-1c0f-4716-90ed-bbabc46d39d7",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "ammobiliato",
+      "sentence": "Cerchiamo un appartamento già ammobiliato."
+    },
+    "de": {
+      "word": "möbliert",
+      "sentence": "Wir suchen eine bereits möblierte Wohnung."
+    }
+  },
+  {
+    "id": "25a41a4f-84e4-4f82-8529-e7e59e945edd",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "lo spazio abitativo",
+      "sentence": "Lo spazio abitativo è limitato in centro città."
+    },
+    "de": {
+      "word": "der Wohnraum",
+      "sentence": "Der Wohnraum ist in der Innenstadt begrenzt."
+    }
+  },
+  {
+    "id": "4a722597-26b6-4dba-ab0a-034c9e3b61e1",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "imballare",
+      "sentence": "Abbiamo imballato tutto in scatole di cartone."
+    },
+    "de": {
+      "word": "einpacken",
+      "sentence": "Wir haben alles in Kartons eingepackt."
+    }
+  },
+  {
+    "id": "81a5955b-1fef-4e7f-86e2-4f1fd4a565fc",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "disfare le valigie",
+      "sentence": "Non ho ancora disfatto le valigie."
+    },
+    "de": {
+      "word": "die Koffer auspacken",
+      "sentence": "Ich habe die Koffer noch nicht ausgepackt."
+    }
+  },
+  {
+    "id": "3fab7a36-a289-4911-ad39-d8852202a7a4",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "le spese condominiali",
+      "sentence": "Le spese condominiali comprendono il riscaldamento."
+    },
+    "de": {
+      "word": "die Nebenkosten",
+      "sentence": "Die Nebenkosten umfassen die Heizung."
+    }
+  },
+  {
+    "id": "4b8fdf0a-f7d6-4cb5-b7a8-7d5eaa6120c8",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la bolletta della luce",
+      "sentence": "La bolletta della luce è arrivata più alta del solito."
+    },
+    "de": {
+      "word": "die Stromrechnung",
+      "sentence": "Die Stromrechnung ist höher ausgefallen als sonst."
+    }
+  },
+  {
+    "id": "9a74b225-ddba-459f-a7c9-9234b2f92fa6",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la bolletta del gas",
+      "sentence": "Paghiamo la bolletta del gas ogni due mesi."
+    },
+    "de": {
+      "word": "die Gasrechnung",
+      "sentence": "Wir zahlen die Gasrechnung alle zwei Monate."
+    }
+  },
+  {
+    "id": "8a69209d-0b34-4694-94c9-0a153dc66416",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il consumo",
+      "sentence": "Il nostro consumo d'acqua è diminuito."
+    },
+    "de": {
+      "word": "der Verbrauch",
+      "sentence": "Unser Wasserverbrauch ist gesunken."
+    }
+  },
+  {
+    "id": "7449cdfe-9f37-42b3-8b52-c83f3678afc0",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "risparmiare energia",
+      "sentence": "Cerchiamo di risparmiare energia dove possiamo."
+    },
+    "de": {
+      "word": "Energie sparen",
+      "sentence": "Wir versuchen, wo es geht, Energie zu sparen."
+    }
+  },
+  {
+    "id": "664de156-f876-4697-88ec-9e0bd88fdc75",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il riscaldamento",
+      "sentence": "Il riscaldamento non funziona bene in camera."
+    },
+    "de": {
+      "word": "die Heizung",
+      "sentence": "Die Heizung funktioniert im Schlafzimmer nicht richtig."
+    }
+  },
+  {
+    "id": "a3e58241-0bc1-4f97-ab70-7e3d1a3cf1ea",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il condominio",
+      "sentence": "Il condominio ha una lavanderia comune."
+    },
+    "de": {
+      "word": "die Wohnanlage",
+      "sentence": "Die Wohnanlage hat einen gemeinsamen Waschraum."
+    }
+  },
+  {
+    "id": "f81bc99b-131a-43f7-b7b5-c0acd07ea8f0",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "l'amministratore di condominio",
+      "sentence": "Ho scritto all'amministratore di condominio per il tetto."
+    },
+    "de": {
+      "word": "der Hausverwalter",
+      "sentence": "Ich habe dem Hausverwalter wegen des Dachs geschrieben."
+    }
+  },
+  {
+    "id": "01863d2b-6b9c-4c18-b629-312f7cd2f4df",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il regolamento condominiale",
+      "sentence": "Il regolamento condominiale vieta il rumore dopo le 22."
+    },
+    "de": {
+      "word": "die Hausordnung",
+      "sentence": "Die Hausordnung verbietet Lärm nach 22 Uhr."
+    }
+  },
+  {
+    "id": "c0c5f83f-4df2-4bde-88ec-d70e30fc73f9",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "organizzare",
+      "sentence": "Organizziamo la settimana la domenica sera."
+    },
+    "de": {
+      "word": "organisieren",
+      "sentence": "Wir organisieren die Woche am Sonntagabend."
+    }
+  },
+  {
+    "id": "45c2e7a2-0769-458a-b254-37a754c890dd",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "pianificare",
+      "sentence": "Pianifichiamo i pasti per tutta la settimana."
+    },
+    "de": {
+      "word": "planen",
+      "sentence": "Wir planen die Mahlzeiten für die ganze Woche."
+    }
+  },
+  {
+    "id": "2d1fb6ea-4b3f-4b83-9d90-623e1234f64e",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la lista delle cose da fare",
+      "sentence": "Ho una lista delle cose da fare infinita."
+    },
+    "de": {
+      "word": "die To-do-Liste",
+      "sentence": "Ich habe eine endlose To-do-Liste."
+    }
+  },
+  {
+    "id": "9562b229-240d-4f32-9ff4-f00efb1aa8ed",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "delegare",
+      "sentence": "Ho imparato a delegare alcuni compiti."
+    },
+    "de": {
+      "word": "delegieren",
+      "sentence": "Ich habe gelernt, manche Aufgaben zu delegieren."
+    }
+  },
+  {
+    "id": "a96f1747-e7ed-4ff3-83b8-76a3baf9c6af",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "dare una mano",
+      "sentence": "Puoi darmi una mano con la spesa?"
+    },
+    "de": {
+      "word": "helfend zur Hand gehen",
+      "sentence": "Kannst du mir mit dem Einkauf zur Hand gehen?"
+    }
+  },
+  {
+    "id": "03e7a36a-fa22-4f06-b735-09f0efb8be03",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "sbrigarsi",
+      "sentence": "Sbrigati, usciamo tra dieci minuti."
+    },
+    "de": {
+      "word": "sich beeilen",
+      "sentence": "Beeil dich, wir gehen in zehn Minuten."
+    }
+  },
+  {
+    "id": "3357c44a-d298-4102-8a65-f598b7e2cf24",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "rimandare",
+      "sentence": "Abbiamo rimandato le pulizie a domani."
+    },
+    "de": {
+      "word": "verschieben",
+      "sentence": "Wir haben das Putzen auf morgen verschoben."
+    }
+  },
+  {
+    "id": "e88b8888-841e-4a5b-984c-5d246b8facc4",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "sistemare",
+      "sentence": "Sistemo velocemente prima che arrivino gli ospiti."
+    },
+    "de": {
+      "word": "in Ordnung bringen",
+      "sentence": "Ich bringe schnell alles in Ordnung, bevor die Gäste kommen."
+    }
+  },
+  {
+    "id": "c0be6820-d7e1-4b0e-872e-6932cd52cd80",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "l'efficienza domestica",
+      "sentence": "Con due bambini, l'efficienza domestica è fondamentale."
+    },
+    "de": {
+      "word": "die Haushaltseffizienz",
+      "sentence": "Mit zwei Kindern ist Haushaltseffizienz entscheidend."
+    }
+  },
+  {
+    "id": "447ceae1-c0f8-40f4-8233-c87215af25ee",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "semplificare",
+      "sentence": "Cerchiamo di semplificare la routine del mattino."
+    },
+    "de": {
+      "word": "vereinfachen",
+      "sentence": "Wir versuchen, die Morgenroutine zu vereinfachen."
+    }
+  },
+  {
+    "id": "5a3e33df-e459-4ec9-81c1-b911a93648c5",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il vicino",
+      "sentence": "Il nostro vicino è sempre molto gentile."
+    },
+    "de": {
+      "word": "der Nachbar",
+      "sentence": "Unser Nachbar ist immer sehr freundlich."
+    }
+  },
+  {
+    "id": "c6b9e4a9-c41f-4f78-917a-64e96c2aa621",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il quartiere",
+      "sentence": "Il quartiere è cambiato molto negli ultimi anni."
+    },
+    "de": {
+      "word": "das Viertel",
+      "sentence": "Das Viertel hat sich in den letzten Jahren sehr verändert."
+    }
+  },
+  {
+    "id": "6dd4103a-8aca-4402-b4bd-9c4c7d5d7163",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il cortile",
+      "sentence": "I bambini giocano nel cortile interno."
+    },
+    "de": {
+      "word": "der Hof",
+      "sentence": "Die Kinder spielen im Innenhof."
+    }
+  },
+  {
+    "id": "2a6dfda1-b087-42a2-8d95-65aa2423be0e",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il pianerottolo",
+      "sentence": "Abbiamo incontrato i vicini sul pianerottolo."
+    },
+    "de": {
+      "word": "der Treppenabsatz",
+      "sentence": "Wir haben die Nachbarn auf dem Treppenabsatz getroffen."
+    }
+  },
+  {
+    "id": "f91de299-7ec9-4bbd-a963-2309462a059d",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il citofono",
+      "sentence": "Il citofono non funziona da giorni."
+    },
+    "de": {
+      "word": "die Gegensprechanlage",
+      "sentence": "Die Gegensprechanlage funktioniert seit Tagen nicht."
+    }
+  },
+  {
+    "id": "1c63e35d-252a-41ea-9aa4-7323e675dafd",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "fare rumore",
+      "sentence": "Cerchiamo di non fare rumore dopo le dieci."
+    },
+    "de": {
+      "word": "Lärm machen",
+      "sentence": "Wir versuchen, nach zehn Uhr keinen Lärm zu machen."
+    }
+  },
+  {
+    "id": "a508546d-72e1-473a-bbdb-6e683a761f5e",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "disturbare",
+      "sentence": "Spero di non disturbarti a quest'ora."
+    },
+    "de": {
+      "word": "stören",
+      "sentence": "Ich hoffe, ich störe dich nicht zu dieser Zeit."
+    }
+  },
+  {
+    "id": "d196ca74-42cf-4146-9386-b0f3d5fb79d9",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "la quiete",
+      "sentence": "Amiamo la quiete di questo quartiere."
+    },
+    "de": {
+      "word": "die Ruhe",
+      "sentence": "Wir lieben die Ruhe dieses Viertels."
+    }
+  },
+  {
+    "id": "05741489-2a0d-4085-8dd5-01970551e9a9",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "accogliente",
+      "sentence": "Il vostro appartamento è davvero accogliente."
+    },
+    "de": {
+      "word": "gemütlich",
+      "sentence": "Eure Wohnung ist wirklich gemütlich."
+    }
+  },
+  {
+    "id": "ba630135-c9fe-448c-b118-3de47d80f5de",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "confortevole",
+      "sentence": "Il divano nuovo è molto confortevole."
+    },
+    "de": {
+      "word": "komfortabel",
+      "sentence": "Das neue Sofa ist sehr komfortabel."
+    }
+  },
+  {
+    "id": "bb075944-01b7-4544-852c-f669b033c440",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "spazioso",
+      "sentence": "La cucina è spaziosa e luminosa."
+    },
+    "de": {
+      "word": "geräumig",
+      "sentence": "Die Küche ist geräumig und hell."
+    }
+  },
+  {
+    "id": "c7d5dd19-d1cf-4375-9b51-4f8ee2b31d0f",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "luminoso",
+      "sentence": "Cerchiamo un appartamento luminoso."
+    },
+    "de": {
+      "word": "hell",
+      "sentence": "Wir suchen eine helle Wohnung."
+    }
+  },
+  {
+    "id": "c530a0ab-88ac-44ef-8d90-fe2ad8da07dc",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "arieggiare",
+      "sentence": "Arieggio la casa ogni mattina."
+    },
+    "de": {
+      "word": "lüften",
+      "sentence": "Ich lüfte die Wohnung jeden Morgen."
+    }
+  },
+  {
+    "id": "0b2a6b65-b610-41ec-9bb3-64713bcaa83e",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "la corrente d'aria",
+      "sentence": "C'è una corrente d'aria fastidiosa vicino alla finestra."
+    },
+    "de": {
+      "word": "der Luftzug",
+      "sentence": "Es gibt einen lästigen Luftzug in der Nähe des Fensters."
+    }
+  },
+  {
+    "id": "a88b542a-71c2-46e4-81ee-598ea71b62d5",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "profumare",
+      "sentence": "La casa profuma di pane appena fatto."
+    },
+    "de": {
+      "word": "duften",
+      "sentence": "Die Wohnung duftet nach frisch gebackenem Brot."
+    }
+  },
+  {
+    "id": "d4f5bfc5-8a67-4bc6-8f73-c66b5a64e033",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "rilassante",
+      "sentence": "Un bagno caldo è sempre rilassante."
+    },
+    "de": {
+      "word": "entspannend",
+      "sentence": "Ein warmes Bad ist immer entspannend."
+    }
+  },
+  {
+    "id": "b27e367b-e116-4999-bfdf-fc85111066cb",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "tagliare a pezzetti",
+      "sentence": "Taglia le carote a pezzetti piccoli."
+    },
+    "de": {
+      "word": "in Stücke schneiden",
+      "sentence": "Schneide die Karotten in kleine Stücke."
+    }
+  },
+  {
+    "id": "b57d6cbd-c055-40e5-8bf6-c8b22f9d3019",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "tritare",
+      "sentence": "Trita finemente la cipolla."
+    },
+    "de": {
+      "word": "hacken",
+      "sentence": "Hacke die Zwiebel fein."
+    }
+  },
+  {
+    "id": "ab1ba798-fe26-44ef-ad89-f6c75290d915",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "mescolare",
+      "sentence": "Mescola bene prima di servire."
+    },
+    "de": {
+      "word": "umrühren",
+      "sentence": "Rühr gut um, bevor du servierst."
+    }
+  },
+  {
+    "id": "ee017448-c13a-4314-a878-135655e93e81",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "condire",
+      "sentence": "Condisci l'insalata con olio e limone."
+    },
+    "de": {
+      "word": "würzen",
+      "sentence": "Würze den Salat mit Öl und Zitrone."
+    }
+  },
+  {
+    "id": "a58ce0fb-2653-4a9f-9626-956d432cbe31",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la ricetta",
+      "sentence": "Ho trovato questa ricetta su un libro di famiglia."
+    },
+    "de": {
+      "word": "das Rezept",
+      "sentence": "Ich habe dieses Rezept in einem Familienbuch gefunden."
+    }
+  },
+  {
+    "id": "71cac682-49f8-46fc-9436-e868c147ff5a",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "gli ingredienti",
+      "sentence": "Mancano ancora due ingredienti."
+    },
+    "de": {
+      "word": "die Zutaten",
+      "sentence": "Es fehlen noch zwei Zutaten."
+    }
+  },
+  {
+    "id": "a2bc4fba-7847-4358-9f43-58beac382317",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "cuocere a fuoco lento",
+      "sentence": "Fai cuocere il sugo a fuoco lento per un'ora."
+    },
+    "de": {
+      "word": "bei niedriger Hitze köcheln",
+      "sentence": "Lass die Soße eine Stunde bei niedriger Hitze köcheln."
+    }
+  },
+  {
+    "id": "fd1c42ac-dc04-4e78-91fd-8e76f97860f5",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "scongelare",
+      "sentence": "Ho dimenticato di scongelare la carne."
+    },
+    "de": {
+      "word": "auftauen",
+      "sentence": "Ich habe vergessen, das Fleisch aufzutauen."
+    }
+  },
+  {
+    "id": "cd6f6677-81da-43f5-b6d6-c6b4728ebad9",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "conservare in frigo",
+      "sentence": "Conserva gli avanzi in frigo."
+    },
+    "de": {
+      "word": "im Kühlschrank aufbewahren",
+      "sentence": "Bewahre die Reste im Kühlschrank auf."
+    }
+  },
+  {
+    "id": "a3c71122-aa8e-4cad-bb2d-90b990917113",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "scadere",
+      "sentence": "Questo yogurt scade domani."
+    },
+    "de": {
+      "word": "ablaufen",
+      "sentence": "Dieser Joghurt läuft morgen ab."
+    }
+  },
+  {
+    "id": "41a7955c-7de0-41b6-b3a6-a3282f783ecf",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "il compostaggio",
+      "sentence": "Il compostaggio riduce molto i rifiuti organici."
+    },
+    "de": {
+      "word": "die Kompostierung",
+      "sentence": "Die Kompostierung reduziert die Bioabfälle erheblich."
+    }
+  },
+  {
+    "id": "ca17a4ec-0b8c-44ab-8caa-e2cb34885f25",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "compostare",
+      "sentence": "Compostiamo gli scarti di frutta e verdura."
+    },
+    "de": {
+      "word": "kompostieren",
+      "sentence": "Wir kompostieren Obst- und Gemüseabfälle."
+    }
+  },
+  {
+    "id": "7faba02f-6a58-45eb-ad51-2847909e5345",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "ridurre gli sprechi",
+      "sentence": "Cerchiamo di ridurre gli sprechi alimentari."
+    },
+    "de": {
+      "word": "Verschwendung reduzieren",
+      "sentence": "Wir versuchen, Lebensmittelverschwendung zu reduzieren."
+    }
+  },
+  {
+    "id": "45c3388a-ffcd-453a-9502-1b2bfed29296",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "riutilizzare",
+      "sentence": "Riutilizziamo i barattoli di vetro per la dispensa."
+    },
+    "de": {
+      "word": "wiederverwenden",
+      "sentence": "Wir verwenden die Glasgläser für die Vorratskammer wieder."
+    }
+  },
+  {
+    "id": "a6e572fa-3c9d-4d1d-a2bd-f7df99dd9df8",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "ecologico",
+      "sentence": "Abbiamo scelto un detersivo più ecologico."
+    },
+    "de": {
+      "word": "umweltfreundlich",
+      "sentence": "Wir haben ein umweltfreundlicheres Waschmittel gewählt."
+    }
+  },
+  {
+    "id": "54c44090-03b9-4792-9ceb-906f3bfac70e",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "la gravidanza",
+      "sentence": "La gravidanza è stata tranquilla."
+    },
+    "de": {
+      "word": "die Schwangerschaft",
+      "sentence": "Die Schwangerschaft verlief ruhig."
+    }
+  },
+  {
+    "id": "378b0fe4-ada3-450c-a4bd-2cfe679f3fd8",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "incinta",
+      "sentence": "È incinta di sette mesi."
+    },
+    "de": {
+      "word": "schwanger",
+      "sentence": "Sie ist im siebten Monat schwanger."
+    }
+  },
+  {
+    "id": "d981e33a-4b6f-437b-aa45-fe4cb912463b",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il parto",
+      "sentence": "Il parto è andato meglio del previsto."
+    },
+    "de": {
+      "word": "die Geburt",
+      "sentence": "Die Geburt verlief besser als erwartet."
+    }
+  },
+  {
+    "id": "6008358a-65d9-4c7b-b824-107efc61c61d",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "partorire",
+      "sentence": "Ha partorito in ospedale a mezzanotte."
+    },
+    "de": {
+      "word": "gebären",
+      "sentence": "Sie hat um Mitternacht im Krankenhaus geboren."
+    }
+  },
+  {
+    "id": "f90c5b48-42b3-48d2-b235-d2f40c137ad4",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "l'ostetrica",
+      "sentence": "L'ostetrica ci ha seguiti fin dall'inizio."
+    },
+    "de": {
+      "word": "die Hebamme",
+      "sentence": "Die Hebamme hat uns von Anfang an begleitet."
+    }
+  },
+  {
+    "id": "87264d95-8c02-4f74-9ec7-e36d9e08629f",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il ginecologo",
+      "sentence": "Ha un appuntamento dal ginecologo domani."
+    },
+    "de": {
+      "word": "der Frauenarzt",
+      "sentence": "Sie hat morgen einen Termin beim Frauenarzt."
+    }
+  },
+  {
+    "id": "0b52b0b1-8d5e-4bf9-8be7-58e9e9ea3462",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "l'ecografia",
+      "sentence": "All'ecografia si vedeva già il visino."
+    },
+    "de": {
+      "word": "die Ultraschalluntersuchung",
+      "sentence": "Bei der Ultraschalluntersuchung war das Gesichtchen schon zu sehen."
+    }
+  },
+  {
+    "id": "3bafb471-d1a8-406a-a48f-04471c0d16f6",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il travaglio",
+      "sentence": "Il travaglio è durato più di dieci ore."
+    },
+    "de": {
+      "word": "die Wehen",
+      "sentence": "Die Wehen dauerten über zehn Stunden."
+    }
+  },
+  {
+    "id": "41b51e01-6007-40d6-9cd5-c4634b305b4d",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "la sala parto",
+      "sentence": "Il padre è rimasto in sala parto tutto il tempo."
+    },
+    "de": {
+      "word": "der Kreißsaal",
+      "sentence": "Der Vater blieb die ganze Zeit im Kreißsaal."
+    }
+  },
+  {
+    "id": "e057238b-c6f1-441b-b1ad-7e103d258055",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il body",
+      "sentence": "Gli metto sempre un body sotto la tutina."
+    },
+    "de": {
+      "word": "der Body",
+      "sentence": "Ich ziehe ihm immer einen Body unter den Strampler."
+    }
+  },
+  {
+    "id": "96bb9ea0-85a4-4896-a254-d54c1ea75063",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "la tutina",
+      "sentence": "Ha già cambiato tre tutine oggi."
+    },
+    "de": {
+      "word": "der Strampler",
+      "sentence": "Er hat heute schon drei Strampler gewechselt."
+    }
+  },
+  {
+    "id": "7edcbc6c-0f03-4dc0-be24-540fff82b8a9",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il seggiolone",
+      "sentence": "Mangia sempre nel suo seggiolone."
+    },
+    "de": {
+      "word": "der Hochstuhl",
+      "sentence": "Er isst immer in seinem Hochstuhl."
+    }
+  },
+  {
+    "id": "04341aa3-49e6-4168-9875-30cd48ad82fa",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il box",
+      "sentence": "Lo lascio giocare nel box mentre cucino."
+    },
+    "de": {
+      "word": "der Laufstall",
+      "sentence": "Ich lasse ihn im Laufstall spielen, während ich koche."
+    }
+  },
+  {
+    "id": "e7384708-fadc-44f8-a840-dd555a8b2e1e",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il girello",
+      "sentence": "Con il girello si sposta per tutta la casa."
+    },
+    "de": {
+      "word": "die Lauflernhilfe",
+      "sentence": "Mit der Lauflernhilfe bewegt er sich durch die ganze Wohnung."
+    }
+  },
+  {
+    "id": "9161402a-3512-498d-8858-8e697de4852c",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "la culla",
+      "sentence": "Dorme ancora nella culla accanto al nostro letto."
+    },
+    "de": {
+      "word": "die Wiege",
+      "sentence": "Er schläft noch in der Wiege neben unserem Bett."
+    }
+  },
+  {
+    "id": "2f85cc6d-b703-49dc-bbf4-5272215fc038",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "lo svezzamento",
+      "sentence": "Lo svezzamento è iniziato a sei mesi."
+    },
+    "de": {
+      "word": "die Entwöhnung",
+      "sentence": "Die Entwöhnung begann mit sechs Monaten."
+    }
+  },
+  {
+    "id": "7ddcfbac-ff01-4179-a3c1-43d1c54541bb",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "svezzare",
+      "sentence": "Abbiamo iniziato a svezzarlo con la frutta."
+    },
+    "de": {
+      "word": "entwöhnen",
+      "sentence": "Wir haben begonnen, ihn mit Obst zu entwöhnen."
+    }
+  },
+  {
+    "id": "eff43938-a948-4499-aed1-aab0920a6cf0",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il peso alla nascita",
+      "sentence": "Il peso alla nascita era nella norma."
+    },
+    "de": {
+      "word": "das Geburtsgewicht",
+      "sentence": "Das Geburtsgewicht lag im Normalbereich."
+    }
+  },
+  {
+    "id": "315fb816-e796-425c-9fa0-7d35f408beda",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il libretto delle vaccinazioni",
+      "sentence": "Non dimenticare il libretto delle vaccinazioni."
+    },
+    "de": {
+      "word": "der Impfpass",
+      "sentence": "Vergiss den Impfpass nicht."
+    }
+  },
+  {
+    "id": "62628e40-d1f7-4b2c-83d9-d8e6da76ab05",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "vaccinare",
+      "sentence": "L'abbiamo vaccinato secondo il calendario."
+    },
+    "de": {
+      "word": "impfen",
+      "sentence": "Wir haben ihn nach dem Impfplan geimpft."
+    }
+  },
+  {
+    "id": "3d08b5a6-d39a-44db-9522-29adededf364",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il bagnetto",
+      "sentence": "Fa sempre il bagnetto prima di dormire."
+    },
+    "de": {
+      "word": "das Bad",
+      "sentence": "Er bekommt immer vor dem Schlafen sein Bad."
+    }
+  },
+  {
+    "id": "ef1a7fb4-55aa-41ee-948c-1f226b324539",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "gattonare",
+      "sentence": "Ha iniziato a gattonare a otto mesi."
+    },
+    "de": {
+      "word": "krabbeln",
+      "sentence": "Er hat mit acht Monaten angefangen zu krabbeln."
+    }
+  },
+  {
+    "id": "be61149c-978d-482d-906f-8aec5f5cf53b",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "i primi passi",
+      "sentence": "Ha fatto i primi passi il giorno del suo compleanno."
+    },
+    "de": {
+      "word": "die ersten Schritte",
+      "sentence": "Er hat die ersten Schritte an seinem Geburtstag gemacht."
+    }
+  },
+  {
+    "id": "f7c61eb8-1054-493a-82c5-29efaeb89e34",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "i primi denti",
+      "sentence": "I primi denti gli stanno spuntando ora."
+    },
+    "de": {
+      "word": "die ersten Zähne",
+      "sentence": "Die ersten Zähne kommen ihm gerade durch."
+    }
+  },
+  {
+    "id": "9a2dc93d-69e0-411f-8aef-5a4acbdb8aab",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "mettere i denti",
+      "sentence": "Piange molto perché sta mettendo i denti."
+    },
+    "de": {
+      "word": "zahnen",
+      "sentence": "Er weint viel, weil er gerade zahnt."
+    }
+  },
+  {
+    "id": "2466a5e9-68db-4a49-8564-a106907f3e82",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "balbettare",
+      "sentence": "Balbetta qualche parola ogni giorno di più."
+    },
+    "de": {
+      "word": "plappern",
+      "sentence": "Er plappert jeden Tag ein paar Wörter mehr."
+    }
+  },
+  {
+    "id": "1a19d885-02b8-4d90-8fdd-c32e8029f3ac",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "pronunciare le prime parole",
+      "sentence": "Ha pronunciato le prime parole a un anno."
+    },
+    "de": {
+      "word": "die ersten Wörter sprechen",
+      "sentence": "Er hat mit einem Jahr die ersten Wörter gesprochen."
+    }
+  },
+  {
+    "id": "30cdc532-847c-476f-89f6-073ac53877d5",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "lo sviluppo motorio",
+      "sentence": "Lo sviluppo motorio procede regolarmente."
+    },
+    "de": {
+      "word": "die motorische Entwicklung",
+      "sentence": "Die motorische Entwicklung verläuft regelmäßig."
+    }
+  },
+  {
+    "id": "20add992-e74f-4b40-bfcb-cb6df7d14cc2",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "lo sviluppo del linguaggio",
+      "sentence": "Lo sviluppo del linguaggio varia molto da bambino a bambino."
+    },
+    "de": {
+      "word": "die Sprachentwicklung",
+      "sentence": "Die Sprachentwicklung ist von Kind zu Kind sehr unterschiedlich."
+    }
+  },
+  {
+    "id": "b3734673-3c17-499f-89ee-bee73a8051b0",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "la tappa",
+      "sentence": "Ogni tappa dello sviluppo va celebrata."
+    },
+    "de": {
+      "word": "der Meilenstein",
+      "sentence": "Jeder Meilenstein der Entwicklung sollte gefeiert werden."
+    }
+  },
+  {
+    "id": "92cfdaa5-b3d5-4076-8d5c-81a706b5dd83",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il peluche",
+      "sentence": "Non dorme senza il suo peluche preferito."
+    },
+    "de": {
+      "word": "das Kuscheltier",
+      "sentence": "Er schläft nicht ohne sein Lieblingskuscheltier."
+    }
+  },
+  {
+    "id": "675c450f-2340-4f34-80ee-7cb75e4d438a",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il puzzle",
+      "sentence": "Ha finito il puzzle da solo."
+    },
+    "de": {
+      "word": "das Puzzle",
+      "sentence": "Er hat das Puzzle allein fertig gemacht."
+    }
+  },
+  {
+    "id": "741ad432-325e-42a9-8f31-4ba1812a03ed",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "i cubi",
+      "sentence": "Costruisce torri altissime con i cubi."
+    },
+    "de": {
+      "word": "die Bauklötze",
+      "sentence": "Er baut sehr hohe Türme aus Bauklötzen."
+    }
+  },
+  {
+    "id": "a30ce691-71cc-4daa-8870-07e95a517783",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "costruire",
+      "sentence": "Gli piace costruire cose con il papà."
+    },
+    "de": {
+      "word": "bauen",
+      "sentence": "Er baut gern Dinge mit seinem Papa."
+    }
+  },
+  {
+    "id": "e495ee85-1638-4937-8e00-e9d560d1d773",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il gioco di ruolo",
+      "sentence": "Il gioco di ruolo aiuta i bambini a capire il mondo."
+    },
+    "de": {
+      "word": "das Rollenspiel",
+      "sentence": "Rollenspiele helfen Kindern, die Welt zu verstehen."
+    }
+  },
+  {
+    "id": "b5aac8d1-e6bd-4218-8ace-b8516531cfef",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "fare finta",
+      "sentence": "Fa finta di essere un pompiere."
+    },
+    "de": {
+      "word": "so tun als ob",
+      "sentence": "Er tut so, als wäre er ein Feuerwehrmann."
+    }
+  },
+  {
+    "id": "a32c1de3-1a1c-4421-8e5f-1c43a471d3ae",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "condividere i giocattoli",
+      "sentence": "Sta imparando a condividere i giocattoli."
+    },
+    "de": {
+      "word": "Spielzeug teilen",
+      "sentence": "Er lernt gerade, Spielzeug zu teilen."
+    }
+  },
+  {
+    "id": "5e160322-c56b-4e5c-a1b3-a4de9e6c135c",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il parco giochi",
+      "sentence": "Andiamo al parco giochi ogni pomeriggio."
+    },
+    "de": {
+      "word": "der Spielplatz",
+      "sentence": "Wir gehen jeden Nachmittag auf den Spielplatz."
+    }
+  },
+  {
+    "id": "b91dea8b-f661-4417-ab8c-30ef257d4f3d",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "l'altalena",
+      "sentence": "Vuole sempre stare sull'altalena."
+    },
+    "de": {
+      "word": "die Schaukel",
+      "sentence": "Er will immer auf der Schaukel sein."
+    }
+  },
+  {
+    "id": "6386f866-1d5a-4130-9385-2a4981bd450d",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "lo scivolo",
+      "sentence": "Non ha paura dello scivolo grande."
+    },
+    "de": {
+      "word": "die Rutsche",
+      "sentence": "Er hat keine Angst vor der großen Rutsche."
+    }
+  },
+  {
+    "id": "c8c2a5fb-0fcd-4ccb-84d8-096a9b52e99e",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "l'insegnante",
+      "sentence": "L'insegnante ha parlato bene di lui."
+    },
+    "de": {
+      "word": "die Lehrkraft",
+      "sentence": "Die Lehrkraft hat gut über ihn gesprochen."
+    }
+  },
+  {
+    "id": "1c09d7aa-0586-404c-8cd3-51d51fb9c181",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "la classe",
+      "sentence": "È il più piccolo della classe."
+    },
+    "de": {
+      "word": "die Klasse",
+      "sentence": "Er ist der Kleinste in der Klasse."
+    }
+  },
+  {
+    "id": "991ad28f-ba72-4792-809c-5753f0ef476b",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il compagno di classe",
+      "sentence": "Ha invitato un compagno di classe a giocare."
+    },
+    "de": {
+      "word": "der Klassenkamerad",
+      "sentence": "Er hat einen Klassenkameraden zum Spielen eingeladen."
+    }
+  },
+  {
+    "id": "0cec9661-e3a9-4fdc-9521-b20c4bb34737",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "la pagella",
+      "sentence": "La pagella di fine anno è stata positiva."
+    },
+    "de": {
+      "word": "das Zeugnis",
+      "sentence": "Das Jahreszeugnis fiel positiv aus."
+    }
+  },
+  {
+    "id": "cea3b05c-32b7-465c-8d5c-22a1d245b04e",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il voto",
+      "sentence": "Ha preso un buon voto in matematica."
+    },
+    "de": {
+      "word": "die Note",
+      "sentence": "Er hat eine gute Note in Mathematik bekommen."
+    }
+  },
+  {
+    "id": "c336c159-f612-45e1-a994-2302e3b248bb",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "la ricreazione",
+      "sentence": "Durante la ricreazione gioca sempre a calcio."
+    },
+    "de": {
+      "word": "die Pause",
+      "sentence": "In der Pause spielt er immer Fußball."
+    }
+  },
+  {
+    "id": "e43e0d07-82bc-4e73-bf1e-7faf46e67ddf",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "la gita scolastica",
+      "sentence": "La gita scolastica è programmata per maggio."
+    },
+    "de": {
+      "word": "der Schulausflug",
+      "sentence": "Der Schulausflug ist für Mai geplant."
+    }
+  },
+  {
+    "id": "85c2644a-323d-486f-acb2-f23fd07032eb",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "imparare a leggere",
+      "sentence": "Sta imparando a leggere le prime paroline."
+    },
+    "de": {
+      "word": "lesen lernen",
+      "sentence": "Er lernt gerade, die ersten kleinen Wörter zu lesen."
+    }
+  },
+  {
+    "id": "9bb97a4d-6934-4b6d-85a7-14dcc824a8a9",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "imparare a scrivere",
+      "sentence": "L'anno prossimo inizierà a imparare a scrivere."
+    },
+    "de": {
+      "word": "schreiben lernen",
+      "sentence": "Nächstes Jahr fängt er an, schreiben zu lernen."
+    }
+  },
+  {
+    "id": "e3891973-6121-4be5-bef0-de431320c10d",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "porre dei limiti",
+      "sentence": "È importante porre dei limiti chiari."
+    },
+    "de": {
+      "word": "Grenzen setzen",
+      "sentence": "Es ist wichtig, klare Grenzen zu setzen."
+    }
+  },
+  {
+    "id": "23da8621-bb0e-4936-86f8-c87f49d7fa28",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "stabilire delle regole",
+      "sentence": "Abbiamo stabilito delle regole semplici in casa."
+    },
+    "de": {
+      "word": "Regeln aufstellen",
+      "sentence": "Wir haben zu Hause einfache Regeln aufgestellt."
+    }
+  },
+  {
+    "id": "834d04b7-fa6c-4295-8001-69f6629f38cf",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il time-out",
+      "sentence": "A volte funziona un breve time-out."
+    },
+    "de": {
+      "word": "die Auszeit",
+      "sentence": "Manchmal hilft eine kurze Auszeit."
+    }
+  },
+  {
+    "id": "0bf387e6-db96-4b51-b802-0f35b467be80",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "la punizione",
+      "sentence": "Preferiamo evitare le punizioni severe."
+    },
+    "de": {
+      "word": "die Strafe",
+      "sentence": "Wir vermeiden lieber strenge Strafen."
+    }
+  },
+  {
+    "id": "b6be93e7-8370-4e27-a2fb-e34fe16a1b82",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "premiare",
+      "sentence": "Lo abbiamo premiato per il suo impegno."
+    },
+    "de": {
+      "word": "belohnen",
+      "sentence": "Wir haben ihn für seinen Einsatz belohnt."
+    }
+  },
+  {
+    "id": "b0c93df4-1d48-406d-8e3a-c46a260773d6",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "incoraggiare",
+      "sentence": "Cerchiamo sempre di incoraggiarla."
+    },
+    "de": {
+      "word": "ermutigen",
+      "sentence": "Wir versuchen immer, sie zu ermutigen."
+    }
+  },
+  {
+    "id": "ec757d97-bb23-4d9c-8140-6985c2643f1d",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "lodare",
+      "sentence": "È importante lodare i piccoli progressi."
+    },
+    "de": {
+      "word": "loben",
+      "sentence": "Es ist wichtig, kleine Fortschritte zu loben."
+    }
+  },
+  {
+    "id": "7623de4d-bfa5-4b76-986b-facf628b4ca0",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il rinforzo positivo",
+      "sentence": "Il rinforzo positivo funziona meglio delle minacce."
+    },
+    "de": {
+      "word": "die positive Verstärkung",
+      "sentence": "Positive Verstärkung funktioniert besser als Drohungen."
+    }
+  },
+  {
+    "id": "cc47d560-e3e3-48b2-8ffb-d8a31ad323dc",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "essere coerente",
+      "sentence": "I bambini hanno bisogno che tu sia coerente."
+    },
+    "de": {
+      "word": "konsequent sein",
+      "sentence": "Kinder brauchen, dass du konsequent bist."
+    }
+  },
+  {
+    "id": "ea0e905f-a70f-4a14-94cc-d2ab914036c4",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "dare il buon esempio",
+      "sentence": "I genitori devono dare il buon esempio."
+    },
+    "de": {
+      "word": "ein gutes Vorbild sein",
+      "sentence": "Eltern müssen ein gutes Vorbild sein."
+    }
+  },
+  {
+    "id": "eb34c1ca-b340-49da-bddd-ee6ac0cd2630",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "la disciplina",
+      "sentence": "Cerchiamo un equilibrio tra disciplina e libertà."
+    },
+    "de": {
+      "word": "die Disziplin",
+      "sentence": "Wir suchen ein Gleichgewicht zwischen Disziplin und Freiheit."
+    }
+  },
+  {
+    "id": "1577c3cb-65f1-4b62-a22d-9977d7ee8d00",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il bisogno",
+      "sentence": "Ogni bambino ha bisogni diversi."
+    },
+    "de": {
+      "word": "das Bedürfnis",
+      "sentence": "Jedes Kind hat unterschiedliche Bedürfnisse."
+    }
+  },
+  {
+    "id": "8361b00c-e009-4e39-9304-da208e1e6e44",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "fare i capricci",
+      "sentence": "Fa i capricci quando è stanco."
+    },
+    "de": {
+      "word": "trotzen",
+      "sentence": "Er trotzt, wenn er müde ist."
+    }
+  },
+  {
+    "id": "4566146b-1ea4-4985-9783-8af9ba8356c9",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "consolare",
+      "sentence": "L'ho consolato dopo la caduta."
+    },
+    "de": {
+      "word": "trösten",
+      "sentence": "Ich habe ihn nach dem Sturz getröstet."
+    }
+  },
+  {
+    "id": "09291c79-4c67-49db-b1fc-bfe6d05e22a7",
+    "level": "B1",
+    "topic": "Children",
     "it": {
       "word": "rassicurare",
-      "sentence": "Cercò di rassicurarla con parole gentili."
+      "sentence": "Cerco sempre di rassicurarla quando ha paura."
     },
     "de": {
       "word": "beruhigen",
-      "sentence": "Er versuchte, sie mit freundlichen Worten zu beruhigen."
+      "sentence": "Ich versuche immer, sie zu beruhigen, wenn sie Angst hat."
     }
   },
   {
-    "id": "579abaab-04b5-418d-bef2-4cd5875c2395",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "vergognarsi",
-      "sentence": "Si vergognava del proprio comportamento."
-    },
-    "de": {
-      "word": "sich schämen",
-      "sentence": "Er schämte sich für sein Verhalten."
-    }
-  },
-  {
-    "id": "f22f7599-f67b-4f72-b121-25c193432f50",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "imbarazzante",
-      "sentence": "È stata una situazione imbarazzante."
-    },
-    "de": {
-      "word": "peinlich",
-      "sentence": "Es war eine peinliche Situation."
-    }
-  },
-  {
-    "id": "4fcad967-3489-4d29-a532-f7c4825dca08",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "la compassione",
-      "sentence": "Ho provato compassione per lei."
-    },
-    "de": {
-      "word": "das Mitleid",
-      "sentence": "Ich hatte Mitleid mit ihr."
-    }
-  },
-  {
-    "id": "b2930f1d-d879-4431-8f96-0d0d1bff0a71",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "sentirsi in colpa",
-      "sentence": "Si sentiva in colpa per l'incidente."
-    },
-    "de": {
-      "word": "sich schuldig fühlen",
-      "sentence": "Er fühlte sich schuldig wegen des Unfalls."
-    }
-  },
-  {
-    "id": "642f8a45-1412-476c-8d83-5472d66513de",
+    "id": "39614af9-1264-4562-be57-ccf7d9b7aa83",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "la vergogna",
-      "sentence": "Un profondo senso di vergogna lo travolse."
+      "word": "la sicurezza affettiva",
+      "sentence": "La sicurezza affettiva è fondamentale nei primi anni."
     },
     "de": {
-      "word": "die Scham",
-      "sentence": "Ein tiefes Schamgefühl überwältigte ihn."
+      "word": "die emotionale Sicherheit",
+      "sentence": "Emotionale Sicherheit ist in den ersten Jahren grundlegend."
     }
   },
   {
-    "id": "6d4ecfaa-162b-4c17-89e9-49ddbc68f12d",
+    "id": "72aba544-9d5d-4aa5-a714-4f2c1521a06f",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "il rimorso",
-      "sentence": "Il rimorso lo tormentava da anni."
+      "word": "l'attaccamento",
+      "sentence": "L'attaccamento con la madre si forma presto."
     },
     "de": {
-      "word": "die Reue",
-      "sentence": "Die Reue quälte ihn seit Jahren."
+      "word": "die Bindung",
+      "sentence": "Die Bindung zur Mutter entsteht früh."
     }
   },
   {
-    "id": "aef737da-9092-4e14-996e-cc8e7343909a",
+    "id": "9cbd203f-4573-4a4a-a581-6f35ddb6e96e",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "l'empatia",
-      "sentence": "Mostrò grande empatia verso gli estranei."
+      "word": "separarsi",
+      "sentence": "All'inizio faticava a separarsi da noi."
     },
     "de": {
-      "word": "die Empathie",
-      "sentence": "Er zeigte große Empathie gegenüber Fremden."
+      "word": "sich trennen",
+      "sentence": "Anfangs fiel es ihm schwer, sich von uns zu trennen."
     }
   },
   {
-    "id": "a4114471-795b-4039-a860-5bc24389a6a8",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "sperare",
-      "sentence": "Spero che tutto vada bene."
-    },
-    "de": {
-      "word": "hoffen",
-      "sentence": "Ich hoffe, dass alles gut geht."
-    }
-  },
-  {
-    "id": "92ac7d05-7ce8-4896-aec5-f552ddbfa73b",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "la speranza",
-      "sentence": "Non ha mai perso la speranza."
-    },
-    "de": {
-      "word": "die Hoffnung",
-      "sentence": "Er hat die Hoffnung nie verloren."
-    }
-  },
-  {
-    "id": "fc807314-cab7-43fe-b473-9126c8f90f5c",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "disperato",
-      "sentence": "Era disperato per la perdita del lavoro."
-    },
-    "de": {
-      "word": "verzweifelt",
-      "sentence": "Er war verzweifelt wegen des Jobverlusts."
-    }
-  },
-  {
-    "id": "0a70b567-4bbe-4bbd-8f16-ce46ee580319",
+    "id": "5c629ea1-1da4-4779-8691-9fd25263b075",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "la disperazione",
-      "sentence": "La disperazione si leggeva nei suoi occhi."
+      "word": "l'ansia da separazione",
+      "sentence": "L'ansia da separazione è comune a quest'età."
     },
     "de": {
-      "word": "die Verzweiflung",
-      "sentence": "Die Verzweiflung war in seinen Augen zu lesen."
+      "word": "die Trennungsangst",
+      "sentence": "Trennungsangst ist in diesem Alter üblich."
     }
   },
   {
-    "id": "6132be1e-c8da-44d0-8429-e06a4017bf78",
+    "id": "287ff10b-573f-40c7-bb5b-551268cd3d6d",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "hoffnungslos",
-      "sentence": "La situazione sembrava ormai senza speranza."
+      "word": "il conforto",
+      "sentence": "Cerca sempre conforto tra le braccia della mamma."
     },
     "de": {
-      "word": "hoffnungslos",
-      "sentence": "Die Lage schien mittlerweile hoffnungslos."
+      "word": "der Trost",
+      "sentence": "Er sucht immer Trost in den Armen seiner Mutter."
     }
   },
   {
-    "id": "a8362e17-c993-4daa-aa6c-6bc10d1557eb",
+    "id": "e8f8002c-1cac-4816-856e-ea935db6ea32",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il fratellino",
+      "sentence": "Il fratellino è nato in primavera."
+    },
+    "de": {
+      "word": "das Brüderchen",
+      "sentence": "Das Brüderchen wurde im Frühling geboren."
+    }
+  },
+  {
+    "id": "f4da6c3a-4ae2-456d-82c6-31d6d988d68c",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "la sorellina",
+      "sentence": "La sorellina la segue ovunque."
+    },
+    "de": {
+      "word": "das Schwesterchen",
+      "sentence": "Das Schwesterchen folgt ihr überallhin."
+    }
+  },
+  {
+    "id": "a614d256-d08b-4e01-9b9b-52b54b363fca",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il maggiore",
+      "sentence": "Il maggiore aiuta sempre con i compiti."
+    },
+    "de": {
+      "word": "der Ältere",
+      "sentence": "Der Ältere hilft immer bei den Hausaufgaben."
+    }
+  },
+  {
+    "id": "ecab2a46-140d-4083-bb5e-94021fa55eae",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il minore",
+      "sentence": "Il minore vuole fare tutto come il fratello."
+    },
+    "de": {
+      "word": "der Jüngere",
+      "sentence": "Der Jüngere will alles wie sein Bruder machen."
+    }
+  },
+  {
+    "id": "34340864-a629-4eac-a3d1-de0c2602f47a",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "i gemelli",
+      "sentence": "I gemelli sono identici, è difficile distinguerli."
+    },
+    "de": {
+      "word": "die Zwillinge",
+      "sentence": "Die Zwillinge sind identisch, man kann sie kaum unterscheiden."
+    }
+  },
+  {
+    "id": "ea5fd53e-fce1-4e80-ba38-5ceb23e67191",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "il figlio unico",
+      "sentence": "Da figlio unico ha imparato presto l'indipendenza."
+    },
+    "de": {
+      "word": "das Einzelkind",
+      "sentence": "Als Einzelkind hat er früh Selbstständigkeit gelernt."
+    }
+  },
+  {
+    "id": "987d0bb7-6411-462a-b0a4-c326aee3d94b",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "rassegnarsi",
-      "sentence": "Alla fine si è rassegnato all'idea."
+      "word": "la famiglia allargata",
+      "sentence": "Viviamo in una famiglia allargata felice."
     },
     "de": {
-      "word": "sich abfinden",
-      "sentence": "Am Ende hat er sich mit der Idee abgefunden."
+      "word": "die Patchworkfamilie",
+      "sentence": "Wir leben in einer glücklichen Patchworkfamilie."
     }
   },
   {
-    "id": "8a122077-0b27-45a0-b9d3-012f47bda623",
+    "id": "51fc41b5-9992-420f-b3f4-28882dffffe7",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "vedere",
-      "sentence": "Non riesco a vedere niente da qui."
+      "word": "lo zio",
+      "sentence": "Lo zio lo porta sempre allo zoo."
     },
     "de": {
-      "word": "sehen",
-      "sentence": "Ich kann von hier aus nichts sehen."
+      "word": "der Onkel",
+      "sentence": "Der Onkel nimmt ihn immer mit in den Zoo."
     }
   },
   {
-    "id": "494bf04d-1dc5-4d92-96ed-2cc54d2e1327",
+    "id": "0105087c-b91c-4443-bdb9-fd519453efed",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "guardare",
-      "sentence": "Guarda quel tramonto!"
+      "word": "la zia",
+      "sentence": "La zia gli fa sempre dei regali speciali."
     },
     "de": {
-      "word": "schauen",
-      "sentence": "Schau dir diesen Sonnenuntergang an!"
+      "word": "die Tante",
+      "sentence": "Die Tante macht ihm immer besondere Geschenke."
     }
   },
   {
-    "id": "085f89f2-82c5-4542-ba60-0d64bfd5492a",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "sentire",
-      "sentence": "Non ho sentito niente."
-    },
-    "de": {
-      "word": "hören",
-      "sentence": "Ich habe nichts gehört."
-    }
-  },
-  {
-    "id": "fa47e550-92f9-4874-8189-4c8620fe7279",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "ascoltare",
-      "sentence": "Ascolta attentamente quello che dice."
-    },
-    "de": {
-      "word": "zuhören",
-      "sentence": "Hör aufmerksam zu, was er sagt."
-    }
-  },
-  {
-    "id": "0613bb52-aafc-49f6-abde-2db1b8c77207",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "toccare",
-      "sentence": "Non toccare quel filo!"
-    },
-    "de": {
-      "word": "berühren",
-      "sentence": "Berühr dieses Kabel nicht!"
-    }
-  },
-  {
-    "id": "c47429a2-9ea6-4771-bb7f-1e678a786d69",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "l'odore",
-      "sentence": "Mi piace l'odore del pane appena sfornato."
-    },
-    "de": {
-      "word": "der Geruch",
-      "sentence": "Ich mag den Geruch von frisch gebackenem Brot."
-    }
-  },
-  {
-    "id": "59d3c059-f187-494a-82b9-3656188f957f",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "il rumore",
-      "sentence": "Ho sentito uno strano rumore in cucina."
-    },
-    "de": {
-      "word": "das Geräusch",
-      "sentence": "Ich habe ein seltsames Geräusch in der Küche gehört."
-    }
-  },
-  {
-    "id": "ab134b6f-9b14-4ffe-a6f8-6d5c22bd80c6",
-    "level": "B1",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "morbido",
-      "sentence": "Il tessuto è molto morbido."
-    },
-    "de": {
-      "word": "weich",
-      "sentence": "Der Stoff ist sehr weich."
-    }
-  },
-  {
-    "id": "b378d310-f99c-4cd6-bcaa-21a172f668f0",
+    "id": "c0acac4a-bf13-4c39-9234-4e0e1ee127ba",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "la percezione sensoriale",
-      "sentence": "La sua percezione sensoriale era estremamente acuta."
+      "word": "il legame familiare",
+      "sentence": "Il legame familiare si rafforza con il tempo."
     },
     "de": {
-      "word": "die Sinneswahrnehmung",
-      "sentence": "Seine Sinneswahrnehmung war äußerst scharf."
+      "word": "die familiäre Bindung",
+      "sentence": "Die familiäre Bindung wird mit der Zeit stärker."
     }
   },
   {
-    "id": "cd23d393-3088-4254-84fc-5dd8fe23b3f2",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "lo sguardo",
-      "sentence": "Il suo sguardo tradiva la stanchezza."
-    },
-    "de": {
-      "word": "der Blick",
-      "sentence": "Sein Blick verriet die Müdigkeit."
-    }
-  },
-  {
-    "id": "b08e8070-5f95-4bbb-a09c-7638f17ee511",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "percepire",
-      "sentence": "Percepì un cambiamento nella sua voce."
-    },
-    "de": {
-      "word": "wahrnehmen",
-      "sentence": "Er nahm eine Veränderung in ihrer Stimme wahr."
-    }
-  },
-  {
-    "id": "4798f9e7-ba90-4aae-8004-9f8bf44c00a0",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "inquietante",
-      "sentence": "C'era qualcosa di inquietante in quella stanza."
-    },
-    "de": {
-      "word": "beunruhigend",
-      "sentence": "Es gab etwas Beunruhigendes in diesem Zimmer."
-    }
-  },
-  {
-    "id": "ff3101b2-73bc-44b3-a701-83c636e1e61a",
+    "id": "3c801809-a0b6-44f0-ab2b-b3ef4acdf9cd",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "ammirare",
-      "sentence": "Ammiro la sua determinazione."
+      "word": "la febbre",
+      "sentence": "Ha la febbre alta da stamattina."
     },
     "de": {
-      "word": "bewundern",
-      "sentence": "Ich bewundere seine Entschlossenheit."
+      "word": "das Fieber",
+      "sentence": "Er hat seit heute Morgen hohes Fieber."
     }
   },
   {
-    "id": "817510e9-6d3b-4825-b5d6-88530d8fd0d6",
+    "id": "01f72d09-2ae4-443d-ab6f-f039189d0407",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "entusiasta",
-      "sentence": "È entusiasta del nuovo progetto."
+      "word": "il raffreddore",
+      "sentence": "Un altro raffreddore, il terzo questo mese."
     },
     "de": {
-      "word": "begeistert",
-      "sentence": "Er ist begeistert von dem neuen Projekt."
+      "word": "die Erkältung",
+      "sentence": "Wieder eine Erkältung, die dritte diesen Monat."
     }
   },
   {
-    "id": "69ba79a3-d7b1-470a-9d78-a3b9892fbffd",
+    "id": "9cfcd190-bf7e-4243-a7c3-ebf662976025",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "impressionante",
-      "sentence": "È stato un discorso impressionante."
+      "word": "la tosse",
+      "sentence": "La tosse notturna non lo lascia dormire."
     },
     "de": {
-      "word": "beeindruckend",
-      "sentence": "Es war eine beeindruckende Rede."
+      "word": "der Husten",
+      "sentence": "Der nächtliche Husten lässt ihn nicht schlafen."
     }
   },
   {
-    "id": "44c18444-8b96-4fc9-9e68-f6f67bbccdf3",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "l'entusiasmo",
-      "sentence": "Il suo entusiasmo era contagioso."
-    },
-    "de": {
-      "word": "die Begeisterung",
-      "sentence": "Seine Begeisterung war ansteckend."
-    }
-  },
-  {
-    "id": "284fdf9e-421d-4ed4-95cc-e992c852dd95",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
-    "it": {
-      "word": "affascinato",
-      "sentence": "Rimase affascinato dalla storia della città."
-    },
-    "de": {
-      "word": "fasziniert",
-      "sentence": "Er war von der Geschichte der Stadt fasziniert."
-    }
-  },
-  {
-    "id": "a8a7ba1c-d027-4abf-9743-9d9404b4ce3a",
+    "id": "d01e19b1-33ef-4dbb-a98b-4c03da4bea5e",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "la mancanza",
-      "sentence": "Sento la mancanza dei vecchi amici."
+      "word": "il termometro",
+      "sentence": "Prendo la temperatura con il termometro."
     },
     "de": {
-      "word": "das Fehlen",
-      "sentence": "Ich vermisse die alten Freunde."
+      "word": "das Fieberthermometer",
+      "sentence": "Ich messe die Temperatur mit dem Fieberthermometer."
     }
   },
   {
-    "id": "fea1a2f4-daff-4358-b3fc-c1752cee45b7",
+    "id": "9bbc0168-b601-4d4f-bf47-9faabb306a4d",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "invidiare",
-      "sentence": "Non ti invidio per niente."
+      "word": "il seggiolino auto",
+      "sentence": "Il seggiolino auto va installato correttamente."
     },
     "de": {
-      "word": "beneiden",
-      "sentence": "Ich beneide dich überhaupt nicht."
+      "word": "der Autokindersitz",
+      "sentence": "Der Autokindersitz muss korrekt eingebaut werden."
     }
   },
   {
-    "id": "e79ff886-42d3-42f2-81b2-06d617328499",
+    "id": "8d22615b-a215-4a1a-aabe-65c290a993ba",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "la sicurezza in casa",
+      "sentence": "Abbiamo migliorato la sicurezza in casa da quando cammina."
+    },
+    "de": {
+      "word": "die Sicherheit zu Hause",
+      "sentence": "Wir haben die Sicherheit zu Hause verbessert, seit er läuft."
+    }
+  },
+  {
+    "id": "d02df939-c3a2-4254-8377-ba1adc0966cd",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "la presa di corrente protetta",
+      "sentence": "Abbiamo messo prese di corrente protette ovunque."
+    },
+    "de": {
+      "word": "die kindersichere Steckdose",
+      "sentence": "Wir haben überall kindersichere Steckdosen angebracht."
+    }
+  },
+  {
+    "id": "96bed3a8-1095-4a2b-b99c-d160bf184571",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il cancelletto di sicurezza",
+      "sentence": "Il cancelletto di sicurezza blocca le scale."
+    },
+    "de": {
+      "word": "das Treppengitter",
+      "sentence": "Das Treppengitter versperrt die Treppe."
+    }
+  },
+  {
+    "id": "3ed6843b-3dab-4407-938d-4ae1b75e626b",
     "level": "B1",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "desiderare",
-      "sentence": "Desidero tornare a vivere al mare."
+      "word": "la routine della sera",
+      "sentence": "La routine della sera lo aiuta a calmarsi."
     },
     "de": {
-      "word": "sich wünschen",
-      "sentence": "Ich wünsche mir, wieder am Meer zu leben."
+      "word": "die Abendroutine",
+      "sentence": "Die Abendroutine hilft ihm, zur Ruhe zu kommen."
     }
   },
   {
-    "id": "7a3cad3f-cc9d-4db6-9e28-e904a412ba27",
+    "id": "8c2d49db-c8d4-4b5c-9869-5ba6f6f61fa5",
     "level": "B2",
-    "topic": "Denken und Fühlen",
+    "topic": "Children",
     "it": {
-      "word": "la nostalgia",
-      "sentence": "Provava nostalgia per la sua città natale."
+      "word": "il rituale della buonanotte",
+      "sentence": "Il rituale della buonanotte include sempre una storia."
     },
     "de": {
-      "word": "die Sehnsucht",
-      "sentence": "Er empfand Sehnsucht nach seiner Heimatstadt."
+      "word": "das Gutenachtritual",
+      "sentence": "Das Gutenachtritual beinhaltet immer eine Geschichte."
     }
   },
   {
-    "id": "5cf29123-851d-4412-844e-c86c179b9aeb",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
+    "id": "306d8a97-5c69-4f1c-a798-97a4e0226416",
+    "level": "B1",
+    "topic": "Children",
     "it": {
-      "word": "struggersi per",
-      "sentence": "Si struggeva per rivederla."
+      "word": "lavarsi le mani",
+      "sentence": "Si lava le mani prima di ogni pasto."
     },
     "de": {
-      "word": "sich sehnen nach",
-      "sentence": "Er sehnte sich danach, sie wiederzusehen."
+      "word": "sich die Hände waschen",
+      "sentence": "Er wäscht sich vor jeder Mahlzeit die Hände."
     }
   },
   {
-    "id": "471ef371-3077-4ef5-8404-fe69b3de83ec",
-    "level": "B2",
-    "topic": "Denken und Fühlen",
+    "id": "5e4d5928-be54-43a6-bf67-feea9310f9c1",
+    "level": "B1",
+    "topic": "Children",
     "it": {
-      "word": "l'invidia",
-      "sentence": "L'invidia avvelenava il loro rapporto."
+      "word": "fare colazione",
+      "sentence": "Facciamo colazione tutti insieme."
     },
     "de": {
-      "word": "der Neid",
-      "sentence": "Der Neid vergiftete ihre Beziehung."
+      "word": "frühstücken",
+      "sentence": "Wir frühstücken alle zusammen."
+    }
+  },
+  {
+    "id": "667cfc1d-272f-4996-80ee-5a5782b7a9d4",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "andare a letto",
+      "sentence": "Va a letto sempre alla stessa ora."
+    },
+    "de": {
+      "word": "ins Bett gehen",
+      "sentence": "Er geht immer zur gleichen Zeit ins Bett."
+    }
+  },
+  {
+    "id": "7764b11b-a845-4f63-9824-b3541216706c",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "svegliarsi presto",
+      "sentence": "Si sveglia presto anche nei weekend."
+    },
+    "de": {
+      "word": "früh aufwachen",
+      "sentence": "Er wacht auch am Wochenende früh auf."
+    }
+  },
+  {
+    "id": "520a8ddf-2bf4-4fbd-9a3e-d43957a60bc9",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "puntuale",
+      "sentence": "È importante essere puntuali per l'asilo."
+    },
+    "de": {
+      "word": "pünktlich",
+      "sentence": "Für die Kita ist Pünktlichkeit wichtig."
+    }
+  },
+  {
+    "id": "c3c4c226-2519-4c2a-9ffc-8f79faa4723e",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "spiegare",
+      "sentence": "Cerco sempre di spiegargli il perché delle regole."
+    },
+    "de": {
+      "word": "erklären",
+      "sentence": "Ich versuche immer, ihm den Grund der Regeln zu erklären."
+    }
+  },
+  {
+    "id": "f1c9108b-0e86-4b1b-b67b-f96362866a24",
+    "level": "B1",
+    "topic": "Children",
+    "it": {
+      "word": "ascoltare il bambino",
+      "sentence": "È fondamentale ascoltare il bambino senza interromperlo."
+    },
+    "de": {
+      "word": "dem Kind zuhören",
+      "sentence": "Es ist grundlegend, dem Kind zuzuhören, ohne es zu unterbrechen."
+    }
+  },
+  {
+    "id": "64d95045-336b-484b-a581-350e3b68b307",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "il dialogo con i figli",
+      "sentence": "Manteniamo sempre un dialogo aperto con i figli."
+    },
+    "de": {
+      "word": "das Gespräch mit den Kindern",
+      "sentence": "Wir pflegen immer ein offenes Gespräch mit den Kindern."
+    }
+  },
+  {
+    "id": "675950b3-e4dd-4fdd-bb0a-3085a0fb5552",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "negoziare con i bambini",
+      "sentence": "A volte bisogna negoziare con i bambini, non solo imporre."
+    },
+    "de": {
+      "word": "mit Kindern verhandeln",
+      "sentence": "Manchmal muss man mit Kindern verhandeln, nicht nur bestimmen."
+    }
+  },
+  {
+    "id": "b1aed479-be14-441d-8692-9b17be9c4350",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "la mediazione familiare",
+      "sentence": "La mediazione familiare aiuta a risolvere i conflitti tra fratelli."
+    },
+    "de": {
+      "word": "die Familienmediation",
+      "sentence": "Familienmediation hilft, Konflikte zwischen Geschwistern zu lösen."
+    }
+  },
+  {
+    "id": "5fe8b0ef-9b5a-44a2-9224-9fd218b0aee9",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "la comunicazione non violenta",
+      "sentence": "Applichiamo la comunicazione non violenta anche con i bambini."
+    },
+    "de": {
+      "word": "die gewaltfreie Kommunikation",
+      "sentence": "Wir wenden gewaltfreie Kommunikation auch bei Kindern an."
+    }
+  },
+  {
+    "id": "760fde80-5be8-4e62-b6c7-7dfb61de3833",
+    "level": "B2",
+    "topic": "Children",
+    "it": {
+      "word": "validare i sentimenti",
+      "sentence": "È importante validare i sentimenti del bambino prima di correggerlo."
+    },
+    "de": {
+      "word": "die Gefühle validieren",
+      "sentence": "Es ist wichtig, die Gefühle des Kindes zu validieren, bevor man es korrigiert."
     }
   }
 ]
