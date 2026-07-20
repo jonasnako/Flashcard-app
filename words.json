@@ -7278,5 +7278,3827 @@
       "word": "das Gerücht",
       "sentence": "Es war nur ein unbegründetes Gerücht."
     }
+  },
+  {
+    "id": "d71da5bd-ac92-4d41-beea-70777a36a81f",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la camicia",
+      "sentence": "Ha stirato la camicia per il colloquio."
+    },
+    "de": {
+      "word": "das Hemd",
+      "sentence": "Er hat das Hemd für das Vorstellungsgespräch gebügelt."
+    }
+  },
+  {
+    "id": "cd674df5-c981-415f-bc96-d7bb4c8360bc",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la maglietta",
+      "sentence": "Indossa sempre una maglietta bianca."
+    },
+    "de": {
+      "word": "das T-Shirt",
+      "sentence": "Er trägt immer ein weißes T-Shirt."
+    }
+  },
+  {
+    "id": "34743316-031e-465e-8566-fe063f906d64",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "i pantaloni",
+      "sentence": "Questi pantaloni sono troppo lunghi."
+    },
+    "de": {
+      "word": "die Hose",
+      "sentence": "Diese Hose ist zu lang."
+    }
+  },
+  {
+    "id": "767a45b6-9f48-4844-8a0a-e169ab90442a",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la gonna",
+      "sentence": "Ha comprato una gonna nuova per l'estate."
+    },
+    "de": {
+      "word": "der Rock",
+      "sentence": "Sie hat einen neuen Rock für den Sommer gekauft."
+    }
+  },
+  {
+    "id": "63d59d4f-b02a-4e4e-b872-7ad646aff2f9",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il vestito",
+      "sentence": "Il vestito le sta benissimo."
+    },
+    "de": {
+      "word": "das Kleid",
+      "sentence": "Das Kleid steht ihr sehr gut."
+    }
+  },
+  {
+    "id": "1af6504e-688c-4d6f-9959-2cff5c57eed5",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la giacca",
+      "sentence": "Metti la giacca, fa freddo fuori."
+    },
+    "de": {
+      "word": "die Jacke",
+      "sentence": "Zieh die Jacke an, draußen ist es kalt."
+    }
+  },
+  {
+    "id": "27a9a13f-bbed-4a3f-aaca-f4123505bbda",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il cappotto",
+      "sentence": "Il cappotto invernale è ancora in cantina."
+    },
+    "de": {
+      "word": "der Mantel",
+      "sentence": "Der Wintermantel ist noch im Keller."
+    }
+  },
+  {
+    "id": "c163c476-7543-42a8-b911-6e8e1bf18d11",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il maglione",
+      "sentence": "Questo maglione è troppo caldo per oggi."
+    },
+    "de": {
+      "word": "der Pullover",
+      "sentence": "Dieser Pullover ist für heute zu warm."
+    }
+  },
+  {
+    "id": "14057f75-4cad-46fd-8b01-b8c6a6d1722a",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la felpa",
+      "sentence": "Preferisce una felpa comoda per lavorare da casa."
+    },
+    "de": {
+      "word": "das Sweatshirt",
+      "sentence": "Er bevorzugt ein bequemes Sweatshirt fürs Homeoffice."
+    }
+  },
+  {
+    "id": "41147f07-7b0b-46b4-b036-a249a30faf25",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "i jeans",
+      "sentence": "Ha un paio di jeans per ogni occasione."
+    },
+    "de": {
+      "word": "die Jeans",
+      "sentence": "Er hat für jeden Anlass eine Jeans."
+    }
+  },
+  {
+    "id": "98f6e500-8c6c-4a5d-9155-c8c1ee45d484",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la camicetta",
+      "sentence": "Indossa una camicetta di seta per il lavoro."
+    },
+    "de": {
+      "word": "die Bluse",
+      "sentence": "Sie trägt für die Arbeit eine Seidenbluse."
+    }
+  },
+  {
+    "id": "3f90cdf0-974a-4ff3-ac62-c589355de2bf",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il pigiama",
+      "sentence": "Il bambino non vuole togliersi il pigiama."
+    },
+    "de": {
+      "word": "der Schlafanzug",
+      "sentence": "Das Kind will den Schlafanzug nicht ausziehen."
+    }
+  },
+  {
+    "id": "47666ab1-f05a-4954-b2e3-dad2133677b9",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la biancheria intima",
+      "sentence": "La biancheria intima è nel primo cassetto."
+    },
+    "de": {
+      "word": "die Unterwäsche",
+      "sentence": "Die Unterwäsche ist in der ersten Schublade."
+    }
+  },
+  {
+    "id": "86889dd0-a91f-4b1a-ac92-8ef084586d14",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il reggiseno",
+      "sentence": "Ha comprato un reggiseno sportivo per correre."
+    },
+    "de": {
+      "word": "der BH",
+      "sentence": "Sie hat einen Sport-BH zum Joggen gekauft."
+    }
+  },
+  {
+    "id": "fe7d48af-b38a-4a05-9beb-70bb857f67d8",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "le mutande",
+      "sentence": "Le mutande pulite sono nell'armadio."
+    },
+    "de": {
+      "word": "die Unterhose",
+      "sentence": "Die saubere Unterhose ist im Schrank."
+    }
+  },
+  {
+    "id": "a6dc735a-c033-4348-9316-c5fcc974a059",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "i calzini",
+      "sentence": "Manca sempre un calzino dopo il bucato."
+    },
+    "de": {
+      "word": "die Socken",
+      "sentence": "Nach dem Waschen fehlt immer eine Socke."
+    }
+  },
+  {
+    "id": "690a79f1-4633-436f-8d5d-13d3ebe63be2",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il collant",
+      "sentence": "Il collant si è smagliato subito."
+    },
+    "de": {
+      "word": "die Strumpfhose",
+      "sentence": "Die Strumpfhose bekam sofort eine Laufmasche."
+    }
+  },
+  {
+    "id": "7824ce80-2469-4c0d-9a51-f6de3c70524b",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "le scarpe",
+      "sentence": "Queste scarpe mi fanno male ai piedi."
+    },
+    "de": {
+      "word": "die Schuhe",
+      "sentence": "Diese Schuhe tun meinen Füßen weh."
+    }
+  },
+  {
+    "id": "445928d7-92aa-4212-92f5-018823a291e9",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "gli stivali",
+      "sentence": "Gli stivali sono perfetti per la pioggia."
+    },
+    "de": {
+      "word": "die Stiefel",
+      "sentence": "Die Stiefel sind perfekt für den Regen."
+    }
+  },
+  {
+    "id": "2d0393c1-1e01-4578-8826-68fceb8095ae",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "i sandali",
+      "sentence": "D'estate porto sempre i sandali."
+    },
+    "de": {
+      "word": "die Sandalen",
+      "sentence": "Im Sommer trage ich immer Sandalen."
+    }
+  },
+  {
+    "id": "aa74d3c1-8905-49b2-93bd-4080be2bcad9",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "le scarpe da ginnastica",
+      "sentence": "Ha bisogno di nuove scarpe da ginnastica."
+    },
+    "de": {
+      "word": "die Turnschuhe",
+      "sentence": "Er braucht neue Turnschuhe."
+    }
+  },
+  {
+    "id": "32bfd5d3-acb5-43a0-a7e5-1e21eff03ef6",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la cintura",
+      "sentence": "La cintura è troppo larga ora."
+    },
+    "de": {
+      "word": "der Gürtel",
+      "sentence": "Der Gürtel ist jetzt zu weit."
+    }
+  },
+  {
+    "id": "558b288d-c381-414c-8d68-806dbd73571f",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la sciarpa",
+      "sentence": "Metti la sciarpa, tira vento."
+    },
+    "de": {
+      "word": "der Schal",
+      "sentence": "Zieh den Schal an, es zieht."
+    }
+  },
+  {
+    "id": "634502d8-e080-4aa6-a3ee-a834bb0bfc1a",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il cappello",
+      "sentence": "Il bambino perde sempre il cappello."
+    },
+    "de": {
+      "word": "die Mütze",
+      "sentence": "Das Kind verliert immer seine Mütze."
+    }
+  },
+  {
+    "id": "ef2ca2ad-9f57-4da8-8704-800315843b79",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "i guanti",
+      "sentence": "Ho dimenticato i guanti in macchina."
+    },
+    "de": {
+      "word": "die Handschuhe",
+      "sentence": "Ich habe die Handschuhe im Auto vergessen."
+    }
+  },
+  {
+    "id": "ab1f0375-4cc7-48ba-8de4-7d443eec1629",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "gli occhiali da sole",
+      "sentence": "Gli occhiali da sole sono nella borsa."
+    },
+    "de": {
+      "word": "die Sonnenbrille",
+      "sentence": "Die Sonnenbrille ist in der Handtasche."
+    }
+  },
+  {
+    "id": "5cfdea52-1919-43d6-ad3e-a4e347cf5a75",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la borsa",
+      "sentence": "Ha perso le chiavi nella borsa."
+    },
+    "de": {
+      "word": "die Handtasche",
+      "sentence": "Sie hat die Schlüssel in der Handtasche verlegt."
+    }
+  },
+  {
+    "id": "376fc7e3-3b12-4915-acba-7e6e58264d31",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il cotone",
+      "sentence": "Preferisco i vestiti di cotone in estate."
+    },
+    "de": {
+      "word": "die Baumwolle",
+      "sentence": "Ich bevorzuge im Sommer Kleidung aus Baumwolle."
+    }
+  },
+  {
+    "id": "ec220bb3-100f-4667-a95a-58e7dc3772e8",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la lana",
+      "sentence": "Il maglione è di pura lana."
+    },
+    "de": {
+      "word": "die Wolle",
+      "sentence": "Der Pullover ist aus reiner Wolle."
+    }
+  },
+  {
+    "id": "b04eb035-301e-4148-9397-d75b78f60a34",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "la seta",
+      "sentence": "La camicetta di seta va lavata a mano."
+    },
+    "de": {
+      "word": "die Seide",
+      "sentence": "Die Seidenbluse muss von Hand gewaschen werden."
+    }
+  },
+  {
+    "id": "4502154b-4160-464d-80d7-7ef8d152ec79",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "il lino",
+      "sentence": "Il lino si stropiccia facilmente."
+    },
+    "de": {
+      "word": "das Leinen",
+      "sentence": "Leinen knittert leicht."
+    }
+  },
+  {
+    "id": "1d71e8eb-3caa-405c-9bee-10eb0c328530",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la pelle",
+      "sentence": "Le scarpe di pelle durano più a lungo."
+    },
+    "de": {
+      "word": "das Leder",
+      "sentence": "Schuhe aus Leder halten länger."
+    }
+  },
+  {
+    "id": "88ddae3f-82f8-4870-b49e-00e8d39d73c1",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "il denim",
+      "sentence": "Il denim spesso è più durevole."
+    },
+    "de": {
+      "word": "der Denim",
+      "sentence": "Dicker Denim ist meist langlebiger."
+    }
+  },
+  {
+    "id": "5b8a6bd5-59cf-44d0-ba65-a4ae7eeed699",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "il poliestere",
+      "sentence": "Il poliestere si asciuga più in fretta."
+    },
+    "de": {
+      "word": "das Polyester",
+      "sentence": "Polyester trocknet schneller."
+    }
+  },
+  {
+    "id": "1f062926-4ba7-47a2-a4e6-94984e6dc4c0",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il tessuto",
+      "sentence": "Che tessuto morbido!"
+    },
+    "de": {
+      "word": "der Stoff",
+      "sentence": "Was für ein weicher Stoff!"
+    }
+  },
+  {
+    "id": "094e6d34-7576-4a8c-8066-3ca9569702f2",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "elastico",
+      "sentence": "I pantaloni hanno un tessuto elastico."
+    },
+    "de": {
+      "word": "elastisch",
+      "sentence": "Die Hose hat einen elastischen Stoff."
+    }
+  },
+  {
+    "id": "b1180991-2713-4d42-9c1a-ad54abb2ad64",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "impermeabile",
+      "sentence": "Serve una giacca impermeabile per la montagna."
+    },
+    "de": {
+      "word": "wasserdicht",
+      "sentence": "Für die Berge braucht man eine wasserdichte Jacke."
+    }
+  },
+  {
+    "id": "6eabee55-9d79-479d-aa7b-5ce79968e1a7",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la taglia",
+      "sentence": "Che taglia porti di solito?"
+    },
+    "de": {
+      "word": "die Größe",
+      "sentence": "Welche Größe trägst du normalerweise?"
+    }
+  },
+  {
+    "id": "93e102e6-c299-43c2-acf9-32e54afed5f2",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "stretto",
+      "sentence": "Questa giacca è troppo stretta."
+    },
+    "de": {
+      "word": "eng",
+      "sentence": "Diese Jacke ist zu eng."
+    }
+  },
+  {
+    "id": "4047bce8-d6b1-4fb5-9bff-d9bb79c5cddb",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "largo",
+      "sentence": "Preferisco i pantaloni un po' larghi."
+    },
+    "de": {
+      "word": "weit",
+      "sentence": "Ich bevorzuge etwas weitere Hosen."
+    }
+  },
+  {
+    "id": "43fcfb4e-06ca-4a38-b291-7f709d5f34ee",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "aderente",
+      "sentence": "Il vestito era troppo aderente per lei."
+    },
+    "de": {
+      "word": "eng anliegend",
+      "sentence": "Das Kleid war für sie zu eng anliegend."
+    }
+  },
+  {
+    "id": "ce64e937-f0c8-48ca-ad7b-56728b6f0e8c",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "su misura",
+      "sentence": "Ha fatto fare l'abito su misura."
+    },
+    "de": {
+      "word": "maßgeschneidert",
+      "sentence": "Er hat den Anzug maßschneidern lassen."
+    }
+  },
+  {
+    "id": "4ba1c599-6fde-45aa-80b2-83b9fafeb4c8",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il camerino",
+      "sentence": "Il camerino era occupato."
+    },
+    "de": {
+      "word": "die Umkleidekabine",
+      "sentence": "Die Umkleidekabine war besetzt."
+    }
+  },
+  {
+    "id": "95d76d83-ca27-420c-91bc-a58a016a694d",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "andare bene",
+      "sentence": "Questa taglia mi va bene."
+    },
+    "de": {
+      "word": "passen",
+      "sentence": "Diese Größe passt mir."
+    }
+  },
+  {
+    "id": "0fcf858d-19d6-40f3-b5ea-3f9483816666",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "stringere",
+      "sentence": "Bisogna stringere un po' la vita."
+    },
+    "de": {
+      "word": "enger machen",
+      "sentence": "Man muss die Taille etwas enger machen."
+    }
+  },
+  {
+    "id": "2f558dff-5a69-4e31-a065-affa849caaf5",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "allargare",
+      "sentence": "Il sarto può allargare le maniche."
+    },
+    "de": {
+      "word": "weiter machen",
+      "sentence": "Der Schneider kann die Ärmel weiter machen."
+    }
+  },
+  {
+    "id": "e7380586-cc89-4800-b812-c2d94d04d06b",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "indossare",
+      "sentence": "Indossa sempre colori scuri."
+    },
+    "de": {
+      "word": "tragen",
+      "sentence": "Er trägt immer dunkle Farben."
+    }
+  },
+  {
+    "id": "f6d21d0d-9de5-4272-ae5c-00e9c83e4d10",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "togliersi",
+      "sentence": "Si è tolto le scarpe all'ingresso."
+    },
+    "de": {
+      "word": "ausziehen",
+      "sentence": "Er hat die Schuhe im Eingang ausgezogen."
+    }
+  },
+  {
+    "id": "5e929e2c-c354-4a35-84bc-60b3f5c023be",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "mettersi",
+      "sentence": "Mettiti la giacca prima di uscire."
+    },
+    "de": {
+      "word": "anziehen",
+      "sentence": "Zieh die Jacke an, bevor du gehst."
+    }
+  },
+  {
+    "id": "f8af8082-8ea6-4424-b148-bcde5daa41a1",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "spogliarsi",
+      "sentence": "Il bambino si è spogliato da solo."
+    },
+    "de": {
+      "word": "sich ausziehen",
+      "sentence": "Das Kind hat sich allein ausgezogen."
+    }
+  },
+  {
+    "id": "56747fc8-c7df-4df5-a2c0-23e965080c3a",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "cambiarsi d'abito",
+      "sentence": "Devo cambiarmi d'abito prima della cena."
+    },
+    "de": {
+      "word": "sich umziehen",
+      "sentence": "Ich muss mich vor dem Abendessen umziehen."
+    }
+  },
+  {
+    "id": "d8981f65-26b8-4b55-a30c-e94cfa257823",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "abbottonare",
+      "sentence": "Fatica ancora ad abbottonarsi la giacca."
+    },
+    "de": {
+      "word": "zuknöpfen",
+      "sentence": "Er tut sich noch schwer, seine Jacke zuzuknöpfen."
+    }
+  },
+  {
+    "id": "c8111319-3337-494b-9f50-9a569c829745",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "sbottonare",
+      "sentence": "Ha sbottonato il colletto perché faceva caldo."
+    },
+    "de": {
+      "word": "aufknöpfen",
+      "sentence": "Er hat den Kragen aufgeknöpft, weil es heiß war."
+    }
+  },
+  {
+    "id": "95a817d6-2e0c-4710-99bf-6f91df197efc",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la cerniera",
+      "sentence": "La cerniera si è rotta ancora."
+    },
+    "de": {
+      "word": "der Reißverschluss",
+      "sentence": "Der Reißverschluss ist schon wieder kaputt."
+    }
+  },
+  {
+    "id": "45f76345-08e5-4e0e-8a1e-b77806bc7235",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il bottone",
+      "sentence": "Manca un bottone alla camicia."
+    },
+    "de": {
+      "word": "der Knopf",
+      "sentence": "Am Hemd fehlt ein Knopf."
+    }
+  },
+  {
+    "id": "0a6e152d-79be-4877-bb56-b7f0fc87e65b",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la tasca",
+      "sentence": "Ho le chiavi in tasca."
+    },
+    "de": {
+      "word": "die Tasche",
+      "sentence": "Ich habe die Schlüssel in der Tasche."
+    }
+  },
+  {
+    "id": "5b66576d-bca5-41f5-8618-4f64c576354b",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "il colletto",
+      "sentence": "Il colletto è un po' troppo stretto."
+    },
+    "de": {
+      "word": "der Kragen",
+      "sentence": "Der Kragen ist etwas zu eng."
+    }
+  },
+  {
+    "id": "89cbccdf-4fee-42f8-be6f-a0be8bce6967",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "la manica",
+      "sentence": "Si è tirato su le maniche prima di lavorare."
+    },
+    "de": {
+      "word": "der Ärmel",
+      "sentence": "Er hat sich vor der Arbeit die Ärmel hochgekrempelt."
+    }
+  },
+  {
+    "id": "ffc7c6b6-8a65-4970-80cd-3c7ec2a21040",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "l'orlo",
+      "sentence": "L'orlo dei pantaloni si è scucito."
+    },
+    "de": {
+      "word": "der Saum",
+      "sentence": "Der Saum der Hose hat sich aufgelöst."
+    }
+  },
+  {
+    "id": "ece60c3b-f505-45a9-b34b-af42c7d8d649",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il laccio",
+      "sentence": "Il laccio della scarpa si è slacciato."
+    },
+    "de": {
+      "word": "der Schnürsenkel",
+      "sentence": "Der Schnürsenkel hat sich gelöst."
+    }
+  },
+  {
+    "id": "50bb746c-3502-48b0-9e08-45b6933c616e",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "l'asola",
+      "sentence": "L'asola era troppo stretta per il bottone."
+    },
+    "de": {
+      "word": "das Knopfloch",
+      "sentence": "Das Knopfloch war für den Knopf zu eng."
+    }
+  },
+  {
+    "id": "f63dfa48-4934-4a95-8b08-d97bbebce14e",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "lavare a freddo",
+      "sentence": "Questo capo va lavato a freddo."
+    },
+    "de": {
+      "word": "kalt waschen",
+      "sentence": "Dieses Kleidungsstück muss kalt gewaschen werden."
+    }
+  },
+  {
+    "id": "b04a2a79-c441-4599-acd3-09dad603007e",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "non stirare",
+      "sentence": "L'etichetta dice di non stirare."
+    },
+    "de": {
+      "word": "nicht bügeln",
+      "sentence": "Auf dem Etikett steht, dass man nicht bügeln soll."
+    }
+  },
+  {
+    "id": "7fd55f35-2d94-4b08-9b05-86ef4684cc23",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "il simbolo di lavaggio",
+      "sentence": "Controlla sempre il simbolo di lavaggio."
+    },
+    "de": {
+      "word": "das Waschsymbol",
+      "sentence": "Überprüfe immer das Waschsymbol."
+    }
+  },
+  {
+    "id": "8ebe3fc3-f140-47a6-9916-b3027b069ea9",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "stingersi",
+      "sentence": "La maglietta nera si è stinta."
+    },
+    "de": {
+      "word": "ausbleichen",
+      "sentence": "Das schwarze T-Shirt ist ausgeblichen."
+    }
+  },
+  {
+    "id": "8cfaf91c-a1f1-4815-a414-1cde74fdf9e0",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "restringersi",
+      "sentence": "Il maglione si è ristretto in lavatrice."
+    },
+    "de": {
+      "word": "einlaufen",
+      "sentence": "Der Pullover ist in der Waschmaschine eingelaufen."
+    }
+  },
+  {
+    "id": "6bf96714-debe-4776-8ef9-f566e243423c",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "macchiarsi",
+      "sentence": "Si è macchiato la camicia a pranzo."
+    },
+    "de": {
+      "word": "sich beflecken",
+      "sentence": "Er hat sich beim Mittagessen das Hemd befleckt."
+    }
+  },
+  {
+    "id": "333acb70-eac3-4f94-b83f-226edf076838",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la macchia",
+      "sentence": "Non riesco a togliere questa macchia."
+    },
+    "de": {
+      "word": "der Fleck",
+      "sentence": "Ich bekomme diesen Fleck nicht heraus."
+    }
+  },
+  {
+    "id": "66116657-7510-4e8f-9905-97957254562a",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "smacchiare",
+      "sentence": "Ho provato a smacchiare i pantaloni."
+    },
+    "de": {
+      "word": "den Fleck entfernen",
+      "sentence": "Ich habe versucht, den Fleck aus der Hose zu entfernen."
+    }
+  },
+  {
+    "id": "ea8260fa-8e69-4773-8355-fd15baefbfba",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il negozio di abbigliamento",
+      "sentence": "C'è un nuovo negozio di abbigliamento in centro."
+    },
+    "de": {
+      "word": "das Bekleidungsgeschäft",
+      "sentence": "In der Innenstadt gibt es ein neues Bekleidungsgeschäft."
+    }
+  },
+  {
+    "id": "388e3890-7002-46e1-9919-060605eae10d",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "i saldi",
+      "sentence": "Ho comprato tutto durante i saldi."
+    },
+    "de": {
+      "word": "der Schlussverkauf",
+      "sentence": "Ich habe alles im Schlussverkauf gekauft."
+    }
+  },
+  {
+    "id": "fa4d9c74-9d7c-4915-8273-3964b0920a4e",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "lo sconto",
+      "sentence": "C'è uno sconto del trenta percento."
+    },
+    "de": {
+      "word": "der Rabatt",
+      "sentence": "Es gibt dreißig Prozent Rabatt."
+    }
+  },
+  {
+    "id": "dafa078c-de7c-4731-84ee-15d315fa639b",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "alla moda",
+      "sentence": "Veste sempre alla moda."
+    },
+    "de": {
+      "word": "modisch",
+      "sentence": "Er kleidet sich immer modisch."
+    }
+  },
+  {
+    "id": "f5dce27c-e0d6-4aea-b4b6-3b1d39fa9afb",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "fuori moda",
+      "sentence": "Questo stile è ormai fuori moda."
+    },
+    "de": {
+      "word": "altmodisch",
+      "sentence": "Dieser Stil ist inzwischen altmodisch."
+    }
+  },
+  {
+    "id": "b64aec6f-7e11-4fff-975e-e52fa68bd2c6",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "lo stile",
+      "sentence": "Ha uno stile molto personale."
+    },
+    "de": {
+      "word": "der Stil",
+      "sentence": "Er hat einen sehr eigenen Stil."
+    }
+  },
+  {
+    "id": "2072713c-adf6-4c1b-926b-ace4bfdab84d",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "elegante",
+      "sentence": "Era vestita in modo molto elegante."
+    },
+    "de": {
+      "word": "elegant",
+      "sentence": "Sie war sehr elegant gekleidet."
+    }
+  },
+  {
+    "id": "d27ffee4-2097-40af-b37d-8b0602c4e82a",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "casual",
+      "sentence": "L'ufficio permette un abbigliamento casual il venerdì."
+    },
+    "de": {
+      "word": "leger",
+      "sentence": "Im Büro ist freitags legere Kleidung erlaubt."
+    }
+  },
+  {
+    "id": "6e1684c7-e225-4c09-b2f5-55e9a75ef121",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "il modello",
+      "sentence": "Questo modello è disponibile in tre colori."
+    },
+    "de": {
+      "word": "das Modell",
+      "sentence": "Dieses Modell ist in drei Farben erhältlich."
+    }
+  },
+  {
+    "id": "0c3457b2-7677-41de-93de-2f2b14f9a5ec",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "la collezione",
+      "sentence": "La nuova collezione uscirà a marzo."
+    },
+    "de": {
+      "word": "die Kollektion",
+      "sentence": "Die neue Kollektion erscheint im März."
+    }
+  },
+  {
+    "id": "d8ebb80b-bec0-4d39-8df8-e04dc4b3e2f3",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il piumino",
+      "sentence": "Con il piumino non sento freddo."
+    },
+    "de": {
+      "word": "die Daunenjacke",
+      "sentence": "Mit der Daunenjacke friere ich nicht."
+    }
+  },
+  {
+    "id": "4db6150b-a313-4875-a63c-15336fd59b49",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "l'ombrello",
+      "sentence": "Prendi l'ombrello, potrebbe piovere."
+    },
+    "de": {
+      "word": "der Regenschirm",
+      "sentence": "Nimm den Regenschirm mit, es könnte regnen."
+    }
+  },
+  {
+    "id": "9c4696d0-be59-45a0-9df5-678dbea22430",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "gli stivali di gomma",
+      "sentence": "I bambini adorano gli stivali di gomma."
+    },
+    "de": {
+      "word": "die Gummistiefel",
+      "sentence": "Die Kinder lieben Gummistiefel."
+    }
+  },
+  {
+    "id": "2e0b50d3-a654-47d1-88a0-f54da2bd15cf",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la felpa con cappuccio",
+      "sentence": "Ha messo la felpa con cappuccio per la pioggia."
+    },
+    "de": {
+      "word": "der Kapuzenpulli",
+      "sentence": "Er hat den Kapuzenpulli wegen des Regens angezogen."
+    }
+  },
+  {
+    "id": "6bf2bc87-1e0f-4d1c-839f-94f592d87b46",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il costume da bagno",
+      "sentence": "Ho dimenticato il costume da bagno in valigia."
+    },
+    "de": {
+      "word": "der Badeanzug",
+      "sentence": "Ich habe den Badeanzug im Koffer vergessen."
+    }
+  },
+  {
+    "id": "7872778d-2d73-4d82-af1e-9c0c4b7cf731",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "l'abito da sera",
+      "sentence": "Indossava un abito da sera blu scuro."
+    },
+    "de": {
+      "word": "das Abendkleid",
+      "sentence": "Sie trug ein dunkelblaues Abendkleid."
+    }
+  },
+  {
+    "id": "c99366b1-4134-44c6-92ae-4f79656fd06b",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "l'abito da lavoro",
+      "sentence": "L'abito da lavoro va indossato in cantiere."
+    },
+    "de": {
+      "word": "die Arbeitskleidung",
+      "sentence": "Auf der Baustelle muss Arbeitskleidung getragen werden."
+    }
+  },
+  {
+    "id": "f81fa47a-4941-424c-a02c-b4aab617e12f",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la tuta da ginnastica",
+      "sentence": "Si allena sempre con la stessa tuta da ginnastica."
+    },
+    "de": {
+      "word": "der Trainingsanzug",
+      "sentence": "Er trainiert immer im selben Trainingsanzug."
+    }
+  },
+  {
+    "id": "fc2baf26-c81c-417d-87ec-bacb884b6ae1",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "comodo",
+      "sentence": "Cerco qualcosa di comodo per il volo."
+    },
+    "de": {
+      "word": "bequem",
+      "sentence": "Ich suche etwas Bequemes für den Flug."
+    }
+  },
+  {
+    "id": "844befa8-0fc1-4b35-a69d-90216b869092",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "pratico",
+      "sentence": "Preferisco vestiti pratici con i bambini."
+    },
+    "de": {
+      "word": "praktisch",
+      "sentence": "Mit Kindern bevorzuge ich praktische Kleidung."
+    }
+  },
+  {
+    "id": "d3056225-07de-4ad9-ba05-86bcdfd3a099",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "il completo",
+      "sentence": "Ha comprato un completo per il matrimonio."
+    },
+    "de": {
+      "word": "der Anzug",
+      "sentence": "Er hat sich für die Hochzeit einen Anzug gekauft."
+    }
+  },
+  {
+    "id": "ee6e1c43-d7ba-40c9-b542-734feca90898",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "la cravatta",
+      "sentence": "Non sopporta portare la cravatta."
+    },
+    "de": {
+      "word": "die Krawatte",
+      "sentence": "Er kann es nicht ausstehen, eine Krawatte zu tragen."
+    }
+  },
+  {
+    "id": "1a07653b-d3b5-42c0-a219-b03b1366ce1b",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "a righe",
+      "sentence": "Preferisce le camicie a righe."
+    },
+    "de": {
+      "word": "gestreift",
+      "sentence": "Er bevorzugt gestreifte Hemden."
+    }
+  },
+  {
+    "id": "aff2ad6e-0d77-4b70-93ec-8e08aea6d3d1",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "a pois",
+      "sentence": "Ha un vestito a pois molto carino."
+    },
+    "de": {
+      "word": "gepunktet",
+      "sentence": "Sie hat ein sehr niedliches gepunktetes Kleid."
+    }
+  },
+  {
+    "id": "77fb8d7b-ec24-423e-86c2-57652e15569e",
+    "level": "B1",
+    "topic": "Clothes",
+    "it": {
+      "word": "a quadri",
+      "sentence": "La camicia a quadri gli sta bene."
+    },
+    "de": {
+      "word": "kariert",
+      "sentence": "Das karierte Hemd steht ihm gut."
+    }
+  },
+  {
+    "id": "9aca4ccf-ade4-4546-b196-cee31118045f",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "tinta unita",
+      "sentence": "Preferisco le magliette in tinta unita."
+    },
+    "de": {
+      "word": "einfarbig",
+      "sentence": "Ich bevorzuge einfarbige T-Shirts."
+    }
+  },
+  {
+    "id": "658bad84-e6e5-4df4-9cf7-c35f7e2edf37",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "il motivo",
+      "sentence": "Il motivo floreale era molto delicato."
+    },
+    "de": {
+      "word": "das Muster",
+      "sentence": "Das Blumenmuster war sehr zart."
+    }
+  },
+  {
+    "id": "48223dc1-0ddf-4129-b5ac-b674e3e03a09",
+    "level": "B2",
+    "topic": "Clothes",
+    "it": {
+      "word": "sgargiante",
+      "sentence": "Il colore era un po' troppo sgargiante per l'ufficio."
+    },
+    "de": {
+      "word": "auffällig",
+      "sentence": "Die Farbe war für das Büro etwas zu auffällig."
+    }
+  },
+  {
+    "id": "56497afe-987c-47ba-bfe9-06e8e812f601",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'albero",
+      "sentence": "Sotto quell'albero si sta al fresco."
+    },
+    "de": {
+      "word": "der Baum",
+      "sentence": "Unter diesem Baum ist es schön kühl."
+    }
+  },
+  {
+    "id": "0329b403-da75-4656-ad65-5fe22a89ca54",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il fiore",
+      "sentence": "I fiori sono sbocciati presto quest'anno."
+    },
+    "de": {
+      "word": "die Blume",
+      "sentence": "Die Blumen sind dieses Jahr früh aufgeblüht."
+    }
+  },
+  {
+    "id": "27e8180a-a777-4536-b778-9c70e55783d1",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'erba",
+      "sentence": "I bambini corrono a piedi nudi sull'erba."
+    },
+    "de": {
+      "word": "das Gras",
+      "sentence": "Die Kinder rennen barfuß über das Gras."
+    }
+  },
+  {
+    "id": "6f6ea3dd-5c32-4129-bc0a-0cf8f65df657",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la foglia",
+      "sentence": "Le foglie cadono già a ottobre."
+    },
+    "de": {
+      "word": "das Blatt",
+      "sentence": "Die Blätter fallen schon im Oktober."
+    }
+  },
+  {
+    "id": "8a6572f4-12fc-47d5-afc5-83d07c3f8601",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il ramo",
+      "sentence": "Un ramo è caduto durante la tempesta."
+    },
+    "de": {
+      "word": "der Ast",
+      "sentence": "Ein Ast ist während des Sturms heruntergefallen."
+    }
+  },
+  {
+    "id": "9b92ecfa-6796-4734-8bcc-e2feee767179",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la radice",
+      "sentence": "Le radici dell'albero sono molto profonde."
+    },
+    "de": {
+      "word": "die Wurzel",
+      "sentence": "Die Wurzeln des Baumes reichen sehr tief."
+    }
+  },
+  {
+    "id": "6a92c658-e57e-45bd-9478-3d359f7468a8",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il tronco",
+      "sentence": "Il tronco era largo abbastanza per sedersi."
+    },
+    "de": {
+      "word": "der Stamm",
+      "sentence": "Der Stamm war breit genug zum Sitzen."
+    }
+  },
+  {
+    "id": "c6da7716-f1d2-4636-8d49-8946a8c5a9ae",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il seme",
+      "sentence": "Abbiamo piantato i semi in primavera."
+    },
+    "de": {
+      "word": "der Samen",
+      "sentence": "Wir haben die Samen im Frühling gepflanzt."
+    }
+  },
+  {
+    "id": "aac541b2-dcc0-4ad3-927c-b30b35a8c759",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il fungo",
+      "sentence": "Ha raccolto funghi nel bosco."
+    },
+    "de": {
+      "word": "der Pilz",
+      "sentence": "Er hat im Wald Pilze gesammelt."
+    }
+  },
+  {
+    "id": "5bc8f557-1e7f-4a55-ae3f-3a8a579aedfd",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "il muschio",
+      "sentence": "Il muschio cresceva sul lato nord delle rocce."
+    },
+    "de": {
+      "word": "das Moos",
+      "sentence": "Das Moos wuchs an der Nordseite der Felsen."
+    }
+  },
+  {
+    "id": "2ac480d7-ee65-4129-92ff-bbbec44c2a15",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'erba medicinale",
+      "sentence": "Coltiva diverse erbe medicinali in giardino."
+    },
+    "de": {
+      "word": "die Heilpflanze",
+      "sentence": "Sie zieht mehrere Heilpflanzen im Garten."
+    }
+  },
+  {
+    "id": "6bce33e9-2ed3-4b4a-b0ed-49674f5a3820",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la camomilla",
+      "sentence": "Bevo una camomilla prima di dormire."
+    },
+    "de": {
+      "word": "die Kamille",
+      "sentence": "Ich trinke vor dem Schlafen einen Kamillentee."
+    }
+  },
+  {
+    "id": "8425c9e1-7c9f-4dcc-8de9-f7186ef75b7b",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la lavanda",
+      "sentence": "Il campo di lavanda profumava tutta la valle."
+    },
+    "de": {
+      "word": "der Lavendel",
+      "sentence": "Das Lavendelfeld durchduftete das ganze Tal."
+    }
+  },
+  {
+    "id": "c8d115a7-2534-42ec-b835-1c51ca48c46a",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la salvia",
+      "sentence": "Uso la salvia per il mal di gola."
+    },
+    "de": {
+      "word": "der Salbei",
+      "sentence": "Ich benutze Salbei bei Halsschmerzen."
+    }
+  },
+  {
+    "id": "26b11012-4b16-4517-80a9-a667df7fe5d5",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il rosmarino",
+      "sentence": "Il rosmarino cresce bene sul balcone."
+    },
+    "de": {
+      "word": "der Rosmarin",
+      "sentence": "Rosmarin gedeiht gut auf dem Balkon."
+    }
+  },
+  {
+    "id": "05557aa7-0c6c-455a-b001-c5a445c350af",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "raccogliere le erbe",
+      "sentence": "Andiamo a raccogliere erbe in montagna."
+    },
+    "de": {
+      "word": "Kräuter sammeln",
+      "sentence": "Wir gehen in den Bergen Kräuter sammeln."
+    }
+  },
+  {
+    "id": "ba67f0cb-e20c-4bd4-9531-575435822373",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "essiccare",
+      "sentence": "Le erbe vanno essiccate all'ombra."
+    },
+    "de": {
+      "word": "trocknen",
+      "sentence": "Die Kräuter müssen im Schatten getrocknet werden."
+    }
+  },
+  {
+    "id": "3a4be42c-74ba-4320-a9c6-76b1d9054700",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'infuso",
+      "sentence": "Prepara un infuso con foglie fresche."
+    },
+    "de": {
+      "word": "der Aufguss",
+      "sentence": "Sie bereitet einen Aufguss mit frischen Blättern zu."
+    }
+  },
+  {
+    "id": "7ac37086-fa5f-4c22-912a-409416082b44",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "curativo",
+      "sentence": "Molte piante hanno un effetto curativo."
+    },
+    "de": {
+      "word": "heilend",
+      "sentence": "Viele Pflanzen haben eine heilende Wirkung."
+    }
+  },
+  {
+    "id": "df98ff55-902b-4c25-8222-35e91a47f269",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la proprietà curativa",
+      "sentence": "Studia le proprietà curative delle piante alpine."
+    },
+    "de": {
+      "word": "die Heilwirkung",
+      "sentence": "Er erforscht die Heilwirkung alpiner Pflanzen."
+    }
+  },
+  {
+    "id": "3f4c3a8a-6f66-4487-9b28-7176a9380ddc",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'animale selvatico",
+      "sentence": "Abbiamo visto un animale selvatico attraversare la strada."
+    },
+    "de": {
+      "word": "das Wildtier",
+      "sentence": "Wir haben ein Wildtier die Straße überqueren sehen."
+    }
+  },
+  {
+    "id": "468bf1b4-71c1-40ed-a066-241e2cbe1d7c",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il cervo",
+      "sentence": "Un cervo è apparso al margine del bosco."
+    },
+    "de": {
+      "word": "der Hirsch",
+      "sentence": "Ein Hirsch tauchte am Waldrand auf."
+    }
+  },
+  {
+    "id": "88c082e1-1b88-4e03-b50c-27550ef731f5",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la volpe",
+      "sentence": "Una volpe si aggirava vicino al pollaio."
+    },
+    "de": {
+      "word": "der Fuchs",
+      "sentence": "Ein Fuchs schlich um den Hühnerstall."
+    }
+  },
+  {
+    "id": "0ff0273a-8758-421e-88f0-879023e43d38",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "lo scoiattolo",
+      "sentence": "Lo scoiattolo saltava di ramo in ramo."
+    },
+    "de": {
+      "word": "das Eichhörnchen",
+      "sentence": "Das Eichhörnchen sprang von Ast zu Ast."
+    }
+  },
+  {
+    "id": "227925e0-c300-4fec-98c7-e4b1961489d7",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il nido",
+      "sentence": "C'è un nido sopra la finestra."
+    },
+    "de": {
+      "word": "das Nest",
+      "sentence": "Über dem Fenster ist ein Nest."
+    }
+  },
+  {
+    "id": "423d8c87-f0b5-4e13-b95b-037c6743ea58",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la tana",
+      "sentence": "La volpe è tornata alla sua tana."
+    },
+    "de": {
+      "word": "der Bau",
+      "sentence": "Der Fuchs kehrte in seinen Bau zurück."
+    }
+  },
+  {
+    "id": "c6646fcb-3778-4dcf-aaab-b8c13846f005",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'insetto",
+      "sentence": "Ci sono molti insetti dopo la pioggia."
+    },
+    "de": {
+      "word": "das Insekt",
+      "sentence": "Nach dem Regen gibt es viele Insekten."
+    }
+  },
+  {
+    "id": "1b385f8b-9dae-4b30-a0fd-6903c2b77880",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'ape",
+      "sentence": "Le api sono fondamentali per l'impollinazione."
+    },
+    "de": {
+      "word": "die Biene",
+      "sentence": "Bienen sind für die Bestäubung entscheidend."
+    }
+  },
+  {
+    "id": "9bb8c936-3f4d-4f53-9081-c994f9783c64",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la farfalla",
+      "sentence": "Una farfalla si è posata sul fiore."
+    },
+    "de": {
+      "word": "der Schmetterling",
+      "sentence": "Ein Schmetterling hat sich auf die Blume gesetzt."
+    }
+  },
+  {
+    "id": "fa6ef735-dc87-4154-8e99-1b31a00c4740",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il verme",
+      "sentence": "Dopo la pioggia i vermi escono dalla terra."
+    },
+    "de": {
+      "word": "der Wurm",
+      "sentence": "Nach dem Regen kommen die Würmer aus der Erde."
+    }
+  },
+  {
+    "id": "9b476ca4-dd60-4cb4-a2b9-66265b1537c5",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il clima",
+      "sentence": "Il clima qui è molto mite."
+    },
+    "de": {
+      "word": "das Klima",
+      "sentence": "Das Klima hier ist sehr mild."
+    }
+  },
+  {
+    "id": "8e4257cc-7409-456f-b6de-9a0fc5d6d71a",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il fulmine",
+      "sentence": "Un fulmine ha colpito un albero vicino."
+    },
+    "de": {
+      "word": "der Blitz",
+      "sentence": "Ein Blitz hat einen Baum in der Nähe getroffen."
+    }
+  },
+  {
+    "id": "120b8003-ed3f-418b-a65e-b4a37fbd7fea",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il tuono",
+      "sentence": "Il tuono ha svegliato tutti."
+    },
+    "de": {
+      "word": "der Donner",
+      "sentence": "Der Donner hat alle geweckt."
+    }
+  },
+  {
+    "id": "41ff0567-ffb1-48b5-911d-7a8e78aee098",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la nebbia",
+      "sentence": "La nebbia copriva tutta la valle stamattina."
+    },
+    "de": {
+      "word": "der Nebel",
+      "sentence": "Der Nebel bedeckte heute Morgen das ganze Tal."
+    }
+  },
+  {
+    "id": "5b5dced3-75a4-4902-a79d-02b952690b78",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il gelo",
+      "sentence": "Il gelo ha rovinato le piante del balcone."
+    },
+    "de": {
+      "word": "der Frost",
+      "sentence": "Der Frost hat die Balkonpflanzen ruiniert."
+    }
+  },
+  {
+    "id": "bb0ca422-4b5c-4253-9c3b-6ddbcc4385fc",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la siccità",
+      "sentence": "La siccità di quest'estate è stata grave."
+    },
+    "de": {
+      "word": "die Dürre",
+      "sentence": "Die Dürre in diesem Sommer war schwerwiegend."
+    }
+  },
+  {
+    "id": "5d0c9741-ebbc-4e9e-a2e7-99c55bc12e26",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'alluvione",
+      "sentence": "L'alluvione ha danneggiato molte case."
+    },
+    "de": {
+      "word": "die Überschwemmung",
+      "sentence": "Die Überschwemmung hat viele Häuser beschädigt."
+    }
+  },
+  {
+    "id": "b1e83f95-c979-4c9a-a969-61189c7feec1",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la primavera",
+      "sentence": "In primavera tutto rifiorisce."
+    },
+    "de": {
+      "word": "der Frühling",
+      "sentence": "Im Frühling blüht alles wieder auf."
+    }
+  },
+  {
+    "id": "d0487ede-3294-4c6a-9faf-fc7a377746fc",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'estate",
+      "sentence": "Passiamo l'estate in montagna."
+    },
+    "de": {
+      "word": "der Sommer",
+      "sentence": "Wir verbringen den Sommer in den Bergen."
+    }
+  },
+  {
+    "id": "7403106b-3727-4452-8432-529089628473",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'autunno",
+      "sentence": "L'autunno porta colori splendidi."
+    },
+    "de": {
+      "word": "der Herbst",
+      "sentence": "Der Herbst bringt wunderschöne Farben."
+    }
+  },
+  {
+    "id": "3aa2d651-1aff-463e-bbf8-7700f1605b9d",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'inverno",
+      "sentence": "Quest'inverno è stato particolarmente rigido."
+    },
+    "de": {
+      "word": "der Winter",
+      "sentence": "Dieser Winter war besonders streng."
+    }
+  },
+  {
+    "id": "abece014-8910-467f-a8e1-e0f4b388a6d1",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'alba",
+      "sentence": "Ci siamo svegliati per vedere l'alba."
+    },
+    "de": {
+      "word": "der Sonnenaufgang",
+      "sentence": "Wir sind aufgestanden, um den Sonnenaufgang zu sehen."
+    }
+  },
+  {
+    "id": "150a7434-bd9f-44eb-a2a6-e0cc72b27be9",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il tramonto",
+      "sentence": "Il tramonto oggi era spettacolare."
+    },
+    "de": {
+      "word": "der Sonnenuntergang",
+      "sentence": "Der Sonnenuntergang war heute spektakulär."
+    }
+  },
+  {
+    "id": "5045b713-88fe-4278-bb91-5024b58f1ba1",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la marea",
+      "sentence": "La marea cambia ogni sei ore."
+    },
+    "de": {
+      "word": "die Gezeiten",
+      "sentence": "Die Gezeiten wechseln alle sechs Stunden."
+    }
+  },
+  {
+    "id": "e7a6cd8f-1b7a-48b5-b9ec-89f4cd1902b9",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'arcobaleno",
+      "sentence": "È apparso un arcobaleno dopo il temporale."
+    },
+    "de": {
+      "word": "der Regenbogen",
+      "sentence": "Nach dem Gewitter erschien ein Regenbogen."
+    }
+  },
+  {
+    "id": "ec24d59f-94a7-4115-9ed1-5ef33250c44c",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'eco",
+      "sentence": "Nella valle si sentiva un forte eco."
+    },
+    "de": {
+      "word": "das Echo",
+      "sentence": "Im Tal war ein starkes Echo zu hören."
+    }
+  },
+  {
+    "id": "228f3129-01f5-4693-88fe-b2f6e23fa26f",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la sorgente",
+      "sentence": "Beviamo l'acqua direttamente dalla sorgente."
+    },
+    "de": {
+      "word": "die Quelle",
+      "sentence": "Wir trinken das Wasser direkt aus der Quelle."
+    }
+  },
+  {
+    "id": "552c70de-ef69-433a-ae96-b571207ab328",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la cascata",
+      "sentence": "La cascata si sentiva già da lontano."
+    },
+    "de": {
+      "word": "der Wasserfall",
+      "sentence": "Der Wasserfall war schon von Weitem zu hören."
+    }
+  },
+  {
+    "id": "0f83f1c7-5ed8-4e59-b89f-63ab8d729991",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'ecosistema",
+      "sentence": "Ogni specie ha un ruolo nell'ecosistema."
+    },
+    "de": {
+      "word": "das Ökosystem",
+      "sentence": "Jede Art hat eine Rolle im Ökosystem."
+    }
+  },
+  {
+    "id": "743563f1-1ea9-46e2-a0ec-e53f4bd8d2fc",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la biodiversità",
+      "sentence": "La biodiversità della zona è sorprendente."
+    },
+    "de": {
+      "word": "die Biodiversität",
+      "sentence": "Die Biodiversität der Gegend ist erstaunlich."
+    }
+  },
+  {
+    "id": "b9447e4e-49e0-4a56-99a5-70dd815406b1",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'estinzione",
+      "sentence": "Molte specie rischiano l'estinzione."
+    },
+    "de": {
+      "word": "das Aussterben",
+      "sentence": "Viele Arten sind vom Aussterben bedroht."
+    }
+  },
+  {
+    "id": "9aada4e1-e46b-4434-b57c-46617f7753a3",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la riserva naturale",
+      "sentence": "La zona è diventata una riserva naturale."
+    },
+    "de": {
+      "word": "das Naturschutzgebiet",
+      "sentence": "Das Gebiet wurde zum Naturschutzgebiet erklärt."
+    }
+  },
+  {
+    "id": "aef49d81-c9c0-4ec7-a785-d48bd847a396",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'inquinamento",
+      "sentence": "L'inquinamento del fiume preoccupa tutti."
+    },
+    "de": {
+      "word": "die Verschmutzung",
+      "sentence": "Die Verschmutzung des Flusses beunruhigt alle."
+    }
+  },
+  {
+    "id": "3fbfc100-c711-4fd2-b2d2-7daa713a831f",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "inquinare",
+      "sentence": "Le fabbriche inquinano ancora il fiume."
+    },
+    "de": {
+      "word": "verschmutzen",
+      "sentence": "Die Fabriken verschmutzen noch immer den Fluss."
+    }
+  },
+  {
+    "id": "7c236698-77b1-4e35-a570-647cc740e7e5",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la deforestazione",
+      "sentence": "La deforestazione minaccia molte specie."
+    },
+    "de": {
+      "word": "die Abholzung",
+      "sentence": "Die Abholzung bedroht viele Arten."
+    }
+  },
+  {
+    "id": "c654218c-025d-4747-ae48-057d9f48ca94",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "fare un'escursione",
+      "sentence": "Facciamo un'escursione ogni domenica."
+    },
+    "de": {
+      "word": "eine Wanderung machen",
+      "sentence": "Wir machen jeden Sonntag eine Wanderung."
+    }
+  },
+  {
+    "id": "937876a1-2d8d-427a-9fe3-e7babae4dc8f",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il sentiero escursionistico",
+      "sentence": "Il sentiero escursionistico è ben segnalato."
+    },
+    "de": {
+      "word": "der Wanderweg",
+      "sentence": "Der Wanderweg ist gut markiert."
+    }
+  },
+  {
+    "id": "abbf8558-5d9d-4af1-aeea-293c22762a01",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "lo zaino",
+      "sentence": "Ho preparato lo zaino la sera prima."
+    },
+    "de": {
+      "word": "der Rucksack",
+      "sentence": "Ich habe den Rucksack am Abend vorher gepackt."
+    }
+  },
+  {
+    "id": "43e65887-5ec5-4e69-bbb5-5123302e6a23",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "arrampicarsi",
+      "sentence": "Ai bambini piace arrampicarsi sulle rocce."
+    },
+    "de": {
+      "word": "klettern",
+      "sentence": "Die Kinder klettern gern auf den Felsen."
+    }
+  },
+  {
+    "id": "b3873c1d-528e-40bd-8599-562c43a2f580",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il rifugio",
+      "sentence": "Abbiamo passato la notte in un rifugio di montagna."
+    },
+    "de": {
+      "word": "die Hütte",
+      "sentence": "Wir haben die Nacht in einer Berghütte verbracht."
+    }
+  },
+  {
+    "id": "2c5b45c6-06e2-449b-ac5a-f597a307ceea",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il panorama",
+      "sentence": "Dalla vetta il panorama era mozzafiato."
+    },
+    "de": {
+      "word": "das Panorama",
+      "sentence": "Vom Gipfel aus war das Panorama atemberaubend."
+    }
+  },
+  {
+    "id": "9ecb73cc-b956-4e6c-8eb0-f03ff7562807",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "respirare aria fresca",
+      "sentence": "Fa bene respirare aria fresca ogni giorno."
+    },
+    "de": {
+      "word": "frische Luft atmen",
+      "sentence": "Es tut gut, jeden Tag frische Luft zu atmen."
+    }
+  },
+  {
+    "id": "dc95cba7-f78f-4e6c-85a7-c5dfe3b2cd9a",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "immergersi nella natura",
+      "sentence": "Cerchiamo di immergerci nella natura ogni weekend."
+    },
+    "de": {
+      "word": "in die Natur eintauchen",
+      "sentence": "Wir versuchen, jedes Wochenende in die Natur einzutauchen."
+    }
+  },
+  {
+    "id": "2c5c5dde-3c9d-4db8-a4cb-608f999dc5be",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la vetta",
+      "sentence": "Abbiamo raggiunto la vetta a mezzogiorno."
+    },
+    "de": {
+      "word": "der Gipfel",
+      "sentence": "Wir haben den Gipfel um Mittag erreicht."
+    }
+  },
+  {
+    "id": "1cba24f4-f453-47ec-9ea6-fd8a56401af3",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il bosco",
+      "sentence": "Il bosco era silenzioso e fresco."
+    },
+    "de": {
+      "word": "der Wald",
+      "sentence": "Der Wald war still und kühl."
+    }
+  },
+  {
+    "id": "f3104d45-425e-433e-aa37-0243c4f98645",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il terreno",
+      "sentence": "Il terreno era ancora umido."
+    },
+    "de": {
+      "word": "der Boden",
+      "sentence": "Der Boden war noch feucht."
+    }
+  },
+  {
+    "id": "ccb108b4-264c-4984-aecb-4dfff6b95863",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la roccia",
+      "sentence": "Ci siamo seduti su una grande roccia."
+    },
+    "de": {
+      "word": "der Fels",
+      "sentence": "Wir haben auf einem großen Felsen gesessen."
+    }
+  },
+  {
+    "id": "d0c83c0b-24c9-4202-82d8-1f17ddbc3428",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la pietra",
+      "sentence": "Ha inciampato su una pietra."
+    },
+    "de": {
+      "word": "der Stein",
+      "sentence": "Er ist über einen Stein gestolpert."
+    }
+  },
+  {
+    "id": "2a857e79-a834-4181-b9ec-8b84796941ab",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la sabbia",
+      "sentence": "La sabbia era bollente sotto il sole."
+    },
+    "de": {
+      "word": "der Sand",
+      "sentence": "Der Sand war unter der Sonne glühend heiß."
+    }
+  },
+  {
+    "id": "741597af-06ac-4952-bea1-99859761ca0c",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'argilla",
+      "sentence": "Il terreno qui è ricco di argilla."
+    },
+    "de": {
+      "word": "der Ton",
+      "sentence": "Der Boden hier ist reich an Ton."
+    }
+  },
+  {
+    "id": "1b877050-427b-40de-92c6-d7e636c75c9a",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "il ghiaione",
+      "sentence": "Bisogna fare attenzione sul ghiaione."
+    },
+    "de": {
+      "word": "das Geröll",
+      "sentence": "Man muss auf dem Geröll vorsichtig sein."
+    }
+  },
+  {
+    "id": "a06ce5ac-c8ca-4a58-bbc2-3f19c3207af1",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "fertile",
+      "sentence": "La valle ha un terreno molto fertile."
+    },
+    "de": {
+      "word": "fruchtbar",
+      "sentence": "Das Tal hat einen sehr fruchtbaren Boden."
+    }
+  },
+  {
+    "id": "8a7a766b-10ad-4a9f-a890-2863f50b07f0",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il terremoto",
+      "sentence": "Il terremoto è durato pochi secondi."
+    },
+    "de": {
+      "word": "das Erdbeben",
+      "sentence": "Das Erdbeben dauerte nur wenige Sekunden."
+    }
+  },
+  {
+    "id": "94d16304-a359-4805-80b6-05cce200c079",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la valanga",
+      "sentence": "La valanga ha bloccato la strada per giorni."
+    },
+    "de": {
+      "word": "die Lawine",
+      "sentence": "Die Lawine hat die Straße tagelang blockiert."
+    }
+  },
+  {
+    "id": "d64ae5cf-dbd1-4830-8d69-84f720fe641d",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'eruzione vulcanica",
+      "sentence": "L'eruzione vulcanica ha sorpreso tutti."
+    },
+    "de": {
+      "word": "der Vulkanausbruch",
+      "sentence": "Der Vulkanausbruch hat alle überrascht."
+    }
+  },
+  {
+    "id": "b5cedca8-f83f-406b-b455-da2482c02b7d",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la frana",
+      "sentence": "Una frana ha isolato il villaggio."
+    },
+    "de": {
+      "word": "der Erdrutsch",
+      "sentence": "Ein Erdrutsch hat das Dorf isoliert."
+    }
+  },
+  {
+    "id": "b6f1ac5c-d18e-4462-8465-7f3e13fa41bb",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'uragano",
+      "sentence": "L'uragano si è indebolito prima di arrivare."
+    },
+    "de": {
+      "word": "der Hurrikan",
+      "sentence": "Der Hurrikan schwächte sich vor der Ankunft ab."
+    }
+  },
+  {
+    "id": "8762edc4-2071-4ba2-8f4e-44b0c8bad3f3",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il ruscello",
+      "sentence": "Un piccolo ruscello attraversava il prato."
+    },
+    "de": {
+      "word": "der Bach",
+      "sentence": "Ein kleiner Bach floss durch die Wiese."
+    }
+  },
+  {
+    "id": "134f7d99-e1df-46f5-8881-a2835b7b1680",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "lo stagno",
+      "sentence": "Le rane vivono in quello stagno."
+    },
+    "de": {
+      "word": "der Teich",
+      "sentence": "Die Frösche leben in diesem Teich."
+    }
+  },
+  {
+    "id": "38ab3cae-69f8-4b00-966e-4381886019fc",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la palude",
+      "sentence": "La palude ospita molte specie di uccelli."
+    },
+    "de": {
+      "word": "der Sumpf",
+      "sentence": "Der Sumpf beherbergt viele Vogelarten."
+    }
+  },
+  {
+    "id": "4075eb42-0029-4f53-af50-fd41a4535b22",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la riva",
+      "sentence": "Ci siamo seduti sulla riva del lago."
+    },
+    "de": {
+      "word": "das Ufer",
+      "sentence": "Wir haben uns ans Ufer des Sees gesetzt."
+    }
+  },
+  {
+    "id": "5d351258-8920-48f8-8ae0-1f29e730e093",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la corrente",
+      "sentence": "La corrente era troppo forte per nuotare."
+    },
+    "de": {
+      "word": "die Strömung",
+      "sentence": "Die Strömung war zum Schwimmen zu stark."
+    }
+  },
+  {
+    "id": "2836469b-6b79-4e4e-930c-af36e8453719",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la stella cadente",
+      "sentence": "Abbiamo visto una stella cadente stanotte."
+    },
+    "de": {
+      "word": "die Sternschnuppe",
+      "sentence": "Wir haben heute Nacht eine Sternschnuppe gesehen."
+    }
+  },
+  {
+    "id": "f6dc0ae7-12d6-4474-8c52-f54fc45baf6d",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la costellazione",
+      "sentence": "Riesci a riconoscere questa costellazione?"
+    },
+    "de": {
+      "word": "das Sternbild",
+      "sentence": "Kannst du dieses Sternbild erkennen?"
+    }
+  },
+  {
+    "id": "472af588-46a0-47df-b648-db8a9c96836a",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la via lattea",
+      "sentence": "In montagna si vede benissimo la via lattea."
+    },
+    "de": {
+      "word": "die Milchstraße",
+      "sentence": "In den Bergen sieht man die Milchstraße sehr gut."
+    }
+  },
+  {
+    "id": "b4d139dc-cd39-44d8-a663-e90fb5a87280",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "il crepuscolo",
+      "sentence": "Al crepuscolo gli animali diventano più attivi."
+    },
+    "de": {
+      "word": "die Dämmerung",
+      "sentence": "In der Dämmerung werden die Tiere aktiver."
+    }
+  },
+  {
+    "id": "a51411b9-2c33-4921-8542-144efb1a8f83",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il ghiacciaio",
+      "sentence": "Il ghiacciaio si è ritirato molto negli ultimi anni."
+    },
+    "de": {
+      "word": "der Gletscher",
+      "sentence": "Der Gletscher hat sich in den letzten Jahren stark zurückgezogen."
+    }
+  },
+  {
+    "id": "aa2d81bc-0ae0-496e-a690-b00de6f4f7e6",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "lo stambecco",
+      "sentence": "Abbiamo avvistato uno stambecco tra le rocce."
+    },
+    "de": {
+      "word": "der Steinbock",
+      "sentence": "Wir haben einen Steinbock zwischen den Felsen entdeckt."
+    }
+  },
+  {
+    "id": "61b0bb4e-ce0c-4031-b651-30f82c2ce92e",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la marmotta",
+      "sentence": "Le marmotte fischiano quando sentono un pericolo."
+    },
+    "de": {
+      "word": "das Murmeltier",
+      "sentence": "Murmeltiere pfeifen, wenn sie Gefahr wittern."
+    }
+  },
+  {
+    "id": "4ec818b3-ec48-4bb6-a84b-723bd4fe0b27",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'edelweiss",
+      "sentence": "L'edelweiss cresce solo in alta quota."
+    },
+    "de": {
+      "word": "das Edelweiß",
+      "sentence": "Das Edelweiß wächst nur in großer Höhe."
+    }
+  },
+  {
+    "id": "5673a4a3-e44e-462f-b717-8ae8acc7d60a",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il pascolo",
+      "sentence": "Le mucche pascolano tranquille sul pascolo alpino."
+    },
+    "de": {
+      "word": "die Weide",
+      "sentence": "Die Kühe grasen ruhig auf der Alpweide."
+    }
+  },
+  {
+    "id": "024f811e-bee8-4607-a4d9-e852e9093e30",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "il camoscio",
+      "sentence": "Il camoscio saltava agile tra le rocce."
+    },
+    "de": {
+      "word": "die Gämse",
+      "sentence": "Die Gämse sprang behände über die Felsen."
+    }
+  },
+  {
+    "id": "2819a9ea-5f16-4524-a37b-adc3ffb34c8b",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la baita",
+      "sentence": "Abbiamo pranzato in una baita di montagna."
+    },
+    "de": {
+      "word": "die Almhütte",
+      "sentence": "Wir haben in einer Almhütte zu Mittag gegessen."
+    }
+  },
+  {
+    "id": "5990b136-f0f1-42eb-96a2-0e4716a5b4ca",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "il fruscio delle foglie",
+      "sentence": "Si sentiva solo il fruscio delle foglie."
+    },
+    "de": {
+      "word": "das Rascheln der Blätter",
+      "sentence": "Man hörte nur das Rascheln der Blätter."
+    }
+  },
+  {
+    "id": "7ac85e51-5fbc-4b5e-b3c2-f51863f0870e",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il canto degli uccelli",
+      "sentence": "Il canto degli uccelli ci ha svegliato all'alba."
+    },
+    "de": {
+      "word": "der Vogelgesang",
+      "sentence": "Der Vogelgesang hat uns bei Sonnenaufgang geweckt."
+    }
+  },
+  {
+    "id": "e63ebe30-fc92-4329-9cc3-1f11526e0e73",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "il profumo del bosco",
+      "sentence": "Il profumo del bosco dopo la pioggia è unico."
+    },
+    "de": {
+      "word": "der Waldduft",
+      "sentence": "Der Waldduft nach dem Regen ist einzigartig."
+    }
+  },
+  {
+    "id": "316c7e48-549f-481f-839e-945696d0f7db",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la brezza",
+      "sentence": "Una leggera brezza rinfrescava l'aria."
+    },
+    "de": {
+      "word": "die Brise",
+      "sentence": "Eine leichte Brise kühlte die Luft."
+    }
+  },
+  {
+    "id": "ee7b1937-3cd2-4853-befb-f785bf92b7f9",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'ombra",
+      "sentence": "Ci siamo riposati all'ombra di un grande albero."
+    },
+    "de": {
+      "word": "der Schatten",
+      "sentence": "Wir haben uns im Schatten eines großen Baumes ausgeruht."
+    }
+  },
+  {
+    "id": "4295e898-514a-4ce2-9cce-2dfe19f68e75",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la frescura",
+      "sentence": "La frescura del mattino era piacevole."
+    },
+    "de": {
+      "word": "die Kühle",
+      "sentence": "Die morgendliche Kühle war angenehm."
+    }
+  },
+  {
+    "id": "492edcb8-d5d9-41e0-897b-3563629556ac",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la piazza",
+      "sentence": "Ci incontriamo in piazza alle sei."
+    },
+    "de": {
+      "word": "der Platz",
+      "sentence": "Wir treffen uns um sechs auf dem Platz."
+    }
+  },
+  {
+    "id": "a254b45a-9b60-485e-9574-058d5150a246",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il vicolo",
+      "sentence": "Il ristorante si trova in un vicolo stretto."
+    },
+    "de": {
+      "word": "die Gasse",
+      "sentence": "Das Restaurant liegt in einer engen Gasse."
+    }
+  },
+  {
+    "id": "d654b462-2fc7-4b22-94fe-47839d2dbc5d",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "l'incrocio",
+      "sentence": "Gira a destra all'incrocio."
+    },
+    "de": {
+      "word": "die Kreuzung",
+      "sentence": "Bieg an der Kreuzung rechts ab."
+    }
+  },
+  {
+    "id": "d1d98cb0-fffc-4a4e-84f4-c524cc1a438b",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il marciapiede",
+      "sentence": "I bambini camminano sul marciapiede."
+    },
+    "de": {
+      "word": "der Bürgersteig",
+      "sentence": "Die Kinder gehen auf dem Bürgersteig."
+    }
+  },
+  {
+    "id": "4d09de3b-55e3-455f-b08e-6b1dcc398587",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il centro storico",
+      "sentence": "Il centro storico è chiuso al traffico."
+    },
+    "de": {
+      "word": "die Altstadt",
+      "sentence": "Die Altstadt ist für den Verkehr gesperrt."
+    }
+  },
+  {
+    "id": "47ff8de5-ebe5-472e-9632-645928878bed",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il quartiere residenziale",
+      "sentence": "Viviamo in un quartiere residenziale tranquillo."
+    },
+    "de": {
+      "word": "das Wohnviertel",
+      "sentence": "Wir wohnen in einem ruhigen Wohnviertel."
+    }
+  },
+  {
+    "id": "3ca370e0-60fc-4093-ba16-69025a3e39aa",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la zona pedonale",
+      "sentence": "La zona pedonale è sempre affollata di sabato."
+    },
+    "de": {
+      "word": "die Fußgängerzone",
+      "sentence": "Die Fußgängerzone ist samstags immer voll."
+    }
+  },
+  {
+    "id": "2d741e49-862f-45f7-9200-5d84eb854b9a",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il parco pubblico",
+      "sentence": "Il parco pubblico ha un'area giochi per bambini."
+    },
+    "de": {
+      "word": "der öffentliche Park",
+      "sentence": "Der öffentliche Park hat einen Spielplatz für Kinder."
+    }
+  },
+  {
+    "id": "9b1a0537-8763-4f76-8c75-2694261824aa",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il traffico",
+      "sentence": "Il traffico era terribile stamattina."
+    },
+    "de": {
+      "word": "der Verkehr",
+      "sentence": "Der Verkehr war heute Morgen furchtbar."
+    }
+  },
+  {
+    "id": "8ccd328b-1a92-446d-9679-1f76e7bd5fa2",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "l'ingorgo",
+      "sentence": "Siamo rimasti bloccati in un ingorgo."
+    },
+    "de": {
+      "word": "der Stau",
+      "sentence": "Wir sind in einem Stau steckengeblieben."
+    }
+  },
+  {
+    "id": "17dc97a0-f9a6-402f-88bd-5a74a444c9b2",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il semaforo",
+      "sentence": "Il semaforo era rosso da un pezzo."
+    },
+    "de": {
+      "word": "die Ampel",
+      "sentence": "Die Ampel war schon länger rot."
+    }
+  },
+  {
+    "id": "28f7a65e-932a-448f-bbd2-38e2d84f1133",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "l'autobus",
+      "sentence": "Prendo l'autobus per andare al lavoro."
+    },
+    "de": {
+      "word": "der Bus",
+      "sentence": "Ich fahre mit dem Bus zur Arbeit."
+    }
+  },
+  {
+    "id": "c2eada72-b31b-4a9a-8b21-1cd352b30461",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il tram",
+      "sentence": "Il tram passa ogni dieci minuti."
+    },
+    "de": {
+      "word": "die Straßenbahn",
+      "sentence": "Die Straßenbahn fährt alle zehn Minuten."
+    }
+  },
+  {
+    "id": "6b1d28a4-9d32-40c6-9702-5ae0d9d75d0c",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la metropolitana",
+      "sentence": "La metropolitana è il modo più veloce per spostarsi."
+    },
+    "de": {
+      "word": "die U-Bahn",
+      "sentence": "Die U-Bahn ist die schnellste Art, sich fortzubewegen."
+    }
+  },
+  {
+    "id": "ddd6f034-e464-4355-8d16-0f7a5d36d9e8",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la fermata",
+      "sentence": "Scendo alla prossima fermata."
+    },
+    "de": {
+      "word": "die Haltestelle",
+      "sentence": "Ich steige an der nächsten Haltestelle aus."
+    }
+  },
+  {
+    "id": "e3eab116-17a4-4ae2-8e6b-0029fb768d9d",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il biglietto",
+      "sentence": "Ho dimenticato di convalidare il biglietto."
+    },
+    "de": {
+      "word": "die Fahrkarte",
+      "sentence": "Ich habe vergessen, die Fahrkarte zu entwerten."
+    }
+  },
+  {
+    "id": "0e88dade-3f5b-44ff-9de1-c6e733785216",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "l'abbonamento",
+      "sentence": "Ho un abbonamento mensile per i mezzi."
+    },
+    "de": {
+      "word": "das Abonnement",
+      "sentence": "Ich habe ein Monatsabonnement für die Verkehrsmittel."
+    }
+  },
+  {
+    "id": "1c75cc16-97d0-404b-aae7-708f1ef8c138",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il parcheggio",
+      "sentence": "Non c'è più nessun parcheggio libero."
+    },
+    "de": {
+      "word": "der Parkplatz",
+      "sentence": "Es gibt keinen freien Parkplatz mehr."
+    }
+  },
+  {
+    "id": "268361bd-d366-4f50-b2f3-184c00fde519",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la pista ciclabile",
+      "sentence": "La città ha ampliato le piste ciclabili."
+    },
+    "de": {
+      "word": "der Radweg",
+      "sentence": "Die Stadt hat die Radwege ausgebaut."
+    }
+  },
+  {
+    "id": "976b6d1b-17e4-445a-a23b-d73284888ac2",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "il pendolare",
+      "sentence": "Sono un pendolare da quasi dieci anni."
+    },
+    "de": {
+      "word": "der Pendler",
+      "sentence": "Ich bin seit fast zehn Jahren Pendler."
+    }
+  },
+  {
+    "id": "fddbd35d-4992-4f4f-a573-0d58d09e7fc9",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il grattacielo",
+      "sentence": "Il nuovo grattacielo domina lo skyline."
+    },
+    "de": {
+      "word": "der Wolkenkratzer",
+      "sentence": "Der neue Wolkenkratzer prägt die Skyline."
+    }
+  },
+  {
+    "id": "016a35cd-d18d-4fc2-913a-d66b82804f8e",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il municipio",
+      "sentence": "Il municipio si trova in piazza centrale."
+    },
+    "de": {
+      "word": "das Rathaus",
+      "sentence": "Das Rathaus befindet sich auf dem Hauptplatz."
+    }
+  },
+  {
+    "id": "e202b864-2f2c-43cc-bbad-03097ff5c1f1",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la biblioteca",
+      "sentence": "Studio spesso in biblioteca."
+    },
+    "de": {
+      "word": "die Bibliothek",
+      "sentence": "Ich lerne oft in der Bibliothek."
+    }
+  },
+  {
+    "id": "930067ee-a2fa-4328-a030-9a8e78978b97",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il museo",
+      "sentence": "Il museo è gratuito la prima domenica del mese."
+    },
+    "de": {
+      "word": "das Museum",
+      "sentence": "Das Museum ist am ersten Sonntag des Monats kostenlos."
+    }
+  },
+  {
+    "id": "77e1d4c7-c83c-40fe-83a8-8db9826979d4",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il teatro",
+      "sentence": "Andiamo a teatro stasera."
+    },
+    "de": {
+      "word": "das Theater",
+      "sentence": "Wir gehen heute Abend ins Theater."
+    }
+  },
+  {
+    "id": "efbe2846-01b4-498c-88a0-ca8a10098e10",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "lo stadio",
+      "sentence": "Lo stadio era pieno per la finale."
+    },
+    "de": {
+      "word": "das Stadion",
+      "sentence": "Das Stadion war für das Finale voll."
+    }
+  },
+  {
+    "id": "0c1d7cc3-26b1-4439-b2c0-16b5bf9f07a8",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il ponte",
+      "sentence": "Il ponte collega i due quartieri."
+    },
+    "de": {
+      "word": "die Brücke",
+      "sentence": "Die Brücke verbindet die beiden Viertel."
+    }
+  },
+  {
+    "id": "7b378c78-7f04-41e4-905c-825e925b3ef4",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la stazione",
+      "sentence": "Ci vediamo davanti alla stazione."
+    },
+    "de": {
+      "word": "der Bahnhof",
+      "sentence": "Wir treffen uns vor dem Bahnhof."
+    }
+  },
+  {
+    "id": "f8bc17e8-b487-4b42-9672-414e298bb01f",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "l'aeroporto",
+      "sentence": "L'aeroporto è a mezz'ora dal centro."
+    },
+    "de": {
+      "word": "der Flughafen",
+      "sentence": "Der Flughafen liegt eine halbe Stunde vom Zentrum entfernt."
+    }
+  },
+  {
+    "id": "d1352a09-3b6e-4802-8b57-9fb3c5f7b823",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "l'ufficio postale",
+      "sentence": "L'ufficio postale chiude alle diciotto."
+    },
+    "de": {
+      "word": "das Postamt",
+      "sentence": "Das Postamt schließt um achtzehn Uhr."
+    }
+  },
+  {
+    "id": "16e5b76a-c69c-496a-822b-1fe37412f047",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il commissariato",
+      "sentence": "Bisogna andare al commissariato per la denuncia."
+    },
+    "de": {
+      "word": "die Polizeiwache",
+      "sentence": "Für die Anzeige muss man zur Polizeiwache gehen."
+    }
+  },
+  {
+    "id": "c3d5e7a2-590f-4b4d-8908-74c2b4a4802a",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "l'ospedale",
+      "sentence": "L'ospedale più vicino è a dieci minuti."
+    },
+    "de": {
+      "word": "das Krankenhaus",
+      "sentence": "Das nächste Krankenhaus ist zehn Minuten entfernt."
+    }
+  },
+  {
+    "id": "8d361ecc-ac9a-4ad9-b7c6-fe2267ded827",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la farmacia",
+      "sentence": "C'è una farmacia aperta di notte in centro."
+    },
+    "de": {
+      "word": "die Apotheke",
+      "sentence": "In der Innenstadt gibt es eine Nachtapotheke."
+    }
+  },
+  {
+    "id": "69d2150f-ec77-4ff0-bfda-da618b627e6d",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "l'anagrafe",
+      "sentence": "Devo passare all'anagrafe per il certificato."
+    },
+    "de": {
+      "word": "das Einwohnermeldeamt",
+      "sentence": "Ich muss wegen der Bescheinigung zum Einwohnermeldeamt."
+    }
+  },
+  {
+    "id": "12867c46-20dd-4922-b654-d9b2b64cdf07",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il tribunale",
+      "sentence": "L'udienza si terrà al tribunale cittadino."
+    },
+    "de": {
+      "word": "das Gericht",
+      "sentence": "Die Verhandlung findet am Stadtgericht statt."
+    }
+  },
+  {
+    "id": "e61ac901-86a5-49e2-a122-e0cc05a58653",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "l'ambasciata",
+      "sentence": "Ha rinnovato il passaporto in ambasciata."
+    },
+    "de": {
+      "word": "die Botschaft",
+      "sentence": "Er hat seinen Pass bei der Botschaft erneuert."
+    }
+  },
+  {
+    "id": "e5a2ed28-3dc5-493a-9fa8-5bb9fd37051a",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "l'ufficio turistico",
+      "sentence": "Chiedi una mappa all'ufficio turistico."
+    },
+    "de": {
+      "word": "das Touristenbüro",
+      "sentence": "Frag im Touristenbüro nach einer Karte."
+    }
+  },
+  {
+    "id": "ac10872f-0c56-4313-8e93-2696c38791bf",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "lo sportello",
+      "sentence": "C'era una lunga fila allo sportello."
+    },
+    "de": {
+      "word": "der Schalter",
+      "sentence": "Am Schalter war eine lange Schlange."
+    }
+  },
+  {
+    "id": "7cb72834-b1b4-45e9-86c3-b96b3faf0cf3",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il centro commerciale",
+      "sentence": "Il centro commerciale è aperto anche la domenica."
+    },
+    "de": {
+      "word": "das Einkaufszentrum",
+      "sentence": "Das Einkaufszentrum hat auch sonntags geöffnet."
+    }
+  },
+  {
+    "id": "844e893b-f8e7-455f-ab9f-a0041ff70cff",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il mercato",
+      "sentence": "Facciamo la spesa al mercato del sabato."
+    },
+    "de": {
+      "word": "der Markt",
+      "sentence": "Wir kaufen samstags auf dem Markt ein."
+    }
+  },
+  {
+    "id": "10ac512f-c6e4-4150-be64-74f55d22f81e",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la boutique",
+      "sentence": "C'è una piccola boutique dietro l'angolo."
+    },
+    "de": {
+      "word": "die Boutique",
+      "sentence": "Um die Ecke gibt es eine kleine Boutique."
+    }
+  },
+  {
+    "id": "1085ad91-4f49-4c87-a809-16bb5d31a67d",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la vetrina",
+      "sentence": "Guardavano le vetrine senza comprare nulla."
+    },
+    "de": {
+      "word": "das Schaufenster",
+      "sentence": "Sie schauten sich die Schaufenster an, ohne etwas zu kaufen."
+    }
+  },
+  {
+    "id": "b2f23ba2-2895-4dc2-8ab1-eabf4885acda",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la bancarella",
+      "sentence": "Ha comprato la frutta da una bancarella."
+    },
+    "de": {
+      "word": "der Marktstand",
+      "sentence": "Er hat das Obst an einem Marktstand gekauft."
+    }
+  },
+  {
+    "id": "22541860-b06a-4150-8b60-34835fe92d40",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "fare shopping",
+      "sentence": "Andiamo a fare shopping sabato pomeriggio."
+    },
+    "de": {
+      "word": "einkaufen gehen",
+      "sentence": "Wir gehen Samstagnachmittag einkaufen."
+    }
+  },
+  {
+    "id": "64049c06-1eca-4467-aff9-232482e08d0b",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "il quartiere dello shopping",
+      "sentence": "Il quartiere dello shopping è pieno di turisti."
+    },
+    "de": {
+      "word": "das Einkaufsviertel",
+      "sentence": "Das Einkaufsviertel ist voller Touristen."
+    }
+  },
+  {
+    "id": "e305f4ac-2b50-44c8-ba27-3e1a254ca288",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la vita cittadina",
+      "sentence": "Ama la vita cittadina e i suoi ritmi."
+    },
+    "de": {
+      "word": "das Stadtleben",
+      "sentence": "Er liebt das Stadtleben und seinen Rhythmus."
+    }
+  },
+  {
+    "id": "af4391a8-419e-4c71-96d9-40be42ebd96c",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il locale",
+      "sentence": "Conosco un bel locale qui vicino."
+    },
+    "de": {
+      "word": "das Lokal",
+      "sentence": "Ich kenne hier in der Nähe ein schönes Lokal."
+    }
+  },
+  {
+    "id": "2f71fcd3-be38-40f1-905c-1307105b53dc",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il festival",
+      "sentence": "Il festival musicale attira migliaia di persone."
+    },
+    "de": {
+      "word": "das Festival",
+      "sentence": "Das Musikfestival zieht Tausende von Menschen an."
+    }
+  },
+  {
+    "id": "5648730d-4edc-484a-b526-da0f5406e01d",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la mostra",
+      "sentence": "La mostra fotografica dura fino a maggio."
+    },
+    "de": {
+      "word": "die Ausstellung",
+      "sentence": "Die Fotoausstellung läuft bis Mai."
+    }
+  },
+  {
+    "id": "d5a0f2c5-6672-4db3-a672-f697915eef51",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "l'evento",
+      "sentence": "L'evento è gratuito per i residenti."
+    },
+    "de": {
+      "word": "die Veranstaltung",
+      "sentence": "Die Veranstaltung ist für Einwohner kostenlos."
+    }
+  },
+  {
+    "id": "eb4ea6da-38a4-4392-a49f-addda23965ac",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il concerto",
+      "sentence": "Il concerto era esaurito da settimane."
+    },
+    "de": {
+      "word": "das Konzert",
+      "sentence": "Das Konzert war seit Wochen ausverkauft."
+    }
+  },
+  {
+    "id": "7fa8462d-b3cd-461f-95e5-6fd67bfd31a5",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la vita notturna",
+      "sentence": "La vita notturna qui è molto vivace."
+    },
+    "de": {
+      "word": "das Nachtleben",
+      "sentence": "Das Nachtleben hier ist sehr lebhaft."
+    }
+  },
+  {
+    "id": "be318e74-6eaa-454d-9c99-4af830a8473e",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "animato",
+      "sentence": "Il quartiere diventa animato di sera."
+    },
+    "de": {
+      "word": "belebt",
+      "sentence": "Das Viertel wird abends belebt."
+    }
+  },
+  {
+    "id": "28a7df07-2b12-4742-ade0-4e96f48a0fbf",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "il sovraffollamento",
+      "sentence": "Il sovraffollamento dei mezzi pubblici è un problema."
+    },
+    "de": {
+      "word": "die Überfüllung",
+      "sentence": "Die Überfüllung der öffentlichen Verkehrsmittel ist ein Problem."
+    }
+  },
+  {
+    "id": "a03b98ae-5ff2-46c9-8cf3-67cfbf51bf9b",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "l'inquinamento atmosferico",
+      "sentence": "L'inquinamento atmosferico peggiora d'inverno."
+    },
+    "de": {
+      "word": "die Luftverschmutzung",
+      "sentence": "Die Luftverschmutzung verschlimmert sich im Winter."
+    }
+  },
+  {
+    "id": "487a8668-31d1-4136-b741-f001c4ea9b8c",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "il rumore del traffico",
+      "sentence": "Il rumore del traffico non ci lascia dormire."
+    },
+    "de": {
+      "word": "der Verkehrslärm",
+      "sentence": "Der Verkehrslärm lässt uns nicht schlafen."
+    }
+  },
+  {
+    "id": "29d20b02-fa74-4b81-aee5-19d9843bf8b2",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la criminalità",
+      "sentence": "La criminalità è diminuita negli ultimi anni."
+    },
+    "de": {
+      "word": "die Kriminalität",
+      "sentence": "Die Kriminalität ist in den letzten Jahren zurückgegangen."
+    }
+  },
+  {
+    "id": "5ffa4b8e-30ca-40c0-b08e-71e8622db23c",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "il degrado urbano",
+      "sentence": "Il degrado urbano è visibile in alcune zone."
+    },
+    "de": {
+      "word": "der städtische Verfall",
+      "sentence": "Der städtische Verfall ist in manchen Gegenden sichtbar."
+    }
+  },
+  {
+    "id": "8468e516-b65a-4cac-ac1f-a13233001661",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la gentrificazione",
+      "sentence": "La gentrificazione ha cambiato il quartiere."
+    },
+    "de": {
+      "word": "die Gentrifizierung",
+      "sentence": "Die Gentrifizierung hat das Viertel verändert."
+    }
+  },
+  {
+    "id": "581f7e5f-60dd-44b8-87a5-8e138a446947",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "il costo della vita",
+      "sentence": "Il costo della vita in città è alto."
+    },
+    "de": {
+      "word": "die Lebenshaltungskosten",
+      "sentence": "Die Lebenshaltungskosten in der Stadt sind hoch."
+    }
+  },
+  {
+    "id": "c62dd2e1-85d5-476e-bbd6-a1e13c5314e2",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la carenza di alloggi",
+      "sentence": "La carenza di alloggi colpisce soprattutto i giovani."
+    },
+    "de": {
+      "word": "die Wohnungsnot",
+      "sentence": "Die Wohnungsnot betrifft vor allem junge Menschen."
+    }
+  },
+  {
+    "id": "8b4db4ad-37c0-4615-ad78-ff48375885c3",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "il senzatetto",
+      "sentence": "Il comune ha aperto nuovi rifugi per i senzatetto."
+    },
+    "de": {
+      "word": "der Obdachlose",
+      "sentence": "Die Gemeinde hat neue Unterkünfte für Obdachlose eröffnet."
+    }
+  },
+  {
+    "id": "67c6a879-d84e-474a-9115-60025e8215a9",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la disuguaglianza",
+      "sentence": "La disuguaglianza tra i quartieri è evidente."
+    },
+    "de": {
+      "word": "die Ungleichheit",
+      "sentence": "Die Ungleichheit zwischen den Vierteln ist offensichtlich."
+    }
+  },
+  {
+    "id": "9a082ad2-7e33-4cea-8fbc-d8949a8829d5",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "l'urbanistica",
+      "sentence": "Ha studiato urbanistica all'università."
+    },
+    "de": {
+      "word": "die Stadtplanung",
+      "sentence": "Er hat Stadtplanung an der Universität studiert."
+    }
+  },
+  {
+    "id": "e1f0e5ac-ba53-4df4-a96a-04273f30c258",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "il progetto urbano",
+      "sentence": "Il nuovo progetto urbano prevede più spazi verdi."
+    },
+    "de": {
+      "word": "das Stadtentwicklungsprojekt",
+      "sentence": "Das neue Stadtentwicklungsprojekt sieht mehr Grünflächen vor."
+    }
+  },
+  {
+    "id": "98dcc54b-ade3-4f77-bc8a-f3396f12c99a",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la riqualificazione",
+      "sentence": "La riqualificazione del quartiere è quasi finita."
+    },
+    "de": {
+      "word": "die Sanierung",
+      "sentence": "Die Sanierung des Viertels ist fast abgeschlossen."
+    }
+  },
+  {
+    "id": "29ae3713-b69c-4d17-88b1-9a3bddc74c39",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "l'infrastruttura",
+      "sentence": "L'infrastruttura della città va migliorata."
+    },
+    "de": {
+      "word": "die Infrastruktur",
+      "sentence": "Die Infrastruktur der Stadt muss verbessert werden."
+    }
+  },
+  {
+    "id": "650e9b34-ecde-487b-8517-900e9fe24580",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la mobilità urbana",
+      "sentence": "La mobilità urbana sostenibile è una priorità."
+    },
+    "de": {
+      "word": "die urbane Mobilität",
+      "sentence": "Nachhaltige urbane Mobilität hat Priorität."
+    }
+  },
+  {
+    "id": "8c755c47-0d98-4e50-a911-94c0942071f3",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "lo spazio verde",
+      "sentence": "Servono più spazi verdi in centro."
+    },
+    "de": {
+      "word": "die Grünfläche",
+      "sentence": "Es braucht mehr Grünflächen in der Innenstadt."
+    }
+  },
+  {
+    "id": "961e88d2-96fd-4fe4-91f6-f128b03e599f",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il comune",
+      "sentence": "Il comune ha approvato il nuovo piano."
+    },
+    "de": {
+      "word": "die Gemeinde",
+      "sentence": "Die Gemeinde hat den neuen Plan genehmigt."
+    }
+  },
+  {
+    "id": "6803738c-b03f-4364-bdd5-a92297409667",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la mappa",
+      "sentence": "Ho scaricato la mappa della città sul telefono."
+    },
+    "de": {
+      "word": "der Stadtplan",
+      "sentence": "Ich habe den Stadtplan auf mein Handy heruntergeladen."
+    }
+  },
+  {
+    "id": "c049929f-cbe1-4d68-9fcd-1ccf7a0b748f",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "l'indicazione",
+      "sentence": "Mi ha dato indicazioni precise."
+    },
+    "de": {
+      "word": "die Wegbeschreibung",
+      "sentence": "Er hat mir eine genaue Wegbeschreibung gegeben."
+    }
+  },
+  {
+    "id": "902d8266-a388-406d-8d1d-5f30fde9b9e0",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "perdersi",
+      "sentence": "Ci siamo persi nel centro storico."
+    },
+    "de": {
+      "word": "sich verirren",
+      "sentence": "Wir haben uns in der Altstadt verirrt."
+    }
+  },
+  {
+    "id": "325cd855-cb0a-49fe-abbf-7a2322f1e3c6",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "orientarsi",
+      "sentence": "È difficile orientarsi senza mappa."
+    },
+    "de": {
+      "word": "sich orientieren",
+      "sentence": "Ohne Karte ist es schwer, sich zu orientieren."
+    }
+  },
+  {
+    "id": "dd97af10-7c58-431e-9e91-fa8e033e79b4",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "girare a destra",
+      "sentence": "Gira a destra dopo il semaforo."
+    },
+    "de": {
+      "word": "rechts abbiegen",
+      "sentence": "Bieg nach der Ampel rechts ab."
+    }
+  },
+  {
+    "id": "00929b83-0c05-4bfb-8279-5d79e6eff34d",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "girare a sinistra",
+      "sentence": "Gira a sinistra al secondo incrocio."
+    },
+    "de": {
+      "word": "links abbiegen",
+      "sentence": "Bieg an der zweiten Kreuzung links ab."
+    }
+  },
+  {
+    "id": "d70d8c4b-941b-4d97-910c-be6146ef27ca",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "proseguire dritto",
+      "sentence": "Prosegui dritto per altri duecento metri."
+    },
+    "de": {
+      "word": "geradeaus weitergehen",
+      "sentence": "Geh weitere zweihundert Meter geradeaus."
+    }
+  },
+  {
+    "id": "86767a6d-8c87-429c-a51a-f517648309fc",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "l'indirizzo",
+      "sentence": "Mi puoi mandare l'indirizzo esatto?"
+    },
+    "de": {
+      "word": "die Adresse",
+      "sentence": "Kannst du mir die genaue Adresse schicken?"
+    }
+  },
+  {
+    "id": "702efe96-a627-43b4-9217-5bb50f24e8f1",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la polizia",
+      "sentence": "La polizia ha chiuso la strada per un'ora."
+    },
+    "de": {
+      "word": "die Polizei",
+      "sentence": "Die Polizei hat die Straße für eine Stunde gesperrt."
+    }
+  },
+  {
+    "id": "354453dd-4c84-4527-901c-3f372d3b7160",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la vigilanza",
+      "sentence": "La vigilanza è aumentata durante l'evento."
+    },
+    "de": {
+      "word": "die Überwachung",
+      "sentence": "Die Überwachung wurde während der Veranstaltung verstärkt."
+    }
+  },
+  {
+    "id": "2bc48610-2922-4355-8391-1337f7c93c93",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la telecamera di sorveglianza",
+      "sentence": "Ci sono telecamere di sorveglianza in piazza."
+    },
+    "de": {
+      "word": "die Überwachungskamera",
+      "sentence": "Auf dem Platz gibt es Überwachungskameras."
+    }
+  },
+  {
+    "id": "4ef51ce9-4002-4fb5-a9b3-eadf0ac0b6db",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "l'illuminazione stradale",
+      "sentence": "L'illuminazione stradale è stata migliorata."
+    },
+    "de": {
+      "word": "die Straßenbeleuchtung",
+      "sentence": "Die Straßenbeleuchtung wurde verbessert."
+    }
+  },
+  {
+    "id": "71845886-ad71-47bf-addd-cf6265bf3eb3",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "sicuro",
+      "sentence": "Il quartiere è considerato molto sicuro."
+    },
+    "de": {
+      "word": "sicher",
+      "sentence": "Das Viertel gilt als sehr sicher."
+    }
+  },
+  {
+    "id": "74f9f4a4-2184-4e69-95a9-ecdd546c39ac",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "pericoloso",
+      "sentence": "Quella strada è pericolosa di notte."
+    },
+    "de": {
+      "word": "gefährlich",
+      "sentence": "Diese Straße ist nachts gefährlich."
+    }
+  },
+  {
+    "id": "fcfcd9cc-dbd7-4a0d-89a7-1ba7bedb5c31",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il cittadino",
+      "sentence": "I cittadini sono stati consultati sul progetto."
+    },
+    "de": {
+      "word": "der Bürger",
+      "sentence": "Die Bürger wurden zu dem Projekt befragt."
+    }
+  },
+  {
+    "id": "2ba2cad1-ce86-4cd5-ba60-641cd55abd5d",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la comunità",
+      "sentence": "Fa parte attiva della comunità locale."
+    },
+    "de": {
+      "word": "die Gemeinschaft",
+      "sentence": "Er ist aktiver Teil der örtlichen Gemeinschaft."
+    }
+  },
+  {
+    "id": "5dababe3-a634-40f0-9c45-b1dd9023a87a",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "multiculturale",
+      "sentence": "È un quartiere molto multiculturale."
+    },
+    "de": {
+      "word": "multikulturell",
+      "sentence": "Es ist ein sehr multikulturelles Viertel."
+    }
+  },
+  {
+    "id": "d34336cf-3d16-41a9-9d4a-3f1801cc737f",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la densità di popolazione",
+      "sentence": "La densità di popolazione è tra le più alte d'Europa."
+    },
+    "de": {
+      "word": "die Bevölkerungsdichte",
+      "sentence": "Die Bevölkerungsdichte gehört zu den höchsten Europas."
+    }
+  },
+  {
+    "id": "5751388c-5282-4d98-8323-433ec8524819",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "anonimo",
+      "sentence": "Ti senti spesso anonimo in una grande città."
+    },
+    "de": {
+      "word": "anonym",
+      "sentence": "In einer Großstadt fühlt man sich oft anonym."
+    }
+  },
+  {
+    "id": "98e17981-5fb7-47ea-b296-7cf95772c567",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "integrarsi",
+      "sentence": "Si è integrato bene nel quartiere."
+    },
+    "de": {
+      "word": "sich integrieren",
+      "sentence": "Er hat sich gut in das Viertel integriert."
+    }
+  },
+  {
+    "id": "00d4443e-2db2-4bf4-a75d-4cf67b860d11",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "il senso di appartenenza",
+      "sentence": "Il senso di appartenenza al quartiere è forte."
+    },
+    "de": {
+      "word": "das Zugehörigkeitsgefühl",
+      "sentence": "Das Zugehörigkeitsgefühl zum Viertel ist stark."
+    }
+  },
+  {
+    "id": "42f4c05b-3513-4466-b9e7-fc60c19ac3db",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "fare la fila",
+      "sentence": "Ho fatto la fila per quaranta minuti."
+    },
+    "de": {
+      "word": "Schlange stehen",
+      "sentence": "Ich habe vierzig Minuten Schlange gestanden."
+    }
+  },
+  {
+    "id": "7bd3df7f-1e1e-40a9-91d6-0f0770e679e2",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "affollato",
+      "sentence": "Il centro è sempre affollato il sabato."
+    },
+    "de": {
+      "word": "überfüllt",
+      "sentence": "Die Innenstadt ist samstags immer überfüllt."
+    }
+  },
+  {
+    "id": "7fed7f14-ae07-4896-87f5-87841245b129",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "il traffico pedonale",
+      "sentence": "Il traffico pedonale aumenta all'ora di pranzo."
+    },
+    "de": {
+      "word": "der Fußgängerverkehr",
+      "sentence": "Der Fußgängerverkehr nimmt zur Mittagszeit zu."
+    }
+  },
+  {
+    "id": "123a57e1-97aa-4d59-b0c4-a50663ee1061",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il caos",
+      "sentence": "C'era il caos vicino alla stazione."
+    },
+    "de": {
+      "word": "das Chaos",
+      "sentence": "Beim Bahnhof herrschte Chaos."
+    }
+  },
+  {
+    "id": "a5786fee-39ca-4bee-8d4b-ff824c1681ac",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "la routine cittadina",
+      "sentence": "Mi sono abituato alla routine cittadina."
+    },
+    "de": {
+      "word": "die Stadtroutine",
+      "sentence": "Ich habe mich an die Stadtroutine gewöhnt."
+    }
+  },
+  {
+    "id": "986af3eb-1af4-4180-8073-5a665f2425bd",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "spostarsi in città",
+      "sentence": "Preferisco spostarmi in città in bicicletta."
+    },
+    "de": {
+      "word": "sich in der Stadt fortbewegen",
+      "sentence": "Ich bewege mich in der Stadt lieber mit dem Fahrrad fort."
+    }
+  },
+  {
+    "id": "3b87c6a4-0444-4a3a-b4e5-03cd449e23fe",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "vivere in centro",
+      "sentence": "Vivere in centro ha vantaggi e svantaggi."
+    },
+    "de": {
+      "word": "im Zentrum leben",
+      "sentence": "Im Zentrum zu leben hat Vor- und Nachteile."
+    }
   }
 ]
