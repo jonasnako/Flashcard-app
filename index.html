@@ -651,13 +651,24 @@ function paintSettings(){
   app.appendChild(el("div",{class:"sec"},["Data"]));
   app.appendChild(el("div",{class:"btnwrap"},[
     el("button",{class:"ghost",onclick:exportLib},["Export (.json)"]),
-    el("button",{class:"ghost",onclick:importLib},["Import"]),
+    el("button",{class:"ghost",onclick:importLib},["Import (append)"]),
     el("button",{class:"ghost dngr",onclick:()=>{if(confirm("Reset all progress? Words stay, scores go to zero.")){lib=lib.map(c=>({...c,streak:0,correct:0,seen:0}));saveProgNow();clearSession();render();}}},["Reset progress"])
   ]));
-  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — use it as a backup or to move phones."]));
+  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — a backup or a word list to share. Import only adds words that aren't already in your deck; it never changes your existing words or scores."]));
 }
 function exportLib(){const blob=new Blob([JSON.stringify(lib,null,2)],{type:"application/json"});const a=el("a",{href:URL.createObjectURL(blob),download:"lessico.json"});document.body.appendChild(a);a.click();a.remove();}
-function importLib(){const inp=el("input",{type:"file",accept:".json,application/json"});inp.addEventListener("change",()=>{const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(Array.isArray(d)&&d.length){lib=d.map(norm);saveProgNow();saveWords("import");clearSession();render();}else alert("Not a valid file.");}catch(e){alert("Could not read that file.");}};r.readAsText(f);});inp.click();}
+function importLib(){const inp=el("input",{type:"file",accept:".json,application/json"});inp.addEventListener("change",()=>{const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{
+  const d=JSON.parse(r.result);
+  if(!Array.isArray(d)||!d.length){alert("Not a valid file.");return;}
+  let added=0,skipped=0;
+  d.forEach(item=>{const n=norm(item);
+    if(!n.it.word||!n.de.word){skipped++;return;}
+    if(existsWord(n.it.word,n.de.word)){skipped++;return;} // already in your deck — leave it (and its score) untouched
+    lib.push(n);added++;
+  });
+  if(added){saveProgNow();saveWords("import");render();}
+  alert("Imported: added "+added+" new word"+(added===1?"":"s")+", skipped "+skipped+" already in your deck. Existing words and scores were left unchanged.");
+}catch(e){alert("Could not read that file.");}};r.readAsText(f);});inp.click();}
 
 /* ============ Claude integration ============ */
 const SYS='You create Italian–German vocabulary flashcards for a language learner. Italian and German nouns must include the definite article (e.g. "la casa", "das Haus"). Example sentences must be natural, everyday, correct, and appropriate to the requested CEFR level; the Italian and German example sentences must be faithful translations of each other. Use only real, correct vocabulary.';
