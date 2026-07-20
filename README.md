@@ -92,7 +92,7 @@ Notes:
 
 ## Backups
 
-**Settings → Export (.json)** saves a file with all your words *and* your scores. **Import** restores it. Handy before a big reset or when moving to a new phone.
+**Settings → Export (.json)** saves a file with all your words *and* your scores — a backup, or a word list to share. **Import (append)** merges a file into your deck: it adds only the words you don't already have and **never changes your existing words or their scores**. New words keep any scores present in the file (or start fresh if it's a plain word list). Duplicates (matched by the Italian or German word) are skipped.
 
 ## Notes
 
