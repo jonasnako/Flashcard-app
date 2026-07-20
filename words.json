@@ -5679,5 +5679,1630 @@
       "word": "der Neid",
       "sentence": "Der Neid vergiftete ihre Beziehung."
     }
+  },
+  {
+    "id": "89b7150f-524b-4dbb-8b66-f62680a41e2d",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "parlare",
+      "sentence": "Parliamo un attimo dopo cena?"
+    },
+    "de": {
+      "word": "sprechen",
+      "sentence": "Sprechen wir kurz nach dem Abendessen?"
+    }
+  },
+  {
+    "id": "b05c40d5-48c7-41a2-bebf-ff2b8ef9ed1f",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "dire",
+      "sentence": "Non so cosa dire in questo momento."
+    },
+    "de": {
+      "word": "sagen",
+      "sentence": "Ich weiß nicht, was ich in diesem Moment sagen soll."
+    }
+  },
+  {
+    "id": "27c97f77-6267-4d33-9c4b-55deda896038",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "raccontare",
+      "sentence": "Raccontami come è andata la riunione."
+    },
+    "de": {
+      "word": "erzählen",
+      "sentence": "Erzähl mir, wie das Treffen gelaufen ist."
+    }
+  },
+  {
+    "id": "377e89b1-6dfc-436f-b63d-b24e3e3078d1",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "chiamare",
+      "sentence": "L'ho chiamato tre volte, ma non risponde."
+    },
+    "de": {
+      "word": "rufen",
+      "sentence": "Ich habe ihn dreimal gerufen, aber er antwortet nicht."
+    }
+  },
+  {
+    "id": "eab6ee7e-1f56-4bac-ad53-6e7524e1f365",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "pronunciare",
+      "sentence": "Non riesco a pronunciare bene questa parola."
+    },
+    "de": {
+      "word": "aussprechen",
+      "sentence": "Ich kann dieses Wort nicht richtig aussprechen."
+    }
+  },
+  {
+    "id": "26cb2e69-1479-4ac9-a30c-d8514f289737",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "ripetere",
+      "sentence": "Puoi ripetere l'ultima frase?"
+    },
+    "de": {
+      "word": "wiederholen",
+      "sentence": "Kannst du den letzten Satz wiederholen?"
+    }
+  },
+  {
+    "id": "921b506b-a5ea-437d-91a0-88066778b13c",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la conversazione",
+      "sentence": "Abbiamo avuto una lunga conversazione ieri sera."
+    },
+    "de": {
+      "word": "die Unterhaltung",
+      "sentence": "Wir hatten gestern Abend eine lange Unterhaltung."
+    }
+  },
+  {
+    "id": "fbcac482-764d-4769-9ae4-71e348e6fa9e",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il discorso",
+      "sentence": "Il suo discorso è durato quasi un'ora."
+    },
+    "de": {
+      "word": "die Rede",
+      "sentence": "Seine Rede dauerte fast eine Stunde."
+    }
+  },
+  {
+    "id": "7c947364-df8b-4154-af7e-dbd870b0f6c5",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "ad alta voce",
+      "sentence": "Leggi ad alta voce, per favore."
+    },
+    "de": {
+      "word": "laut",
+      "sentence": "Lies bitte laut vor."
+    }
+  },
+  {
+    "id": "1b1185db-8522-4b3d-9566-623f78f96a29",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "sottovoce",
+      "sentence": "Mi ha risposto sottovoce per non svegliare il bambino."
+    },
+    "de": {
+      "word": "leise",
+      "sentence": "Er hat mir leise geantwortet, um das Kind nicht zu wecken."
+    }
+  },
+  {
+    "id": "73dc5856-d304-4094-b0a1-4190441ce02c",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "formulare",
+      "sentence": "Ha formulato la domanda con molta cura."
+    },
+    "de": {
+      "word": "formulieren",
+      "sentence": "Er hat die Frage sehr sorgfältig formuliert."
+    }
+  },
+  {
+    "id": "0ead4b42-5dfc-4b0c-8410-97f17415fe8a",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il silenzio",
+      "sentence": "Un lungo silenzio seguì la sua domanda."
+    },
+    "de": {
+      "word": "die Stille",
+      "sentence": "Eine lange Stille folgte auf seine Frage."
+    }
+  },
+  {
+    "id": "ba5cf4b2-3dce-433f-aa78-43dd8a56b427",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "tacere",
+      "sentence": "Preferisco tacere piuttosto che dire qualcosa di sbagliato."
+    },
+    "de": {
+      "word": "schweigen",
+      "sentence": "Ich schweige lieber, als etwas Falsches zu sagen."
+    }
+  },
+  {
+    "id": "89cdc359-9c46-4078-9bfe-aa5ee469c396",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "stare zitto",
+      "sentence": "Sta zitto per una volta e ascolta."
+    },
+    "de": {
+      "word": "still sein",
+      "sentence": "Sei einmal still und hör zu."
+    }
+  },
+  {
+    "id": "df722297-e200-4c1d-9c5e-3df050afd003",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "ascoltare attentamente",
+      "sentence": "Ascolta attentamente prima di rispondere."
+    },
+    "de": {
+      "word": "aufmerksam zuhören",
+      "sentence": "Hör aufmerksam zu, bevor du antwortest."
+    }
+  },
+  {
+    "id": "7905b1cf-3534-4b00-8453-fcfb4ea2f189",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "interrompere",
+      "sentence": "Scusa se ti interrompo, ma è urgente."
+    },
+    "de": {
+      "word": "unterbrechen",
+      "sentence": "Entschuldige, dass ich dich unterbreche, aber es ist dringend."
+    }
+  },
+  {
+    "id": "2f03116d-10a1-45a8-bf5c-1891c335292e",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "prestare attenzione",
+      "sentence": "Presta attenzione a come reagisce."
+    },
+    "de": {
+      "word": "Aufmerksamkeit schenken",
+      "sentence": "Schenk Aufmerksamkeit darauf, wie er reagiert."
+    }
+  },
+  {
+    "id": "23190100-6716-4109-99a7-c34ee827b8ec",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "lasciar parlare",
+      "sentence": "Lascialo parlare fino alla fine."
+    },
+    "de": {
+      "word": "ausreden lassen",
+      "sentence": "Lass ihn bis zum Ende ausreden."
+    }
+  },
+  {
+    "id": "72af774f-0398-44b1-ade6-772239c75a76",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "abbassare la voce",
+      "sentence": "Abbassò la voce per non farsi sentire dai vicini."
+    },
+    "de": {
+      "word": "die Stimme senken",
+      "sentence": "Er senkte die Stimme, um von den Nachbarn nicht gehört zu werden."
+    }
+  },
+  {
+    "id": "82b8e4bf-1c73-4a1d-a688-e66b3479d6b5",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "informare",
+      "sentence": "Ti informo appena so qualcosa di più."
+    },
+    "de": {
+      "word": "informieren",
+      "sentence": "Ich informiere dich, sobald ich mehr weiß."
+    }
+  },
+  {
+    "id": "d3f68b92-cbad-41d4-a472-fb5b3fda4ea8",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "l'informazione",
+      "sentence": "Mi serve un'informazione precisa sull'orario."
+    },
+    "de": {
+      "word": "die Information",
+      "sentence": "Ich brauche eine genaue Information zur Uhrzeit."
+    }
+  },
+  {
+    "id": "1a4c879b-415d-4a8b-8360-e1558a716db8",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "annunciare",
+      "sentence": "Hanno annunciato la notizia stamattina."
+    },
+    "de": {
+      "word": "ankündigen",
+      "sentence": "Sie haben die Nachricht heute Morgen angekündigt."
+    }
+  },
+  {
+    "id": "3cf7666d-6c7b-4040-a448-4d91e867b6b1",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "l'annuncio",
+      "sentence": "L'annuncio ha sorpreso tutti."
+    },
+    "de": {
+      "word": "die Ankündigung",
+      "sentence": "Die Ankündigung hat alle überrascht."
+    }
+  },
+  {
+    "id": "ee9e3eec-9e0d-4bac-ab10-43018b78f17e",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "rendere noto",
+      "sentence": "Il risultato verrà reso noto domani."
+    },
+    "de": {
+      "word": "bekannt geben",
+      "sentence": "Das Ergebnis wird morgen bekannt gegeben."
+    }
+  },
+  {
+    "id": "24e9695e-46b5-4459-9b63-48c37557a2a6",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "accennare a",
+      "sentence": "Ha accennato a un possibile cambiamento."
+    },
+    "de": {
+      "word": "andeuten",
+      "sentence": "Er hat eine mögliche Änderung angedeutet."
+    }
+  },
+  {
+    "id": "2a28a049-9d0b-43ff-b1bb-b50a57393172",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "sottintendere",
+      "sentence": "Il suo tono sottintendeva molto di più."
+    },
+    "de": {
+      "word": "implizieren",
+      "sentence": "Sein Tonfall implizierte viel mehr."
+    }
+  },
+  {
+    "id": "4722a95b-f663-477a-ae37-56e5d6150cf5",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "menzionare",
+      "sentence": "Ha menzionato il tuo nome durante la riunione."
+    },
+    "de": {
+      "word": "erwähnen",
+      "sentence": "Er hat deinen Namen während der Besprechung erwähnt."
+    }
+  },
+  {
+    "id": "660a2f18-f55b-4673-a18f-74081816209c",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "l'avviso",
+      "sentence": "C'è un avviso attaccato alla porta."
+    },
+    "de": {
+      "word": "der Hinweis",
+      "sentence": "An der Tür hängt ein Hinweis."
+    }
+  },
+  {
+    "id": "038dfae9-2d8c-47af-a41b-2514adbf14aa",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "avvisare",
+      "sentence": "Avvisami se cambi programma."
+    },
+    "de": {
+      "word": "benachrichtigen",
+      "sentence": "Benachrichtige mich, wenn sich deine Pläne ändern."
+    }
+  },
+  {
+    "id": "7e571077-f361-46c5-a653-c984f39f4c37",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "chiedere",
+      "sentence": "Le ho chiesto perché fosse così silenziosa."
+    },
+    "de": {
+      "word": "fragen",
+      "sentence": "Ich habe sie gefragt, warum sie so still war."
+    }
+  },
+  {
+    "id": "5357d502-3857-4b51-a159-1a4856d45dd3",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "interrogare",
+      "sentence": "Lo hanno interrogato per ore."
+    },
+    "de": {
+      "word": "ausfragen",
+      "sentence": "Sie haben ihn stundenlang ausgefragt."
+    }
+  },
+  {
+    "id": "6e8b4464-c991-4e4d-a1c1-744da564cdd4",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "indagare",
+      "sentence": "Preferisco indagare prima di trarre conclusioni."
+    },
+    "de": {
+      "word": "nachforschen",
+      "sentence": "Ich forsche lieber nach, bevor ich Schlüsse ziehe."
+    }
+  },
+  {
+    "id": "36b49cf7-f673-493b-af4e-d731f30b22be",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "rispondere",
+      "sentence": "Non ha ancora risposto alla mia domanda."
+    },
+    "de": {
+      "word": "antworten",
+      "sentence": "Er hat noch nicht auf meine Frage geantwortet."
+    }
+  },
+  {
+    "id": "80e6ed24-0d82-4099-b34b-b15e93b37db1",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "replicare",
+      "sentence": "Ha replicato con calma alle sue accuse."
+    },
+    "de": {
+      "word": "entgegnen",
+      "sentence": "Er entgegnete ruhig auf ihre Vorwürfe."
+    }
+  },
+  {
+    "id": "aa76165f-6a99-41dd-8ec8-7da2c5a9de24",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "ribattere",
+      "sentence": "Ha ribattuto senza esitazione."
+    },
+    "de": {
+      "word": "kontern",
+      "sentence": "Er konterte ohne zu zögern."
+    }
+  },
+  {
+    "id": "08f2524d-868d-47cc-9274-b38d39e3d593",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "obiettare",
+      "sentence": "Ho qualcosa da obiettare su questo punto."
+    },
+    "de": {
+      "word": "einwenden",
+      "sentence": "Ich habe an diesem Punkt etwas einzuwenden."
+    }
+  },
+  {
+    "id": "0c69afff-949f-443a-bd6f-4d6f056327c1",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la domanda",
+      "sentence": "È una domanda difficile da rispondere."
+    },
+    "de": {
+      "word": "die Frage",
+      "sentence": "Das ist eine schwer zu beantwortende Frage."
+    }
+  },
+  {
+    "id": "216a9dd9-fa6d-45fa-be96-4d1a08e7b8a1",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "pregare qualcuno di",
+      "sentence": "Ti prego di arrivare puntuale."
+    },
+    "de": {
+      "word": "jemanden bitten zu",
+      "sentence": "Ich bitte dich, pünktlich zu kommen."
+    }
+  },
+  {
+    "id": "53733ba7-959d-4667-a52e-4892b5fa9186",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "supplicare",
+      "sentence": "Lo supplicò di restare ancora un po'."
+    },
+    "de": {
+      "word": "anflehen",
+      "sentence": "Sie flehte ihn an, noch ein wenig zu bleiben."
+    }
+  },
+  {
+    "id": "fa1efe63-eea8-4611-af8f-6e479954b1bd",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "implorare",
+      "sentence": "Implorò il suo perdono."
+    },
+    "de": {
+      "word": "inständig bitten",
+      "sentence": "Er bat inständig um Verzeihung."
+    }
+  },
+  {
+    "id": "5b85e36b-8c89-49ba-8822-3362435a29c7",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il favore",
+      "sentence": "Mi devi un favore ora."
+    },
+    "de": {
+      "word": "der Gefallen",
+      "sentence": "Du schuldest mir jetzt einen Gefallen."
+    }
+  },
+  {
+    "id": "7635cb3a-0f05-4525-b765-7819d1d53c43",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "chiedere un favore",
+      "sentence": "Posso chiederti un favore veloce?"
+    },
+    "de": {
+      "word": "um einen Gefallen bitten",
+      "sentence": "Kann ich dich um einen schnellen Gefallen bitten?"
+    }
+  },
+  {
+    "id": "8fb8a47f-734d-4ffb-b808-47a76f8c92fa",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "ringraziare",
+      "sentence": "Vorrei ringraziarti per il tuo aiuto."
+    },
+    "de": {
+      "word": "danken",
+      "sentence": "Ich möchte dir für deine Hilfe danken."
+    }
+  },
+  {
+    "id": "7286aeff-0fd0-40e0-955a-280d078aa555",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "essere grato",
+      "sentence": "Sono davvero grato per il tuo sostegno."
+    },
+    "de": {
+      "word": "dankbar sein",
+      "sentence": "Ich bin wirklich dankbar für deine Unterstützung."
+    }
+  },
+  {
+    "id": "514e02cc-0f07-41cd-84c1-29b5e789e925",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la gratitudine",
+      "sentence": "Ha espresso la sua gratitudine con poche parole."
+    },
+    "de": {
+      "word": "die Dankbarkeit",
+      "sentence": "Er drückte seine Dankbarkeit mit wenigen Worten aus."
+    }
+  },
+  {
+    "id": "832d1da7-8ed1-4832-9889-f3f7f9eceb1c",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "comandare",
+      "sentence": "Non mi piace che mi comandino."
+    },
+    "de": {
+      "word": "befehlen",
+      "sentence": "Ich mag es nicht, wenn man mir befiehlt."
+    }
+  },
+  {
+    "id": "a31579c4-66b1-476d-a96c-d4c9a65467a2",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "l'ordine",
+      "sentence": "Ha eseguito l'ordine senza discutere."
+    },
+    "de": {
+      "word": "der Befehl",
+      "sentence": "Er hat den Befehl ohne zu diskutieren ausgeführt."
+    }
+  },
+  {
+    "id": "906a8b0f-6f62-402b-8e50-64f214b45503",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "obbedire",
+      "sentence": "Il cane obbedisce solo a lui."
+    },
+    "de": {
+      "word": "gehorchen",
+      "sentence": "Der Hund gehorcht nur ihm."
+    }
+  },
+  {
+    "id": "dd40903e-301e-4888-880e-4c81e958d4fa",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "disobbedire",
+      "sentence": "Ha disobbedito alle regole di proposito."
+    },
+    "de": {
+      "word": "nicht gehorchen",
+      "sentence": "Er hat den Regeln absichtlich nicht gehorcht."
+    }
+  },
+  {
+    "id": "a8744304-acd6-426a-babb-670071ce4fe7",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il divieto",
+      "sentence": "Il divieto è entrato in vigore ieri."
+    },
+    "de": {
+      "word": "das Verbot",
+      "sentence": "Das Verbot ist gestern in Kraft getreten."
+    }
+  },
+  {
+    "id": "77643726-3f29-4682-8734-f024451351dc",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "proibire",
+      "sentence": "Il medico gli ha proibito di fumare."
+    },
+    "de": {
+      "word": "verbieten",
+      "sentence": "Der Arzt hat ihm das Rauchen verboten."
+    }
+  },
+  {
+    "id": "7df1bfd2-61fb-42b5-88b0-fbd7ed619f55",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il permesso",
+      "sentence": "Ho chiesto il permesso di uscire prima."
+    },
+    "de": {
+      "word": "die Erlaubnis",
+      "sentence": "Ich habe um die Erlaubnis gebeten, früher zu gehen."
+    }
+  },
+  {
+    "id": "f7738172-f9cd-4fe9-9e97-469e96651857",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il consenso",
+      "sentence": "Serve il consenso di entrambi i genitori."
+    },
+    "de": {
+      "word": "die Zustimmung",
+      "sentence": "Es braucht die Zustimmung beider Elternteile."
+    }
+  },
+  {
+    "id": "1cfc8aff-a8ce-4dd6-9bd3-78d7338a5779",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "autorizzare",
+      "sentence": "Il direttore ha autorizzato la spesa."
+    },
+    "de": {
+      "word": "genehmigen",
+      "sentence": "Der Direktor hat die Ausgabe genehmigt."
+    }
+  },
+  {
+    "id": "8bef849d-69ec-4be9-9524-5919314677b7",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "negare il permesso",
+      "sentence": "Ci hanno negato il permesso di costruire."
+    },
+    "de": {
+      "word": "die Erlaubnis verweigern",
+      "sentence": "Man hat uns die Baugenehmigung verweigert."
+    }
+  },
+  {
+    "id": "19d7ba75-6357-4476-a063-d816761ca768",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "rifiutarsi di",
+      "sentence": "Si è rifiutato di firmare il documento."
+    },
+    "de": {
+      "word": "sich weigern zu",
+      "sentence": "Er weigerte sich, das Dokument zu unterschreiben."
+    }
+  },
+  {
+    "id": "7dd518e7-368f-4018-a01d-6f91ffc187d8",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "costringere",
+      "sentence": "Nessuno può costringerti a decidere subito."
+    },
+    "de": {
+      "word": "zwingen",
+      "sentence": "Niemand kann dich zwingen, sofort zu entscheiden."
+    }
+  },
+  {
+    "id": "a1a30548-6557-4b02-a7b7-64946f02127b",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "suggerire",
+      "sentence": "Ti suggerisco di aspettare ancora un giorno."
+    },
+    "de": {
+      "word": "anregen",
+      "sentence": "Ich rege an, noch einen Tag zu warten."
+    }
+  },
+  {
+    "id": "e86c51a0-da8b-4f69-9c30-790d9579d94d",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "proporre",
+      "sentence": "Propongo di rimandare la riunione."
+    },
+    "de": {
+      "word": "vorschlagen",
+      "sentence": "Ich schlage vor, das Treffen zu verschieben."
+    }
+  },
+  {
+    "id": "6e4f88f4-a874-4d45-8e5d-4c3a5ad51c19",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "consigliare",
+      "sentence": "Ti consiglio di parlargli subito."
+    },
+    "de": {
+      "word": "raten",
+      "sentence": "Ich rate dir, sofort mit ihm zu sprechen."
+    }
+  },
+  {
+    "id": "87916dc4-610f-4bb0-b852-da8c156a587b",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "sconsigliare",
+      "sentence": "Ti sconsiglio vivamente questa strada."
+    },
+    "de": {
+      "word": "abraten",
+      "sentence": "Ich rate dir dringend von diesem Weg ab."
+    }
+  },
+  {
+    "id": "cac1d204-f0b7-48eb-aed8-78696a4d56ca",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "rifiutare",
+      "sentence": "Ha rifiutato l'offerta educatamente."
+    },
+    "de": {
+      "word": "ablehnen",
+      "sentence": "Er hat das Angebot höflich abgelehnt."
+    }
+  },
+  {
+    "id": "a16c7cd9-a9f0-4e60-b26c-f45be893c5d5",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "respingere",
+      "sentence": "Il comitato ha respinto la richiesta."
+    },
+    "de": {
+      "word": "zurückweisen",
+      "sentence": "Das Komitee hat den Antrag zurückgewiesen."
+    }
+  },
+  {
+    "id": "fa673df0-57f4-4e96-a7bf-bc5e601184e2",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "rinunciare a",
+      "sentence": "Ha deciso di rinunciare al viaggio."
+    },
+    "de": {
+      "word": "verzichten auf",
+      "sentence": "Er hat beschlossen, auf die Reise zu verzichten."
+    }
+  },
+  {
+    "id": "6ae33e11-5424-43e1-b861-d1cc9ca3ea86",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "ritirare una proposta",
+      "sentence": "Ha ritirato la proposta all'ultimo momento."
+    },
+    "de": {
+      "word": "einen Vorschlag zurückziehen",
+      "sentence": "Er hat den Vorschlag im letzten Moment zurückgezogen."
+    }
+  },
+  {
+    "id": "a35d85f0-0559-44c4-8522-f13a61e2462e",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la controproposta",
+      "sentence": "Hanno presentato subito una controproposta."
+    },
+    "de": {
+      "word": "der Gegenvorschlag",
+      "sentence": "Sie haben sofort einen Gegenvorschlag vorgelegt."
+    }
+  },
+  {
+    "id": "dfdeedcb-26e2-4609-8d3f-fd70479d4365",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il punto di vista",
+      "sentence": "Capisco il tuo punto di vista."
+    },
+    "de": {
+      "word": "der Standpunkt",
+      "sentence": "Ich verstehe deinen Standpunkt."
+    }
+  },
+  {
+    "id": "9f3d6314-115f-4def-9e9d-fd212438096a",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "sostenere una tesi",
+      "sentence": "Sostiene una tesi piuttosto controversa."
+    },
+    "de": {
+      "word": "eine These vertreten",
+      "sentence": "Er vertritt eine ziemlich umstrittene These."
+    }
+  },
+  {
+    "id": "351a8f7b-ec6d-463a-9628-fedf7e7cd009",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "argomentare",
+      "sentence": "Ha argomentato la sua posizione con precisione."
+    },
+    "de": {
+      "word": "argumentieren",
+      "sentence": "Er hat seine Position präzise argumentiert."
+    }
+  },
+  {
+    "id": "e2356a8a-f157-48aa-bb71-d9467096f358",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "l'argomento",
+      "sentence": "Il tuo argomento non mi convince del tutto."
+    },
+    "de": {
+      "word": "das Argument",
+      "sentence": "Dein Argument überzeugt mich nicht ganz."
+    }
+  },
+  {
+    "id": "56eba9c0-d3f4-49e3-93d3-e97fbb41a30b",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "dimostrare",
+      "sentence": "I fatti dimostrano il contrario."
+    },
+    "de": {
+      "word": "beweisen",
+      "sentence": "Die Fakten beweisen das Gegenteil."
+    }
+  },
+  {
+    "id": "617b1bd7-e1e5-4168-8c17-549e1eceb36c",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "confutare",
+      "sentence": "Ha confutato ogni obiezione con calma."
+    },
+    "de": {
+      "word": "widerlegen",
+      "sentence": "Er hat jeden Einwand ruhig widerlegt."
+    }
+  },
+  {
+    "id": "98931a25-1e86-4c51-a9df-7be7b28987da",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "essere contrario a",
+      "sentence": "Sono contrario a questa decisione."
+    },
+    "de": {
+      "word": "dagegen sein",
+      "sentence": "Ich bin gegen diese Entscheidung."
+    }
+  },
+  {
+    "id": "022c570b-5e20-4ae5-97a6-8cc44e9412e2",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "essere favorevole a",
+      "sentence": "Siamo favorevoli al nuovo progetto."
+    },
+    "de": {
+      "word": "dafür sein",
+      "sentence": "Wir sind für das neue Projekt."
+    }
+  },
+  {
+    "id": "4caa2978-eb91-4e99-bfd8-a9ee8d938e6f",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "condividere un'opinione",
+      "sentence": "Condivido pienamente la tua opinione."
+    },
+    "de": {
+      "word": "eine Meinung teilen",
+      "sentence": "Ich teile deine Meinung voll und ganz."
+    }
+  },
+  {
+    "id": "4cd65f61-d8d2-4567-acf7-c19fddab7699",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "persuadere",
+      "sentence": "Alla fine l'ho persuaso a venire con noi."
+    },
+    "de": {
+      "word": "überreden",
+      "sentence": "Am Ende habe ich ihn überredet, mitzukommen."
+    }
+  },
+  {
+    "id": "e82c7ea2-6f7e-4f8a-bd16-50890b3b6e69",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "essere d'accordo",
+      "sentence": "Sono d'accordo con la tua proposta."
+    },
+    "de": {
+      "word": "einverstanden sein",
+      "sentence": "Ich bin mit deinem Vorschlag einverstanden."
+    }
+  },
+  {
+    "id": "52ec6173-f3f9-4ca7-a0dd-12e1f1382b87",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "essere in disaccordo",
+      "sentence": "Siamo in disaccordo su questo punto."
+    },
+    "de": {
+      "word": "nicht einverstanden sein",
+      "sentence": "Wir sind uns in diesem Punkt nicht einig."
+    }
+  },
+  {
+    "id": "b7fc9854-6bbd-40d2-b875-ee49207e46c0",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il compromesso",
+      "sentence": "Abbiamo trovato un compromesso accettabile."
+    },
+    "de": {
+      "word": "der Kompromiss",
+      "sentence": "Wir haben einen akzeptablen Kompromiss gefunden."
+    }
+  },
+  {
+    "id": "764a746e-b3ab-47b2-a510-f530011e6f57",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la controversia",
+      "sentence": "La controversia è durata mesi."
+    },
+    "de": {
+      "word": "die Kontroverse",
+      "sentence": "Die Kontroverse dauerte Monate."
+    }
+  },
+  {
+    "id": "66ca86c7-29d3-482c-b0a5-1adb86a7e8f1",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la divergenza",
+      "sentence": "Le divergenze sono emerse subito."
+    },
+    "de": {
+      "word": "die Meinungsverschiedenheit",
+      "sentence": "Die Meinungsverschiedenheiten kamen sofort zum Vorschein."
+    }
+  },
+  {
+    "id": "f334e0a6-1403-4047-8d9b-e66513974c73",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "conciliare",
+      "sentence": "Non è facile conciliare interessi così diversi."
+    },
+    "de": {
+      "word": "in Einklang bringen",
+      "sentence": "Es ist nicht leicht, so unterschiedliche Interessen in Einklang zu bringen."
+    }
+  },
+  {
+    "id": "114c3719-166a-4a6a-a192-d0503d5fa4c1",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "mediare",
+      "sentence": "Qualcuno deve mediare tra le due parti."
+    },
+    "de": {
+      "word": "vermitteln",
+      "sentence": "Jemand muss zwischen den beiden Parteien vermitteln."
+    }
+  },
+  {
+    "id": "d4b96a29-72dd-4837-80f7-636392ca12ff",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la mediazione",
+      "sentence": "Hanno scelto la mediazione invece del tribunale."
+    },
+    "de": {
+      "word": "die Mediation",
+      "sentence": "Sie haben sich für die Mediation statt für das Gericht entschieden."
+    }
+  },
+  {
+    "id": "3cf47412-93ce-447a-98fb-e730d251ab69",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "l'intesa",
+      "sentence": "Sono arrivati a un'intesa soddisfacente per tutti."
+    },
+    "de": {
+      "word": "die Übereinkunft",
+      "sentence": "Sie haben eine für alle zufriedenstellende Übereinkunft erzielt."
+    }
+  },
+  {
+    "id": "ba11a306-edac-4a64-b87e-874ea406f001",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "venire a un accordo",
+      "sentence": "Alla fine siamo venuti a un accordo."
+    },
+    "de": {
+      "word": "zu einer Einigung kommen",
+      "sentence": "Am Ende sind wir zu einer Einigung gekommen."
+    }
+  },
+  {
+    "id": "cb2f4b23-a74c-4ffc-8fdd-22af90aa3ead",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "litigare",
+      "sentence": "Litigano spesso per motivi banali."
+    },
+    "de": {
+      "word": "streiten",
+      "sentence": "Sie streiten oft wegen belangloser Dinge."
+    }
+  },
+  {
+    "id": "dbe67c61-b5c9-4c1d-ae39-b85d5bcad749",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la lite",
+      "sentence": "La lite è finita con delle scuse."
+    },
+    "de": {
+      "word": "der Streit",
+      "sentence": "Der Streit endete mit einer Entschuldigung."
+    }
+  },
+  {
+    "id": "7f036ab6-a84b-41ef-b743-2f1a9ed757eb",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il conflitto",
+      "sentence": "Il conflitto tra i due team è ormai evidente."
+    },
+    "de": {
+      "word": "der Konflikt",
+      "sentence": "Der Konflikt zwischen den beiden Teams ist inzwischen offensichtlich."
+    }
+  },
+  {
+    "id": "fabce3d1-c412-4dd3-b12e-5e562cfc646c",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il malinteso",
+      "sentence": "È stato tutto un grande malinteso."
+    },
+    "de": {
+      "word": "das Missverständnis",
+      "sentence": "Das war alles ein großes Missverständnis."
+    }
+  },
+  {
+    "id": "df32f3e8-0233-4a91-b0d7-d3eb5742f02a",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "chiarire un malinteso",
+      "sentence": "Abbiamo chiarito il malinteso in cinque minuti."
+    },
+    "de": {
+      "word": "ein Missverständnis klären",
+      "sentence": "Wir haben das Missverständnis in fünf Minuten geklärt."
+    }
+  },
+  {
+    "id": "f9610b7f-8405-49ae-ac9d-1d8c08acc2c9",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "fare pace",
+      "sentence": "Hanno fatto pace dopo settimane."
+    },
+    "de": {
+      "word": "sich versöhnen",
+      "sentence": "Sie haben sich nach Wochen versöhnt."
+    }
+  },
+  {
+    "id": "7dc5b121-461d-429a-b7a1-6e4b46ede57f",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "riconciliarsi",
+      "sentence": "Si sono riconciliati per il bene dei figli."
+    },
+    "de": {
+      "word": "sich wieder vertragen",
+      "sentence": "Sie haben sich um der Kinder willen wieder vertragen."
+    }
+  },
+  {
+    "id": "9b134c7a-699e-4595-a8d3-a59f0e9a80c3",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "scusarsi",
+      "sentence": "Si è scusato subito per il ritardo."
+    },
+    "de": {
+      "word": "sich entschuldigen",
+      "sentence": "Er hat sich sofort für die Verspätung entschuldigt."
+    }
+  },
+  {
+    "id": "b76c041a-9b2f-4610-8909-4fc8bdc083e8",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "le scuse",
+      "sentence": "Accetto le tue scuse."
+    },
+    "de": {
+      "word": "die Entschuldigung",
+      "sentence": "Ich nehme deine Entschuldigung an."
+    }
+  },
+  {
+    "id": "f28c2241-6e70-443d-b5a1-2882ec09cd5d",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "perdonare",
+      "sentence": "Gli ho perdonato quell'errore molto tempo fa."
+    },
+    "de": {
+      "word": "verzeihen",
+      "sentence": "Ich habe ihm diesen Fehler vor langer Zeit verziehen."
+    }
+  },
+  {
+    "id": "93425c65-ca5c-4dc3-8554-d3aa63224769",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "provocare",
+      "sentence": "Non voleva provocare una reazione simile."
+    },
+    "de": {
+      "word": "provozieren",
+      "sentence": "Er wollte keine solche Reaktion provozieren."
+    }
+  },
+  {
+    "id": "7265ef62-3dc7-481a-90f8-4dfeaa4baf3b",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "calmare gli animi",
+      "sentence": "Ci è voluto tempo per calmare gli animi."
+    },
+    "de": {
+      "word": "die Gemüter beruhigen",
+      "sentence": "Es hat Zeit gebraucht, die Gemüter zu beruhigen."
+    }
+  },
+  {
+    "id": "e4a4d59c-d9b7-4f77-89be-f949d6fccbb0",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "lamentarsi",
+      "sentence": "Si lamenta sempre del tempo."
+    },
+    "de": {
+      "word": "sich beklagen",
+      "sentence": "Er beklagt sich immer über das Wetter."
+    }
+  },
+  {
+    "id": "fc2c4032-0349-4afc-8778-52e4935428a1",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la lamentela",
+      "sentence": "Hanno ricevuto molte lamentele quest'anno."
+    },
+    "de": {
+      "word": "die Beschwerde",
+      "sentence": "Sie haben dieses Jahr viele Beschwerden erhalten."
+    }
+  },
+  {
+    "id": "80b5bb17-439f-49c7-a945-629dc72c7076",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "protestare",
+      "sentence": "Gli abitanti hanno protestato contro il progetto."
+    },
+    "de": {
+      "word": "protestieren",
+      "sentence": "Die Anwohner haben gegen das Projekt protestiert."
+    }
+  },
+  {
+    "id": "e1caa31e-b492-4ddd-a769-36215feae80e",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la protesta",
+      "sentence": "La protesta si è svolta pacificamente."
+    },
+    "de": {
+      "word": "der Protest",
+      "sentence": "Der Protest verlief friedlich."
+    }
+  },
+  {
+    "id": "5816f77b-7645-4d84-9784-52298ba437b4",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "criticare",
+      "sentence": "Preferisco non criticare in pubblico."
+    },
+    "de": {
+      "word": "kritisieren",
+      "sentence": "Ich kritisiere lieber nicht öffentlich."
+    }
+  },
+  {
+    "id": "b6942683-1e42-4988-82d1-f25f8883b30a",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la critica",
+      "sentence": "Ha accettato la critica con maturità."
+    },
+    "de": {
+      "word": "die Kritik",
+      "sentence": "Er hat die Kritik reif angenommen."
+    }
+  },
+  {
+    "id": "b00e14e0-3918-4596-ab35-2727921ff9ed",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "accusare",
+      "sentence": "Non voglio accusare nessuno senza prove."
+    },
+    "de": {
+      "word": "beschuldigen",
+      "sentence": "Ich möchte niemanden ohne Beweise beschuldigen."
+    }
+  },
+  {
+    "id": "18793019-9a62-41e2-a3b4-862aab91562c",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "difendersi",
+      "sentence": "Ha avuto pochi minuti per difendersi."
+    },
+    "de": {
+      "word": "sich verteidigen",
+      "sentence": "Er hatte nur wenige Minuten, um sich zu verteidigen."
+    }
+  },
+  {
+    "id": "f649a8ae-300c-444f-9b98-dd313b55929c",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "giustificarsi",
+      "sentence": "Ha cercato di giustificarsi senza convincere nessuno."
+    },
+    "de": {
+      "word": "sich rechtfertigen",
+      "sentence": "Er versuchte sich zu rechtfertigen, ohne jemanden zu überzeugen."
+    }
+  },
+  {
+    "id": "91617e8a-1adc-41f8-8c82-764639c6bd83",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "esagerare",
+      "sentence": "Non esagerare con i dettagli."
+    },
+    "de": {
+      "word": "übertreiben",
+      "sentence": "Übertreib es nicht mit den Details."
+    }
+  },
+  {
+    "id": "85c25ad6-9943-4455-93d4-8fc907ce7eb1",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "mentire",
+      "sentence": "Non gli piace mentire, nemmeno per gioco."
+    },
+    "de": {
+      "word": "lügen",
+      "sentence": "Er lügt nicht gern, auch nicht zum Spaß."
+    }
+  },
+  {
+    "id": "cea69efa-f11e-45ea-ad8c-ab875e9de8d0",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la bugia",
+      "sentence": "Ha detto una bugia per proteggerla."
+    },
+    "de": {
+      "word": "die Lüge",
+      "sentence": "Er hat eine Lüge erzählt, um sie zu schützen."
+    }
+  },
+  {
+    "id": "8054cc87-df6c-493b-ace5-96cb0d0677fd",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il bugiardo",
+      "sentence": "Non è un bugiardo, semplicemente evita l'argomento."
+    },
+    "de": {
+      "word": "der Lügner",
+      "sentence": "Er ist kein Lügner, er weicht dem Thema nur aus."
+    }
+  },
+  {
+    "id": "7c84b34f-e4c5-4089-ab87-2addc4e34eb6",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "ingannare",
+      "sentence": "Non voleva ingannare nessuno."
+    },
+    "de": {
+      "word": "täuschen",
+      "sentence": "Er wollte niemanden täuschen."
+    }
+  },
+  {
+    "id": "823cf4f8-6462-46f7-be36-ce30206cdc61",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "l'inganno",
+      "sentence": "L'inganno venne scoperto troppo tardi."
+    },
+    "de": {
+      "word": "die Täuschung",
+      "sentence": "Die Täuschung wurde zu spät entdeckt."
+    }
+  },
+  {
+    "id": "d2c42bad-1754-405e-831f-c442ba1824ea",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "essere sincero",
+      "sentence": "Sii sincero con me, per favore."
+    },
+    "de": {
+      "word": "ehrlich sein",
+      "sentence": "Sei bitte ehrlich zu mir."
+    }
+  },
+  {
+    "id": "fb628d06-6c79-438d-81cc-38655ca6932e",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la sincerità",
+      "sentence": "Apprezzo molto la sua sincerità."
+    },
+    "de": {
+      "word": "die Ehrlichkeit",
+      "sentence": "Ich schätze seine Ehrlichkeit sehr."
+    }
+  },
+  {
+    "id": "9c2f0415-2aa2-4d6c-bc28-e051aac0cd39",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "ammettere",
+      "sentence": "Alla fine ha ammesso il suo errore."
+    },
+    "de": {
+      "word": "zugeben",
+      "sentence": "Am Ende hat er seinen Fehler zugegeben."
+    }
+  },
+  {
+    "id": "d4c0f272-20d0-45d5-819d-6ed7c3dc8ce7",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "nascondere la verità",
+      "sentence": "Ha nascosto la verità per settimane."
+    },
+    "de": {
+      "word": "die Wahrheit verbergen",
+      "sentence": "Er hat die Wahrheit wochenlang verborgen."
+    }
+  },
+  {
+    "id": "5e1aac3d-f380-4e90-8418-7c5e551a6809",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "spettegolare",
+      "sentence": "Passano il pomeriggio a spettegolare."
+    },
+    "de": {
+      "word": "tratschen",
+      "sentence": "Sie verbringen den Nachmittag mit Tratschen."
+    }
+  },
+  {
+    "id": "807f626f-92a3-4b75-89a7-4f4d1cfe090f",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "i pettegolezzi",
+      "sentence": "Non mi interessano i pettegolezzi del quartiere."
+    },
+    "de": {
+      "word": "der Klatsch",
+      "sentence": "Der Klatsch aus der Nachbarschaft interessiert mich nicht."
+    }
+  },
+  {
+    "id": "b6f758ab-c5d5-4b47-9df1-6f12a8215fe8",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "il segreto",
+      "sentence": "Ti confido un segreto, ma non dirlo a nessuno."
+    },
+    "de": {
+      "word": "das Geheimnis",
+      "sentence": "Ich vertraue dir ein Geheimnis an, aber sag es niemandem."
+    }
+  },
+  {
+    "id": "ac60b27c-029a-43a6-a4ac-1b0e2274e293",
+    "level": "B1",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "mantenere un segreto",
+      "sentence": "Sa mantenere un segreto meglio di chiunque altro."
+    },
+    "de": {
+      "word": "ein Geheimnis bewahren",
+      "sentence": "Er kann ein Geheimnis besser bewahren als jeder andere."
+    }
+  },
+  {
+    "id": "d6865346-b59d-47dc-a74e-1d73f990cb69",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "tradire un segreto",
+      "sentence": "Non tradirebbe mai un segreto."
+    },
+    "de": {
+      "word": "ein Geheimnis verraten",
+      "sentence": "Er würde niemals ein Geheimnis verraten."
+    }
+  },
+  {
+    "id": "7daee841-f767-43d9-8399-665964b52976",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "discreto",
+      "sentence": "È sempre stato molto discreto sulla sua vita privata."
+    },
+    "de": {
+      "word": "diskret",
+      "sentence": "Er war immer sehr diskret über sein Privatleben."
+    }
+  },
+  {
+    "id": "16dcdc06-6e51-4248-8a6a-f32c987db7b6",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "indiscreto",
+      "sentence": "Trovo la domanda un po' indiscreta."
+    },
+    "de": {
+      "word": "indiskret",
+      "sentence": "Ich finde die Frage etwas indiskret."
+    }
+  },
+  {
+    "id": "bcad7c85-4fc0-4e24-b885-d4d59353fa9a",
+    "level": "B2",
+    "topic": "Kommunikation",
+    "it": {
+      "word": "la diceria",
+      "sentence": "Era solo una diceria senza fondamento."
+    },
+    "de": {
+      "word": "das Gerücht",
+      "sentence": "Es war nur ein unbegründetes Gerücht."
+    }
   }
 ]
