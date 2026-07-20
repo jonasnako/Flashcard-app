@@ -4041,5 +4041,1643 @@
       "word": "die Gefühle validieren",
       "sentence": "Es ist wichtig, die Gefühle des Kindes zu validieren, bevor man es korrigiert."
     }
+  },
+  {
+    "id": "c9f219d5-db6a-41e2-901d-07e893595a67",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "pensare a",
+      "sentence": "Penso spesso a quella conversazione."
+    },
+    "de": {
+      "word": "denken an",
+      "sentence": "Ich denke oft an dieses Gespräch."
+    }
+  },
+  {
+    "id": "cf6624ce-b353-4c22-a932-4d8e5e6c3cd0",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "riflettere su",
+      "sentence": "Devo riflettere su questa proposta."
+    },
+    "de": {
+      "word": "nachdenken über",
+      "sentence": "Ich muss über diesen Vorschlag nachdenken."
+    }
+  },
+  {
+    "id": "07e36c43-725e-4c1c-9275-265593b937be",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "ricordarsi di",
+      "sentence": "Non mi ricordo del suo nome."
+    },
+    "de": {
+      "word": "sich erinnern an",
+      "sentence": "Ich erinnere mich nicht an seinen Namen."
+    }
+  },
+  {
+    "id": "873eb161-1a92-420c-aefd-4d37c4e22d43",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "dimenticare",
+      "sentence": "Ho dimenticato l'ombrello a casa."
+    },
+    "de": {
+      "word": "vergessen",
+      "sentence": "Ich habe den Regenschirm zu Hause vergessen."
+    }
+  },
+  {
+    "id": "fa7bc25f-1b52-4fae-9b67-7acc5304cdfa",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la memoria",
+      "sentence": "Ha una memoria eccezionale per i numeri."
+    },
+    "de": {
+      "word": "das Gedächtnis",
+      "sentence": "Er hat ein außergewöhnliches Gedächtnis für Zahlen."
+    }
+  },
+  {
+    "id": "1484f59a-ab78-4af3-9822-e493fda45544",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "immaginare",
+      "sentence": "Non riesco a immaginare la sua reazione."
+    },
+    "de": {
+      "word": "sich vorstellen",
+      "sentence": "Ich kann mir seine Reaktion nicht vorstellen."
+    }
+  },
+  {
+    "id": "4f928a4e-e7bf-446b-b664-f7ea1530dd23",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "credere",
+      "sentence": "Credo che abbia ragione."
+    },
+    "de": {
+      "word": "glauben",
+      "sentence": "Ich glaube, dass er recht hat."
+    }
+  },
+  {
+    "id": "bc73d9e4-783a-4ace-badf-8315e37a2d21",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "supporre",
+      "sentence": "Suppongo che sia già partito."
+    },
+    "de": {
+      "word": "vermuten",
+      "sentence": "Ich vermute, dass er schon abgereist ist."
+    }
+  },
+  {
+    "id": "6702783f-55b5-4a9b-a89f-92adc670daff",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "aspettarsi",
+      "sentence": "Non mi aspettavo questa risposta."
+    },
+    "de": {
+      "word": "erwarten",
+      "sentence": "Ich habe diese Antwort nicht erwartet."
+    }
+  },
+  {
+    "id": "f9df70ab-152f-4550-8045-de7af0ba2dfb",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "accorgersi di",
+      "sentence": "Mi sono accorto dell'errore troppo tardi."
+    },
+    "de": {
+      "word": "bemerken",
+      "sentence": "Ich habe den Fehler zu spät bemerkt."
+    }
+  },
+  {
+    "id": "c264af81-8003-4aa6-ade5-594ced97cc8c",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "chiedersi",
+      "sentence": "Mi chiedo se sia la scelta giusta."
+    },
+    "de": {
+      "word": "sich fragen",
+      "sentence": "Ich frage mich, ob das die richtige Wahl ist."
+    }
+  },
+  {
+    "id": "da0abbf8-3dd7-4a57-a5a4-478d6d383ffc",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "capire",
+      "sentence": "Non capisco perché sia arrabbiato."
+    },
+    "de": {
+      "word": "verstehen",
+      "sentence": "Ich verstehe nicht, warum er wütend ist."
+    }
+  },
+  {
+    "id": "b98ee3e4-0bca-4fc0-a3bc-49e0c1ded1e0",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "decidere",
+      "sentence": "Devo decidere entro domani."
+    },
+    "de": {
+      "word": "entscheiden",
+      "sentence": "Ich muss bis morgen entscheiden."
+    }
+  },
+  {
+    "id": "85ca12ed-e19f-4d2a-9382-1306b3788c8b",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "cambiare idea",
+      "sentence": "Ha cambiato idea all'ultimo momento."
+    },
+    "de": {
+      "word": "die Meinung ändern",
+      "sentence": "Er hat im letzten Moment die Meinung geändert."
+    }
+  },
+  {
+    "id": "cbfd1c36-b486-415b-bf45-0134579172f4",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'opinione",
+      "sentence": "Rispetto la tua opinione, ma non sono d'accordo."
+    },
+    "de": {
+      "word": "die Meinung",
+      "sentence": "Ich respektiere deine Meinung, bin aber nicht einverstanden."
+    }
+  },
+  {
+    "id": "ba8e3826-a221-464a-a0b6-dcb584890029",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "il dubbio",
+      "sentence": "Ho ancora qualche dubbio sul progetto."
+    },
+    "de": {
+      "word": "der Zweifel",
+      "sentence": "Ich habe noch einige Zweifel am Projekt."
+    }
+  },
+  {
+    "id": "f62e3f0a-106c-4b6d-89f2-0d22a65d8f64",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "essere sicuro",
+      "sentence": "Sei sicuro di aver spento il forno?"
+    },
+    "de": {
+      "word": "sicher sein",
+      "sentence": "Bist du sicher, dass du den Ofen ausgeschaltet hast?"
+    }
+  },
+  {
+    "id": "c3905c7c-dbaf-4810-9e64-3217966a056c",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "convincersi",
+      "sentence": "Alla fine si è convinto ad accettare."
+    },
+    "de": {
+      "word": "sich überzeugen",
+      "sentence": "Am Ende hat er sich überzeugt anzunehmen."
+    }
+  },
+  {
+    "id": "6804ec4e-631b-4a17-a967-2af5219cdd69",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la consapevolezza",
+      "sentence": "La sua consapevolezza del problema arrivò tardi."
+    },
+    "de": {
+      "word": "das Bewusstsein",
+      "sentence": "Sein Bewusstsein für das Problem kam spät."
+    }
+  },
+  {
+    "id": "895fc4ab-6fa0-4599-9210-947eb92614c1",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "prendere in considerazione",
+      "sentence": "Dovremmo prendere in considerazione anche altre opzioni."
+    },
+    "de": {
+      "word": "in Betracht ziehen",
+      "sentence": "Wir sollten auch andere Optionen in Betracht ziehen."
+    }
+  },
+  {
+    "id": "f6415864-30a7-4249-a131-2bc42b87ac74",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la riflessione",
+      "sentence": "Dopo lunga riflessione, ha rifiutato l'offerta."
+    },
+    "de": {
+      "word": "das Nachdenken",
+      "sentence": "Nach langem Nachdenken hat er das Angebot abgelehnt."
+    }
+  },
+  {
+    "id": "b8d527c4-b1c1-4676-bf1d-6887db637a35",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la percezione",
+      "sentence": "La sua percezione del rischio era esagerata."
+    },
+    "de": {
+      "word": "die Wahrnehmung",
+      "sentence": "Seine Wahrnehmung des Risikos war übertrieben."
+    }
+  },
+  {
+    "id": "d2e815bd-6e97-43fa-a962-f9324d27065b",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "presumere",
+      "sentence": "Presumo che tu abbia già letto il rapporto."
+    },
+    "de": {
+      "word": "annehmen",
+      "sentence": "Ich nehme an, dass du den Bericht schon gelesen hast."
+    }
+  },
+  {
+    "id": "9179577f-090b-40c1-bace-b467f820e2d9",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "il pregiudizio",
+      "sentence": "È difficile liberarsi dei propri pregiudizi."
+    },
+    "de": {
+      "word": "das Vorurteil",
+      "sentence": "Es ist schwer, sich von den eigenen Vorurteilen zu lösen."
+    }
+  },
+  {
+    "id": "04eb6a26-4ae8-4a18-ada0-23db4c6f9bf8",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "rendersi conto di",
+      "sentence": "Mi sono reso conto dell'errore solo dopo."
+    },
+    "de": {
+      "word": "sich bewusst werden",
+      "sentence": "Ich wurde mir des Fehlers erst später bewusst."
+    }
+  },
+  {
+    "id": "9e95deb0-7de2-49bf-9000-dff0a97f47f6",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "il ripensamento",
+      "sentence": "Ebbe un ripensamento all'ultimo minuto."
+    },
+    "de": {
+      "word": "der Sinneswandel",
+      "sentence": "Er hatte im letzten Moment einen Sinneswandel."
+    }
+  },
+  {
+    "id": "8d3b2563-dc18-4876-9364-ed7690b61379",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "riconsiderare",
+      "sentence": "Dovremmo riconsiderare l'intera strategia."
+    },
+    "de": {
+      "word": "überdenken",
+      "sentence": "Wir sollten die ganze Strategie überdenken."
+    }
+  },
+  {
+    "id": "e32c3e65-5f8a-40a6-a7b3-5d66a56490b2",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "trarre una conclusione",
+      "sentence": "Non è facile trarre una conclusione da questi dati."
+    },
+    "de": {
+      "word": "eine Schlussfolgerung ziehen",
+      "sentence": "Es ist nicht leicht, aus diesen Daten eine Schlussfolgerung zu ziehen."
+    }
+  },
+  {
+    "id": "9879f9a7-f2db-4548-bda1-133acf505dd1",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'intuizione",
+      "sentence": "Ha seguito l'intuizione e ha avuto ragione."
+    },
+    "de": {
+      "word": "die Intuition",
+      "sentence": "Er folgte seiner Intuition und hatte recht."
+    }
+  },
+  {
+    "id": "5adec01b-6c6c-487c-b4c7-2083f2115863",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "speculare su",
+      "sentence": "Preferisco non speculare sulle sue intenzioni."
+    },
+    "de": {
+      "word": "spekulieren über",
+      "sentence": "Ich spekuliere lieber nicht über seine Absichten."
+    }
+  },
+  {
+    "id": "a9d8104e-967f-47d6-aad7-737a15ae7ab6",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "il sentimento",
+      "sentence": "Non riesco a spiegare questo sentimento."
+    },
+    "de": {
+      "word": "das Gefühl",
+      "sentence": "Ich kann dieses Gefühl nicht erklären."
+    }
+  },
+  {
+    "id": "c625b837-2312-4611-bcf8-e1d4cae735ed",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "sentirsi",
+      "sentence": "Mi sento meglio oggi."
+    },
+    "de": {
+      "word": "sich fühlen",
+      "sentence": "Ich fühle mich heute besser."
+    }
+  },
+  {
+    "id": "14abd97f-4a2f-416d-a75b-51dc6a7bbee8",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "provare",
+      "sentence": "Cosa provi quando lo vedi?"
+    },
+    "de": {
+      "word": "empfinden",
+      "sentence": "Was empfindest du, wenn du ihn siehst?"
+    }
+  },
+  {
+    "id": "d12bbcc1-ecd8-4cfe-9981-22ebaccbc363",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'umore",
+      "sentence": "Il suo umore cambia in fretta."
+    },
+    "de": {
+      "word": "die Stimmung",
+      "sentence": "Seine Stimmung ändert sich schnell."
+    }
+  },
+  {
+    "id": "2ce7efcc-c227-4ab0-86fd-797db3f39b2a",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "forte",
+      "sentence": "È un sentimento molto forte."
+    },
+    "de": {
+      "word": "stark",
+      "sentence": "Das ist ein sehr starkes Gefühl."
+    }
+  },
+  {
+    "id": "fbc2b506-ed69-496a-94ea-9156272080eb",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'emozione",
+      "sentence": "Cercava di nascondere le sue emozioni."
+    },
+    "de": {
+      "word": "die Emotion",
+      "sentence": "Er versuchte, seine Emotionen zu verbergen."
+    }
+  },
+  {
+    "id": "1136d35b-c6d9-43da-97e2-a8c6ec21cb6d",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la sensazione",
+      "sentence": "Aveva una strana sensazione di déjà-vu."
+    },
+    "de": {
+      "word": "das Gespür",
+      "sentence": "Er hatte ein seltsames Gespür für Déjà-vu."
+    }
+  },
+  {
+    "id": "a2007fb9-ad5c-4d05-8f02-0c5c5cb1b9f6",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "travolgente",
+      "sentence": "Fu colto da un'emozione travolgente."
+    },
+    "de": {
+      "word": "überwältigend",
+      "sentence": "Er wurde von einer überwältigenden Emotion erfasst."
+    }
+  },
+  {
+    "id": "1ad33588-6f3c-4f62-a812-fad91ca7a62d",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "reprimere",
+      "sentence": "Cerca sempre di reprimere la rabbia."
+    },
+    "de": {
+      "word": "unterdrücken",
+      "sentence": "Er versucht immer, seine Wut zu unterdrücken."
+    }
+  },
+  {
+    "id": "ce2e7254-562e-485b-b120-7e7abbe9c6d3",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "esprimere",
+      "sentence": "Fatica a esprimere ciò che sente."
+    },
+    "de": {
+      "word": "ausdrücken",
+      "sentence": "Es fällt ihm schwer, auszudrücken, was er fühlt."
+    }
+  },
+  {
+    "id": "970a1e15-908f-4292-ba36-7fb68cfd03bd",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "felice",
+      "sentence": "Non sono mai stato così felice."
+    },
+    "de": {
+      "word": "glücklich",
+      "sentence": "Ich war noch nie so glücklich."
+    }
+  },
+  {
+    "id": "41dd7aea-9bdf-4922-ab08-15b576060dad",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la felicità",
+      "sentence": "La felicità non si compra."
+    },
+    "de": {
+      "word": "das Glück",
+      "sentence": "Glück kann man nicht kaufen."
+    }
+  },
+  {
+    "id": "8b2294b6-f2b0-4764-b8bc-055693200b71",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la gioia",
+      "sentence": "Piangeva di gioia."
+    },
+    "de": {
+      "word": "die Freude",
+      "sentence": "Sie weinte vor Freude."
+    }
+  },
+  {
+    "id": "354959b1-55b3-4a31-aedb-4706d9515a8b",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "sorridere",
+      "sentence": "Mi sorride ogni volta che mi vede."
+    },
+    "de": {
+      "word": "lächeln",
+      "sentence": "Er lächelt mich an, wann immer er mich sieht."
+    }
+  },
+  {
+    "id": "d244c30e-9dd0-4d50-9a6c-2c9fb2245845",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "divertirsi",
+      "sentence": "Ci siamo divertiti moltissimo alla festa."
+    },
+    "de": {
+      "word": "sich amüsieren",
+      "sentence": "Wir haben uns auf der Party sehr amüsiert."
+    }
+  },
+  {
+    "id": "f6e8eeab-2734-4004-afe2-607c65960580",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "raggiante",
+      "sentence": "Era raggiante di gioia il giorno del matrimonio."
+    },
+    "de": {
+      "word": "strahlend",
+      "sentence": "Sie war am Hochzeitstag strahlend vor Freude."
+    }
+  },
+  {
+    "id": "fb28493b-246e-4b16-8dee-76c67f2da4b3",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'euforia",
+      "sentence": "L'euforia della vittoria durò tutta la sera."
+    },
+    "de": {
+      "word": "die Euphorie",
+      "sentence": "Die Euphorie des Sieges hielt den ganzen Abend an."
+    }
+  },
+  {
+    "id": "b420fe36-fa26-409d-ba2c-f719dfe77acf",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "appagato",
+      "sentence": "Si sentiva finalmente appagato dalla sua vita."
+    },
+    "de": {
+      "word": "erfüllt",
+      "sentence": "Er fühlte sich endlich erfüllt von seinem Leben."
+    }
+  },
+  {
+    "id": "122347a5-4026-49f7-b1c2-9f7c5840ce4f",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "spensierato",
+      "sentence": "Passarono un'estate spensierata al mare."
+    },
+    "de": {
+      "word": "unbeschwert",
+      "sentence": "Sie verbrachten einen unbeschwerten Sommer am Meer."
+    }
+  },
+  {
+    "id": "9ef30acd-d82c-4ec9-b0c4-2422dcb9f929",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "triste",
+      "sentence": "Sembra triste da qualche giorno."
+    },
+    "de": {
+      "word": "traurig",
+      "sentence": "Er wirkt seit einigen Tagen traurig."
+    }
+  },
+  {
+    "id": "c7658247-5e40-4d1c-9404-d4e784f4cdf1",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la tristezza",
+      "sentence": "Una vaga tristezza lo accompagnava."
+    },
+    "de": {
+      "word": "die Traurigkeit",
+      "sentence": "Eine vage Traurigkeit begleitete ihn."
+    }
+  },
+  {
+    "id": "d19d746c-c87b-4d46-abd2-ffe24ac2fd8a",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "deludere",
+      "sentence": "Il risultato mi ha deluso."
+    },
+    "de": {
+      "word": "enttäuschen",
+      "sentence": "Das Ergebnis hat mich enttäuscht."
+    }
+  },
+  {
+    "id": "1d267773-9913-45ca-9634-1a3aa09b1b20",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la delusione",
+      "sentence": "Ha nascosto bene la sua delusione."
+    },
+    "de": {
+      "word": "die Enttäuschung",
+      "sentence": "Er hat seine Enttäuschung gut verborgen."
+    }
+  },
+  {
+    "id": "32f07382-60a3-4611-9e15-2032286fb493",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "solo",
+      "sentence": "Si sentiva solo in una città nuova."
+    },
+    "de": {
+      "word": "einsam",
+      "sentence": "Er fühlte sich einsam in einer neuen Stadt."
+    }
+  },
+  {
+    "id": "83edb65c-9154-4984-963c-0720f8062e55",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "soffrire",
+      "sentence": "Ha sofferto molto dopo la separazione."
+    },
+    "de": {
+      "word": "leiden",
+      "sentence": "Er hat nach der Trennung sehr gelitten."
+    }
+  },
+  {
+    "id": "e4e9f013-74de-4dcc-ab2b-e334eb0aa02f",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "lo sconforto",
+      "sentence": "Lo sconforto lo aveva paralizzato per settimane."
+    },
+    "de": {
+      "word": "die Mutlosigkeit",
+      "sentence": "Die Mutlosigkeit hatte ihn wochenlang gelähmt."
+    }
+  },
+  {
+    "id": "08a3c008-13d9-4102-a2db-1a3fa0954a99",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'abbattimento",
+      "sentence": "Un profondo abbattimento seguì la notizia."
+    },
+    "de": {
+      "word": "die Niedergeschlagenheit",
+      "sentence": "Tiefe Niedergeschlagenheit folgte der Nachricht."
+    }
+  },
+  {
+    "id": "bd95cb64-a69f-458c-aeeb-5ee317052143",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la malinconia",
+      "sentence": "Guardava le vecchie foto con malinconia."
+    },
+    "de": {
+      "word": "die Wehmut",
+      "sentence": "Er betrachtete die alten Fotos mit Wehmut."
+    }
+  },
+  {
+    "id": "71180139-0a39-4c09-9a75-f56082d8a566",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "struggente",
+      "sentence": "Fu una scena struggente."
+    },
+    "de": {
+      "word": "herzzerreißend",
+      "sentence": "Es war eine herzzerreißende Szene."
+    }
+  },
+  {
+    "id": "6730d870-4f02-4a16-a0b1-8d04bcd03c9c",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "il lutto",
+      "sentence": "Il lutto per la perdita fu lungo."
+    },
+    "de": {
+      "word": "die Trauer",
+      "sentence": "Die Trauer über den Verlust war lang."
+    }
+  },
+  {
+    "id": "570c0e99-9b20-4c88-bc7d-5dcaf9e72056",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "soddisfatto",
+      "sentence": "Sono molto soddisfatto del risultato."
+    },
+    "de": {
+      "word": "zufrieden",
+      "sentence": "Ich bin sehr zufrieden mit dem Ergebnis."
+    }
+  },
+  {
+    "id": "355fd01d-b227-4e86-90af-e63edb4ceec1",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "insoddisfatto",
+      "sentence": "È rimasto insoddisfatto del servizio."
+    },
+    "de": {
+      "word": "unzufrieden",
+      "sentence": "Er blieb unzufrieden mit dem Service."
+    }
+  },
+  {
+    "id": "cffd101d-1c92-40d6-968a-1cf2cb21a31f",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "avere abbastanza",
+      "sentence": "Ho abbastanza di queste scuse."
+    },
+    "de": {
+      "word": "genug haben",
+      "sentence": "Ich habe genug von diesen Ausreden."
+    }
+  },
+  {
+    "id": "7175e2fa-0b20-4a06-9568-7c427ad0ffe0",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "contento",
+      "sentence": "Sono contento che tu sia venuto."
+    },
+    "de": {
+      "word": "froh",
+      "sentence": "Ich bin froh, dass du gekommen bist."
+    }
+  },
+  {
+    "id": "7125394f-d8fe-4a09-81d6-8b08bed679dd",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la piena soddisfazione",
+      "sentence": "Il progetto fu completato con piena soddisfazione."
+    },
+    "de": {
+      "word": "die volle Zufriedenheit",
+      "sentence": "Das Projekt wurde mit voller Zufriedenheit abgeschlossen."
+    }
+  },
+  {
+    "id": "72fabb25-4092-4af7-b6fc-cf28dfb5a4f7",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "sorprendere",
+      "sentence": "La sua reazione mi ha sorpreso."
+    },
+    "de": {
+      "word": "überraschen",
+      "sentence": "Seine Reaktion hat mich überrascht."
+    }
+  },
+  {
+    "id": "46f8bf06-9a95-47bf-aa59-0a4971f62160",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la sorpresa",
+      "sentence": "Che bella sorpresa vederti qui!"
+    },
+    "de": {
+      "word": "die Überraschung",
+      "sentence": "Was für eine schöne Überraschung, dich hier zu sehen!"
+    }
+  },
+  {
+    "id": "45cf4216-7348-421d-ab03-45d3024eac9d",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "inaspettato",
+      "sentence": "L'esito fu del tutto inaspettato."
+    },
+    "de": {
+      "word": "unerwartet",
+      "sentence": "Das Ergebnis war völlig unerwartet."
+    }
+  },
+  {
+    "id": "843654b4-dc5e-4d62-be15-d64392bd89f0",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "stupito",
+      "sentence": "Rimase stupito dalla sua abilità."
+    },
+    "de": {
+      "word": "erstaunt",
+      "sentence": "Er war erstaunt über seine Fähigkeit."
+    }
+  },
+  {
+    "id": "46d5c0eb-29ec-4ef5-800b-c307c0688d53",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "sbalordito",
+      "sentence": "Rimasi sbalordito dalla velocità del cambiamento."
+    },
+    "de": {
+      "word": "verblüfft",
+      "sentence": "Ich war verblüfft von der Geschwindigkeit der Veränderung."
+    }
+  },
+  {
+    "id": "d8dc67ca-8519-4650-8468-4b8b847cf54d",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "lo sbigottimento",
+      "sentence": "Lo sbigottimento si leggeva sui loro volti."
+    },
+    "de": {
+      "word": "die Fassungslosigkeit",
+      "sentence": "Die Fassungslosigkeit war ihnen ins Gesicht geschrieben."
+    }
+  },
+  {
+    "id": "263150e3-07b7-4c92-85bb-f69973ce900c",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "sconcertante",
+      "sentence": "Fu una scoperta piuttosto sconcertante."
+    },
+    "de": {
+      "word": "verwirrend",
+      "sentence": "Es war eine ziemlich verwirrende Entdeckung."
+    }
+  },
+  {
+    "id": "3c4c964c-0e0c-44d2-9ba7-d040519930b6",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "piacere",
+      "sentence": "Mi piace molto questo posto."
+    },
+    "de": {
+      "word": "gefallen",
+      "sentence": "Dieser Ort gefällt mir sehr."
+    }
+  },
+  {
+    "id": "ccb08649-95f0-40e4-bd54-8f9258ae31d1",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "preferire",
+      "sentence": "Preferisco il tè al caffè."
+    },
+    "de": {
+      "word": "bevorzugen",
+      "sentence": "Ich bevorzuge Tee gegenüber Kaffee."
+    }
+  },
+  {
+    "id": "50919a14-8bba-43e8-a6cc-5dd1368a2b23",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "non sopportare",
+      "sentence": "Non sopporto la gente maleducata."
+    },
+    "de": {
+      "word": "nicht ausstehen können",
+      "sentence": "Ich kann unhöfliche Menschen nicht ausstehen."
+    }
+  },
+  {
+    "id": "79bb0366-31ba-44a5-abf0-ba3fec4a7cc1",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "odiare",
+      "sentence": "Odia aspettare in fila."
+    },
+    "de": {
+      "word": "hassen",
+      "sentence": "Er hasst es, in der Schlange zu warten."
+    }
+  },
+  {
+    "id": "fdd098ec-ed33-43b8-b19f-f1119c60a075",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "amare",
+      "sentence": "Ama il proprio lavoro."
+    },
+    "de": {
+      "word": "lieben",
+      "sentence": "Er liebt seine Arbeit."
+    }
+  },
+  {
+    "id": "62abd651-5218-4678-9be4-aeb8fcb5802d",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "gradevole",
+      "sentence": "È stata una serata molto gradevole."
+    },
+    "de": {
+      "word": "angenehm",
+      "sentence": "Es war ein sehr angenehmer Abend."
+    }
+  },
+  {
+    "id": "d8c5936c-1bf9-4f08-ab90-d868b328ee53",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "spiacevole",
+      "sentence": "Ho avuto un incontro spiacevole."
+    },
+    "de": {
+      "word": "unangenehm",
+      "sentence": "Ich hatte eine unangenehme Begegnung."
+    }
+  },
+  {
+    "id": "78e9d46e-14c3-4993-bb35-03188e689eaa",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "essere stufo di",
+      "sentence": "Sono stufo delle sue continue lamentele."
+    },
+    "de": {
+      "word": "überdrüssig sein",
+      "sentence": "Ich bin seiner ständigen Beschwerden überdrüssig."
+    }
+  },
+  {
+    "id": "ce87cbfd-2ae0-48d4-b47e-f9c5ab0684a2",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'avversione",
+      "sentence": "Provava una forte avversione per il conflitto."
+    },
+    "de": {
+      "word": "die Abneigung",
+      "sentence": "Er empfand eine starke Abneigung gegen Konflikt."
+    }
+  },
+  {
+    "id": "72686e9c-4466-4842-85f1-8b883cb0ef3e",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "attraente",
+      "sentence": "L'offerta era piuttosto attraente."
+    },
+    "de": {
+      "word": "reizvoll",
+      "sentence": "Das Angebot war ziemlich reizvoll."
+    }
+  },
+  {
+    "id": "4878cacc-2050-45b0-962b-a9ce5e677c96",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la paura",
+      "sentence": "La paura lo bloccò sul posto."
+    },
+    "de": {
+      "word": "die Angst",
+      "sentence": "Die Angst hielt ihn auf der Stelle fest."
+    }
+  },
+  {
+    "id": "e3814dae-3afa-4e60-b6a8-c0f21450837b",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "preoccuparsi",
+      "sentence": "Non preoccuparti, andrà tutto bene."
+    },
+    "de": {
+      "word": "sich Sorgen machen",
+      "sentence": "Mach dir keine Sorgen, es wird alles gut."
+    }
+  },
+  {
+    "id": "7c72056c-5f02-48ef-a395-6abd19a88e21",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la preoccupazione",
+      "sentence": "La sua principale preoccupazione era la salute dei figli."
+    },
+    "de": {
+      "word": "die Sorge",
+      "sentence": "Seine Hauptsorge war die Gesundheit der Kinder."
+    }
+  },
+  {
+    "id": "56216536-3b3b-4ffd-9bbb-5c2614971c19",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "nervoso",
+      "sentence": "Era nervoso prima dell'esame."
+    },
+    "de": {
+      "word": "nervös",
+      "sentence": "Er war vor der Prüfung nervös."
+    }
+  },
+  {
+    "id": "bde6d8d3-9c0c-4ac5-91c2-8cae954665ec",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "tranquillo",
+      "sentence": "Resta tranquillo, ci penso io."
+    },
+    "de": {
+      "word": "ruhig",
+      "sentence": "Bleib ruhig, ich kümmere mich darum."
+    }
+  },
+  {
+    "id": "8040f412-99c6-44f6-a282-c5ff438b9936",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'angoscia",
+      "sentence": "Un'angoscia sottile lo accompagnava."
+    },
+    "de": {
+      "word": "die Beklemmung",
+      "sentence": "Eine leise Beklemmung begleitete ihn."
+    }
+  },
+  {
+    "id": "2f2eb932-4d22-46a0-ab59-13e565e08f7a",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "inquieto",
+      "sentence": "Passò la notte inquieto e insonne."
+    },
+    "de": {
+      "word": "unruhig",
+      "sentence": "Er verbrachte die Nacht unruhig und schlaflos."
+    }
+  },
+  {
+    "id": "df338ee0-9ab6-4be3-832f-9179c682abf6",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'apprensione",
+      "sentence": "Aspettava i risultati con crescente apprensione."
+    },
+    "de": {
+      "word": "die Besorgnis",
+      "sentence": "Er wartete mit wachsender Besorgnis auf die Ergebnisse."
+    }
+  },
+  {
+    "id": "123fedf5-5af7-486a-b355-5e8300454cd9",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "vergognarsi",
+      "sentence": "Si vergognava del proprio comportamento."
+    },
+    "de": {
+      "word": "sich schämen",
+      "sentence": "Er schämte sich für sein Verhalten."
+    }
+  },
+  {
+    "id": "478e1f42-e824-48d6-b55b-743057e7dd4d",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "imbarazzante",
+      "sentence": "È stata una situazione imbarazzante."
+    },
+    "de": {
+      "word": "peinlich",
+      "sentence": "Es war eine peinliche Situation."
+    }
+  },
+  {
+    "id": "e6c2b59f-fad2-49c1-8d88-67985d59665c",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la compassione",
+      "sentence": "Ho provato compassione per lei."
+    },
+    "de": {
+      "word": "das Mitleid",
+      "sentence": "Ich hatte Mitleid mit ihr."
+    }
+  },
+  {
+    "id": "8b2c8658-4e5c-4dfe-a728-7e5ade06e6af",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "sentirsi in colpa",
+      "sentence": "Si sentiva in colpa per l'incidente."
+    },
+    "de": {
+      "word": "sich schuldig fühlen",
+      "sentence": "Er fühlte sich schuldig wegen des Unfalls."
+    }
+  },
+  {
+    "id": "a195e2c5-8ebd-40a5-beff-eddae001cf5a",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la vergogna",
+      "sentence": "Un profondo senso di vergogna lo travolse."
+    },
+    "de": {
+      "word": "die Scham",
+      "sentence": "Ein tiefes Schamgefühl überwältigte ihn."
+    }
+  },
+  {
+    "id": "c46d00dd-904e-4fa5-b06c-5a5fe4fa768d",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "il rimorso",
+      "sentence": "Il rimorso lo tormentava da anni."
+    },
+    "de": {
+      "word": "die Reue",
+      "sentence": "Die Reue quälte ihn seit Jahren."
+    }
+  },
+  {
+    "id": "118e11b8-b394-4115-933d-34a9a7215f66",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'empatia",
+      "sentence": "Mostrò grande empatia verso gli estranei."
+    },
+    "de": {
+      "word": "die Empathie",
+      "sentence": "Er zeigte große Empathie gegenüber Fremden."
+    }
+  },
+  {
+    "id": "c5b2265a-b7e5-4fca-8a66-3deaf0778965",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "sperare",
+      "sentence": "Spero che tutto vada bene."
+    },
+    "de": {
+      "word": "hoffen",
+      "sentence": "Ich hoffe, dass alles gut geht."
+    }
+  },
+  {
+    "id": "675c584c-5cc9-4933-8055-9b5fecd15e6e",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la speranza",
+      "sentence": "Non ha mai perso la speranza."
+    },
+    "de": {
+      "word": "die Hoffnung",
+      "sentence": "Er hat die Hoffnung nie verloren."
+    }
+  },
+  {
+    "id": "bcbc65fb-940d-43da-944c-42507ab04c3f",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "disperato",
+      "sentence": "Era disperato per la perdita del lavoro."
+    },
+    "de": {
+      "word": "verzweifelt",
+      "sentence": "Er war verzweifelt wegen des Jobverlusts."
+    }
+  },
+  {
+    "id": "4e65d981-07ea-4fae-9790-bdaa0f8ed376",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la disperazione",
+      "sentence": "La disperazione si leggeva nei suoi occhi."
+    },
+    "de": {
+      "word": "die Verzweiflung",
+      "sentence": "Die Verzweiflung war in seinen Augen zu lesen."
+    }
+  },
+  {
+    "id": "91858186-c6da-43d5-8353-8fbac85d2801",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "hoffnungslos",
+      "sentence": "La situazione sembrava ormai senza speranza."
+    },
+    "de": {
+      "word": "hoffnungslos",
+      "sentence": "Die Lage schien mittlerweile hoffnungslos."
+    }
+  },
+  {
+    "id": "2fcf23dc-e14f-4386-9496-f6736aa365a2",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "rassegnarsi",
+      "sentence": "Alla fine si è rassegnato all'idea."
+    },
+    "de": {
+      "word": "sich abfinden",
+      "sentence": "Am Ende hat er sich mit der Idee abgefunden."
+    }
+  },
+  {
+    "id": "ce494762-4a2f-4c6e-8c72-b19ed119b9a9",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "vedere",
+      "sentence": "Non riesco a vedere niente da qui."
+    },
+    "de": {
+      "word": "sehen",
+      "sentence": "Ich kann von hier aus nichts sehen."
+    }
+  },
+  {
+    "id": "b88795ca-8d09-44cc-bbd8-d1e987acbec9",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "guardare",
+      "sentence": "Guarda quel tramonto!"
+    },
+    "de": {
+      "word": "schauen",
+      "sentence": "Schau dir diesen Sonnenuntergang an!"
+    }
+  },
+  {
+    "id": "774551b6-4b28-4839-91b4-06a44fc813a0",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "sentire",
+      "sentence": "Non ho sentito niente."
+    },
+    "de": {
+      "word": "hören",
+      "sentence": "Ich habe nichts gehört."
+    }
+  },
+  {
+    "id": "aab012a1-bd25-4c54-a391-63452865fa39",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "ascoltare",
+      "sentence": "Ascolta attentamente quello che dice."
+    },
+    "de": {
+      "word": "zuhören",
+      "sentence": "Hör aufmerksam zu, was er sagt."
+    }
+  },
+  {
+    "id": "56a2df19-4a1e-47f3-b861-0c3051f7ad86",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "toccare",
+      "sentence": "Non toccare quel filo!"
+    },
+    "de": {
+      "word": "berühren",
+      "sentence": "Berühr dieses Kabel nicht!"
+    }
+  },
+  {
+    "id": "7e393f2f-cb49-4da8-9bd1-b3c42c61af29",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'odore",
+      "sentence": "Mi piace l'odore del pane appena sfornato."
+    },
+    "de": {
+      "word": "der Geruch",
+      "sentence": "Ich mag den Geruch von frisch gebackenem Brot."
+    }
+  },
+  {
+    "id": "de9b1d51-8d1e-4577-8e36-455f8398dab2",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "il rumore",
+      "sentence": "Ho sentito uno strano rumore in cucina."
+    },
+    "de": {
+      "word": "das Geräusch",
+      "sentence": "Ich habe ein seltsames Geräusch in der Küche gehört."
+    }
+  },
+  {
+    "id": "44a65316-7d18-4d8e-9301-fe6355a2c4da",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "morbido",
+      "sentence": "Il tessuto è molto morbido."
+    },
+    "de": {
+      "word": "weich",
+      "sentence": "Der Stoff ist sehr weich."
+    }
+  },
+  {
+    "id": "bfe8072d-45a3-4597-90e1-4b20b9d36a70",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la percezione sensoriale",
+      "sentence": "La sua percezione sensoriale era estremamente acuta."
+    },
+    "de": {
+      "word": "die Sinneswahrnehmung",
+      "sentence": "Seine Sinneswahrnehmung war äußerst scharf."
+    }
+  },
+  {
+    "id": "505b5575-50fe-48fd-b5ef-5a44ff0fdafc",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "lo sguardo",
+      "sentence": "Il suo sguardo tradiva la stanchezza."
+    },
+    "de": {
+      "word": "der Blick",
+      "sentence": "Sein Blick verriet die Müdigkeit."
+    }
+  },
+  {
+    "id": "c586e1d9-1a6a-49bd-96a0-de2fedc5f7c8",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "percepire",
+      "sentence": "Percepì un cambiamento nella sua voce."
+    },
+    "de": {
+      "word": "wahrnehmen",
+      "sentence": "Er nahm eine Veränderung in ihrer Stimme wahr."
+    }
+  },
+  {
+    "id": "bf3d8040-f97c-412b-aaa2-3424654f3bb6",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "inquietante",
+      "sentence": "C'era qualcosa di inquietante in quella stanza."
+    },
+    "de": {
+      "word": "beunruhigend",
+      "sentence": "Es gab etwas Beunruhigendes in diesem Zimmer."
+    }
+  },
+  {
+    "id": "1bd7dc33-e93f-4b34-a9ee-c142024796c1",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "ammirare",
+      "sentence": "Ammiro la sua determinazione."
+    },
+    "de": {
+      "word": "bewundern",
+      "sentence": "Ich bewundere seine Entschlossenheit."
+    }
+  },
+  {
+    "id": "e58ebb9e-74fb-4237-a8ab-f5179df4215c",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "entusiasta",
+      "sentence": "È entusiasta del nuovo progetto."
+    },
+    "de": {
+      "word": "begeistert",
+      "sentence": "Er ist begeistert von dem neuen Projekt."
+    }
+  },
+  {
+    "id": "0e92fbdc-fdfe-4480-9348-c5266c657a18",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "impressionante",
+      "sentence": "È stato un discorso impressionante."
+    },
+    "de": {
+      "word": "beeindruckend",
+      "sentence": "Es war eine beeindruckende Rede."
+    }
+  },
+  {
+    "id": "2eea5279-8c5b-43a8-8a75-406e89c5e307",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'entusiasmo",
+      "sentence": "Il suo entusiasmo era contagioso."
+    },
+    "de": {
+      "word": "die Begeisterung",
+      "sentence": "Seine Begeisterung war ansteckend."
+    }
+  },
+  {
+    "id": "f5686fc5-330a-40fa-b843-ea888f3b7f1d",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "affascinato",
+      "sentence": "Rimase affascinato dalla storia della città."
+    },
+    "de": {
+      "word": "fasziniert",
+      "sentence": "Er war von der Geschichte der Stadt fasziniert."
+    }
+  },
+  {
+    "id": "acdbbf87-8299-43a6-8c8c-b9a24f0808fc",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la mancanza",
+      "sentence": "Sento la mancanza dei vecchi amici."
+    },
+    "de": {
+      "word": "das Fehlen",
+      "sentence": "Ich vermisse die alten Freunde."
+    }
+  },
+  {
+    "id": "bb667d54-dde1-4465-b447-fc41d2c3b2bf",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "invidiare",
+      "sentence": "Non ti invidio per niente."
+    },
+    "de": {
+      "word": "beneiden",
+      "sentence": "Ich beneide dich überhaupt nicht."
+    }
+  },
+  {
+    "id": "1ef027f7-c198-4e8a-b3d2-128a1a4808e2",
+    "level": "B1",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "desiderare",
+      "sentence": "Desidero tornare a vivere al mare."
+    },
+    "de": {
+      "word": "sich wünschen",
+      "sentence": "Ich wünsche mir, wieder am Meer zu leben."
+    }
+  },
+  {
+    "id": "4d60c641-5656-49e1-abb7-9a8e13300fe4",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "la nostalgia",
+      "sentence": "Provava nostalgia per la sua città natale."
+    },
+    "de": {
+      "word": "die Sehnsucht",
+      "sentence": "Er empfand Sehnsucht nach seiner Heimatstadt."
+    }
+  },
+  {
+    "id": "b8acb513-4cf6-4fd4-ae4b-17cff3f8f357",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "struggersi per",
+      "sentence": "Si struggeva per rivederla."
+    },
+    "de": {
+      "word": "sich sehnen nach",
+      "sentence": "Er sehnte sich danach, sie wiederzusehen."
+    }
+  },
+  {
+    "id": "a23f0ad7-9497-40d3-9056-f3520b4e106e",
+    "level": "B2",
+    "topic": "Denken und Fühlen",
+    "it": {
+      "word": "l'invidia",
+      "sentence": "L'invidia avvelenava il loro rapporto."
+    },
+    "de": {
+      "word": "der Neid",
+      "sentence": "Der Neid vergiftete ihre Beziehung."
+    }
   }
 ]
