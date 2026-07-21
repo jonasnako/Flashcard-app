@@ -1417,19 +1417,6 @@
     }
   },
   {
-    "id": "fde9df5a-0f24-4b2d-b4bd-beb622fdc687",
-    "level": "B2",
-    "topic": "Household",
-    "it": {
-      "word": "organizzare la dispensa",
-      "sentence": "Ho organizzato la dispensa per categorie."
-    },
-    "de": {
-      "word": "die Vorratskammer ordnen",
-      "sentence": "Ich habe die Vorratskammer nach Kategorien geordnet."
-    }
-  },
-  {
     "id": "f6065480-d6aa-4810-b4ce-b8eb27125e61",
     "level": "B1",
     "topic": "Household",
@@ -11099,6 +11086,1384 @@
     "de": {
       "word": "im Zentrum leben",
       "sentence": "Im Zentrum zu leben hat Vor- und Nachteile."
+    }
+  },
+  {
+    "id": "f0fbc83c-6532-454e-8830-ae4c340380d9",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "trovarsi",
+      "sentence": "L'ufficio si trova al terzo piano."
+    },
+    "de": {
+      "word": "sich befinden",
+      "sentence": "Das Büro befindet sich im dritten Stock."
+    }
+  },
+  {
+    "id": "af658cf3-e227-4bef-8174-ccc87315f6c3",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "essere situato",
+      "sentence": "Il paese è situato ai piedi delle montagne."
+    },
+    "de": {
+      "word": "gelegen sein",
+      "sentence": "Das Dorf ist am Fuß der Berge gelegen."
+    }
+  },
+  {
+    "id": "7bb35009-1322-4957-9013-b2570f6d42d3",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "la posizione",
+      "sentence": "Non riesco a capire la nostra posizione sulla mappa."
+    },
+    "de": {
+      "word": "die Position",
+      "sentence": "Ich kann unsere Position auf der Karte nicht erkennen."
+    }
+  },
+  {
+    "id": "296b47f4-67e7-4500-b563-5b4947d859e3",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "il luogo",
+      "sentence": "È un luogo tranquillo per lavorare."
+    },
+    "de": {
+      "word": "der Ort",
+      "sentence": "Es ist ein ruhiger Ort zum Arbeiten."
+    }
+  },
+  {
+    "id": "9a1ff45d-91e0-4541-bf97-ffa3c88330c1",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "situato a",
+      "sentence": "L'albergo è situato a pochi minuti dal centro."
+    },
+    "de": {
+      "word": "gelegen in",
+      "sentence": "Das Hotel liegt nur wenige Minuten vom Zentrum entfernt."
+    }
+  },
+  {
+    "id": "810fe3d2-c2ba-4e66-9823-31b920a2ddcd",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "al centro di",
+      "sentence": "Il tavolo è al centro della stanza."
+    },
+    "de": {
+      "word": "in der Mitte von",
+      "sentence": "Der Tisch steht in der Mitte des Zimmers."
+    }
+  },
+  {
+    "id": "53a9be00-e5d3-4d23-8d50-4db0aededefb",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "nelle vicinanze di",
+      "sentence": "Abitiamo nelle vicinanze della stazione."
+    },
+    "de": {
+      "word": "in der Nähe von",
+      "sentence": "Wir wohnen in der Nähe des Bahnhofs."
+    }
+  },
+  {
+    "id": "190a7cf1-c27b-4f91-ba79-b693ddce3060",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "accanto a",
+      "sentence": "Siediti accanto a me."
+    },
+    "de": {
+      "word": "neben",
+      "sentence": "Setz dich neben mich."
+    }
+  },
+  {
+    "id": "1bceb5f4-c6b9-4900-960b-d5789d6f6e31",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "in mezzo a",
+      "sentence": "La casa è in mezzo al bosco."
+    },
+    "de": {
+      "word": "mitten in",
+      "sentence": "Das Haus steht mitten im Wald."
+    }
+  },
+  {
+    "id": "77c59f3f-eedf-4e34-ab84-8e34f03fd084",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "di fronte a",
+      "sentence": "Il negozio è di fronte alla chiesa."
+    },
+    "de": {
+      "word": "gegenüber von",
+      "sentence": "Der Laden liegt gegenüber der Kirche."
+    }
+  },
+  {
+    "id": "fd26adfc-9f7b-4935-b3cd-196f79c73430",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "circondato da",
+      "sentence": "Il castello è circondato da un fossato."
+    },
+    "de": {
+      "word": "umgeben von",
+      "sentence": "Die Burg ist von einem Graben umgeben."
+    }
+  },
+  {
+    "id": "8fa53dcb-041b-473b-af1e-b697266a9fae",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "sparso",
+      "sentence": "Le case erano sparse per la vallata."
+    },
+    "de": {
+      "word": "verstreut",
+      "sentence": "Die Häuser waren über das Tal verstreut."
+    }
+  },
+  {
+    "id": "f5e7e42e-1efa-424a-a6bd-bab6ea0d0648",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "dirigersi verso",
+      "sentence": "Ci dirigiamo verso il centro città."
+    },
+    "de": {
+      "word": "zusteuern auf",
+      "sentence": "Wir steuern auf das Stadtzentrum zu."
+    }
+  },
+  {
+    "id": "b52913cc-7240-4e1e-b85d-d799080a2704",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "allontanarsi da",
+      "sentence": "La barca si allontanava dalla riva."
+    },
+    "de": {
+      "word": "sich entfernen von",
+      "sentence": "Das Boot entfernte sich vom Ufer."
+    }
+  },
+  {
+    "id": "5f582733-fd79-4ca8-966f-fe1bcc301f83",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "avvicinarsi a",
+      "sentence": "Ci stiamo avvicinando alla vetta."
+    },
+    "de": {
+      "word": "sich nähern",
+      "sentence": "Wir nähern uns dem Gipfel."
+    }
+  },
+  {
+    "id": "3d05a256-eadd-4e30-a02c-e60986c23a5f",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "attraversare",
+      "sentence": "Abbiamo attraversato il ponte a piedi."
+    },
+    "de": {
+      "word": "überqueren",
+      "sentence": "Wir haben die Brücke zu Fuß überquert."
+    }
+  },
+  {
+    "id": "0c37ec87-78c3-461b-85a2-3508a31ac35e",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "oltrepassare",
+      "sentence": "Abbiamo oltrepassato il confine senza accorgercene."
+    },
+    "de": {
+      "word": "überschreiten",
+      "sentence": "Wir haben die Grenze überschritten, ohne es zu merken."
+    }
+  },
+  {
+    "id": "1f1ccaa9-affe-43b3-b458-7d24dfcb8ac8",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "percorrere",
+      "sentence": "Hanno percorso tutta la valle a piedi."
+    },
+    "de": {
+      "word": "durchqueren",
+      "sentence": "Sie haben das ganze Tal zu Fuß durchquert."
+    }
+  },
+  {
+    "id": "858bae64-5f97-487e-a9e0-a063f94ca451",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "spostarsi",
+      "sentence": "In città mi sposto sempre in bicicletta."
+    },
+    "de": {
+      "word": "sich fortbewegen",
+      "sentence": "In der Stadt bewege ich mich immer mit dem Fahrrad fort."
+    }
+  },
+  {
+    "id": "e1e0b34b-514d-4dd8-9f95-46ba2c44518f",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "deviare",
+      "sentence": "Il sentiero devia leggermente a destra."
+    },
+    "de": {
+      "word": "abweichen",
+      "sentence": "Der Pfad weicht leicht nach rechts ab."
+    }
+  },
+  {
+    "id": "17f58a71-700f-435c-b81e-0c9ad72bd238",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "seguire un percorso",
+      "sentence": "Abbiamo seguito lo stesso percorso dell'anno scorso."
+    },
+    "de": {
+      "word": "einer Route folgen",
+      "sentence": "Wir sind derselben Route wie letztes Jahr gefolgt."
+    }
+  },
+  {
+    "id": "42f3f117-58a8-4276-b090-43751386a3d5",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "tornare indietro",
+      "sentence": "Con la nebbia abbiamo deciso di tornare indietro."
+    },
+    "de": {
+      "word": "umkehren",
+      "sentence": "Wegen des Nebels haben wir beschlossen umzukehren."
+    }
+  },
+  {
+    "id": "aa3eec8a-c6a2-4a39-968e-a91f10703909",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "procedere",
+      "sentence": "Il gruppo procedeva lentamente lungo il crinale."
+    },
+    "de": {
+      "word": "vorrücken",
+      "sentence": "Die Gruppe rückte langsam entlang des Grats vor."
+    }
+  },
+  {
+    "id": "9714d4ac-317e-499b-bee1-f26609a84014",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "superare",
+      "sentence": "Ci ha superato proprio prima della curva."
+    },
+    "de": {
+      "word": "überholen",
+      "sentence": "Er hat uns kurz vor der Kurve überholt."
+    }
+  },
+  {
+    "id": "3ac7d750-0d3f-4d38-8dca-5c60af22336a",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "addentrarsi in",
+      "sentence": "Ci siamo addentrati nel bosco fino al tramonto."
+    },
+    "de": {
+      "word": "vordringen in",
+      "sentence": "Wir sind bis zum Sonnenuntergang in den Wald vorgedrungen."
+    }
+  },
+  {
+    "id": "d6bb1ed7-72ab-4212-a10c-8b3a08815187",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "emergere da",
+      "sentence": "La cima emergeva dalle nuvole."
+    },
+    "de": {
+      "word": "auftauchen aus",
+      "sentence": "Der Gipfel tauchte aus den Wolken auf."
+    }
+  },
+  {
+    "id": "7001c31a-fb3b-4902-b247-e0e43e37a7f0",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "la distanza",
+      "sentence": "Non avevo idea della distanza reale."
+    },
+    "de": {
+      "word": "die Entfernung",
+      "sentence": "Ich hatte keine Vorstellung von der tatsächlichen Entfernung."
+    }
+  },
+  {
+    "id": "dd5697a5-2d3e-441c-9627-7ea7579b7fce",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "lontano",
+      "sentence": "Il villaggio è più lontano di quanto pensassi."
+    },
+    "de": {
+      "word": "weit entfernt",
+      "sentence": "Das Dorf ist weiter entfernt, als ich dachte."
+    }
+  },
+  {
+    "id": "c1cf1853-3a34-4b30-b4ae-bb7f39f46c0b",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "vicino",
+      "sentence": "La farmacia più vicina è qui dietro l'angolo."
+    },
+    "de": {
+      "word": "nah",
+      "sentence": "Die nächste Apotheke ist gleich um die Ecke."
+    }
+  },
+  {
+    "id": "ad7836fc-a1a7-4430-8c3f-4e42c973f291",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "a portata di mano",
+      "sentence": "Tieni sempre l'acqua a portata di mano."
+    },
+    "de": {
+      "word": "in Reichweite",
+      "sentence": "Halte das Wasser immer in Reichweite."
+    }
+  },
+  {
+    "id": "969bd30f-11aa-45a9-bdae-4590dfcdcba0",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "a due passi da",
+      "sentence": "Il parco è a due passi da casa nostra."
+    },
+    "de": {
+      "word": "einen Katzensprung entfernt",
+      "sentence": "Der Park ist einen Katzensprung von unserem Haus entfernt."
+    }
+  },
+  {
+    "id": "40b41825-d200-4325-826c-1992d77bdaae",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "remoto",
+      "sentence": "Vivono in un villaggio remoto tra le montagne."
+    },
+    "de": {
+      "word": "abgelegen",
+      "sentence": "Sie leben in einem abgelegenen Dorf in den Bergen."
+    }
+  },
+  {
+    "id": "48eaa8af-dce0-4c4f-bb56-e98dd8692001",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "raggiungibile",
+      "sentence": "Il rifugio è raggiungibile solo a piedi."
+    },
+    "de": {
+      "word": "erreichbar",
+      "sentence": "Die Hütte ist nur zu Fuß erreichbar."
+    }
+  },
+  {
+    "id": "df0afc06-a90f-48d9-85c9-5e4b0a4aba88",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "inaccessibile",
+      "sentence": "La zona è inaccessibile durante l'inverno."
+    },
+    "de": {
+      "word": "unzugänglich",
+      "sentence": "Das Gebiet ist im Winter unzugänglich."
+    }
+  },
+  {
+    "id": "6c1a770a-d571-4fb2-9151-1334d4d08c54",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "immediato",
+      "sentence": "Vive nelle immediate vicinanze dell'ospedale."
+    },
+    "de": {
+      "word": "unmittelbar",
+      "sentence": "Er wohnt in unmittelbarer Nähe des Krankenhauses."
+    }
+  },
+  {
+    "id": "1cdd2a0c-8b63-4aff-a4fa-8b22816d4974",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "a distanza ravvicinata",
+      "sentence": "Abbiamo osservato l'animale a distanza ravvicinata."
+    },
+    "de": {
+      "word": "aus nächster Nähe",
+      "sentence": "Wir haben das Tier aus nächster Nähe beobachtet."
+    }
+  },
+  {
+    "id": "2701e855-881f-4b6b-aa74-9836ba2ed718",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "il limite",
+      "sentence": "Il limite della proprietà è segnato da una siepe."
+    },
+    "de": {
+      "word": "die Begrenzung",
+      "sentence": "Die Begrenzung des Grundstücks ist durch eine Hecke markiert."
+    }
+  },
+  {
+    "id": "f5640431-0717-4639-9843-d71486a96c21",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "delimitare",
+      "sentence": "Un muretto delimita il giardino."
+    },
+    "de": {
+      "word": "abgrenzen",
+      "sentence": "Eine kleine Mauer grenzt den Garten ab."
+    }
+  },
+  {
+    "id": "fc8fce85-f17d-45c6-a7cc-9b8c58102696",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "il confine",
+      "sentence": "Il confine tra i due paesi segue il fiume."
+    },
+    "de": {
+      "word": "die Grenze",
+      "sentence": "Die Grenze zwischen den beiden Ländern folgt dem Fluss."
+    }
+  },
+  {
+    "id": "f0e10536-7ddb-4887-a863-546e248ce1a8",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "oltre",
+      "sentence": "Oltre quel muro inizia un altro giardino."
+    },
+    "de": {
+      "word": "jenseits",
+      "sentence": "Jenseits dieser Mauer beginnt ein anderer Garten."
+    }
+  },
+  {
+    "id": "4916c558-5eaf-4a4d-8329-c43268a350ce",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "al di là di",
+      "sentence": "Al di là del fiume il paesaggio cambia completamente."
+    },
+    "de": {
+      "word": "jenseits von",
+      "sentence": "Jenseits des Flusses ändert sich die Landschaft völlig."
+    }
+  },
+  {
+    "id": "0367d330-8325-4ea7-9241-c2b66e09c719",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "al di qua di",
+      "sentence": "Al di qua del confine si parla ancora italiano."
+    },
+    "de": {
+      "word": "diesseits von",
+      "sentence": "Diesseits der Grenze spricht man noch Italienisch."
+    }
+  },
+  {
+    "id": "ed96435f-cbfd-4e1f-b313-27b3fa4b7571",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "varcare",
+      "sentence": "Ha varcato la soglia con un po' di esitazione."
+    },
+    "de": {
+      "word": "durchschreiten",
+      "sentence": "Er durchschritt die Schwelle mit etwas Zögern."
+    }
+  },
+  {
+    "id": "aedf1b43-972c-48c5-8c46-932dc66932f9",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "rinchiuso",
+      "sentence": "Si sentiva rinchiuso in quello spazio piccolo."
+    },
+    "de": {
+      "word": "eingeschlossen",
+      "sentence": "Er fühlte sich in diesem kleinen Raum eingeschlossen."
+    }
+  },
+  {
+    "id": "ecccac96-1035-4039-a116-4b8848e507ad",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "aperto",
+      "sentence": "Davanti a noi si apriva uno spazio aperto e verde."
+    },
+    "de": {
+      "word": "offen",
+      "sentence": "Vor uns öffnete sich ein offener, grüner Raum."
+    }
+  },
+  {
+    "id": "a288e65b-ed99-4b31-84b2-53e2844dca09",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "illimitato",
+      "sentence": "Da lassù la vista sembrava illimitata."
+    },
+    "de": {
+      "word": "grenzenlos",
+      "sentence": "Von dort oben schien die Aussicht grenzenlos."
+    }
+  },
+  {
+    "id": "d27d6422-26df-4833-9836-60d12dc42324",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "esteso",
+      "sentence": "La proprietà è molto più estesa di quanto sembri."
+    },
+    "de": {
+      "word": "ausgedehnt",
+      "sentence": "Das Grundstück ist viel ausgedehnter, als es scheint."
+    }
+  },
+  {
+    "id": "0b12336e-88da-4e51-9f2b-103f103c9f0f",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "vasto",
+      "sentence": "Il parco nazionale è incredibilmente vasto."
+    },
+    "de": {
+      "word": "weitläufig",
+      "sentence": "Der Nationalpark ist unglaublich weitläufig."
+    }
+  },
+  {
+    "id": "f14aeb4d-1b2c-4196-943f-23b2215d34fb",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "immenso",
+      "sentence": "Da qui si vede un cielo immenso."
+    },
+    "de": {
+      "word": "riesig",
+      "sentence": "Von hier aus sieht man einen riesigen Himmel."
+    }
+  },
+  {
+    "id": "e841d88e-30c4-447a-8691-1115b1d66077",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "minuscolo",
+      "sentence": "Vivevano in un appartamento minuscolo."
+    },
+    "de": {
+      "word": "winzig",
+      "sentence": "Sie lebten in einer winzigen Wohnung."
+    }
+  },
+  {
+    "id": "cf708d2c-6c36-4309-8c2e-ce17976969bc",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "la lunghezza",
+      "sentence": "La lunghezza del sentiero è di circa dieci chilometri."
+    },
+    "de": {
+      "word": "die Länge",
+      "sentence": "Die Länge des Wegs beträgt etwa zehn Kilometer."
+    }
+  },
+  {
+    "id": "059e31c0-9800-4ecb-a752-1e66150fdf3a",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "la larghezza",
+      "sentence": "La larghezza della strada non permette il sorpasso."
+    },
+    "de": {
+      "word": "die Breite",
+      "sentence": "Die Breite der Straße erlaubt kein Überholen."
+    }
+  },
+  {
+    "id": "427ce23b-c15d-4e7c-b0e7-1455b10293d6",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "estendersi",
+      "sentence": "La catena montuosa si estende per centinaia di chilometri."
+    },
+    "de": {
+      "word": "sich erstrecken",
+      "sentence": "Die Bergkette erstreckt sich über Hunderte von Kilometern."
+    }
+  },
+  {
+    "id": "ef29cc22-6818-4953-a6d2-5568549563dd",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "occupare spazio",
+      "sentence": "Il divano occupa troppo spazio in questa stanza."
+    },
+    "de": {
+      "word": "Platz einnehmen",
+      "sentence": "Das Sofa nimmt in diesem Zimmer zu viel Platz ein."
+    }
+  },
+  {
+    "id": "2bef8104-4add-44d6-8abc-c3eeb0f08560",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "ridursi",
+      "sentence": "Lo spazio disponibile si è ridotto notevolmente."
+    },
+    "de": {
+      "word": "sich verkleinern",
+      "sentence": "Der verfügbare Platz hat sich deutlich verkleinert."
+    }
+  },
+  {
+    "id": "43c9221b-ba1f-4c2e-83e8-fcd3a3ce57ce",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "espandersi",
+      "sentence": "La città si è espansa molto negli ultimi anni."
+    },
+    "de": {
+      "word": "sich ausdehnen",
+      "sentence": "Die Stadt hat sich in den letzten Jahren stark ausgedehnt."
+    }
+  },
+  {
+    "id": "85043b75-9f96-46b9-8d03-6a59986a8b7a",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "disporre",
+      "sentence": "Ha disposto le sedie in cerchio."
+    },
+    "de": {
+      "word": "anordnen",
+      "sentence": "Sie hat die Stühle im Kreis angeordnet."
+    }
+  },
+  {
+    "id": "873e7e9a-8f50-4cca-aad1-597606ba9c82",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "la disposizione",
+      "sentence": "Mi piace la disposizione dei mobili in questa stanza."
+    },
+    "de": {
+      "word": "die Anordnung",
+      "sentence": "Mir gefällt die Anordnung der Möbel in diesem Zimmer."
+    }
+  },
+  {
+    "id": "a8e04507-789d-47cd-9176-6592aa90ae2c",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "allineato",
+      "sentence": "Gli alberi erano perfettamente allineati."
+    },
+    "de": {
+      "word": "ausgerichtet",
+      "sentence": "Die Bäume waren perfekt ausgerichtet."
+    }
+  },
+  {
+    "id": "5f928ed6-ebc4-4ece-8e8e-910d02e90120",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "parallelo",
+      "sentence": "La ferrovia corre parallela alla strada."
+    },
+    "de": {
+      "word": "parallel",
+      "sentence": "Die Bahnlinie verläuft parallel zur Straße."
+    }
+  },
+  {
+    "id": "bcd5ca3c-f18e-45e3-b73b-0986b04a1be3",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "perpendicolare",
+      "sentence": "La via secondaria è perpendicolare a quella principale."
+    },
+    "de": {
+      "word": "senkrecht",
+      "sentence": "Die Nebenstraße verläuft senkrecht zur Hauptstraße."
+    }
+  },
+  {
+    "id": "da8560c5-0464-490d-a813-2cdc5da60195",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "sovrapposto",
+      "sentence": "I due sentieri sono in parte sovrapposti."
+    },
+    "de": {
+      "word": "überlagert",
+      "sentence": "Die beiden Pfade sind teilweise überlagert."
+    }
+  },
+  {
+    "id": "3572764a-5a2b-405b-8ae5-ed52be41a2c1",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "intrecciato",
+      "sentence": "Le radici erano completamente intrecciate."
+    },
+    "de": {
+      "word": "verflochten",
+      "sentence": "Die Wurzeln waren völlig miteinander verflochten."
+    }
+  },
+  {
+    "id": "f88322b3-bd19-4588-b33d-1d81f881c316",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "simmetrico",
+      "sentence": "La facciata dell'edificio è perfettamente simmetrica."
+    },
+    "de": {
+      "word": "symmetrisch",
+      "sentence": "Die Fassade des Gebäudes ist perfekt symmetrisch."
+    }
+  },
+  {
+    "id": "aa3ef983-c610-4826-9c29-eca28e32b319",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "concentrato in",
+      "sentence": "La popolazione è concentrata lungo la costa."
+    },
+    "de": {
+      "word": "konzentriert in",
+      "sentence": "Die Bevölkerung ist entlang der Küste konzentriert."
+    }
+  },
+  {
+    "id": "19e33d29-aedc-4ec5-96be-d4508f46c051",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "lo spazio",
+      "sentence": "Abbiamo bisogno di più spazio per lavorare."
+    },
+    "de": {
+      "word": "der Raum",
+      "sentence": "Wir brauchen mehr Raum zum Arbeiten."
+    }
+  },
+  {
+    "id": "ec095466-df8c-48bc-a104-bd8c97d6d0cb",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "lo spazio vuoto",
+      "sentence": "Al centro della sala c'era uno spazio vuoto."
+    },
+    "de": {
+      "word": "der leere Raum",
+      "sentence": "In der Mitte des Saals war ein leerer Raum."
+    }
+  },
+  {
+    "id": "faec4a22-7134-4196-ac98-7dd44655d55c",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "il vuoto",
+      "sentence": "Guardando giù si percepiva il vuoto sotto i piedi."
+    },
+    "de": {
+      "word": "die Leere",
+      "sentence": "Beim Blick nach unten spürte man die Leere unter den Füßen."
+    }
+  },
+  {
+    "id": "7fd838bc-562f-48b7-abff-58f1220ea67d",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "tridimensionale",
+      "sentence": "Il modello tridimensionale aiuta a capire la struttura."
+    },
+    "de": {
+      "word": "dreidimensional",
+      "sentence": "Das dreidimensionale Modell hilft, die Struktur zu verstehen."
+    }
+  },
+  {
+    "id": "8155c88f-cc54-4045-b585-939755ce8a3d",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "infinito",
+      "sentence": "Il deserto sembrava infinito."
+    },
+    "de": {
+      "word": "unendlich",
+      "sentence": "Die Wüste schien unendlich."
+    }
+  },
+  {
+    "id": "20cf850c-6ab9-4043-8bca-31f814640db8",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "la dimensione",
+      "sentence": "Non avevamo considerato la vera dimensione del progetto."
+    },
+    "de": {
+      "word": "die Dimension",
+      "sentence": "Wir hatten die wahre Dimension des Projekts nicht bedacht."
+    }
+  },
+  {
+    "id": "ae463b8a-c812-4454-a3b0-ff1b06f472a8",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "il nulla",
+      "sentence": "Oltre il bordo della scogliera c'era solo il nulla."
+    },
+    "de": {
+      "word": "das Nichts",
+      "sentence": "Jenseits der Klippe war nur das Nichts."
+    }
+  },
+  {
+    "id": "fb359c43-8ed0-4328-8fba-1d660db54db0",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "lo spazio libero",
+      "sentence": "C'è ancora dello spazio libero sullo scaffale."
+    },
+    "de": {
+      "word": "der freie Raum",
+      "sentence": "Im Regal ist noch freier Raum."
+    }
+  },
+  {
+    "id": "afed69bb-d2c5-4c61-b54a-cb2d77030ac6",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "c'è spazio per",
+      "sentence": "C'è spazio per un altro tavolo qui?"
+    },
+    "de": {
+      "word": "es gibt Platz für",
+      "sentence": "Gibt es hier Platz für einen weiteren Tisch?"
+    }
+  },
+  {
+    "id": "7a5a4190-84a1-4d57-8c66-f7cd11e7c717",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "non c'è spazio",
+      "sentence": "Non c'è più spazio in valigia."
+    },
+    "de": {
+      "word": "es gibt keinen Platz",
+      "sentence": "Im Koffer ist kein Platz mehr."
+    }
+  },
+  {
+    "id": "ca81c4e7-ce95-4d44-8f73-8d51d990860b",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "angusto",
+      "sentence": "Vivevano in condizioni piuttosto anguste."
+    },
+    "de": {
+      "word": "beengt",
+      "sentence": "Sie lebten unter ziemlich beengten Verhältnissen."
+    }
+  },
+  {
+    "id": "c8ab62a4-4485-4dd8-ac68-23b3ea6caead",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "fare spazio",
+      "sentence": "Fai un po' di spazio, per favore."
+    },
+    "de": {
+      "word": "Platz machen",
+      "sentence": "Mach bitte ein bisschen Platz."
+    }
+  },
+  {
+    "id": "f55b123d-9b53-40a7-9929-c20d9e9a494f",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "liberare spazio",
+      "sentence": "Abbiamo liberato spazio buttando via il superfluo."
+    },
+    "de": {
+      "word": "Platz schaffen",
+      "sentence": "Wir haben Platz geschaffen, indem wir Überflüssiges weggeworfen haben."
+    }
+  },
+  {
+    "id": "18c02f3c-a651-41d3-9e8c-cf92a52e35f2",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "ingombrare",
+      "sentence": "Le scatole ingombravano tutto il corridoio."
+    },
+    "de": {
+      "word": "versperren",
+      "sentence": "Die Kartons versperrten den ganzen Flur."
+    }
+  },
+  {
+    "id": "b2030e66-13dc-428b-af56-c6ddd9990641",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "il nord",
+      "sentence": "Il vento arriva da nord stamattina."
+    },
+    "de": {
+      "word": "der Norden",
+      "sentence": "Der Wind kommt heute Morgen aus dem Norden."
+    }
+  },
+  {
+    "id": "b426eb5d-c51e-4299-8fbd-7882b5aade2d",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "il sud",
+      "sentence": "Passiamo l'inverno più a sud."
+    },
+    "de": {
+      "word": "der Süden",
+      "sentence": "Wir verbringen den Winter weiter im Süden."
+    }
+  },
+  {
+    "id": "f0b405b3-abb5-4512-a3f3-a1706890b58e",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "l'est",
+      "sentence": "La finestra della camera guarda a est."
+    },
+    "de": {
+      "word": "der Osten",
+      "sentence": "Das Schlafzimmerfenster geht nach Osten."
+    }
+  },
+  {
+    "id": "6d11630e-4819-497d-bf5c-a61597e660de",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "l'ovest",
+      "sentence": "Il sole tramonta lentamente a ovest."
+    },
+    "de": {
+      "word": "der Westen",
+      "sentence": "Die Sonne geht langsam im Westen unter."
+    }
+  },
+  {
+    "id": "34c5d45a-b34f-4b55-9335-162ce74e60c4",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "il punto cardinale",
+      "sentence": "Ha usato la bussola per trovare il punto cardinale giusto."
+    },
+    "de": {
+      "word": "die Himmelsrichtung",
+      "sentence": "Er hat den Kompass benutzt, um die richtige Himmelsrichtung zu finden."
+    }
+  },
+  {
+    "id": "2694dce0-fd2d-4c2d-a6b0-abdc696c712a",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "la bussola",
+      "sentence": "Senza bussola ci saremmo persi."
+    },
+    "de": {
+      "word": "der Kompass",
+      "sentence": "Ohne Kompass hätten wir uns verirrt."
+    }
+  },
+  {
+    "id": "8d644d68-7abf-4470-8250-eb0bd8943589",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "disorientato",
+      "sentence": "Usciti dal bosco ci siamo sentiti disorientati."
+    },
+    "de": {
+      "word": "orientierungslos",
+      "sentence": "Als wir aus dem Wald kamen, fühlten wir uns orientierungslos."
+    }
+  },
+  {
+    "id": "9cd355f8-3495-4cd9-8bfb-3685f792ee3b",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "in alto",
+      "sentence": "Il nido era in alto, tra i rami più sottili."
+    },
+    "de": {
+      "word": "oben",
+      "sentence": "Das Nest war oben, zwischen den dünnsten Ästen."
+    }
+  },
+  {
+    "id": "fe04123b-dbd3-4b96-8b1d-2243b2a3638c",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "in basso",
+      "sentence": "Il paese si vedeva in basso, nella valle."
+    },
+    "de": {
+      "word": "unten",
+      "sentence": "Das Dorf war unten im Tal zu sehen."
+    }
+  },
+  {
+    "id": "7bb7e343-bc7c-42c5-9b5a-474a51405b9f",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "all'interno",
+      "sentence": "All'interno faceva molto più caldo."
+    },
+    "de": {
+      "word": "innen",
+      "sentence": "Innen war es viel wärmer."
+    }
+  },
+  {
+    "id": "a52cd9aa-b620-4e46-805d-9f34e4b6c7e2",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "all'esterno",
+      "sentence": "All'esterno l'edificio sembra più piccolo."
+    },
+    "de": {
+      "word": "außen",
+      "sentence": "Von außen wirkt das Gebäude kleiner."
+    }
+  },
+  {
+    "id": "b78144f7-87f7-4b69-8acd-58a29ebf82b5",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "sopraelevato",
+      "sentence": "Il sentiero passa su un tratto sopraelevato."
+    },
+    "de": {
+      "word": "erhöht",
+      "sentence": "Der Weg verläuft über einen erhöhten Abschnitt."
+    }
+  },
+  {
+    "id": "17c0f7e1-3f8a-4443-8343-4844373a3538",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "sottoterra",
+      "sentence": "Il parcheggio si trova sottoterra."
+    },
+    "de": {
+      "word": "unterirdisch",
+      "sentence": "Der Parkplatz befindet sich unterirdisch."
+    }
+  },
+  {
+    "id": "a1859fdd-77ee-4c61-9e94-c453a56d231e",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "capovolto",
+      "sentence": "La barca era capovolta sulla spiaggia."
+    },
+    "de": {
+      "word": "auf dem Kopf",
+      "sentence": "Das Boot lag auf dem Kopf am Strand."
+    }
+  },
+  {
+    "id": "994983ee-d603-4c9a-a141-5722be4ccb31",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "rovesciato",
+      "sentence": "Un albero rovesciato bloccava il sentiero."
+    },
+    "de": {
+      "word": "umgestürzt",
+      "sentence": "Ein umgestürzter Baum versperrte den Weg."
+    }
+  },
+  {
+    "id": "037e4220-ddc5-46e4-b4b4-49b408483901",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "verticale",
+      "sentence": "La parete rocciosa era quasi verticale."
+    },
+    "de": {
+      "word": "vertikal",
+      "sentence": "Die Felswand war fast vertikal."
+    }
+  },
+  {
+    "id": "c5a0c93f-4254-456e-a092-bb16b1f8c3ce",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "orizzontale",
+      "sentence": "La linea dell'orizzonte era perfettamente orizzontale."
+    },
+    "de": {
+      "word": "horizontal",
+      "sentence": "Die Horizontlinie war vollkommen horizontal."
+    }
+  },
+  {
+    "id": "9b0f2daa-fb20-4073-9d92-b21c9d940374",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "da un lato... dall'altro",
+      "sentence": "Da un lato c'era il mare, dall'altro le montagne."
+    },
+    "de": {
+      "word": "auf der einen Seite... auf der anderen",
+      "sentence": "Auf der einen Seite war das Meer, auf der anderen die Berge."
+    }
+  },
+  {
+    "id": "332ed767-086b-4a90-8e6e-c7a38e1c5532",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "su entrambi i lati",
+      "sentence": "Su entrambi i lati della strada crescevano alberi alti."
+    },
+    "de": {
+      "word": "auf beiden Seiten",
+      "sentence": "Auf beiden Seiten der Straße wuchsen hohe Bäume."
+    }
+  },
+  {
+    "id": "9f7c8bd5-b0db-4a86-9357-f0d1c8163d49",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "attraverso",
+      "sentence": "Siamo passati attraverso il tunnel."
+    },
+    "de": {
+      "word": "durch",
+      "sentence": "Wir sind durch den Tunnel gefahren."
+    }
+  },
+  {
+    "id": "1fe2515d-8c32-43b2-84f1-bd4a4d6ed2ac",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "lungo",
+      "sentence": "Camminiamo lungo il fiume ogni mattina."
+    },
+    "de": {
+      "word": "entlang",
+      "sentence": "Wir gehen jeden Morgen den Fluss entlang."
+    }
+  },
+  {
+    "id": "d6d67b61-fad4-48f0-8297-8b4f36aec2de",
+    "level": "B1",
+    "topic": "Space",
+    "it": {
+      "word": "intorno a",
+      "sentence": "Ci siamo seduti intorno al tavolo."
+    },
+    "de": {
+      "word": "um ... herum",
+      "sentence": "Wir haben uns um den Tisch herum gesetzt."
+    }
+  },
+  {
+    "id": "c6f60444-93e9-42e4-8693-23f6384ef099",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "attraverso tutto",
+      "sentence": "Il treno attraversa tutto il paese in poche ore."
+    },
+    "de": {
+      "word": "quer durch",
+      "sentence": "Der Zug fährt in wenigen Stunden quer durch das Land."
+    }
+  },
+  {
+    "id": "ba1a6d9e-d71e-4b4c-adee-9477781d30be",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "da cima a fondo",
+      "sentence": "Ha pulito la casa da cima a fondo."
+    },
+    "de": {
+      "word": "von oben bis unten",
+      "sentence": "Sie hat das Haus von oben bis unten geputzt."
+    }
+  },
+  {
+    "id": "c1025bd0-3f9a-475e-bb1c-0e0f53c6f30c",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "da un capo all'altro",
+      "sentence": "Il corridoio si estende da un capo all'altro dell'edificio."
+    },
+    "de": {
+      "word": "von einem Ende zum anderen",
+      "sentence": "Der Flur erstreckt sich von einem Ende des Gebäudes zum anderen."
+    }
+  },
+  {
+    "id": "5b2e2425-8ebb-493e-9f44-5116d976892f",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "nel raggio di",
+      "sentence": "Non c'è un negozio nel raggio di dieci chilometri."
+    },
+    "de": {
+      "word": "im Umkreis von",
+      "sentence": "Im Umkreis von zehn Kilometern gibt es kein Geschäft."
+    }
+  },
+  {
+    "id": "35036692-0897-4444-855d-a48199e808d6",
+    "level": "B2",
+    "topic": "Space",
+    "it": {
+      "word": "a metà strada",
+      "sentence": "Ci siamo fermati a metà strada per riposare."
+    },
+    "de": {
+      "word": "auf halbem Weg",
+      "sentence": "Wir haben auf halbem Weg angehalten, um uns auszuruhen."
     }
   }
 ]
