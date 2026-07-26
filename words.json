@@ -2262,19 +2262,6 @@
     }
   },
   {
-    "id": "c0be6820-d7e1-4b0e-872e-6932cd52cd80",
-    "level": "B2",
-    "topic": "Household",
-    "it": {
-      "word": "l'efficienza domestica",
-      "sentence": "Con due bambini, l'efficienza domestica è fondamentale."
-    },
-    "de": {
-      "word": "die Haushaltseffizienz",
-      "sentence": "Mit zwei Kindern ist Haushaltseffizienz entscheidend."
-    }
-  },
-  {
     "id": "447ceae1-c0f8-40f4-8233-c87215af25ee",
     "level": "B2",
     "topic": "Household",
@@ -3910,19 +3897,6 @@
     "de": {
       "word": "dem Kind zuhören",
       "sentence": "Es ist grundlegend, dem Kind zuzuhören, ohne es zu unterbrechen."
-    }
-  },
-  {
-    "id": "64d95045-336b-484b-a581-350e3b68b307",
-    "level": "B2",
-    "topic": "Children",
-    "it": {
-      "word": "il dialogo con i figli",
-      "sentence": "Manteniamo sempre un dialogo aperto con i figli."
-    },
-    "de": {
-      "word": "das Gespräch mit den Kindern",
-      "sentence": "Wir pflegen immer ein offenes Gespräch mit den Kindern."
     }
   },
   {
@@ -12438,6 +12412,19 @@
     "de": {
       "word": "auf halbem Weg",
       "sentence": "Wir haben auf halbem Weg angehalten, um uns auszuruhen."
+    }
+  },
+  {
+    "id": "c0be6820-d7e1-4b0e-872e-6932cd52cd80",
+    "level": "B2",
+    "topic": "Household",
+    "it": {
+      "word": "l'efficienza domestica",
+      "sentence": "Con due bambini, l'efficienza domestica è fondamentale."
+    },
+    "de": {
+      "word": "die Haushaltseffizienz",
+      "sentence": "Mit zwei Kindern ist Haushaltseffizienz entscheidend."
     }
   }
 ]
