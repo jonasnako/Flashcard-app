@@ -391,7 +391,7 @@ function el(tag,props,kids){const e=document.createElement(tag);
 
 /* ============ render ============ */
 const app=document.getElementById("app"), tabs=document.getElementById("tabs");
-let search="", page=0; const PAGE=50; let addOpen=false, genOpen=false, listLevel="all", listTopic="all", expandedId=null, editingId=null;
+let search="", page=0; const PAGE=50; let addOpen=false, genOpen=false, renOpen=false, listLevel="all", listTopic="all", expandedId=null, editingId=null;
 
 function render(){
   app.innerHTML="";
@@ -475,6 +475,7 @@ function paintWords(){
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topic"]),seg([["all","All"],...topics.map(x=>[x,x])],listTopic,v=>{listTopic=v;page=0;render();})]));
   app.appendChild(el("div",{id:"add"}));paintAdd();
   app.appendChild(el("div",{id:"gen"}));paintGen();
+  app.appendChild(el("div",{id:"ren"}));paintRename();
   app.appendChild(el("div",{class:"hint",id:"syncmsg",style:{marginTop:"2px",display:syncStatus?"block":"none"}},[syncStatus]));
   app.appendChild(el("div",{id:"list"}));paintList();
 }
@@ -537,6 +538,33 @@ function paintGen(){
       }catch(e){err.textContent=e.message;err.style.display="block";}
       btn.textContent=old;btn.disabled=false;
     }},["Generate"]),err,info
+  ]));
+}
+function paintRename(){
+  const w=document.getElementById("ren");if(!w)return;w.innerHTML="";
+  const topics=Array.from(new Set(lib.map(c=>c.topic))).sort();
+  w.appendChild(el("button",{class:"ghost",style:{marginBottom:"10px"},onclick:()=>{renOpen=!renOpen;paintRename();}},[renOpen?"Close":"✏️ Rename a topic"]));
+  if(!renOpen)return;
+  const from=el("select",{class:"inp"},topics.map(t=>el("option",{value:t},[t])));
+  const to=el("input",{class:"inp",placeholder:"New name",value:topics[0]||""});
+  from.addEventListener("change",()=>{to.value=from.value;});
+  const err=el("div",{class:"err",style:{display:"none"}});
+  w.appendChild(el("div",{},[
+    el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["Topic"]),from]),el("div",{class:"field"},[el("label",{},["Rename to"]),to])]),
+    el("button",{class:"solid",onclick:()=>{
+      const oldT=from.value,newT=to.value.trim();
+      if(!newT){err.textContent="Enter a new name.";err.style.display="block";return;}
+      const target=snapTopic(newT);
+      if(target===oldT){err.textContent="That's already the topic name.";err.style.display="block";return;}
+      let n=0;lib.forEach(c=>{if(c.topic===oldT){c.topic=target;n++;}});
+      if(n){
+        if(listTopic===oldT)listTopic=target;
+        if(settings.topics.includes(oldT)){settings.topics=Array.from(new Set(settings.topics.map(t=>t===oldT?target:t)));saveSet();}
+        saveWords("rename topic");
+        alert("Renamed "+n+" word"+(n===1?"":"s")+" from “"+oldT+"” to “"+target+"”. Scores were not changed.");
+        renOpen=true;render();
+      }
+    }},["Rename"]),err
   ]));
 }
 function paintList(){
