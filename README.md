@@ -51,6 +51,7 @@ Each entry looks like:
 
   A word counts as **learned** once you get it right *N* times in a row (**Settings → Correct in a row to mark learned**). Learned words leave the normal (Mixed/Seen/New) sessions and are reviewed via Recap. There's no permanent "mastered/retired" state — the only two states are *learning* and *learned*, and Recap is what moves words between them.
 - The **Words** tab is filterable by **Level** and **Topic**, on top of the search box. **Tap any word** to expand its example sentences, level, and topic, then **✏️ Edit** to change any field — including moving it to a different topic (typing an existing topic name, in any case, folds it into that topic). Edits sync to the repo just like generated words.
+- **✏️ Rename a topic** (on the Words tab) renames a topic across every word that uses it in one step — handy for tidying inconsistent labels (e.g. a German label from generation into English). It only changes the topic name; **scores are never touched**. If you rename to an existing topic (any case), the two merge.
 
 ## Hands-free (audio) mode
 
