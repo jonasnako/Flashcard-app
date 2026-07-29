@@ -12426,5 +12426,1565 @@
       "word": "die Haushaltseffizienz",
       "sentence": "Mit zwei Kindern ist Haushaltseffizienz entscheidend."
     }
+  },
+  {
+    "id": "9565bc49-2564-4c03-ba7e-3cde1bac7be7",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "l'aspetto",
+      "sentence": "Non giudicare le persone solo dall'aspetto."
+    },
+    "de": {
+      "word": "das Aussehen",
+      "sentence": "Beurteile Menschen nicht nur nach dem Aussehen."
+    }
+  },
+  {
+    "id": "1cc347c6-4495-4ef1-ba88-45c3908c24f5",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "avere un bell'aspetto",
+      "sentence": "Oggi hai davvero un bell'aspetto."
+    },
+    "de": {
+      "word": "gut aussehen",
+      "sentence": "Du siehst heute wirklich gut aus."
+    }
+  },
+  {
+    "id": "a9f2fb18-135a-437a-b39f-c348474d0121",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "assomigliare a",
+      "sentence": "Assomiglia molto a suo padre."
+    },
+    "de": {
+      "word": "ähneln",
+      "sentence": "Er ähnelt seinem Vater sehr."
+    }
+  },
+  {
+    "id": "d19b1e5c-4db8-4e88-8050-345e23e5be55",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la somiglianza",
+      "sentence": "La somiglianza tra i due fratelli è impressionante."
+    },
+    "de": {
+      "word": "die Ähnlichkeit",
+      "sentence": "Die Ähnlichkeit zwischen den beiden Brüdern ist verblüffend."
+    }
+  },
+  {
+    "id": "e0e2e7a6-68a4-4f86-a59e-b30a5c088d35",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "curato",
+      "sentence": "Ha sempre un aspetto molto curato."
+    },
+    "de": {
+      "word": "gepflegt",
+      "sentence": "Er wirkt immer sehr gepflegt."
+    }
+  },
+  {
+    "id": "8a68dd0f-37ae-48ee-93da-6f51e1811f02",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "trascurato",
+      "sentence": "Quel giorno sembrava piuttosto trascurato."
+    },
+    "de": {
+      "word": "ungepflegt",
+      "sentence": "An jenem Tag wirkte er ziemlich ungepflegt."
+    }
+  },
+  {
+    "id": "b73a8317-4988-4392-9070-b43a76918902",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "affascinante",
+      "sentence": "Ha un sorriso affascinante."
+    },
+    "de": {
+      "word": "bezaubernd",
+      "sentence": "Sie hat ein bezauberndes Lächeln."
+    }
+  },
+  {
+    "id": "3a663102-9145-4c7b-895e-300b744db71e",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "alto",
+      "sentence": "È il più alto della famiglia."
+    },
+    "de": {
+      "word": "groß",
+      "sentence": "Er ist der Größte in der Familie."
+    }
+  },
+  {
+    "id": "79d4c670-0389-469e-82e3-86265ac64266",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "basso",
+      "sentence": "È piuttosto basso, ma molto atletico."
+    },
+    "de": {
+      "word": "klein",
+      "sentence": "Er ist ziemlich klein, aber sehr sportlich."
+    }
+  },
+  {
+    "id": "cba8a48b-69a9-4788-b6b5-a2eb361cb93e",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "magro",
+      "sentence": "È rimasto magro nonostante l'età."
+    },
+    "de": {
+      "word": "schlank",
+      "sentence": "Er ist trotz seines Alters schlank geblieben."
+    }
+  },
+  {
+    "id": "411c5ad4-c00d-4a34-9c8b-838b05ff8b9a",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "robusto",
+      "sentence": "È un uomo robusto e forte."
+    },
+    "de": {
+      "word": "kräftig",
+      "sentence": "Er ist ein kräftiger, starker Mann."
+    }
+  },
+  {
+    "id": "1a5331b6-c3c8-42e3-9ab6-bd874ccd0643",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "snello",
+      "sentence": "Ha una figura snella ed elegante."
+    },
+    "de": {
+      "word": "schmal",
+      "sentence": "Sie hat eine schmale, elegante Figur."
+    }
+  },
+  {
+    "id": "1caae1e2-ab4a-452d-ace7-8f1654a87d35",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la corporatura",
+      "sentence": "Ha la corporatura di un nuotatore."
+    },
+    "de": {
+      "word": "der Körperbau",
+      "sentence": "Er hat den Körperbau eines Schwimmers."
+    }
+  },
+  {
+    "id": "8e479885-c520-4773-8f96-a67eaaa2ad4d",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la statura",
+      "sentence": "Un uomo di statura media, senza segni particolari."
+    },
+    "de": {
+      "word": "die Statur",
+      "sentence": "Ein Mann mittlerer Statur, ohne besondere Merkmale."
+    }
+  },
+  {
+    "id": "a6efca72-0234-41fc-b511-bdc2a7615dbd",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la postura",
+      "sentence": "La sua postura tradisce anni di lavoro alla scrivania."
+    },
+    "de": {
+      "word": "die Haltung",
+      "sentence": "Seine Haltung verrät jahrelange Schreibtischarbeit."
+    }
+  },
+  {
+    "id": "77d81aee-296a-4381-b8ec-67e9411f1704",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "il viso",
+      "sentence": "Aveva il viso stanco ma sereno."
+    },
+    "de": {
+      "word": "das Gesicht",
+      "sentence": "Er hatte ein müdes, aber gelassenes Gesicht."
+    }
+  },
+  {
+    "id": "957f148a-541d-464c-83f1-40667e9dcd02",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "i lineamenti",
+      "sentence": "Ha lineamenti delicati e regolari."
+    },
+    "de": {
+      "word": "die Gesichtszüge",
+      "sentence": "Sie hat feine, regelmäßige Gesichtszüge."
+    }
+  },
+  {
+    "id": "84b3ca0e-bc46-4092-9f56-5eae42eca968",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "la ruga",
+      "sentence": "Le rughe intorno agli occhi raccontano molto."
+    },
+    "de": {
+      "word": "die Falte",
+      "sentence": "Die Falten um die Augen erzählen viel."
+    }
+  },
+  {
+    "id": "aee7225f-315b-43c4-a93a-75c9bf24710b",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la fossetta",
+      "sentence": "Quando ride si vedono le fossette."
+    },
+    "de": {
+      "word": "das Grübchen",
+      "sentence": "Wenn sie lacht, sieht man ihre Grübchen."
+    }
+  },
+  {
+    "id": "e1076483-cbb0-4732-803b-1713731c1ee6",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "la barba",
+      "sentence": "Si è fatto crescere la barba durante l'inverno."
+    },
+    "de": {
+      "word": "der Bart",
+      "sentence": "Er hat sich im Winter einen Bart wachsen lassen."
+    }
+  },
+  {
+    "id": "1990bc8a-8497-4f0d-87ac-70142d3f301e",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "i baffi",
+      "sentence": "Ha portato i baffi per vent'anni."
+    },
+    "de": {
+      "word": "der Schnurrbart",
+      "sentence": "Er hat zwanzig Jahre lang einen Schnurrbart getragen."
+    }
+  },
+  {
+    "id": "796223f8-b6c5-4855-98fb-18a3e7cbb525",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la cicatrice",
+      "sentence": "Ha una piccola cicatrice sopra il sopracciglio."
+    },
+    "de": {
+      "word": "die Narbe",
+      "sentence": "Er hat eine kleine Narbe über der Augenbraue."
+    }
+  },
+  {
+    "id": "5e2cd68e-4ce3-4ea6-b3ac-f4b502e694ee",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la lentiggine",
+      "sentence": "D'estate le vengono le lentiggini sul naso."
+    },
+    "de": {
+      "word": "die Sommersprosse",
+      "sentence": "Im Sommer bekommt sie Sommersprossen auf der Nase."
+    }
+  },
+  {
+    "id": "ce7be387-4cd7-4ce0-b5ac-6000c7f41bfc",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "i capelli lisci",
+      "sentence": "Ha i capelli lisci e lunghi."
+    },
+    "de": {
+      "word": "glatte Haare",
+      "sentence": "Sie hat lange, glatte Haare."
+    }
+  },
+  {
+    "id": "9701f870-e46a-43a7-b68e-2a6900bef11d",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "i capelli ricci",
+      "sentence": "I bambini hanno ereditato i capelli ricci dalla madre."
+    },
+    "de": {
+      "word": "lockige Haare",
+      "sentence": "Die Kinder haben die lockigen Haare von ihrer Mutter geerbt."
+    }
+  },
+  {
+    "id": "11f2a084-1404-43d6-8adb-9fb1c7b74105",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "biondo",
+      "sentence": "Da piccolo era biondo, ora è castano."
+    },
+    "de": {
+      "word": "blond",
+      "sentence": "Als Kind war er blond, jetzt ist er braunhaarig."
+    }
+  },
+  {
+    "id": "a97fab71-de25-4199-9cd7-9211de697f1b",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "castano",
+      "sentence": "È castana con gli occhi verdi."
+    },
+    "de": {
+      "word": "braunhaarig",
+      "sentence": "Sie ist braunhaarig und hat grüne Augen."
+    }
+  },
+  {
+    "id": "bdaffd52-2ca6-489f-8a78-d1303d9784f9",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "i capelli grigi",
+      "sentence": "I capelli grigi gli donano molto."
+    },
+    "de": {
+      "word": "graue Haare",
+      "sentence": "Die grauen Haare stehen ihm gut."
+    }
+  },
+  {
+    "id": "4516efc7-beed-4d5f-966e-dfc2ae1d9c1f",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "calvo",
+      "sentence": "È diventato calvo abbastanza presto."
+    },
+    "de": {
+      "word": "kahl",
+      "sentence": "Er ist ziemlich früh kahl geworden."
+    }
+  },
+  {
+    "id": "f6602bb4-135c-4293-bbf9-4a71bb51eedb",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la coda di cavallo",
+      "sentence": "Porta sempre i capelli in una coda di cavallo."
+    },
+    "de": {
+      "word": "der Pferdeschwanz",
+      "sentence": "Sie trägt die Haare immer im Pferdeschwanz."
+    }
+  },
+  {
+    "id": "e19addea-6eba-459d-85bc-cfb89175271a",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "gli occhi azzurri",
+      "sentence": "Ha gli occhi azzurri come sua nonna."
+    },
+    "de": {
+      "word": "blaue Augen",
+      "sentence": "Er hat blaue Augen wie seine Großmutter."
+    }
+  },
+  {
+    "id": "d71810aa-66a2-4dc6-9214-af763592f45c",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "lo sguardo penetrante",
+      "sentence": "Il suo sguardo penetrante metteva a disagio."
+    },
+    "de": {
+      "word": "der durchdringende Blick",
+      "sentence": "Sein durchdringender Blick war unangenehm."
+    }
+  },
+  {
+    "id": "75813065-10e1-4568-9e31-75a4fb1a4734",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "gli occhiali",
+      "sentence": "Porta gli occhiali solo per leggere."
+    },
+    "de": {
+      "word": "die Brille",
+      "sentence": "Er trägt die Brille nur zum Lesen."
+    }
+  },
+  {
+    "id": "2f28076d-e48a-4b92-a4df-ff36cc3501a0",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "il sopracciglio",
+      "sentence": "Ha alzato un sopracciglio senza dire nulla."
+    },
+    "de": {
+      "word": "die Augenbraue",
+      "sentence": "Er hat eine Augenbraue gehoben, ohne etwas zu sagen."
+    }
+  },
+  {
+    "id": "fbebe6a5-77bc-49c9-9810-28778171b9a4",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la carnagione",
+      "sentence": "Ha una carnagione molto chiara."
+    },
+    "de": {
+      "word": "der Teint",
+      "sentence": "Sie hat einen sehr hellen Teint."
+    }
+  },
+  {
+    "id": "e654dcfd-2456-469f-a90d-4357cff4b98f",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "abbronzato",
+      "sentence": "È tornato dalle vacanze abbronzato."
+    },
+    "de": {
+      "word": "gebräunt",
+      "sentence": "Er kam gebräunt aus dem Urlaub zurück."
+    }
+  },
+  {
+    "id": "e2201da5-016b-4bf9-8cd9-82d54f1f19a8",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "pallido",
+      "sentence": "Sembrava pallido e stanco."
+    },
+    "de": {
+      "word": "blass",
+      "sentence": "Er wirkte blass und müde."
+    }
+  },
+  {
+    "id": "31227399-06e9-435f-b9e7-da07a16db873",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "il neo",
+      "sentence": "Ha un neo sulla guancia sinistra."
+    },
+    "de": {
+      "word": "das Muttermal",
+      "sentence": "Sie hat ein Muttermal auf der linken Wange."
+    }
+  },
+  {
+    "id": "7db64ae9-376d-491c-80d7-63a343b11e32",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "l'età",
+      "sentence": "Non dimostra la sua età."
+    },
+    "de": {
+      "word": "das Alter",
+      "sentence": "Man sieht ihm sein Alter nicht an."
+    }
+  },
+  {
+    "id": "2d92ea25-9437-4bf3-b4d0-035dbfa9754f",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "giovanile",
+      "sentence": "Ha un aspetto giovanile per i suoi cinquant'anni."
+    },
+    "de": {
+      "word": "jugendlich",
+      "sentence": "Für seine fünfzig Jahre wirkt er jugendlich."
+    }
+  },
+  {
+    "id": "ed3ad47f-21c5-4852-8d31-bd65da3baef3",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "di mezza età",
+      "sentence": "Era un uomo di mezza età, tranquillo e riservato."
+    },
+    "de": {
+      "word": "mittleren Alters",
+      "sentence": "Er war ein Mann mittleren Alters, ruhig und zurückhaltend."
+    }
+  },
+  {
+    "id": "60ae93de-165c-4a50-b4c0-e4b85d6073b0",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "anziano",
+      "sentence": "I vicini anziani ci aiutano spesso."
+    },
+    "de": {
+      "word": "älter",
+      "sentence": "Die älteren Nachbarn helfen uns oft."
+    }
+  },
+  {
+    "id": "73ff49ce-0228-4dd1-8d62-4c3862de9778",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "l'adolescente",
+      "sentence": "Da adolescente era molto timido."
+    },
+    "de": {
+      "word": "der Jugendliche",
+      "sentence": "Als Jugendlicher war er sehr schüchtern."
+    }
+  },
+  {
+    "id": "feaefb8c-a56d-464d-90ac-f91cd66d4456",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "l'adulto",
+      "sentence": "È diventato adulto molto presto."
+    },
+    "de": {
+      "word": "der Erwachsene",
+      "sentence": "Er ist sehr früh erwachsen geworden."
+    }
+  },
+  {
+    "id": "fa0b7f61-c68c-4131-8a5c-48143991da03",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "invecchiare",
+      "sentence": "È invecchiato bene."
+    },
+    "de": {
+      "word": "altern",
+      "sentence": "Er ist gut gealtert."
+    }
+  },
+  {
+    "id": "f185040e-fde6-48f9-984e-4a03207dadb1",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la generazione",
+      "sentence": "Appartiene a una generazione diversa dalla mia."
+    },
+    "de": {
+      "word": "die Generation",
+      "sentence": "Er gehört einer anderen Generation an als ich."
+    }
+  },
+  {
+    "id": "9a7f8c7b-1bda-4497-9574-676cc1bed26e",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "l'impressione",
+      "sentence": "Mi ha fatto una buona impressione."
+    },
+    "de": {
+      "word": "der Eindruck",
+      "sentence": "Er hat auf mich einen guten Eindruck gemacht."
+    }
+  },
+  {
+    "id": "fdde69a1-9731-4814-90f6-ee68bbbf7305",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "il carisma",
+      "sentence": "Ha un carisma naturale che attira le persone."
+    },
+    "de": {
+      "word": "das Charisma",
+      "sentence": "Er hat ein natürliches Charisma, das Menschen anzieht."
+    }
+  },
+  {
+    "id": "afe54b77-070c-41d9-9a5e-78809520305e",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la presenza",
+      "sentence": "Ha una presenza forte anche quando tace."
+    },
+    "de": {
+      "word": "die Präsenz",
+      "sentence": "Er hat eine starke Präsenz, selbst wenn er schweigt."
+    }
+  },
+  {
+    "id": "7f0050b6-08a1-4427-a244-a7e06b38965a",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "gentile",
+      "sentence": "È sempre gentile con tutti."
+    },
+    "de": {
+      "word": "freundlich",
+      "sentence": "Er ist immer freundlich zu allen."
+    }
+  },
+  {
+    "id": "4ecc1c84-e695-49de-b386-35cf8e202206",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "generoso",
+      "sentence": "È generoso con il suo tempo."
+    },
+    "de": {
+      "word": "großzügig",
+      "sentence": "Er ist großzügig mit seiner Zeit."
+    }
+  },
+  {
+    "id": "ca8e373b-4e32-4d14-9049-c91e9749882a",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "onesto",
+      "sentence": "È una persona onesta, ci si può fidare."
+    },
+    "de": {
+      "word": "aufrichtig",
+      "sentence": "Er ist ein aufrichtiger Mensch, man kann ihm vertrauen."
+    }
+  },
+  {
+    "id": "11bf7fdf-547e-499b-ad7b-38c6291b4116",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "affidabile",
+      "sentence": "È l'unico veramente affidabile del gruppo."
+    },
+    "de": {
+      "word": "zuverlässig",
+      "sentence": "Er ist der Einzige im Team, der wirklich zuverlässig ist."
+    }
+  },
+  {
+    "id": "4eb89021-2b1c-4b71-9818-d870181dd26d",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "paziente",
+      "sentence": "È incredibilmente paziente con i bambini."
+    },
+    "de": {
+      "word": "geduldig",
+      "sentence": "Er ist unglaublich geduldig mit Kindern."
+    }
+  },
+  {
+    "id": "f2f0e421-24c6-452a-97f0-9a72f7c4df94",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "modesto",
+      "sentence": "Nonostante il successo è rimasto modesto."
+    },
+    "de": {
+      "word": "bescheiden",
+      "sentence": "Trotz des Erfolgs ist er bescheiden geblieben."
+    }
+  },
+  {
+    "id": "6f56e262-e182-4e34-95cd-a315ee461e8f",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "altruista",
+      "sentence": "È altruista fino all'eccesso."
+    },
+    "de": {
+      "word": "selbstlos",
+      "sentence": "Er ist bis zum Übermaß selbstlos."
+    }
+  },
+  {
+    "id": "ca62d86f-0c9a-420c-9437-c0934382baec",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "premuroso",
+      "sentence": "È molto premuroso verso i suoi genitori."
+    },
+    "de": {
+      "word": "fürsorglich",
+      "sentence": "Er ist sehr fürsorglich gegenüber seinen Eltern."
+    }
+  },
+  {
+    "id": "a13263aa-b060-4f1d-846f-3bdfca97dfc6",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "comprensivo",
+      "sentence": "Il suo capo è sorprendentemente comprensivo."
+    },
+    "de": {
+      "word": "verständnisvoll",
+      "sentence": "Sein Chef ist erstaunlich verständnisvoll."
+    }
+  },
+  {
+    "id": "6d2c619a-0908-4d65-ac16-919256f82df6",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "leale",
+      "sentence": "È rimasto leale anche nei momenti difficili."
+    },
+    "de": {
+      "word": "loyal",
+      "sentence": "Er ist auch in schwierigen Zeiten loyal geblieben."
+    }
+  },
+  {
+    "id": "d88b14b7-2d10-4c9e-b259-ccd91f8b1e6d",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "coraggioso",
+      "sentence": "È stata coraggiosa a dire la verità."
+    },
+    "de": {
+      "word": "mutig",
+      "sentence": "Es war mutig von ihr, die Wahrheit zu sagen."
+    }
+  },
+  {
+    "id": "5270c020-9898-4e2d-bc72-6db179cdab68",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "scrupoloso",
+      "sentence": "È scrupoloso in ogni dettaglio del lavoro."
+    },
+    "de": {
+      "word": "gewissenhaft",
+      "sentence": "Er ist bei jedem Detail der Arbeit gewissenhaft."
+    }
+  },
+  {
+    "id": "1ca712bb-41db-42e0-9850-4098fcde2cf2",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "egoista",
+      "sentence": "È troppo egoista per pensare agli altri."
+    },
+    "de": {
+      "word": "egoistisch",
+      "sentence": "Er ist zu egoistisch, um an andere zu denken."
+    }
+  },
+  {
+    "id": "32a8d3e8-febb-4ed3-b15f-6944eed6feb8",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "arrogante",
+      "sentence": "Il suo tono arrogante infastidisce tutti."
+    },
+    "de": {
+      "word": "arrogant",
+      "sentence": "Sein arroganter Ton stört alle."
+    }
+  },
+  {
+    "id": "c811f038-8c97-42ae-9e40-72b8215dedfb",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "presuntuoso",
+      "sentence": "È presuntuoso senza averne motivo."
+    },
+    "de": {
+      "word": "eingebildet",
+      "sentence": "Er ist eingebildet, ohne Grund dazu zu haben."
+    }
+  },
+  {
+    "id": "ad004b48-46b9-4daa-96b3-8a74418daf85",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "pigro",
+      "sentence": "Non è pigro, è solo esausto."
+    },
+    "de": {
+      "word": "faul",
+      "sentence": "Er ist nicht faul, er ist nur erschöpft."
+    }
+  },
+  {
+    "id": "771fb8ba-a9a8-4b27-95c9-f416bffcc4d0",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "inaffidabile",
+      "sentence": "È simpatico ma inaffidabile."
+    },
+    "de": {
+      "word": "unzuverlässig",
+      "sentence": "Er ist sympathisch, aber unzuverlässig."
+    }
+  },
+  {
+    "id": "2c1931a5-e8c9-48c1-b109-e848edb372aa",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "invidioso",
+      "sentence": "È diventato invidioso del successo altrui."
+    },
+    "de": {
+      "word": "neidisch",
+      "sentence": "Er ist neidisch auf den Erfolg anderer geworden."
+    }
+  },
+  {
+    "id": "3a82dbfa-f8a4-4151-98fc-f5d792b2c9e9",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "avaro",
+      "sentence": "È avaro perfino con se stesso."
+    },
+    "de": {
+      "word": "geizig",
+      "sentence": "Er ist sogar sich selbst gegenüber geizig."
+    }
+  },
+  {
+    "id": "bbd2af68-0a06-4fbc-8c26-075aa22b1a5b",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "scortese",
+      "sentence": "È stato scortese senza rendersene conto."
+    },
+    "de": {
+      "word": "unhöflich",
+      "sentence": "Er war unhöflich, ohne es zu merken."
+    }
+  },
+  {
+    "id": "4d7a7f54-0187-4227-96a4-f2923ace0582",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "ipocrita",
+      "sentence": "Trovo il suo comportamento piuttosto ipocrita."
+    },
+    "de": {
+      "word": "scheinheilig",
+      "sentence": "Ich finde sein Verhalten ziemlich scheinheilig."
+    }
+  },
+  {
+    "id": "90aefe14-0006-437a-890f-259abb577aba",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "prepotente",
+      "sentence": "Ha un modo prepotente di trattare i colleghi."
+    },
+    "de": {
+      "word": "herrisch",
+      "sentence": "Er hat eine herrische Art, mit Kollegen umzugehen."
+    }
+  },
+  {
+    "id": "0c834056-79e0-4adf-8932-3c8c34fc50dd",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "suscettibile",
+      "sentence": "È molto suscettibile alle critiche."
+    },
+    "de": {
+      "word": "empfindlich",
+      "sentence": "Er ist sehr empfindlich gegenüber Kritik."
+    }
+  },
+  {
+    "id": "acb7a360-a451-42a8-b402-91a7c883fd6c",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "impulsivo",
+      "sentence": "Prende decisioni impulsive di cui poi si pente."
+    },
+    "de": {
+      "word": "impulsiv",
+      "sentence": "Er trifft impulsive Entscheidungen, die er später bereut."
+    }
+  },
+  {
+    "id": "f3a22ba5-8bce-40f1-8c4d-51ea44b6bd78",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "vivace",
+      "sentence": "È una bambina vivace e curiosa."
+    },
+    "de": {
+      "word": "lebhaft",
+      "sentence": "Sie ist ein lebhaftes und neugieriges Kind."
+    }
+  },
+  {
+    "id": "4ed02d60-ffcb-41fb-8efd-3d39fa933999",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "energico",
+      "sentence": "È energico nonostante le poche ore di sonno."
+    },
+    "de": {
+      "word": "tatkräftig",
+      "sentence": "Er ist tatkräftig trotz weniger Stunden Schlaf."
+    }
+  },
+  {
+    "id": "20f3fb60-215a-47a8-9d00-ae3b70d34a7b",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "equilibrato",
+      "sentence": "È una persona equilibrata, difficile da provocare."
+    },
+    "de": {
+      "word": "ausgeglichen",
+      "sentence": "Er ist ein ausgeglichener Mensch, schwer zu provozieren."
+    }
+  },
+  {
+    "id": "e3c929a4-4acb-4646-ac01-7f728b4ce896",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "lunatico",
+      "sentence": "È diventato lunatico da quando dorme poco."
+    },
+    "de": {
+      "word": "launisch",
+      "sentence": "Er ist launisch geworden, seit er wenig schläft."
+    }
+  },
+  {
+    "id": "e5003aa2-a1ba-4044-b5b4-f35ea27562d7",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "socievole",
+      "sentence": "È molto socievole e conosce tutti."
+    },
+    "de": {
+      "word": "gesellig",
+      "sentence": "Er ist sehr gesellig und kennt jeden."
+    }
+  },
+  {
+    "id": "15cadd49-6754-4482-a28e-251e8bb170ed",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "timido",
+      "sentence": "Era timido da bambino, ora non più."
+    },
+    "de": {
+      "word": "schüchtern",
+      "sentence": "Als Kind war er schüchtern, heute nicht mehr."
+    }
+  },
+  {
+    "id": "96ed7880-3044-433b-be80-9e8eaba4d19e",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "riservato",
+      "sentence": "È riservato ma non scontroso."
+    },
+    "de": {
+      "word": "zurückhaltend",
+      "sentence": "Er ist zurückhaltend, aber nicht abweisend."
+    }
+  },
+  {
+    "id": "44a43d7a-271a-4f26-8c0d-56c0ccc49631",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "estroverso",
+      "sentence": "È estroverso al lavoro ma tranquillo a casa."
+    },
+    "de": {
+      "word": "extrovertiert",
+      "sentence": "Bei der Arbeit ist er extrovertiert, zu Hause ruhig."
+    }
+  },
+  {
+    "id": "1bdc267f-c6e8-4796-adcc-c7e8957e8573",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "introverso",
+      "sentence": "Essere introverso non significa essere timido."
+    },
+    "de": {
+      "word": "introvertiert",
+      "sentence": "Introvertiert zu sein bedeutet nicht, schüchtern zu sein."
+    }
+  },
+  {
+    "id": "c86d68e9-30a7-488f-94f9-6ee2a3c18cb5",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "chiuso",
+      "sentence": "È rimasto chiuso per settimane dopo la notizia."
+    },
+    "de": {
+      "word": "verschlossen",
+      "sentence": "Nach der Nachricht blieb er wochenlang verschlossen."
+    }
+  },
+  {
+    "id": "93ef3441-ddde-4627-8f50-0ca8a305a193",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "diplomatico",
+      "sentence": "Ha risposto in modo diplomatico alla provocazione."
+    },
+    "de": {
+      "word": "diplomatisch",
+      "sentence": "Er hat diplomatisch auf die Provokation geantwortet."
+    }
+  },
+  {
+    "id": "105eb955-4572-462a-8f6d-900729caa576",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "schietto",
+      "sentence": "È schietto, a volte troppo."
+    },
+    "de": {
+      "word": "unverblümt",
+      "sentence": "Er ist unverblümt, manchmal zu sehr."
+    }
+  },
+  {
+    "id": "e03fc551-1962-4708-a8e4-7bea6f85b84a",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "empatico",
+      "sentence": "È empatico senza perdere lucidità."
+    },
+    "de": {
+      "word": "einfühlsam",
+      "sentence": "Er ist einfühlsam, ohne den klaren Blick zu verlieren."
+    }
+  },
+  {
+    "id": "e059c6d5-f17e-47af-9d20-8f8a13283f72",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "intelligente",
+      "sentence": "È intelligente ma poco costante."
+    },
+    "de": {
+      "word": "klug",
+      "sentence": "Er ist klug, aber wenig beständig."
+    }
+  },
+  {
+    "id": "4c9cb7d9-5ef1-4813-aff7-ea3057a9ea72",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "sveglio",
+      "sentence": "È un ragazzo sveglio, capisce subito."
+    },
+    "de": {
+      "word": "aufgeweckt",
+      "sentence": "Er ist ein aufgeweckter Junge, er versteht sofort."
+    }
+  },
+  {
+    "id": "6909fa59-4e1d-4673-b863-cd8265196fd8",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "colto",
+      "sentence": "È una persona colta senza esserne presuntuosa."
+    },
+    "de": {
+      "word": "gebildet",
+      "sentence": "Er ist gebildet, ohne dadurch eingebildet zu sein."
+    }
+  },
+  {
+    "id": "3b1e452a-522e-4fa8-9006-e5a6cac1f61c",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "creativo",
+      "sentence": "È creativa nel risolvere i problemi."
+    },
+    "de": {
+      "word": "kreativ",
+      "sentence": "Sie ist kreativ beim Lösen von Problemen."
+    }
+  },
+  {
+    "id": "c3802e65-dafc-408b-aebc-ddbdccf78a4a",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "il talento",
+      "sentence": "Ha un talento naturale per le lingue."
+    },
+    "de": {
+      "word": "die Begabung",
+      "sentence": "Er hat eine natürliche Begabung für Sprachen."
+    }
+  },
+  {
+    "id": "1a3af9eb-3dd7-417c-be15-8ab15912f8bc",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "dotato",
+      "sentence": "È particolarmente dotato per la musica."
+    },
+    "de": {
+      "word": "begabt",
+      "sentence": "Er ist besonders musikalisch begabt."
+    }
+  },
+  {
+    "id": "5e036812-53d6-4b03-9f7e-8bc95faf3c8e",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "curioso",
+      "sentence": "È curioso di tutto ciò che non conosce."
+    },
+    "de": {
+      "word": "neugierig",
+      "sentence": "Er ist neugierig auf alles, was er nicht kennt."
+    }
+  },
+  {
+    "id": "28e8dd18-0a85-4f2d-ba87-5c9db4314c67",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "i valori",
+      "sentence": "I suoi valori non sono cambiati negli anni."
+    },
+    "de": {
+      "word": "die Werte",
+      "sentence": "Seine Werte haben sich über die Jahre nicht verändert."
+    }
+  },
+  {
+    "id": "81f6827f-c25d-464b-b337-d257a6f63dd7",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "il principio",
+      "sentence": "È una questione di principio per lui."
+    },
+    "de": {
+      "word": "das Prinzip",
+      "sentence": "Für ihn ist das eine Frage des Prinzips."
+    }
+  },
+  {
+    "id": "c667d45e-e1d0-4ef8-93ce-f902b12353bf",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "l'integrità",
+      "sentence": "La sua integrità non è mai stata messa in dubbio."
+    },
+    "de": {
+      "word": "die Integrität",
+      "sentence": "Seine Integrität wurde nie in Frage gestellt."
+    }
+  },
+  {
+    "id": "b513f433-ed1f-4be2-bcca-1e21dfb82432",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "coerente",
+      "sentence": "È coerente tra ciò che dice e ciò che fa."
+    },
+    "de": {
+      "word": "stimmig",
+      "sentence": "Was er sagt und was er tut, ist stimmig."
+    }
+  },
+  {
+    "id": "45c5f76b-3f38-4003-8034-3ab3307acb21",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "responsabile",
+      "sentence": "È responsabile anche quando nessuno controlla."
+    },
+    "de": {
+      "word": "verantwortungsbewusst",
+      "sentence": "Er ist verantwortungsbewusst, auch wenn niemand kontrolliert."
+    }
+  },
+  {
+    "id": "e0638b8f-7d4c-4c46-bfde-041f23fcb156",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "maturo",
+      "sentence": "È molto maturo per la sua età."
+    },
+    "de": {
+      "word": "reif",
+      "sentence": "Er ist für sein Alter sehr reif."
+    }
+  },
+  {
+    "id": "0e2d77b3-574d-4d5b-857c-976da70bd60c",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "immaturo",
+      "sentence": "La sua reazione è stata piuttosto immatura."
+    },
+    "de": {
+      "word": "unreif",
+      "sentence": "Seine Reaktion war ziemlich unreif."
+    }
+  },
+  {
+    "id": "4add77e5-3d0c-405e-be0e-103e6b70b7cb",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "il carattere",
+      "sentence": "Ha un carattere forte ma non duro."
+    },
+    "de": {
+      "word": "der Charakter",
+      "sentence": "Er hat einen starken, aber nicht harten Charakter."
+    }
+  },
+  {
+    "id": "3bd28f98-eb66-43f5-9dbe-3870708a452d",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "la personalità",
+      "sentence": "Ha una personalità difficile da dimenticare."
+    },
+    "de": {
+      "word": "die Persönlichkeit",
+      "sentence": "Er hat eine Persönlichkeit, die man nicht vergisst."
+    }
+  },
+  {
+    "id": "3de5f9a8-4d78-4e45-89e6-d7609e3d7f08",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "l'identità",
+      "sentence": "Cerca ancora la propria identità professionale."
+    },
+    "de": {
+      "word": "die Identität",
+      "sentence": "Er sucht noch seine berufliche Identität."
+    }
+  },
+  {
+    "id": "9de66991-f5c1-4988-8ac2-341e0c06e050",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "l'autostima",
+      "sentence": "La sua autostima è cresciuta con l'esperienza."
+    },
+    "de": {
+      "word": "das Selbstwertgefühl",
+      "sentence": "Sein Selbstwertgefühl ist mit der Erfahrung gewachsen."
+    }
+  },
+  {
+    "id": "9d09124c-b7d2-4388-b39d-fc95934fd72f",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "la sicurezza di sé",
+      "sentence": "Parla con una notevole sicurezza di sé."
+    },
+    "de": {
+      "word": "das Selbstvertrauen",
+      "sentence": "Er spricht mit bemerkenswertem Selbstvertrauen."
+    }
+  },
+  {
+    "id": "c62a1947-1a96-4394-8f47-2cfb17602258",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "l'insicurezza",
+      "sentence": "Dietro l'arroganza si nascondeva insicurezza."
+    },
+    "de": {
+      "word": "die Unsicherheit",
+      "sentence": "Hinter der Arroganz verbarg sich Unsicherheit."
+    }
+  },
+  {
+    "id": "7d31851e-e361-4948-8244-f4821dcd4248",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "conoscere se stessi",
+      "sentence": "Ci vuole tempo per conoscere se stessi."
+    },
+    "de": {
+      "word": "sich selbst kennen",
+      "sentence": "Es braucht Zeit, sich selbst zu kennen."
+    }
+  },
+  {
+    "id": "eb5516c8-f2ea-4445-8e7f-8ec5e9ce298d",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "il punto di forza",
+      "sentence": "La pazienza è il suo principale punto di forza."
+    },
+    "de": {
+      "word": "die Stärke",
+      "sentence": "Geduld ist seine wichtigste Stärke."
+    }
+  },
+  {
+    "id": "6a970ceb-a846-4e41-9577-10214db14ccd",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "il punto debole",
+      "sentence": "Conosce bene i propri punti deboli."
+    },
+    "de": {
+      "word": "die Schwäche",
+      "sentence": "Er kennt seine Schwächen gut."
+    }
+  },
+  {
+    "id": "56f1c76d-0a90-458b-8488-915e7fc71be0",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "giudicare",
+      "sentence": "È facile giudicare senza conoscere la storia."
+    },
+    "de": {
+      "word": "beurteilen",
+      "sentence": "Es ist leicht zu beurteilen, ohne die Geschichte zu kennen."
+    }
+  },
+  {
+    "id": "649d0e55-954c-4289-ad1b-0e8fd5510ef9",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "stimare",
+      "sentence": "Lo stimo molto come persona."
+    },
+    "de": {
+      "word": "schätzen",
+      "sentence": "Ich schätze ihn als Menschen sehr."
+    }
+  },
+  {
+    "id": "ebde36b0-6231-42f3-87b8-e67b2c3ee9ad",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "fidarsi di",
+      "sentence": "Mi fido di lui più che di chiunque altro."
+    },
+    "de": {
+      "word": "vertrauen",
+      "sentence": "Ich vertraue ihm mehr als jedem anderen."
+    }
+  },
+  {
+    "id": "ef129635-8893-41db-8971-48b9313de915",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "sottovalutare",
+      "sentence": "Lo hanno sottovalutato fin dall'inizio."
+    },
+    "de": {
+      "word": "unterschätzen",
+      "sentence": "Sie haben ihn von Anfang an unterschätzt."
+    }
+  },
+  {
+    "id": "5b6b4abc-e35e-4bbe-a352-f601ef9bb359",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "sopravvalutare",
+      "sentence": "Tende a sopravvalutare le proprie capacità."
+    },
+    "de": {
+      "word": "überschätzen",
+      "sentence": "Er neigt dazu, seine Fähigkeiten zu überschätzen."
+    }
+  },
+  {
+    "id": "626eea31-4bac-4f37-9fd8-893643ca78be",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "la prima impressione",
+      "sentence": "La prima impressione era completamente sbagliata."
+    },
+    "de": {
+      "word": "der erste Eindruck",
+      "sentence": "Der erste Eindruck war völlig falsch."
+    }
+  },
+  {
+    "id": "f25891af-2d0b-4398-b0f2-3183ce7e5b2c",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "cambiare",
+      "sentence": "È cambiato molto dopo la nascita del figlio."
+    },
+    "de": {
+      "word": "sich verändern",
+      "sentence": "Er hat sich nach der Geburt seines Sohnes sehr verändert."
+    }
+  },
+  {
+    "id": "019a88ba-fdb8-4bf4-a65b-9965fc035b3c",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "maturare",
+      "sentence": "È maturato molto in questi due anni."
+    },
+    "de": {
+      "word": "reifen",
+      "sentence": "Er ist in diesen zwei Jahren sehr gereift."
+    }
+  },
+  {
+    "id": "59cf1fba-ee65-434c-a51a-6a36bd847304",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "restare se stessi",
+      "sentence": "Nonostante tutto è restato se stesso."
+    },
+    "de": {
+      "word": "sich selbst treu bleiben",
+      "sentence": "Trotz allem ist er sich selbst treu geblieben."
+    }
+  },
+  {
+    "id": "5b6387c9-c684-465f-87e5-57d8ebc15183",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "adattarsi",
+      "sentence": "Si adatta facilmente a nuovi ambienti."
+    },
+    "de": {
+      "word": "sich anpassen",
+      "sentence": "Er passt sich leicht an neue Umgebungen an."
+    }
+  },
+  {
+    "id": "48226a73-5d7e-46fa-8c2f-39c55f1fa8f5",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "l'esperienza di vita",
+      "sentence": "La sua esperienza di vita si sente quando parla."
+    },
+    "de": {
+      "word": "die Lebenserfahrung",
+      "sentence": "Man merkt seine Lebenserfahrung, wenn er spricht."
+    }
   }
 ]
