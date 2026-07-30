@@ -377,7 +377,7 @@ function rate(known){
   if(!session.queue.length)session.active=false;
   saveSession();
 }
-function assess(known){rate(known);paintSession();}
+function assess(known){rate(known);paintSession();paintCounts();}
 
 /* ============ tiny DOM helper ============ */
 function el(tag,props,kids){const e=document.createElement(tag);
@@ -393,13 +393,20 @@ function el(tag,props,kids){const e=document.createElement(tag);
 const app=document.getElementById("app"), tabs=document.getElementById("tabs");
 let search="", page=0; const PAGE=50; let addOpen=false, genOpen=false, listLevel="all", listTopic="all", expandedId=null, editingId=null;
 
+function paintCounts(){
+  const e=document.getElementById("counts");if(!e)return;
+  const st={};lib.forEach(c=>{const s=status(c);st[s]=(st[s]||0)+1;});
+  e.innerHTML="";
+  e.appendChild(el("div",{html:"<b>"+(st.learning||0)+"</b> learning"}));
+  e.appendChild(el("div",{},[(st.learned||0)+" learned"]));
+}
 function render(){
   app.innerHTML="";
-  const st={};lib.forEach(c=>{const s=status(c);st[s]=(st[s]||0)+1;});
   app.appendChild(el("div",{class:"head"},[
     el("span",{class:"logo",html:"lessico<i>.</i>"}),
-    el("div",{class:"counts"},[el("div",{html:"<b>"+(st.learning||0)+"</b> learning"}),el("div",{},[(st.learned||0)+" learned"])])
+    el("div",{class:"counts",id:"counts"})
   ]));
+  paintCounts();
   if(view==="session")paintSessionView();
   else if(view==="words")paintWords();
   else paintSettings();
@@ -418,7 +425,7 @@ function paintSession(){
     const done=session&&session.total>0;
     const recap=settings.focus==="recap";
     const emptyMsg=recap?"No learned words to recap under this filter yet — learn some first.":"Nothing to learn under this filter. Change filters or add words.";
-    const readyMsg=recap?("Up to "+settings.sessionSize+" learned words to recap from your current filter."):("Up to "+settings.sessionSize+" words from your current filter.");
+    const readyMsg=(recap?(avail+" learned word"+(avail===1?"":"s")+" to recap"):(avail+" word"+(avail===1?"":"s")+" available"))+" under your current filter — sessions take up to "+settings.sessionSize+".";
     area.appendChild(el("div",{class:"state"},[
       el("p",{class:"big"},[done?(recap?"Recap complete":"Session complete"):(avail?"Ready when you are":"All caught up")]),
       el("p",{},[done?("You worked through "+session.total+" words"+(session.learned?" and learned "+session.learned:"")+"."):(avail?readyMsg:emptyMsg)]),
@@ -606,6 +613,8 @@ function paintSettings(){
   const topics=Array.from(new Set(lib.map(c=>c.topic)));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),multiSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”."])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["mixed","Mixed"],["seen","Seen only"],["new","New only"],["recap","Recap"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();}),el("span",{class:"sub"},["“Seen/New only” filter the learning pool. “Recap” reviews words you've already learned — miss one and its score resets so it returns to learning; get it right and it stays learned."])]));
+  {const inF=lib.filter(inFilter),learnedN=inF.filter(c=>status(c)==="learned").length,poolN=lib.filter(inSession).length;
+   app.appendChild(el("div",{class:"hint",style:{marginTop:"-2px"}},[poolN+" word"+(poolN===1?"":"s")+" available to study now — "+inF.length+" match this filter ("+learnedN+" already learned)."]));}
 
   app.appendChild(el("div",{class:"sec"},["Learning"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
@@ -851,7 +860,7 @@ async function runHandsFree(){
       }
       if(!alive(gen))break;
       await wait(450);
-      rate(known);
+      rate(known);paintCounts();
       if(alive(gen)&&session.active)paintSession();
     }
   }catch(e){}
