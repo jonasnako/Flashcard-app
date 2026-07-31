@@ -35,6 +35,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .say.playing{opacity:1;background:rgba(122,154,87,.18);border-color:rgba(122,154,87,.5)}
 .progress{height:5px;border-radius:999px;background:rgba(246,241,230,.08);overflow:hidden;margin:2px 0 16px}
 .progress i{display:block;height:100%;background:var(--green);transition:width .3s}
+.pbar{display:flex;height:10px;border-radius:999px;overflow:hidden;background:rgba(246,241,230,.08)}
+.pbar i{display:block;height:100%;transition:width .35s}
+.pbar .done{background:var(--green)}
+.pbar .todo{background:rgba(203,146,53,.55)}
 .meta{display:flex;justify-content:space-between;font-size:12px;color:rgba(246,241,230,.55);margin-bottom:6px}
 .assess{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .btn{font-family:inherit;font-size:15px;font-weight:600;cursor:pointer;border-radius:13px;padding:15px 16px;border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;gap:8px;color:var(--paper);background:rgba(246,241,230,.06)}
@@ -613,8 +617,12 @@ function paintSettings(){
   const topics=Array.from(new Set(lib.map(c=>c.topic)));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),multiSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”."])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["mixed","Mixed"],["seen","Seen only"],["new","New only"],["recap","Recap"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();}),el("span",{class:"sub"},["“Seen/New only” filter the learning pool. “Recap” reviews words you've already learned — miss one and its score resets so it returns to learning; get it right and it stays learned."])]));
-  {const inF=lib.filter(inFilter),learnedN=inF.filter(c=>status(c)==="learned").length,poolN=lib.filter(inSession).length;
-   app.appendChild(el("div",{class:"hint",style:{marginTop:"-2px"}},[poolN+" word"+(poolN===1?"":"s")+" available to study now — "+inF.length+" match this filter ("+learnedN+" already learned)."]));}
+  {const inF=lib.filter(inFilter),total=inF.length,learnedN=inF.filter(c=>status(c)==="learned").length,learningN=total-learnedN,pct=total?Math.round(learnedN/total*100):0;
+   app.appendChild(el("div",{class:"field"},[
+     el("label",{},["Progress in this filter"]),
+     el("div",{class:"pbar"},[el("i",{class:"done",style:{width:pct+"%"}}),el("i",{class:"todo",style:{width:(100-pct)+"%"}})]),
+     el("span",{class:"sub"},[total?(learnedN+" learned · "+learningN+" to learn · "+total+" total"):"No words match this filter."])
+   ]));}
 
   app.appendChild(el("div",{class:"sec"},["Learning"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
