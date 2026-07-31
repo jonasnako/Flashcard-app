@@ -37,8 +37,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .progress i{display:block;height:100%;background:var(--green);transition:width .3s}
 .pbar{display:flex;height:10px;border-radius:999px;overflow:hidden;background:rgba(246,241,230,.08)}
 .pbar i{display:block;height:100%;transition:width .35s}
-.pbar .done{background:var(--green)}
-.pbar .todo{background:rgba(203,146,53,.55)}
+.pbar .s3{background:var(--green)}
+.pbar .s2{background:#A7C178}
+.pbar .s1{background:#CBB05C}
+.pbar .s0{background:rgba(203,146,53,.5)}
 .pbar .new{background:#C7E39A;box-shadow:0 0 8px rgba(199,227,154,.7);animation:newpulse 1.2s ease-in-out 3}
 @keyframes newpulse{0%,100%{opacity:1}50%{opacity:.45}}
 .state .pbar{max-width:320px;margin:20px auto 0}
@@ -253,6 +255,7 @@ function load(){
   if(settings.level!==undefined){if(!settings.levels.length&&settings.level!=="all")settings.levels=[settings.level];delete settings.level;}
   if(settings.topic!==undefined){if(!settings.topics.length&&settings.topic!=="all")settings.topics=[settings.topic];delete settings.topic;}
   delete settings.deprecate;delete settings.retireN; // removed: time-based resurfacing and permanent retire
+  settings.learnY=3; // baked in: 3 correct in a row = learned (matches the card's 3 dots / stars)
   let words=readJSON(WORDS_KEY), prog=readJSON(PROG_KEY)||{};
   if(!Array.isArray(words)||!words.length){
     const legacy=readJSON(LIB_KEY); // one-time migration from the old single-blob format
@@ -426,15 +429,15 @@ function render(){
 /* ---- shared progress bar for the current study filter ---- */
 function filterProgress(gained){
   const inF=lib.filter(inFilter),total=inF.length;
-  const learned=inF.filter(c=>status(c)==="learned").length;
-  const g=Math.max(0,Math.min(gained||0,learned));
-  const prev=learned-g,todo=total-learned,pc=n=>total?(n/total*100):0;
+  const b=[0,0,0,0];inF.forEach(c=>{b[Math.min(c.streak||0,3)]++;}); // words at 0,1,2,3 dots (3 = learned)
+  const learned=b[3],g=Math.max(0,Math.min(gained||0,learned)),pc=n=>total?(n/total*100):0;
+  const seg=(w,cls)=>w>0?el("i",{class:cls,style:{width:pc(w)+"%"}}):null;
   const bar=el("div",{class:"pbar"},[
-    el("i",{class:"done",style:{width:pc(prev)+"%"}}),
-    g?el("i",{class:"done new",style:{width:pc(g)+"%"}}):null,
-    el("i",{class:"todo",style:{width:pc(todo)+"%"}})
+    seg(learned-g,"s3"),
+    g>0?el("i",{class:"s3 new",style:{width:pc(g)+"%"}}):null,
+    seg(b[2],"s2"),seg(b[1],"s1"),seg(b[0],"s0")
   ]);
-  const label=total?(learned+" learned · "+todo+" to learn · "+total+" total"):"No words match this filter.";
+  const label=total?(learned+" learned · "+b[2]+" ●●○ · "+b[1]+" ●○○ · "+b[0]+" new · "+total+" total"):"No words match this filter.";
   return {bar,label,total,learned,g};
 }
 
@@ -637,16 +640,11 @@ function paintSettings(){
   const topics=Array.from(new Set(lib.map(c=>c.topic)));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),multiSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”."])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["mixed","Mixed"],["seen","Seen only"],["new","New only"],["recap","Recap"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();}),el("span",{class:"sub"},["“Seen/New only” filter the learning pool. “Recap” reviews words you've already learned — miss one and its score resets so it returns to learning; get it right and it stays learned."])]));
-  {const inF=lib.filter(inFilter),total=inF.length,learnedN=inF.filter(c=>status(c)==="learned").length,learningN=total-learnedN,pct=total?Math.round(learnedN/total*100):0;
-   app.appendChild(el("div",{class:"field"},[
-     el("label",{},["Progress in this filter"]),
-     el("div",{class:"pbar"},[el("i",{class:"done",style:{width:pct+"%"}}),el("i",{class:"todo",style:{width:(100-pct)+"%"}})]),
-     el("span",{class:"sub"},[total?(learnedN+" learned · "+learningN+" to learn · "+total+" total"):"No words match this filter."])
-   ]));}
+  {const fp=filterProgress(0);
+   app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in this filter"]),fp.bar,el("span",{class:"sub"},[fp.label])]));}
 
   app.appendChild(el("div",{class:"sec"},["Learning"]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Correct in a row to mark learned"]),num(settings.learnY,1,n=>{settings.learnY=n;saveSet();}),el("span",{class:"sub"},["Learned words leave normal sessions; review them with Focus → Recap."])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();}),el("span",{class:"sub"},["A word is learned after 3 correct in a row (the 3 dots on the card). Learned words leave normal sessions; review them with Focus → Recap."])]));
 
   app.appendChild(el("div",{class:"sec"},["Voice"]));
   if(!ttsOK){
