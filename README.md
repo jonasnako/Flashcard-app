@@ -8,7 +8,8 @@ These files go in the **root** of your repo.
 
 ```bash
 # from inside your cloned, empty repo:
-cp /path/to/index.html /path/to/sw.js /path/to/.nojekyll .
+cp /path/to/index.html /path/to/sw.js /path/to/manifest.webmanifest /path/to/.nojekyll .
+cp /path/to/icon-192.png /path/to/icon-512.png /path/to/apple-touch-icon.png .
 git add .
 git commit -m "lessico flashcard app"
 git push
@@ -23,6 +24,10 @@ https://<your-username>.github.io/<your-repo>/
 ```
 
 Open that URL in Chrome on your phone → menu → **Add to Home screen** for a full-screen app icon.
+
+### Changing the app icon
+
+The home-screen icon isn't a GitHub setting — it comes from the icon files and `manifest.webmanifest` in the repo root. To change it, replace `icon-192.png`, `icon-512.png`, and `apple-touch-icon.png` (keep the same filenames and square sizes — 192×192, 512×512, and 180×180 respectively) and push. Already-installed phones cache the icon from when you added it, so **remove the app from your home screen and add it again** to pick up the new one.
 
 ### Updates and offline
 
