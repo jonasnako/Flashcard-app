@@ -39,6 +39,9 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .pbar i{display:block;height:100%;transition:width .35s}
 .pbar .done{background:var(--green)}
 .pbar .todo{background:rgba(203,146,53,.55)}
+.pbar .new{background:#C7E39A;box-shadow:0 0 8px rgba(199,227,154,.7);animation:newpulse 1.2s ease-in-out 3}
+@keyframes newpulse{0%,100%{opacity:1}50%{opacity:.45}}
+.state .pbar{max-width:320px;margin:20px auto 0}
 .meta{display:flex;justify-content:space-between;font-size:12px;color:rgba(246,241,230,.55);margin-bottom:6px}
 .assess{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .btn{font-family:inherit;font-size:15px;font-weight:600;cursor:pointer;border-radius:13px;padding:15px 16px;border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;gap:8px;color:var(--paper);background:rgba(246,241,230,.06)}
@@ -420,6 +423,21 @@ function render(){
   });
 }
 
+/* ---- shared progress bar for the current study filter ---- */
+function filterProgress(gained){
+  const inF=lib.filter(inFilter),total=inF.length;
+  const learned=inF.filter(c=>status(c)==="learned").length;
+  const g=Math.max(0,Math.min(gained||0,learned));
+  const prev=learned-g,todo=total-learned,pc=n=>total?(n/total*100):0;
+  const bar=el("div",{class:"pbar"},[
+    el("i",{class:"done",style:{width:pc(prev)+"%"}}),
+    g?el("i",{class:"done new",style:{width:pc(g)+"%"}}):null,
+    el("i",{class:"todo",style:{width:pc(todo)+"%"}})
+  ]);
+  const label=total?(learned+" learned · "+todo+" to learn · "+total+" total"):"No words match this filter.";
+  return {bar,label,total,learned,g};
+}
+
 /* ---- session ---- */
 function paintSessionView(){app.appendChild(el("div",{id:"sess"}));paintSession();}
 function paintSession(){
@@ -430,10 +448,12 @@ function paintSession(){
     const recap=settings.focus==="recap";
     const emptyMsg=recap?"No learned words to recap under this filter yet — learn some first.":"Nothing to learn under this filter. Change filters or add words.";
     const readyMsg=(recap?(avail+" learned word"+(avail===1?"":"s")+" to recap"):(avail+" word"+(avail===1?"":"s")+" available"))+" under your current filter — sessions take up to "+settings.sessionSize+".";
+    const fp=filterProgress(done?(session.learned||0):0);
     area.appendChild(el("div",{class:"state"},[
       el("p",{class:"big"},[done?(recap?"Recap complete":"Session complete"):(avail?"Ready when you are":"All caught up")]),
       el("p",{},[done?("You worked through "+session.total+" words"+(session.learned?" and learned "+session.learned:"")+"."):(avail?readyMsg:emptyMsg)]),
-      avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"0 auto"},onclick:()=>{startSession();paintSession();}},[done?"New session":(recap?"Start recap":"Start session")]):null
+      fp.total?el("div",{},[fp.bar,el("div",{class:"sub",style:{marginTop:"8px"}},[fp.label])]):null,
+      avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"20px auto 0"},onclick:()=>{startSession();paintSession();}},[done?"New session":(recap?"Start recap":"Start session")]):null
     ]));
     return;
   }
