@@ -13986,5 +13986,2228 @@
       "word": "die Lebenserfahrung",
       "sentence": "Man merkt seine Lebenserfahrung, wenn er spricht."
     }
+  },
+  {
+    "id": "3ab1530d-1335-47e5-be87-0a88eda1f3fb",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "l'animale domestico",
+      "sentence": "Avete un animale domestico a casa, o preferite non averne?"
+    },
+    "de": {
+      "word": "das Haustier",
+      "sentence": "Habt ihr zu Hause ein Haustier, oder habt ihr lieber keines?"
+    }
+  },
+  {
+    "id": "b096f2e2-9736-4b6b-b2db-c283808c5967",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il cane",
+      "sentence": "Il nostro cane dorme sempre davanti alla porta."
+    },
+    "de": {
+      "word": "der Hund",
+      "sentence": "Unser Hund schläft immer vor der Tür."
+    }
+  },
+  {
+    "id": "d1e32918-40a5-4b3d-94b8-6566e7ff35a6",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il gatto",
+      "sentence": "Da piccolo avevo un gatto nero."
+    },
+    "de": {
+      "word": "die Katze",
+      "sentence": "Als Kind hatte ich eine schwarze Katze."
+    }
+  },
+  {
+    "id": "1753a10b-e514-4dc1-be52-944e180be5c8",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il coniglio",
+      "sentence": "Vorrei un coniglio, ma in appartamento non si può."
+    },
+    "de": {
+      "word": "das Kaninchen",
+      "sentence": "Ich hätte gern ein Kaninchen, aber in der Wohnung geht das nicht."
+    }
+  },
+  {
+    "id": "2fecf67c-23f0-47dd-8f67-41d6089b5cda",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il criceto",
+      "sentence": "Il criceto dorme tutto il giorno e di notte corre."
+    },
+    "de": {
+      "word": "der Hamster",
+      "sentence": "Der Hamster schläft den ganzen Tag und rennt nachts."
+    }
+  },
+  {
+    "id": "1ff77815-bd1a-40b4-a9cc-15d367661b62",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il pesce rosso",
+      "sentence": "Chi darà da mangiare al pesce rosso mentre saremo via?"
+    },
+    "de": {
+      "word": "der Goldfisch",
+      "sentence": "Wer wird den Goldfisch füttern, während wir weg sind?"
+    }
+  },
+  {
+    "id": "0a86bc60-76e4-4dbd-8957-db7689000181",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "portare a spasso",
+      "sentence": "Porto a spasso il cane ogni mattina prima del lavoro."
+    },
+    "de": {
+      "word": "Gassi gehen",
+      "sentence": "Ich gehe jeden Morgen vor der Arbeit mit dem Hund Gassi."
+    }
+  },
+  {
+    "id": "f0c3edcc-cee4-4efe-b16a-666e17a0cde2",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "accarezzare",
+      "sentence": "Se lo accarezzi dietro le orecchie, vedrai che si addormenta subito."
+    },
+    "de": {
+      "word": "streicheln",
+      "sentence": "Wenn du ihn hinter den Ohren streichelst, wirst du sehen, dass er sofort einschläft."
+    }
+  },
+  {
+    "id": "5bd9ab71-6a81-4f4b-a543-dda3cbdd3344",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il guinzaglio",
+      "sentence": "Tieni il cane al guinzaglio, per favore!"
+    },
+    "de": {
+      "word": "die Leine",
+      "sentence": "Halte den Hund bitte an der Leine!"
+    }
+  },
+  {
+    "id": "3c07ddd6-b416-4a17-bed0-a3dfca7bc9bb",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "adottare",
+      "sentence": "Se avessimo un giardino un po' più grande, adotteremmo subito un cane dal canile qui vicino."
+    },
+    "de": {
+      "word": "adoptieren",
+      "sentence": "Wenn wir einen etwas grösseren Garten hätten, würden wir sofort einen Hund aus dem Tierheim hier in der Nähe adoptieren."
+    }
+  },
+  {
+    "id": "507fbb12-36ba-4ab4-bd08-244af4195586",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "affezionarsi a",
+      "sentence": "Dopo averlo curato per settimane intere, ci eravamo affezionati a quel gattino più di quanto volessimo ammettere."
+    },
+    "de": {
+      "word": "ans Herz wachsen",
+      "sentence": "Nachdem wir ihn wochenlang gepflegt hatten, war uns das Kätzchen mehr ans Herz gewachsen, als wir zugeben wollten."
+    }
+  },
+  {
+    "id": "187d4a6b-d7aa-4e68-a0b0-6d5171d79957",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la mucca",
+      "sentence": "In estate le mucche stanno sull'alpe."
+    },
+    "de": {
+      "word": "die Kuh",
+      "sentence": "Im Sommer sind die Kühe auf der Alp."
+    }
+  },
+  {
+    "id": "9be50c98-5c92-4853-9be0-2178f94fd5a1",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il maiale",
+      "sentence": "I maiali sono molto più intelligenti di quanto si pensi."
+    },
+    "de": {
+      "word": "das Schwein",
+      "sentence": "Schweine sind viel klüger, als man denkt."
+    }
+  },
+  {
+    "id": "881fa48a-dcfc-41d5-ae6c-3f65be04b86b",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la pecora",
+      "sentence": "Le pecore pascolavano tranquille sul pendio."
+    },
+    "de": {
+      "word": "das Schaf",
+      "sentence": "Die Schafe weideten ruhig am Hang."
+    }
+  },
+  {
+    "id": "0320e948-52ef-4c12-9a5c-98e7ba0c5b3d",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la capra",
+      "sentence": "Con il latte di capra si fa un formaggio ottimo."
+    },
+    "de": {
+      "word": "die Ziege",
+      "sentence": "Aus Ziegenmilch macht man einen ausgezeichneten Käse."
+    }
+  },
+  {
+    "id": "52107ef1-2a43-4c96-8ddf-f0ec04c584e8",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la gallina",
+      "sentence": "Le galline hanno fatto tre uova stamattina."
+    },
+    "de": {
+      "word": "das Huhn",
+      "sentence": "Die Hühner haben heute Morgen drei Eier gelegt."
+    }
+  },
+  {
+    "id": "5f84ad69-80f8-440e-a24f-784666eecdd5",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il cavallo",
+      "sentence": "Da ragazzo montavo a cavallo ogni fine settimana."
+    },
+    "de": {
+      "word": "das Pferd",
+      "sentence": "Als Junge bin ich jedes Wochenende geritten."
+    }
+  },
+  {
+    "id": "d9b1f247-ac64-4e5e-bdc7-22fa9a957fcd",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "l'asino",
+      "sentence": "L'asino non voleva muoversi, insomma, era davvero testardo."
+    },
+    "de": {
+      "word": "der Esel",
+      "sentence": "Der Esel wollte sich nicht bewegen, kurz gesagt, er war wirklich stur."
+    }
+  },
+  {
+    "id": "6db20915-abc4-4ca6-8ead-6c08d6b33895",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la stalla",
+      "sentence": "Prima di cena bisogna ancora pulire la stalla."
+    },
+    "de": {
+      "word": "der Stall",
+      "sentence": "Vor dem Abendessen muss man noch den Stall ausmisten."
+    }
+  },
+  {
+    "id": "27d76bba-2104-4682-a535-a126d9877802",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "l'allevamento",
+      "sentence": "Si discute molto di come debba cambiare l'allevamento intensivo, benché nessuno sappia davvero da dove cominciare."
+    },
+    "de": {
+      "word": "die Tierhaltung",
+      "sentence": "Es wird viel darüber diskutiert, wie sich die intensive Tierhaltung ändern müsste, obwohl niemand wirklich weiss, wo man anfangen soll."
+    }
+  },
+  {
+    "id": "58df3617-3717-47b1-a405-6f184425290e",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "il pastore",
+      "sentence": "Il pastore, che conosceva ogni sentiero della zona, ci accompagnò fino alla baita prima che facesse buio."
+    },
+    "de": {
+      "word": "der Hirte",
+      "sentence": "Der Hirte, der jeden Pfad der Gegend kannte, begleitete uns bis zur Almhütte, bevor es dunkel wurde."
+    }
+  },
+  {
+    "id": "645b55c0-ded0-4794-8408-d136345c25b1",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il lupo",
+      "sentence": "Dicono che i lupi siano tornati in questa valle."
+    },
+    "de": {
+      "word": "der Wolf",
+      "sentence": "Man sagt, dass die Wölfe in dieses Tal zurückgekehrt sind."
+    }
+  },
+  {
+    "id": "b29aa9c8-ab07-4367-a7d5-f98a104dda97",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "l'orso",
+      "sentence": "Non abbiamo mai visto un orso, per fortuna."
+    },
+    "de": {
+      "word": "der Bär",
+      "sentence": "Wir haben zum Glück noch nie einen Bären gesehen."
+    }
+  },
+  {
+    "id": "9c3c6331-443a-4764-8a42-f7101f15e5f8",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "il cinghiale",
+      "sentence": "I cinghiali, che erano scesi dal bosco durante la notte, avevano distrutto tutto l'orto prima che ce ne accorgessimo."
+    },
+    "de": {
+      "word": "das Wildschwein",
+      "sentence": "Die Wildschweine, die nachts aus dem Wald heruntergekommen waren, hatten den ganzen Garten zerstört, bevor wir es überhaupt merkten."
+    }
+  },
+  {
+    "id": "73c9d923-e965-456a-ba83-03dce5cecd25",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la lepre",
+      "sentence": "Una lepre è scappata attraverso il campo."
+    },
+    "de": {
+      "word": "der Hase",
+      "sentence": "Ein Hase ist über das Feld geflüchtet."
+    }
+  },
+  {
+    "id": "92aab16d-8365-43cc-a58a-41f7c8043dcb",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il riccio",
+      "sentence": "Ieri sera un riccio attraversava lentamente il giardino."
+    },
+    "de": {
+      "word": "der Igel",
+      "sentence": "Gestern Abend lief ein Igel langsam durch den Garten."
+    }
+  },
+  {
+    "id": "ec3845b0-1c73-40c4-88e0-c9f20fac8477",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "il pipistrello",
+      "sentence": "Al crepuscolo si vedono i pipistrelli uscire dal vecchio fienile, dove nidificano ormai da anni."
+    },
+    "de": {
+      "word": "die Fledermaus",
+      "sentence": "In der Dämmerung sieht man die Fledermäuse aus der alten Scheune fliegen, in der sie schon seit Jahren nisten."
+    }
+  },
+  {
+    "id": "47087eab-cb91-4650-ad93-58bf71aff6c2",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il topo",
+      "sentence": "Mi sa che c'è un topo in cantina."
+    },
+    "de": {
+      "word": "die Maus",
+      "sentence": "Ich glaube, im Keller ist eine Maus."
+    }
+  },
+  {
+    "id": "ae961980-ea6f-490d-9e3f-a75174846f7e",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "il predatore",
+      "sentence": "Senza predatori l'equilibrio del bosco verrebbe compromesso, anche se molti continuano a non crederci."
+    },
+    "de": {
+      "word": "das Raubtier",
+      "sentence": "Ohne Raubtiere würde das Gleichgewicht des Waldes gestört, auch wenn viele das weiterhin nicht glauben wollen."
+    }
+  },
+  {
+    "id": "02c531f9-6563-4f0d-a5bb-a4c58f15882c",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "la preda",
+      "sentence": "La volpe aveva già portato la preda nella tana."
+    },
+    "de": {
+      "word": "die Beute",
+      "sentence": "Der Fuchs hatte die Beute bereits in den Bau gebracht."
+    }
+  },
+  {
+    "id": "44b6163b-3eb0-4088-a975-348a96a6e40a",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "l'uccello",
+      "sentence": "Che uccello è quello sul tetto?"
+    },
+    "de": {
+      "word": "der Vogel",
+      "sentence": "Was für ein Vogel ist das auf dem Dach?"
+    }
+  },
+  {
+    "id": "e1881832-02ac-4a3a-a5fe-d8b4c890dffa",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il passero",
+      "sentence": "I passeri arrivano appena metto le briciole fuori."
+    },
+    "de": {
+      "word": "der Spatz",
+      "sentence": "Die Spatzen kommen, sobald ich die Krümel nach draussen lege."
+    }
+  },
+  {
+    "id": "9ffbbcb1-bf85-4d8c-9334-5dc960759c3f",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il corvo",
+      "sentence": "I corvi sono molto più intelligenti di quanto sembri."
+    },
+    "de": {
+      "word": "die Krähe",
+      "sentence": "Krähen sind viel klüger, als es scheint."
+    }
+  },
+  {
+    "id": "d025942b-5a73-4ab3-8344-5e754cacc4cc",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il gufo",
+      "sentence": "Stanotte ho sentito un gufo dietro casa."
+    },
+    "de": {
+      "word": "die Eule",
+      "sentence": "Heute Nacht habe ich hinter dem Haus eine Eule gehört."
+    }
+  },
+  {
+    "id": "561d1d76-446d-4cb1-98b1-1e13429f9a00",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "l'aquila",
+      "sentence": "Se guarderai verso la cresta, prima o poi vedrai passare un'aquila."
+    },
+    "de": {
+      "word": "der Adler",
+      "sentence": "Wenn du zum Grat schaust, wirst du früher oder später einen Adler vorbeiziehen sehen."
+    }
+  },
+  {
+    "id": "a04393af-bb4f-478e-a1f1-1bfdd9384f68",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il gabbiano",
+      "sentence": "I gabbiani ci hanno rubato il panino!"
+    },
+    "de": {
+      "word": "die Möwe",
+      "sentence": "Die Möwen haben uns das Brötchen geklaut!"
+    }
+  },
+  {
+    "id": "e2bb6ed4-a3d7-4167-8529-24efc28f3436",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "l'anatra",
+      "sentence": "Ai bambini piace guardare le anatre sul lago."
+    },
+    "de": {
+      "word": "die Ente",
+      "sentence": "Die Kinder schauen gern den Enten auf dem See zu."
+    }
+  },
+  {
+    "id": "761337a8-9b8e-41c8-bad7-1234ddb0a190",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "la rondine",
+      "sentence": "Quando torneranno le rondini, vorrà dire che la primavera è ormai vicina."
+    },
+    "de": {
+      "word": "die Schwalbe",
+      "sentence": "Wenn die Schwalben zurückkehren, wird das heissen, dass der Frühling nun nah ist."
+    }
+  },
+  {
+    "id": "cb99c33b-0196-4ba8-aa10-34f7b9a0dff8",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "migrare",
+      "sentence": "Molti uccelli migrano verso sud prima che arrivi il freddo, seguendo rotte che non cambiano mai."
+    },
+    "de": {
+      "word": "ziehen",
+      "sentence": "Viele Vögel ziehen nach Süden, bevor die Kälte kommt, und folgen dabei Routen, die sich nie ändern."
+    }
+  },
+  {
+    "id": "37321a6e-1e9f-4899-9378-e0c21c0ed437",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il pesce",
+      "sentence": "Abbiamo visto tanti pesci nell'acqua limpida."
+    },
+    "de": {
+      "word": "der Fisch",
+      "sentence": "Wir haben viele Fische im klaren Wasser gesehen."
+    }
+  },
+  {
+    "id": "0d267376-afce-4a58-8eb1-c95200ccf2f4",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la trota",
+      "sentence": "Nel ruscello ci sono ancora delle trote."
+    },
+    "de": {
+      "word": "die Forelle",
+      "sentence": "Im Bach gibt es noch Forellen."
+    }
+  },
+  {
+    "id": "3d5a2c5e-e8a2-40d6-b2b7-3a6c82a35d7c",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la rana",
+      "sentence": "Le rane gracidano tutta la notte in primavera."
+    },
+    "de": {
+      "word": "der Frosch",
+      "sentence": "Im Frühling quaken die Frösche die ganze Nacht."
+    }
+  },
+  {
+    "id": "5eb71f61-d163-4704-b060-e72bb500f9b6",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il granchio",
+      "sentence": "Guarda, un granchio si nasconde sotto quel sasso!"
+    },
+    "de": {
+      "word": "die Krabbe",
+      "sentence": "Schau, eine Krabbe versteckt sich unter diesem Stein!"
+    }
+  },
+  {
+    "id": "4d4f6326-604e-4527-942e-19056d6bcb41",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la balena",
+      "sentence": "Vorrei tanto vedere una balena dal vivo."
+    },
+    "de": {
+      "word": "der Wal",
+      "sentence": "Ich würde sehr gern einmal einen Wal live sehen."
+    }
+  },
+  {
+    "id": "a04a2013-be35-44b8-96b7-ed17709523cf",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il delfino",
+      "sentence": "I delfini seguivano la barca da un bel po'."
+    },
+    "de": {
+      "word": "der Delfin",
+      "sentence": "Die Delfine folgten dem Boot schon eine ganze Weile."
+    }
+  },
+  {
+    "id": "2f0e1e31-c76e-4f6d-aeb6-34e1d3148948",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "lo squalo",
+      "sentence": "Benché siano temuti in tutto il mondo, gli squali attaccano l'uomo molto più raramente di quanto si creda."
+    },
+    "de": {
+      "word": "der Hai",
+      "sentence": "Obwohl sie weltweit gefürchtet werden, greifen Haie den Menschen viel seltener an, als man glaubt."
+    }
+  },
+  {
+    "id": "d7f145b7-3132-4da5-a0b2-2b46c1abaa20",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la formica",
+      "sentence": "Le formiche hanno trovato lo zucchero in cucina."
+    },
+    "de": {
+      "word": "die Ameise",
+      "sentence": "Die Ameisen haben den Zucker in der Küche gefunden."
+    }
+  },
+  {
+    "id": "543ba9fa-b668-4114-a5d9-559149c75ba1",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la zanzara",
+      "sentence": "Le zanzare non mi hanno lasciato dormire, purtroppo."
+    },
+    "de": {
+      "word": "die Mücke",
+      "sentence": "Die Mücken haben mich leider nicht schlafen lassen."
+    }
+  },
+  {
+    "id": "8c69aa41-2a27-43b9-866f-2db480d84ee7",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la mosca",
+      "sentence": "C'è una mosca che gira intorno alla lampada."
+    },
+    "de": {
+      "word": "die Fliege",
+      "sentence": "Da fliegt eine Fliege um die Lampe herum."
+    }
+  },
+  {
+    "id": "f2fb5aad-f37c-4a9f-8c43-c98b61f7ecf2",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il ragno",
+      "sentence": "Non uccidere il ragno, mangia le zanzare!"
+    },
+    "de": {
+      "word": "die Spinne",
+      "sentence": "Töte die Spinne nicht, sie frisst die Mücken!"
+    }
+  },
+  {
+    "id": "cb9bfd29-a2ae-4623-bec8-e554e48a20da",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la lumaca",
+      "sentence": "Dopo la pioggia il sentiero era pieno di lumache."
+    },
+    "de": {
+      "word": "die Schnecke",
+      "sentence": "Nach dem Regen war der Weg voller Schnecken."
+    }
+  },
+  {
+    "id": "85c2aa57-3c5e-48ec-ae51-808b73be4939",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "pungere",
+      "sentence": "Mi ha punto un'ape mentre raccoglievo i fiori."
+    },
+    "de": {
+      "word": "stechen",
+      "sentence": "Eine Biene hat mich gestochen, während ich Blumen pflückte."
+    }
+  },
+  {
+    "id": "42573b17-0697-4974-922d-8763a2a8f5b8",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "l'alveare",
+      "sentence": "Se avessimo un po' più di spazio dietro casa, metteremmo volentieri un alveare in fondo al giardino."
+    },
+    "de": {
+      "word": "der Bienenstock",
+      "sentence": "Wenn wir hinter dem Haus etwas mehr Platz hätten, würden wir gern einen Bienenstock hinten im Garten aufstellen."
+    }
+  },
+  {
+    "id": "21ec4daa-91f1-4e23-92a1-1010c0f9ad35",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il serpente",
+      "sentence": "Attento, qui si vedono a volte dei serpenti!"
+    },
+    "de": {
+      "word": "die Schlange",
+      "sentence": "Vorsicht, hier sieht man manchmal Schlangen!"
+    }
+  },
+  {
+    "id": "c13f0144-b95e-4433-9c02-26aba1adc52f",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la lucertola",
+      "sentence": "Le lucertole si scaldano al sole sul muretto."
+    },
+    "de": {
+      "word": "die Eidechse",
+      "sentence": "Die Eidechsen wärmen sich auf der Mauer in der Sonne."
+    }
+  },
+  {
+    "id": "1ad8d83d-99ad-4340-8bde-fb84d0b93905",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la tartaruga",
+      "sentence": "La tartaruga di mia nonna ha più di trent'anni."
+    },
+    "de": {
+      "word": "die Schildkröte",
+      "sentence": "Die Schildkröte meiner Grossmutter ist über dreissig Jahre alt."
+    }
+  },
+  {
+    "id": "d08e04fe-2b04-431d-a78c-fcc8f068d6f1",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "velenoso",
+      "sentence": "Anche se sembra pericoloso a prima vista, questo serpente non è affatto velenoso."
+    },
+    "de": {
+      "word": "giftig",
+      "sentence": "Auch wenn sie auf den ersten Blick gefährlich aussieht, ist diese Schlange überhaupt nicht giftig."
+    }
+  },
+  {
+    "id": "07b9515c-75c7-4109-905b-5fadd942d3dd",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la zampa",
+      "sentence": "Il cane si è ferito una zampa."
+    },
+    "de": {
+      "word": "die Pfote",
+      "sentence": "Der Hund hat sich eine Pfote verletzt."
+    }
+  },
+  {
+    "id": "73033f93-58a3-407a-b916-7484544a13e6",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la coda",
+      "sentence": "Quando muove la coda, vuol dire che è contento."
+    },
+    "de": {
+      "word": "der Schwanz",
+      "sentence": "Wenn er mit dem Schwanz wedelt, heisst das, dass er sich freut."
+    }
+  },
+  {
+    "id": "29fa681d-8b25-4bf1-ac5b-3cc26969d1b6",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "l'ala",
+      "sentence": "L'uccellino si era rotto un'ala."
+    },
+    "de": {
+      "word": "der Flügel",
+      "sentence": "Der kleine Vogel hatte sich einen Flügel gebrochen."
+    }
+  },
+  {
+    "id": "132b5d68-1e57-433a-8b18-668e5c2b6698",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "il becco",
+      "sentence": "Con il becco riesce ad aprire perfino i gusci più duri, cosa che agli altri uccelli non riesce."
+    },
+    "de": {
+      "word": "der Schnabel",
+      "sentence": "Mit dem Schnabel schafft er es, sogar die härtesten Schalen zu öffnen, was den anderen Vögeln nicht gelingt."
+    }
+  },
+  {
+    "id": "e337b872-c559-445b-a294-dbcf645a284d",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il pelo",
+      "sentence": "D'inverno il suo pelo diventa più folto."
+    },
+    "de": {
+      "word": "das Fell",
+      "sentence": "Im Winter wird sein Fell dichter."
+    }
+  },
+  {
+    "id": "d36a97d6-8b7d-433b-8dac-8ccd530c5c89",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la piuma",
+      "sentence": "Ho trovato una piuma bianca sul balcone."
+    },
+    "de": {
+      "word": "die Feder",
+      "sentence": "Ich habe eine weisse Feder auf dem Balkon gefunden."
+    }
+  },
+  {
+    "id": "d855a4cb-10e5-4668-bdb3-faae787a315f",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "il corno",
+      "sentence": "Lo stambecco, le cui corna erano enormi, ci osservava dall'alto senza muoversi di un centimetro."
+    },
+    "de": {
+      "word": "das Horn",
+      "sentence": "Der Steinbock, dessen Hörner riesig waren, beobachtete uns von oben, ohne sich einen Zentimeter zu bewegen."
+    }
+  },
+  {
+    "id": "aec02b01-9e48-4a45-a1c2-64af99198768",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "la zampa artigliata",
+      "sentence": "Bisognerebbe tagliargli le unghie ogni tanto, altrimenti continuerà a graffiare il divano."
+    },
+    "de": {
+      "word": "die Kralle",
+      "sentence": "Man müsste ihm ab und zu die Krallen schneiden, sonst wird er weiterhin das Sofa zerkratzen."
+    }
+  },
+  {
+    "id": "374b99f2-80c2-47bd-b508-ddcb3676b231",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "abbaiare",
+      "sentence": "Il cane del vicino abbaia tutta la notte."
+    },
+    "de": {
+      "word": "bellen",
+      "sentence": "Der Hund des Nachbarn bellt die ganze Nacht."
+    }
+  },
+  {
+    "id": "f1b65b15-1532-47bf-a3bc-c88c439e1010",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "miagolare",
+      "sentence": "Il gatto miagola sempre quando ha fame."
+    },
+    "de": {
+      "word": "miauen",
+      "sentence": "Die Katze miaut immer, wenn sie Hunger hat."
+    }
+  },
+  {
+    "id": "36ca03f4-7006-41eb-9baa-23c057413387",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "cinguettare",
+      "sentence": "Gli uccelli cinguettavano già da un pezzo, prima ancora che sorgesse il sole."
+    },
+    "de": {
+      "word": "zwitschern",
+      "sentence": "Die Vögel zwitscherten schon eine ganze Weile, noch bevor die Sonne aufging."
+    }
+  },
+  {
+    "id": "ac67463c-2622-4ba1-bc6a-705e11e99342",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "ruggire",
+      "sentence": "Si sentiva il leone ruggire da lontano."
+    },
+    "de": {
+      "word": "brüllen",
+      "sentence": "Man hörte den Löwen von Weitem brüllen."
+    }
+  },
+  {
+    "id": "0b31fbe2-0353-4da8-bfa5-9d20720e5598",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "volare",
+      "sentence": "Guarda come vola in alto!"
+    },
+    "de": {
+      "word": "fliegen",
+      "sentence": "Schau, wie hoch er fliegt!"
+    }
+  },
+  {
+    "id": "0f9c8630-db0b-4bc9-b5b1-a23a51531249",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "strisciare",
+      "sentence": "Il serpente strisciava lentamente tra le pietre calde, senza accorgersi di noi."
+    },
+    "de": {
+      "word": "kriechen",
+      "sentence": "Die Schlange kroch langsam zwischen den warmen Steinen, ohne uns zu bemerken."
+    }
+  },
+  {
+    "id": "efb69a50-1960-4d8a-9038-587d37d51a1b",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "saltare",
+      "sentence": "Il gatto è saltato sul tavolo di nuovo."
+    },
+    "de": {
+      "word": "springen",
+      "sentence": "Die Katze ist wieder auf den Tisch gesprungen."
+    }
+  },
+  {
+    "id": "a4462761-e601-4d17-8cad-012360c47a5a",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "nuotare",
+      "sentence": "Anche i gatti sanno nuotare, anche se non gli piace."
+    },
+    "de": {
+      "word": "schwimmen",
+      "sentence": "Auch Katzen können schwimmen, obwohl es ihnen nicht gefällt."
+    }
+  },
+  {
+    "id": "f481344a-8880-4182-9929-e459be69fea2",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "cacciare",
+      "sentence": "I gufi cacciano soprattutto di notte."
+    },
+    "de": {
+      "word": "jagen",
+      "sentence": "Eulen jagen vor allem nachts."
+    }
+  },
+  {
+    "id": "dec04732-de79-42e5-aa12-a84058298e54",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "il branco",
+      "sentence": "I lupi, che cacciano sempre in branco, comunicano tra loro con ululati che si sentono a chilometri di distanza."
+    },
+    "de": {
+      "word": "das Rudel",
+      "sentence": "Die Wölfe, die immer im Rudel jagen, verständigen sich durch Heulen, das man kilometerweit hört."
+    }
+  },
+  {
+    "id": "ac69ae77-6f35-4d13-bdf3-25d3066df17a",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "andare in letargo",
+      "sentence": "Le marmotte vanno in letargo appena arriva il freddo e non si rivedono fino a primavera inoltrata."
+    },
+    "de": {
+      "word": "Winterschlaf halten",
+      "sentence": "Die Murmeltiere halten Winterschlaf, sobald die Kälte kommt, und zeigen sich erst im späten Frühling wieder."
+    }
+  },
+  {
+    "id": "e981eeba-dafa-4519-a3fd-5c493110e01c",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "addomesticato",
+      "sentence": "Sembra addomesticato perché si lascia avvicinare, però resta pur sempre un animale selvatico."
+    },
+    "de": {
+      "word": "zahm",
+      "sentence": "Er wirkt zahm, weil er sich nähern lässt, bleibt aber trotzdem ein Wildtier."
+    }
+  },
+  {
+    "id": "4fa8c045-2e26-4266-92f5-a7bf289a20e2",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "mordere",
+      "sentence": "Non toccarlo, potrebbe morderti!"
+    },
+    "de": {
+      "word": "beissen",
+      "sentence": "Fass ihn nicht an, er könnte dich beissen!"
+    }
+  },
+  {
+    "id": "09be990d-3ca2-4d0a-8aea-2518c33e5255",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "graffiare",
+      "sentence": "Il gatto mi ha graffiato il braccio."
+    },
+    "de": {
+      "word": "kratzen",
+      "sentence": "Die Katze hat mir den Arm zerkratzt."
+    }
+  },
+  {
+    "id": "6df2d51c-1231-4f5f-b3cf-811db2228a22",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "nutrirsi di",
+      "sentence": "Questa specie si nutre quasi esclusivamente di insetti, motivo per cui sparisce dove si usano troppi pesticidi."
+    },
+    "de": {
+      "word": "sich ernähren von",
+      "sentence": "Diese Art ernährt sich fast ausschliesslich von Insekten, weshalb sie dort verschwindet, wo zu viele Pestizide eingesetzt werden."
+    }
+  },
+  {
+    "id": "6483573d-1628-4fba-b709-a575266a2743",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il veterinario",
+      "sentence": "Domani devo portare il gatto dal veterinario."
+    },
+    "de": {
+      "word": "der Tierarzt",
+      "sentence": "Morgen muss ich die Katze zum Tierarzt bringen."
+    }
+  },
+  {
+    "id": "ad11ac61-2dc7-4a03-8dc4-660502586bb4",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "dare da mangiare",
+      "sentence": "Avete già dato da mangiare al cane, o devo pensarci io?"
+    },
+    "de": {
+      "word": "füttern",
+      "sentence": "Habt ihr den Hund schon gefüttert, oder muss ich mich darum kümmern?"
+    }
+  },
+  {
+    "id": "02946f10-af40-41aa-bc91-fc7dab26320a",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la gabbia",
+      "sentence": "Trovo triste tenere un uccello in gabbia."
+    },
+    "de": {
+      "word": "der Käfig",
+      "sentence": "Ich finde es traurig, einen Vogel im Käfig zu halten."
+    }
+  },
+  {
+    "id": "9fe8e01c-5c64-4252-9131-bf0535b918a7",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "il canile",
+      "sentence": "L'abbiamo preso al canile, dove viveva già da due anni senza che nessuno lo volesse."
+    },
+    "de": {
+      "word": "das Tierheim",
+      "sentence": "Wir haben ihn aus dem Tierheim geholt, wo er schon zwei Jahre lebte, ohne dass ihn jemand wollte."
+    }
+  },
+  {
+    "id": "6cf8c8db-f23a-40bc-b15d-d3a383b1ca0b",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "sterilizzare",
+      "sentence": "Il veterinario ci ha consigliato di sterilizzarla, dopo averci spiegato tutti i vantaggi."
+    },
+    "de": {
+      "word": "sterilisieren",
+      "sentence": "Der Tierarzt hat uns geraten, sie sterilisieren zu lassen, nachdem er uns alle Vorteile erklärt hatte."
+    }
+  },
+  {
+    "id": "8263e468-763e-4e4d-9324-75f913434794",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il cucciolo",
+      "sentence": "I cuccioli sono nati la settimana scorsa e fra un mese saranno già indipendenti."
+    },
+    "de": {
+      "word": "das Junge",
+      "sentence": "Die Jungen sind letzte Woche geboren und werden in einem Monat schon selbstständig sein."
+    }
+  },
+  {
+    "id": "0ded55b1-a50d-4ac6-90cb-51c694129727",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "la specie",
+      "sentence": "Molte specie scompariranno se non si interverrà molto presto."
+    },
+    "de": {
+      "word": "die Art",
+      "sentence": "Viele Arten werden verschwinden, wenn man nicht sehr bald eingreift."
+    }
+  },
+  {
+    "id": "0a816bc9-05ad-44b1-ae74-aa8eae2d41fd",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "in via di estinzione",
+      "sentence": "Si tratta di una specie in via di estinzione, che ormai si trova soltanto in poche valli."
+    },
+    "de": {
+      "word": "vom Aussterben bedroht",
+      "sentence": "Es handelt sich um eine vom Aussterben bedrohte Art, die man inzwischen nur noch in wenigen Tälern findet."
+    }
+  },
+  {
+    "id": "ef95985f-7714-4e62-bb57-def8611ec232",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "la protezione degli animali",
+      "sentence": "La protezione degli animali è regolata da leggi severe, che però non vengono sempre applicate."
+    },
+    "de": {
+      "word": "der Tierschutz",
+      "sentence": "Der Tierschutz wird durch strenge Gesetze geregelt, die allerdings nicht immer durchgesetzt werden."
+    }
+  },
+  {
+    "id": "996f7280-2dbe-41eb-bb4d-e373b61c2811",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "maltrattare",
+      "sentence": "Chi maltratta gli animali viene punito severamente, anche se le denunce restano poche."
+    },
+    "de": {
+      "word": "misshandeln",
+      "sentence": "Wer Tiere misshandelt, wird streng bestraft, auch wenn nur wenige Anzeigen erstattet werden."
+    }
+  },
+  {
+    "id": "20adcc44-7938-45ac-a601-acacd3dd8c52",
+    "level": "B2",
+    "topic": "Animals",
+    "it": {
+      "word": "l'habitat",
+      "sentence": "Il loro habitat si è ridotto notevolmente da quando è stata costruita la nuova strada."
+    },
+    "de": {
+      "word": "der Lebensraum",
+      "sentence": "Ihr Lebensraum hat sich stark verkleinert, seit die neue Strasse gebaut worden ist."
+    }
+  },
+  {
+    "id": "3e6e2ea8-f69f-4f3a-a723-40f1bf9b1dae",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la testa",
+      "sentence": "Mi gira un po' la testa, mi siedo un attimo."
+    },
+    "de": {
+      "word": "der Kopf",
+      "sentence": "Mir ist etwas schwindlig, ich setze mich kurz."
+    }
+  },
+  {
+    "id": "2845f81d-4d04-4284-b1f4-0a224140b31f",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "i capelli",
+      "sentence": "Mi sono tagliato i capelli ieri."
+    },
+    "de": {
+      "word": "die Haare",
+      "sentence": "Ich habe mir gestern die Haare geschnitten."
+    }
+  },
+  {
+    "id": "009d4f93-d374-4e26-8ced-ebf0c34291e4",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la fronte",
+      "sentence": "Aveva la fronte sudata dopo la corsa."
+    },
+    "de": {
+      "word": "die Stirn",
+      "sentence": "Er hatte nach dem Lauf eine verschwitzte Stirn."
+    }
+  },
+  {
+    "id": "40d5d2f8-40d5-4f93-a647-0f711487be69",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "l'occhio",
+      "sentence": "Mi è entrato qualcosa nell'occhio."
+    },
+    "de": {
+      "word": "das Auge",
+      "sentence": "Mir ist etwas ins Auge geraten."
+    }
+  },
+  {
+    "id": "e4ea0c2d-2f9b-4308-96ff-65bf39623507",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il naso",
+      "sentence": "Con questo freddo mi cola sempre il naso."
+    },
+    "de": {
+      "word": "die Nase",
+      "sentence": "Bei dieser Kälte läuft mir ständig die Nase."
+    }
+  },
+  {
+    "id": "6678e126-0e36-48f5-a8d5-9527f1578725",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la bocca",
+      "sentence": "Apri la bocca, disse il dentista."
+    },
+    "de": {
+      "word": "der Mund",
+      "sentence": "Mach den Mund auf, sagte der Zahnarzt."
+    }
+  },
+  {
+    "id": "99647cf3-6578-4745-a1fa-f119a519e9fb",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il labbro",
+      "sentence": "D'inverno mi si screpolano le labbra."
+    },
+    "de": {
+      "word": "die Lippe",
+      "sentence": "Im Winter werden meine Lippen rissig."
+    }
+  },
+  {
+    "id": "5dec5622-a655-4d7e-9cef-e7c9e8a78c4f",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il dente",
+      "sentence": "Mi fa male un dente da due giorni."
+    },
+    "de": {
+      "word": "der Zahn",
+      "sentence": "Mir tut seit zwei Tagen ein Zahn weh."
+    }
+  },
+  {
+    "id": "3cb422e6-d098-4ed5-8c84-b65144bbfb23",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la lingua",
+      "sentence": "Mi sono morso la lingua mentre mangiavo."
+    },
+    "de": {
+      "word": "die Zunge",
+      "sentence": "Ich habe mir beim Essen auf die Zunge gebissen."
+    }
+  },
+  {
+    "id": "bb37a47b-6931-4e25-b9b0-1173d089b801",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "l'orecchio",
+      "sentence": "Da quel volo mi fa male un orecchio."
+    },
+    "de": {
+      "word": "das Ohr",
+      "sentence": "Seit diesem Flug tut mir ein Ohr weh."
+    }
+  },
+  {
+    "id": "f4d46931-73ca-4215-924f-194f573684bb",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la guancia",
+      "sentence": "Il bambino aveva le guance rosse dal freddo."
+    },
+    "de": {
+      "word": "die Wange",
+      "sentence": "Das Kind hatte vor Kälte rote Wangen."
+    }
+  },
+  {
+    "id": "724ef095-8ba7-485d-9c85-ad25f0595a7a",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il mento",
+      "sentence": "Cadendo dalla bici da bambino, si era ferito il mento e da allora ha una piccola cicatrice."
+    },
+    "de": {
+      "word": "das Kinn",
+      "sentence": "Als er als Kind vom Velo stürzte, verletzte er sich das Kinn und hat seither eine kleine Narbe."
+    }
+  },
+  {
+    "id": "0cfdf215-1842-48c5-9b42-75546bbaf282",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il collo",
+      "sentence": "Ho dormito male e adesso mi fa male il collo."
+    },
+    "de": {
+      "word": "der Hals",
+      "sentence": "Ich habe schlecht geschlafen und jetzt tut mir der Hals weh."
+    }
+  },
+  {
+    "id": "4b139e97-d90f-47b2-80df-3c842d6fbddb",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la spalla",
+      "sentence": "Porto tutto il peso su una spalla sola."
+    },
+    "de": {
+      "word": "die Schulter",
+      "sentence": "Ich trage das ganze Gewicht auf nur einer Schulter."
+    }
+  },
+  {
+    "id": "f9ce2a5f-258c-412d-a44f-c478007619c9",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il petto",
+      "sentence": "Sentiva una leggera pressione al petto."
+    },
+    "de": {
+      "word": "die Brust",
+      "sentence": "Er spürte einen leichten Druck auf der Brust."
+    }
+  },
+  {
+    "id": "01a9ac92-0d0f-464e-8cb4-41161a37fb16",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la schiena",
+      "sentence": "Da quando lavoro seduto, mi fa male la schiena."
+    },
+    "de": {
+      "word": "der Rücken",
+      "sentence": "Seit ich sitzend arbeite, tut mir der Rücken weh."
+    }
+  },
+  {
+    "id": "1cd760db-5183-47e6-9513-e2297fae9d97",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la pancia",
+      "sentence": "Ho mangiato troppo, adesso mi fa male la pancia."
+    },
+    "de": {
+      "word": "der Bauch",
+      "sentence": "Ich habe zu viel gegessen, jetzt tut mir der Bauch weh."
+    }
+  },
+  {
+    "id": "265c2882-cc5b-4cdd-883c-bb5a3bcae15b",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il fianco",
+      "sentence": "Dopo la caduta, il fianco le faceva ancora male da settimane."
+    },
+    "de": {
+      "word": "die Hüfte",
+      "sentence": "Nach dem Sturz tat ihr die Hüfte noch wochenlang weh."
+    }
+  },
+  {
+    "id": "785f17d9-18ea-45ca-91e9-fd420f4fabbc",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "la vita",
+      "sentence": "Questi pantaloni mi stanno stretti in vita."
+    },
+    "de": {
+      "word": "die Taille",
+      "sentence": "Diese Hose ist mir in der Taille zu eng."
+    }
+  },
+  {
+    "id": "ebdbb43d-c873-4e61-8dfb-6c4ccabb8543",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il braccio",
+      "sentence": "Mi sono rotto un braccio da bambino."
+    },
+    "de": {
+      "word": "der Arm",
+      "sentence": "Ich habe mir als Kind einen Arm gebrochen."
+    }
+  },
+  {
+    "id": "3f711e80-4aaf-4a43-ab0b-6bdea10dbcbc",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il gomito",
+      "sentence": "Ho battuto il gomito contro la porta."
+    },
+    "de": {
+      "word": "der Ellbogen",
+      "sentence": "Ich habe mir den Ellbogen an der Tür gestossen."
+    }
+  },
+  {
+    "id": "baae235a-153f-4ccc-937f-61204eb61da2",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la mano",
+      "sentence": "Lavati le mani prima di mangiare!"
+    },
+    "de": {
+      "word": "die Hand",
+      "sentence": "Wasch dir die Hände vor dem Essen!"
+    }
+  },
+  {
+    "id": "86729c72-e13f-4453-ab71-06a56649bb00",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il dito",
+      "sentence": "Mi sono tagliato un dito con il coltello."
+    },
+    "de": {
+      "word": "der Finger",
+      "sentence": "Ich habe mir mit dem Messer in den Finger geschnitten."
+    }
+  },
+  {
+    "id": "34d59f8c-c22a-4c28-a963-8d7934741b14",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il polso",
+      "sentence": "Se non ti fossi fatto male al polso, avresti potuto continuare l'escursione con noi."
+    },
+    "de": {
+      "word": "das Handgelenk",
+      "sentence": "Wenn du dir das Handgelenk nicht verletzt hättest, hättest du die Wanderung mit uns fortsetzen können."
+    }
+  },
+  {
+    "id": "395a48d0-34d6-4dbf-a74b-e132c189c944",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "l'unghia",
+      "sentence": "Devo tagliarmi le unghie."
+    },
+    "de": {
+      "word": "der Fingernagel",
+      "sentence": "Ich muss mir die Fingernägel schneiden."
+    }
+  },
+  {
+    "id": "12539577-1424-4936-9acf-3ca2d82bfac9",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il pugno",
+      "sentence": "Stringeva i pugni sotto il tavolo senza dire una sola parola."
+    },
+    "de": {
+      "word": "die Faust",
+      "sentence": "Er ballte unter dem Tisch die Fäuste, ohne ein einziges Wort zu sagen."
+    }
+  },
+  {
+    "id": "fa7ad735-07a5-4f5b-a1e8-5e54b8f3a718",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la gamba",
+      "sentence": "Dopo la camminata mi facevano male le gambe."
+    },
+    "de": {
+      "word": "das Bein",
+      "sentence": "Nach der Wanderung taten mir die Beine weh."
+    }
+  },
+  {
+    "id": "c0d4bc8f-7e9a-4f72-b3d9-6a50f792e85f",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il ginocchio",
+      "sentence": "Da giovane mi sono operato al ginocchio."
+    },
+    "de": {
+      "word": "das Knie",
+      "sentence": "Als junger Mann bin ich am Knie operiert worden."
+    }
+  },
+  {
+    "id": "878f9b58-71e7-4d64-9a22-5c29cb843891",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il piede",
+      "sentence": "Vado al lavoro a piedi ogni giorno."
+    },
+    "de": {
+      "word": "der Fuss",
+      "sentence": "Ich gehe jeden Tag zu Fuss zur Arbeit."
+    }
+  },
+  {
+    "id": "1ac587a1-64e9-4539-93aa-0cd591af235e",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "la caviglia",
+      "sentence": "Si è storta la caviglia mentre scendeva dal sentiero, proprio dove le pietre erano bagnate."
+    },
+    "de": {
+      "word": "der Knöchel",
+      "sentence": "Sie hat sich den Knöchel verstaucht, als sie den Weg hinunterging, genau dort wo die Steine nass waren."
+    }
+  },
+  {
+    "id": "8eb969e7-f072-47ac-a0eb-c1945751ec09",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il tallone",
+      "sentence": "Con le scarpe nuove mi è venuta una vescica al tallone dopo nemmeno due ore."
+    },
+    "de": {
+      "word": "die Ferse",
+      "sentence": "Mit den neuen Schuhen habe ich nach nicht einmal zwei Stunden eine Blase an der Ferse bekommen."
+    }
+  },
+  {
+    "id": "3ad9e1ea-2ea7-4b3d-b7d8-782d5373cfbb",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "la coscia",
+      "sentence": "Dopo l'allenamento di ieri sentiva le cosce così indolenzite che faceva fatica a scendere le scale."
+    },
+    "de": {
+      "word": "der Oberschenkel",
+      "sentence": "Nach dem gestrigen Training spürte er die Oberschenkel so sehr, dass ihm das Treppensteigen schwerfiel."
+    }
+  },
+  {
+    "id": "3e706ac7-b987-45d0-abd9-6d772ac81723",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "l'osso",
+      "sentence": "Per fortuna non si è rotto nessun osso."
+    },
+    "de": {
+      "word": "der Knochen",
+      "sentence": "Zum Glück ist kein Knochen gebrochen."
+    }
+  },
+  {
+    "id": "a54a93d5-d2bd-42a3-b516-357013a6565c",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il muscolo",
+      "sentence": "Mi fanno male tutti i muscoli."
+    },
+    "de": {
+      "word": "der Muskel",
+      "sentence": "Mir tun alle Muskeln weh."
+    }
+  },
+  {
+    "id": "0f55f95f-bb19-43e3-896a-2dd5907fac43",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il sangue",
+      "sentence": "Alla vista del sangue è diventato pallido."
+    },
+    "de": {
+      "word": "das Blut",
+      "sentence": "Beim Anblick von Blut wurde er blass."
+    }
+  },
+  {
+    "id": "d56575a7-dd35-401d-8f73-e5236f21a705",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "l'articolazione",
+      "sentence": "Con l'umidità le articolazioni fanno più male, per cui d'autunno si muove molto meno."
+    },
+    "de": {
+      "word": "das Gelenk",
+      "sentence": "Bei Feuchtigkeit tun die Gelenke mehr weh, weshalb er sich im Herbst viel weniger bewegt."
+    }
+  },
+  {
+    "id": "ff0f7000-d23b-49d6-af11-163c2c7e1d7e",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "la colonna vertebrale",
+      "sentence": "Il medico gli ha spiegato che la colonna vertebrale va sostenuta meglio, soprattutto quando si lavora seduti tutto il giorno."
+    },
+    "de": {
+      "word": "die Wirbelsäule",
+      "sentence": "Der Arzt hat ihm erklärt, dass die Wirbelsäule besser gestützt werden muss, vor allem wenn man den ganzen Tag sitzend arbeitet."
+    }
+  },
+  {
+    "id": "2db9e20b-7bfe-4d94-84f7-4c5cdbf98776",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il cuore",
+      "sentence": "Dopo le scale il cuore mi batteva forte."
+    },
+    "de": {
+      "word": "das Herz",
+      "sentence": "Nach den Treppen schlug mir das Herz heftig."
+    }
+  },
+  {
+    "id": "ad7ac24a-085a-4864-bc5b-066929a8cceb",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il polmone",
+      "sentence": "Da quando ha smesso di fumare, i polmoni si sono ripresi più in fretta di quanto sperasse."
+    },
+    "de": {
+      "word": "die Lunge",
+      "sentence": "Seit er aufgehört hat zu rauchen, haben sich die Lungen schneller erholt, als er gehofft hatte."
+    }
+  },
+  {
+    "id": "1efbc440-eca5-4813-88ad-bd7357e7c0c3",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "lo stomaco",
+      "sentence": "Ho lo stomaco chiuso, non riesco a mangiare."
+    },
+    "de": {
+      "word": "der Magen",
+      "sentence": "Mein Magen ist wie zugeschnürt, ich kann nichts essen."
+    }
+  },
+  {
+    "id": "2793fa27-42f3-4d04-b0c2-03a80ea6caba",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il cervello",
+      "sentence": "Si dice che il cervello continui a cambiare per tutta la vita, il che è piuttosto rassicurante."
+    },
+    "de": {
+      "word": "das Gehirn",
+      "sentence": "Man sagt, dass sich das Gehirn ein Leben lang weiter verändert, was ziemlich beruhigend ist."
+    }
+  },
+  {
+    "id": "0208eaed-a885-4916-86c4-ddb1f038f742",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il fegato",
+      "sentence": "Il medico gli ha consigliato di bere meno, dopo che gli esami avevano mostrato valori alti al fegato."
+    },
+    "de": {
+      "word": "die Leber",
+      "sentence": "Der Arzt hat ihm geraten, weniger zu trinken, nachdem die Untersuchungen erhöhte Leberwerte gezeigt hatten."
+    }
+  },
+  {
+    "id": "b2ace8b7-6ffb-4077-8c0a-c98d695a64d7",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il rene",
+      "sentence": "Bevi abbastanza durante la giornata, altrimenti i reni ne risentiranno."
+    },
+    "de": {
+      "word": "die Niere",
+      "sentence": "Trink tagsüber genug, sonst werden die Nieren darunter leiden."
+    }
+  },
+  {
+    "id": "f9a7b058-ab3f-410f-a306-e3256f6ca858",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "la vista",
+      "sentence": "Con l'età la vista peggiora, comunque bastano degli occhiali buoni per non accorgersene troppo."
+    },
+    "de": {
+      "word": "das Sehvermögen",
+      "sentence": "Mit dem Alter wird das Sehvermögen schlechter, immerhin genügt eine gute Brille, damit man es kaum merkt."
+    }
+  },
+  {
+    "id": "b61720b8-3d1d-49ed-9aed-4e4fa4e43595",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "l'udito",
+      "sentence": "Se avessi protetto meglio l'udito da giovane, adesso non dovrei farmi ripetere ogni frase."
+    },
+    "de": {
+      "word": "das Gehör",
+      "sentence": "Wenn ich mein Gehör als junger Mensch besser geschützt hätte, müsste ich mir jetzt nicht jeden Satz wiederholen lassen."
+    }
+  },
+  {
+    "id": "6e657a43-0ed7-4b0e-9af2-96a85248101b",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il gusto",
+      "sentence": "Con il raffreddore ho perso completamente il gusto, tanto che non distinguo il sale dallo zucchero."
+    },
+    "de": {
+      "word": "der Geschmackssinn",
+      "sentence": "Mit der Erkältung habe ich den Geschmackssinn völlig verloren, sodass ich Salz nicht von Zucker unterscheide."
+    }
+  },
+  {
+    "id": "49986363-efa1-4d9b-813a-0880fa9fa528",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "l'olfatto",
+      "sentence": "L'olfatto è legato alla memoria molto più di quanto si creda, tant'è che un odore basta a riportarti indietro di anni."
+    },
+    "de": {
+      "word": "der Geruchssinn",
+      "sentence": "Der Geruchssinn ist viel enger mit dem Gedächtnis verbunden, als man glaubt, sodass ein Geruch genügt, um einen Jahre zurückzuversetzen."
+    }
+  },
+  {
+    "id": "c300305e-2af1-42cd-a8f9-bab44883cdcc",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il tatto",
+      "sentence": "Riconosceva i tessuti soltanto con il tatto, dopo aver lavorato quarant'anni in sartoria."
+    },
+    "de": {
+      "word": "der Tastsinn",
+      "sentence": "Er erkannte die Stoffe allein mit dem Tastsinn, nachdem er vierzig Jahre in der Schneiderei gearbeitet hatte."
+    }
+  },
+  {
+    "id": "d4773522-da7e-44f3-b114-5ec046fa1784",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "respirare",
+      "sentence": "Respira profondamente e rilassati."
+    },
+    "de": {
+      "word": "atmen",
+      "sentence": "Atme tief und entspann dich."
+    }
+  },
+  {
+    "id": "a0a1e55a-0dd7-40d9-bba4-c3f17cc1ba19",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "sudare",
+      "sentence": "Ho sudato tantissimo durante la salita."
+    },
+    "de": {
+      "word": "schwitzen",
+      "sentence": "Ich habe beim Aufstieg sehr geschwitzt."
+    }
+  },
+  {
+    "id": "52f90253-9a67-4a2d-bc58-77d88b3a355a",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "digerire",
+      "sentence": "Dopo aver mangiato così tanto ieri sera, oggi faccio ancora fatica a digerire."
+    },
+    "de": {
+      "word": "verdauen",
+      "sentence": "Nachdem ich gestern Abend so viel gegessen habe, fällt mir das Verdauen heute immer noch schwer."
+    }
+  },
+  {
+    "id": "4d0ea4a5-fe25-4f45-8a05-3f0196887fae",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "deglutire",
+      "sentence": "Mi fa male ogni volta che deglutisco, quindi domani passo dal medico."
+    },
+    "de": {
+      "word": "schlucken",
+      "sentence": "Es tut jedes Mal weh, wenn ich schlucke, also gehe ich morgen zum Arzt."
+    }
+  },
+  {
+    "id": "34cc55a6-477a-4029-8211-dd237e2d01f6",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "battere",
+      "sentence": "Il cuore le batteva forte per l'emozione."
+    },
+    "de": {
+      "word": "schlagen",
+      "sentence": "Ihr Herz schlug heftig vor Aufregung."
+    }
+  },
+  {
+    "id": "c472cf57-aa40-4508-82f9-b6036f9daebe",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "tremare",
+      "sentence": "Mi tremavano le mani dal freddo."
+    },
+    "de": {
+      "word": "zittern",
+      "sentence": "Meine Hände zitterten vor Kälte."
+    }
+  },
+  {
+    "id": "04d08b3b-2921-492f-b262-792792d766c7",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "arrossire",
+      "sentence": "È arrossita appena lui è entrato nella stanza, benché cercasse di non darlo a vedere."
+    },
+    "de": {
+      "word": "erröten",
+      "sentence": "Sie errötete, sobald er das Zimmer betrat, obwohl sie versuchte, es sich nicht anmerken zu lassen."
+    }
+  },
+  {
+    "id": "e48f4b54-e8dd-467e-9a1d-55a0a4c7366d",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "chinarsi",
+      "sentence": "Ogni volta che mi chino per raccogliere qualcosa, sento la schiena tirare."
+    },
+    "de": {
+      "word": "sich bücken",
+      "sentence": "Jedes Mal wenn ich mich bücke, um etwas aufzuheben, spüre ich, wie der Rücken zieht."
+    }
+  },
+  {
+    "id": "5b9829c8-7f61-46a3-9729-7b9a5ff1a685",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "stiracchiarsi",
+      "sentence": "Stiracchiati un po', stai seduto davanti allo schermo da più di tre ore."
+    },
+    "de": {
+      "word": "sich strecken",
+      "sentence": "Streck dich ein wenig, du sitzt schon über drei Stunden vor dem Bildschirm."
+    }
+  },
+  {
+    "id": "719ab7ad-1452-4ecc-a45d-76559bcd5b86",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "appoggiarsi",
+      "sentence": "Si è appoggiato al muro per riprendere fiato."
+    },
+    "de": {
+      "word": "sich anlehnen",
+      "sentence": "Er lehnte sich an die Wand, um wieder zu Atem zu kommen."
+    }
+  },
+  {
+    "id": "356b25bb-8ae7-4291-83fe-bfa86a3ac9ea",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "stare dritto",
+      "sentence": "Stai dritto quando cammini, altrimenti fra qualche anno la schiena te lo farà pagare."
+    },
+    "de": {
+      "word": "gerade stehen",
+      "sentence": "Steh gerade beim Gehen, sonst wird dir der Rücken das in ein paar Jahren heimzahlen."
+    }
+  },
+  {
+    "id": "fae47401-9adb-4d21-97a9-3f803dd1ccac",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "zoppicare",
+      "sentence": "Zoppicava ancora leggermente, benché la ferita fosse guarita da settimane."
+    },
+    "de": {
+      "word": "hinken",
+      "sentence": "Er hinkte noch leicht, obwohl die Wunde schon seit Wochen verheilt war."
+    }
+  },
+  {
+    "id": "25974a09-abe9-4bef-a0da-b5265ac6c958",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "stanco",
+      "sentence": "Sono troppo stanco per uscire stasera."
+    },
+    "de": {
+      "word": "müde",
+      "sentence": "Ich bin zu müde, um heute Abend auszugehen."
+    }
+  },
+  {
+    "id": "ad6b0333-7e9a-40a4-be54-9754f7eb3d74",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "in forma",
+      "sentence": "Da quando corro, mi sento molto più in forma."
+    },
+    "de": {
+      "word": "fit",
+      "sentence": "Seit ich laufe, fühle ich mich viel fitter."
+    }
+  },
+  {
+    "id": "2313e35e-6d7e-4813-9d61-9bcb4fbe8cf2",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "avere fame",
+      "sentence": "Avete fame? Se volete, vi preparo qualcosa di veloce."
+    },
+    "de": {
+      "word": "Hunger haben",
+      "sentence": "Habt ihr Hunger? Wenn ihr wollt, mache ich euch schnell etwas."
+    }
+  },
+  {
+    "id": "23b01f17-cf5a-4069-9936-c8760b63655b",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "avere sete",
+      "sentence": "Dopo la salita avevamo tutti una sete tremenda."
+    },
+    "de": {
+      "word": "Durst haben",
+      "sentence": "Nach dem Aufstieg hatten wir alle einen riesigen Durst."
+    }
+  },
+  {
+    "id": "f9817ff5-e2b7-44cd-ba4a-4e25dfefd183",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il riposo",
+      "sentence": "Dopo settimane passate così, ci vorrebbe almeno qualche giorno di riposo vero."
+    },
+    "de": {
+      "word": "die Erholung",
+      "sentence": "Nach solchen Wochen bräuchte es mindestens ein paar Tage echte Erholung."
+    }
+  },
+  {
+    "id": "49d8d24a-65d9-4fc9-bfec-b61a836a6461",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il dolore",
+      "sentence": "Il dolore è passato dopo un paio d'ore."
+    },
+    "de": {
+      "word": "der Schmerz",
+      "sentence": "Der Schmerz ist nach ein paar Stunden vergangen."
+    }
+  },
+  {
+    "id": "996c5c4d-f05f-4096-b6bc-50331e06cda6",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "far male",
+      "sentence": "Dove ti fa male esattamente?"
+    },
+    "de": {
+      "word": "wehtun",
+      "sentence": "Wo tut es dir genau weh?"
+    }
+  },
+  {
+    "id": "eb69218b-6914-4a43-babe-5fee7794b603",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il mal di testa",
+      "sentence": "Ho un mal di testa terribile da stamattina."
+    },
+    "de": {
+      "word": "die Kopfschmerzen",
+      "sentence": "Ich habe seit heute Morgen schreckliche Kopfschmerzen."
+    }
+  },
+  {
+    "id": "134413b2-e950-4012-b0bc-726b2599fc68",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la ferita",
+      "sentence": "La ferita è guarita più in fretta del previsto."
+    },
+    "de": {
+      "word": "die Wunde",
+      "sentence": "Die Wunde ist schneller verheilt als erwartet."
+    }
+  },
+  {
+    "id": "5b29efc0-68d3-4993-bec5-b85fc1ff5882",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "il livido",
+      "sentence": "Il giorno dopo era pieno di lividi, anche se sul momento non aveva sentito quasi nulla."
+    },
+    "de": {
+      "word": "der blaue Fleck",
+      "sentence": "Am Tag darauf war er voller blauer Flecken, obwohl er im Moment selbst kaum etwas gespürt hatte."
+    }
+  },
+  {
+    "id": "866857c6-49d0-47d3-9577-0bbe73196309",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "gonfio",
+      "sentence": "La caviglia era ancora gonfia il mattino dopo, quindi abbiamo deciso di tornare indietro."
+    },
+    "de": {
+      "word": "geschwollen",
+      "sentence": "Der Knöchel war am nächsten Morgen noch geschwollen, also haben wir beschlossen umzukehren."
+    }
+  },
+  {
+    "id": "d6cc000d-8967-484d-b689-f51cd23faf54",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "storcersi",
+      "sentence": "Mi sono storto il piede sul ghiaione, proprio mentre pensavo di essere ormai arrivato."
+    },
+    "de": {
+      "word": "sich verstauchen",
+      "sentence": "Ich habe mir auf dem Geröll den Fuss verstaucht, genau als ich dachte, ich sei schon angekommen."
+    }
+  },
+  {
+    "id": "6975bc31-4c9b-472c-9614-0a713543dbbc",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "la vertigine",
+      "sentence": "Se le vertigini continuassero anche domani, sarebbe meglio che ti facessi visitare."
+    },
+    "de": {
+      "word": "der Schwindel",
+      "sentence": "Wenn der Schwindel auch morgen anhalten würde, wäre es besser, du liessest dich untersuchen."
+    }
+  },
+  {
+    "id": "c9d0282f-e609-413e-85e7-dc1ed9d6b3ef",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "guarire",
+      "sentence": "Il taglio guarirà in pochi giorni, però dovrai tenerlo pulito."
+    },
+    "de": {
+      "word": "heilen",
+      "sentence": "Der Schnitt wird in wenigen Tagen heilen, du wirst ihn aber sauber halten müssen."
+    }
+  },
+  {
+    "id": "8bcf4d90-52c3-49eb-a20c-abd8cc2c340f",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "la medicina",
+      "sentence": "Hai preso la medicina stamattina?"
+    },
+    "de": {
+      "word": "das Medikament",
+      "sentence": "Hast du heute Morgen das Medikament genommen?"
+    }
+  },
+  {
+    "id": "53a5a975-6a43-4ead-a676-c569042648bc",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il cerotto",
+      "sentence": "Mettici un cerotto e vedrai che domani non ci penserai più."
+    },
+    "de": {
+      "word": "das Pflaster",
+      "sentence": "Kleb ein Pflaster drauf, und du wirst sehen, dass du morgen nicht mehr daran denkst."
+    }
+  },
+  {
+    "id": "a514f0d0-9811-4dd8-97ce-d6aeed8b5bdb",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "la fisioterapia",
+      "sentence": "Da quando fa fisioterapia due volte a settimana, la spalla gli dà molti meno problemi."
+    },
+    "de": {
+      "word": "die Physiotherapie",
+      "sentence": "Seit er zweimal pro Woche Physiotherapie macht, macht ihm die Schulter deutlich weniger Probleme."
+    }
+  },
+  {
+    "id": "93fd2e1f-03a3-4e33-9c9c-ddcab9a9150b",
+    "level": "B1",
+    "topic": "Body",
+    "it": {
+      "word": "il massaggio",
+      "sentence": "Se aveste tempo domani, vi consiglierei un massaggio dopo tutta questa fatica."
+    },
+    "de": {
+      "word": "die Massage",
+      "sentence": "Wenn ihr morgen Zeit hättet, würde ich euch nach all der Anstrengung eine Massage empfehlen."
+    }
+  },
+  {
+    "id": "ef1fb98a-6083-4440-bf86-a7148577d028",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "riprendersi",
+      "sentence": "Ci è voluto quasi un mese prima che si riprendesse del tutto dall'operazione."
+    },
+    "de": {
+      "word": "sich erholen",
+      "sentence": "Es hat fast einen Monat gedauert, bis er sich von der Operation ganz erholt hatte."
+    }
+  },
+  {
+    "id": "b050aabe-8f12-4d50-bc53-6a48baef037b",
+    "level": "B2",
+    "topic": "Body",
+    "it": {
+      "word": "prendersi cura di sé",
+      "sentence": "Con due bambini piccoli in casa, si fa davvero fatica a prendersi cura di sé."
+    },
+    "de": {
+      "word": "auf sich achten",
+      "sentence": "Mit zwei kleinen Kindern im Haus fällt es wirklich schwer, auf sich selbst zu achten."
+    }
   }
 ]
