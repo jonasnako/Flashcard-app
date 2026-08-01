@@ -509,14 +509,14 @@
   {
     "id": "da77a891-0d70-483c-8247-db1f01a56720",
     "level": "B2",
-    "topic": "Children",
+    "topic": "Body",
     "it": {
-      "word": "sfinito",
-      "sentence": "La sera, dopo aver messo a letto i bambini, siamo completamente sfiniti."
+      "word": "esausto",
+      "sentence": "Dopo una notte passata a consolarlo, eravamo esausti."
     },
     "de": {
       "word": "erschöpft",
-      "sentence": "Abends, nachdem wir die Kinder ins Bett gebracht haben, sind wir völlig erschöpft."
+      "sentence": "Nach einer Nacht, in der wir ihn trösteten, waren wir erschöpft."
     }
   },
   {
@@ -7620,14 +7620,14 @@
   {
     "id": "1d71e8eb-3caa-405c-9bee-10eb0c328530",
     "level": "B1",
-    "topic": "Clothes",
+    "topic": "Body",
     "it": {
       "word": "la pelle",
-      "sentence": "Le scarpe di pelle durano più a lungo."
+      "sentence": "Ha la pelle molto sensibile al sole."
     },
     "de": {
-      "word": "das Leder",
-      "sentence": "Schuhe aus Leder halten länger."
+      "word": "die Haut",
+      "sentence": "Sie hat eine sehr sonnenempfindliche Haut."
     }
   },
   {
@@ -14110,11 +14110,11 @@
     "topic": "Animals",
     "it": {
       "word": "adottare",
-      "sentence": "Se avessimo un giardino un po' più grande, adotteremmo subito un cane dal canile qui vicino."
+      "sentence": "Se avessimo un giardino, adotteremmo un cane dal canile."
     },
     "de": {
       "word": "adoptieren",
-      "sentence": "Wenn wir einen etwas grösseren Garten hätten, würden wir sofort einen Hund aus dem Tierheim hier in der Nähe adoptieren."
+      "sentence": "Wenn wir einen Garten hätten, würden wir einen Hund adoptieren."
     }
   },
   {
@@ -14123,11 +14123,11 @@
     "topic": "Animals",
     "it": {
       "word": "affezionarsi a",
-      "sentence": "Dopo averlo curato per settimane intere, ci eravamo affezionati a quel gattino più di quanto volessimo ammettere."
+      "sentence": "Dopo averlo curato per settimane, ci eravamo affezionati a quel gattino."
     },
     "de": {
       "word": "ans Herz wachsen",
-      "sentence": "Nachdem wir ihn wochenlang gepflegt hatten, war uns das Kätzchen mehr ans Herz gewachsen, als wir zugeben wollten."
+      "sentence": "Nachdem wir ihn wochenlang gepflegt hatten, war uns das Kätzchen ans Herz gewachsen."
     }
   },
   {
@@ -14240,11 +14240,11 @@
     "topic": "Animals",
     "it": {
       "word": "l'allevamento",
-      "sentence": "Si discute molto di come debba cambiare l'allevamento intensivo, benché nessuno sappia davvero da dove cominciare."
+      "sentence": "Si discute molto di come debba cambiare l'allevamento intensivo."
     },
     "de": {
       "word": "die Tierhaltung",
-      "sentence": "Es wird viel darüber diskutiert, wie sich die intensive Tierhaltung ändern müsste, obwohl niemand wirklich weiss, wo man anfangen soll."
+      "sentence": "Es wird viel diskutiert, wie sich die intensive Tierhaltung ändern müsste."
     }
   },
   {
@@ -14253,11 +14253,11 @@
     "topic": "Animals",
     "it": {
       "word": "il pastore",
-      "sentence": "Il pastore, che conosceva ogni sentiero della zona, ci accompagnò fino alla baita prima che facesse buio."
+      "sentence": "Il pastore, che conosceva ogni sentiero, ci accompagnò alla baita."
     },
     "de": {
       "word": "der Hirte",
-      "sentence": "Der Hirte, der jeden Pfad der Gegend kannte, begleitete uns bis zur Almhütte, bevor es dunkel wurde."
+      "sentence": "Der Hirte, der jeden Pfad kannte, begleitete uns zur Almhütte."
     }
   },
   {
@@ -14292,11 +14292,11 @@
     "topic": "Animals",
     "it": {
       "word": "il cinghiale",
-      "sentence": "I cinghiali, che erano scesi dal bosco durante la notte, avevano distrutto tutto l'orto prima che ce ne accorgessimo."
+      "sentence": "I cinghiali avevano distrutto l'orto prima che ce ne accorgessimo."
     },
     "de": {
       "word": "das Wildschwein",
-      "sentence": "Die Wildschweine, die nachts aus dem Wald heruntergekommen waren, hatten den ganzen Garten zerstört, bevor wir es überhaupt merkten."
+      "sentence": "Die Wildschweine hatten den Garten zerstört, bevor wir es merkten."
     }
   },
   {
@@ -14331,11 +14331,11 @@
     "topic": "Animals",
     "it": {
       "word": "il pipistrello",
-      "sentence": "Al crepuscolo si vedono i pipistrelli uscire dal vecchio fienile, dove nidificano ormai da anni."
+      "sentence": "Al crepuscolo i pipistrelli escono dal vecchio fienile."
     },
     "de": {
       "word": "die Fledermaus",
-      "sentence": "In der Dämmerung sieht man die Fledermäuse aus der alten Scheune fliegen, in der sie schon seit Jahren nisten."
+      "sentence": "In der Dämmerung fliegen die Fledermäuse aus der alten Scheune."
     }
   },
   {
@@ -14357,11 +14357,11 @@
     "topic": "Animals",
     "it": {
       "word": "il predatore",
-      "sentence": "Senza predatori l'equilibrio del bosco verrebbe compromesso, anche se molti continuano a non crederci."
+      "sentence": "Senza predatori, l'equilibrio del bosco verrebbe compromesso."
     },
     "de": {
       "word": "das Raubtier",
-      "sentence": "Ohne Raubtiere würde das Gleichgewicht des Waldes gestört, auch wenn viele das weiterhin nicht glauben wollen."
+      "sentence": "Ohne Raubtiere würde das Gleichgewicht des Waldes gestört."
     }
   },
   {
@@ -14435,11 +14435,11 @@
     "topic": "Animals",
     "it": {
       "word": "l'aquila",
-      "sentence": "Se guarderai verso la cresta, prima o poi vedrai passare un'aquila."
+      "sentence": "Se guarderai verso la cresta, vedrai forse un'aquila."
     },
     "de": {
       "word": "der Adler",
-      "sentence": "Wenn du zum Grat schaust, wirst du früher oder später einen Adler vorbeiziehen sehen."
+      "sentence": "Wenn du zum Grat schaust, wirst du vielleicht einen Adler sehen."
     }
   },
   {
@@ -14474,11 +14474,11 @@
     "topic": "Animals",
     "it": {
       "word": "la rondine",
-      "sentence": "Quando torneranno le rondini, vorrà dire che la primavera è ormai vicina."
+      "sentence": "Quando torneranno le rondini, la primavera sarà vicina."
     },
     "de": {
       "word": "die Schwalbe",
-      "sentence": "Wenn die Schwalben zurückkehren, wird das heissen, dass der Frühling nun nah ist."
+      "sentence": "Wenn die Schwalben zurückkehren, wird der Frühling nah sein."
     }
   },
   {
@@ -14487,11 +14487,11 @@
     "topic": "Animals",
     "it": {
       "word": "migrare",
-      "sentence": "Molti uccelli migrano verso sud prima che arrivi il freddo, seguendo rotte che non cambiano mai."
+      "sentence": "Molti uccelli migrano a sud prima che arrivi il freddo."
     },
     "de": {
       "word": "ziehen",
-      "sentence": "Viele Vögel ziehen nach Süden, bevor die Kälte kommt, und folgen dabei Routen, die sich nie ändern."
+      "sentence": "Viele Vögel ziehen nach Süden, bevor die Kälte kommt."
     }
   },
   {
@@ -14578,11 +14578,11 @@
     "topic": "Animals",
     "it": {
       "word": "lo squalo",
-      "sentence": "Benché siano temuti in tutto il mondo, gli squali attaccano l'uomo molto più raramente di quanto si creda."
+      "sentence": "Benché siano temuti, gli squali attaccano l'uomo raramente."
     },
     "de": {
       "word": "der Hai",
-      "sentence": "Obwohl sie weltweit gefürchtet werden, greifen Haie den Menschen viel seltener an, als man glaubt."
+      "sentence": "Obwohl sie gefürchtet werden, greifen Haie den Menschen selten an."
     }
   },
   {
@@ -14669,11 +14669,11 @@
     "topic": "Animals",
     "it": {
       "word": "l'alveare",
-      "sentence": "Se avessimo un po' più di spazio dietro casa, metteremmo volentieri un alveare in fondo al giardino."
+      "sentence": "Se avessimo più spazio, metteremmo un alveare in giardino."
     },
     "de": {
       "word": "der Bienenstock",
-      "sentence": "Wenn wir hinter dem Haus etwas mehr Platz hätten, würden wir gern einen Bienenstock hinten im Garten aufstellen."
+      "sentence": "Wenn wir mehr Platz hätten, würden wir einen Bienenstock aufstellen."
     }
   },
   {
@@ -14721,11 +14721,11 @@
     "topic": "Animals",
     "it": {
       "word": "velenoso",
-      "sentence": "Anche se sembra pericoloso a prima vista, questo serpente non è affatto velenoso."
+      "sentence": "Anche se sembra pericoloso, questo serpente non è velenoso."
     },
     "de": {
       "word": "giftig",
-      "sentence": "Auch wenn sie auf den ersten Blick gefährlich aussieht, ist diese Schlange überhaupt nicht giftig."
+      "sentence": "Auch wenn sie gefährlich aussieht, ist diese Schlange nicht giftig."
     }
   },
   {
@@ -14773,11 +14773,11 @@
     "topic": "Animals",
     "it": {
       "word": "il becco",
-      "sentence": "Con il becco riesce ad aprire perfino i gusci più duri, cosa che agli altri uccelli non riesce."
+      "sentence": "Con il becco apre perfino i gusci che sembrano durissimi."
     },
     "de": {
       "word": "der Schnabel",
-      "sentence": "Mit dem Schnabel schafft er es, sogar die härtesten Schalen zu öffnen, was den anderen Vögeln nicht gelingt."
+      "sentence": "Mit dem Schnabel öffnet er sogar Schalen, die sehr hart wirken."
     }
   },
   {
@@ -14812,11 +14812,11 @@
     "topic": "Animals",
     "it": {
       "word": "il corno",
-      "sentence": "Lo stambecco, le cui corna erano enormi, ci osservava dall'alto senza muoversi di un centimetro."
+      "sentence": "Lo stambecco, le cui corna erano enormi, ci osservava dall'alto."
     },
     "de": {
       "word": "das Horn",
-      "sentence": "Der Steinbock, dessen Hörner riesig waren, beobachtete uns von oben, ohne sich einen Zentimeter zu bewegen."
+      "sentence": "Der Steinbock, dessen Hörner riesig waren, beobachtete uns von oben."
     }
   },
   {
@@ -14825,11 +14825,11 @@
     "topic": "Animals",
     "it": {
       "word": "la zampa artigliata",
-      "sentence": "Bisognerebbe tagliargli le unghie ogni tanto, altrimenti continuerà a graffiare il divano."
+      "sentence": "Bisognerebbe tagliargli le unghie, altrimenti graffia il divano."
     },
     "de": {
       "word": "die Kralle",
-      "sentence": "Man müsste ihm ab und zu die Krallen schneiden, sonst wird er weiterhin das Sofa zerkratzen."
+      "sentence": "Man müsste ihm die Krallen schneiden, sonst zerkratzt er das Sofa."
     }
   },
   {
@@ -14864,11 +14864,11 @@
     "topic": "Animals",
     "it": {
       "word": "cinguettare",
-      "sentence": "Gli uccelli cinguettavano già da un pezzo, prima ancora che sorgesse il sole."
+      "sentence": "Gli uccelli cinguettavano già prima che sorgesse il sole."
     },
     "de": {
       "word": "zwitschern",
-      "sentence": "Die Vögel zwitscherten schon eine ganze Weile, noch bevor die Sonne aufging."
+      "sentence": "Die Vögel zwitscherten schon, bevor die Sonne aufging."
     }
   },
   {
@@ -14903,11 +14903,11 @@
     "topic": "Animals",
     "it": {
       "word": "strisciare",
-      "sentence": "Il serpente strisciava lentamente tra le pietre calde, senza accorgersi di noi."
+      "sentence": "Il serpente strisciava lentamente tra le pietre calde."
     },
     "de": {
       "word": "kriechen",
-      "sentence": "Die Schlange kroch langsam zwischen den warmen Steinen, ohne uns zu bemerken."
+      "sentence": "Die Schlange kroch langsam zwischen den warmen Steinen."
     }
   },
   {
@@ -14955,11 +14955,11 @@
     "topic": "Animals",
     "it": {
       "word": "il branco",
-      "sentence": "I lupi, che cacciano sempre in branco, comunicano tra loro con ululati che si sentono a chilometri di distanza."
+      "sentence": "I lupi, che cacciano in branco, comunicano con lunghi ululati."
     },
     "de": {
       "word": "das Rudel",
-      "sentence": "Die Wölfe, die immer im Rudel jagen, verständigen sich durch Heulen, das man kilometerweit hört."
+      "sentence": "Die Wölfe, die im Rudel jagen, verständigen sich mit langem Heulen."
     }
   },
   {
@@ -14968,11 +14968,11 @@
     "topic": "Animals",
     "it": {
       "word": "andare in letargo",
-      "sentence": "Le marmotte vanno in letargo appena arriva il freddo e non si rivedono fino a primavera inoltrata."
+      "sentence": "Le marmotte vanno in letargo appena arriva il freddo."
     },
     "de": {
       "word": "Winterschlaf halten",
-      "sentence": "Die Murmeltiere halten Winterschlaf, sobald die Kälte kommt, und zeigen sich erst im späten Frühling wieder."
+      "sentence": "Die Murmeltiere halten Winterschlaf, sobald die Kälte kommt."
     }
   },
   {
@@ -14981,11 +14981,11 @@
     "topic": "Animals",
     "it": {
       "word": "addomesticato",
-      "sentence": "Sembra addomesticato perché si lascia avvicinare, però resta pur sempre un animale selvatico."
+      "sentence": "Sembra addomesticato, però resta pur sempre un animale selvatico."
     },
     "de": {
       "word": "zahm",
-      "sentence": "Er wirkt zahm, weil er sich nähern lässt, bleibt aber trotzdem ein Wildtier."
+      "sentence": "Er wirkt zahm, bleibt aber trotzdem ein Wildtier."
     }
   },
   {
@@ -15020,11 +15020,11 @@
     "topic": "Animals",
     "it": {
       "word": "nutrirsi di",
-      "sentence": "Questa specie si nutre quasi esclusivamente di insetti, motivo per cui sparisce dove si usano troppi pesticidi."
+      "sentence": "Questa specie si nutre quasi esclusivamente di insetti."
     },
     "de": {
       "word": "sich ernähren von",
-      "sentence": "Diese Art ernährt sich fast ausschliesslich von Insekten, weshalb sie dort verschwindet, wo zu viele Pestizide eingesetzt werden."
+      "sentence": "Diese Art ernährt sich fast ausschliesslich von Insekten."
     }
   },
   {
@@ -15072,11 +15072,11 @@
     "topic": "Animals",
     "it": {
       "word": "il canile",
-      "sentence": "L'abbiamo preso al canile, dove viveva già da due anni senza che nessuno lo volesse."
+      "sentence": "L'abbiamo preso al canile, dove viveva già da due anni."
     },
     "de": {
       "word": "das Tierheim",
-      "sentence": "Wir haben ihn aus dem Tierheim geholt, wo er schon zwei Jahre lebte, ohne dass ihn jemand wollte."
+      "sentence": "Wir haben ihn aus dem Tierheim geholt, wo er zwei Jahre lebte."
     }
   },
   {
@@ -15085,11 +15085,11 @@
     "topic": "Animals",
     "it": {
       "word": "sterilizzare",
-      "sentence": "Il veterinario ci ha consigliato di sterilizzarla, dopo averci spiegato tutti i vantaggi."
+      "sentence": "Il veterinario ci ha consigliato di sterilizzarla."
     },
     "de": {
       "word": "sterilisieren",
-      "sentence": "Der Tierarzt hat uns geraten, sie sterilisieren zu lassen, nachdem er uns alle Vorteile erklärt hatte."
+      "sentence": "Der Tierarzt hat uns geraten, sie sterilisieren zu lassen."
     }
   },
   {
@@ -15111,11 +15111,11 @@
     "topic": "Animals",
     "it": {
       "word": "la specie",
-      "sentence": "Molte specie scompariranno se non si interverrà molto presto."
+      "sentence": "Molte specie scompariranno se non si interverrà presto."
     },
     "de": {
       "word": "die Art",
-      "sentence": "Viele Arten werden verschwinden, wenn man nicht sehr bald eingreift."
+      "sentence": "Viele Arten werden verschwinden, wenn man nicht bald eingreift."
     }
   },
   {
@@ -15124,11 +15124,11 @@
     "topic": "Animals",
     "it": {
       "word": "in via di estinzione",
-      "sentence": "Si tratta di una specie in via di estinzione, che ormai si trova soltanto in poche valli."
+      "sentence": "È una specie in via di estinzione, ormai rara ovunque."
     },
     "de": {
       "word": "vom Aussterben bedroht",
-      "sentence": "Es handelt sich um eine vom Aussterben bedrohte Art, die man inzwischen nur noch in wenigen Tälern findet."
+      "sentence": "Es ist eine vom Aussterben bedrohte Art, inzwischen überall selten."
     }
   },
   {
@@ -15137,11 +15137,11 @@
     "topic": "Animals",
     "it": {
       "word": "la protezione degli animali",
-      "sentence": "La protezione degli animali è regolata da leggi severe, che però non vengono sempre applicate."
+      "sentence": "La protezione degli animali è regolata da leggi severe."
     },
     "de": {
       "word": "der Tierschutz",
-      "sentence": "Der Tierschutz wird durch strenge Gesetze geregelt, die allerdings nicht immer durchgesetzt werden."
+      "sentence": "Der Tierschutz wird durch strenge Gesetze geregelt."
     }
   },
   {
@@ -15150,11 +15150,11 @@
     "topic": "Animals",
     "it": {
       "word": "maltrattare",
-      "sentence": "Chi maltratta gli animali viene punito severamente, anche se le denunce restano poche."
+      "sentence": "Chi maltratta gli animali viene punito severamente."
     },
     "de": {
       "word": "misshandeln",
-      "sentence": "Wer Tiere misshandelt, wird streng bestraft, auch wenn nur wenige Anzeigen erstattet werden."
+      "sentence": "Wer Tiere misshandelt, wird streng bestraft."
     }
   },
   {
@@ -15163,11 +15163,11 @@
     "topic": "Animals",
     "it": {
       "word": "l'habitat",
-      "sentence": "Il loro habitat si è ridotto notevolmente da quando è stata costruita la nuova strada."
+      "sentence": "Il loro habitat si è ridotto da quando c'è la strada."
     },
     "de": {
       "word": "der Lebensraum",
-      "sentence": "Ihr Lebensraum hat sich stark verkleinert, seit die neue Strasse gebaut worden ist."
+      "sentence": "Ihr Lebensraum hat sich verkleinert, seit es die Strasse gibt."
     }
   },
   {
@@ -15319,11 +15319,11 @@
     "topic": "Body",
     "it": {
       "word": "il mento",
-      "sentence": "Cadendo dalla bici da bambino, si era ferito il mento e da allora ha una piccola cicatrice."
+      "sentence": "Cadendo dalla bici, si era ferito il mento."
     },
     "de": {
       "word": "das Kinn",
-      "sentence": "Als er als Kind vom Velo stürzte, verletzte er sich das Kinn und hat seither eine kleine Narbe."
+      "sentence": "Beim Sturz vom Velo hatte er sich das Kinn verletzt."
     }
   },
   {
@@ -15475,11 +15475,11 @@
     "topic": "Body",
     "it": {
       "word": "il polso",
-      "sentence": "Se non ti fossi fatto male al polso, avresti potuto continuare l'escursione con noi."
+      "sentence": "Se non ti fossi fatto male al polso, avresti continuato."
     },
     "de": {
       "word": "das Handgelenk",
-      "sentence": "Wenn du dir das Handgelenk nicht verletzt hättest, hättest du die Wanderung mit uns fortsetzen können."
+      "sentence": "Wenn du dir das Handgelenk nicht verletzt hättest, hättest du weitergemacht."
     }
   },
   {
@@ -15501,11 +15501,11 @@
     "topic": "Body",
     "it": {
       "word": "il pugno",
-      "sentence": "Stringeva i pugni sotto il tavolo senza dire una sola parola."
+      "sentence": "Stringeva i pugni senza dire una sola parola."
     },
     "de": {
       "word": "die Faust",
-      "sentence": "Er ballte unter dem Tisch die Fäuste, ohne ein einziges Wort zu sagen."
+      "sentence": "Er ballte die Fäuste, ohne ein einziges Wort zu sagen."
     }
   },
   {
@@ -15553,11 +15553,11 @@
     "topic": "Body",
     "it": {
       "word": "la caviglia",
-      "sentence": "Si è storta la caviglia mentre scendeva dal sentiero, proprio dove le pietre erano bagnate."
+      "sentence": "Si è storta la caviglia scendendo dal sentiero bagnato."
     },
     "de": {
       "word": "der Knöchel",
-      "sentence": "Sie hat sich den Knöchel verstaucht, als sie den Weg hinunterging, genau dort wo die Steine nass waren."
+      "sentence": "Sie hat sich den Knöchel beim Abstieg vom nassen Weg verstaucht."
     }
   },
   {
@@ -15566,11 +15566,11 @@
     "topic": "Body",
     "it": {
       "word": "il tallone",
-      "sentence": "Con le scarpe nuove mi è venuta una vescica al tallone dopo nemmeno due ore."
+      "sentence": "Con le scarpe nuove mi è venuta una vescica al tallone."
     },
     "de": {
       "word": "die Ferse",
-      "sentence": "Mit den neuen Schuhen habe ich nach nicht einmal zwei Stunden eine Blase an der Ferse bekommen."
+      "sentence": "Mit den neuen Schuhen habe ich eine Blase an der Ferse bekommen."
     }
   },
   {
@@ -15579,11 +15579,11 @@
     "topic": "Body",
     "it": {
       "word": "la coscia",
-      "sentence": "Dopo l'allenamento di ieri sentiva le cosce così indolenzite che faceva fatica a scendere le scale."
+      "sentence": "Dopo l'allenamento sentiva le cosce troppo indolenzite per correre."
     },
     "de": {
       "word": "der Oberschenkel",
-      "sentence": "Nach dem gestrigen Training spürte er die Oberschenkel so sehr, dass ihm das Treppensteigen schwerfiel."
+      "sentence": "Nach dem Training spürte er die Oberschenkel zu sehr zum Laufen."
     }
   },
   {
@@ -15631,11 +15631,11 @@
     "topic": "Body",
     "it": {
       "word": "l'articolazione",
-      "sentence": "Con l'umidità le articolazioni fanno più male, per cui d'autunno si muove molto meno."
+      "sentence": "Con l'umidità le articolazioni fanno più male."
     },
     "de": {
       "word": "das Gelenk",
-      "sentence": "Bei Feuchtigkeit tun die Gelenke mehr weh, weshalb er sich im Herbst viel weniger bewegt."
+      "sentence": "Bei Feuchtigkeit tun die Gelenke mehr weh."
     }
   },
   {
@@ -15644,11 +15644,11 @@
     "topic": "Body",
     "it": {
       "word": "la colonna vertebrale",
-      "sentence": "Il medico gli ha spiegato che la colonna vertebrale va sostenuta meglio, soprattutto quando si lavora seduti tutto il giorno."
+      "sentence": "Il medico gli ha spiegato che la schiena va sostenuta meglio."
     },
     "de": {
       "word": "die Wirbelsäule",
-      "sentence": "Der Arzt hat ihm erklärt, dass die Wirbelsäule besser gestützt werden muss, vor allem wenn man den ganzen Tag sitzend arbeitet."
+      "sentence": "Der Arzt hat ihm erklärt, dass der Rücken besser gestützt werden muss."
     }
   },
   {
@@ -15670,11 +15670,11 @@
     "topic": "Body",
     "it": {
       "word": "il polmone",
-      "sentence": "Da quando ha smesso di fumare, i polmoni si sono ripresi più in fretta di quanto sperasse."
+      "sentence": "Da quando ha smesso di fumare, i polmoni si sono ripresi."
     },
     "de": {
       "word": "die Lunge",
-      "sentence": "Seit er aufgehört hat zu rauchen, haben sich die Lungen schneller erholt, als er gehofft hatte."
+      "sentence": "Seit er aufgehört hat zu rauchen, haben sich die Lungen erholt."
     }
   },
   {
@@ -15696,11 +15696,11 @@
     "topic": "Body",
     "it": {
       "word": "il cervello",
-      "sentence": "Si dice che il cervello continui a cambiare per tutta la vita, il che è piuttosto rassicurante."
+      "sentence": "Si dice che il cervello cambi per tutta la vita."
     },
     "de": {
       "word": "das Gehirn",
-      "sentence": "Man sagt, dass sich das Gehirn ein Leben lang weiter verändert, was ziemlich beruhigend ist."
+      "sentence": "Man sagt, dass sich das Gehirn ein Leben lang verändert."
     }
   },
   {
@@ -15709,11 +15709,11 @@
     "topic": "Body",
     "it": {
       "word": "il fegato",
-      "sentence": "Il medico gli ha consigliato di bere meno, dopo che gli esami avevano mostrato valori alti al fegato."
+      "sentence": "Il medico gli ha consigliato di bere meno per il fegato."
     },
     "de": {
       "word": "die Leber",
-      "sentence": "Der Arzt hat ihm geraten, weniger zu trinken, nachdem die Untersuchungen erhöhte Leberwerte gezeigt hatten."
+      "sentence": "Der Arzt hat ihm geraten, der Leber zuliebe weniger zu trinken."
     }
   },
   {
@@ -15722,11 +15722,11 @@
     "topic": "Body",
     "it": {
       "word": "il rene",
-      "sentence": "Bevi abbastanza durante la giornata, altrimenti i reni ne risentiranno."
+      "sentence": "Bevi abbastanza, altrimenti i reni ne risentiranno."
     },
     "de": {
       "word": "die Niere",
-      "sentence": "Trink tagsüber genug, sonst werden die Nieren darunter leiden."
+      "sentence": "Trink genug, sonst werden die Nieren darunter leiden."
     }
   },
   {
@@ -15735,11 +15735,11 @@
     "topic": "Body",
     "it": {
       "word": "la vista",
-      "sentence": "Con l'età la vista peggiora, comunque bastano degli occhiali buoni per non accorgersene troppo."
+      "sentence": "Con l'età la vista peggiora, comunque gli occhiali aiutano."
     },
     "de": {
       "word": "das Sehvermögen",
-      "sentence": "Mit dem Alter wird das Sehvermögen schlechter, immerhin genügt eine gute Brille, damit man es kaum merkt."
+      "sentence": "Mit dem Alter wird das Sehvermögen schlechter, immerhin helfen Brillen."
     }
   },
   {
@@ -15748,11 +15748,11 @@
     "topic": "Body",
     "it": {
       "word": "l'udito",
-      "sentence": "Se avessi protetto meglio l'udito da giovane, adesso non dovrei farmi ripetere ogni frase."
+      "sentence": "Se avessi protetto l'udito, adesso sentirei molto meglio."
     },
     "de": {
       "word": "das Gehör",
-      "sentence": "Wenn ich mein Gehör als junger Mensch besser geschützt hätte, müsste ich mir jetzt nicht jeden Satz wiederholen lassen."
+      "sentence": "Wenn ich mein Gehör geschützt hätte, würde ich jetzt besser hören."
     }
   },
   {
@@ -15761,11 +15761,11 @@
     "topic": "Body",
     "it": {
       "word": "il gusto",
-      "sentence": "Con il raffreddore ho perso completamente il gusto, tanto che non distinguo il sale dallo zucchero."
+      "sentence": "Con il raffreddore ho perso completamente il gusto."
     },
     "de": {
       "word": "der Geschmackssinn",
-      "sentence": "Mit der Erkältung habe ich den Geschmackssinn völlig verloren, sodass ich Salz nicht von Zucker unterscheide."
+      "sentence": "Mit der Erkältung habe ich den Geschmackssinn völlig verloren."
     }
   },
   {
@@ -15774,11 +15774,11 @@
     "topic": "Body",
     "it": {
       "word": "l'olfatto",
-      "sentence": "L'olfatto è legato alla memoria molto più di quanto si creda, tant'è che un odore basta a riportarti indietro di anni."
+      "sentence": "L'olfatto è legato alla memoria più di quanto si creda."
     },
     "de": {
       "word": "der Geruchssinn",
-      "sentence": "Der Geruchssinn ist viel enger mit dem Gedächtnis verbunden, als man glaubt, sodass ein Geruch genügt, um einen Jahre zurückzuversetzen."
+      "sentence": "Der Geruchssinn ist enger mit dem Gedächtnis verbunden, als man glaubt."
     }
   },
   {
@@ -15787,11 +15787,11 @@
     "topic": "Body",
     "it": {
       "word": "il tatto",
-      "sentence": "Riconosceva i tessuti soltanto con il tatto, dopo aver lavorato quarant'anni in sartoria."
+      "sentence": "Riconosceva i tessuti soltanto con il tatto, senza guardarli."
     },
     "de": {
       "word": "der Tastsinn",
-      "sentence": "Er erkannte die Stoffe allein mit dem Tastsinn, nachdem er vierzig Jahre in der Schneiderei gearbeitet hatte."
+      "sentence": "Er erkannte die Stoffe allein mit dem Tastsinn, ohne hinzusehen."
     }
   },
   {
@@ -15826,11 +15826,11 @@
     "topic": "Body",
     "it": {
       "word": "digerire",
-      "sentence": "Dopo aver mangiato così tanto ieri sera, oggi faccio ancora fatica a digerire."
+      "sentence": "Dopo aver mangiato così tanto, faccio fatica a digerire."
     },
     "de": {
       "word": "verdauen",
-      "sentence": "Nachdem ich gestern Abend so viel gegessen habe, fällt mir das Verdauen heute immer noch schwer."
+      "sentence": "Nachdem ich so viel gegessen habe, fällt mir das Verdauen schwer."
     }
   },
   {
@@ -15839,11 +15839,11 @@
     "topic": "Body",
     "it": {
       "word": "deglutire",
-      "sentence": "Mi fa male ogni volta che deglutisco, quindi domani passo dal medico."
+      "sentence": "Mi fa male ogni volta che deglutisco."
     },
     "de": {
       "word": "schlucken",
-      "sentence": "Es tut jedes Mal weh, wenn ich schlucke, also gehe ich morgen zum Arzt."
+      "sentence": "Es tut jedes Mal weh, wenn ich schlucke."
     }
   },
   {
@@ -15878,11 +15878,11 @@
     "topic": "Body",
     "it": {
       "word": "arrossire",
-      "sentence": "È arrossita appena lui è entrato nella stanza, benché cercasse di non darlo a vedere."
+      "sentence": "È arrossita appena lui è entrato nella stanza."
     },
     "de": {
       "word": "erröten",
-      "sentence": "Sie errötete, sobald er das Zimmer betrat, obwohl sie versuchte, es sich nicht anmerken zu lassen."
+      "sentence": "Sie errötete, sobald er das Zimmer betrat."
     }
   },
   {
@@ -15891,11 +15891,11 @@
     "topic": "Body",
     "it": {
       "word": "chinarsi",
-      "sentence": "Ogni volta che mi chino per raccogliere qualcosa, sento la schiena tirare."
+      "sentence": "Ogni volta che mi chino, sento la schiena tirare."
     },
     "de": {
       "word": "sich bücken",
-      "sentence": "Jedes Mal wenn ich mich bücke, um etwas aufzuheben, spüre ich, wie der Rücken zieht."
+      "sentence": "Jedes Mal wenn ich mich bücke, spüre ich den Rücken ziehen."
     }
   },
   {
@@ -15904,11 +15904,11 @@
     "topic": "Body",
     "it": {
       "word": "stiracchiarsi",
-      "sentence": "Stiracchiati un po', stai seduto davanti allo schermo da più di tre ore."
+      "sentence": "Stiracchiati un po', stai seduto da troppo tempo."
     },
     "de": {
       "word": "sich strecken",
-      "sentence": "Streck dich ein wenig, du sitzt schon über drei Stunden vor dem Bildschirm."
+      "sentence": "Streck dich ein wenig, du sitzt schon zu lange."
     }
   },
   {
@@ -15943,11 +15943,11 @@
     "topic": "Body",
     "it": {
       "word": "zoppicare",
-      "sentence": "Zoppicava ancora leggermente, benché la ferita fosse guarita da settimane."
+      "sentence": "Zoppicava ancora, benché la ferita fosse guarita."
     },
     "de": {
       "word": "hinken",
-      "sentence": "Er hinkte noch leicht, obwohl die Wunde schon seit Wochen verheilt war."
+      "sentence": "Er hinkte noch, obwohl die Wunde verheilt war."
     }
   },
   {
@@ -16008,11 +16008,11 @@
     "topic": "Body",
     "it": {
       "word": "il riposo",
-      "sentence": "Dopo settimane passate così, ci vorrebbe almeno qualche giorno di riposo vero."
+      "sentence": "Dopo settimane così, ci vorrebbe qualche giorno di riposo."
     },
     "de": {
       "word": "die Erholung",
-      "sentence": "Nach solchen Wochen bräuchte es mindestens ein paar Tage echte Erholung."
+      "sentence": "Nach solchen Wochen bräuchte es ein paar Tage Erholung."
     }
   },
   {
@@ -16073,11 +16073,11 @@
     "topic": "Body",
     "it": {
       "word": "il livido",
-      "sentence": "Il giorno dopo era pieno di lividi, anche se sul momento non aveva sentito quasi nulla."
+      "sentence": "Il giorno dopo era pieno di lividi."
     },
     "de": {
       "word": "der blaue Fleck",
-      "sentence": "Am Tag darauf war er voller blauer Flecken, obwohl er im Moment selbst kaum etwas gespürt hatte."
+      "sentence": "Am Tag darauf war er voller blauer Flecken."
     }
   },
   {
@@ -16086,11 +16086,11 @@
     "topic": "Body",
     "it": {
       "word": "gonfio",
-      "sentence": "La caviglia era ancora gonfia il mattino dopo, quindi abbiamo deciso di tornare indietro."
+      "sentence": "La caviglia era ancora gonfia, quindi siamo tornati indietro."
     },
     "de": {
       "word": "geschwollen",
-      "sentence": "Der Knöchel war am nächsten Morgen noch geschwollen, also haben wir beschlossen umzukehren."
+      "sentence": "Der Knöchel war noch geschwollen, also sind wir umgekehrt."
     }
   },
   {
@@ -16099,11 +16099,11 @@
     "topic": "Body",
     "it": {
       "word": "storcersi",
-      "sentence": "Mi sono storto il piede sul ghiaione, proprio mentre pensavo di essere ormai arrivato."
+      "sentence": "Mi sono storto il piede sul ghiaione bagnato."
     },
     "de": {
       "word": "sich verstauchen",
-      "sentence": "Ich habe mir auf dem Geröll den Fuss verstaucht, genau als ich dachte, ich sei schon angekommen."
+      "sentence": "Ich habe mir auf dem nassen Geröll den Fuss verstaucht."
     }
   },
   {
@@ -16112,11 +16112,11 @@
     "topic": "Body",
     "it": {
       "word": "la vertigine",
-      "sentence": "Se le vertigini continuassero anche domani, sarebbe meglio che ti facessi visitare."
+      "sentence": "Se le vertigini continuassero, faresti bene a farti visitare."
     },
     "de": {
       "word": "der Schwindel",
-      "sentence": "Wenn der Schwindel auch morgen anhalten würde, wäre es besser, du liessest dich untersuchen."
+      "sentence": "Wenn der Schwindel anhalten würde, liessest du dich besser untersuchen."
     }
   },
   {
@@ -16164,11 +16164,11 @@
     "topic": "Body",
     "it": {
       "word": "la fisioterapia",
-      "sentence": "Da quando fa fisioterapia due volte a settimana, la spalla gli dà molti meno problemi."
+      "sentence": "Da quando fa fisioterapia, la spalla va molto meglio."
     },
     "de": {
       "word": "die Physiotherapie",
-      "sentence": "Seit er zweimal pro Woche Physiotherapie macht, macht ihm die Schulter deutlich weniger Probleme."
+      "sentence": "Seit er Physiotherapie macht, geht es der Schulter viel besser."
     }
   },
   {
@@ -16177,11 +16177,11 @@
     "topic": "Body",
     "it": {
       "word": "il massaggio",
-      "sentence": "Se aveste tempo domani, vi consiglierei un massaggio dopo tutta questa fatica."
+      "sentence": "Se aveste tempo domani, vi consiglierei un massaggio."
     },
     "de": {
       "word": "die Massage",
-      "sentence": "Wenn ihr morgen Zeit hättet, würde ich euch nach all der Anstrengung eine Massage empfehlen."
+      "sentence": "Wenn ihr morgen Zeit hättet, würde ich euch eine Massage empfehlen."
     }
   },
   {
@@ -16190,11 +16190,11 @@
     "topic": "Body",
     "it": {
       "word": "riprendersi",
-      "sentence": "Ci è voluto quasi un mese prima che si riprendesse del tutto dall'operazione."
+      "sentence": "Ci è voluto un mese prima che si riprendesse del tutto."
     },
     "de": {
       "word": "sich erholen",
-      "sentence": "Es hat fast einen Monat gedauert, bis er sich von der Operation ganz erholt hatte."
+      "sentence": "Es hat einen Monat gedauert, bis er sich ganz erholt hatte."
     }
   },
   {
@@ -16203,11 +16203,11 @@
     "topic": "Body",
     "it": {
       "word": "prendersi cura di sé",
-      "sentence": "Con due bambini piccoli in casa, si fa davvero fatica a prendersi cura di sé."
+      "sentence": "Con due bambini piccoli, è difficile prendersi cura di sé."
     },
     "de": {
       "word": "auf sich achten",
-      "sentence": "Mit zwei kleinen Kindern im Haus fällt es wirklich schwer, auf sich selbst zu achten."
+      "sentence": "Mit zwei kleinen Kindern ist es schwer, auf sich zu achten."
     }
   }
 ]
