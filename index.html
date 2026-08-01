@@ -692,24 +692,38 @@ function paintSettings(){
   app.appendChild(el("div",{class:"sec"},["Data"]));
   app.appendChild(el("div",{class:"btnwrap"},[
     el("button",{class:"ghost",onclick:exportLib},["Export (.json)"]),
-    el("button",{class:"ghost",onclick:importLib},["Import (append)"]),
+    el("button",{class:"ghost",onclick:()=>importLib("append")},["Import: add new"]),
+    el("button",{class:"ghost",onclick:()=>importLib("update")},["Import: update"]),
     el("button",{class:"ghost dngr",onclick:()=>{if(confirm("Reset all progress? Words stay, scores go to zero.")){lib=lib.map(c=>({...c,streak:0,correct:0,seen:0}));saveProgNow();clearSession();render();}}},["Reset progress"])
   ]));
-  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — a backup or a word list to share. Import only adds words that aren't already in your deck; it never changes your existing words or scores."]));
+  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — a backup, or a file to edit and re-import. Import: add new only brings in words you don't have. Import: update also rewrites the content (example sentences, translations, level, topic) of words you already have, matched by id — your scores are never changed either way. To batch-edit example sentences: Export, edit each word's “sentence” under “it” and “de”, then Import: update."]));
 }
 function exportLib(){const blob=new Blob([JSON.stringify(lib,null,2)],{type:"application/json"});const a=el("a",{href:URL.createObjectURL(blob),download:"lessico.json"});document.body.appendChild(a);a.click();a.remove();}
-function importLib(){const inp=el("input",{type:"file",accept:".json,application/json"});inp.addEventListener("change",()=>{const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{
-  const d=JSON.parse(r.result);
-  if(!Array.isArray(d)||!d.length){alert("Not a valid file.");return;}
-  let added=0,skipped=0;
-  d.forEach(item=>{const n=norm(item);
-    if(!n.it.word||!n.de.word){skipped++;return;}
-    if(existsWord(n.it.word,n.de.word)){skipped++;return;} // already in your deck — leave it (and its score) untouched
-    lib.push(n);added++;
-  });
-  if(added){saveProgNow();saveWords("import");render();}
-  alert("Imported: added "+added+" new word"+(added===1?"":"s")+", skipped "+skipped+" already in your deck. Existing words and scores were left unchanged.");
-}catch(e){alert("Could not read that file.");}};r.readAsText(f);});inp.click();}
+function findWord(it,de){const i=clean(it),d=clean(de);return lib.find(c=>clean(c.it.word)===i||clean(c.de.word)===d);}
+function importLib(mode){ // mode: "append" (add new only) | "update" (add new + refresh existing content, keeping scores)
+  const inp=el("input",{type:"file",accept:".json,application/json"});
+  inp.addEventListener("change",()=>{const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{
+    const d=JSON.parse(r.result);
+    if(!Array.isArray(d)||!d.length){alert("Not a valid file.");return;}
+    let added=0,updated=0,skipped=0;
+    d.forEach(item=>{const n=norm(item);
+      if(!n.it.word||!n.de.word){skipped++;return;}
+      const ex=(n.id&&lib.find(c=>c.id===n.id))||findWord(n.it.word,n.de.word);
+      if(ex){
+        if(mode==="update"){ // overwrite content only — streak/correct/seen (and id) stay as they are
+          ex.it={word:n.it.word,sentence:n.it.sentence};
+          ex.de={word:n.de.word,sentence:n.de.sentence};
+          ex.level=n.level;ex.topic=n.topic;updated++;
+        }else skipped++;
+      }else{lib.push(n);added++;}
+    });
+    if(added||updated){saveProgNow();saveWords(mode==="update"?"import update":"import");render();}
+    alert(mode==="update"
+      ? ("Updated "+updated+" existing word"+(updated===1?"":"s")+" and added "+added+" new. Scores were not changed.")
+      : ("Added "+added+" new word"+(added===1?"":"s")+", skipped "+skipped+" already in your deck. Existing words and scores were left unchanged."));
+  }catch(e){alert("Could not read that file.");}};r.readAsText(f);});
+  inp.click();
+}
 
 /* ============ Claude integration ============ */
 const SYS='You create Italian–German vocabulary flashcards for a language learner. Italian and German nouns must include the definite article (e.g. "la casa", "das Haus"). Example sentences must be natural, everyday, correct, and appropriate to the requested CEFR level; the Italian and German example sentences must be faithful translations of each other. Use only real, correct vocabulary.';
