@@ -73,6 +73,7 @@ select.inp{appearance:none}
 .seg{display:inline-flex;background:rgba(246,241,230,.06);border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px;flex-wrap:wrap}
 .seg button{font-family:inherit;font-size:12.5px;font-weight:500;color:rgba(246,241,230,.6);background:transparent;border:0;cursor:pointer;padding:6px 13px;border-radius:999px}
 .seg button.on{background:var(--paper);color:var(--ink)}
+.tdot{display:inline-block;width:9px;height:9px;border-radius:999px;margin-right:6px;vertical-align:middle}
 .solid{font-family:inherit;font-weight:600;font-size:14px;color:var(--ink);background:var(--paper);border:0;border-radius:11px;padding:11px 16px;cursor:pointer}
 .ghost{font-family:inherit;font-weight:500;font-size:13px;color:rgba(246,241,230,.78);background:rgba(246,241,230,.05);border:1px solid var(--line);border-radius:11px;padding:10px 14px;cursor:pointer}
 .ghost:disabled{opacity:.45}
@@ -223,7 +224,7 @@ const SEED = [
 // Words live in the repo (shared across devices, synced via GitHub); progress is per-device.
 const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1", KEY_KEY="lessico_key_v1";
 const WORDS_KEY="lessico_words_v1", PROG_KEY="lessico_prog_v1", GH_KEY="lessico_gh_v1";
-const DEFAULTS={direction:"mixed",levels:[],topics:[],sessionSize:30,learnY:3,focus:"mixed",audioMode:"self",audioSentence:true,ghOwner:"",ghRepo:"",ghBranch:"main",ghPath:"words.json"};
+const DEFAULTS={direction:"de",levels:[],topics:[],sessionSize:30,learnY:3,focus:"mixed",audioMode:"self",audioSentence:true,ghOwner:"",ghRepo:"",ghBranch:"main",ghPath:"words.json"};
 const MODEL="claude-haiku-4-5"; // Claude model for word generation — swap for e.g. "claude-opus-4-8" for higher quality
 const LANG={it:"it-IT",de:"de-DE"};
 const ttsOK=("speechSynthesis" in window);
@@ -262,6 +263,7 @@ function load(){
   if(settings.topic!==undefined){if(!settings.topics.length&&settings.topic!=="all")settings.topics=[settings.topic];delete settings.topic;}
   delete settings.deprecate;delete settings.retireN; // removed: time-based resurfacing and permanent retire
   settings.learnY=3; // baked in: 3 correct in a row = learned (matches the card's 3 dots / stars)
+  if(settings.dirSet===undefined){settings.direction="de";settings.dirSet=true;saveSet();} // one-time: default to DE → IT (still changeable)
   let words=readJSON(WORDS_KEY), prog=readJSON(PROG_KEY)||{};
   if(!Array.isArray(words)||!words.length){
     const legacy=readJSON(LIB_KEY); // one-time migration from the old single-blob format
@@ -433,6 +435,14 @@ function render(){
 }
 
 /* ---- shared progress bar for the current study filter ---- */
+// progress of one topic among the currently-selected levels: null = no words, else learned fraction 0..1
+function topicProgress(topic){
+  const ws=lib.filter(c=>c.topic===topic&&(!settings.levels.length||settings.levels.includes(c.level)));
+  if(!ws.length)return null;
+  return ws.filter(c=>status(c)==="learned").length/ws.length;
+}
+// red (needs work) -> yellow -> green (learned)
+const progColor=p=>"hsl("+Math.round(12+83*p)+" 55% 50%)";
 function filterProgress(gained){
   const inF=lib.filter(inFilter),total=inF.length;
   const b=[0,0,0,0];inF.forEach(c=>{b[Math.min(c.streak||0,3)]++;}); // words at 0,1,2,3 dots (3 = learned)
@@ -638,13 +648,20 @@ function paintSettings(){
     d.appendChild(el("button",{class:sel.length===0?"on":"",onclick:()=>on([])},["All"]));
     opts.forEach(o=>{const isOn=sel.includes(o);d.appendChild(el("button",{class:isOn?"on":"",onclick:()=>on(isOn?sel.filter(x=>x!==o):[...sel,o])},[o]));});
     return d;};
+  // like multiSeg but each chip carries a coloured progress dot (red = needs work, green = learned) at the selected level(s)
+  const topicSeg=(opts,sel,on)=>{const d=el("div",{class:"seg"});
+    d.appendChild(el("button",{class:sel.length===0?"on":"",onclick:()=>on([])},["All"]));
+    opts.forEach(o=>{const isOn=sel.includes(o),p=topicProgress(o);
+      const dot=el("span",{class:"tdot",style:{background:p==null?"rgba(246,241,230,.22)":progColor(p)}});
+      d.appendChild(el("button",{class:isOn?"on":"",onclick:()=>on(isOn?sel.filter(x=>x!==o):[...sel,o])},[dot,o]));});
+    return d;};
 
   app.appendChild(el("div",{class:"sec first"},["Study"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
   const levels=["A1","A2","B1","B2","C1","C2"].filter(l=>lib.some(c=>c.level===l));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Levels"]),multiSeg(levels,settings.levels,v=>{settings.levels=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Sessions draw only from the selected levels."])]));
   const topics=Array.from(new Set(lib.map(c=>c.topic)));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),multiSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”."])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),topicSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. The dot shows each topic's progress at the selected level(s) — red needs work, green is learned."])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["mixed","Mixed"],["seen","Seen only"],["new","New only"],["recap","Recap"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();}),el("span",{class:"sub"},["“Seen/New only” filter the learning pool. “Recap” reviews words you've already learned — miss one and its score resets so it returns to learning; get it right and it stays learned."])]));
   {const fp=filterProgress(0);
    app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in this filter"]),fp.bar,el("span",{class:"sub"},[fp.label])]));}
