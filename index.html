@@ -439,14 +439,15 @@ function render(){
 function topicProgress(topic,levelOk){
   const ws=lib.filter(c=>c.topic===topic&&(levelOk?levelOk(c):true));
   if(!ws.length)return null;
-  return ws.filter(c=>status(c)==="learned").length/ws.length;
+  // average ripeness (0..1): each word counts its streak toward learned (3), so 1x/2x correct add partial credit — mirrors the progress bar
+  return ws.reduce((a,c)=>a+Math.min(c.streak||0,3),0)/(ws.length*3);
 }
 const sortedTopics=()=>Array.from(new Set(lib.map(c=>c.topic))).sort((a,b)=>a.localeCompare(b));
-// amber (needs work) -> green (learned); brighter on the dark background, darker when the chip is selected (paper)
+// amber (needs work) -> green (learned); wider hue range = more contrast; brighter on dark, darker when selected (paper)
 function progText(p,on){
   if(p==null)return on?"":"rgba(246,241,230,.4)";
-  const h=Math.round(40+50*p);
-  return on?("hsl("+h+" 60% 34%)"):("hsl("+h+" 62% 66%)");
+  const h=Math.round(32+80*p);
+  return on?("hsl("+h+" 64% 31%)"):("hsl("+h+" 68% 64%)");
 }
 function filterProgress(gained){
   const inF=lib.filter(inFilter),total=inF.length;
