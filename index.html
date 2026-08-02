@@ -74,7 +74,6 @@ select.inp{appearance:none}
 .seg.segwrap{border-radius:16px;row-gap:4px;align-content:flex-start}
 .seg button{font-family:inherit;font-size:12.5px;font-weight:500;color:rgba(246,241,230,.6);background:transparent;border:0;cursor:pointer;padding:6px 13px;border-radius:999px}
 .seg button.on{background:var(--paper);color:var(--ink)}
-.tdot{display:inline-block;width:9px;height:9px;border-radius:999px;margin-right:6px;vertical-align:middle}
 .solid{font-family:inherit;font-weight:600;font-size:14px;color:var(--ink);background:var(--paper);border:0;border-radius:11px;padding:11px 16px;cursor:pointer}
 .ghost{font-family:inherit;font-weight:500;font-size:13px;color:rgba(246,241,230,.78);background:rgba(246,241,230,.05);border:1px solid var(--line);border-radius:11px;padding:10px 14px;cursor:pointer}
 .ghost:disabled{opacity:.45}
@@ -436,14 +435,19 @@ function render(){
 }
 
 /* ---- shared progress bar for the current study filter ---- */
-// progress of one topic among the currently-selected levels: null = no words, else learned fraction 0..1
-function topicProgress(topic){
-  const ws=lib.filter(c=>c.topic===topic&&(!settings.levels.length||settings.levels.includes(c.level)));
+// progress of one topic within a level scope (levelOk predicate): null = no words, else learned fraction 0..1
+function topicProgress(topic,levelOk){
+  const ws=lib.filter(c=>c.topic===topic&&(levelOk?levelOk(c):true));
   if(!ws.length)return null;
   return ws.filter(c=>status(c)==="learned").length/ws.length;
 }
-// red (needs work) -> yellow -> green (learned)
-const progColor=p=>"hsl("+Math.round(12+83*p)+" 55% 50%)";
+const sortedTopics=()=>Array.from(new Set(lib.map(c=>c.topic))).sort((a,b)=>a.localeCompare(b));
+// amber (needs work) -> green (learned); brighter on the dark background, darker when the chip is selected (paper)
+function progText(p,on){
+  if(p==null)return on?"":"rgba(246,241,230,.4)";
+  const h=Math.round(40+50*p);
+  return on?("hsl("+h+" 60% 34%)"):("hsl("+h+" 62% 66%)");
+}
 function filterProgress(gained){
   const inF=lib.filter(inFilter),total=inF.length;
   const b=[0,0,0,0];inF.forEach(c=>{b[Math.min(c.streak||0,3)]++;}); // words at 0,1,2,3 dots (3 = learned)
@@ -521,9 +525,15 @@ function paintWords(){
   app.appendChild(s);
   const seg=(opts,val,on)=>{const d=el("div",{class:"seg"});opts.forEach(o=>d.appendChild(el("button",{class:val===o[0]?"on":"",onclick:()=>on(o[0])},[o[1]])));return d;};
   const levels=["A1","A2","B1","B2","C1","C2"].filter(l=>lib.some(c=>c.level===l));
-  const topics=Array.from(new Set(lib.map(c=>c.topic)));
+  const topics=sortedTopics();
+  const wLvlOk=c=>listLevel==="all"||c.level===listLevel;
+  const topicSegW=(val,on)=>{const d=el("div",{class:"seg segwrap"});
+    d.appendChild(el("button",{class:val==="all"?"on":"",onclick:()=>on("all")},["All"]));
+    topics.forEach(t=>{const sel=val===t,col=progText(topicProgress(t,wLvlOk),sel);
+      d.appendChild(el("button",{class:sel?"on":"",style:col?{color:col}:{},onclick:()=>on(t)},[t]));});
+    return d;};
   app.appendChild(el("div",{class:"field"},[el("label",{},["Level"]),seg([["all","All"],...levels.map(l=>[l,l])],listLevel,v=>{listLevel=v;page=0;render();})]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Topic"]),seg([["all","All"],...topics.map(x=>[x,x])],listTopic,v=>{listTopic=v;page=0;render();})]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Topic"]),topicSegW(listTopic,v=>{listTopic=v;page=0;render();})]));
   app.appendChild(el("div",{id:"add"}));paintAdd();
   app.appendChild(el("div",{id:"gen"}));paintGen();
   app.appendChild(el("div",{class:"hint",id:"syncmsg",style:{marginTop:"2px",display:syncStatus?"block":"none"}},[syncStatus]));
@@ -535,7 +545,7 @@ function paintAdd(){
   if(!addOpen)return;
   const g={};const mk=(k,label,ph)=>{const i=el("input",{class:"inp",placeholder:ph||""});g[k]=i;return el("div",{class:"field"},[el("label",{},[label]),i]);};
   const lvl=el("select",{class:"inp"},["A1","A2","B1","B2","C1","C2"].map(l=>el("option",{value:l},[l])));lvl.value="B1";
-  const topics=Array.from(new Set(lib.map(c=>c.topic)));if(!topics.includes("Other"))topics.push("Other");
+  const topics=sortedTopics();if(!topics.includes("Other"))topics.push("Other");
   const top=el("select",{class:"inp"},topics.map(x=>el("option",{value:x},[x])));
   const err=el("div",{class:"err",style:{display:"none"}});
   w.appendChild(el("div",{},[
@@ -571,7 +581,7 @@ function paintGen(){
   if(!getKey()){w.appendChild(el("div",{class:"hint"},["Add your Claude API key in Settings to generate words."]));return;}
   const cnt=el("input",{class:"inp",type:"number",min:"1",max:"40",value:"10"});
   const lvl=el("select",{class:"inp"},["A1","A2","B1","B2","C1","C2"].map(l=>el("option",{value:l},[l])));lvl.value="B1";
-  const topics=Array.from(new Set(lib.map(c=>c.topic)));
+  const topics=sortedTopics();
   const top=el("input",{class:"inp",placeholder:"e.g. Work — verbs & adjectives",value:topics[0]||""});
   const err=el("div",{class:"err",style:{display:"none"}});
   const info=el("div",{class:"hint",style:{marginTop:"8px"}});
@@ -649,20 +659,20 @@ function paintSettings(){
     d.appendChild(el("button",{class:sel.length===0?"on":"",onclick:()=>on([])},["All"]));
     opts.forEach(o=>{const isOn=sel.includes(o);d.appendChild(el("button",{class:isOn?"on":"",onclick:()=>on(isOn?sel.filter(x=>x!==o):[...sel,o])},[o]));});
     return d;};
-  // like multiSeg but each chip carries a coloured progress dot (red = needs work, green = learned) at the selected level(s)
+  // like multiSeg but each topic's text is coloured by its progress (amber = needs work -> green = learned) at the selected level(s)
+  const lvlOk=c=>!settings.levels.length||settings.levels.includes(c.level);
   const topicSeg=(opts,sel,on)=>{const d=el("div",{class:"seg segwrap"});
     d.appendChild(el("button",{class:sel.length===0?"on":"",onclick:()=>on([])},["All"]));
-    opts.forEach(o=>{const isOn=sel.includes(o),p=topicProgress(o);
-      const dot=el("span",{class:"tdot",style:{background:p==null?"rgba(246,241,230,.22)":progColor(p)}});
-      d.appendChild(el("button",{class:isOn?"on":"",onclick:()=>on(isOn?sel.filter(x=>x!==o):[...sel,o])},[dot,o]));});
+    opts.forEach(o=>{const isOn=sel.includes(o),col=progText(topicProgress(o,lvlOk),isOn);
+      d.appendChild(el("button",{class:isOn?"on":"",style:col?{color:col}:{},onclick:()=>on(isOn?sel.filter(x=>x!==o):[...sel,o])},[o]));});
     return d;};
 
   app.appendChild(el("div",{class:"sec first"},["Study"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
   const levels=["A1","A2","B1","B2","C1","C2"].filter(l=>lib.some(c=>c.level===l));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Levels"]),multiSeg(levels,settings.levels,v=>{settings.levels=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Sessions draw only from the selected levels."])]));
-  const topics=Array.from(new Set(lib.map(c=>c.topic)));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),topicSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. The dot shows each topic's progress at the selected level(s) — red needs work, green is learned."])]));
+  const topics=sortedTopics();
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),topicSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Each topic's colour shows its progress at the selected level(s) — amber needs work, green is learned."])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["mixed","Mixed"],["seen","Seen only"],["new","New only"],["recap","Recap"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();}),el("span",{class:"sub"},["“Seen/New only” filter the learning pool. “Recap” reviews words you've already learned — miss one and its score resets so it returns to learning; get it right and it stays learned."])]));
   {const fp=filterProgress(0);
    app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in this filter"]),fp.bar,el("span",{class:"sub"},[fp.label])]));}
@@ -768,7 +778,7 @@ function snapTopic(t){
 }
 async function genWords(n,level,prompt){
   const existing=lib.map(c=>c.it.word).join("; ");
-  const topics=Array.from(new Set(lib.map(c=>c.topic)));
+  const topics=sortedTopics();
   const item={type:"object",additionalProperties:false,required:["it","de","its","des"],properties:{it:{type:"string"},de:{type:"string"},its:{type:"string"},des:{type:"string"}}};
   const schema={type:"object",additionalProperties:false,required:["topic","words"],properties:{topic:{type:"string"},words:{type:"array",items:item}}};
   const user='Build a set of '+n+' Italian–German vocabulary flashcards. Request: "'+prompt+'". Target CEFR level: '+level+'.\n'
