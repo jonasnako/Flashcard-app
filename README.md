@@ -47,7 +47,8 @@ Each entry looks like:
 
 ## Studying
 
-- **Settings → Study → Levels / Topics** limit which words a session draws from. Both are multi-select: tap any combination of levels and topics (e.g. B1 + B2, or Household + Children), or **All** to clear a selection. An empty selection means everything.
+- **Settings → Study → Levels / Topics** limit which words a session draws from. Both are multi-select: tap any combination of levels and topics (e.g. B1 + B2, or Household + Children), or **All** to clear a selection. An empty selection means everything. Each **topic** chip carries a coloured **progress dot** — red (needs work) → green (learned) — computed for the levels you've selected, so you can see at a glance which topics to focus on.
+- **Direction (front side)** defaults to **DE → IT** (German prompt). Change it in Settings → Study — *Mixed*, *IT → DE*, or *DE → IT*.
 - **Settings → Focus** controls which words a session draws from:
   - **Mixed** — any word still being learned.
   - **Seen only** — learning words you've already been tested on.
