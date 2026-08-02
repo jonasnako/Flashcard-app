@@ -71,6 +71,7 @@ select.inp{appearance:none}
 .numrow .inp{width:100px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .seg{display:inline-flex;background:rgba(246,241,230,.06);border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px;flex-wrap:wrap}
+.seg.segwrap{border-radius:16px;row-gap:4px;align-content:flex-start}
 .seg button{font-family:inherit;font-size:12.5px;font-weight:500;color:rgba(246,241,230,.6);background:transparent;border:0;cursor:pointer;padding:6px 13px;border-radius:999px}
 .seg button.on{background:var(--paper);color:var(--ink)}
 .tdot{display:inline-block;width:9px;height:9px;border-radius:999px;margin-right:6px;vertical-align:middle}
@@ -644,12 +645,12 @@ function paintSettings(){
   const num=(val,min,on)=>{const i=el("input",{class:"inp",type:"number",min:String(min),value:String(val)});i.addEventListener("change",()=>{let n=parseInt(i.value,10);if(isNaN(n)||n<min)n=min;i.value=n;on(n);});return el("div",{class:"numrow"},[i]);};
 
   // multi-select segmented control — empty selection means "all"
-  const multiSeg=(opts,sel,on)=>{const d=el("div",{class:"seg"});
+  const multiSeg=(opts,sel,on)=>{const d=el("div",{class:"seg segwrap"});
     d.appendChild(el("button",{class:sel.length===0?"on":"",onclick:()=>on([])},["All"]));
     opts.forEach(o=>{const isOn=sel.includes(o);d.appendChild(el("button",{class:isOn?"on":"",onclick:()=>on(isOn?sel.filter(x=>x!==o):[...sel,o])},[o]));});
     return d;};
   // like multiSeg but each chip carries a coloured progress dot (red = needs work, green = learned) at the selected level(s)
-  const topicSeg=(opts,sel,on)=>{const d=el("div",{class:"seg"});
+  const topicSeg=(opts,sel,on)=>{const d=el("div",{class:"seg segwrap"});
     d.appendChild(el("button",{class:sel.length===0?"on":"",onclick:()=>on([])},["All"]));
     opts.forEach(o=>{const isOn=sel.includes(o),p=topicProgress(o);
       const dot=el("span",{class:"tdot",style:{background:p==null?"rgba(246,241,230,.22)":progColor(p)}});
