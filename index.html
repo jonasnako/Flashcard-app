@@ -23,7 +23,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .logo i{color:var(--green);font-style:normal}
 .counts{text-align:right;font-size:12px;color:rgba(246,241,230,.55);line-height:1.5}
 .counts b{color:var(--paper)}
-.scene{perspective:1600px;margin-bottom:18px}
+.scene{perspective:1600px;margin-bottom:18px;position:relative}
 .card{position:relative;width:100%;min-height:clamp(300px,48vw,380px);transform-style:preserve-3d;transition:transform .55s cubic-bezier(.2,.85,.25,1);cursor:pointer}
 .card.flip{transform:rotateY(180deg)}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--paper);color:var(--ink);border-radius:18px;padding:22px 26px;display:flex;flex-direction:column;justify-content:center;box-shadow:0 22px 44px -20px rgba(0,0,0,.55),0 2px 0 var(--edge);overflow:hidden}
@@ -224,7 +224,7 @@ const SEED = [
 // Words live in the repo (shared across devices, synced via GitHub); progress is per-device.
 const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1", KEY_KEY="lessico_key_v1";
 const WORDS_KEY="lessico_words_v1", PROG_KEY="lessico_prog_v1", GH_KEY="lessico_gh_v1";
-const DEFAULTS={direction:"de",levels:[],topics:[],sessionSize:30,learnY:3,focus:"mixed",audioMode:"self",audioSentence:true,ghOwner:"",ghRepo:"",ghBranch:"main",ghPath:"words.json"};
+const DEFAULTS={direction:"de",levels:[],topics:[],sessionSize:20,learnY:3,focus:"mixed",audioMode:"self",audioSentence:true,ghOwner:"",ghRepo:"",ghBranch:"main",ghPath:"words.json"};
 const MODEL="claude-haiku-4-5"; // Claude model for word generation — swap for e.g. "claude-opus-4-8" for higher quality
 const LANG={it:"it-IT",de:"de-DE"};
 const ttsOK=("speechSynthesis" in window);
@@ -264,6 +264,7 @@ function load(){
   delete settings.deprecate;delete settings.retireN; // removed: time-based resurfacing and permanent retire
   settings.learnY=3; // baked in: 3 correct in a row = learned (matches the card's 3 dots / stars)
   if(settings.dirSet===undefined){settings.direction="de";settings.dirSet=true;saveSet();} // one-time: default to DE → IT (still changeable)
+  if(settings.ssSet===undefined){settings.sessionSize=20;settings.ssSet=true;saveSet();} // one-time: default to 20 per session (still changeable)
   let words=readJSON(WORDS_KEY), prog=readJSON(PROG_KEY)||{};
   if(!Array.isArray(words)||!words.length){
     const legacy=readJSON(LIB_KEY); // one-time migration from the old single-blob format
@@ -493,7 +494,10 @@ function paintSession(){
   controls.push(el("button",{class:"ghost",style:{marginLeft:"auto"},title:"Start a fresh session",onclick:()=>{if(confirm("Start a new session? The current one is discarded (your scores are kept).")){stopAudio();startSession();paintSession();}}},["↻ New session"]));
   area.appendChild(el("div",{class:"atools"},controls));
   const card=el("div",{class:"card"+(flipped?" flip":""),onclick:()=>{if(audioOn)return;flipped=!flipped;card.classList.toggle("flip",flipped);paintButtons();}},[face(c,f,false),face(c,b,true)]);
-  area.appendChild(el("div",{class:"scene"},[card]));
+  const scene=el("div",{class:"scene"},[card]);
+  // one speaker over the card (not one per face) — avoids iOS backface-visibility rendering two; speaks whichever side is showing
+  if(ttsOK)scene.appendChild(el("button",{class:"say",title:"Hear this",onclick:(e)=>{e.stopPropagation();if(audioOn)return;speakFace(c,flipped?b:f,e.currentTarget);}},["🔊"]));
+  area.appendChild(scene);
   area.appendChild(el("div",{id:"btns"}));
   paintButtons();
 }
@@ -501,7 +505,6 @@ function face(c,lang,back){
   const s=c[lang];
   return el("div",{class:"face"+(back?" back":"")},[
     el("div",{class:"spine",style:{background:lang==="it"?"#7A9A57":"#CB9235"}}),
-    ttsOK?el("button",{class:"say",title:"Hear this",onclick:(e)=>{e.stopPropagation();if(audioOn)return;speakFace(c,lang,e.currentTarget);}},["🔊"]):null,
     el("h2",{class:"word"},[s.word]),
     s.sentence?el("p",{class:"sentence"},[s.sentence]):null,
     el("div",{class:"foot"},[
