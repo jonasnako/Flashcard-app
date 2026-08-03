@@ -86,9 +86,10 @@ select.inp{appearance:none}
 .row .pair{flex:1;min-width:0}
 .row .a{font-family:'Fraunces',serif;font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row .b{font-size:13px;color:rgba(246,241,230,.55);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.row .st{font-size:10px;font-weight:600;border-radius:5px;padding:3px 6px;white-space:nowrap}
-.st.learning{color:#CDE0B4;border:1px solid rgba(122,154,87,.4)}
-.st.learned{color:#EAC98A;border:1px solid rgba(203,146,53,.4)}
+.row .lvl{font-size:10px;font-weight:600;letter-spacing:.04em;color:rgba(246,241,230,.5);border:1px solid var(--line);border-radius:5px;padding:2px 6px;white-space:nowrap}
+.row .dots{flex-wrap:nowrap}
+.row .dots span{background:rgba(246,241,230,.18)}
+.row .dots span.f{background:rgba(246,241,230,.8)}
 .row .del{background:none;border:0;color:rgba(246,241,230,.35);cursor:pointer;padding:4px;font-size:15px;line-height:1}
 .pager{display:flex;align-items:center;justify-content:space-between;margin-top:14px;font-size:13px;color:rgba(246,241,230,.6)}
 .rowdet{padding:6px 2px 16px;border-bottom:1px solid var(--line)}
@@ -614,14 +615,15 @@ function paintList(){
   slice.forEach(c=>{const s=status(c);const open=expandedId===c.id;
     w.appendChild(el("div",{class:"row"},[
       el("div",{class:"pair",style:{cursor:"pointer"},onclick:()=>{expandedId=open?null:c.id;editingId=null;paintList();}},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
-      el("span",{class:"st "+(s==="learning"?"learning":"learned")},[s==="learning"?(Math.min(c.streak,settings.learnY)+"/"+settings.learnY):s]),
+      el("span",{class:"lvl"},[c.level]),
+      el("span",{class:"dots",title:Math.min(c.streak,settings.learnY)+"/"+settings.learnY},Array.from({length:settings.learnY},(_,i)=>el("span",{class:i<c.streak?"f":""}))),
       el("button",{class:"del",html:"✕",onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){lib=lib.filter(x=>x.id!==c.id);if(session){session.queue=session.queue.filter(z=>z.id!==c.id);if(!session.queue.length)session.active=false;saveSession();}saveProgNow();saveWords("delete word");render();}}})
     ]));
     if(open&&editingId!==c.id)w.appendChild(el("div",{class:"rowdet"},[
       c.it.sentence?el("p",{class:"ex it"},[c.it.sentence]):null,
       c.de.sentence?el("p",{class:"ex de"},[c.de.sentence]):null,
       (!c.it.sentence&&!c.de.sentence)?el("p",{class:"ex muted"},["No example sentences."]):null,
-      el("div",{class:"tags"},[el("span",{class:"tag"},[c.level]),el("span",{class:"tag"},[c.topic])]),
+      el("div",{class:"tags"},[el("span",{class:"tag"},[c.topic])]),
       el("button",{class:"ghost",style:{marginTop:"12px"},onclick:()=>{editingId=c.id;paintList();}},["✏️ Edit"])
     ]));
     if(open&&editingId===c.id){
