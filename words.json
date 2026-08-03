@@ -16209,5 +16209,3281 @@
       "word": "auf sich achten",
       "sentence": "Mit zwei kleinen Kindern ist es schwer, auf sich zu achten."
     }
+  },
+  {
+    "id": "5fac8db8-30ca-4f76-8243-32d89b45159d",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "farcela",
+      "sentence": "Non ce la faccio più, sono stanchissimo."
+    },
+    "de": {
+      "word": "es schaffen",
+      "sentence": "Ich schaffe es nicht mehr, ich bin todmüde."
+    }
+  },
+  {
+    "id": "a209f579-4cbc-411d-b48b-221c74d5706b",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "fare attenzione a",
+      "sentence": "Fai attenzione ai gradini, sono bagnati!"
+    },
+    "de": {
+      "word": "achtgeben auf",
+      "sentence": "Gib acht auf die Stufen, sie sind nass!"
+    }
+  },
+  {
+    "id": "30ac4708-712f-45d5-9e39-54a0d3043930",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "fare in tempo a",
+      "sentence": "Se partiamo subito, faremo in tempo a prendere il treno."
+    },
+    "de": {
+      "word": "es rechtzeitig schaffen",
+      "sentence": "Wenn wir sofort losfahren, schaffen wir den Zug noch rechtzeitig."
+    }
+  },
+  {
+    "id": "ddad18e7-6eeb-4941-95af-f9fd86742349",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "far parte di",
+      "sentence": "Faccio parte di un coro da tre anni."
+    },
+    "de": {
+      "word": "gehören zu",
+      "sentence": "Ich gehöre seit drei Jahren zu einem Chor."
+    }
+  },
+  {
+    "id": "eb663df1-a9a9-4045-a86c-998d95da76c3",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "fare bella figura",
+      "sentence": "Voleva fare bella figura, quindi è arrivato in anticipo."
+    },
+    "de": {
+      "word": "einen guten Eindruck machen",
+      "sentence": "Er wollte einen guten Eindruck machen, also kam er früher."
+    }
+  },
+  {
+    "id": "d164bcc7-7e36-4c2c-a13f-c2e19743c864",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "fare fatica a",
+      "sentence": "Faccio fatica ad alzarmi presto d'inverno."
+    },
+    "de": {
+      "word": "Mühe haben zu",
+      "sentence": "Im Winter habe ich Mühe, früh aufzustehen."
+    }
+  },
+  {
+    "id": "96a58f99-76ca-4f2c-8c35-3b5d7f80da33",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "fare apposta",
+      "sentence": "Scusa, non l'ho fatto apposta!"
+    },
+    "de": {
+      "word": "absichtlich tun",
+      "sentence": "Entschuldige, das habe ich nicht absichtlich getan!"
+    }
+  },
+  {
+    "id": "95a1d7cb-db9d-4bf0-b077-011ea9447111",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "prendersela",
+      "sentence": "Non prendertela, non parlava di te."
+    },
+    "de": {
+      "word": "es übel nehmen",
+      "sentence": "Nimm es nicht übel, er sprach nicht von dir."
+    }
+  },
+  {
+    "id": "2e7f718c-43c3-4016-8172-b3881fc0415e",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "prendere in giro",
+      "sentence": "Mi stai prendendo in giro?"
+    },
+    "de": {
+      "word": "auf den Arm nehmen",
+      "sentence": "Nimmst du mich auf den Arm?"
+    }
+  },
+  {
+    "id": "f18d976b-f62f-4457-bbe3-78dfc6e4e1cd",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "prendere sul serio",
+      "sentence": "Prendi sul serio quello che ti dice il medico."
+    },
+    "de": {
+      "word": "ernst nehmen",
+      "sentence": "Nimm ernst, was dir der Arzt sagt."
+    }
+  },
+  {
+    "id": "c9acb31f-7c81-49a2-af74-1c5dcd1eb684",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "prendere una decisione",
+      "sentence": "Prima o poi dovrai prendere una decisione."
+    },
+    "de": {
+      "word": "eine Entscheidung treffen",
+      "sentence": "Früher oder später wirst du eine Entscheidung treffen müssen."
+    }
+  },
+  {
+    "id": "7d1a67f7-7b25-4ef1-ab61-4996311798a3",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "prendere appunti",
+      "sentence": "Durante il corso prendo sempre appunti."
+    },
+    "de": {
+      "word": "Notizen machen",
+      "sentence": "Im Kurs mache ich mir immer Notizen."
+    }
+  },
+  {
+    "id": "b33bc323-ed2d-40a8-aadd-6e10eac298f9",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "metterci",
+      "sentence": "Quanto ci metti da casa al lavoro?"
+    },
+    "de": {
+      "word": "brauchen (Zeit)",
+      "sentence": "Wie lange brauchst du von zu Hause zur Arbeit?"
+    }
+  },
+  {
+    "id": "862cc5f8-16b6-43d1-ae19-454bed7bc901",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "mettersi a",
+      "sentence": "Appena arrivato, si è messo a cucinare."
+    },
+    "de": {
+      "word": "anfangen zu",
+      "sentence": "Kaum angekommen, fing er an zu kochen."
+    }
+  },
+  {
+    "id": "a0058994-02ef-4eb2-96e1-2d4d1449bbb5",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "mettere da parte",
+      "sentence": "Ogni mese mettiamo da parte qualcosa per le vacanze."
+    },
+    "de": {
+      "word": "beiseitelegen",
+      "sentence": "Jeden Monat legen wir etwas für die Ferien beiseite."
+    }
+  },
+  {
+    "id": "7df3f40a-278b-4ac1-8733-40e06111e48c",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "mettere d'accordo",
+      "sentence": "Non è facile mettere d'accordo tutta la famiglia."
+    },
+    "de": {
+      "word": "unter einen Hut bringen",
+      "sentence": "Es ist nicht leicht, die ganze Familie unter einen Hut zu bringen."
+    }
+  },
+  {
+    "id": "21783c19-1a96-4bb8-9b97-7a63f991b1e7",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "dare retta a",
+      "sentence": "Dammi retta, quella strada è più veloce."
+    },
+    "de": {
+      "word": "hören auf",
+      "sentence": "Hör auf mich, diese Strasse ist schneller."
+    }
+  },
+  {
+    "id": "2a7c49b3-668d-4086-9d28-22d9bc1bc49c",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "dare per scontato",
+      "sentence": "Davo per scontato che venissi anche tu."
+    },
+    "de": {
+      "word": "als selbstverständlich ansehen",
+      "sentence": "Ich sah es als selbstverständlich an, dass du auch kommst."
+    }
+  },
+  {
+    "id": "dd7b5ba6-0e0b-4ce9-9001-71f03a45a216",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "darsi da fare",
+      "sentence": "Se vogliamo finire oggi, bisogna darsi da fare."
+    },
+    "de": {
+      "word": "sich ins Zeug legen",
+      "sentence": "Wenn wir heute fertig werden wollen, müssen wir uns ins Zeug legen."
+    }
+  },
+  {
+    "id": "8f6494be-6251-4cf3-95e3-adef7f9d1177",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "tenerci a",
+      "sentence": "Ci tengo molto che veniate alla festa."
+    },
+    "de": {
+      "word": "grossen Wert legen auf",
+      "sentence": "Ich lege grossen Wert darauf, dass ihr zum Fest kommt."
+    }
+  },
+  {
+    "id": "d1849ac5-c888-4101-b006-7d223f238086",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "tenere conto di",
+      "sentence": "Bisogna tenere conto anche dei costi nascosti."
+    },
+    "de": {
+      "word": "berücksichtigen",
+      "sentence": "Man muss auch die versteckten Kosten berücksichtigen."
+    }
+  },
+  {
+    "id": "07f1a2c6-3069-4a3c-b0fa-4618f7864686",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "tenere d'occhio",
+      "sentence": "Tieni d'occhio la pentola mentre rispondo al telefono."
+    },
+    "de": {
+      "word": "im Auge behalten",
+      "sentence": "Behalte den Topf im Auge, während ich ans Telefon gehe."
+    }
+  },
+  {
+    "id": "3677fa02-6336-419c-874d-007b1a81f705",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "andarsene",
+      "sentence": "Si è fatto tardi, me ne vado."
+    },
+    "de": {
+      "word": "weggehen",
+      "sentence": "Es ist spät geworden, ich gehe."
+    }
+  },
+  {
+    "id": "437026d0-81f2-4aa8-acd4-88f90b35b48a",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "andare d'accordo",
+      "sentence": "Vai d'accordo con i tuoi colleghi?"
+    },
+    "de": {
+      "word": "sich gut verstehen",
+      "sentence": "Verstehst du dich gut mit deinen Kollegen?"
+    }
+  },
+  {
+    "id": "ddb234e2-c62a-440a-b2e7-2d82cdf9ef62",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "andare a finire",
+      "sentence": "Com'è andata a finire la storia del contratto?"
+    },
+    "de": {
+      "word": "enden",
+      "sentence": "Wie ist die Sache mit dem Vertrag ausgegangen?"
+    }
+  },
+  {
+    "id": "0d697a0f-59ca-469f-b105-fe923b717d5b",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "venire in mente",
+      "sentence": "Mi è venuta in mente un'idea!"
+    },
+    "de": {
+      "word": "in den Sinn kommen",
+      "sentence": "Mir ist eine Idee in den Sinn gekommen!"
+    }
+  },
+  {
+    "id": "2d01a5c4-197b-4a61-b5be-29f64791ebc9",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "stare per",
+      "sentence": "Stavo per chiamarti proprio adesso."
+    },
+    "de": {
+      "word": "gerade dabei sein zu",
+      "sentence": "Ich war gerade dabei, dich anzurufen."
+    }
+  },
+  {
+    "id": "6b147d4d-6557-4b05-81f9-dbd76a277915",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "stare attento a",
+      "sentence": "Stai attento a non scivolare sul ghiaccio."
+    },
+    "de": {
+      "word": "aufpassen auf",
+      "sentence": "Pass auf, dass du auf dem Eis nicht ausrutschst."
+    }
+  },
+  {
+    "id": "ee045b67-7a70-4b8a-994b-4ce076ae39b5",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "starci",
+      "sentence": "Pizza stasera? Io ci sto!"
+    },
+    "de": {
+      "word": "dabei sein",
+      "sentence": "Pizza heute Abend? Ich bin dabei!"
+    }
+  },
+  {
+    "id": "ef05820a-dfc1-4a62-b302-087081095bb3",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "provare a",
+      "sentence": "Prova a richiamarlo fra un'ora."
+    },
+    "de": {
+      "word": "versuchen zu",
+      "sentence": "Versuch, ihn in einer Stunde nochmals anzurufen."
+    }
+  },
+  {
+    "id": "f7a005fd-cd29-4438-8ae7-6cca8cd19231",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "tentare",
+      "sentence": "Ha tentato tre volte prima di riuscirci."
+    },
+    "de": {
+      "word": "den Versuch wagen",
+      "sentence": "Er hat es dreimal versucht, bevor es ihm gelang."
+    }
+  },
+  {
+    "id": "96ef1508-3f42-443f-856f-da9dd6f30754",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "riuscire a",
+      "sentence": "Sei riuscito a trovare le chiavi?"
+    },
+    "de": {
+      "word": "gelingen",
+      "sentence": "Ist es dir gelungen, die Schlüssel zu finden?"
+    }
+  },
+  {
+    "id": "3174f390-f8a6-4905-a67c-284a5f2485ff",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "sforzarsi di",
+      "sentence": "Mi sforzo di parlare italiano ogni giorno, benché sia stanco."
+    },
+    "de": {
+      "word": "sich anstrengen zu",
+      "sentence": "Ich strenge mich an, täglich Italienisch zu sprechen, obwohl ich müde bin."
+    }
+  },
+  {
+    "id": "7fe8b131-eea9-4f04-95be-44af626780f5",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "impegnarsi",
+      "sentence": "Si impegna molto nello studio."
+    },
+    "de": {
+      "word": "sich engagieren",
+      "sentence": "Er engagiert sich sehr beim Lernen."
+    }
+  },
+  {
+    "id": "90f45c88-d4c0-4a8d-901d-7704d1e4b36f",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "avere intenzione di",
+      "sentence": "Abbiamo intenzione di trasferirci l'anno prossimo."
+    },
+    "de": {
+      "word": "beabsichtigen zu",
+      "sentence": "Wir beabsichtigen, nächstes Jahr umzuziehen."
+    }
+  },
+  {
+    "id": "3f1c1076-1f42-4b50-ad78-c90e07efdfe8",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "proporsi di",
+      "sentence": "Mi sono proposto di leggere di più quest'anno."
+    },
+    "de": {
+      "word": "sich vornehmen zu",
+      "sentence": "Ich habe mir vorgenommen, dieses Jahr mehr zu lesen."
+    }
+  },
+  {
+    "id": "b386a40d-e868-4473-95fd-78ff40a3b449",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "raggiungere un obiettivo",
+      "sentence": "Abbiamo raggiunto l'obiettivo prima del previsto."
+    },
+    "de": {
+      "word": "ein Ziel erreichen",
+      "sentence": "Wir haben das Ziel früher als geplant erreicht."
+    }
+  },
+  {
+    "id": "3855e8e5-5af5-4fe9-a8bd-7e7d54b2f739",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "fallire",
+      "sentence": "Il primo tentativo è fallito, però non molliamo."
+    },
+    "de": {
+      "word": "scheitern",
+      "sentence": "Der erste Versuch ist gescheitert, aber wir geben nicht auf."
+    }
+  },
+  {
+    "id": "dc265ec7-9b1b-4433-9080-ceadf2153768",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "mollare",
+      "sentence": "Eravamo stanchi, ma nessuno voleva mollare."
+    },
+    "de": {
+      "word": "aufgeben",
+      "sentence": "Wir waren müde, doch niemand wollte aufgeben."
+    }
+  },
+  {
+    "id": "431839d6-7ed2-489f-966e-20442d6a3e1b",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "ottenere",
+      "sentence": "Ha ottenuto il permesso dopo lunga attesa."
+    },
+    "de": {
+      "word": "erhalten",
+      "sentence": "Er hat die Erlaubnis nach langem Warten erhalten."
+    }
+  },
+  {
+    "id": "79501f22-e68c-4a6b-8eff-ccf644635383",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "arrendersi",
+      "sentence": "Non arrenderti proprio adesso che sei così vicino!"
+    },
+    "de": {
+      "word": "sich geschlagen geben",
+      "sentence": "Gib dich nicht gerade jetzt geschlagen, wo du so nah dran bist!"
+    }
+  },
+  {
+    "id": "923aa1b8-011a-49e7-985d-38ff0e52bfed",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "smettere di",
+      "sentence": "Quando smetterà di piovere, usciamo."
+    },
+    "de": {
+      "word": "aufhören mit",
+      "sentence": "Wenn es aufhört zu regnen, gehen wir raus."
+    }
+  },
+  {
+    "id": "3b723579-f4f8-4f1e-a3c6-75ca44526404",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "continuare a",
+      "sentence": "Continua a esercitarti, stai migliorando!"
+    },
+    "de": {
+      "word": "weitermachen mit",
+      "sentence": "Mach weiter mit dem Üben, du wirst besser!"
+    }
+  },
+  {
+    "id": "ba268f04-4420-43d4-9713-83cb7846ca4d",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "cominciare a",
+      "sentence": "Ho cominciato a studiare l'italiano due anni fa."
+    },
+    "de": {
+      "word": "beginnen zu",
+      "sentence": "Ich habe vor zwei Jahren begonnen, Italienisch zu lernen."
+    }
+  },
+  {
+    "id": "59ec539f-83aa-4882-9ee3-f29eeedae63d",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "finire di",
+      "sentence": "Hai finito di leggere quel libro?"
+    },
+    "de": {
+      "word": "fertig werden mit",
+      "sentence": "Bist du mit dem Buch fertig geworden?"
+    }
+  },
+  {
+    "id": "302e93df-3e7e-48f3-aa49-cbb2ef3c06a9",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "evitare di",
+      "sentence": "Evita di telefonargli dopo le nove."
+    },
+    "de": {
+      "word": "vermeiden zu",
+      "sentence": "Vermeide es, ihn nach neun anzurufen."
+    }
+  },
+  {
+    "id": "db401ed6-e52a-4be9-ae5e-bdecb22f584a",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "decidersi a",
+      "sentence": "Finalmente si è deciso a chiedere aiuto."
+    },
+    "de": {
+      "word": "sich durchringen zu",
+      "sentence": "Endlich hat er sich durchgerungen, um Hilfe zu bitten."
+    }
+  },
+  {
+    "id": "24244e29-191e-488e-a7c1-4af8d858a0c2",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "abituarsi a",
+      "sentence": "Ti abituerai presto al nuovo orario."
+    },
+    "de": {
+      "word": "sich gewöhnen an",
+      "sentence": "Du wirst dich bald an die neuen Zeiten gewöhnen."
+    }
+  },
+  {
+    "id": "5f1710db-d5fa-4d84-b279-4b623543ae10",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "dipendere da",
+      "sentence": "Dipende dal tempo: se piove, restiamo a casa."
+    },
+    "de": {
+      "word": "abhängen von",
+      "sentence": "Es hängt vom Wetter ab: Wenn es regnet, bleiben wir zu Hause."
+    }
+  },
+  {
+    "id": "f3227d8f-1019-4abe-b6be-dbccb94da578",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "contare su",
+      "sentence": "Puoi contare su di noi, qualunque cosa succeda."
+    },
+    "de": {
+      "word": "zählen auf",
+      "sentence": "Du kannst auf uns zählen, was auch immer passiert."
+    }
+  },
+  {
+    "id": "25f0c995-7bd6-423e-8713-9a0adaa31edc",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "occuparsi di",
+      "sentence": "Chi si occupa dei bambini stasera?"
+    },
+    "de": {
+      "word": "sich kümmern um",
+      "sentence": "Wer kümmert sich heute Abend um die Kinder?"
+    }
+  },
+  {
+    "id": "d0703c97-9e1a-4072-a678-19819f06984d",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "trattarsi di",
+      "sentence": "Non preoccuparti, si tratta solo di un malinteso."
+    },
+    "de": {
+      "word": "sich handeln um",
+      "sentence": "Keine Sorge, es handelt sich nur um ein Missverständnis."
+    }
+  },
+  {
+    "id": "b4ff7828-73da-4a2d-9f28-d14f0e5aa319",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "vantarsi di",
+      "sentence": "Si vanta sempre dei suoi successi, il che infastidisce."
+    },
+    "de": {
+      "word": "sich rühmen",
+      "sentence": "Er rühmt sich ständig seiner Erfolge, was stört."
+    }
+  },
+  {
+    "id": "0e8b206d-880d-454c-ab10-3d684b3afa7c",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "pentirsi di",
+      "sentence": "Non ti pentirai di questa scelta, vedrai."
+    },
+    "de": {
+      "word": "bereuen",
+      "sentence": "Du wirst diese Wahl nicht bereuen, du wirst sehen."
+    }
+  },
+  {
+    "id": "18802bf4-0f8f-4f43-9624-0a4f4addebf7",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "dimenticarsi di",
+      "sentence": "Non dimenticarti di chiudere a chiave!"
+    },
+    "de": {
+      "word": "vergessen zu",
+      "sentence": "Vergiss nicht abzuschliessen!"
+    }
+  },
+  {
+    "id": "3113ba62-8fc2-4d97-b7df-85f6ff4b638e",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "meravigliarsi di",
+      "sentence": "Mi meraviglio che tu non lo sappia ancora."
+    },
+    "de": {
+      "word": "sich wundern über",
+      "sentence": "Ich wundere mich, dass du das noch nicht weisst."
+    }
+  },
+  {
+    "id": "516c602a-c88e-4c66-8485-f2dfa5b1dd9d",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "innamorarsi di",
+      "sentence": "Si sono innamorati durante un viaggio in treno."
+    },
+    "de": {
+      "word": "sich verlieben in",
+      "sentence": "Sie haben sich auf einer Zugreise ineinander verliebt."
+    }
+  },
+  {
+    "id": "936e385d-085f-44bc-8d5f-587bda6294dd",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "interessarsi a",
+      "sentence": "Da quando ti interessi alla fotografia?"
+    },
+    "de": {
+      "word": "sich interessieren für",
+      "sentence": "Seit wann interessierst du dich für Fotografie?"
+    }
+  },
+  {
+    "id": "31da19c2-bf1f-49a0-b68e-40082818ce11",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "partecipare a",
+      "sentence": "Parteciperete anche voi al corso?"
+    },
+    "de": {
+      "word": "teilnehmen an",
+      "sentence": "Nehmt ihr auch am Kurs teil?"
+    }
+  },
+  {
+    "id": "104ebd32-f1ea-4d8d-8dc2-f4fc118d3f36",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "rivolgersi a",
+      "sentence": "Per il visto bisogna rivolgersi al consolato."
+    },
+    "de": {
+      "word": "sich wenden an",
+      "sentence": "Für das Visum muss man sich an das Konsulat wenden."
+    }
+  },
+  {
+    "id": "b04e14bc-524a-4b4c-afed-3df67003811a",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "appartenere a",
+      "sentence": "Questa terra apparteneva ai miei nonni."
+    },
+    "de": {
+      "word": "gehören",
+      "sentence": "Dieses Land gehörte meinen Grosseltern."
+    }
+  },
+  {
+    "id": "2d0bcd38-3004-4d23-8557-e12c73582526",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "trattenersi dal",
+      "sentence": "Mi sono trattenuto dal dire quello che pensavo."
+    },
+    "de": {
+      "word": "sich zurückhalten",
+      "sentence": "Ich habe mich zurückgehalten zu sagen, was ich dachte."
+    }
+  },
+  {
+    "id": "938f0a15-6509-4bdf-a203-59eb4f71d9d5",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "insistere su",
+      "sentence": "Insisteva su quel punto, benché nessuno fosse d'accordo."
+    },
+    "de": {
+      "word": "beharren auf",
+      "sentence": "Er beharrte auf diesem Punkt, obwohl niemand einverstanden war."
+    }
+  },
+  {
+    "id": "a22c9807-2329-4234-8716-7cebb247b315",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "usare",
+      "sentence": "Posso usare il tuo caricabatterie?"
+    },
+    "de": {
+      "word": "benutzen",
+      "sentence": "Darf ich dein Ladegerät benutzen?"
+    }
+  },
+  {
+    "id": "1b32ea3f-e446-4158-b271-968730adc466",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "utilizzare",
+      "sentence": "Per questo lavoro utilizziamo materiali riciclati."
+    },
+    "de": {
+      "word": "verwenden",
+      "sentence": "Für diese Arbeit verwenden wir recycelte Materialien."
+    }
+  },
+  {
+    "id": "4c5d6092-4ff6-4b41-9092-5422d6fe7af0",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "adoperare",
+      "sentence": "Adopera pure i miei attrezzi, se ti servono."
+    },
+    "de": {
+      "word": "gebrauchen",
+      "sentence": "Gebrauch ruhig mein Werkzeug, wenn du es brauchst."
+    }
+  },
+  {
+    "id": "20d4af85-6bea-4ac3-892d-a9bd45937c21",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "creare",
+      "sentence": "Ha creato qualcosa di davvero originale."
+    },
+    "de": {
+      "word": "erschaffen",
+      "sentence": "Er hat etwas wirklich Originelles erschaffen."
+    }
+  },
+  {
+    "id": "d704f02f-ab83-4d20-8cb4-4ef357fd38dc",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "produrre",
+      "sentence": "Questa azienda produce mobili da cent'anni."
+    },
+    "de": {
+      "word": "herstellen",
+      "sentence": "Diese Firma stellt seit hundert Jahren Möbel her."
+    }
+  },
+  {
+    "id": "127656d4-217d-4b6d-9b5e-dd066c5ea101",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "svolgere",
+      "sentence": "Svolge il suo lavoro con grande cura."
+    },
+    "de": {
+      "word": "ausführen",
+      "sentence": "Er führt seine Arbeit mit grosser Sorgfalt aus."
+    }
+  },
+  {
+    "id": "bb212d95-25d7-4e8b-90d8-20d7e3c7bdb8",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "compiere",
+      "sentence": "Ha compiuto trent'anni la settimana scorsa."
+    },
+    "de": {
+      "word": "vollbringen",
+      "sentence": "Er ist letzte Woche dreissig geworden."
+    }
+  },
+  {
+    "id": "b4555815-4e78-475b-9138-c96d42a2d8ab",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "gestire",
+      "sentence": "Gestisce il negozio da sola da due anni."
+    },
+    "de": {
+      "word": "leiten",
+      "sentence": "Sie leitet den Laden seit zwei Jahren allein."
+    }
+  },
+  {
+    "id": "be4b1adf-1547-49d6-8bfc-48f960cf0e11",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "sbrigare",
+      "sentence": "Devo ancora sbrigare un paio di faccende."
+    },
+    "de": {
+      "word": "erledigen",
+      "sentence": "Ich muss noch ein paar Dinge erledigen."
+    }
+  },
+  {
+    "id": "bb0937e6-d785-4479-bcb6-d0470127063d",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "rimandare a",
+      "sentence": "Non rimandare a domani quello che puoi fare oggi."
+    },
+    "de": {
+      "word": "aufschieben auf",
+      "sentence": "Schieb nicht auf morgen auf, was du heute tun kannst."
+    }
+  },
+  {
+    "id": "876d47df-d211-4f7d-bbc2-772a636b464b",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "preparare",
+      "sentence": "Sto preparando tutto per domani."
+    },
+    "de": {
+      "word": "vorbereiten",
+      "sentence": "Ich bereite gerade alles für morgen vor."
+    }
+  },
+  {
+    "id": "acefa8dc-de95-48d0-a8e3-d3bf1f77a3b5",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "controllare",
+      "sentence": "Controlla se la porta è chiusa, per favore."
+    },
+    "de": {
+      "word": "überprüfen",
+      "sentence": "Überprüf bitte, ob die Tür geschlossen ist."
+    }
+  },
+  {
+    "id": "0f832b27-7708-46bd-a7ea-fe5455bc41da",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "scegliere",
+      "sentence": "Scegli tu il ristorante stasera."
+    },
+    "de": {
+      "word": "auswählen",
+      "sentence": "Wähl du heute Abend das Restaurant aus."
+    }
+  },
+  {
+    "id": "57a5af71-9e61-4c71-80b9-aa3bcb90968b",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "sostituire",
+      "sentence": "Bisognerebbe sostituire il filtro ogni sei mesi."
+    },
+    "de": {
+      "word": "ersetzen",
+      "sentence": "Man müsste den Filter alle sechs Monate ersetzen."
+    }
+  },
+  {
+    "id": "78a49bf1-6ada-4cb6-9d62-ac13e005fc06",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "aggiungere",
+      "sentence": "Aggiungi un po' di sale, se vuoi."
+    },
+    "de": {
+      "word": "hinzufügen",
+      "sentence": "Füg etwas Salz hinzu, wenn du willst."
+    }
+  },
+  {
+    "id": "1a3aec5d-d331-4d66-b01a-cf1cc7584cbb",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "togliere",
+      "sentence": "Togli le scarpe prima di entrare."
+    },
+    "de": {
+      "word": "entfernen",
+      "sentence": "Zieh die Schuhe aus, bevor du reinkommst."
+    }
+  },
+  {
+    "id": "cde31851-4efb-4ccd-8781-d73d8f47840c",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "riempire",
+      "sentence": "Riempi la bottiglia d'acqua prima di partire."
+    },
+    "de": {
+      "word": "füllen",
+      "sentence": "Füll die Flasche mit Wasser, bevor wir losgehen."
+    }
+  },
+  {
+    "id": "15d24194-6672-4723-9f99-d1d2ecba224a",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "svuotare",
+      "sentence": "Chi svuota il cestino oggi?"
+    },
+    "de": {
+      "word": "leeren",
+      "sentence": "Wer leert heute den Papierkorb?"
+    }
+  },
+  {
+    "id": "4428bb2f-750d-4902-bef3-606be9b6370d",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "appendere",
+      "sentence": "Dove appendiamo questo quadro?"
+    },
+    "de": {
+      "word": "aufhängen",
+      "sentence": "Wo hängen wir dieses Bild auf?"
+    }
+  },
+  {
+    "id": "49f36bf2-8cfa-4c3d-b537-f711e8e96c54",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "staccare",
+      "sentence": "Stacca la spina prima di pulire l'apparecchio."
+    },
+    "de": {
+      "word": "abtrennen",
+      "sentence": "Trenn den Stecker, bevor du das Gerät reinigst."
+    }
+  },
+  {
+    "id": "04108456-d141-4599-95c4-b24c09dc08e6",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "rompere",
+      "sentence": "Chi ha rotto il bicchiere?"
+    },
+    "de": {
+      "word": "zerbrechen",
+      "sentence": "Wer hat das Glas zerbrochen?"
+    }
+  },
+  {
+    "id": "40c36d23-06d7-4365-b917-0bda9cbf89d1",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "buttare",
+      "sentence": "Butta la palla al cane!"
+    },
+    "de": {
+      "word": "werfen",
+      "sentence": "Wirf dem Hund den Ball!"
+    }
+  },
+  {
+    "id": "4e9c2a51-611a-4c9b-9e79-9b630f1494cd",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "raccogliere",
+      "sentence": "Abbiamo raccolto le castagne nel bosco."
+    },
+    "de": {
+      "word": "aufsammeln",
+      "sentence": "Wir haben im Wald Kastanien gesammelt."
+    }
+  },
+  {
+    "id": "e93a6fb0-42a3-44b7-93c9-fcfd2ae3ace1",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "nascondere",
+      "sentence": "Dove hai nascosto i regali?"
+    },
+    "de": {
+      "word": "verstecken",
+      "sentence": "Wo hast du die Geschenke versteckt?"
+    }
+  },
+  {
+    "id": "adeee2e9-f609-4493-9717-4cfc61cf334e",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "coprire",
+      "sentence": "Copri la pentola e abbassa il fuoco."
+    },
+    "de": {
+      "word": "zudecken",
+      "sentence": "Deck den Topf zu und stell die Hitze niedriger."
+    }
+  },
+  {
+    "id": "9b0d3cc5-7132-419a-883d-ead39d6eb1cc",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "legare",
+      "sentence": "Lega bene il pacco prima di spedirlo."
+    },
+    "de": {
+      "word": "festbinden",
+      "sentence": "Bind das Paket gut fest, bevor du es verschickst."
+    }
+  },
+  {
+    "id": "786553be-b139-43f0-8636-483b27245f3d",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "tagliare",
+      "sentence": "Taglia il pane, io preparo il formaggio."
+    },
+    "de": {
+      "word": "schneiden",
+      "sentence": "Schneid das Brot, ich mache den Käse bereit."
+    }
+  },
+  {
+    "id": "39368fd7-dfd8-427d-9f01-cf5fec5b4e4e",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "piegare",
+      "sentence": "Piega il foglio a metà."
+    },
+    "de": {
+      "word": "falten",
+      "sentence": "Falte das Blatt in der Mitte."
+    }
+  },
+  {
+    "id": "85d0f861-3be2-4582-82df-959734c608ea",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "premere",
+      "sentence": "Premi il pulsante verde per iniziare."
+    },
+    "de": {
+      "word": "drücken",
+      "sentence": "Drück den grünen Knopf, um zu beginnen."
+    }
+  },
+  {
+    "id": "d1a6f033-09d2-4eb7-a6e6-8758f75218f4",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "girare",
+      "sentence": "Gira la chiave due volte verso destra."
+    },
+    "de": {
+      "word": "drehen",
+      "sentence": "Dreh den Schlüssel zweimal nach rechts."
+    }
+  },
+  {
+    "id": "ffddd8c9-41f8-447a-9459-172a0b383219",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "spingere",
+      "sentence": "Aiutami a spingere la macchina!"
+    },
+    "de": {
+      "word": "schieben",
+      "sentence": "Hilf mir, das Auto zu schieben!"
+    }
+  },
+  {
+    "id": "83d72046-d990-47ca-bf18-112bdf308b8a",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "sollevare",
+      "sentence": "Non sollevare pesi così, ti farai male alla schiena."
+    },
+    "de": {
+      "word": "hochheben",
+      "sentence": "Heb keine Lasten so hoch, du wirst dir den Rücken verletzen."
+    }
+  },
+  {
+    "id": "11ef1e6c-ff10-463e-bb29-4dfeabcd2d8c",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "trascinare",
+      "sentence": "Abbiamo trascinato le valigie su per tre piani."
+    },
+    "de": {
+      "word": "schleppen",
+      "sentence": "Wir haben die Koffer drei Stockwerke hochgeschleppt."
+    }
+  },
+  {
+    "id": "708a9575-bb6f-42fc-b237-10e18e26138a",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "possedere",
+      "sentence": "Possiede una piccola casa in montagna."
+    },
+    "de": {
+      "word": "besitzen",
+      "sentence": "Er besitzt ein kleines Haus in den Bergen."
+    }
+  },
+  {
+    "id": "53d10240-73e0-4618-a86c-2a278405f73c",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "consegnare",
+      "sentence": "Il pacco è stato consegnato stamattina."
+    },
+    "de": {
+      "word": "übergeben",
+      "sentence": "Das Paket ist heute Morgen übergeben worden."
+    }
+  },
+  {
+    "id": "d2b68653-9fa1-48a3-a186-a4df90fce856",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "restituire",
+      "sentence": "Ti restituisco il libro domani, promesso."
+    },
+    "de": {
+      "word": "zurückgeben",
+      "sentence": "Ich gebe dir das Buch morgen zurück, versprochen."
+    }
+  },
+  {
+    "id": "b023245e-6f74-4922-8a60-2a5c100e4ad7",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "prestare",
+      "sentence": "Mi presteresti la tua bici per il weekend?"
+    },
+    "de": {
+      "word": "ausleihen",
+      "sentence": "Würdest du mir dein Velo fürs Wochenende ausleihen?"
+    }
+  },
+  {
+    "id": "9c6fbf7b-1fef-4f00-bf9c-ba1fe6744e06",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "regalare",
+      "sentence": "Cosa le regaliamo per il compleanno?"
+    },
+    "de": {
+      "word": "schenken",
+      "sentence": "Was schenken wir ihr zum Geburtstag?"
+    }
+  },
+  {
+    "id": "98cd67b9-ac2b-4287-a529-bc22679aaa5f",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "scambiare",
+      "sentence": "Da bambini scambiavamo le figurine a scuola."
+    },
+    "de": {
+      "word": "tauschen",
+      "sentence": "Als Kinder tauschten wir in der Schule Sammelbilder."
+    }
+  },
+  {
+    "id": "6505877e-8946-46ad-aeba-c5d0639d230b",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "distribuire",
+      "sentence": "Hanno distribuito volantini in tutto il quartiere."
+    },
+    "de": {
+      "word": "verteilen",
+      "sentence": "Sie haben im ganzen Viertel Flugblätter verteilt."
+    }
+  },
+  {
+    "id": "4e107f0e-81a3-41a6-9923-d49799869e4b",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "conservare",
+      "sentence": "Conserva lo scontrino, potrebbe servire."
+    },
+    "de": {
+      "word": "aufbewahren",
+      "sentence": "Bewahr den Kassenzettel auf, er könnte nützlich sein."
+    }
+  },
+  {
+    "id": "7258f84b-4bdb-4c92-b446-48c3a6c1ab0b",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "procurarsi",
+      "sentence": "Dove ti sei procurato quei biglietti?"
+    },
+    "de": {
+      "word": "sich beschaffen",
+      "sentence": "Wo hast du dir diese Tickets beschafft?"
+    }
+  },
+  {
+    "id": "580a01e8-cb7a-4340-a243-8f004d8838ac",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "condividere con",
+      "sentence": "Condivido l'ufficio con due colleghe."
+    },
+    "de": {
+      "word": "teilen mit",
+      "sentence": "Ich teile das Büro mit zwei Kolleginnen."
+    }
+  },
+  {
+    "id": "090dce84-dab0-4c55-9300-8ed3a6ccbcb0",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "aiutare a",
+      "sentence": "Ti aiuto a portare la spesa?"
+    },
+    "de": {
+      "word": "helfen bei",
+      "sentence": "Helfe ich dir, den Einkauf zu tragen?"
+    }
+  },
+  {
+    "id": "50a3a37e-3f5a-4287-b858-3c278a66c9a3",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "sostenere",
+      "sentence": "La famiglia lo ha sostenuto in ogni scelta."
+    },
+    "de": {
+      "word": "unterstützen",
+      "sentence": "Die Familie hat ihn bei jeder Entscheidung unterstützt."
+    }
+  },
+  {
+    "id": "391922bd-7b7b-4494-a8a3-71c1c8e7a479",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "promettere di",
+      "sentence": "Mi aveva promesso di arrivare puntuale."
+    },
+    "de": {
+      "word": "versprechen zu",
+      "sentence": "Er hatte mir versprochen, pünktlich zu kommen."
+    }
+  },
+  {
+    "id": "6aaa8a18-f801-43a9-a5fe-9915daf228f1",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "mantenere la parola",
+      "sentence": "È uno che mantiene sempre la parola."
+    },
+    "de": {
+      "word": "Wort halten",
+      "sentence": "Er ist einer, der immer Wort hält."
+    }
+  },
+  {
+    "id": "1324bc0b-90ab-4a72-80cf-7a9ae8f4aa8e",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "obbligare a",
+      "sentence": "Nessuno ti obbliga a restare, se non vuoi."
+    },
+    "de": {
+      "word": "zwingen zu",
+      "sentence": "Niemand zwingt dich zu bleiben, wenn du nicht willst."
+    }
+  },
+  {
+    "id": "0e539aee-1228-4cd2-a095-4c37506b29e7",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "essere tenuto a",
+      "sentence": "Siete tenuti a comunicare ogni cambiamento d'indirizzo."
+    },
+    "de": {
+      "word": "verpflichtet sein zu",
+      "sentence": "Ihr seid verpflichtet, jede Adressänderung mitzuteilen."
+    }
+  },
+  {
+    "id": "c14ac5e7-b0d5-4fcd-9693-11ff4acb1b49",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "incaricare di",
+      "sentence": "Mi hanno incaricato di organizzare la riunione."
+    },
+    "de": {
+      "word": "beauftragen mit",
+      "sentence": "Man hat mich beauftragt, die Sitzung zu organisieren."
+    }
+  },
+  {
+    "id": "2ecfecc1-5c73-4a39-9582-e1fab38b427f",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "garantire",
+      "sentence": "Non posso garantire che funzioni al primo colpo."
+    },
+    "de": {
+      "word": "gewährleisten",
+      "sentence": "Ich kann nicht gewährleisten, dass es auf Anhieb funktioniert."
+    }
+  },
+  {
+    "id": "49dee743-50a3-4fe7-97d6-2c11cd6db278",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "assicurarsi che",
+      "sentence": "Assicurati che tutte le finestre siano chiuse."
+    },
+    "de": {
+      "word": "sich vergewissern dass",
+      "sentence": "Vergewissere dich, dass alle Fenster geschlossen sind."
+    }
+  },
+  {
+    "id": "0bdf6f38-c85d-415a-9e90-19ea78a64419",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "proteggere da",
+      "sentence": "Questa crema protegge la pelle dal sole."
+    },
+    "de": {
+      "word": "schützen vor",
+      "sentence": "Diese Creme schützt die Haut vor der Sonne."
+    }
+  },
+  {
+    "id": "dbdf6254-b27f-4983-b00a-55f77031f265",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "salvare",
+      "sentence": "I pompieri hanno salvato il gatto dal tetto."
+    },
+    "de": {
+      "word": "retten",
+      "sentence": "Die Feuerwehr hat die Katze vom Dach gerettet."
+    }
+  },
+  {
+    "id": "d1ff219d-6971-4d5d-92da-b6894f51c3cc",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "difendere",
+      "sentence": "Ha difeso la sua idea davanti a tutti."
+    },
+    "de": {
+      "word": "verteidigen",
+      "sentence": "Er hat seine Idee vor allen verteidigt."
+    }
+  },
+  {
+    "id": "9485b8a6-4d28-494f-b6ea-5a694c7dce67",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "consegnare in tempo",
+      "sentence": "Se lavoriamo stanotte, consegneremo tutto in tempo."
+    },
+    "de": {
+      "word": "rechtzeitig abliefern",
+      "sentence": "Wenn wir heute Nacht arbeiten, liefern wir alles rechtzeitig ab."
+    }
+  },
+  {
+    "id": "6f012135-38b8-4102-a36b-a47fea7a733d",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "succedere",
+      "sentence": "Cos'è successo qui?"
+    },
+    "de": {
+      "word": "passieren",
+      "sentence": "Was ist hier passiert?"
+    }
+  },
+  {
+    "id": "753e0153-1fdc-4e65-9714-bac9662e9201",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "accadere",
+      "sentence": "Tutto accadde in pochi secondi."
+    },
+    "de": {
+      "word": "sich ereignen",
+      "sentence": "Alles ereignete sich in wenigen Sekunden."
+    }
+  },
+  {
+    "id": "f3d2653b-a7d1-4991-91b4-a12c308ad70f",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "capitare",
+      "sentence": "Capita a tutti di sbagliare, tranquillo."
+    },
+    "de": {
+      "word": "vorkommen",
+      "sentence": "Es kommt bei allen vor, dass man Fehler macht, keine Sorge."
+    }
+  },
+  {
+    "id": "763fbad5-7d52-47ef-bf2e-d78ae3b0a047",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "verificarsi",
+      "sentence": "Se si verificasse un problema, chiamateci subito."
+    },
+    "de": {
+      "word": "eintreten",
+      "sentence": "Sollte ein Problem eintreten, ruft uns sofort an."
+    }
+  },
+  {
+    "id": "6884b2d5-656d-4c08-b916-cdb53e02007c",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "trasformare",
+      "sentence": "Hanno trasformato il fienile in una casa bellissima."
+    },
+    "de": {
+      "word": "verwandeln",
+      "sentence": "Sie haben die Scheune in ein wunderschönes Haus verwandelt."
+    }
+  },
+  {
+    "id": "530fe79a-adda-4865-ad2c-68a284d597f8",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "migliorare",
+      "sentence": "Il tuo italiano è migliorato tantissimo!"
+    },
+    "de": {
+      "word": "verbessern",
+      "sentence": "Dein Italienisch hat sich enorm verbessert!"
+    }
+  },
+  {
+    "id": "02c65202-3761-4f05-b757-9b29999803b4",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "peggiorare",
+      "sentence": "Il tempo peggiorerà nel pomeriggio."
+    },
+    "de": {
+      "word": "sich verschlechtern",
+      "sentence": "Das Wetter wird sich am Nachmittag verschlechtern."
+    }
+  },
+  {
+    "id": "d25b3beb-1192-48c1-8fe5-69a3f07f4554",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "aumentare",
+      "sentence": "I prezzi sono aumentati di nuovo."
+    },
+    "de": {
+      "word": "steigen",
+      "sentence": "Die Preise sind wieder gestiegen."
+    }
+  },
+  {
+    "id": "65da9422-6d43-4aa7-94ad-2d497e90d2ca",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "diminuire",
+      "sentence": "Il rumore è diminuito verso sera."
+    },
+    "de": {
+      "word": "sinken",
+      "sentence": "Der Lärm hat gegen Abend abgenommen."
+    }
+  },
+  {
+    "id": "60f89e58-0e27-455d-adf8-8f5447eecd45",
+    "level": "B2",
+    "topic": "Verbs",
+    "it": {
+      "word": "sviluppare",
+      "sentence": "Stanno sviluppando un metodo completamente nuovo."
+    },
+    "de": {
+      "word": "entwickeln",
+      "sentence": "Sie entwickeln gerade eine völlig neue Methode."
+    }
+  },
+  {
+    "id": "670f9c76-afba-4b6e-a524-f0b91ab24a32",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "vale la pena",
+      "sentence": "Vale la pena visitare quel museo?"
+    },
+    "de": {
+      "word": "es lohnt sich",
+      "sentence": "Lohnt es sich, dieses Museum zu besuchen?"
+    }
+  },
+  {
+    "id": "683a8073-5f14-4a94-a14f-567c547dfd69",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "ci vuole / ci vogliono",
+      "sentence": "Ci vogliono venti minuti a piedi."
+    },
+    "de": {
+      "word": "man braucht",
+      "sentence": "Man braucht zwanzig Minuten zu Fuss."
+    }
+  },
+  {
+    "id": "ff622b77-502e-448d-93c4-55ee6a39b292",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "a proposito",
+      "sentence": "A proposito, hai sentito Marco ultimamente?"
+    },
+    "de": {
+      "word": "übrigens",
+      "sentence": "Übrigens, hast du in letzter Zeit von Marco gehört?"
+    }
+  },
+  {
+    "id": "a9adc2f1-5551-4f03-bf4a-6c0068d2bef3",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "meno male",
+      "sentence": "Meno male che sei arrivato in tempo!"
+    },
+    "de": {
+      "word": "zum Glück",
+      "sentence": "Zum Glück bist du rechtzeitig gekommen!"
+    }
+  },
+  {
+    "id": "69abe5ea-e334-476d-bbd1-2c04fd16fc23",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "mi sa che",
+      "sentence": "Mi sa che oggi pioverà tutto il giorno."
+    },
+    "de": {
+      "word": "ich glaube fast",
+      "sentence": "Ich glaube fast, heute wird es den ganzen Tag regnen."
+    }
+  },
+  {
+    "id": "57cb8950-1df0-4043-9588-e652f5b4ccf2",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "magari",
+      "sentence": "Magari vinco alla lotteria!"
+    },
+    "de": {
+      "word": "vielleicht / schön wärs",
+      "sentence": "Schön wärs, wenn ich im Lotto gewinnen würde!"
+    }
+  },
+  {
+    "id": "2e79c8ca-db5d-439d-a5c0-58cb2e3d1889",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "figurati",
+      "sentence": "Grazie mille! – Figurati, è stato un piacere."
+    },
+    "de": {
+      "word": "keine Ursache",
+      "sentence": "Vielen Dank! – Keine Ursache, es war mir ein Vergnügen."
+    }
+  },
+  {
+    "id": "58756a62-4105-497b-9930-456d41876680",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "non vedo l'ora di",
+      "sentence": "Non vedo l'ora di rivederti!"
+    },
+    "de": {
+      "word": "ich kann es kaum erwarten",
+      "sentence": "Ich kann es kaum erwarten, dich wiederzusehen!"
+    }
+  },
+  {
+    "id": "0991fd79-17d3-44c3-b931-fc4e5ab9f6e7",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "in bocca al lupo",
+      "sentence": "Domani hai l'esame? In bocca al lupo!"
+    },
+    "de": {
+      "word": "viel Erfolg",
+      "sentence": "Morgen hast du die Prüfung? Viel Erfolg!"
+    }
+  },
+  {
+    "id": "8bf52da8-a27e-43bb-8d33-d4f330814a05",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "lascia perdere",
+      "sentence": "Lascia perdere, non ne vale la pena."
+    },
+    "de": {
+      "word": "lass es gut sein",
+      "sentence": "Lass es gut sein, es lohnt sich nicht."
+    }
+  },
+  {
+    "id": "0e95e59e-6b84-4364-8f4c-a9a5ae57dd97",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "sul serio",
+      "sentence": "Dici sul serio o stai scherzando?"
+    },
+    "de": {
+      "word": "im Ernst",
+      "sentence": "Meinst du das im Ernst oder machst du Witze?"
+    }
+  },
+  {
+    "id": "dc1d2b46-4238-48fd-8028-1732d130d722",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "che ne dici di",
+      "sentence": "Che ne dici di una pizza stasera?"
+    },
+    "de": {
+      "word": "was hältst du von",
+      "sentence": "Was hältst du von einer Pizza heute Abend?"
+    }
+  },
+  {
+    "id": "d48042bb-836c-48c7-9236-2bc9f6651217",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "dipende",
+      "sentence": "Vieni domani? – Dipende, a che ora?"
+    },
+    "de": {
+      "word": "kommt darauf an",
+      "sentence": "Kommst du morgen? – Kommt darauf an, um wie viel Uhr?"
+    }
+  },
+  {
+    "id": "4295b936-5546-4feb-8443-81ce4b49bfb2",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "non c'entra niente",
+      "sentence": "Quello che dici non c'entra niente con il problema."
+    },
+    "de": {
+      "word": "das hat nichts damit zu tun",
+      "sentence": "Was du sagst, hat nichts mit dem Problem zu tun."
+    }
+  },
+  {
+    "id": "8ccbf3f0-4478-4afe-990c-2157102c8e15",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "per carità",
+      "sentence": "Ancora quella canzone? Per carità!"
+    },
+    "de": {
+      "word": "um Himmels willen",
+      "sentence": "Schon wieder dieses Lied? Um Himmels willen!"
+    }
+  },
+  {
+    "id": "5d5c1107-1b02-43b3-ad19-eb9a770babf0",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "appunto",
+      "sentence": "È troppo tardi. – Appunto, per questo restiamo."
+    },
+    "de": {
+      "word": "eben / genau",
+      "sentence": "Es ist zu spät. – Eben, deshalb bleiben wir."
+    }
+  },
+  {
+    "id": "8b982a8d-63c0-413a-a218-6155880f6249",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "ecco perché",
+      "sentence": "Era malato: ecco perché non è venuto."
+    },
+    "de": {
+      "word": "deshalb also",
+      "sentence": "Er war krank: Deshalb also ist er nicht gekommen."
+    }
+  },
+  {
+    "id": "96b91cd2-147a-4284-a98e-87422ccb37a3",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "comunque sia",
+      "sentence": "Comunque sia, ormai la decisione è presa."
+    },
+    "de": {
+      "word": "wie dem auch sei",
+      "sentence": "Wie dem auch sei, die Entscheidung ist nun gefallen."
+    }
+  },
+  {
+    "id": "edd2e3db-3da3-458d-b90d-f6c5917a2a4c",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "roba da matti",
+      "sentence": "Tre ore di coda per un caffè? Roba da matti!"
+    },
+    "de": {
+      "word": "das ist doch verrückt",
+      "sentence": "Drei Stunden Schlange für einen Kaffee? Das ist doch verrückt!"
+    }
+  },
+  {
+    "id": "4e18e2fc-9b19-47fb-be28-34122486d035",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "ci mancherebbe",
+      "sentence": "Posso chiederti un favore? – Ci mancherebbe!"
+    },
+    "de": {
+      "word": "selbstverständlich",
+      "sentence": "Darf ich dich um einen Gefallen bitten? – Selbstverständlich!"
+    }
+  },
+  {
+    "id": "73050cd8-64e5-4272-9d37-e3ba14a00293",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "neanche per sogno",
+      "sentence": "Prestargli la macchina? Neanche per sogno!"
+    },
+    "de": {
+      "word": "nicht im Traum",
+      "sentence": "Ihm das Auto leihen? Nicht im Traum!"
+    }
+  },
+  {
+    "id": "d260f8ba-ab9a-451d-971c-7c600f4de35c",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "a dire il vero",
+      "sentence": "A dire il vero, preferirei restare a casa."
+    },
+    "de": {
+      "word": "ehrlich gesagt",
+      "sentence": "Ehrlich gesagt würde ich lieber zu Hause bleiben."
+    }
+  },
+  {
+    "id": "c4ec9ee4-9233-4928-956a-a7efcddc69e7",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "prima o poi",
+      "sentence": "Prima o poi dovrai dirglielo."
+    },
+    "de": {
+      "word": "früher oder später",
+      "sentence": "Früher oder später wirst du es ihm sagen müssen."
+    }
+  },
+  {
+    "id": "cff5f625-df4a-4f09-b332-c9df960b3208",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "nel frattempo",
+      "sentence": "Tu apparecchia, nel frattempo io scolo la pasta."
+    },
+    "de": {
+      "word": "in der Zwischenzeit",
+      "sentence": "Deck du den Tisch, in der Zwischenzeit giesse ich die Pasta ab."
+    }
+  },
+  {
+    "id": "8b951996-61f0-468b-9da0-eaea9ab0305a",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "ogni tanto",
+      "sentence": "Ogni tanto ci sentiamo per telefono."
+    },
+    "de": {
+      "word": "ab und zu",
+      "sentence": "Ab und zu telefonieren wir miteinander."
+    }
+  },
+  {
+    "id": "23c72bc1-0d3f-4718-b79b-a0f88337058d",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "di solito",
+      "sentence": "Di solito mi alzo alle sei e mezza."
+    },
+    "de": {
+      "word": "normalerweise",
+      "sentence": "Normalerweise stehe ich um halb sieben auf."
+    }
+  },
+  {
+    "id": "57b4a818-e4da-4706-aa05-a8fa25226e60",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "all'improvviso",
+      "sentence": "All'improvviso si è messo a piovere fortissimo."
+    },
+    "de": {
+      "word": "plötzlich",
+      "sentence": "Plötzlich fing es an, sehr stark zu regnen."
+    }
+  },
+  {
+    "id": "85070bf4-d6c1-4739-b0b3-bf0af9be9e4d",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "a poco a poco",
+      "sentence": "A poco a poco si è abituato alla nuova città."
+    },
+    "de": {
+      "word": "nach und nach",
+      "sentence": "Nach und nach hat er sich an die neue Stadt gewöhnt."
+    }
+  },
+  {
+    "id": "c41f6281-3f21-4fa6-9ec4-402e3181b7dc",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "man mano che",
+      "sentence": "Man mano che leggevo, capivo sempre di più."
+    },
+    "de": {
+      "word": "in dem Masse wie",
+      "sentence": "Je mehr ich las, desto mehr verstand ich."
+    }
+  },
+  {
+    "id": "3f3708aa-904a-4cc1-878f-cecb3eb12814",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "per l'appunto",
+      "sentence": "Parlavamo per l'appunto di te!"
+    },
+    "de": {
+      "word": "genau darum",
+      "sentence": "Wir sprachen gerade eben von dir!"
+    }
+  },
+  {
+    "id": "7eb35aaf-3cf0-444d-b140-d87c70231763",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "il tipo",
+      "sentence": "Che tipo di musica ascolti?"
+    },
+    "de": {
+      "word": "die Sorte",
+      "sentence": "Welche Sorte Musik hörst du?"
+    }
+  },
+  {
+    "id": "6f183ae4-2a76-46b6-b68d-6293c556de98",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "il genere",
+      "sentence": "Non è il genere di film che mi piace."
+    },
+    "de": {
+      "word": "die Gattung",
+      "sentence": "Das ist nicht die Art Film, die mir gefällt."
+    }
+  },
+  {
+    "id": "e16f31f2-f248-4dca-a1e6-aa5bbbd82d27",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "distinguere tra",
+      "sentence": "Bisogna distinguere tra opinione e fatto."
+    },
+    "de": {
+      "word": "unterscheiden zwischen",
+      "sentence": "Man muss zwischen Meinung und Tatsache unterscheiden."
+    }
+  },
+  {
+    "id": "d87e7b30-ef62-4e2f-b4a4-81db02c4faed",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "il confronto",
+      "sentence": "Nel confronto con l'anno scorso, siamo migliorati."
+    },
+    "de": {
+      "word": "der Vergleich",
+      "sentence": "Im Vergleich zum letzten Jahr haben wir uns verbessert."
+    }
+  },
+  {
+    "id": "b64b4fb8-c9a2-438c-b9cf-a90d15a5c1c3",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "paragonare a",
+      "sentence": "Non paragonarmi sempre a tuo fratello!"
+    },
+    "de": {
+      "word": "vergleichen mit",
+      "sentence": "Vergleich mich nicht ständig mit deinem Bruder!"
+    }
+  },
+  {
+    "id": "b3dce472-8871-4e40-8239-e96e8c940713",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "rispetto a",
+      "sentence": "Rispetto a ieri, oggi fa molto più caldo."
+    },
+    "de": {
+      "word": "im Vergleich zu",
+      "sentence": "Im Vergleich zu gestern ist es heute viel wärmer."
+    }
+  },
+  {
+    "id": "a535e40a-2e57-43d6-b412-c44a1d596915",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "a differenza di",
+      "sentence": "A differenza mia, lui adora la neve."
+    },
+    "de": {
+      "word": "im Unterschied zu",
+      "sentence": "Im Unterschied zu mir liebt er den Schnee."
+    }
+  },
+  {
+    "id": "1bb4b906-143c-4b4f-bcae-4b9dcd807dbe",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "invece di",
+      "sentence": "Invece di lamentarti, prova a cambiare qualcosa."
+    },
+    "de": {
+      "word": "anstatt",
+      "sentence": "Anstatt dich zu beklagen, versuch etwas zu ändern."
+    }
+  },
+  {
+    "id": "82ef3b6e-7d3d-4007-90e6-8a1a60400933",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "sia... sia",
+      "sentence": "Mi piacciono sia il mare sia la montagna."
+    },
+    "de": {
+      "word": "sowohl... als auch",
+      "sentence": "Ich mag sowohl das Meer als auch die Berge."
+    }
+  },
+  {
+    "id": "5ed38906-92d3-4ddd-a018-7b433c271da5",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "né... né",
+      "sentence": "Non bevo né caffè né tè la sera."
+    },
+    "de": {
+      "word": "weder... noch",
+      "sentence": "Ich trinke abends weder Kaffee noch Tee."
+    }
+  },
+  {
+    "id": "8c3ecdc3-2c48-4d4d-9572-6feb1ea39ee5",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "oppure",
+      "sentence": "Vieni con noi oppure resti qui?"
+    },
+    "de": {
+      "word": "oder aber",
+      "sentence": "Kommst du mit uns oder bleibst du hier?"
+    }
+  },
+  {
+    "id": "de1eb65b-06d0-4e08-b158-b7606f52ebf9",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "ossia",
+      "sentence": "Parte giovedì, ossia dopodomani."
+    },
+    "de": {
+      "word": "beziehungsweise",
+      "sentence": "Er fährt am Donnerstag ab, das heisst übermorgen."
+    }
+  },
+  {
+    "id": "3b8f2fa2-4958-445f-b792-42f416f6faf2",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "per esempio",
+      "sentence": "Mangia molta frutta, per esempio mele e pere."
+    },
+    "de": {
+      "word": "zum Beispiel",
+      "sentence": "Er isst viel Obst, zum Beispiel Äpfel und Birnen."
+    }
+  },
+  {
+    "id": "d9080e6b-f3a7-452a-b0b7-328604ffb63b",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "in particolare",
+      "sentence": "Mi interessa la storia, in particolare quella romana."
+    },
+    "de": {
+      "word": "insbesondere",
+      "sentence": "Mich interessiert Geschichte, insbesondere die römische."
+    }
+  },
+  {
+    "id": "2deaf83b-3306-4700-8245-fd060899cf83",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "soprattutto",
+      "sentence": "Mi piace viaggiare, soprattutto in primavera."
+    },
+    "de": {
+      "word": "vor allem",
+      "sentence": "Ich reise gern, vor allem im Frühling."
+    }
+  },
+  {
+    "id": "0cbd5c92-e749-470e-b711-3d298f022dcf",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "tra cui",
+      "sentence": "Ha molti hobby, tra cui la fotografia."
+    },
+    "de": {
+      "word": "darunter",
+      "sentence": "Er hat viele Hobbys, darunter die Fotografie."
+    }
+  },
+  {
+    "id": "df31cff0-a79e-43d3-a38a-5263bf6f63ef",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "tranne",
+      "sentence": "Sono liberi tutti i giorni tranne il lunedì."
+    },
+    "de": {
+      "word": "ausser",
+      "sentence": "Sie sind an allen Tagen frei ausser am Montag."
+    }
+  },
+  {
+    "id": "e77645d2-f8cd-4564-9906-1e1878f40fe7",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "compreso",
+      "sentence": "Il prezzo è di cento franchi, colazione compresa."
+    },
+    "de": {
+      "word": "inbegriffen",
+      "sentence": "Der Preis beträgt hundert Franken, Frühstück inbegriffen."
+    }
+  },
+  {
+    "id": "0a1c14d8-deae-4a34-ae6f-6ddff115884c",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "in generale",
+      "sentence": "In generale preferisco cenare presto."
+    },
+    "de": {
+      "word": "im Allgemeinen",
+      "sentence": "Im Allgemeinen esse ich lieber früh zu Abend."
+    }
+  },
+  {
+    "id": "47ca6050-c61c-47e0-85ac-5adfb3eb8d42",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "nel complesso",
+      "sentence": "Nel complesso è stata un'ottima esperienza."
+    },
+    "de": {
+      "word": "insgesamt",
+      "sentence": "Insgesamt war es eine sehr gute Erfahrung."
+    }
+  },
+  {
+    "id": "9f7f7075-df8a-429f-b8ab-39a0303f8a74",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "fare la differenza",
+      "sentence": "Sono i dettagli che fanno la differenza."
+    },
+    "de": {
+      "word": "den Unterschied machen",
+      "sentence": "Es sind die Details, die den Unterschied machen."
+    }
+  },
+  {
+    "id": "b1d1f786-688c-4004-bf1c-cfb042b94ca0",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "la causa",
+      "sentence": "Non si conosce ancora la causa dell'incendio."
+    },
+    "de": {
+      "word": "die Ursache",
+      "sentence": "Die Ursache des Brandes ist noch nicht bekannt."
+    }
+  },
+  {
+    "id": "ed3e5386-ff5c-4fd2-9a65-5b62a2e52478",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "la conseguenza",
+      "sentence": "Ogni scelta ha delle conseguenze."
+    },
+    "de": {
+      "word": "die Folge",
+      "sentence": "Jede Entscheidung hat Folgen."
+    }
+  },
+  {
+    "id": "004f4410-04a3-44ab-88e7-584d8a5e262e",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "derivare da",
+      "sentence": "Il problema deriva da un malinteso iniziale."
+    },
+    "de": {
+      "word": "herrühren von",
+      "sentence": "Das Problem rührt von einem anfänglichen Missverständnis her."
+    }
+  },
+  {
+    "id": "5024980c-df38-4ffe-b755-618b8750bc86",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "a causa di",
+      "sentence": "Il volo è stato cancellato a causa della nebbia."
+    },
+    "de": {
+      "word": "wegen",
+      "sentence": "Der Flug wurde wegen des Nebels gestrichen."
+    }
+  },
+  {
+    "id": "081a58b3-c46c-431f-b2d2-08ef49e2df83",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "grazie a",
+      "sentence": "Grazie al tuo aiuto abbiamo finito prima."
+    },
+    "de": {
+      "word": "dank",
+      "sentence": "Dank deiner Hilfe waren wir früher fertig."
+    }
+  },
+  {
+    "id": "ba976537-f5c6-4dd9-843a-3e5f3bf0cf54",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "per colpa di",
+      "sentence": "Abbiamo perso il treno per colpa del traffico."
+    },
+    "de": {
+      "word": "durch die Schuld von",
+      "sentence": "Wir haben den Zug wegen des Verkehrs verpasst."
+    }
+  },
+  {
+    "id": "8f71ee8f-b121-4cb9-bf75-b6fbf21c0719",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "di conseguenza",
+      "sentence": "Pioveva forte, di conseguenza siamo rimasti a casa."
+    },
+    "de": {
+      "word": "folglich",
+      "sentence": "Es regnete stark, folglich sind wir zu Hause geblieben."
+    }
+  },
+  {
+    "id": "dd19c192-451e-4af6-b1b3-881d24f0ba80",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "perciò",
+      "sentence": "Ero stanco, perciò sono andato a letto presto."
+    },
+    "de": {
+      "word": "deshalb",
+      "sentence": "Ich war müde, deshalb bin ich früh ins Bett gegangen."
+    }
+  },
+  {
+    "id": "6ebf39f0-74b5-4a15-817d-99c2da62b9e9",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "dunque",
+      "sentence": "Dunque, riprendiamo da dove eravamo rimasti."
+    },
+    "de": {
+      "word": "also",
+      "sentence": "Also, machen wir dort weiter, wo wir aufgehört haben."
+    }
+  },
+  {
+    "id": "efbd7423-8e18-419c-8ddd-bf870beb95c3",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "siccome",
+      "sentence": "Siccome pioveva, abbiamo preso il tram."
+    },
+    "de": {
+      "word": "da (weil)",
+      "sentence": "Da es regnete, haben wir das Tram genommen."
+    }
+  },
+  {
+    "id": "0ad83b33-eb13-4a8a-8bb8-e0193691098e",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "poiché",
+      "sentence": "Poiché nessuno rispondeva, ho lasciato un messaggio."
+    },
+    "de": {
+      "word": "weil (gehoben)",
+      "sentence": "Weil niemand antwortete, habe ich eine Nachricht hinterlassen."
+    }
+  },
+  {
+    "id": "1d6f0187-449a-4a61-a7bf-c4f416a4f8ea",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "dato che",
+      "sentence": "Dato che sei qui, dammi una mano!"
+    },
+    "de": {
+      "word": "angesichts dessen dass",
+      "sentence": "Da du schon hier bist, hilf mir doch!"
+    }
+  },
+  {
+    "id": "d58e6825-2a80-40f3-b41b-a3f5fa5e6cc6",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "visto che",
+      "sentence": "Visto che insisti, va bene, vengo anch'io."
+    },
+    "de": {
+      "word": "da ja",
+      "sentence": "Da du ja darauf bestehst, gut, ich komme auch."
+    }
+  },
+  {
+    "id": "68571fb2-8282-445e-b837-f56fa37fc636",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "in modo che",
+      "sentence": "Parla piano, in modo che tutti capiscano."
+    },
+    "de": {
+      "word": "sodass",
+      "sentence": "Sprich langsam, sodass alle verstehen."
+    }
+  },
+  {
+    "id": "2bef5843-535d-4c00-a020-0405c4292f07",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "affinché",
+      "sentence": "Te lo spiego di nuovo affinché sia tutto chiaro."
+    },
+    "de": {
+      "word": "damit",
+      "sentence": "Ich erkläre es dir nochmals, damit alles klar ist."
+    }
+  },
+  {
+    "id": "c0548eb7-69a3-4cbf-b591-12c8b0ca97fa",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "così... che",
+      "sentence": "Era così stanco che si è addormentato subito."
+    },
+    "de": {
+      "word": "so... dass",
+      "sentence": "Er war so müde, dass er sofort eingeschlafen ist."
+    }
+  },
+  {
+    "id": "a1d2247f-4475-4359-af46-804324596270",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "comportare",
+      "sentence": "Il trasloco comporterà parecchie spese."
+    },
+    "de": {
+      "word": "mit sich bringen",
+      "sentence": "Der Umzug wird etliche Kosten mit sich bringen."
+    }
+  },
+  {
+    "id": "3530c8db-36d9-4e3c-9608-de2f181674fd",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "il modo",
+      "sentence": "Non mi piace il modo in cui gli parli."
+    },
+    "de": {
+      "word": "die Art und Weise",
+      "sentence": "Mir gefällt die Art nicht, wie du mit ihm sprichst."
+    }
+  },
+  {
+    "id": "1d93b85d-5200-451c-afe7-6dd01bc8bd67",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "in che modo",
+      "sentence": "In che modo pensi di risolvere la cosa?"
+    },
+    "de": {
+      "word": "auf welche Weise",
+      "sentence": "Auf welche Weise willst du die Sache lösen?"
+    }
+  },
+  {
+    "id": "a0e895de-8362-497b-9bca-e32df637b06c",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "apposta",
+      "sentence": "L'ha fatto apposta per farti arrabbiare."
+    },
+    "de": {
+      "word": "absichtlich",
+      "sentence": "Er hat es absichtlich getan, um dich zu ärgern."
+    }
+  },
+  {
+    "id": "dafa1d16-f75e-47b7-ad8c-19e452c4eaee",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "per caso",
+      "sentence": "Hai per caso visto le mie chiavi?"
+    },
+    "de": {
+      "word": "zufällig",
+      "sentence": "Hast du zufällig meine Schlüssel gesehen?"
+    }
+  },
+  {
+    "id": "2f2fc594-b208-482a-aef6-df4fdd2c0595",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "volentieri",
+      "sentence": "Vieni a cena? – Volentieri!"
+    },
+    "de": {
+      "word": "gern",
+      "sentence": "Kommst du zum Abendessen? – Gern!"
+    }
+  },
+  {
+    "id": "02c5d69d-12f4-407f-b351-e349d627e3ab",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "in fretta",
+      "sentence": "Ho fatto colazione in fretta e sono uscito."
+    },
+    "de": {
+      "word": "in Eile",
+      "sentence": "Ich habe in Eile gefrühstückt und bin gegangen."
+    }
+  },
+  {
+    "id": "731902f3-1210-4738-a8f8-9222ce14c337",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "con calma",
+      "sentence": "Ne parliamo con calma stasera, va bene?"
+    },
+    "de": {
+      "word": "in aller Ruhe",
+      "sentence": "Wir besprechen das heute Abend in aller Ruhe, okay?"
+    }
+  },
+  {
+    "id": "f1a98a38-2d2e-41c4-b658-9052a69debe9",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "di nascosto",
+      "sentence": "I bambini mangiavano i biscotti di nascosto."
+    },
+    "de": {
+      "word": "heimlich",
+      "sentence": "Die Kinder assen heimlich die Kekse."
+    }
+  },
+  {
+    "id": "1cf20752-6208-4828-bec2-46c340331d78",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "sottosopra",
+      "sentence": "Dopo la festa la casa era sottosopra."
+    },
+    "de": {
+      "word": "drunter und drüber",
+      "sentence": "Nach dem Fest ging es im Haus drunter und drüber."
+    }
+  },
+  {
+    "id": "1d4ab1ab-9376-47e9-a3e0-c3b6020bc821",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "alla rovescia",
+      "sentence": "Ti sei messo la maglietta alla rovescia!"
+    },
+    "de": {
+      "word": "verkehrt herum",
+      "sentence": "Du hast das T-Shirt verkehrt herum angezogen!"
+    }
+  },
+  {
+    "id": "c3b8a94f-31f5-4570-9bef-86502a389675",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "abbastanza",
+      "sentence": "Il film era abbastanza interessante."
+    },
+    "de": {
+      "word": "ziemlich / genug",
+      "sentence": "Der Film war ziemlich interessant."
+    }
+  },
+  {
+    "id": "638afad5-921c-4fdf-b063-35f84069244b",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "piuttosto",
+      "sentence": "Oggi mi sento piuttosto stanco."
+    },
+    "de": {
+      "word": "eher",
+      "sentence": "Heute fühle ich mich eher müde."
+    }
+  },
+  {
+    "id": "4c7d0dc4-acb0-479a-be9c-1d0b9dec728f",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "parecchio",
+      "sentence": "Abbiamo speso parecchio per quella cena."
+    },
+    "de": {
+      "word": "eine ganze Menge",
+      "sentence": "Wir haben für dieses Abendessen eine ganze Menge ausgegeben."
+    }
+  },
+  {
+    "id": "85f2f924-e6df-45e4-90e1-d9e6483fb37c",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "appena",
+      "sentence": "Sono appena tornato, dammi cinque minuti."
+    },
+    "de": {
+      "word": "kaum / soeben",
+      "sentence": "Ich bin soeben zurückgekommen, gib mir fünf Minuten."
+    }
+  },
+  {
+    "id": "08cbd666-092f-40d8-889f-19a528739db7",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "perfino",
+      "sentence": "Ha invitato perfino i vicini che non saluta mai."
+    },
+    "de": {
+      "word": "sogar",
+      "sentence": "Er hat sogar die Nachbarn eingeladen, die er nie grüsst."
+    }
+  },
+  {
+    "id": "9da1bda9-45ab-4113-87e8-d1f1d1e5d01d",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "addirittura",
+      "sentence": "Ha addirittura pianto dalla gioia."
+    },
+    "de": {
+      "word": "gar / sogar",
+      "sentence": "Er hat sogar vor Freude geweint."
+    }
+  },
+  {
+    "id": "d54658c2-0c7d-4be3-ac65-0871af49c06a",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "almeno",
+      "sentence": "Chiamami almeno quando arrivi."
+    },
+    "de": {
+      "word": "wenigstens",
+      "sentence": "Ruf mich wenigstens an, wenn du ankommst."
+    }
+  },
+  {
+    "id": "fd13d050-bb90-414c-8ae5-1daf2ad87ad1",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "ormai",
+      "sentence": "Ormai è troppo tardi per cambiare idea."
+    },
+    "de": {
+      "word": "inzwischen / nunmehr",
+      "sentence": "Inzwischen ist es zu spät, die Meinung zu ändern."
+    }
+  },
+  {
+    "id": "f307a538-59c2-483b-a5f6-aa4409fbb345",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "mica",
+      "sentence": "Non è mica colpa mia se ha piovuto!"
+    },
+    "de": {
+      "word": "keineswegs",
+      "sentence": "Es ist doch keineswegs meine Schuld, dass es geregnet hat!"
+    }
+  },
+  {
+    "id": "47bb18e3-45a0-4d67-ba42-986d35546afc",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "sempre più",
+      "sentence": "Il traffico diventa sempre più caotico."
+    },
+    "de": {
+      "word": "immer mehr",
+      "sentence": "Der Verkehr wird immer chaotischer."
+    }
+  },
+  {
+    "id": "689b8e37-9d2b-4806-910b-93401508dd22",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "sempre meno",
+      "sentence": "Ho sempre meno tempo per leggere."
+    },
+    "de": {
+      "word": "immer weniger",
+      "sentence": "Ich habe immer weniger Zeit zum Lesen."
+    }
+  },
+  {
+    "id": "39a2bc4a-7588-43ca-8489-c4cc3d5d0ed6",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "probabilmente",
+      "sentence": "Probabilmente arriveremo verso le otto."
+    },
+    "de": {
+      "word": "wahrscheinlich",
+      "sentence": "Wahrscheinlich kommen wir gegen acht an."
+    }
+  },
+  {
+    "id": "90743faf-4dbb-465b-a600-a606b381b30a",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "sicuramente",
+      "sentence": "Sicuramente troverai una soluzione."
+    },
+    "de": {
+      "word": "bestimmt",
+      "sentence": "Du wirst bestimmt eine Lösung finden."
+    }
+  },
+  {
+    "id": "afd78af4-f168-4d35-8f3c-accf930071a2",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "evidentemente",
+      "sentence": "Evidentemente si erano dimenticati dell'appuntamento."
+    },
+    "de": {
+      "word": "offensichtlich",
+      "sentence": "Offensichtlich hatten sie den Termin vergessen."
+    }
+  },
+  {
+    "id": "10ef583f-2ffc-436d-bb6f-6d375d99ec64",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "purché",
+      "sentence": "Vengo volentieri, purché non si faccia tardi."
+    },
+    "de": {
+      "word": "vorausgesetzt dass",
+      "sentence": "Ich komme gern, vorausgesetzt, es wird nicht spät."
+    }
+  },
+  {
+    "id": "b4cad8e9-7271-4cf2-9b9d-d00c4fb0855b",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "a patto che",
+      "sentence": "Ti presto la macchina a patto che tu faccia benzina."
+    },
+    "de": {
+      "word": "unter der Bedingung dass",
+      "sentence": "Ich leihe dir das Auto unter der Bedingung, dass du tankst."
+    }
+  },
+  {
+    "id": "e58bd7be-706a-415e-b4c4-36ca62161952",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "a meno che",
+      "sentence": "Partiamo alle sette, a meno che non nevichi."
+    },
+    "de": {
+      "word": "es sei denn",
+      "sentence": "Wir fahren um sieben los, es sei denn, es schneit."
+    }
+  },
+  {
+    "id": "82e775af-2f27-4a41-9494-22d4413e8a19",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "nonostante",
+      "sentence": "Nonostante la pioggia, la festa è riuscita benissimo."
+    },
+    "de": {
+      "word": "trotz",
+      "sentence": "Trotz des Regens ist das Fest sehr gut gelungen."
+    }
+  },
+  {
+    "id": "9cbe87e7-fadb-4d55-9718-351c09acec26",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "tuttavia",
+      "sentence": "Era stanchissimo; tuttavia ha voluto finire il lavoro."
+    },
+    "de": {
+      "word": "dennoch",
+      "sentence": "Er war todmüde; dennoch wollte er die Arbeit beenden."
+    }
+  },
+  {
+    "id": "3f4cd029-dd2d-4952-a51e-5ac91c83686c",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "eppure",
+      "sentence": "Sembrava impossibile, eppure ce l'abbiamo fatta."
+    },
+    "de": {
+      "word": "und doch",
+      "sentence": "Es schien unmöglich, und doch haben wir es geschafft."
+    }
+  },
+  {
+    "id": "3ed6a0f0-0575-4ccf-a1b6-f0dd9fd2d0cc",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "pur di",
+      "sentence": "Farebbe qualsiasi cosa pur di aiutarti."
+    },
+    "de": {
+      "word": "nur um zu",
+      "sentence": "Er würde alles tun, nur um dir zu helfen."
+    }
+  },
+  {
+    "id": "c3d362f2-e267-4ea6-862b-d880f1cbfbef",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "anziché",
+      "sentence": "Anziché arrabbiarti, prova a parlargli."
+    },
+    "de": {
+      "word": "statt",
+      "sentence": "Statt dich zu ärgern, versuch mit ihm zu reden."
+    }
+  },
+  {
+    "id": "7a1983c2-d1da-464c-a787-747b708dc351",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "in ogni caso",
+      "sentence": "In ogni caso ti chiamo prima di partire."
+    },
+    "de": {
+      "word": "auf jeden Fall",
+      "sentence": "Auf jeden Fall rufe ich dich vor der Abfahrt an."
+    }
+  },
+  {
+    "id": "ceaa17e4-2250-4306-a76b-d937c638fcce",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "per quanto riguarda",
+      "sentence": "Per quanto riguarda i costi, ne parliamo domani."
+    },
+    "de": {
+      "word": "was ... betrifft",
+      "sentence": "Was die Kosten betrifft, sprechen wir morgen darüber."
+    }
+  },
+  {
+    "id": "0d02aad9-1ca7-457e-912d-cda309b7c363",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "a seconda di",
+      "sentence": "Il prezzo cambia a seconda della stagione."
+    },
+    "de": {
+      "word": "je nach",
+      "sentence": "Der Preis ändert sich je nach Saison."
+    }
+  },
+  {
+    "id": "695ed9ee-120c-4013-81f9-c44e17654b4f",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "al massimo",
+      "sentence": "Ci vorranno al massimo dieci minuti."
+    },
+    "de": {
+      "word": "höchstens",
+      "sentence": "Es wird höchstens zehn Minuten dauern."
+    }
+  },
+  {
+    "id": "7b74f9d0-1a48-4d4b-ba27-a6f05e3d126d",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "al minimo",
+      "sentence": "Il viaggio costerà al minimo cinquecento franchi."
+    },
+    "de": {
+      "word": "mindestens",
+      "sentence": "Die Reise wird mindestens fünfhundert Franken kosten."
+    }
+  },
+  {
+    "id": "10e70459-847e-41e8-b890-318062dd4a8a",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "in fondo",
+      "sentence": "In fondo aveva ragione lui."
+    },
+    "de": {
+      "word": "im Grunde",
+      "sentence": "Im Grunde hatte er recht."
+    }
+  },
+  {
+    "id": "26e259b4-4d0d-4347-9b82-eaf7d59fc351",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "tutto sommato",
+      "sentence": "Tutto sommato, è andata meglio del previsto."
+    },
+    "de": {
+      "word": "alles in allem",
+      "sentence": "Alles in allem lief es besser als erwartet."
+    }
+  },
+  {
+    "id": "84eda56e-e058-4e30-a3a1-38809b218243",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "d'altra parte",
+      "sentence": "È caro; d'altra parte, la qualità si paga."
+    },
+    "de": {
+      "word": "andererseits",
+      "sentence": "Es ist teuer; andererseits hat Qualität ihren Preis."
+    }
+  },
+  {
+    "id": "2ee355f3-1f6f-4969-bd07-64c765880de4",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "in realtà",
+      "sentence": "Sembra difficile, ma in realtà è semplice."
+    },
+    "de": {
+      "word": "in Wirklichkeit",
+      "sentence": "Es wirkt schwierig, ist aber in Wirklichkeit einfach."
+    }
+  },
+  {
+    "id": "e9d61020-3016-443b-b2c6-b8e3a6287e23",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "anzi",
+      "sentence": "Non mi disturbi, anzi, mi fa piacere vederti."
+    },
+    "de": {
+      "word": "im Gegenteil / vielmehr",
+      "sentence": "Du störst mich nicht, im Gegenteil, ich freue mich, dich zu sehen."
+    }
+  },
+  {
+    "id": "d0b1bfae-9a54-41c3-ad0e-352c536d7351",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "quindi",
+      "sentence": "È tardi, quindi andiamo a dormire."
+    },
+    "de": {
+      "word": "daher",
+      "sentence": "Es ist spät, daher gehen wir schlafen."
+    }
+  },
+  {
+    "id": "b40b9c87-1802-4aab-91d1-c4066f69f407",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "infatti",
+      "sentence": "Sembrava stanco, e infatti si è addormentato subito."
+    },
+    "de": {
+      "word": "tatsächlich",
+      "sentence": "Er wirkte müde, und tatsächlich ist er sofort eingeschlafen."
+    }
+  },
+  {
+    "id": "38aa2acf-5a00-4196-b1cf-0e04b1c7813c",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "insomma",
+      "sentence": "Pioggia, ritardi, code: insomma, una giornata difficile."
+    },
+    "de": {
+      "word": "kurzum",
+      "sentence": "Regen, Verspätungen, Staus: kurzum, ein schwieriger Tag."
+    }
+  },
+  {
+    "id": "801a6490-f01e-4c21-bd94-e0fe33aae264",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "intanto",
+      "sentence": "Tu prepara i piatti, intanto io finisco il sugo."
+    },
+    "de": {
+      "word": "inzwischen",
+      "sentence": "Mach du die Teller bereit, inzwischen mache ich die Sauce fertig."
+    }
+  },
+  {
+    "id": "4f53ffba-ca47-419f-8f3f-28a46c15af35",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "da un momento all'altro",
+      "sentence": "Dovrebbero arrivare da un momento all'altro."
+    },
+    "de": {
+      "word": "jeden Moment",
+      "sentence": "Sie müssten jeden Moment ankommen."
+    }
+  },
+  {
+    "id": "774e4389-ea92-4d54-b674-32c116a09938",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "di tanto in tanto",
+      "sentence": "Di tanto in tanto ci scriviamo ancora."
+    },
+    "de": {
+      "word": "von Zeit zu Zeit",
+      "sentence": "Von Zeit zu Zeit schreiben wir uns noch."
+    }
+  },
+  {
+    "id": "03871f83-5bb7-422e-b14f-3e37211d8f47",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "a lungo",
+      "sentence": "Abbiamo parlato a lungo del futuro."
+    },
+    "de": {
+      "word": "lange",
+      "sentence": "Wir haben lange über die Zukunft gesprochen."
+    }
+  },
+  {
+    "id": "1df76392-e8d9-470a-8ce0-e2ea5e2f200f",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "per forza",
+      "sentence": "Sei stanco? Per forza, hai dormito quattro ore!"
+    },
+    "de": {
+      "word": "zwangsläufig / na klar",
+      "sentence": "Du bist müde? Na klar, du hast vier Stunden geschlafen!"
+    }
+  },
+  {
+    "id": "b925c04f-2a88-4200-9698-11ad004aae97",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "apposta per",
+      "sentence": "Ho preparato questo dolce apposta per voi."
+    },
+    "de": {
+      "word": "eigens für",
+      "sentence": "Ich habe diesen Kuchen eigens für euch gemacht."
+    }
+  },
+  {
+    "id": "4e3a3c2f-863e-45d2-ae5f-2fe4622e809c",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "per lo più",
+      "sentence": "I partecipanti erano per lo più giovani."
+    },
+    "de": {
+      "word": "grösstenteils",
+      "sentence": "Die Teilnehmenden waren grösstenteils jung."
+    }
+  },
+  {
+    "id": "ccacb934-4d44-4f03-8832-ff6b4ec0eca6",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "a volte",
+      "sentence": "A volte basta poco per essere felici."
+    },
+    "de": {
+      "word": "manchmal",
+      "sentence": "Manchmal braucht es wenig, um glücklich zu sein."
+    }
+  },
+  {
+    "id": "b0ec71a4-0d36-46b6-b032-aa4544ce9069",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "quasi mai",
+      "sentence": "Non guardo quasi mai la televisione."
+    },
+    "de": {
+      "word": "fast nie",
+      "sentence": "Ich schaue fast nie fern."
+    }
+  },
+  {
+    "id": "f3c29584-09b2-46a9-8e33-d20cf9ce6ede",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "ben presto",
+      "sentence": "Ben presto capirai perché l'ho fatto."
+    },
+    "de": {
+      "word": "schon bald",
+      "sentence": "Schon bald wirst du verstehen, warum ich es getan habe."
+    }
   }
 ]
