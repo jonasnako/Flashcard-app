@@ -415,10 +415,11 @@ let search="", page=0; const PAGE=50; let addOpen=false, genOpen=false, listLeve
 
 function paintCounts(){
   const e=document.getElementById("counts");if(!e)return;
-  const st={};lib.forEach(c=>{const s=status(c);st[s]=(st[s]||0)+1;});
+  let learned=0,inprog=0; // in progress = started but not yet learned (1–2 of 3 dots)
+  lib.forEach(c=>{const s=c.streak||0;if(s>=settings.learnY)learned++;else if(s>=1)inprog++;});
   e.innerHTML="";
-  e.appendChild(el("div",{html:"<b>"+(st.learning||0)+"</b> learning"}));
-  e.appendChild(el("div",{},[(st.learned||0)+" learned"]));
+  e.appendChild(el("div",{html:"<b>"+learned+"</b> learned"}));
+  e.appendChild(el("div",{},[inprog+" in progress"]));
 }
 function render(){
   app.innerHTML="";
