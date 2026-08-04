@@ -2199,7 +2199,7 @@
   {
     "id": "9562b229-240d-4f32-9ff4-f00efb1aa8ed",
     "level": "B2",
-    "topic": "Household",
+    "topic": "Work",
     "it": {
       "word": "delegare",
       "sentence": "Ho imparato a delegare alcuni compiti."
@@ -17123,7 +17123,7 @@
   {
     "id": "b4555815-4e78-475b-9138-c96d42a2d8ab",
     "level": "B2",
-    "topic": "Verbs",
+    "topic": "Work",
     "it": {
       "word": "gestire",
       "sentence": "Gestisce il negozio da sola da due anni."
@@ -23722,6 +23722,1007 @@
     "de": {
       "word": "das Blatt",
       "sentence": "Schreib die Antwort auf ein weisses Blatt."
+    }
+  },
+  {
+    "id": "277ea131-5c6f-445c-a137-5934109b90bd",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il lavoro",
+      "sentence": "Cerco un lavoro a tempo pieno."
+    },
+    "de": {
+      "word": "die Arbeit",
+      "sentence": "Ich suche eine Arbeit in Vollzeit."
+    }
+  },
+  {
+    "id": "fbaa6121-243b-4c1a-8f9a-930dbfacc8da",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il posto di lavoro",
+      "sentence": "Ha trovato un posto di lavoro in banca."
+    },
+    "de": {
+      "word": "die Arbeitsstelle",
+      "sentence": "Sie hat eine Arbeitsstelle bei einer Bank gefunden."
+    }
+  },
+  {
+    "id": "f7585c28-e3c7-4669-99d8-78d0fa50b3ce",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la carriera",
+      "sentence": "Vuole fare carriera nel mondo della moda."
+    },
+    "de": {
+      "word": "die Karriere",
+      "sentence": "Er will im Modebereich richtig Karriere machen."
+    }
+  },
+  {
+    "id": "c8e0bab7-9133-4d01-becc-3d33bdc80e4c",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il mestiere",
+      "sentence": "Il falegname è un mestiere antico."
+    },
+    "de": {
+      "word": "das Handwerk",
+      "sentence": "Der Schreiner übt ein altes Handwerk aus."
+    }
+  },
+  {
+    "id": "ae026ae5-6779-47e0-afb1-365ecc8ac741",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la professione",
+      "sentence": "Di professione fa l'architetto in un grande studio."
+    },
+    "de": {
+      "word": "der Beruf",
+      "sentence": "Von Beruf ist er Architekt in einem Architekturbüro."
+    }
+  },
+  {
+    "id": "c5541ba2-b349-4583-b828-f3ecc98ccb29",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "l'impiego",
+      "sentence": "Ha perso l'impiego dopo la crisi."
+    },
+    "de": {
+      "word": "die Anstellung",
+      "sentence": "Er hat nach der Krise seine Anstellung verloren."
+    }
+  },
+  {
+    "id": "1803b942-c06e-4418-92c9-3d04a96cabc0",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il datore di lavoro",
+      "sentence": "Il datore di lavoro paga i contributi."
+    },
+    "de": {
+      "word": "der Arbeitgeber",
+      "sentence": "Der Arbeitgeber zahlt die Sozialbeiträge."
+    }
+  },
+  {
+    "id": "f0799547-3ced-4782-9bfb-86bcd7016a88",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il dipendente",
+      "sentence": "L'azienda ha duecento dipendenti."
+    },
+    "de": {
+      "word": "der Angestellte",
+      "sentence": "Das Unternehmen hat zweihundert Angestellte."
+    }
+  },
+  {
+    "id": "f85378ba-b862-49c8-aab0-93e15ac64a7d",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il collega",
+      "sentence": "Vado d'accordo con i miei colleghi."
+    },
+    "de": {
+      "word": "der Kollege",
+      "sentence": "Ich verstehe mich gut mit meinen Kollegen."
+    }
+  },
+  {
+    "id": "30b0985f-c1e4-4cd0-8b5b-d68bb9788ab9",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il capo",
+      "sentence": "Il capo mi ha affidato un nuovo progetto."
+    },
+    "de": {
+      "word": "der Chef",
+      "sentence": "Der Chef hat mir ein neues Projekt anvertraut."
+    }
+  },
+  {
+    "id": "0f5e3865-2d1d-453a-9294-2084e1bb877b",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "l'ufficio",
+      "sentence": "Il mio ufficio è al terzo piano."
+    },
+    "de": {
+      "word": "das Büro",
+      "sentence": "Mein Büro liegt im dritten Stock."
+    }
+  },
+  {
+    "id": "b117742a-01c6-4126-9b14-9ec9649bbe9a",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "la ditta",
+      "sentence": "Lavora per una piccola ditta locale."
+    },
+    "de": {
+      "word": "die Firma",
+      "sentence": "Er arbeitet für eine kleine örtliche Firma."
+    }
+  },
+  {
+    "id": "4731b856-d990-4b8d-b387-dc87e2f80272",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "l'azienda",
+      "sentence": "L'azienda esporta prodotti in tutta Europa."
+    },
+    "de": {
+      "word": "das Unternehmen",
+      "sentence": "Das Unternehmen exportiert Produkte in ganz Europa."
+    }
+  },
+  {
+    "id": "97732dfd-b887-4fa8-8219-aceedb7056e7",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "la fabbrica",
+      "sentence": "In fabbrica si lavora su tre turni."
+    },
+    "de": {
+      "word": "die Fabrik",
+      "sentence": "In der Fabrik arbeitet man in drei Schichten."
+    }
+  },
+  {
+    "id": "4cb2ce1e-f1f3-4fa5-85f5-e3669caab0d8",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "l'impresa",
+      "sentence": "Ha fondato la sua impresa dieci anni fa."
+    },
+    "de": {
+      "word": "der Betrieb",
+      "sentence": "Er hat seinen Betrieb vor zehn Jahren gegründet."
+    }
+  },
+  {
+    "id": "b70c34fe-50e0-488b-bdba-e540377ccf7a",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il settore",
+      "sentence": "Lavora nel settore delle energie rinnovabili."
+    },
+    "de": {
+      "word": "die Branche",
+      "sentence": "Sie arbeitet in der Branche der erneuerbaren Energien."
+    }
+  },
+  {
+    "id": "3ce5b13b-64cf-48cf-a77e-f8b3a1ab965d",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la sede",
+      "sentence": "La sede centrale si trova a Torino."
+    },
+    "de": {
+      "word": "der Hauptsitz",
+      "sentence": "Der Hauptsitz befindet sich in Turin."
+    }
+  },
+  {
+    "id": "0975dca0-10c6-40b7-899f-fa3d80c642bb",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la filiale",
+      "sentence": "La banca ha una filiale in ogni città."
+    },
+    "de": {
+      "word": "die Filiale",
+      "sentence": "Die Bank hat in jeder Stadt eine Filiale."
+    }
+  },
+  {
+    "id": "f683d1fe-238d-45f1-9ef1-39cb51ac48cb",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "l'operaio",
+      "sentence": "L'operaio comincia il turno alle sei."
+    },
+    "de": {
+      "word": "der Arbeiter",
+      "sentence": "Der Arbeiter beginnt seine Schicht um sechs."
+    }
+  },
+  {
+    "id": "d99603cb-6c14-4b2d-a5db-41e7b9b1857f",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "l'impiegato",
+      "sentence": "L'impiegato risponde alle email dei clienti."
+    },
+    "de": {
+      "word": "der Sachbearbeiter",
+      "sentence": "Der Sachbearbeiter beantwortet die E-Mails der Kunden."
+    }
+  },
+  {
+    "id": "e0480941-7b16-4475-b4a5-f67cbbd0bed5",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il dirigente",
+      "sentence": "Il dirigente prende le decisioni importanti."
+    },
+    "de": {
+      "word": "die Führungskraft",
+      "sentence": "Die Führungskraft trifft die wichtigen Entscheidungen."
+    }
+  },
+  {
+    "id": "07e6b599-1769-46a0-8264-aa4a81cd7ce0",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il direttore",
+      "sentence": "Il direttore ha convocato una riunione urgente."
+    },
+    "de": {
+      "word": "der Direktor",
+      "sentence": "Der Direktor hat eine dringende Besprechung einberufen."
+    }
+  },
+  {
+    "id": "8f7104b3-888f-450b-a792-419d8042e478",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "la segretaria",
+      "sentence": "La segretaria organizza gli appuntamenti del capo."
+    },
+    "de": {
+      "word": "die Sekretärin",
+      "sentence": "Die Sekretärin organisiert die Termine des Chefs."
+    }
+  },
+  {
+    "id": "85af2eee-d53a-4a19-93da-d3aa619dd06e",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "l'imprenditore",
+      "sentence": "L'imprenditore investe molto in nuove tecnologie digitali."
+    },
+    "de": {
+      "word": "der Unternehmer",
+      "sentence": "Der Unternehmer investiert in neue Technologien."
+    }
+  },
+  {
+    "id": "9121d609-bd80-48bf-aeb0-f353659ba1de",
+    "level": "B2",
+    "topic": "Work",
+    "it": {
+      "word": "il libero professionista",
+      "sentence": "Come libero professionista deve trovarsi i clienti da solo."
+    },
+    "de": {
+      "word": "der Freiberufler",
+      "sentence": "Als Freiberufler muss er seine Kunden selbst finden."
+    }
+  },
+  {
+    "id": "946acdb4-f05d-432d-8ca2-7397dd16d99d",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il consulente",
+      "sentence": "Abbiamo assunto un consulente esterno per il progetto."
+    },
+    "de": {
+      "word": "der Berater",
+      "sentence": "Wir haben einen externen Berater für das Projekt engagiert."
+    }
+  },
+  {
+    "id": "cd327256-8c19-4739-8fde-0755819eee10",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il tecnico",
+      "sentence": "Il tecnico ripara il macchinario guasto."
+    },
+    "de": {
+      "word": "der Techniker",
+      "sentence": "Der Techniker repariert die defekte Maschine."
+    }
+  },
+  {
+    "id": "e5f58f98-7bae-4cbf-ae00-6508b343d7cd",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "l'artigiano",
+      "sentence": "L'artigiano lavora il legno a mano."
+    },
+    "de": {
+      "word": "der Handwerker",
+      "sentence": "Der Handwerker bearbeitet das Holz von Hand."
+    }
+  },
+  {
+    "id": "b4e124e6-975c-4928-8fb4-8b49c4347bf2",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "l'apprendista",
+      "sentence": "L'apprendista impara il mestiere in officina."
+    },
+    "de": {
+      "word": "der Lehrling",
+      "sentence": "Der Lehrling lernt das Handwerk in der Werkstatt."
+    }
+  },
+  {
+    "id": "a9dc922c-6b79-4e90-b79e-53347e55414a",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "la riunione",
+      "sentence": "La riunione comincia alle nove in punto."
+    },
+    "de": {
+      "word": "die Besprechung",
+      "sentence": "Die Besprechung beginnt pünktlich um neun."
+    }
+  },
+  {
+    "id": "2cbf1f8d-e029-49e4-8598-e5a43546a18c",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la scadenza",
+      "sentence": "Dobbiamo rispettare la scadenza di venerdì."
+    },
+    "de": {
+      "word": "die Frist",
+      "sentence": "Wir müssen die Frist am Freitag einhalten."
+    }
+  },
+  {
+    "id": "41034bce-2ff9-4f48-9624-e515510cbc9a",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il progetto",
+      "sentence": "Il progetto richiede diverse settimane di lavoro."
+    },
+    "de": {
+      "word": "das Projekt",
+      "sentence": "Das Projekt erfordert mehrere Wochen Arbeit."
+    }
+  },
+  {
+    "id": "43bf712c-b0cc-463a-88fe-e57de4a82734",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la mansione",
+      "sentence": "Ogni dipendente ha mansioni ben precise."
+    },
+    "de": {
+      "word": "die Aufgabe",
+      "sentence": "Jeder Angestellte hat ganz genaue Aufgaben."
+    }
+  },
+  {
+    "id": "7eb73996-291d-4189-8175-7bd67e9eddb8",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il turno",
+      "sentence": "Questa settimana faccio il turno di notte."
+    },
+    "de": {
+      "word": "die Schicht",
+      "sentence": "Diese Woche mache ich die Nachtschicht."
+    }
+  },
+  {
+    "id": "88d12fb5-4573-490a-a600-d4fc045fbe30",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "fare gli straordinari",
+      "sentence": "Questo mese ho fatto molti straordinari."
+    },
+    "de": {
+      "word": "Überstunden machen",
+      "sentence": "Diesen Monat habe ich viele Überstunden gemacht."
+    }
+  },
+  {
+    "id": "2ff91c41-95d4-4951-b1d4-c0f350dca627",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "la scrivania",
+      "sentence": "Tengo sempre la scrivania in ordine."
+    },
+    "de": {
+      "word": "der Schreibtisch",
+      "sentence": "Ich halte meinen Schreibtisch immer ordentlich."
+    }
+  },
+  {
+    "id": "21688945-e151-4aa1-80ec-12cde3f7e1d8",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il documento",
+      "sentence": "Firma il documento e mandalo per email."
+    },
+    "de": {
+      "word": "das Dokument",
+      "sentence": "Unterschreib das Dokument und schick es per E-Mail."
+    }
+  },
+  {
+    "id": "3f767c9f-44cc-43ce-8f7a-f1faa7a2f2dd",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "l'agenda",
+      "sentence": "Segno tutti i miei appuntamenti importanti sull'agenda."
+    },
+    "de": {
+      "word": "der Terminkalender",
+      "sentence": "Ich trage alle Termine in den Terminkalender ein."
+    }
+  },
+  {
+    "id": "72766cff-dc20-4505-ab07-174b3684203c",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il contratto",
+      "sentence": "Ho firmato un contratto a tempo indeterminato."
+    },
+    "de": {
+      "word": "der Vertrag",
+      "sentence": "Ich habe einen unbefristeten Vertrag unterschrieben."
+    }
+  },
+  {
+    "id": "16c316c3-1ce6-4af8-8717-36723ead67d0",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "lo stipendio",
+      "sentence": "Lo stipendio arriva alla fine del mese."
+    },
+    "de": {
+      "word": "das Gehalt",
+      "sentence": "Das Gehalt kommt am Ende des Monats."
+    }
+  },
+  {
+    "id": "15175a75-9277-4dcd-b38c-1766c2b4de90",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il salario",
+      "sentence": "Il salario minimo è stabilito per legge."
+    },
+    "de": {
+      "word": "der Lohn",
+      "sentence": "Der Mindestlohn ist bei uns gesetzlich genau festgelegt."
+    }
+  },
+  {
+    "id": "bc130da9-f7f7-466c-be66-4dba3a0bc699",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la busta paga",
+      "sentence": "Controllo sempre la busta paga ogni mese."
+    },
+    "de": {
+      "word": "die Lohnabrechnung",
+      "sentence": "Ich prüfe jeden Monat immer die Lohnabrechnung."
+    }
+  },
+  {
+    "id": "d2de94fc-c05b-4719-a228-226872f55531",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "le ferie",
+      "sentence": "Ad agosto prendo tre settimane di ferie."
+    },
+    "de": {
+      "word": "der Urlaub",
+      "sentence": "Im August nehme ich drei Wochen Urlaub."
+    }
+  },
+  {
+    "id": "0b6171dd-2b77-49eb-a8b9-dd773de81584",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il congedo",
+      "sentence": "È in congedo di maternità da marzo."
+    },
+    "de": {
+      "word": "der Mutterschaftsurlaub",
+      "sentence": "Sie ist seit März im Mutterschaftsurlaub."
+    }
+  },
+  {
+    "id": "4a62a548-9929-4ee2-9487-0c551c340863",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "la pensione",
+      "sentence": "Mio nonno è andato in pensione a sessantacinque anni."
+    },
+    "de": {
+      "word": "die Rente",
+      "sentence": "Mein Grossvater ging mit fünfundsechzig in Rente."
+    }
+  },
+  {
+    "id": "1255497a-6ae4-408d-b6fa-5fce1ba74019",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la disoccupazione",
+      "sentence": "La disoccupazione giovanile è ancora molto alta."
+    },
+    "de": {
+      "word": "die Arbeitslosigkeit",
+      "sentence": "Die Jugendarbeitslosigkeit ist immer noch sehr hoch."
+    }
+  },
+  {
+    "id": "4e2531ed-88c3-443d-bd87-7608cbe88ea6",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il colloquio",
+      "sentence": "Domani ho un colloquio di lavoro importante."
+    },
+    "de": {
+      "word": "das Vorstellungsgespräch",
+      "sentence": "Morgen habe ich ein wichtiges Vorstellungsgespräch."
+    }
+  },
+  {
+    "id": "7ca0be8a-4332-48ec-b408-e617c8838401",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il curriculum",
+      "sentence": "Ho aggiornato il curriculum con la nuova esperienza."
+    },
+    "de": {
+      "word": "der Lebenslauf",
+      "sentence": "Ich habe den Lebenslauf mit der neuen Erfahrung aktualisiert."
+    }
+  },
+  {
+    "id": "d50800ad-9d2e-43fb-a91a-eab72da6a996",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la candidatura",
+      "sentence": "Ha inviato la candidatura per il posto."
+    },
+    "de": {
+      "word": "die Bewerbung",
+      "sentence": "Er hat die Bewerbung für die Stelle geschickt."
+    }
+  },
+  {
+    "id": "3440bdde-1623-4cf9-a155-f386e027d66c",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "l'assunzione",
+      "sentence": "L'assunzione dipende dal risultato del colloquio."
+    },
+    "de": {
+      "word": "die Einstellung",
+      "sentence": "Die Einstellung hängt vom Ergebnis des Gesprächs ab."
+    }
+  },
+  {
+    "id": "6f236d97-7931-4d6d-86d4-28a4cc91fc7a",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il licenziamento",
+      "sentence": "Il licenziamento è arrivato senza alcun preavviso."
+    },
+    "de": {
+      "word": "die Kündigung",
+      "sentence": "Die Kündigung kam ganz ohne jede Vorwarnung."
+    }
+  },
+  {
+    "id": "ceb2cc32-0f6b-4219-a0fe-7c2ebd78bbeb",
+    "level": "B2",
+    "topic": "Work",
+    "it": {
+      "word": "le dimissioni",
+      "sentence": "Ha dato le dimissioni dopo un lungo periodo di stress."
+    },
+    "de": {
+      "word": "die Kündigung durch den Arbeitnehmer",
+      "sentence": "Nach einer langen Stressphase reichte er seine Kündigung ein."
+    }
+  },
+  {
+    "id": "68dc5154-b5f9-4681-8d63-78fc3eec5815",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "l'orario di lavoro",
+      "sentence": "Il nostro orario di lavoro è molto flessibile."
+    },
+    "de": {
+      "word": "die Arbeitszeit",
+      "sentence": "Unsere Arbeitszeit ist sehr flexibel geregelt."
+    }
+  },
+  {
+    "id": "54fb8bff-0fe7-44a5-b84d-edb63c4b31da",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il tempo pieno",
+      "sentence": "Ha finalmente trovato un impiego a tempo pieno."
+    },
+    "de": {
+      "word": "die Vollzeit",
+      "sentence": "Sie hat endlich eine Anstellung in Vollzeit gefunden."
+    }
+  },
+  {
+    "id": "74ce9ccd-223d-4113-af92-eb9f4aa17bd6",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "lo sciopero",
+      "sentence": "I trasporti sono fermi per lo sciopero."
+    },
+    "de": {
+      "word": "der Streik",
+      "sentence": "Der Verkehr steht wegen des Streiks still."
+    }
+  },
+  {
+    "id": "3f3843fb-9df9-468b-8112-7cfe58caa8d3",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la promozione",
+      "sentence": "Dopo la promozione guadagna molto di più."
+    },
+    "de": {
+      "word": "die Beförderung",
+      "sentence": "Nach der Beförderung verdient er viel mehr."
+    }
+  },
+  {
+    "id": "a5c09412-534e-4012-bb7b-2f36ea53e1af",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "lavorare",
+      "sentence": "Lavoro in un ospedale da cinque anni."
+    },
+    "de": {
+      "word": "arbeiten",
+      "sentence": "Ich arbeite seit fünf Jahren in einem Krankenhaus."
+    }
+  },
+  {
+    "id": "5bc1dede-d641-4879-a29a-68e09e728987",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "assumere",
+      "sentence": "L'azienda vuole assumere dieci nuovi dipendenti."
+    },
+    "de": {
+      "word": "einstellen",
+      "sentence": "Das Unternehmen will zehn neue Angestellte einstellen."
+    }
+  },
+  {
+    "id": "fc68ded0-68c4-4eaa-ac73-a9089c371ea2",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "licenziare",
+      "sentence": "Hanno licenziato molti operai la scorsa primavera."
+    },
+    "de": {
+      "word": "entlassen",
+      "sentence": "Sie haben letzten Frühling viele Arbeiter entlassen."
+    }
+  },
+  {
+    "id": "7e4f7bfe-ccb6-4695-8434-79ec2280dbfe",
+    "level": "B2",
+    "topic": "Work",
+    "it": {
+      "word": "dimettersi",
+      "sentence": "Ha deciso di dimettersi per motivi strettamente personali e familiari."
+    },
+    "de": {
+      "word": "zurücktreten",
+      "sentence": "Er hat beschlossen, aus rein persönlichen und familiären Gründen zurückzutreten."
+    }
+  },
+  {
+    "id": "31d4048c-ed48-47ae-a94c-a2f723c042e8",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "candidarsi",
+      "sentence": "Mi candido per il posto di responsabile vendite."
+    },
+    "de": {
+      "word": "sich bewerben",
+      "sentence": "Ich bewerbe mich um die Stelle als Verkaufsleiter."
+    }
+  },
+  {
+    "id": "e856ff61-089c-40dd-b564-ab9e3d778bc5",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "dirigere",
+      "sentence": "Dirige l'intera azienda con grande competenza ed energia."
+    },
+    "de": {
+      "word": "leiten",
+      "sentence": "Sie leitet das Unternehmen mit grosser Kompetenz."
+    }
+  },
+  {
+    "id": "a088f03e-fcfb-4120-87c6-975d27815e26",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "collaborare",
+      "sentence": "I due reparti collaborano allo stesso progetto."
+    },
+    "de": {
+      "word": "zusammenarbeiten",
+      "sentence": "Die beiden Abteilungen arbeiten am selben Projekt zusammen."
+    }
+  },
+  {
+    "id": "599683aa-8094-4072-a66d-d634d455542f",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "riunirsi",
+      "sentence": "Il team si riunisce ogni lunedì mattina."
+    },
+    "de": {
+      "word": "sich treffen",
+      "sentence": "Das Team trifft sich jeden Montagmorgen."
+    }
+  },
+  {
+    "id": "7741b132-1ccb-4c27-8d9b-93d24fa672b2",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "timbrare",
+      "sentence": "Timbra il cartellino all'inizio del turno."
+    },
+    "de": {
+      "word": "stempeln",
+      "sentence": "Er stempelt die Karte zu Beginn der Schicht."
+    }
+  },
+  {
+    "id": "787571c0-5830-43c9-ae6b-e4fa26416f7c",
+    "level": "B2",
+    "topic": "Work",
+    "it": {
+      "word": "negoziare",
+      "sentence": "Il sindacato negozia condizioni migliori per i lavoratori."
+    },
+    "de": {
+      "word": "verhandeln",
+      "sentence": "Die Gewerkschaft verhandelt bessere Bedingungen für die Arbeiter."
+    }
+  },
+  {
+    "id": "d16dd571-abcf-4cb4-83e8-8602685c774d",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "stressante",
+      "sentence": "Il suo lavoro è diventato molto stressante."
+    },
+    "de": {
+      "word": "stressig",
+      "sentence": "Ihre Arbeit ist sehr stressig geworden."
+    }
+  },
+  {
+    "id": "4b70c7d7-23af-405b-a31a-c0a05c8939bf",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "faticoso",
+      "sentence": "Il lavoro in cantiere è davvero faticoso."
+    },
+    "de": {
+      "word": "anstrengend",
+      "sentence": "Die Arbeit auf der Baustelle ist wirklich anstrengend."
+    }
+  },
+  {
+    "id": "0947c499-4bf7-48ec-9bd5-54fb8ea41f45",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "stabile",
+      "sentence": "Cerca un impiego stabile e ben pagato."
+    },
+    "de": {
+      "word": "fest",
+      "sentence": "Er sucht eine feste und gut bezahlte Anstellung."
+    }
+  },
+  {
+    "id": "5c0741d2-b514-4ae6-9767-534086de3c58",
+    "level": "B2",
+    "topic": "Work",
+    "it": {
+      "word": "precario",
+      "sentence": "Molti giovani hanno solo contratti precari e brevi."
+    },
+    "de": {
+      "word": "prekär",
+      "sentence": "Viele junge Leute haben nur prekäre und kurze Verträge."
+    }
+  },
+  {
+    "id": "1418915c-d4af-4c26-a4be-d3c0b226a856",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "qualificato",
+      "sentence": "Serve personale qualificato per questo incarico."
+    },
+    "de": {
+      "word": "qualifiziert",
+      "sentence": "Für diese Aufgabe braucht es qualifiziertes Personal."
+    }
+  },
+  {
+    "id": "3174df14-6ab4-4975-b8b5-72d3b19ecdbc",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "competente",
+      "sentence": "È una collega molto competente e affidabile."
+    },
+    "de": {
+      "word": "kompetent",
+      "sentence": "Sie ist eine sehr kompetente und zuverlässige Kollegin."
+    }
+  },
+  {
+    "id": "71be4f75-18e4-40f3-9da6-f7e14743c8a3",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "disoccupato",
+      "sentence": "È rimasto disoccupato per quasi un anno."
+    },
+    "de": {
+      "word": "arbeitslos",
+      "sentence": "Er war fast ein ganzes Jahr lang arbeitslos."
+    }
+  },
+  {
+    "id": "0e732c2d-1a4c-4a08-beee-1c6ce8ccdb11",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "autonomo",
+      "sentence": "Come lavoratore autonomo gestisce i propri orari."
+    },
+    "de": {
+      "word": "selbstständig",
+      "sentence": "Als selbstständiger Arbeiter teilt er sich die Zeit frei ein."
+    }
+  },
+  {
+    "id": "8cda3c61-854e-4433-8ec6-608870ec1c38",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "la formazione",
+      "sentence": "L'azienda offre una formazione ai nuovi dipendenti."
+    },
+    "de": {
+      "word": "die Ausbildung",
+      "sentence": "Die Firma bietet den neuen Angestellten eine Ausbildung an."
+    }
+  },
+  {
+    "id": "9aeb7e9d-5fe6-4be7-8f9d-283cd2e7f947",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il tirocinio",
+      "sentence": "Dopo la laurea ha fatto un tirocinio in banca."
+    },
+    "de": {
+      "word": "das Praktikum",
+      "sentence": "Nach dem Studium machte er ein Praktikum bei einer Bank."
+    }
+  },
+  {
+    "id": "01771b5f-179a-47a6-a8ab-e2ce4af6f527",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "il sindacato",
+      "sentence": "Il sindacato difende i diritti di tutti i lavoratori."
+    },
+    "de": {
+      "word": "die Gewerkschaft",
+      "sentence": "Die Gewerkschaft verteidigt seit Jahren entschlossen die Rechte aller Arbeitnehmer."
     }
   }
 ]

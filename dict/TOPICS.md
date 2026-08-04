@@ -22,12 +22,12 @@ of which territories exist; all word choices and example sentences are our own.
 | **Body** | Körperteile und Organe | 67 ✓ | done (symptom/treatment terms moved to Health) |
 | **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 91 ✓ | +~25 (Körperpflege, Notruf) |
 | **Education** | Lernen, Sprache, Schule/Universität/Ausbildung, Fächer | 94 ✓ | +~15 top-up (spiegare, errore, domanda/risposta) |
-| **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | old approach | ~120 **rebuild** |
+| **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | 78 ✓ | +~35 top-up |
 | **Culture** | Lektüre, Musik, Kunst, Theater und Film | — | ~100 |
 | **Freizeit** | Feste feiern, Feiertage, Ausgehen, Sport, Hobbys | — | ~110 |
 | **Shopping** | Einkaufen: Auswählen/Bezahlen, Geschäfte | — | ~80 |
 | **Food** | Ernährung (all subchapters) + Restaurant und Café | 96 ✓ | +~45 |
-| **Household** | Häuser/Wohnungen, Zimmer, Einrichtung, Haushaltsführung | 151 ✓ | +30 (dwelling types, furniture) |
+| **Household** | Häuser/Wohnungen, Zimmer, Einrichtung, Haushaltsführung | 150 ✓ | +30 (dwelling types, furniture) |
 | **Travel** | Reisen, Übernachten, Sehenswürdigkeiten, Verkehrsmittel, Individualverkehr | — | ~120 |
 | **Nature** | Landschaft, Weltall, Umwelt/Wetter/Klima, Pflanzen | 99 ✓ | +40 (Weltall, Klima) |
 | **Animals** | Tiere (kept separate — large enough) | 91 ✓ | done |
@@ -77,7 +77,7 @@ id-matched update (keep the existing id; change only `topic`) once the target to
 | riempire | Household |
 | piegare | Household |
 | produrre | Economy |
-| gestire | Work |
+| ~~gestire~~ | ~~Work~~ ✓ done |
 
 **Disambiguation is not one-directional:** existing entries can be re-homed when a
 better topic is built — the id-matched update keeps scores intact. When Health was
@@ -89,6 +89,9 @@ Person). Kept where they were after review: *l'ospedale* (City), *la gelosia* (C
 When Education was built, these general school words moved into it from Children (review-approved):
 *la scuola, la classe, l'insegnante, il compagno di classe, il voto, la pagella, i compiti,
 imparare*. Kept in Children: *la maestra, la ricreazione, spiegare* (early-childhood flavour).
+When Work was built, *delegare* moved into it from Household (review-approved). Society was
+seeded with *il sindacato* out of the Work batch's ambiguous review; the full Society build is
+still pending.
 
 ---
 
