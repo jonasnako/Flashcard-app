@@ -20,7 +20,7 @@ of which territories exist; all word choices and example sentences are our own.
 | **Thinking & Feeling** | Denken und Fühlen: Gedanken, Gefühle, Sinneseindrücke | 126 ✓ | +20 gap-fill |
 | **Kommunikation** | Sprechsituationen: Gespräche, Fragen/Bitten, Befehl/Verbot, Diskussion, Konflikte, Begrüssen, Redewendungen | 125 ✓ | +30 (greetings, phone/letter) |
 | **Body** | Körperteile und Organe | 82 ✓ | done |
-| **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | — | ~120 |
+| **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 71 ✓ | +~45 (Körperpflege, Notruf) |
 | **Education** | Lernen, Sprache, Schule/Universität/Ausbildung, Fächer | — | ~110 |
 | **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | old approach | ~120 **rebuild** |
 | **Culture** | Lektüre, Musik, Kunst, Theater und Film | — | ~100 |

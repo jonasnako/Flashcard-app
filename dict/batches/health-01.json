@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "19b02806-7314-4724-a2b3-55de09622e61",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la malattia",
+      "sentence": "Questa malattia è molto diffusa in inverno."
+    },
+    "de": {
+      "word": "die Krankheit",
+      "sentence": "Diese Krankheit ist im Winter sehr verbreitet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a97db182-e162-45e4-b06a-45a4094e7c52",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "l'influenza",
+      "sentence": "Ho preso l'influenza la settimana scorsa."
+    },
+    "de": {
+      "word": "die Grippe",
+      "sentence": "Ich habe letzte Woche die Grippe bekommen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "aefa0144-346b-409e-a940-311c92414398",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il mal di gola",
+      "sentence": "Con il mal di gola bevo tè caldo."
+    },
+    "de": {
+      "word": "die Halsschmerzen",
+      "sentence": "Bei Halsschmerzen trinke ich warmen Tee."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e395646e-023b-4be5-a3c0-753555c1b16a",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il mal di pancia",
+      "sentence": "Il bambino ha spesso mal di pancia."
+    },
+    "de": {
+      "word": "die Bauchschmerzen",
+      "sentence": "Das Kind hat oft starke Bauchschmerzen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3acc7b02-b501-4aa4-9289-8e228dbededd",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il sintomo",
+      "sentence": "La febbre è un sintomo comune dell'influenza."
+    },
+    "de": {
+      "word": "das Symptom",
+      "sentence": "Fieber ist ein häufiges Symptom der Grippe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "592c171b-bd03-4c59-8679-db30221fcf5c",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il virus",
+      "sentence": "Il virus si diffonde molto rapidamente."
+    },
+    "de": {
+      "word": "das Virus",
+      "sentence": "Das Virus verbreitet sich sehr schnell."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "41d40168-9565-42fb-ae21-35225858361b",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'infezione",
+      "sentence": "L'antibiotico serve a combattere una brutta infezione."
+    },
+    "de": {
+      "word": "die Infektion",
+      "sentence": "Das Antibiotikum hilft gegen die bakterielle Infektion."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "76fb0489-ae2b-452c-9170-d84d5fff7612",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'allergia",
+      "sentence": "Ho un'allergia al polline in primavera."
+    },
+    "de": {
+      "word": "die Allergie",
+      "sentence": "Im Frühling habe ich eine starke Pollenallergie."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4745a7f3-af7f-46da-895b-95cb9f46f491",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la nausea",
+      "sentence": "Dopo il viaggio in barca sentivo nausea."
+    },
+    "de": {
+      "word": "die Übelkeit",
+      "sentence": "Nach der Bootsfahrt spürte ich starke Übelkeit."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0413cdcb-9bcc-4634-8418-2aa4f6e68422",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il capogiro",
+      "sentence": "Mi alzo piano per evitare il capogiro."
+    },
+    "de": {
+      "word": "der Schwindel",
+      "sentence": "Ich stehe langsam auf, um Schwindel zu vermeiden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3bb13e4d-4cee-4b10-93ce-84345f98e1f2",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la stanchezza",
+      "sentence": "La stanchezza cronica può avere molte cause."
+    },
+    "de": {
+      "word": "die Müdigkeit",
+      "sentence": "Chronische Müdigkeit kann viele Ursachen haben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "00287ba5-e480-4a84-8828-3336fa74d8be",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "il malessere",
+      "sentence": "Un leggero malessere lo ha costretto a restare a casa."
+    },
+    "de": {
+      "word": "das Unwohlsein",
+      "sentence": "Ein leichtes Unwohlsein zwang ihn, zu Hause zu bleiben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b2c72d1f-318b-4856-86b2-37e872a2418d",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la puntura",
+      "sentence": "La puntura d'ape fa molto male."
+    },
+    "de": {
+      "word": "der Stich",
+      "sentence": "Der Bienenstich tut wirklich sehr weh."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c493108f-510d-4ea2-82c1-4285bb3c3005",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il gonfiore",
+      "sentence": "Il ghiaccio riduce il gonfiore della caviglia."
+    },
+    "de": {
+      "word": "die Schwellung",
+      "sentence": "Das Eis verringert die Schwellung am Knöchel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f3c6f302-5518-4cdb-8746-b86985de0352",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la salute",
+      "sentence": "La salute è più importante del denaro."
+    },
+    "de": {
+      "word": "die Gesundheit",
+      "sentence": "Die Gesundheit ist wichtiger als das Geld."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8a1a00c8-e364-4555-9c73-411095f01ee7",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la guarigione",
+      "sentence": "I medici sperano in una guarigione rapida."
+    },
+    "de": {
+      "word": "die Genesung",
+      "sentence": "Die Ärzte hoffen auf eine schnelle Genesung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c9c06c36-1d58-4d4c-804d-915f635e387b",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il medico",
+      "sentence": "Domani ho un appuntamento dal medico."
+    },
+    "de": {
+      "word": "der Arzt",
+      "sentence": "Morgen habe ich einen Termin beim Arzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "197e4565-532c-4fcc-b1d1-f2c1e7335117",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la dottoressa",
+      "sentence": "La dottoressa mi ha visitato con attenzione."
+    },
+    "de": {
+      "word": "die Ärztin",
+      "sentence": "Die Ärztin hat mich sehr sorgfältig untersucht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0204761d-f217-45f4-92ae-ad7e62fba421",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il paziente",
+      "sentence": "Il paziente aspetta i risultati degli esami."
+    },
+    "de": {
+      "word": "der Patient",
+      "sentence": "Der Patient wartet auf die Ergebnisse der Untersuchung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "19e51f45-c062-468e-a20e-4537a3294cf4",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'infermiere",
+      "sentence": "L'infermiere controlla la pressione ogni mattina."
+    },
+    "de": {
+      "word": "der Krankenpfleger",
+      "sentence": "Der Krankenpfleger misst jeden Morgen den Blutdruck."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6d2a4284-bf91-4b2f-8e55-10133359258a",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'infermiera",
+      "sentence": "L'infermiera prepara la stanza per il paziente."
+    },
+    "de": {
+      "word": "die Krankenschwester",
+      "sentence": "Die Krankenschwester bereitet das Zimmer für den Patienten vor."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "de48c17d-0e47-405c-b4d8-2e1eb1713424",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la visita",
+      "sentence": "La visita medica è durata mezz'ora."
+    },
+    "de": {
+      "word": "die Untersuchung",
+      "sentence": "Die ärztliche Untersuchung dauerte eine halbe Stunde."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5c1e77e0-4134-40ae-8aa9-4e0e4caa14c8",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "la diagnosi",
+      "sentence": "Una diagnosi precoce aumenta molto le possibilità di guarigione."
+    },
+    "de": {
+      "word": "die Diagnose",
+      "sentence": "Eine frühe Diagnose erhöht deutlich die Chancen auf Heilung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "be2eb174-4eb0-405a-b013-f8a66a06a186",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la cura",
+      "sentence": "La cura dura almeno due settimane."
+    },
+    "de": {
+      "word": "die Behandlung",
+      "sentence": "Die Behandlung dauert mindestens zwei Wochen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b6541adc-5619-40c9-9acc-ec2cbeb81776",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il rimedio",
+      "sentence": "Non esiste un rimedio contro il raffreddore."
+    },
+    "de": {
+      "word": "das Heilmittel",
+      "sentence": "Gegen die Erkältung gibt es kein Heilmittel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6012ff64-2187-4be9-a6cf-ac1d83b28697",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la terapia",
+      "sentence": "La terapia lo ha aiutato a guarire."
+    },
+    "de": {
+      "word": "die Therapie",
+      "sentence": "Die Therapie hat ihm beim Genesen geholfen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "05ae4514-89ef-48c1-9868-ba228710adbc",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'operazione",
+      "sentence": "L'operazione al ginocchio è andata bene."
+    },
+    "de": {
+      "word": "die Operation",
+      "sentence": "Die Operation am Knie ist gut verlaufen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "715e121c-f4e2-4ebc-a80b-4f216354c74e",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "l'intervento",
+      "sentence": "Il chirurgo ha spiegato i rischi dell'intervento al paziente."
+    },
+    "de": {
+      "word": "der Eingriff",
+      "sentence": "Der Chirurg erklärte dem Patienten die Risiken des Eingriffs."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d8371394-fe5a-4248-b265-70c79ca43d75",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il chirurgo",
+      "sentence": "Il chirurgo lavora in questo ospedale da anni."
+    },
+    "de": {
+      "word": "der Chirurg",
+      "sentence": "Der Chirurg arbeitet seit Jahren in diesem Krankenhaus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0db197b7-b109-4abc-8d1b-e664608db8f6",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il reparto",
+      "sentence": "Il reparto di pediatria è al secondo piano."
+    },
+    "de": {
+      "word": "die Station",
+      "sentence": "Die Kinderstation liegt im zweiten Stock."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "34d99439-ba6d-4eb9-8315-cc205aade8ea",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il pronto soccorso",
+      "sentence": "L'hanno portato subito al pronto soccorso."
+    },
+    "de": {
+      "word": "die Notaufnahme",
+      "sentence": "Sie brachten ihn sofort in die Notaufnahme."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "68ce995d-ea06-4007-98f2-2a90ef0f7f61",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "l'ambulanza",
+      "sentence": "L'ambulanza è arrivata in cinque minuti."
+    },
+    "de": {
+      "word": "der Krankenwagen",
+      "sentence": "Der Krankenwagen kam in fünf Minuten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2de048aa-5fd8-4d0d-a6f3-111970a03953",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la barella",
+      "sentence": "Hanno trasportato il ferito su una barella."
+    },
+    "de": {
+      "word": "die Trage",
+      "sentence": "Sie trugen den Verletzten auf einer Trage."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ef4ca07e-1602-437d-9756-1f4ab84fab1a",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la siringa",
+      "sentence": "L'infermiera prepara la siringa per il vaccino."
+    },
+    "de": {
+      "word": "die Spritze",
+      "sentence": "Die Krankenschwester bereitet die Spritze für die Impfung vor."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1f4b8ebb-d565-4331-ba07-749a7b9e6519",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'iniezione",
+      "sentence": "L'iniezione non è stata affatto dolorosa."
+    },
+    "de": {
+      "word": "die Injektion",
+      "sentence": "Die Injektion war überhaupt nicht schmerzhaft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "69eebf6b-f12c-4dce-a669-fcf146ecfffc",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il vaccino",
+      "sentence": "Il nuovo vaccino protegge da diverse malattie."
+    },
+    "de": {
+      "word": "der Impfstoff",
+      "sentence": "Der neue Impfstoff schützt vor mehreren Krankheiten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b8685a7b-2d5e-4408-b5ae-26a5aef7f2ea",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "il farmaco",
+      "sentence": "Questo farmaco va assunto due volte al giorno dopo i pasti."
+    },
+    "de": {
+      "word": "das Arzneimittel",
+      "sentence": "Dieses Arzneimittel nimmt man zweimal täglich nach den Mahlzeiten ein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7f7c61af-e808-42f3-b8bd-89659b44a13a",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'antibiotico",
+      "sentence": "L'antibiotico va preso per una settimana intera."
+    },
+    "de": {
+      "word": "das Antibiotikum",
+      "sentence": "Das Antibiotikum muss man eine ganze Woche nehmen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "20626854-863d-485c-a356-a696341d240d",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la pillola",
+      "sentence": "Prendo una pillola contro il mal di testa."
+    },
+    "de": {
+      "word": "die Pille",
+      "sentence": "Ich nehme eine Pille gegen die Kopfschmerzen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3cdd141b-12c7-4b54-8d37-ef9e1b9c86be",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la pastiglia",
+      "sentence": "Sciogli la pastiglia in un bicchiere d'acqua."
+    },
+    "de": {
+      "word": "die Tablette",
+      "sentence": "Löse die Tablette in einem Glas Wasser auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8c5e7c3c-c677-4d27-9698-45b069c445b6",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la pomata",
+      "sentence": "Applica la pomata sulla parte gonfia."
+    },
+    "de": {
+      "word": "die Salbe",
+      "sentence": "Trag die Salbe auf die geschwollene Stelle auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "50f3429d-2cb9-42eb-8c75-320e87c4fbb7",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la benda",
+      "sentence": "L'infermiere cambia la benda ogni giorno."
+    },
+    "de": {
+      "word": "der Verband",
+      "sentence": "Der Krankenpfleger wechselt jeden Tag den Verband."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c963a104-4a2e-43ed-a369-e42e5651f05e",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il gesso",
+      "sentence": "Ha portato il gesso per sei settimane."
+    },
+    "de": {
+      "word": "der Gips",
+      "sentence": "Er trug den Gips ganze sechs Wochen lang."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "06ba4b0e-80a4-4661-bfd9-7604e4e117d7",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "le stampelle",
+      "sentence": "Dopo l'incidente cammina con le stampelle."
+    },
+    "de": {
+      "word": "die Krücken",
+      "sentence": "Nach dem Unfall geht er an Krücken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9893b82d-37f7-4f1f-8c6c-37f0334c7177",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la sedia a rotelle",
+      "sentence": "Usa la sedia a rotelle da un anno."
+    },
+    "de": {
+      "word": "der Rollstuhl",
+      "sentence": "Er benutzt seit einem Jahr einen Rollstuhl."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ed39ef07-efff-4738-a403-f42007a0afed",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la pressione",
+      "sentence": "Il medico controlla la pressione del paziente."
+    },
+    "de": {
+      "word": "der Blutdruck",
+      "sentence": "Der Arzt kontrolliert den Blutdruck des Patienten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f622ba90-bd56-4056-b3b0-16f90ad80bfd",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "ammalarsi",
+      "sentence": "In inverno i bambini si ammalano spesso."
+    },
+    "de": {
+      "word": "krank werden",
+      "sentence": "Im Winter werden die Kinder sehr oft krank."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2bc129c1-a7ed-41d8-ae19-250b1fac5440",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "curare",
+      "sentence": "Il medico cura la ferita con attenzione."
+    },
+    "de": {
+      "word": "behandeln",
+      "sentence": "Der Arzt behandelt die Wunde sehr sorgfältig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "98e7210e-3236-4202-a4b1-608f0cbed6b2",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "operare",
+      "sentence": "I chirurghi lo hanno operato d'urgenza."
+    },
+    "de": {
+      "word": "operieren",
+      "sentence": "Die Chirurgen haben ihn sofort operiert."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5e64bc49-ad5f-475b-94b8-087ec3b7b0b4",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "ricoverare",
+      "sentence": "Lo hanno ricoverato in ospedale per alcuni accertamenti urgenti."
+    },
+    "de": {
+      "word": "einweisen",
+      "sentence": "Man hat ihn für einige Untersuchungen ins Krankenhaus eingewiesen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d6df17f4-c04d-4433-9253-97eee5441713",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "visitare",
+      "sentence": "Il medico visita il paziente ogni mattina."
+    },
+    "de": {
+      "word": "untersuchen",
+      "sentence": "Der Arzt untersucht den Patienten jeden Morgen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fbe76a3e-2650-4ee1-ae06-5635ea2120cd",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "prescrivere",
+      "sentence": "Il medico mi ha prescritto un antibiotico."
+    },
+    "de": {
+      "word": "verschreiben",
+      "sentence": "Der Arzt hat mir ein Antibiotikum verschrieben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9cc800c6-1cae-431e-8d6c-af80c178aeb9",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "medicare",
+      "sentence": "L'infermiera medica la ferita del bambino."
+    },
+    "de": {
+      "word": "versorgen",
+      "sentence": "Die Krankenschwester versorgt die Wunde des Kindes."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0e63c34d-10cf-493c-ac52-0755feee59c0",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "misurare la febbre",
+      "sentence": "La mamma misura la febbre al piccolo."
+    },
+    "de": {
+      "word": "Fieber messen",
+      "sentence": "Die Mutter misst dem Kleinen das Fieber."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1356700d-b1fc-40eb-bc45-7fb304792ba0",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "tossire",
+      "sentence": "Il bambino tossisce tutta la notte."
+    },
+    "de": {
+      "word": "husten",
+      "sentence": "Das Kind hustet die ganze Nacht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a3f97b84-77a8-45a3-8b38-aaa1131ee725",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "starnutire",
+      "sentence": "Quando c'è polvere starnutisco subito."
+    },
+    "de": {
+      "word": "niesen",
+      "sentence": "Bei Staub muss ich sofort niesen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ecaa9367-c9eb-4afa-9b9d-3d5f3524282b",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "sanguinare",
+      "sentence": "La ferita ha smesso di sanguinare."
+    },
+    "de": {
+      "word": "bluten",
+      "sentence": "Die Wunde hat endlich aufgehört zu bluten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "71ae68a9-daaa-4809-87ac-a28af12a2225",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "svenire",
+      "sentence": "Per il caldo è svenuta in strada."
+    },
+    "de": {
+      "word": "ohnmächtig werden",
+      "sentence": "Wegen der Hitze wurde sie auf der Strasse ohnmächtig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "612edc2b-33b1-4656-80c4-fcf9920aa4ad",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "vomitare",
+      "sentence": "Il bambino ha vomitato subito dopo cena."
+    },
+    "de": {
+      "word": "sich übergeben",
+      "sentence": "Das Kind hat sich nach dem Essen übergeben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "16054293-36ed-4eec-ba47-63fa7a99ea12",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "riposare",
+      "sentence": "Dopo la malattia devi riposare bene."
+    },
+    "de": {
+      "word": "sich ausruhen",
+      "sentence": "Nach der Krankheit musst du dich gut ausruhen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "abb498a7-8fba-4337-b454-43c52caeb42a",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "sentirsi male",
+      "sentence": "Se ti senti male, chiama subito il medico."
+    },
+    "de": {
+      "word": "sich schlecht fühlen",
+      "sentence": "Wenn du dich schlecht fühlst, ruf sofort den Arzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "56ea87fa-3810-4437-8963-c1679315721d",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "dimettere",
+      "sentence": "Lo hanno dimesso dall'ospedale già dopo soli tre giorni."
+    },
+    "de": {
+      "word": "entlassen",
+      "sentence": "Man hat ihn nach nur drei Tagen aus dem Krankenhaus entlassen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a435e8c1-f6f5-4a52-98db-871e85040f62",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "malato",
+      "sentence": "Mio figlio è malato e resta a casa."
+    },
+    "de": {
+      "word": "krank",
+      "sentence": "Mein Sohn ist krank und bleibt zu Hause."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "85c07627-1c01-42b8-89e0-8cac35a3f3e5",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "guarito",
+      "sentence": "Dopo una settimana era completamente guarito."
+    },
+    "de": {
+      "word": "genesen",
+      "sentence": "Nach einer Woche war er vollständig genesen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "24ccf58f-b49b-48c9-a042-98468dfbc32e",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "contagioso",
+      "sentence": "Il morbillo è una malattia molto contagiosa."
+    },
+    "de": {
+      "word": "ansteckend",
+      "sentence": "Masern sind eine sehr ansteckende Krankheit."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ee22270a-a688-47a7-8d4e-56cd27a7c110",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "cronico",
+      "sentence": "Soffre di una malattia cronica al cuore."
+    },
+    "de": {
+      "word": "chronisch",
+      "sentence": "Er leidet an einer chronischen Herzkrankheit."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "650364c4-8fc7-4e0c-8d64-602a76d0dd55",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "ferito",
+      "sentence": "Nell'incidente due persone sono rimaste ferite."
+    },
+    "de": {
+      "word": "verletzt",
+      "sentence": "Bei dem Unfall wurden zwei Personen verletzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a46a1933-cfbb-4dfd-af75-ee592ab32298",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "sano",
+      "sentence": "Con una dieta equilibrata resti sano a lungo."
+    },
+    "de": {
+      "word": "gesund",
+      "sentence": "Mit einer ausgewogenen Ernährung bleibst du lange gesund."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c67088c4-6188-4384-9f2e-b5861262264f",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "debole",
+      "sentence": "Da bambino era un tipo piuttosto debole."
+    },
+    "de": {
+      "word": "schwach",
+      "sentence": "Als Kind war er ein eher schwacher Typ."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ca36c56a-b869-4a96-84b3-ab569dc255ff",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "fare male",
+      "sentence": "Mi fa male la schiena da giorni."
+    },
+    "de": {
+      "word": "weh tun",
+      "sentence": "Mein Rücken tut mir schon seit Tagen weh."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]
