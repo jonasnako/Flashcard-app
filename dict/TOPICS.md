@@ -18,13 +18,13 @@ of which territories exist; all word choices and example sentences are our own.
 | **Children** | (our own — parenting & early childhood; kept from seed) | 140 ✓ | done (keep separate — large enough) |
 | **Relationships** | Familie, Partnerschaft und Ehe, Freundschaft und soziale Kontakte | 78 ✓ | +~30 top-up (absorbs old Friendship) |
 | **Thinking & Feeling** | Denken und Fühlen: Gedanken, Gefühle, Sinneseindrücke | 137 ✓ | +~10 gap-fill |
-| **Kommunikation** | Sprechsituationen: Gespräche, Fragen/Bitten, Befehl/Verbot, Diskussion, Konflikte, Begrüssen, Redewendungen | 125 ✓ | +30 (greetings, phone/letter) |
+| **Communication** | Sprechsituationen: Gespräche, Fragen/Bitten, Befehl/Verbot, Diskussion, Konflikte, Begrüssen, Redewendungen | 125 ✓ | +30 (greetings, phone/letter) |
 | **Body** | Körperteile und Organe | 67 ✓ | done (symptom/treatment terms moved to Health) |
 | **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 106 ✓ | +~10 (Notruf) |
 | **Education** | Lernen, Sprache, Schule/Universität/Ausbildung, Fächer | 94 ✓ | +~15 top-up (spiegare, errore, domanda/risposta) |
 | **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | 78 ✓ | +~35 top-up |
 | **Culture** | Lektüre, Musik, Kunst, Theater und Film | 73 ✓ | +~25 top-up |
-| **Freizeit** | Feste feiern, Feiertage, Ausgehen, Sport, Hobbys | 61 ✓ | +~30 top-up |
+| **Leisure** | Feste feiern, Feiertage, Ausgehen, Sport, Hobbys | 61 ✓ | +~30 top-up |
 | **Shopping** | Einkaufen: Auswählen/Bezahlen, Geschäfte | 43 ✓ | +~20 top-up |
 | **Food** | Ernährung (all subchapters) + Restaurant und Café | 96 ✓ | +~45 |
 | **Household** | Häuser/Wohnungen, Zimmer, Einrichtung, Haushaltsführung | 198 ✓ | done (dwelling types, furniture added) |
@@ -147,7 +147,7 @@ inviare, allegare
 
 **Culture** — recitare, dipingere, comporre, esibirsi, pubblicare (book), interpretare
 
-**Freizeit** — allenarsi, tifare, festeggiare, brindare, gareggiare, vincere, perdere
+**Leisure** — allenarsi, tifare, festeggiare, brindare, gareggiare, vincere, perdere
 
 ---
 
@@ -167,11 +167,11 @@ above the ~80 floor.
 9. **Media**
 10. **Society**
 11. **Culture**
-12. **Freizeit**
+12. **Leisure**
 13. **Shopping**
 14. **Time (rebuild)**
 15. **Numbers**
-16. Small top-ups: Person, Thinking & Feeling, Kommunikation, Nature, Space, Verbs, Expressions
+16. Small top-ups: Person, Thinking & Feeling, Communication, Nature, Space, Verbs, Expressions
 17. **Final level cross-check** against KELLY / Profilo (SPEC.md §7)
 
 ---
