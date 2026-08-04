@@ -99,12 +99,18 @@ Notes:
 
 ## Backups
 
-**Settings → Export (.json)** saves a file with all your words *and* your scores — a backup, a word list to share, or a file to edit and re-import. There are two imports, and **neither ever changes your scores**:
+**Settings → Export (.json)** saves a file with all your words *and* your scores — a backup you can keep before a big change or when moving to a new phone.
 
-- **Import: add new** — adds only the words you don't already have (duplicates matched by the Italian or German word are skipped). Existing words are left untouched.
-- **Import: update** — also rewrites the *content* (example sentences, translations, level, topic) of words you already have, matched by their `id`, while keeping their scores. Still appends any new words.
+## Building the dictionary
 
-**To batch-edit example sentences:** Export, edit each word's `sentence` under `it` and `de` in the JSON, then **Import: update**. Your streaks/scores stay exactly as they were.
+The shared word list is authored in the repo, not in the app, under [`dict/`](dict/):
+
+- `dict/master.json` — the canonical dictionary content (a scores-free mirror of `words.json`).
+- `dict/SPEC.md` — authoring rules (entry format, Swiss `ss`, sentence complexity by level, topic assignment, dedup).
+- `dict/TOPICS.md` — the topic manifest, build order, pending re-tags, and reservation lists.
+- `dict/validate.js` — mechanical checks for a batch: `node dict/validate.js dict/batches/<batch>.json`.
+
+New/updated entries land in `words.json` via commits, and every device picks them up through sync **by word id** — so re-tagging a word or rewriting its sentence never touches your scores (scores live per-device, keyed by the same id). In-app import is intentionally disabled to keep the repo the single source of truth.
 
 ## Notes
 
