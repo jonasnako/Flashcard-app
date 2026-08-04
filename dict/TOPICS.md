@@ -100,7 +100,12 @@ in Household and seeded Culture with *il quadro*. The Society batch's review put
 Society and *la chiesa* → City. The Travel batch's review put *la spiaggia* and *il castello* →
 Travel, and *la macchina* → City. The Time batch's review put *la stagione* → Nature (which owns
 the four seasons); frequency/sequence adverbs (sempre, mai, spesso, prima, dopo, poi...) went to
-Time per the manifest's Häufigkeit/Ablauf remit, while Expressions keeps di solito, ormai, appena.
+Time per the manifest's Häufigkeit/Ablauf remit. A follow-up pass then moved the clearly-temporal
+expressions from Expressions → Time: *prima o poi, nel frattempo, ogni tanto, di solito,
+all'improvviso, ormai, intanto, da un momento all'altro, di tanto in tanto, a lungo, a volte,
+quasi mai, ben presto*. Kept in Expressions as manner/degree: *a poco a poco, man mano che*.
+**appena** was split into two sense-entries: *appena / soeben* ("just now", Time) and
+*appena / kaum* ("barely", Expressions).
 
 ---
 

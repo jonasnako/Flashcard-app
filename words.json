@@ -18176,7 +18176,7 @@
   {
     "id": "c4ec9ee4-9233-4928-956a-a7efcddc69e7",
     "level": "B1",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "prima o poi",
       "sentence": "Prima o poi dovrai dirglielo."
@@ -18189,7 +18189,7 @@
   {
     "id": "cff5f625-df4a-4f09-b332-c9df960b3208",
     "level": "B1",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "nel frattempo",
       "sentence": "Tu apparecchia, nel frattempo io scolo la pasta."
@@ -18202,7 +18202,7 @@
   {
     "id": "8b951996-61f0-468b-9da0-eaea9ab0305a",
     "level": "A2",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "ogni tanto",
       "sentence": "Ogni tanto ci sentiamo per telefono."
@@ -18215,7 +18215,7 @@
   {
     "id": "23c72bc1-0d3f-4718-b79b-a0f88337058d",
     "level": "A2",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "di solito",
       "sentence": "Di solito mi alzo alle sei e mezza."
@@ -18228,7 +18228,7 @@
   {
     "id": "57b4a818-e4da-4706-aa05-a8fa25226e60",
     "level": "B1",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "all'improvviso",
       "sentence": "All'improvviso si è messo a piovere fortissimo."
@@ -18943,13 +18943,13 @@
   {
     "id": "85f2f924-e6df-45e4-90e1-d9e6483fb37c",
     "level": "B1",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "appena",
       "sentence": "Sono appena tornato, dammi cinque minuti."
     },
     "de": {
-      "word": "kaum / soeben",
+      "word": "soeben",
       "sentence": "Ich bin soeben zurückgekommen, gib mir fünf Minuten."
     }
   },
@@ -18995,7 +18995,7 @@
   {
     "id": "fd13d050-bb90-414c-8ae5-1daf2ad87ad1",
     "level": "B1",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "ormai",
       "sentence": "Ormai è troppo tardi per cambiare idea."
@@ -19359,7 +19359,7 @@
   {
     "id": "801a6490-f01e-4c21-bd94-e0fe33aae264",
     "level": "B1",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "intanto",
       "sentence": "Tu prepara i piatti, intanto io finisco il sugo."
@@ -19372,7 +19372,7 @@
   {
     "id": "4f53ffba-ca47-419f-8f3f-28a46c15af35",
     "level": "B2",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "da un momento all'altro",
       "sentence": "Dovrebbero arrivare da un momento all'altro."
@@ -19385,7 +19385,7 @@
   {
     "id": "774e4389-ea92-4d54-b674-32c116a09938",
     "level": "B2",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "di tanto in tanto",
       "sentence": "Di tanto in tanto ci scriviamo ancora."
@@ -19398,7 +19398,7 @@
   {
     "id": "03871f83-5bb7-422e-b14f-3e37211d8f47",
     "level": "B1",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "a lungo",
       "sentence": "Abbiamo parlato a lungo del futuro."
@@ -19450,7 +19450,7 @@
   {
     "id": "ccacb934-4d44-4f03-8832-ff6b4ec0eca6",
     "level": "A2",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "a volte",
       "sentence": "A volte basta poco per essere felici."
@@ -19463,7 +19463,7 @@
   {
     "id": "b0ec71a4-0d36-46b6-b032-aa4544ce9069",
     "level": "B1",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "quasi mai",
       "sentence": "Non guardo quasi mai la televisione."
@@ -19476,7 +19476,7 @@
   {
     "id": "f3c29584-09b2-46a9-8e33-d20cf9ce6ede",
     "level": "B2",
-    "topic": "Expressions",
+    "topic": "Time",
     "it": {
       "word": "ben presto",
       "sentence": "Ben presto capirai perché l'ho fatto."
@@ -29780,6 +29780,19 @@
     "de": {
       "word": "die Jahreszeit",
       "sentence": "Jede Jahreszeit hat ihre eigenen besonderen Farben."
+    }
+  },
+  {
+    "id": "27bc87ce-0dfa-46c5-86df-c61d7ab76467",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "appena",
+      "sentence": "Parla così piano che si sente appena."
+    },
+    "de": {
+      "word": "kaum",
+      "sentence": "Er spricht so leise, dass man ihn kaum hört."
     }
   }
 ]
