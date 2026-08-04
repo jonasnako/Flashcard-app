@@ -56,3 +56,18 @@ as an Aufbau deck should be.
   above and was intentionally not acted on; a Profilo check would confirm.
 - Correcting the level tag does not rewrite example sentences, so a handful of downgraded
   words now carry a slightly rich-for-level sentence (harmless; no entry exceeds the §3 ceiling).
+
+## Update — Profilo pass (authoritative)
+
+The user supplied the four **Profilo della lingua italiana** per-level lists (A1/A2/B1/B2,
+unistrapg.it / Perugia CVCL). Profilo is the *pedagogical* CEFR inventory (the RLD authority),
+not a frequency list, so it supersedes KELLY: a word's level = the lowest Profilo list it
+appears in (A1 mapped to our A2 floor), and it is trusted in **both** directions.
+
+`node dict/profilo-check.js [--apply]` (lists in dict/ref/). Matched 1282 deck headwords;
+aligned **691** to Profilo (309 raised, 382 lowered). This notably **reversed KELLY's
+frequency over-lowering** of abstract words (decidere, il dubbio, il sentimento, l'educazione,
+la responsabilita -> back to B1/B2) and confirmed lowering seed-derived household chores
+(passare l'aspirapolvere, stirare, fare la spesa -> A2). Distribution after Profilo:
+**A2 39% / B1 36% / B2 25%**. Unmatched headwords (multiword, inflected, or outside Profilo's
+<=B2 inventory) keep their prior level.
