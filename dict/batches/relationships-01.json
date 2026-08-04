@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "14d03720-ce16-48b2-9e1d-932e1550e659",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la famiglia",
+      "sentence": "La mia famiglia è molto numerosa."
+    },
+    "de": {
+      "word": "die Familie",
+      "sentence": "Meine Familie ist ziemlich gross."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f7b0d019-433a-4ca4-8a1f-78b7b327fec4",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la madre",
+      "sentence": "Mia madre lavora in ospedale."
+    },
+    "de": {
+      "word": "die Mutter",
+      "sentence": "Meine Mutter arbeitet in einem Krankenhaus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d09037f1-16a1-4d8d-af26-452ea7186279",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il padre",
+      "sentence": "Mio padre cucina molto bene."
+    },
+    "de": {
+      "word": "der Vater",
+      "sentence": "Mein Vater kocht wirklich sehr gut."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "26542ee4-39e0-441e-aaad-c1a8a7b2a3fe",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il figlio",
+      "sentence": "Il loro figlio ha cinque anni."
+    },
+    "de": {
+      "word": "der Sohn",
+      "sentence": "Ihr Sohn ist erst fünf Jahre alt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "997ed8f9-f7a4-451d-a16f-1258c060dbb9",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la figlia",
+      "sentence": "La figlia studia all'università."
+    },
+    "de": {
+      "word": "die Tochter",
+      "sentence": "Die Tochter studiert an der Universität."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5c03329e-e843-4b36-a405-8fdfb8a5593a",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il fratello",
+      "sentence": "Mio fratello vive a Milano."
+    },
+    "de": {
+      "word": "der Bruder",
+      "sentence": "Mein Bruder wohnt jetzt in Mailand."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8c56bfdc-911f-4ec8-b3fa-177aae0debdd",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la sorella",
+      "sentence": "Ho una sorella più grande."
+    },
+    "de": {
+      "word": "die Schwester",
+      "sentence": "Ich habe eine ältere Schwester."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dbca8fba-24b5-45db-9ea4-c81743a556cb",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "i parenti",
+      "sentence": "A Natale vediamo tutti i parenti."
+    },
+    "de": {
+      "word": "die Verwandten",
+      "sentence": "An Weihnachten sehen wir alle Verwandten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "25fc0ac8-c044-493b-ace4-c03cd0f212fa",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il cugino",
+      "sentence": "Mio cugino abita in Francia."
+    },
+    "de": {
+      "word": "der Cousin",
+      "sentence": "Mein Cousin wohnt in Frankreich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7aba6395-b7c9-485e-a7ac-96d376db4cee",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la nipote",
+      "sentence": "La nipote assomiglia molto alla nonna."
+    },
+    "de": {
+      "word": "die Nichte",
+      "sentence": "Die Nichte sieht der Grossmutter sehr ähnlich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5b558703-85f4-4761-be78-050a642746a0",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il nipote",
+      "sentence": "Il nipote gioca spesso con il nonno."
+    },
+    "de": {
+      "word": "der Neffe",
+      "sentence": "Der Neffe spielt oft mit dem Grossvater."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dd201786-907f-4d90-acee-fb2c39550cf8",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il suocero",
+      "sentence": "Mio suocero mi ha accolto con affetto."
+    },
+    "de": {
+      "word": "der Schwiegervater",
+      "sentence": "Mein Schwiegervater hat mich sehr herzlich aufgenommen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9e7840df-7885-4e32-87ce-0c0438c7bca9",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la suocera",
+      "sentence": "La suocera abita vicino a noi."
+    },
+    "de": {
+      "word": "die Schwiegermutter",
+      "sentence": "Die Schwiegermutter wohnt ganz in unserer Nähe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a32e0718-7cbd-45c5-878e-0252fffef2c9",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il genero",
+      "sentence": "Il genero aiuta spesso in giardino."
+    },
+    "de": {
+      "word": "der Schwiegersohn",
+      "sentence": "Der Schwiegersohn hilft oft im Garten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2c0cd91c-2594-4fe5-8e89-71360ba97c58",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la nuora",
+      "sentence": "La nuora ha preparato il pranzo domenicale."
+    },
+    "de": {
+      "word": "die Schwiegertochter",
+      "sentence": "Die Schwiegertochter hat das ganze Sonntagessen zubereitet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "91f47f79-f234-40fb-ad57-e9b868b23d38",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il cognato",
+      "sentence": "Mio cognato è un tipo simpatico."
+    },
+    "de": {
+      "word": "der Schwager",
+      "sentence": "Mein Schwager ist ein netter Kerl."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "244347e1-4f97-431a-a78c-830c03173c77",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la cognata",
+      "sentence": "La cognata ci ha invitati a cena."
+    },
+    "de": {
+      "word": "die Schwägerin",
+      "sentence": "Die Schwägerin hat uns zum Essen eingeladen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0e37a90d-8b5a-4892-a669-502dbe0522f6",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "gli antenati",
+      "sentence": "I nostri antenati vivevano in un piccolo villaggio di montagna."
+    },
+    "de": {
+      "word": "die Vorfahren",
+      "sentence": "Unsere Vorfahren lebten schon lange in einem kleinen Bergdorf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e85080f3-00ac-423c-b73b-cab8f87b612a",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la coppia",
+      "sentence": "Sono una coppia molto affiatata."
+    },
+    "de": {
+      "word": "das Paar",
+      "sentence": "Sie sind ein sehr harmonisches Paar."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "828774f5-9ce6-4f8c-ad88-ac6a080d0cfc",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il marito",
+      "sentence": "Suo marito lavora spesso all'estero."
+    },
+    "de": {
+      "word": "der Ehemann",
+      "sentence": "Ihr Ehemann arbeitet oft im Ausland."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5d2839b2-43d1-4ae2-8597-064467db4ceb",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la moglie",
+      "sentence": "Sua moglie insegna alle scuole medie."
+    },
+    "de": {
+      "word": "die Ehefrau",
+      "sentence": "Seine Ehefrau unterrichtet an einer Mittelschule."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "90fa234a-f373-427e-bbc1-be3645104e7f",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il fidanzato",
+      "sentence": "Il mio fidanzato mi ha regalato dei fiori."
+    },
+    "de": {
+      "word": "der Verlobte",
+      "sentence": "Mein Verlobter hat mir schöne Blumen geschenkt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "66cdf1e7-898a-4786-89e3-c97a7c3ff972",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la fidanzata",
+      "sentence": "La sua fidanzata è tedesca."
+    },
+    "de": {
+      "word": "die Verlobte",
+      "sentence": "Seine Verlobte kommt aus Deutschland."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e85348ca-8223-44b5-91c8-086a05d4b20f",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il partner",
+      "sentence": "Cerco un partner che condivida i miei valori."
+    },
+    "de": {
+      "word": "der Partner",
+      "sentence": "Ich suche einen Partner, der meine Werte teilt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4de7495a-ba41-422f-b76a-b28ca446df94",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il coniuge",
+      "sentence": "Ogni coniuge ha diritto esattamente alla metà dei beni."
+    },
+    "de": {
+      "word": "der Ehepartner",
+      "sentence": "Jeder Ehepartner hat Anspruch auf die Hälfte des Vermögens."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8042eb8c-25ea-4df8-bdc0-291430afdd78",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'ex",
+      "sentence": "La sua ex vive ancora nella stessa città."
+    },
+    "de": {
+      "word": "der Ex-Partner",
+      "sentence": "Sein Ex-Partner wohnt noch in derselben Stadt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "438d0884-2695-4eed-9a32-7b197cad195b",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il matrimonio",
+      "sentence": "Il loro matrimonio dura da trent'anni."
+    },
+    "de": {
+      "word": "die Ehe",
+      "sentence": "Ihre Ehe hält schon seit dreissig Jahren."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1a29ac4d-60b4-4773-94fb-dd34b2b7bb7c",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "le nozze",
+      "sentence": "Le nozze si terranno in giardino."
+    },
+    "de": {
+      "word": "die Hochzeit",
+      "sentence": "Die Hochzeit findet im Garten statt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1226e279-2ca0-43da-b131-918f339c2e51",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la luna di miele",
+      "sentence": "Per la luna di miele andiamo alle Maldive."
+    },
+    "de": {
+      "word": "die Flitterwochen",
+      "sentence": "Für die Flitterwochen fliegen wir auf die Malediven."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2c6c5fd9-e798-421a-adab-62516347e819",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'anello",
+      "sentence": "Le ha regalato un anello d'oro."
+    },
+    "de": {
+      "word": "der Ring",
+      "sentence": "Er hat ihr einen goldenen Ring geschenkt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "15c4416e-3241-427c-9cc2-363651788e03",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il divorzio",
+      "sentence": "Dopo il divorzio sono rimasti amici."
+    },
+    "de": {
+      "word": "die Scheidung",
+      "sentence": "Nach der Scheidung sind sie Freunde geblieben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f50ec93b-c70b-4530-a12d-6cc24cc3b61b",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la relazione",
+      "sentence": "Hanno una relazione seria da due anni."
+    },
+    "de": {
+      "word": "die Beziehung",
+      "sentence": "Sie haben seit zwei Jahren eine feste Beziehung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1b11ce10-ddfe-46c7-92ab-a694ce41dadd",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'amore",
+      "sentence": "Il loro amore è cresciuto col tempo."
+    },
+    "de": {
+      "word": "die Liebe",
+      "sentence": "Ihre Liebe ist mit der Zeit gewachsen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a643bd62-8ab6-490c-b603-877263103e81",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il bacio",
+      "sentence": "Le ha dato un bacio sulla guancia."
+    },
+    "de": {
+      "word": "der Kuss",
+      "sentence": "Er gab ihr einen Kuss auf die Wange."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0c7ee569-a9ea-48d5-8dfe-700ba8cf9af4",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'abbraccio",
+      "sentence": "Un abbraccio caloroso mi ha rassicurato."
+    },
+    "de": {
+      "word": "die Umarmung",
+      "sentence": "Eine herzliche Umarmung hat mich sofort beruhigt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a5302557-81e2-417d-8ea2-708dc767e363",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la fedeltà",
+      "sentence": "La fedeltà è la base di ogni rapporto sano e duraturo."
+    },
+    "de": {
+      "word": "die Treue",
+      "sentence": "Treue ist für mich die wichtigste Grundlage jeder dauerhaften Beziehung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6fc2ac7a-cd11-494e-b642-3d2f6b7644a7",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il tradimento",
+      "sentence": "Il tradimento ha distrutto per sempre la loro lunga amicizia."
+    },
+    "de": {
+      "word": "der Betrug",
+      "sentence": "Der Betrug hat ihre lange Freundschaft für immer zerstört."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "70e328c0-ef73-402a-ad61-b36e7d26f825",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la stima",
+      "sentence": "Provo una grande stima per i miei colleghi."
+    },
+    "de": {
+      "word": "die Wertschätzung",
+      "sentence": "Ich empfinde eine grosse Wertschätzung für meine Kollegen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3090f7f3-5911-4d1a-a2e3-9e978a3a4ea2",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il rispetto",
+      "sentence": "Il rispetto reciproco tiene unita la coppia."
+    },
+    "de": {
+      "word": "der Respekt",
+      "sentence": "Der gegenseitige Respekt hält das Paar dauerhaft zusammen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1e00ebfc-9425-419e-83ea-0bb482994410",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "sposarsi",
+      "sentence": "Si sposano la prossima primavera."
+    },
+    "de": {
+      "word": "heiraten",
+      "sentence": "Sie heiraten im nächsten Frühling."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f8f40c59-ef02-4118-9c8e-90d203854050",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "fidanzarsi",
+      "sentence": "Si sono fidanzati dopo un anno insieme."
+    },
+    "de": {
+      "word": "sich verloben",
+      "sentence": "Sie haben sich nach einem Jahr verlobt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d44acc9b-2a43-40d7-a676-30adec01ffcf",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "divorziare",
+      "sentence": "Hanno deciso di divorziare l'anno scorso."
+    },
+    "de": {
+      "word": "sich scheiden lassen",
+      "sentence": "Sie haben sich letztes Jahr scheiden lassen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8a98da7f-769e-4f29-8fe5-84b4460a5ebe",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "lasciarsi",
+      "sentence": "Si sono lasciati senza troppo rancore."
+    },
+    "de": {
+      "word": "sich trennen",
+      "sentence": "Sie haben sich ohne grossen Groll getrennt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1746b2dc-e004-40e2-89b2-cfaebbaf4249",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "frequentarsi",
+      "sentence": "Si frequentano ormai da qualche mese."
+    },
+    "de": {
+      "word": "zusammen sein",
+      "sentence": "Sie sind schon seit einigen Monaten zusammen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "13b4b26d-5b73-4175-9474-79e95b9fe824",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "corteggiare",
+      "sentence": "Ha corteggiato la sua futura moglie per diversi mesi."
+    },
+    "de": {
+      "word": "umwerben",
+      "sentence": "Er hat seine zukünftige Frau viele Monate lang umworben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c1f1a3b8-2750-4eb8-9a42-8f12e17b3e5c",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "tradire",
+      "sentence": "Non perdona chi tradisce la sua fiducia."
+    },
+    "de": {
+      "word": "betrügen",
+      "sentence": "Sie verzeiht niemandem, der ihr Vertrauen betrügt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5b7a39bf-c87b-4e7d-a17d-dc1b1872fa98",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "baciare",
+      "sentence": "L'ha baciata sotto la pioggia."
+    },
+    "de": {
+      "word": "küssen",
+      "sentence": "Er hat sie im Regen geküsst."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e0f7beaa-4e90-4211-b707-3d6861b8c8ce",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "voler bene",
+      "sentence": "Ti voglio bene come a un fratello."
+    },
+    "de": {
+      "word": "gern haben",
+      "sentence": "Ich habe dich wie einen Bruder gern."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "51d789a5-c1fd-4d15-b023-ffcb9f84d93b",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "abbandonare",
+      "sentence": "L'ha abbandonata del tutto senza spiegazioni."
+    },
+    "de": {
+      "word": "verlassen",
+      "sentence": "Er hat sie ohne jede Erklärung verlassen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "088602c8-b7f4-4166-8cef-f03d48c806fe",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'amico",
+      "sentence": "Il mio migliore amico vive lontano."
+    },
+    "de": {
+      "word": "der Freund",
+      "sentence": "Mein bester Freund wohnt ziemlich weit weg."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "02a37a33-9dce-49ed-bab6-8c0b812bdd16",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'amica",
+      "sentence": "La mia amica mi telefona ogni sera."
+    },
+    "de": {
+      "word": "die Freundin",
+      "sentence": "Meine Freundin ruft mich jeden Abend an."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5ee254b5-4e66-473c-ae99-62b082b91ad1",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'amicizia",
+      "sentence": "La nostra amicizia dura da vent'anni."
+    },
+    "de": {
+      "word": "die Freundschaft",
+      "sentence": "Unsere Freundschaft besteht schon seit zwanzig Jahren."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1677e220-2343-4dcb-9031-be5ee5b4abde",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il conoscente",
+      "sentence": "È solo un conoscente, non un vero amico."
+    },
+    "de": {
+      "word": "der Bekannte",
+      "sentence": "Er ist nur ein Bekannter, kein echter Freund."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "727afc67-b6f9-40f4-8779-523e41aa4110",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la compagnia",
+      "sentence": "Mi piace la compagnia delle persone allegre."
+    },
+    "de": {
+      "word": "die Gesellschaft",
+      "sentence": "Ich mag die Gesellschaft fröhlicher Menschen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "33f35fb6-837f-4c9d-961f-596c002815b7",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il legame",
+      "sentence": "Tra loro esiste un legame molto profondo e sincero."
+    },
+    "de": {
+      "word": "die Bindung",
+      "sentence": "Zwischen ihnen besteht eine sehr tiefe und ehrliche Bindung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "485a89de-1cb4-4af1-8595-e3ea296f88c2",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il rapporto",
+      "sentence": "Ho un buon rapporto con i colleghi."
+    },
+    "de": {
+      "word": "das Verhältnis",
+      "sentence": "Ich habe ein gutes Verhältnis zu den Kollegen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a960d2a2-06e8-461e-9f92-9ffa22072394",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "conoscere",
+      "sentence": "Ho conosciuto Marco a una festa."
+    },
+    "de": {
+      "word": "kennenlernen",
+      "sentence": "Ich habe Marco auf einer Party kennengelernt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "22cfaf9e-e193-4bc1-9108-06f3f1ce6694",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "incontrare",
+      "sentence": "Incontro spesso i vicini al mercato."
+    },
+    "de": {
+      "word": "begegnen",
+      "sentence": "Ich begegne den Nachbarn oft auf dem Markt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9a2fc8af-8508-4855-b77e-b5515580388c",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "invitare",
+      "sentence": "Ti invito alla mia festa di compleanno."
+    },
+    "de": {
+      "word": "einladen",
+      "sentence": "Ich lade dich zu meiner Geburtstagsfeier ein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "69ced806-48d5-4302-b793-066272fd30d6",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "ospitare",
+      "sentence": "Ospitiamo volentieri gli amici per il weekend."
+    },
+    "de": {
+      "word": "beherbergen",
+      "sentence": "Wir beherbergen gern Freunde übers Wochenende."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f0129df8-279e-4c96-8ad4-b486d61129a5",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "andare a trovare",
+      "sentence": "Domenica andiamo a trovare i nonni."
+    },
+    "de": {
+      "word": "besuchen",
+      "sentence": "Am Sonntag besuchen wir die Grosseltern."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "53c3739c-4c0b-42cf-83b1-114881d28936",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "fare amicizia",
+      "sentence": "I bambini fanno amicizia molto in fretta."
+    },
+    "de": {
+      "word": "Freundschaft schliessen",
+      "sentence": "Kinder schliessen sehr schnell neue Freundschaften."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6b1141f9-1040-4a17-97e9-fa43c403b36f",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il sostegno",
+      "sentence": "Ho sempre avuto il sostegno della famiglia."
+    },
+    "de": {
+      "word": "die Unterstützung",
+      "sentence": "Ich hatte immer die Unterstützung meiner Familie."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5a8bbd5a-02ce-4945-9fcf-c8d59b5e84f7",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la solidarietà",
+      "sentence": "In quel momento difficile ho sentito la loro grande solidarietà."
+    },
+    "de": {
+      "word": "die Solidarität",
+      "sentence": "In dieser schwierigen Zeit spürte ich ihre grosse Solidarität."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "25ff88b6-67cb-4371-9cd3-e4dc17e44fa9",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la riconciliazione",
+      "sentence": "Dopo tanti anni di silenzio è arrivata finalmente la riconciliazione."
+    },
+    "de": {
+      "word": "die Versöhnung",
+      "sentence": "Nach vielen Jahren des Schweigens kam endlich die Versöhnung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8d4be377-6dfb-44ed-a535-85fc76586dd9",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la promessa",
+      "sentence": "Ha mantenuto la promessa fatta all'amico."
+    },
+    "de": {
+      "word": "das Versprechen",
+      "sentence": "Er hat das Versprechen an den Freund gehalten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "726a122b-6d3e-4b1d-bc29-36fbdb7bb4a3",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "fedele",
+      "sentence": "È un amico fedele e affidabile."
+    },
+    "de": {
+      "word": "treu",
+      "sentence": "Er ist ein treuer und zuverlässiger Freund."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "16ab4eb0-6480-4569-8b6e-3f4b5e66ff3e",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "geloso",
+      "sentence": "È geloso quando lei esce con altri."
+    },
+    "de": {
+      "word": "eifersüchtig",
+      "sentence": "Er ist eifersüchtig, wenn sie ausgeht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e259a482-c545-472a-9646-060a11fe4446",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "affettuoso",
+      "sentence": "I nonni sono sempre affettuosi con noi."
+    },
+    "de": {
+      "word": "liebevoll",
+      "sentence": "Die Grosseltern sind immer liebevoll zu uns."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "48a4dfad-4dd0-456b-ad28-2aaa8f437b91",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "sincero",
+      "sentence": "Apprezzo molto le persone sincere e leali."
+    },
+    "de": {
+      "word": "aufrichtig",
+      "sentence": "Ich schätze aufrichtige und loyale Menschen sehr."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e3486a04-56d4-4ac6-8370-557fd66c0105",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "single",
+      "sentence": "Dopo la separazione è tornato single."
+    },
+    "de": {
+      "word": "Single",
+      "sentence": "Nach der Trennung ist er wieder Single."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "71beedcd-1006-4d4b-adb8-a112e28ff27e",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "sposato",
+      "sentence": "Sono sposato da più di dieci anni."
+    },
+    "de": {
+      "word": "verheiratet",
+      "sentence": "Ich bin seit über zehn Jahren verheiratet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1b6d6c43-bbd8-458e-b5ce-bf67799764d7",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "vedovo",
+      "sentence": "È rimasta vedova ancora molto giovane."
+    },
+    "de": {
+      "word": "verwitwet",
+      "sentence": "Sie ist noch sehr jung verwitwet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "989ae2b5-531a-4031-82fd-a3a85c974745",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "la fiducia",
+      "sentence": "Ho piena fiducia nel mio medico."
+    },
+    "de": {
+      "word": "das Vertrauen",
+      "sentence": "Ich habe volles Vertrauen in meinen Arzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c860d1d6-c2da-413d-b025-448938b1ef0d",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "convivere",
+      "sentence": "Convivono da tre anni senza problemi."
+    },
+    "de": {
+      "word": "zusammenleben",
+      "sentence": "Sie leben seit drei Jahren problemlos zusammen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "be97eb4c-3f72-4765-97ae-241fd5bb84f1",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la convivenza",
+      "sentence": "La convivenza richiede pazienza e tanti piccoli compromessi quotidiani."
+    },
+    "de": {
+      "word": "das Zusammenleben",
+      "sentence": "Das gemeinsame Zusammenleben erfordert viel Geduld und viele tägliche Kompromisse."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]

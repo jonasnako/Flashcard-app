@@ -15,18 +15,18 @@ of which territories exist; all word choices and example sentences are our own.
 | Topic | Book chapters absorbed | Status | Target |
 |---|---|---|---|
 | **Person** | Persönliche Angaben, Charaktereigenschaften, Aussehen, Lebenszyklus | 120 ✓ | +40 (personal data, life cycle) |
-| **Children** | (our own — parenting & early childhood; kept from seed) | 153 ✓ | done (keep separate — large enough) |
-| **Relationships** | Familie, Partnerschaft und Ehe, Freundschaft und soziale Kontakte | — | ~110 (absorbs old Friendship) |
+| **Children** | (our own — parenting & early childhood; kept from seed) | 148 ✓ | done (keep separate — large enough) |
+| **Relationships** | Familie, Partnerschaft und Ehe, Freundschaft und soziale Kontakte | 78 ✓ | +~30 top-up (absorbs old Friendship) |
 | **Thinking & Feeling** | Denken und Fühlen: Gedanken, Gefühle, Sinneseindrücke | 126 ✓ | +20 gap-fill |
 | **Kommunikation** | Sprechsituationen: Gespräche, Fragen/Bitten, Befehl/Verbot, Diskussion, Konflikte, Begrüssen, Redewendungen | 125 ✓ | +30 (greetings, phone/letter) |
-| **Body** | Körperteile und Organe | 82 ✓ | done |
-| **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | — | ~120 |
+| **Body** | Körperteile und Organe | 67 ✓ | done (symptom/treatment terms moved to Health) |
+| **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 91 ✓ | +~25 (Körperpflege, Notruf) |
 | **Education** | Lernen, Sprache, Schule/Universität/Ausbildung, Fächer | — | ~110 |
 | **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | old approach | ~120 **rebuild** |
 | **Culture** | Lektüre, Musik, Kunst, Theater und Film | — | ~100 |
 | **Freizeit** | Feste feiern, Feiertage, Ausgehen, Sport, Hobbys | — | ~110 |
 | **Shopping** | Einkaufen: Auswählen/Bezahlen, Geschäfte | — | ~80 |
-| **Food** | Ernährung (all subchapters) + Restaurant und Café | — | ~140 |
+| **Food** | Ernährung (all subchapters) + Restaurant und Café | 96 ✓ | +~45 |
 | **Household** | Häuser/Wohnungen, Zimmer, Einrichtung, Haushaltsführung | 151 ✓ | +30 (dwelling types, furniture) |
 | **Travel** | Reisen, Übernachten, Sehenswürdigkeiten, Verkehrsmittel, Individualverkehr | — | ~120 |
 | **Nature** | Landschaft, Weltall, Umwelt/Wetter/Klima, Pflanzen | 99 ✓ | +40 (Weltall, Klima) |
@@ -43,7 +43,10 @@ of which territories exist; all word choices and example sentences are our own.
 babies, early schooling — a personally high-frequency domain). Relationships covers couples,
 family structure and friendship; Person covers identity, character and the life cycle. Words
 about a *child's own world* (toys, tantrums, nappies, Kita) stay in Children; words about
-*being in a relationship or family* go to Relationships.
+*being in a relationship or family* go to Relationships. **la gelosia / die Eifersucht** already
+lives in Children (sibling jealousy) and was left there rather than duplicated into Relationships —
+revisit if we ever want a couple-jealousy sense. **Health** was seeded with *la dieta* and *il
+digiuno* out of the Food batch's ambiguous review; the full Health build is still pending.
 
 ## Cross-cutting topics
 
@@ -62,9 +65,9 @@ id-matched update (keep the existing id; change only `topic`) once the target to
 
 | Word | → Topic |
 |---|---|
-| innamorarsi di | Relationships |
-| andare d'accordo | Relationships |
-| regalare | Relationships |
+| ~~innamorarsi di~~ | ~~Relationships~~ ✓ done |
+| ~~andare d'accordo~~ | ~~Relationships~~ ✓ done |
+| ~~regalare~~ | ~~Relationships~~ ✓ done |
 | prendere appunti | Education |
 | tagliare | Food |
 | aggiungere | Food |
@@ -75,6 +78,14 @@ id-matched update (keep the existing id; change only `topic`) once the target to
 | piegare | Household |
 | produrre | Economy |
 | gestire | Work |
+
+**Disambiguation is not one-directional:** existing entries can be re-homed when a
+better topic is built — the id-matched update keeps scores intact. When Health was
+built, these moved into it: *il dolore, far male, il mal di testa, la ferita, il livido,
+storcersi, la vertigine, gonfio, guarire, riprendersi, la medicina, il cerotto, la
+fisioterapia, il massaggio, prendersi cura di sé* (from Body); *la febbre, il raffreddore,
+la tosse, vaccinare, il libretto delle vaccinazioni* (from Children); *la cicatrice* (from
+Person). Kept where they were after review: *l'ospedale* (City), *la gelosia* (Children).
 
 ---
 

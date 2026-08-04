@@ -2901,7 +2901,7 @@
   {
     "id": "315fb816-e796-425c-9fa0-7d35f408beda",
     "level": "B2",
-    "topic": "Children",
+    "topic": "Health",
     "it": {
       "word": "il libretto delle vaccinazioni",
       "sentence": "Non dimenticare il libretto delle vaccinazioni."
@@ -2914,7 +2914,7 @@
   {
     "id": "62628e40-d1f7-4b2c-83d9-d8e6da76ab05",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Health",
     "it": {
       "word": "vaccinare",
       "sentence": "L'abbiamo vaccinato secondo il calendario."
@@ -3681,7 +3681,7 @@
   {
     "id": "3c801809-a0b6-44f0-ab2b-b3ef4acdf9cd",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Health",
     "it": {
       "word": "la febbre",
       "sentence": "Ha la febbre alta da stamattina."
@@ -3694,7 +3694,7 @@
   {
     "id": "01f72d09-2ae4-443d-ab6f-f039189d0407",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Health",
     "it": {
       "word": "il raffreddore",
       "sentence": "Un altro raffreddore, il terzo questo mese."
@@ -3707,7 +3707,7 @@
   {
     "id": "9cfcd190-bf7e-4243-a7c3-ebf662976025",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Health",
     "it": {
       "word": "la tosse",
       "sentence": "La tosse notturna non lo lascia dormire."
@@ -12703,7 +12703,7 @@
   {
     "id": "796223f8-b6c5-4855-98fb-18a3e7cbb525",
     "level": "B2",
-    "topic": "Person",
+    "topic": "Health",
     "it": {
       "word": "la cicatrice",
       "sentence": "Ha una piccola cicatrice sopra il sopracciglio."
@@ -16018,7 +16018,7 @@
   {
     "id": "49d8d24a-65d9-4fc9-bfec-b61a836a6461",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "il dolore",
       "sentence": "Il dolore è passato dopo un paio d'ore."
@@ -16031,7 +16031,7 @@
   {
     "id": "996c5c4d-f05f-4096-b6bc-50331e06cda6",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "far male",
       "sentence": "Dove ti fa male esattamente?"
@@ -16044,7 +16044,7 @@
   {
     "id": "eb69218b-6914-4a43-babe-5fee7794b603",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "il mal di testa",
       "sentence": "Ho un mal di testa terribile da stamattina."
@@ -16057,7 +16057,7 @@
   {
     "id": "134413b2-e950-4012-b0bc-726b2599fc68",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "la ferita",
       "sentence": "La ferita è guarita più in fretta del previsto."
@@ -16070,7 +16070,7 @@
   {
     "id": "5b29efc0-68d3-4993-bec5-b85fc1ff5882",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "il livido",
       "sentence": "Il giorno dopo era pieno di lividi."
@@ -16083,7 +16083,7 @@
   {
     "id": "866857c6-49d0-47d3-9577-0bbe73196309",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "gonfio",
       "sentence": "La caviglia era ancora gonfia, quindi siamo tornati indietro."
@@ -16096,7 +16096,7 @@
   {
     "id": "d6cc000d-8967-484d-b689-f51cd23faf54",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "storcersi",
       "sentence": "Mi sono storto il piede sul ghiaione bagnato."
@@ -16109,7 +16109,7 @@
   {
     "id": "6975bc31-4c9b-472c-9614-0a713543dbbc",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "la vertigine",
       "sentence": "Se le vertigini continuassero, faresti bene a farti visitare."
@@ -16122,7 +16122,7 @@
   {
     "id": "c9d0282f-e609-413e-85e7-dc1ed9d6b3ef",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "guarire",
       "sentence": "Il taglio guarirà in pochi giorni, però dovrai tenerlo pulito."
@@ -16135,7 +16135,7 @@
   {
     "id": "8bcf4d90-52c3-49eb-a20c-abd8cc2c340f",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "la medicina",
       "sentence": "Hai preso la medicina stamattina?"
@@ -16148,7 +16148,7 @@
   {
     "id": "53a5a975-6a43-4ead-a676-c569042648bc",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "il cerotto",
       "sentence": "Mettici un cerotto e vedrai che domani non ci penserai più."
@@ -16161,7 +16161,7 @@
   {
     "id": "a514f0d0-9811-4dd8-97ce-d6aeed8b5bdb",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "la fisioterapia",
       "sentence": "Da quando fa fisioterapia, la spalla va molto meglio."
@@ -16174,7 +16174,7 @@
   {
     "id": "93fd2e1f-03a3-4e33-9c9c-ddcab9a9150b",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "il massaggio",
       "sentence": "Se aveste tempo domani, vi consiglierei un massaggio."
@@ -16187,7 +16187,7 @@
   {
     "id": "ef1fb98a-6083-4440-bf86-a7148577d028",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "riprendersi",
       "sentence": "Ci è voluto un mese prima che si riprendesse del tutto."
@@ -16200,7 +16200,7 @@
   {
     "id": "b050aabe-8f12-4d50-bc53-6a48baef037b",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "prendersi cura di sé",
       "sentence": "Con due bambini piccoli, è difficile prendersi cura di sé."
@@ -16512,7 +16512,7 @@
   {
     "id": "437026d0-81f2-4aa8-acd4-88f90b35b48a",
     "level": "B1",
-    "topic": "Verbs",
+    "topic": "Relationships",
     "it": {
       "word": "andare d'accordo",
       "sentence": "Vai d'accordo con i tuoi colleghi?"
@@ -16941,7 +16941,7 @@
   {
     "id": "516c602a-c88e-4c66-8485-f2dfa5b1dd9d",
     "level": "B1",
-    "topic": "Verbs",
+    "topic": "Relationships",
     "it": {
       "word": "innamorarsi di",
       "sentence": "Si sono innamorati durante un viaggio in treno."
@@ -17513,7 +17513,7 @@
   {
     "id": "9c6fbf7b-1fef-4f00-bf9c-ba1fe6744e06",
     "level": "B1",
-    "topic": "Verbs",
+    "topic": "Relationships",
     "it": {
       "word": "regalare",
       "sentence": "Cosa le regaliamo per il compleanno?"
@@ -19900,6 +19900,2723 @@
     "de": {
       "word": "scharf",
       "sentence": "Bestell das Curry nicht, wenn du es nicht scharf magst."
+    }
+  },
+  {
+    "id": "5a538698-7548-465f-9a0b-3b59f8971e8c",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il pasto",
+      "sentence": "Il pranzo è il pasto principale della giornata."
+    },
+    "de": {
+      "word": "die Mahlzeit",
+      "sentence": "Das Mittagessen ist die wichtigste Mahlzeit des Tages."
+    }
+  },
+  {
+    "id": "e2b6d1d9-5bc1-4649-af93-b6cbea143e4e",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la colazione",
+      "sentence": "Faccio colazione con caffè e pane."
+    },
+    "de": {
+      "word": "das Frühstück",
+      "sentence": "Zum Frühstück trinke ich Kaffee mit Brot."
+    }
+  },
+  {
+    "id": "5f60e28f-5d65-406b-a410-bcac6c5a66ea",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il pranzo",
+      "sentence": "A pranzo mangiamo spesso pasta."
+    },
+    "de": {
+      "word": "das Mittagessen",
+      "sentence": "Zum Mittagessen essen wir oft Nudeln."
+    }
+  },
+  {
+    "id": "0386aec7-be60-46da-ad9b-a3be67223264",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la cena",
+      "sentence": "Stasera prepariamo la cena insieme."
+    },
+    "de": {
+      "word": "das Abendessen",
+      "sentence": "Heute Abend kochen wir zusammen das Abendessen."
+    }
+  },
+  {
+    "id": "0cdbf1a9-2fdb-4d84-82ab-9b30ee6acbf6",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "lo spuntino",
+      "sentence": "Nel pomeriggio faccio uno spuntino leggero."
+    },
+    "de": {
+      "word": "der Snack",
+      "sentence": "Am Nachmittag esse ich einen leichten Snack."
+    }
+  },
+  {
+    "id": "bd8abb2c-08a7-4f8f-8efe-0d91beb874ca",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il menù",
+      "sentence": "Il cameriere ci porta il menù."
+    },
+    "de": {
+      "word": "die Speisekarte",
+      "sentence": "Der Kellner bringt uns die Speisekarte."
+    }
+  },
+  {
+    "id": "5a910a89-997b-4917-964f-2cf3c8b78dca",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il conto",
+      "sentence": "Possiamo avere il conto, per favore?"
+    },
+    "de": {
+      "word": "die Rechnung",
+      "sentence": "Können wir bitte die Rechnung haben?"
+    }
+  },
+  {
+    "id": "c285c3f5-43b4-4ad6-84d1-14d65b815da6",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "ordinare",
+      "sentence": "Abbiamo ordinato una pizza e due bibite."
+    },
+    "de": {
+      "word": "bestellen",
+      "sentence": "Wir haben eine Pizza und zwei Getränke bestellt."
+    }
+  },
+  {
+    "id": "a7823493-bdec-46a0-a1e3-5e21793ca6bc",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "prenotare un tavolo",
+      "sentence": "Ho prenotato un tavolo per quattro persone."
+    },
+    "de": {
+      "word": "einen Tisch reservieren",
+      "sentence": "Ich habe einen Tisch für vier Personen reserviert."
+    }
+  },
+  {
+    "id": "61f8ad3d-5a7d-4346-b116-75a7fb3fbb28",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la portata",
+      "sentence": "Il pranzo di nozze aveva cinque portate diverse."
+    },
+    "de": {
+      "word": "der Gang",
+      "sentence": "Das Hochzeitsessen bestand aus fünf verschiedenen Gängen."
+    }
+  },
+  {
+    "id": "acae4e23-2b8d-40aa-89ef-9d1fb9671592",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il primo piatto",
+      "sentence": "Come primo piatto prendo un risotto."
+    },
+    "de": {
+      "word": "der erste Gang",
+      "sentence": "Als ersten Gang nehme ich ein Risotto."
+    }
+  },
+  {
+    "id": "0a225667-e7fc-481c-a6f8-d1cb60fdf711",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il secondo",
+      "sentence": "Il secondo piatto è pesce con verdure."
+    },
+    "de": {
+      "word": "der Hauptgang",
+      "sentence": "Der Hauptgang besteht aus Fisch mit frischem Gemüse."
+    }
+  },
+  {
+    "id": "9782c1ff-c7f3-4fc4-adca-a4eaf4434b7c",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il dolce",
+      "sentence": "Come dolce abbiamo preso il tiramisù."
+    },
+    "de": {
+      "word": "die Nachspeise",
+      "sentence": "Als Nachspeise haben wir ein leckeres Tiramisu gegessen."
+    }
+  },
+  {
+    "id": "9ef55f1b-9937-461c-a30b-bc2c302deb49",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la bevanda",
+      "sentence": "Che bevanda preferisci con il pranzo?"
+    },
+    "de": {
+      "word": "das Getränk",
+      "sentence": "Welches Getränk möchtest du zum Essen?"
+    }
+  },
+  {
+    "id": "054c940a-ddb7-4198-b457-8b2fbd2859b3",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il cuoco",
+      "sentence": "Il cuoco prepara un piatto speciale."
+    },
+    "de": {
+      "word": "der Koch",
+      "sentence": "Der Koch bereitet ein besonderes Gericht zu."
+    }
+  },
+  {
+    "id": "0a21a1e5-c976-4cea-9ff0-ec1e3377f416",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il pane",
+      "sentence": "Compro il pane fresco ogni mattina."
+    },
+    "de": {
+      "word": "das Brot",
+      "sentence": "Ich kaufe jeden Morgen frisches Brot."
+    }
+  },
+  {
+    "id": "5e98253d-13b8-49ca-82c6-264422605a84",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la pasta",
+      "sentence": "La pasta è pronta in dieci minuti."
+    },
+    "de": {
+      "word": "die Nudeln",
+      "sentence": "Die Nudeln sind in zehn Minuten fertig."
+    }
+  },
+  {
+    "id": "5653bd10-c5bc-42ac-8e13-b33782a2b7c0",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la torta",
+      "sentence": "Ho fatto una torta al cioccolato."
+    },
+    "de": {
+      "word": "die Torte",
+      "sentence": "Ich habe eine Schokoladentorte gebacken."
+    }
+  },
+  {
+    "id": "b108701b-528d-4c80-b38e-0973ff62bce4",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "i biscotti",
+      "sentence": "I bambini adorano i biscotti fatti in casa."
+    },
+    "de": {
+      "word": "die Kekse",
+      "sentence": "Die Kinder lieben selbst gemachte Kekse."
+    }
+  },
+  {
+    "id": "2fe748be-3890-471c-a190-dd422af129dd",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il lievito",
+      "sentence": "Senza lievito il pane non cresce bene."
+    },
+    "de": {
+      "word": "die Hefe",
+      "sentence": "Ohne Hefe geht der Teig nicht richtig auf."
+    }
+  },
+  {
+    "id": "e8bbda1c-dbde-4494-9814-41954bf8393f",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "l'impasto",
+      "sentence": "Lascio riposare l'impasto per circa un'ora."
+    },
+    "de": {
+      "word": "der Teig",
+      "sentence": "Ich lasse den Teig etwa eine Stunde ruhen."
+    }
+  },
+  {
+    "id": "a1c2aeaa-0eb1-42dd-b37d-17d1eb9dafe4",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la carne",
+      "sentence": "Non mangio carne, sono vegetariana."
+    },
+    "de": {
+      "word": "das Fleisch",
+      "sentence": "Ich esse kein Fleisch, ich bin Vegetarierin."
+    }
+  },
+  {
+    "id": "0c56436f-0bef-4aa3-b510-b0b0b21f126b",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il manzo",
+      "sentence": "Il manzo va cotto a fuoco lento."
+    },
+    "de": {
+      "word": "das Rindfleisch",
+      "sentence": "Rindfleisch muss man bei niedriger Hitze garen."
+    }
+  },
+  {
+    "id": "0f824b08-22b5-4da4-ad1a-2127e8de7497",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la bistecca",
+      "sentence": "Vorrei una bistecca ben cotta."
+    },
+    "de": {
+      "word": "das Steak",
+      "sentence": "Ich hätte gern ein gut durchgebratenes Steak."
+    }
+  },
+  {
+    "id": "40643466-413a-4f1b-856d-371813465ef5",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la salsiccia",
+      "sentence": "Alla griglia mettiamo salsicce e verdure."
+    },
+    "de": {
+      "word": "die Wurst",
+      "sentence": "Auf den Grill legen wir Würste und Gemüse."
+    }
+  },
+  {
+    "id": "29df4ac6-a299-4d45-aa7f-d2aae19f0990",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il salmone",
+      "sentence": "Il salmone affumicato è molto saporito."
+    },
+    "de": {
+      "word": "der Lachs",
+      "sentence": "Geräucherter Lachs schmeckt wirklich sehr gut."
+    }
+  },
+  {
+    "id": "fcae772c-827c-44e4-932e-b26623700994",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il tonno",
+      "sentence": "Metto il tonno nell'insalata."
+    },
+    "de": {
+      "word": "der Thunfisch",
+      "sentence": "Ich gebe Thunfisch in den Salat."
+    }
+  },
+  {
+    "id": "32b7e6b9-39c9-4011-926b-35d33f527581",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "i frutti di mare",
+      "sentence": "Questa zuppa contiene molti frutti di mare freschi."
+    },
+    "de": {
+      "word": "die Meeresfrüchte",
+      "sentence": "Diese Suppe enthält viele verschiedene frische Meeresfrüchte."
+    }
+  },
+  {
+    "id": "959ae809-bef3-4e61-b9ac-5f9cb680133f",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il latte",
+      "sentence": "Bevo un bicchiere di latte caldo."
+    },
+    "de": {
+      "word": "die Milch",
+      "sentence": "Ich trinke ein Glas warme Milch."
+    }
+  },
+  {
+    "id": "142c1716-529e-4a2c-b737-c8fd3044ba9f",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il formaggio",
+      "sentence": "Questo formaggio viene dalla Sardegna."
+    },
+    "de": {
+      "word": "der Käse",
+      "sentence": "Dieser Käse kommt aus Sardinien."
+    }
+  },
+  {
+    "id": "5dc0afd8-7e0c-4750-b57e-bf3a0acec08d",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il burro",
+      "sentence": "Spalmo il burro sul pane tostato."
+    },
+    "de": {
+      "word": "die Butter",
+      "sentence": "Ich streiche Butter auf das geröstete Brot."
+    }
+  },
+  {
+    "id": "78414f2d-081a-410e-90db-d9b73c00ad2c",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "lo yogurt",
+      "sentence": "A colazione mangio yogurt con frutta."
+    },
+    "de": {
+      "word": "der Joghurt",
+      "sentence": "Zum Frühstück esse ich Joghurt mit Obst."
+    }
+  },
+  {
+    "id": "990c2437-9e8a-4737-90da-c0746240d43b",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la verdura",
+      "sentence": "Mangia più verdura e meno carne."
+    },
+    "de": {
+      "word": "das Gemüse",
+      "sentence": "Iss mehr Gemüse und weniger Fleisch."
+    }
+  },
+  {
+    "id": "e8d7debf-30a5-44fa-bd89-947608b976ee",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la frutta",
+      "sentence": "La frutta di stagione costa meno."
+    },
+    "de": {
+      "word": "das Obst",
+      "sentence": "Obst der Saison ist billiger."
+    }
+  },
+  {
+    "id": "0e665493-7491-4a36-abba-ace1d9500343",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "i funghi",
+      "sentence": "In autunno raccogliamo i funghi nel bosco."
+    },
+    "de": {
+      "word": "die Pilze",
+      "sentence": "Im Herbst sammeln wir Pilze im Wald."
+    }
+  },
+  {
+    "id": "1e59f668-0db2-4b7e-bbc4-5ae9d3550ac3",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la zucchina",
+      "sentence": "Le zucchine grigliate sono un ottimo contorno."
+    },
+    "de": {
+      "word": "die Zucchini",
+      "sentence": "Gegrillte Zucchini sind eine gute Beilage."
+    }
+  },
+  {
+    "id": "5fbd6e36-d27d-4ad7-848e-0884fd74ca64",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la melanzana",
+      "sentence": "La melanzana si cuoce al forno."
+    },
+    "de": {
+      "word": "die Aubergine",
+      "sentence": "Die Aubergine wird im Ofen gegart."
+    }
+  },
+  {
+    "id": "332fea5c-63ae-4c8b-a0be-ff4db4838112",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il peperone",
+      "sentence": "Taglio il peperone a striscioline sottili."
+    },
+    "de": {
+      "word": "die Paprika",
+      "sentence": "Ich schneide die Paprika in dünne Streifen."
+    }
+  },
+  {
+    "id": "e7dbdcdd-fd76-4fa0-a834-5cc786cad1a6",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "l'insalata",
+      "sentence": "Condisco l'insalata con olio e sale."
+    },
+    "de": {
+      "word": "der Salat",
+      "sentence": "Ich mache den Salat mit Öl an."
+    }
+  },
+  {
+    "id": "8897ef03-83a2-46ae-812f-0c034312e145",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la mela",
+      "sentence": "Ogni giorno mangio una mela rossa."
+    },
+    "de": {
+      "word": "der Apfel",
+      "sentence": "Jeden Tag esse ich einen roten Apfel."
+    }
+  },
+  {
+    "id": "d58544bc-4e74-4e1b-8519-d293c4670a39",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "l'arancia",
+      "sentence": "Spremo un'arancia per la spremuta."
+    },
+    "de": {
+      "word": "die Orange",
+      "sentence": "Ich presse eine Orange für den Saft."
+    }
+  },
+  {
+    "id": "7cd0d87e-0117-448a-a6d0-84a40011e137",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il limone",
+      "sentence": "Aggiungo il succo di limone all'acqua."
+    },
+    "de": {
+      "word": "die Zitrone",
+      "sentence": "Ich gebe etwas Zitronensaft ins Wasser."
+    }
+  },
+  {
+    "id": "ff8b57b1-bf16-46ba-b49e-fefa26a73c13",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la banana",
+      "sentence": "La banana è ricca di potassio."
+    },
+    "de": {
+      "word": "die Banane",
+      "sentence": "Die Banane enthält sehr viel Kalium."
+    }
+  },
+  {
+    "id": "47671ffa-a2be-4e98-8d03-22ecf397a878",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la ciliegia",
+      "sentence": "In estate compro le ciliegie mature."
+    },
+    "de": {
+      "word": "die Kirsche",
+      "sentence": "Im Sommer kaufe ich reife Kirschen."
+    }
+  },
+  {
+    "id": "83aa7431-6589-4096-ac6f-365e2d42563b",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il vino",
+      "sentence": "Con la carne beviamo vino rosso."
+    },
+    "de": {
+      "word": "der Wein",
+      "sentence": "Zum Fleisch trinken wir einen Rotwein."
+    }
+  },
+  {
+    "id": "2105765b-3e8a-4f7b-a531-10d4958f6cbd",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la birra",
+      "sentence": "Una birra fresca d'estate è perfetta."
+    },
+    "de": {
+      "word": "das Bier",
+      "sentence": "Ein kaltes Bier im Sommer ist perfekt."
+    }
+  },
+  {
+    "id": "0a161ce2-1307-476b-b6ec-74328334ff75",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il succo",
+      "sentence": "I bambini bevono succo di mela."
+    },
+    "de": {
+      "word": "der Saft",
+      "sentence": "Die Kinder trinken Apfelsaft zum Frühstück."
+    }
+  },
+  {
+    "id": "e36df06d-464d-4d1d-a6de-5bf1d730e64c",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "bollire",
+      "sentence": "Fai bollire l'acqua prima di aggiungere la pasta."
+    },
+    "de": {
+      "word": "kochen",
+      "sentence": "Lass das Wasser kochen, bevor du die Nudeln zugibst."
+    }
+  },
+  {
+    "id": "a26a16e5-7f98-49a4-80b0-4eeb5879f705",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "arrostire",
+      "sentence": "Arrostisco il pollo in forno per un'ora."
+    },
+    "de": {
+      "word": "braten",
+      "sentence": "Ich brate das Hähnchen eine Stunde im Ofen."
+    }
+  },
+  {
+    "id": "d0683a23-3916-49d7-8e10-e8e5d465e9cc",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "scolare",
+      "sentence": "Scola la pasta e aggiungi il sugo."
+    },
+    "de": {
+      "word": "abgiessen",
+      "sentence": "Giess die Nudeln ab und füge die Sauce hinzu."
+    }
+  },
+  {
+    "id": "7a0c67b8-6abf-4e45-88a8-76c39a5b6ef4",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "dolce",
+      "sentence": "Questo dessert è troppo dolce per me."
+    },
+    "de": {
+      "word": "süss",
+      "sentence": "Dieser Nachtisch ist mir viel zu süss."
+    }
+  },
+  {
+    "id": "a2a1e6cf-265b-4111-a850-f8767be7efab",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "salato",
+      "sentence": "La minestra è troppo salata oggi."
+    },
+    "de": {
+      "word": "salzig",
+      "sentence": "Die Suppe ist heute leider zu salzig."
+    }
+  },
+  {
+    "id": "ba7eccb8-4cf8-474e-be2a-1c9763c3af11",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "amaro",
+      "sentence": "Il caffè senza zucchero è amaro."
+    },
+    "de": {
+      "word": "bitter",
+      "sentence": "Kaffee ohne Zucker schmeckt sehr bitter."
+    }
+  },
+  {
+    "id": "d4cace75-9b39-42ac-a2ed-f6d01f323954",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "acerbo",
+      "sentence": "Questa frutta è ancora acerba, aspetta qualche giorno."
+    },
+    "de": {
+      "word": "unreif",
+      "sentence": "Dieses Obst ist noch unreif, warte ein paar Tage."
+    }
+  },
+  {
+    "id": "e6223847-e164-4f45-875f-0269173095e4",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "crudo",
+      "sentence": "Il prosciutto crudo è una specialità italiana."
+    },
+    "de": {
+      "word": "roh",
+      "sentence": "Roher Schinken ist eine echte italienische Spezialität."
+    }
+  },
+  {
+    "id": "82b076eb-4ca5-4c2b-81f2-c3041682f5ac",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "saporito",
+      "sentence": "Con le spezie il piatto diventa più saporito."
+    },
+    "de": {
+      "word": "schmackhaft",
+      "sentence": "Mit Gewürzen wird das Gericht viel schmackhafter."
+    }
+  },
+  {
+    "id": "53cf64dc-2bf5-47fd-bead-980343429165",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "l'ingrediente",
+      "sentence": "Leggo tutti gli ingredienti sulla confezione."
+    },
+    "de": {
+      "word": "die Zutat",
+      "sentence": "Ich lese alle Zutaten auf der Verpackung."
+    }
+  },
+  {
+    "id": "9444ca36-483a-4867-ba29-eef8fcf75853",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la spezia",
+      "sentence": "Questa cucina usa molte spezie profumate."
+    },
+    "de": {
+      "word": "das Gewürz",
+      "sentence": "Diese Küche verwendet viele duftende Gewürze."
+    }
+  },
+  {
+    "id": "d804a03c-975f-4541-941a-5ee9990a3cfd",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il sugo",
+      "sentence": "Il sugo di pomodoro cuoce lentamente."
+    },
+    "de": {
+      "word": "die Sauce",
+      "sentence": "Die Tomatensauce kocht langsam auf dem Herd."
+    }
+  },
+  {
+    "id": "4ef1bd27-ee67-414f-b38f-af5be86f529e",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "vegetariano",
+      "sentence": "Al ristorante offrono molti piatti vegetariani."
+    },
+    "de": {
+      "word": "vegetarisch",
+      "sentence": "Im Restaurant gibt es viele vegetarische Gerichte."
+    }
+  },
+  {
+    "id": "3fc7b412-3745-468a-85ca-ada5f99d8b18",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la porzione",
+      "sentence": "La porzione era troppo grande per me."
+    },
+    "de": {
+      "word": "die Portion",
+      "sentence": "Die Portion war für mich viel zu gross."
+    }
+  },
+  {
+    "id": "1753077e-a9e4-4813-b2b5-d79cd9690460",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la dieta",
+      "sentence": "Il medico mi ha consigliato una dieta equilibrata."
+    },
+    "de": {
+      "word": "die Diät",
+      "sentence": "Der Arzt hat mir eine ausgewogene Diät empfohlen."
+    }
+  },
+  {
+    "id": "e502e7eb-4f0c-48a6-baf2-ba93d4640bc5",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il digiuno",
+      "sentence": "Prima dell'esame del sangue è richiesto il digiuno."
+    },
+    "de": {
+      "word": "das Fasten",
+      "sentence": "Vor der Blutuntersuchung ist ein Fasten erforderlich."
+    }
+  },
+  {
+    "id": "b3ac7c5f-87a2-4981-93b8-b1648707ff68",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "l'aperitivo",
+      "sentence": "Prendiamo un aperitivo prima di cena."
+    },
+    "de": {
+      "word": "der Aperitif",
+      "sentence": "Wir trinken einen Aperitif vor dem Essen."
+    }
+  },
+  {
+    "id": "14d03720-ce16-48b2-9e1d-932e1550e659",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la famiglia",
+      "sentence": "La mia famiglia è molto numerosa."
+    },
+    "de": {
+      "word": "die Familie",
+      "sentence": "Meine Familie ist ziemlich gross."
+    }
+  },
+  {
+    "id": "f7b0d019-433a-4ca4-8a1f-78b7b327fec4",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la madre",
+      "sentence": "Mia madre lavora in ospedale."
+    },
+    "de": {
+      "word": "die Mutter",
+      "sentence": "Meine Mutter arbeitet in einem Krankenhaus."
+    }
+  },
+  {
+    "id": "d09037f1-16a1-4d8d-af26-452ea7186279",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il padre",
+      "sentence": "Mio padre cucina molto bene."
+    },
+    "de": {
+      "word": "der Vater",
+      "sentence": "Mein Vater kocht wirklich sehr gut."
+    }
+  },
+  {
+    "id": "26542ee4-39e0-441e-aaad-c1a8a7b2a3fe",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il figlio",
+      "sentence": "Il loro figlio ha cinque anni."
+    },
+    "de": {
+      "word": "der Sohn",
+      "sentence": "Ihr Sohn ist erst fünf Jahre alt."
+    }
+  },
+  {
+    "id": "997ed8f9-f7a4-451d-a16f-1258c060dbb9",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la figlia",
+      "sentence": "La figlia studia all'università."
+    },
+    "de": {
+      "word": "die Tochter",
+      "sentence": "Die Tochter studiert an der Universität."
+    }
+  },
+  {
+    "id": "5c03329e-e843-4b36-a405-8fdfb8a5593a",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il fratello",
+      "sentence": "Mio fratello vive a Milano."
+    },
+    "de": {
+      "word": "der Bruder",
+      "sentence": "Mein Bruder wohnt jetzt in Mailand."
+    }
+  },
+  {
+    "id": "8c56bfdc-911f-4ec8-b3fa-177aae0debdd",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la sorella",
+      "sentence": "Ho una sorella più grande."
+    },
+    "de": {
+      "word": "die Schwester",
+      "sentence": "Ich habe eine ältere Schwester."
+    }
+  },
+  {
+    "id": "dbca8fba-24b5-45db-9ea4-c81743a556cb",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "i parenti",
+      "sentence": "A Natale vediamo tutti i parenti."
+    },
+    "de": {
+      "word": "die Verwandten",
+      "sentence": "An Weihnachten sehen wir alle Verwandten."
+    }
+  },
+  {
+    "id": "25fc0ac8-c044-493b-ace4-c03cd0f212fa",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il cugino",
+      "sentence": "Mio cugino abita in Francia."
+    },
+    "de": {
+      "word": "der Cousin",
+      "sentence": "Mein Cousin wohnt in Frankreich."
+    }
+  },
+  {
+    "id": "7aba6395-b7c9-485e-a7ac-96d376db4cee",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la nipote",
+      "sentence": "La nipote assomiglia molto alla nonna."
+    },
+    "de": {
+      "word": "die Nichte",
+      "sentence": "Die Nichte sieht der Grossmutter sehr ähnlich."
+    }
+  },
+  {
+    "id": "5b558703-85f4-4761-be78-050a642746a0",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il nipote",
+      "sentence": "Il nipote gioca spesso con il nonno."
+    },
+    "de": {
+      "word": "der Neffe",
+      "sentence": "Der Neffe spielt oft mit dem Grossvater."
+    }
+  },
+  {
+    "id": "dd201786-907f-4d90-acee-fb2c39550cf8",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il suocero",
+      "sentence": "Mio suocero mi ha accolto con affetto."
+    },
+    "de": {
+      "word": "der Schwiegervater",
+      "sentence": "Mein Schwiegervater hat mich sehr herzlich aufgenommen."
+    }
+  },
+  {
+    "id": "9e7840df-7885-4e32-87ce-0c0438c7bca9",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la suocera",
+      "sentence": "La suocera abita vicino a noi."
+    },
+    "de": {
+      "word": "die Schwiegermutter",
+      "sentence": "Die Schwiegermutter wohnt ganz in unserer Nähe."
+    }
+  },
+  {
+    "id": "a32e0718-7cbd-45c5-878e-0252fffef2c9",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il genero",
+      "sentence": "Il genero aiuta spesso in giardino."
+    },
+    "de": {
+      "word": "der Schwiegersohn",
+      "sentence": "Der Schwiegersohn hilft oft im Garten."
+    }
+  },
+  {
+    "id": "2c0cd91c-2594-4fe5-8e89-71360ba97c58",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la nuora",
+      "sentence": "La nuora ha preparato il pranzo domenicale."
+    },
+    "de": {
+      "word": "die Schwiegertochter",
+      "sentence": "Die Schwiegertochter hat das ganze Sonntagessen zubereitet."
+    }
+  },
+  {
+    "id": "91f47f79-f234-40fb-ad57-e9b868b23d38",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il cognato",
+      "sentence": "Mio cognato è un tipo simpatico."
+    },
+    "de": {
+      "word": "der Schwager",
+      "sentence": "Mein Schwager ist ein netter Kerl."
+    }
+  },
+  {
+    "id": "244347e1-4f97-431a-a78c-830c03173c77",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la cognata",
+      "sentence": "La cognata ci ha invitati a cena."
+    },
+    "de": {
+      "word": "die Schwägerin",
+      "sentence": "Die Schwägerin hat uns zum Essen eingeladen."
+    }
+  },
+  {
+    "id": "0e37a90d-8b5a-4892-a669-502dbe0522f6",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "gli antenati",
+      "sentence": "I nostri antenati vivevano in un piccolo villaggio di montagna."
+    },
+    "de": {
+      "word": "die Vorfahren",
+      "sentence": "Unsere Vorfahren lebten schon lange in einem kleinen Bergdorf."
+    }
+  },
+  {
+    "id": "e85080f3-00ac-423c-b73b-cab8f87b612a",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la coppia",
+      "sentence": "Sono una coppia molto affiatata."
+    },
+    "de": {
+      "word": "das Paar",
+      "sentence": "Sie sind ein sehr harmonisches Paar."
+    }
+  },
+  {
+    "id": "828774f5-9ce6-4f8c-ad88-ac6a080d0cfc",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il marito",
+      "sentence": "Suo marito lavora spesso all'estero."
+    },
+    "de": {
+      "word": "der Ehemann",
+      "sentence": "Ihr Ehemann arbeitet oft im Ausland."
+    }
+  },
+  {
+    "id": "5d2839b2-43d1-4ae2-8597-064467db4ceb",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la moglie",
+      "sentence": "Sua moglie insegna alle scuole medie."
+    },
+    "de": {
+      "word": "die Ehefrau",
+      "sentence": "Seine Ehefrau unterrichtet an einer Mittelschule."
+    }
+  },
+  {
+    "id": "90fa234a-f373-427e-bbc1-be3645104e7f",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il fidanzato",
+      "sentence": "Il mio fidanzato mi ha regalato dei fiori."
+    },
+    "de": {
+      "word": "der Verlobte",
+      "sentence": "Mein Verlobter hat mir schöne Blumen geschenkt."
+    }
+  },
+  {
+    "id": "66cdf1e7-898a-4786-89e3-c97a7c3ff972",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la fidanzata",
+      "sentence": "La sua fidanzata è tedesca."
+    },
+    "de": {
+      "word": "die Verlobte",
+      "sentence": "Seine Verlobte kommt aus Deutschland."
+    }
+  },
+  {
+    "id": "e85348ca-8223-44b5-91c8-086a05d4b20f",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il partner",
+      "sentence": "Cerco un partner che condivida i miei valori."
+    },
+    "de": {
+      "word": "der Partner",
+      "sentence": "Ich suche einen Partner, der meine Werte teilt."
+    }
+  },
+  {
+    "id": "4de7495a-ba41-422f-b76a-b28ca446df94",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il coniuge",
+      "sentence": "Ogni coniuge ha diritto esattamente alla metà dei beni."
+    },
+    "de": {
+      "word": "der Ehepartner",
+      "sentence": "Jeder Ehepartner hat Anspruch auf die Hälfte des Vermögens."
+    }
+  },
+  {
+    "id": "8042eb8c-25ea-4df8-bdc0-291430afdd78",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'ex",
+      "sentence": "La sua ex vive ancora nella stessa città."
+    },
+    "de": {
+      "word": "der Ex-Partner",
+      "sentence": "Sein Ex-Partner wohnt noch in derselben Stadt."
+    }
+  },
+  {
+    "id": "438d0884-2695-4eed-9a32-7b197cad195b",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il matrimonio",
+      "sentence": "Il loro matrimonio dura da trent'anni."
+    },
+    "de": {
+      "word": "die Ehe",
+      "sentence": "Ihre Ehe hält schon seit dreissig Jahren."
+    }
+  },
+  {
+    "id": "1a29ac4d-60b4-4773-94fb-dd34b2b7bb7c",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "le nozze",
+      "sentence": "Le nozze si terranno in giardino."
+    },
+    "de": {
+      "word": "die Hochzeit",
+      "sentence": "Die Hochzeit findet im Garten statt."
+    }
+  },
+  {
+    "id": "1226e279-2ca0-43da-b131-918f339c2e51",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la luna di miele",
+      "sentence": "Per la luna di miele andiamo alle Maldive."
+    },
+    "de": {
+      "word": "die Flitterwochen",
+      "sentence": "Für die Flitterwochen fliegen wir auf die Malediven."
+    }
+  },
+  {
+    "id": "2c6c5fd9-e798-421a-adab-62516347e819",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'anello",
+      "sentence": "Le ha regalato un anello d'oro."
+    },
+    "de": {
+      "word": "der Ring",
+      "sentence": "Er hat ihr einen goldenen Ring geschenkt."
+    }
+  },
+  {
+    "id": "15c4416e-3241-427c-9cc2-363651788e03",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il divorzio",
+      "sentence": "Dopo il divorzio sono rimasti amici."
+    },
+    "de": {
+      "word": "die Scheidung",
+      "sentence": "Nach der Scheidung sind sie Freunde geblieben."
+    }
+  },
+  {
+    "id": "f50ec93b-c70b-4530-a12d-6cc24cc3b61b",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la relazione",
+      "sentence": "Hanno una relazione seria da due anni."
+    },
+    "de": {
+      "word": "die Beziehung",
+      "sentence": "Sie haben seit zwei Jahren eine feste Beziehung."
+    }
+  },
+  {
+    "id": "1b11ce10-ddfe-46c7-92ab-a694ce41dadd",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'amore",
+      "sentence": "Il loro amore è cresciuto col tempo."
+    },
+    "de": {
+      "word": "die Liebe",
+      "sentence": "Ihre Liebe ist mit der Zeit gewachsen."
+    }
+  },
+  {
+    "id": "a643bd62-8ab6-490c-b603-877263103e81",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il bacio",
+      "sentence": "Le ha dato un bacio sulla guancia."
+    },
+    "de": {
+      "word": "der Kuss",
+      "sentence": "Er gab ihr einen Kuss auf die Wange."
+    }
+  },
+  {
+    "id": "0c7ee569-a9ea-48d5-8dfe-700ba8cf9af4",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'abbraccio",
+      "sentence": "Un abbraccio caloroso mi ha rassicurato."
+    },
+    "de": {
+      "word": "die Umarmung",
+      "sentence": "Eine herzliche Umarmung hat mich sofort beruhigt."
+    }
+  },
+  {
+    "id": "a5302557-81e2-417d-8ea2-708dc767e363",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la fedeltà",
+      "sentence": "La fedeltà è la base di ogni rapporto sano e duraturo."
+    },
+    "de": {
+      "word": "die Treue",
+      "sentence": "Treue ist für mich die wichtigste Grundlage jeder dauerhaften Beziehung."
+    }
+  },
+  {
+    "id": "6fc2ac7a-cd11-494e-b642-3d2f6b7644a7",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il tradimento",
+      "sentence": "Il tradimento ha distrutto per sempre la loro lunga amicizia."
+    },
+    "de": {
+      "word": "der Betrug",
+      "sentence": "Der Betrug hat ihre lange Freundschaft für immer zerstört."
+    }
+  },
+  {
+    "id": "70e328c0-ef73-402a-ad61-b36e7d26f825",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la stima",
+      "sentence": "Provo una grande stima per i miei colleghi."
+    },
+    "de": {
+      "word": "die Wertschätzung",
+      "sentence": "Ich empfinde eine grosse Wertschätzung für meine Kollegen."
+    }
+  },
+  {
+    "id": "3090f7f3-5911-4d1a-a2e3-9e978a3a4ea2",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il rispetto",
+      "sentence": "Il rispetto reciproco tiene unita la coppia."
+    },
+    "de": {
+      "word": "der Respekt",
+      "sentence": "Der gegenseitige Respekt hält das Paar dauerhaft zusammen."
+    }
+  },
+  {
+    "id": "1e00ebfc-9425-419e-83ea-0bb482994410",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "sposarsi",
+      "sentence": "Si sposano la prossima primavera."
+    },
+    "de": {
+      "word": "heiraten",
+      "sentence": "Sie heiraten im nächsten Frühling."
+    }
+  },
+  {
+    "id": "f8f40c59-ef02-4118-9c8e-90d203854050",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "fidanzarsi",
+      "sentence": "Si sono fidanzati dopo un anno insieme."
+    },
+    "de": {
+      "word": "sich verloben",
+      "sentence": "Sie haben sich nach einem Jahr verlobt."
+    }
+  },
+  {
+    "id": "d44acc9b-2a43-40d7-a676-30adec01ffcf",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "divorziare",
+      "sentence": "Hanno deciso di divorziare l'anno scorso."
+    },
+    "de": {
+      "word": "sich scheiden lassen",
+      "sentence": "Sie haben sich letztes Jahr scheiden lassen."
+    }
+  },
+  {
+    "id": "8a98da7f-769e-4f29-8fe5-84b4460a5ebe",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "lasciarsi",
+      "sentence": "Si sono lasciati senza troppo rancore."
+    },
+    "de": {
+      "word": "sich trennen",
+      "sentence": "Sie haben sich ohne grossen Groll getrennt."
+    }
+  },
+  {
+    "id": "1746b2dc-e004-40e2-89b2-cfaebbaf4249",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "frequentarsi",
+      "sentence": "Si frequentano ormai da qualche mese."
+    },
+    "de": {
+      "word": "zusammen sein",
+      "sentence": "Sie sind schon seit einigen Monaten zusammen."
+    }
+  },
+  {
+    "id": "13b4b26d-5b73-4175-9474-79e95b9fe824",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "corteggiare",
+      "sentence": "Ha corteggiato la sua futura moglie per diversi mesi."
+    },
+    "de": {
+      "word": "umwerben",
+      "sentence": "Er hat seine zukünftige Frau viele Monate lang umworben."
+    }
+  },
+  {
+    "id": "c1f1a3b8-2750-4eb8-9a42-8f12e17b3e5c",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "tradire",
+      "sentence": "Non perdona chi tradisce la sua fiducia."
+    },
+    "de": {
+      "word": "betrügen",
+      "sentence": "Sie verzeiht niemandem, der ihr Vertrauen betrügt."
+    }
+  },
+  {
+    "id": "5b7a39bf-c87b-4e7d-a17d-dc1b1872fa98",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "baciare",
+      "sentence": "L'ha baciata sotto la pioggia."
+    },
+    "de": {
+      "word": "küssen",
+      "sentence": "Er hat sie im Regen geküsst."
+    }
+  },
+  {
+    "id": "e0f7beaa-4e90-4211-b707-3d6861b8c8ce",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "voler bene",
+      "sentence": "Ti voglio bene come a un fratello."
+    },
+    "de": {
+      "word": "gern haben",
+      "sentence": "Ich habe dich wie einen Bruder gern."
+    }
+  },
+  {
+    "id": "51d789a5-c1fd-4d15-b023-ffcb9f84d93b",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "abbandonare",
+      "sentence": "L'ha abbandonata del tutto senza spiegazioni."
+    },
+    "de": {
+      "word": "verlassen",
+      "sentence": "Er hat sie ohne jede Erklärung verlassen."
+    }
+  },
+  {
+    "id": "088602c8-b7f4-4166-8cef-f03d48c806fe",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'amico",
+      "sentence": "Il mio migliore amico vive lontano."
+    },
+    "de": {
+      "word": "der Freund",
+      "sentence": "Mein bester Freund wohnt ziemlich weit weg."
+    }
+  },
+  {
+    "id": "02a37a33-9dce-49ed-bab6-8c0b812bdd16",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'amica",
+      "sentence": "La mia amica mi telefona ogni sera."
+    },
+    "de": {
+      "word": "die Freundin",
+      "sentence": "Meine Freundin ruft mich jeden Abend an."
+    }
+  },
+  {
+    "id": "5ee254b5-4e66-473c-ae99-62b082b91ad1",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "l'amicizia",
+      "sentence": "La nostra amicizia dura da vent'anni."
+    },
+    "de": {
+      "word": "die Freundschaft",
+      "sentence": "Unsere Freundschaft besteht schon seit zwanzig Jahren."
+    }
+  },
+  {
+    "id": "1677e220-2343-4dcb-9031-be5ee5b4abde",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il conoscente",
+      "sentence": "È solo un conoscente, non un vero amico."
+    },
+    "de": {
+      "word": "der Bekannte",
+      "sentence": "Er ist nur ein Bekannter, kein echter Freund."
+    }
+  },
+  {
+    "id": "727afc67-b6f9-40f4-8779-523e41aa4110",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la compagnia",
+      "sentence": "Mi piace la compagnia delle persone allegre."
+    },
+    "de": {
+      "word": "die Gesellschaft",
+      "sentence": "Ich mag die Gesellschaft fröhlicher Menschen."
+    }
+  },
+  {
+    "id": "33f35fb6-837f-4c9d-961f-596c002815b7",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "il legame",
+      "sentence": "Tra loro esiste un legame molto profondo e sincero."
+    },
+    "de": {
+      "word": "die Bindung",
+      "sentence": "Zwischen ihnen besteht eine sehr tiefe und ehrliche Bindung."
+    }
+  },
+  {
+    "id": "485a89de-1cb4-4af1-8595-e3ea296f88c2",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il rapporto",
+      "sentence": "Ho un buon rapporto con i colleghi."
+    },
+    "de": {
+      "word": "das Verhältnis",
+      "sentence": "Ich habe ein gutes Verhältnis zu den Kollegen."
+    }
+  },
+  {
+    "id": "a960d2a2-06e8-461e-9f92-9ffa22072394",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "conoscere",
+      "sentence": "Ho conosciuto Marco a una festa."
+    },
+    "de": {
+      "word": "kennenlernen",
+      "sentence": "Ich habe Marco auf einer Party kennengelernt."
+    }
+  },
+  {
+    "id": "22cfaf9e-e193-4bc1-9108-06f3f1ce6694",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "incontrare",
+      "sentence": "Incontro spesso i vicini al mercato."
+    },
+    "de": {
+      "word": "begegnen",
+      "sentence": "Ich begegne den Nachbarn oft auf dem Markt."
+    }
+  },
+  {
+    "id": "9a2fc8af-8508-4855-b77e-b5515580388c",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "invitare",
+      "sentence": "Ti invito alla mia festa di compleanno."
+    },
+    "de": {
+      "word": "einladen",
+      "sentence": "Ich lade dich zu meiner Geburtstagsfeier ein."
+    }
+  },
+  {
+    "id": "69ced806-48d5-4302-b793-066272fd30d6",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "ospitare",
+      "sentence": "Ospitiamo volentieri gli amici per il weekend."
+    },
+    "de": {
+      "word": "beherbergen",
+      "sentence": "Wir beherbergen gern Freunde übers Wochenende."
+    }
+  },
+  {
+    "id": "f0129df8-279e-4c96-8ad4-b486d61129a5",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "andare a trovare",
+      "sentence": "Domenica andiamo a trovare i nonni."
+    },
+    "de": {
+      "word": "besuchen",
+      "sentence": "Am Sonntag besuchen wir die Grosseltern."
+    }
+  },
+  {
+    "id": "53c3739c-4c0b-42cf-83b1-114881d28936",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "fare amicizia",
+      "sentence": "I bambini fanno amicizia molto in fretta."
+    },
+    "de": {
+      "word": "Freundschaft schliessen",
+      "sentence": "Kinder schliessen sehr schnell neue Freundschaften."
+    }
+  },
+  {
+    "id": "6b1141f9-1040-4a17-97e9-fa43c403b36f",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "il sostegno",
+      "sentence": "Ho sempre avuto il sostegno della famiglia."
+    },
+    "de": {
+      "word": "die Unterstützung",
+      "sentence": "Ich hatte immer die Unterstützung meiner Familie."
+    }
+  },
+  {
+    "id": "5a8bbd5a-02ce-4945-9fcf-c8d59b5e84f7",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la solidarietà",
+      "sentence": "In quel momento difficile ho sentito la loro grande solidarietà."
+    },
+    "de": {
+      "word": "die Solidarität",
+      "sentence": "In dieser schwierigen Zeit spürte ich ihre grosse Solidarität."
+    }
+  },
+  {
+    "id": "25ff88b6-67cb-4371-9cd3-e4dc17e44fa9",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la riconciliazione",
+      "sentence": "Dopo tanti anni di silenzio è arrivata finalmente la riconciliazione."
+    },
+    "de": {
+      "word": "die Versöhnung",
+      "sentence": "Nach vielen Jahren des Schweigens kam endlich die Versöhnung."
+    }
+  },
+  {
+    "id": "8d4be377-6dfb-44ed-a535-85fc76586dd9",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "la promessa",
+      "sentence": "Ha mantenuto la promessa fatta all'amico."
+    },
+    "de": {
+      "word": "das Versprechen",
+      "sentence": "Er hat das Versprechen an den Freund gehalten."
+    }
+  },
+  {
+    "id": "726a122b-6d3e-4b1d-bc29-36fbdb7bb4a3",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "fedele",
+      "sentence": "È un amico fedele e affidabile."
+    },
+    "de": {
+      "word": "treu",
+      "sentence": "Er ist ein treuer und zuverlässiger Freund."
+    }
+  },
+  {
+    "id": "16ab4eb0-6480-4569-8b6e-3f4b5e66ff3e",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "geloso",
+      "sentence": "È geloso quando lei esce con altri."
+    },
+    "de": {
+      "word": "eifersüchtig",
+      "sentence": "Er ist eifersüchtig, wenn sie ausgeht."
+    }
+  },
+  {
+    "id": "e259a482-c545-472a-9646-060a11fe4446",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "affettuoso",
+      "sentence": "I nonni sono sempre affettuosi con noi."
+    },
+    "de": {
+      "word": "liebevoll",
+      "sentence": "Die Grosseltern sind immer liebevoll zu uns."
+    }
+  },
+  {
+    "id": "48a4dfad-4dd0-456b-ad28-2aaa8f437b91",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "sincero",
+      "sentence": "Apprezzo molto le persone sincere e leali."
+    },
+    "de": {
+      "word": "aufrichtig",
+      "sentence": "Ich schätze aufrichtige und loyale Menschen sehr."
+    }
+  },
+  {
+    "id": "e3486a04-56d4-4ac6-8370-557fd66c0105",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "single",
+      "sentence": "Dopo la separazione è tornato single."
+    },
+    "de": {
+      "word": "Single",
+      "sentence": "Nach der Trennung ist er wieder Single."
+    }
+  },
+  {
+    "id": "71beedcd-1006-4d4b-adb8-a112e28ff27e",
+    "level": "A2",
+    "topic": "Relationships",
+    "it": {
+      "word": "sposato",
+      "sentence": "Sono sposato da più di dieci anni."
+    },
+    "de": {
+      "word": "verheiratet",
+      "sentence": "Ich bin seit über zehn Jahren verheiratet."
+    }
+  },
+  {
+    "id": "1b6d6c43-bbd8-458e-b5ce-bf67799764d7",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "vedovo",
+      "sentence": "È rimasta vedova ancora molto giovane."
+    },
+    "de": {
+      "word": "verwitwet",
+      "sentence": "Sie ist noch sehr jung verwitwet."
+    }
+  },
+  {
+    "id": "989ae2b5-531a-4031-82fd-a3a85c974745",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "la fiducia",
+      "sentence": "Ho piena fiducia nel mio medico."
+    },
+    "de": {
+      "word": "das Vertrauen",
+      "sentence": "Ich habe volles Vertrauen in meinen Arzt."
+    }
+  },
+  {
+    "id": "c860d1d6-c2da-413d-b025-448938b1ef0d",
+    "level": "B1",
+    "topic": "Relationships",
+    "it": {
+      "word": "convivere",
+      "sentence": "Convivono da tre anni senza problemi."
+    },
+    "de": {
+      "word": "zusammenleben",
+      "sentence": "Sie leben seit drei Jahren problemlos zusammen."
+    }
+  },
+  {
+    "id": "be97eb4c-3f72-4765-97ae-241fd5bb84f1",
+    "level": "B2",
+    "topic": "Relationships",
+    "it": {
+      "word": "la convivenza",
+      "sentence": "La convivenza richiede pazienza e tanti piccoli compromessi quotidiani."
+    },
+    "de": {
+      "word": "das Zusammenleben",
+      "sentence": "Das gemeinsame Zusammenleben erfordert viel Geduld und viele tägliche Kompromisse."
+    }
+  },
+  {
+    "id": "19b02806-7314-4724-a2b3-55de09622e61",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la malattia",
+      "sentence": "Questa malattia è molto diffusa in inverno."
+    },
+    "de": {
+      "word": "die Krankheit",
+      "sentence": "Diese Krankheit ist im Winter sehr verbreitet."
+    }
+  },
+  {
+    "id": "a97db182-e162-45e4-b06a-45a4094e7c52",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "l'influenza",
+      "sentence": "Ho preso l'influenza la settimana scorsa."
+    },
+    "de": {
+      "word": "die Grippe",
+      "sentence": "Ich habe letzte Woche die Grippe bekommen."
+    }
+  },
+  {
+    "id": "aefa0144-346b-409e-a940-311c92414398",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il mal di gola",
+      "sentence": "Con il mal di gola bevo tè caldo."
+    },
+    "de": {
+      "word": "die Halsschmerzen",
+      "sentence": "Bei Halsschmerzen trinke ich warmen Tee."
+    }
+  },
+  {
+    "id": "e395646e-023b-4be5-a3c0-753555c1b16a",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il mal di pancia",
+      "sentence": "Il bambino ha spesso mal di pancia."
+    },
+    "de": {
+      "word": "die Bauchschmerzen",
+      "sentence": "Das Kind hat oft starke Bauchschmerzen."
+    }
+  },
+  {
+    "id": "3acc7b02-b501-4aa4-9289-8e228dbededd",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il sintomo",
+      "sentence": "La febbre è un sintomo comune dell'influenza."
+    },
+    "de": {
+      "word": "das Symptom",
+      "sentence": "Fieber ist ein häufiges Symptom der Grippe."
+    }
+  },
+  {
+    "id": "592c171b-bd03-4c59-8679-db30221fcf5c",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il virus",
+      "sentence": "Il virus si diffonde molto rapidamente."
+    },
+    "de": {
+      "word": "das Virus",
+      "sentence": "Das Virus verbreitet sich sehr schnell."
+    }
+  },
+  {
+    "id": "41d40168-9565-42fb-ae21-35225858361b",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'infezione",
+      "sentence": "L'antibiotico serve a combattere una brutta infezione."
+    },
+    "de": {
+      "word": "die Infektion",
+      "sentence": "Das Antibiotikum hilft gegen die bakterielle Infektion."
+    }
+  },
+  {
+    "id": "76fb0489-ae2b-452c-9170-d84d5fff7612",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'allergia",
+      "sentence": "Ho un'allergia al polline in primavera."
+    },
+    "de": {
+      "word": "die Allergie",
+      "sentence": "Im Frühling habe ich eine starke Pollenallergie."
+    }
+  },
+  {
+    "id": "4745a7f3-af7f-46da-895b-95cb9f46f491",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la nausea",
+      "sentence": "Dopo il viaggio in barca sentivo nausea."
+    },
+    "de": {
+      "word": "die Übelkeit",
+      "sentence": "Nach der Bootsfahrt spürte ich starke Übelkeit."
+    }
+  },
+  {
+    "id": "0413cdcb-9bcc-4634-8418-2aa4f6e68422",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il capogiro",
+      "sentence": "Mi alzo piano per evitare il capogiro."
+    },
+    "de": {
+      "word": "der Schwindel",
+      "sentence": "Ich stehe langsam auf, um Schwindel zu vermeiden."
+    }
+  },
+  {
+    "id": "3bb13e4d-4cee-4b10-93ce-84345f98e1f2",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la stanchezza",
+      "sentence": "La stanchezza cronica può avere molte cause."
+    },
+    "de": {
+      "word": "die Müdigkeit",
+      "sentence": "Chronische Müdigkeit kann viele Ursachen haben."
+    }
+  },
+  {
+    "id": "00287ba5-e480-4a84-8828-3336fa74d8be",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "il malessere",
+      "sentence": "Un leggero malessere lo ha costretto a restare a casa."
+    },
+    "de": {
+      "word": "das Unwohlsein",
+      "sentence": "Ein leichtes Unwohlsein zwang ihn, zu Hause zu bleiben."
+    }
+  },
+  {
+    "id": "b2c72d1f-318b-4856-86b2-37e872a2418d",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la puntura",
+      "sentence": "La puntura d'ape fa molto male."
+    },
+    "de": {
+      "word": "der Stich",
+      "sentence": "Der Bienenstich tut wirklich sehr weh."
+    }
+  },
+  {
+    "id": "c493108f-510d-4ea2-82c1-4285bb3c3005",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il gonfiore",
+      "sentence": "Il ghiaccio riduce il gonfiore della caviglia."
+    },
+    "de": {
+      "word": "die Schwellung",
+      "sentence": "Das Eis verringert die Schwellung am Knöchel."
+    }
+  },
+  {
+    "id": "f3c6f302-5518-4cdb-8746-b86985de0352",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la salute",
+      "sentence": "La salute è più importante del denaro."
+    },
+    "de": {
+      "word": "die Gesundheit",
+      "sentence": "Die Gesundheit ist wichtiger als das Geld."
+    }
+  },
+  {
+    "id": "8a1a00c8-e364-4555-9c73-411095f01ee7",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la guarigione",
+      "sentence": "I medici sperano in una guarigione rapida."
+    },
+    "de": {
+      "word": "die Genesung",
+      "sentence": "Die Ärzte hoffen auf eine schnelle Genesung."
+    }
+  },
+  {
+    "id": "c9c06c36-1d58-4d4c-804d-915f635e387b",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il medico",
+      "sentence": "Domani ho un appuntamento dal medico."
+    },
+    "de": {
+      "word": "der Arzt",
+      "sentence": "Morgen habe ich einen Termin beim Arzt."
+    }
+  },
+  {
+    "id": "197e4565-532c-4fcc-b1d1-f2c1e7335117",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la dottoressa",
+      "sentence": "La dottoressa mi ha visitato con attenzione."
+    },
+    "de": {
+      "word": "die Ärztin",
+      "sentence": "Die Ärztin hat mich sehr sorgfältig untersucht."
+    }
+  },
+  {
+    "id": "0204761d-f217-45f4-92ae-ad7e62fba421",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il paziente",
+      "sentence": "Il paziente aspetta i risultati degli esami."
+    },
+    "de": {
+      "word": "der Patient",
+      "sentence": "Der Patient wartet auf die Ergebnisse der Untersuchung."
+    }
+  },
+  {
+    "id": "19e51f45-c062-468e-a20e-4537a3294cf4",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'infermiere",
+      "sentence": "L'infermiere controlla la pressione ogni mattina."
+    },
+    "de": {
+      "word": "der Krankenpfleger",
+      "sentence": "Der Krankenpfleger misst jeden Morgen den Blutdruck."
+    }
+  },
+  {
+    "id": "6d2a4284-bf91-4b2f-8e55-10133359258a",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'infermiera",
+      "sentence": "L'infermiera prepara la stanza per il paziente."
+    },
+    "de": {
+      "word": "die Krankenschwester",
+      "sentence": "Die Krankenschwester bereitet das Zimmer für den Patienten vor."
+    }
+  },
+  {
+    "id": "de48c17d-0e47-405c-b4d8-2e1eb1713424",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la visita",
+      "sentence": "La visita medica è durata mezz'ora."
+    },
+    "de": {
+      "word": "die Untersuchung",
+      "sentence": "Die ärztliche Untersuchung dauerte eine halbe Stunde."
+    }
+  },
+  {
+    "id": "5c1e77e0-4134-40ae-8aa9-4e0e4caa14c8",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "la diagnosi",
+      "sentence": "Una diagnosi precoce aumenta molto le possibilità di guarigione."
+    },
+    "de": {
+      "word": "die Diagnose",
+      "sentence": "Eine frühe Diagnose erhöht deutlich die Chancen auf Heilung."
+    }
+  },
+  {
+    "id": "be2eb174-4eb0-405a-b013-f8a66a06a186",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la cura",
+      "sentence": "La cura dura almeno due settimane."
+    },
+    "de": {
+      "word": "die Behandlung",
+      "sentence": "Die Behandlung dauert mindestens zwei Wochen."
+    }
+  },
+  {
+    "id": "b6541adc-5619-40c9-9acc-ec2cbeb81776",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il rimedio",
+      "sentence": "Non esiste un rimedio contro il raffreddore."
+    },
+    "de": {
+      "word": "das Heilmittel",
+      "sentence": "Gegen die Erkältung gibt es kein Heilmittel."
+    }
+  },
+  {
+    "id": "6012ff64-2187-4be9-a6cf-ac1d83b28697",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la terapia",
+      "sentence": "La terapia lo ha aiutato a guarire."
+    },
+    "de": {
+      "word": "die Therapie",
+      "sentence": "Die Therapie hat ihm beim Genesen geholfen."
+    }
+  },
+  {
+    "id": "05ae4514-89ef-48c1-9868-ba228710adbc",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'operazione",
+      "sentence": "L'operazione al ginocchio è andata bene."
+    },
+    "de": {
+      "word": "die Operation",
+      "sentence": "Die Operation am Knie ist gut verlaufen."
+    }
+  },
+  {
+    "id": "715e121c-f4e2-4ebc-a80b-4f216354c74e",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "l'intervento",
+      "sentence": "Il chirurgo ha spiegato i rischi dell'intervento al paziente."
+    },
+    "de": {
+      "word": "der Eingriff",
+      "sentence": "Der Chirurg erklärte dem Patienten die Risiken des Eingriffs."
+    }
+  },
+  {
+    "id": "d8371394-fe5a-4248-b265-70c79ca43d75",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il chirurgo",
+      "sentence": "Il chirurgo lavora in questo ospedale da anni."
+    },
+    "de": {
+      "word": "der Chirurg",
+      "sentence": "Der Chirurg arbeitet seit Jahren in diesem Krankenhaus."
+    }
+  },
+  {
+    "id": "0db197b7-b109-4abc-8d1b-e664608db8f6",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il reparto",
+      "sentence": "Il reparto di pediatria è al secondo piano."
+    },
+    "de": {
+      "word": "die Station",
+      "sentence": "Die Kinderstation liegt im zweiten Stock."
+    }
+  },
+  {
+    "id": "34d99439-ba6d-4eb9-8315-cc205aade8ea",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il pronto soccorso",
+      "sentence": "L'hanno portato subito al pronto soccorso."
+    },
+    "de": {
+      "word": "die Notaufnahme",
+      "sentence": "Sie brachten ihn sofort in die Notaufnahme."
+    }
+  },
+  {
+    "id": "68ce995d-ea06-4007-98f2-2a90ef0f7f61",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "l'ambulanza",
+      "sentence": "L'ambulanza è arrivata in cinque minuti."
+    },
+    "de": {
+      "word": "der Krankenwagen",
+      "sentence": "Der Krankenwagen kam in fünf Minuten."
+    }
+  },
+  {
+    "id": "2de048aa-5fd8-4d0d-a6f3-111970a03953",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la barella",
+      "sentence": "Hanno trasportato il ferito su una barella."
+    },
+    "de": {
+      "word": "die Trage",
+      "sentence": "Sie trugen den Verletzten auf einer Trage."
+    }
+  },
+  {
+    "id": "ef4ca07e-1602-437d-9756-1f4ab84fab1a",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la siringa",
+      "sentence": "L'infermiera prepara la siringa per il vaccino."
+    },
+    "de": {
+      "word": "die Spritze",
+      "sentence": "Die Krankenschwester bereitet die Spritze für die Impfung vor."
+    }
+  },
+  {
+    "id": "1f4b8ebb-d565-4331-ba07-749a7b9e6519",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'iniezione",
+      "sentence": "L'iniezione non è stata affatto dolorosa."
+    },
+    "de": {
+      "word": "die Injektion",
+      "sentence": "Die Injektion war überhaupt nicht schmerzhaft."
+    }
+  },
+  {
+    "id": "69eebf6b-f12c-4dce-a669-fcf146ecfffc",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il vaccino",
+      "sentence": "Il nuovo vaccino protegge da diverse malattie."
+    },
+    "de": {
+      "word": "der Impfstoff",
+      "sentence": "Der neue Impfstoff schützt vor mehreren Krankheiten."
+    }
+  },
+  {
+    "id": "b8685a7b-2d5e-4408-b5ae-26a5aef7f2ea",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "il farmaco",
+      "sentence": "Questo farmaco va assunto due volte al giorno dopo i pasti."
+    },
+    "de": {
+      "word": "das Arzneimittel",
+      "sentence": "Dieses Arzneimittel nimmt man zweimal täglich nach den Mahlzeiten ein."
+    }
+  },
+  {
+    "id": "7f7c61af-e808-42f3-b8bd-89659b44a13a",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'antibiotico",
+      "sentence": "L'antibiotico va preso per una settimana intera."
+    },
+    "de": {
+      "word": "das Antibiotikum",
+      "sentence": "Das Antibiotikum muss man eine ganze Woche nehmen."
+    }
+  },
+  {
+    "id": "20626854-863d-485c-a356-a696341d240d",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la pillola",
+      "sentence": "Prendo una pillola contro il mal di testa."
+    },
+    "de": {
+      "word": "die Pille",
+      "sentence": "Ich nehme eine Pille gegen die Kopfschmerzen."
+    }
+  },
+  {
+    "id": "3cdd141b-12c7-4b54-8d37-ef9e1b9c86be",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la pastiglia",
+      "sentence": "Sciogli la pastiglia in un bicchiere d'acqua."
+    },
+    "de": {
+      "word": "die Tablette",
+      "sentence": "Löse die Tablette in einem Glas Wasser auf."
+    }
+  },
+  {
+    "id": "8c5e7c3c-c677-4d27-9698-45b069c445b6",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la pomata",
+      "sentence": "Applica la pomata sulla parte gonfia."
+    },
+    "de": {
+      "word": "die Salbe",
+      "sentence": "Trag die Salbe auf die geschwollene Stelle auf."
+    }
+  },
+  {
+    "id": "50f3429d-2cb9-42eb-8c75-320e87c4fbb7",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la benda",
+      "sentence": "L'infermiere cambia la benda ogni giorno."
+    },
+    "de": {
+      "word": "der Verband",
+      "sentence": "Der Krankenpfleger wechselt jeden Tag den Verband."
+    }
+  },
+  {
+    "id": "c963a104-4a2e-43ed-a369-e42e5651f05e",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il gesso",
+      "sentence": "Ha portato il gesso per sei settimane."
+    },
+    "de": {
+      "word": "der Gips",
+      "sentence": "Er trug den Gips ganze sechs Wochen lang."
+    }
+  },
+  {
+    "id": "06ba4b0e-80a4-4661-bfd9-7604e4e117d7",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "le stampelle",
+      "sentence": "Dopo l'incidente cammina con le stampelle."
+    },
+    "de": {
+      "word": "die Krücken",
+      "sentence": "Nach dem Unfall geht er an Krücken."
+    }
+  },
+  {
+    "id": "9893b82d-37f7-4f1f-8c6c-37f0334c7177",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la sedia a rotelle",
+      "sentence": "Usa la sedia a rotelle da un anno."
+    },
+    "de": {
+      "word": "der Rollstuhl",
+      "sentence": "Er benutzt seit einem Jahr einen Rollstuhl."
+    }
+  },
+  {
+    "id": "ed39ef07-efff-4738-a403-f42007a0afed",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la pressione",
+      "sentence": "Il medico controlla la pressione del paziente."
+    },
+    "de": {
+      "word": "der Blutdruck",
+      "sentence": "Der Arzt kontrolliert den Blutdruck des Patienten."
+    }
+  },
+  {
+    "id": "f622ba90-bd56-4056-b3b0-16f90ad80bfd",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "ammalarsi",
+      "sentence": "In inverno i bambini si ammalano spesso."
+    },
+    "de": {
+      "word": "krank werden",
+      "sentence": "Im Winter werden die Kinder sehr oft krank."
+    }
+  },
+  {
+    "id": "2bc129c1-a7ed-41d8-ae19-250b1fac5440",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "curare",
+      "sentence": "Il medico cura la ferita con attenzione."
+    },
+    "de": {
+      "word": "behandeln",
+      "sentence": "Der Arzt behandelt die Wunde sehr sorgfältig."
+    }
+  },
+  {
+    "id": "98e7210e-3236-4202-a4b1-608f0cbed6b2",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "operare",
+      "sentence": "I chirurghi lo hanno operato d'urgenza."
+    },
+    "de": {
+      "word": "operieren",
+      "sentence": "Die Chirurgen haben ihn sofort operiert."
+    }
+  },
+  {
+    "id": "5e64bc49-ad5f-475b-94b8-087ec3b7b0b4",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "ricoverare",
+      "sentence": "Lo hanno ricoverato in ospedale per alcuni accertamenti urgenti."
+    },
+    "de": {
+      "word": "einweisen",
+      "sentence": "Man hat ihn für einige Untersuchungen ins Krankenhaus eingewiesen."
+    }
+  },
+  {
+    "id": "d6df17f4-c04d-4433-9253-97eee5441713",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "visitare",
+      "sentence": "Il medico visita il paziente ogni mattina."
+    },
+    "de": {
+      "word": "untersuchen",
+      "sentence": "Der Arzt untersucht den Patienten jeden Morgen."
+    }
+  },
+  {
+    "id": "fbe76a3e-2650-4ee1-ae06-5635ea2120cd",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "prescrivere",
+      "sentence": "Il medico mi ha prescritto un antibiotico."
+    },
+    "de": {
+      "word": "verschreiben",
+      "sentence": "Der Arzt hat mir ein Antibiotikum verschrieben."
+    }
+  },
+  {
+    "id": "9cc800c6-1cae-431e-8d6c-af80c178aeb9",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "medicare",
+      "sentence": "L'infermiera medica la ferita del bambino."
+    },
+    "de": {
+      "word": "versorgen",
+      "sentence": "Die Krankenschwester versorgt die Wunde des Kindes."
+    }
+  },
+  {
+    "id": "0e63c34d-10cf-493c-ac52-0755feee59c0",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "misurare la febbre",
+      "sentence": "La mamma misura la febbre al piccolo."
+    },
+    "de": {
+      "word": "Fieber messen",
+      "sentence": "Die Mutter misst dem Kleinen das Fieber."
+    }
+  },
+  {
+    "id": "1356700d-b1fc-40eb-bc45-7fb304792ba0",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "tossire",
+      "sentence": "Il bambino tossisce tutta la notte."
+    },
+    "de": {
+      "word": "husten",
+      "sentence": "Das Kind hustet die ganze Nacht."
+    }
+  },
+  {
+    "id": "a3f97b84-77a8-45a3-8b38-aaa1131ee725",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "starnutire",
+      "sentence": "Quando c'è polvere starnutisco subito."
+    },
+    "de": {
+      "word": "niesen",
+      "sentence": "Bei Staub muss ich sofort niesen."
+    }
+  },
+  {
+    "id": "ecaa9367-c9eb-4afa-9b9d-3d5f3524282b",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "sanguinare",
+      "sentence": "La ferita ha smesso di sanguinare."
+    },
+    "de": {
+      "word": "bluten",
+      "sentence": "Die Wunde hat endlich aufgehört zu bluten."
+    }
+  },
+  {
+    "id": "71ae68a9-daaa-4809-87ac-a28af12a2225",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "svenire",
+      "sentence": "Per il caldo è svenuta in strada."
+    },
+    "de": {
+      "word": "ohnmächtig werden",
+      "sentence": "Wegen der Hitze wurde sie auf der Strasse ohnmächtig."
+    }
+  },
+  {
+    "id": "612edc2b-33b1-4656-80c4-fcf9920aa4ad",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "vomitare",
+      "sentence": "Il bambino ha vomitato subito dopo cena."
+    },
+    "de": {
+      "word": "sich übergeben",
+      "sentence": "Das Kind hat sich nach dem Essen übergeben."
+    }
+  },
+  {
+    "id": "16054293-36ed-4eec-ba47-63fa7a99ea12",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "riposare",
+      "sentence": "Dopo la malattia devi riposare bene."
+    },
+    "de": {
+      "word": "sich ausruhen",
+      "sentence": "Nach der Krankheit musst du dich gut ausruhen."
+    }
+  },
+  {
+    "id": "abb498a7-8fba-4337-b454-43c52caeb42a",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "sentirsi male",
+      "sentence": "Se ti senti male, chiama subito il medico."
+    },
+    "de": {
+      "word": "sich schlecht fühlen",
+      "sentence": "Wenn du dich schlecht fühlst, ruf sofort den Arzt."
+    }
+  },
+  {
+    "id": "56ea87fa-3810-4437-8963-c1679315721d",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "dimettere",
+      "sentence": "Lo hanno dimesso dall'ospedale già dopo soli tre giorni."
+    },
+    "de": {
+      "word": "entlassen",
+      "sentence": "Man hat ihn nach nur drei Tagen aus dem Krankenhaus entlassen."
+    }
+  },
+  {
+    "id": "a435e8c1-f6f5-4a52-98db-871e85040f62",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "malato",
+      "sentence": "Mio figlio è malato e resta a casa."
+    },
+    "de": {
+      "word": "krank",
+      "sentence": "Mein Sohn ist krank und bleibt zu Hause."
+    }
+  },
+  {
+    "id": "85c07627-1c01-42b8-89e0-8cac35a3f3e5",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "guarito",
+      "sentence": "Dopo una settimana era completamente guarito."
+    },
+    "de": {
+      "word": "genesen",
+      "sentence": "Nach einer Woche war er vollständig genesen."
+    }
+  },
+  {
+    "id": "24ccf58f-b49b-48c9-a042-98468dfbc32e",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "contagioso",
+      "sentence": "Il morbillo è una malattia molto contagiosa."
+    },
+    "de": {
+      "word": "ansteckend",
+      "sentence": "Masern sind eine sehr ansteckende Krankheit."
+    }
+  },
+  {
+    "id": "ee22270a-a688-47a7-8d4e-56cd27a7c110",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "cronico",
+      "sentence": "Soffre di una malattia cronica al cuore."
+    },
+    "de": {
+      "word": "chronisch",
+      "sentence": "Er leidet an einer chronischen Herzkrankheit."
+    }
+  },
+  {
+    "id": "650364c4-8fc7-4e0c-8d64-602a76d0dd55",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "ferito",
+      "sentence": "Nell'incidente due persone sono rimaste ferite."
+    },
+    "de": {
+      "word": "verletzt",
+      "sentence": "Bei dem Unfall wurden zwei Personen verletzt."
+    }
+  },
+  {
+    "id": "a46a1933-cfbb-4dfd-af75-ee592ab32298",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "sano",
+      "sentence": "Con una dieta equilibrata resti sano a lungo."
+    },
+    "de": {
+      "word": "gesund",
+      "sentence": "Mit einer ausgewogenen Ernährung bleibst du lange gesund."
+    }
+  },
+  {
+    "id": "c67088c4-6188-4384-9f2e-b5861262264f",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "debole",
+      "sentence": "Da bambino era un tipo piuttosto debole."
+    },
+    "de": {
+      "word": "schwach",
+      "sentence": "Als Kind war er ein eher schwacher Typ."
     }
   }
 ]
