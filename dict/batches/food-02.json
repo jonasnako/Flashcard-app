@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "5a538698-7548-465f-9a0b-3b59f8971e8c",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il pasto",
+      "sentence": "Il pranzo è il pasto principale della giornata."
+    },
+    "de": {
+      "word": "die Mahlzeit",
+      "sentence": "Das Mittagessen ist die wichtigste Mahlzeit des Tages."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e2b6d1d9-5bc1-4649-af93-b6cbea143e4e",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la colazione",
+      "sentence": "Faccio colazione con caffè e pane."
+    },
+    "de": {
+      "word": "das Frühstück",
+      "sentence": "Zum Frühstück trinke ich Kaffee mit Brot."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5f60e28f-5d65-406b-a410-bcac6c5a66ea",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il pranzo",
+      "sentence": "A pranzo mangiamo spesso pasta."
+    },
+    "de": {
+      "word": "das Mittagessen",
+      "sentence": "Zum Mittagessen essen wir oft Nudeln."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0386aec7-be60-46da-ad9b-a3be67223264",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la cena",
+      "sentence": "Stasera prepariamo la cena insieme."
+    },
+    "de": {
+      "word": "das Abendessen",
+      "sentence": "Heute Abend kochen wir zusammen das Abendessen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0cdbf1a9-2fdb-4d84-82ab-9b30ee6acbf6",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "lo spuntino",
+      "sentence": "Nel pomeriggio faccio uno spuntino leggero."
+    },
+    "de": {
+      "word": "der Snack",
+      "sentence": "Am Nachmittag esse ich einen leichten Snack."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bd8abb2c-08a7-4f8f-8efe-0d91beb874ca",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il menù",
+      "sentence": "Il cameriere ci porta il menù."
+    },
+    "de": {
+      "word": "die Speisekarte",
+      "sentence": "Der Kellner bringt uns die Speisekarte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5a910a89-997b-4917-964f-2cf3c8b78dca",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il conto",
+      "sentence": "Possiamo avere il conto, per favore?"
+    },
+    "de": {
+      "word": "die Rechnung",
+      "sentence": "Können wir bitte die Rechnung haben?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c285c3f5-43b4-4ad6-84d1-14d65b815da6",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "ordinare",
+      "sentence": "Abbiamo ordinato una pizza e due bibite."
+    },
+    "de": {
+      "word": "bestellen",
+      "sentence": "Wir haben eine Pizza und zwei Getränke bestellt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a7823493-bdec-46a0-a1e3-5e21793ca6bc",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "prenotare un tavolo",
+      "sentence": "Ho prenotato un tavolo per quattro persone."
+    },
+    "de": {
+      "word": "einen Tisch reservieren",
+      "sentence": "Ich habe einen Tisch für vier Personen reserviert."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "61f8ad3d-5a7d-4346-b116-75a7fb3fbb28",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la portata",
+      "sentence": "Il pranzo di nozze aveva cinque portate diverse."
+    },
+    "de": {
+      "word": "der Gang",
+      "sentence": "Das Hochzeitsessen bestand aus fünf verschiedenen Gängen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "acae4e23-2b8d-40aa-89ef-9d1fb9671592",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il primo piatto",
+      "sentence": "Come primo piatto prendo un risotto."
+    },
+    "de": {
+      "word": "der erste Gang",
+      "sentence": "Als ersten Gang nehme ich ein Risotto."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0a225667-e7fc-481c-a6f8-d1cb60fdf711",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il secondo",
+      "sentence": "Il secondo piatto è pesce con verdure."
+    },
+    "de": {
+      "word": "der Hauptgang",
+      "sentence": "Der Hauptgang besteht aus Fisch mit frischem Gemüse."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9782c1ff-c7f3-4fc4-adca-a4eaf4434b7c",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il dolce",
+      "sentence": "Come dolce abbiamo preso il tiramisù."
+    },
+    "de": {
+      "word": "die Nachspeise",
+      "sentence": "Als Nachspeise haben wir ein leckeres Tiramisu gegessen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9ef55f1b-9937-461c-a30b-bc2c302deb49",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la bevanda",
+      "sentence": "Che bevanda preferisci con il pranzo?"
+    },
+    "de": {
+      "word": "das Getränk",
+      "sentence": "Welches Getränk möchtest du zum Essen?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "054c940a-ddb7-4198-b457-8b2fbd2859b3",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il cuoco",
+      "sentence": "Il cuoco prepara un piatto speciale."
+    },
+    "de": {
+      "word": "der Koch",
+      "sentence": "Der Koch bereitet ein besonderes Gericht zu."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0a21a1e5-c976-4cea-9ff0-ec1e3377f416",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il pane",
+      "sentence": "Compro il pane fresco ogni mattina."
+    },
+    "de": {
+      "word": "das Brot",
+      "sentence": "Ich kaufe jeden Morgen frisches Brot."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5e98253d-13b8-49ca-82c6-264422605a84",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la pasta",
+      "sentence": "La pasta è pronta in dieci minuti."
+    },
+    "de": {
+      "word": "die Nudeln",
+      "sentence": "Die Nudeln sind in zehn Minuten fertig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5653bd10-c5bc-42ac-8e13-b33782a2b7c0",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la torta",
+      "sentence": "Ho fatto una torta al cioccolato."
+    },
+    "de": {
+      "word": "die Torte",
+      "sentence": "Ich habe eine Schokoladentorte gebacken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b108701b-528d-4c80-b38e-0973ff62bce4",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "i biscotti",
+      "sentence": "I bambini adorano i biscotti fatti in casa."
+    },
+    "de": {
+      "word": "die Kekse",
+      "sentence": "Die Kinder lieben selbst gemachte Kekse."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2fe748be-3890-471c-a190-dd422af129dd",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il lievito",
+      "sentence": "Senza lievito il pane non cresce bene."
+    },
+    "de": {
+      "word": "die Hefe",
+      "sentence": "Ohne Hefe geht der Teig nicht richtig auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e8bbda1c-dbde-4494-9814-41954bf8393f",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "l'impasto",
+      "sentence": "Lascio riposare l'impasto per circa un'ora."
+    },
+    "de": {
+      "word": "der Teig",
+      "sentence": "Ich lasse den Teig etwa eine Stunde ruhen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a1c2aeaa-0eb1-42dd-b37d-17d1eb9dafe4",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la carne",
+      "sentence": "Non mangio carne, sono vegetariana."
+    },
+    "de": {
+      "word": "das Fleisch",
+      "sentence": "Ich esse kein Fleisch, ich bin Vegetarierin."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0c56436f-0bef-4aa3-b510-b0b0b21f126b",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il manzo",
+      "sentence": "Il manzo va cotto a fuoco lento."
+    },
+    "de": {
+      "word": "das Rindfleisch",
+      "sentence": "Rindfleisch muss man bei niedriger Hitze garen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0f824b08-22b5-4da4-ad1a-2127e8de7497",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la bistecca",
+      "sentence": "Vorrei una bistecca ben cotta."
+    },
+    "de": {
+      "word": "das Steak",
+      "sentence": "Ich hätte gern ein gut durchgebratenes Steak."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "40643466-413a-4f1b-856d-371813465ef5",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la salsiccia",
+      "sentence": "Alla griglia mettiamo salsicce e verdure."
+    },
+    "de": {
+      "word": "die Wurst",
+      "sentence": "Auf den Grill legen wir Würste und Gemüse."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "29df4ac6-a299-4d45-aa7f-d2aae19f0990",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il salmone",
+      "sentence": "Il salmone affumicato è molto saporito."
+    },
+    "de": {
+      "word": "der Lachs",
+      "sentence": "Geräucherter Lachs schmeckt wirklich sehr gut."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fcae772c-827c-44e4-932e-b26623700994",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il tonno",
+      "sentence": "Metto il tonno nell'insalata."
+    },
+    "de": {
+      "word": "der Thunfisch",
+      "sentence": "Ich gebe Thunfisch in den Salat."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "32b7e6b9-39c9-4011-926b-35d33f527581",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "i frutti di mare",
+      "sentence": "Questa zuppa contiene molti frutti di mare freschi."
+    },
+    "de": {
+      "word": "die Meeresfrüchte",
+      "sentence": "Diese Suppe enthält viele verschiedene frische Meeresfrüchte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "959ae809-bef3-4e61-b9ac-5f9cb680133f",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il latte",
+      "sentence": "Bevo un bicchiere di latte caldo."
+    },
+    "de": {
+      "word": "die Milch",
+      "sentence": "Ich trinke ein Glas warme Milch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "142c1716-529e-4a2c-b737-c8fd3044ba9f",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il formaggio",
+      "sentence": "Questo formaggio viene dalla Sardegna."
+    },
+    "de": {
+      "word": "der Käse",
+      "sentence": "Dieser Käse kommt aus Sardinien."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5dc0afd8-7e0c-4750-b57e-bf3a0acec08d",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il burro",
+      "sentence": "Spalmo il burro sul pane tostato."
+    },
+    "de": {
+      "word": "die Butter",
+      "sentence": "Ich streiche Butter auf das geröstete Brot."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "78414f2d-081a-410e-90db-d9b73c00ad2c",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "lo yogurt",
+      "sentence": "A colazione mangio yogurt con frutta."
+    },
+    "de": {
+      "word": "der Joghurt",
+      "sentence": "Zum Frühstück esse ich Joghurt mit Obst."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "990c2437-9e8a-4737-90da-c0746240d43b",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la verdura",
+      "sentence": "Mangia più verdura e meno carne."
+    },
+    "de": {
+      "word": "das Gemüse",
+      "sentence": "Iss mehr Gemüse und weniger Fleisch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e8d7debf-30a5-44fa-bd89-947608b976ee",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la frutta",
+      "sentence": "La frutta di stagione costa meno."
+    },
+    "de": {
+      "word": "das Obst",
+      "sentence": "Obst der Saison ist billiger."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0e665493-7491-4a36-abba-ace1d9500343",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "i funghi",
+      "sentence": "In autunno raccogliamo i funghi nel bosco."
+    },
+    "de": {
+      "word": "die Pilze",
+      "sentence": "Im Herbst sammeln wir Pilze im Wald."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1e59f668-0db2-4b7e-bbc4-5ae9d3550ac3",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la zucchina",
+      "sentence": "Le zucchine grigliate sono un ottimo contorno."
+    },
+    "de": {
+      "word": "die Zucchini",
+      "sentence": "Gegrillte Zucchini sind eine gute Beilage."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5fbd6e36-d27d-4ad7-848e-0884fd74ca64",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la melanzana",
+      "sentence": "La melanzana si cuoce al forno."
+    },
+    "de": {
+      "word": "die Aubergine",
+      "sentence": "Die Aubergine wird im Ofen gegart."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "332fea5c-63ae-4c8b-a0be-ff4db4838112",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il peperone",
+      "sentence": "Taglio il peperone a striscioline sottili."
+    },
+    "de": {
+      "word": "die Paprika",
+      "sentence": "Ich schneide die Paprika in dünne Streifen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e7dbdcdd-fd76-4fa0-a834-5cc786cad1a6",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "l'insalata",
+      "sentence": "Condisco l'insalata con olio e sale."
+    },
+    "de": {
+      "word": "der Salat",
+      "sentence": "Ich mache den Salat mit Öl an."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8897ef03-83a2-46ae-812f-0c034312e145",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la mela",
+      "sentence": "Ogni giorno mangio una mela rossa."
+    },
+    "de": {
+      "word": "der Apfel",
+      "sentence": "Jeden Tag esse ich einen roten Apfel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d58544bc-4e74-4e1b-8519-d293c4670a39",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "l'arancia",
+      "sentence": "Spremo un'arancia per la spremuta."
+    },
+    "de": {
+      "word": "die Orange",
+      "sentence": "Ich presse eine Orange für den Saft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7cd0d87e-0117-448a-a6d0-84a40011e137",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il limone",
+      "sentence": "Aggiungo il succo di limone all'acqua."
+    },
+    "de": {
+      "word": "die Zitrone",
+      "sentence": "Ich gebe etwas Zitronensaft ins Wasser."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ff8b57b1-bf16-46ba-b49e-fefa26a73c13",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la banana",
+      "sentence": "La banana è ricca di potassio."
+    },
+    "de": {
+      "word": "die Banane",
+      "sentence": "Die Banane enthält sehr viel Kalium."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "47671ffa-a2be-4e98-8d03-22ecf397a878",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la ciliegia",
+      "sentence": "In estate compro le ciliegie mature."
+    },
+    "de": {
+      "word": "die Kirsche",
+      "sentence": "Im Sommer kaufe ich reife Kirschen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "83aa7431-6589-4096-ac6f-365e2d42563b",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il vino",
+      "sentence": "Con la carne beviamo vino rosso."
+    },
+    "de": {
+      "word": "der Wein",
+      "sentence": "Zum Fleisch trinken wir einen Rotwein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2105765b-3e8a-4f7b-a531-10d4958f6cbd",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "la birra",
+      "sentence": "Una birra fresca d'estate è perfetta."
+    },
+    "de": {
+      "word": "das Bier",
+      "sentence": "Ein kaltes Bier im Sommer ist perfekt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0a161ce2-1307-476b-b6ec-74328334ff75",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il succo",
+      "sentence": "I bambini bevono succo di mela."
+    },
+    "de": {
+      "word": "der Saft",
+      "sentence": "Die Kinder trinken Apfelsaft zum Frühstück."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e36df06d-464d-4d1d-a6de-5bf1d730e64c",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "bollire",
+      "sentence": "Fai bollire l'acqua prima di aggiungere la pasta."
+    },
+    "de": {
+      "word": "kochen",
+      "sentence": "Lass das Wasser kochen, bevor du die Nudeln zugibst."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a26a16e5-7f98-49a4-80b0-4eeb5879f705",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "arrostire",
+      "sentence": "Arrostisco il pollo in forno per un'ora."
+    },
+    "de": {
+      "word": "braten",
+      "sentence": "Ich brate das Hähnchen eine Stunde im Ofen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d0683a23-3916-49d7-8e10-e8e5d465e9cc",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "scolare",
+      "sentence": "Scola la pasta e aggiungi il sugo."
+    },
+    "de": {
+      "word": "abgiessen",
+      "sentence": "Giess die Nudeln ab und füge die Sauce hinzu."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7a0c67b8-6abf-4e45-88a8-76c39a5b6ef4",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "dolce",
+      "sentence": "Questo dessert è troppo dolce per me."
+    },
+    "de": {
+      "word": "süss",
+      "sentence": "Dieser Nachtisch ist mir viel zu süss."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a2a1e6cf-265b-4111-a850-f8767be7efab",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "salato",
+      "sentence": "La minestra è troppo salata oggi."
+    },
+    "de": {
+      "word": "salzig",
+      "sentence": "Die Suppe ist heute leider zu salzig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ba7eccb8-4cf8-474e-be2a-1c9763c3af11",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "amaro",
+      "sentence": "Il caffè senza zucchero è amaro."
+    },
+    "de": {
+      "word": "bitter",
+      "sentence": "Kaffee ohne Zucker schmeckt sehr bitter."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d4cace75-9b39-42ac-a2ed-f6d01f323954",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "acerbo",
+      "sentence": "Questa frutta è ancora acerba, aspetta qualche giorno."
+    },
+    "de": {
+      "word": "unreif",
+      "sentence": "Dieses Obst ist noch unreif, warte ein paar Tage."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e6223847-e164-4f45-875f-0269173095e4",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "crudo",
+      "sentence": "Il prosciutto crudo è una specialità italiana."
+    },
+    "de": {
+      "word": "roh",
+      "sentence": "Roher Schinken ist eine echte italienische Spezialität."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "82b076eb-4ca5-4c2b-81f2-c3041682f5ac",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "saporito",
+      "sentence": "Con le spezie il piatto diventa più saporito."
+    },
+    "de": {
+      "word": "schmackhaft",
+      "sentence": "Mit Gewürzen wird das Gericht viel schmackhafter."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "53cf64dc-2bf5-47fd-bead-980343429165",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "l'ingrediente",
+      "sentence": "Leggo tutti gli ingredienti sulla confezione."
+    },
+    "de": {
+      "word": "die Zutat",
+      "sentence": "Ich lese alle Zutaten auf der Verpackung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9444ca36-483a-4867-ba29-eef8fcf75853",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la spezia",
+      "sentence": "Questa cucina usa molte spezie profumate."
+    },
+    "de": {
+      "word": "das Gewürz",
+      "sentence": "Diese Küche verwendet viele duftende Gewürze."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d804a03c-975f-4541-941a-5ee9990a3cfd",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "il sugo",
+      "sentence": "Il sugo di pomodoro cuoce lentamente."
+    },
+    "de": {
+      "word": "die Sauce",
+      "sentence": "Die Tomatensauce kocht langsam auf dem Herd."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4ef1bd27-ee67-414f-b38f-af5be86f529e",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "vegetariano",
+      "sentence": "Al ristorante offrono molti piatti vegetariani."
+    },
+    "de": {
+      "word": "vegetarisch",
+      "sentence": "Im Restaurant gibt es viele vegetarische Gerichte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3fc7b412-3745-468a-85ca-ada5f99d8b18",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la porzione",
+      "sentence": "La porzione era troppo grande per me."
+    },
+    "de": {
+      "word": "die Portion",
+      "sentence": "Die Portion war für mich viel zu gross."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1753077e-a9e4-4813-b2b5-d79cd9690460",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la dieta",
+      "sentence": "Il medico mi ha consigliato una dieta equilibrata."
+    },
+    "de": {
+      "word": "die Diät",
+      "sentence": "Der Arzt hat mir eine ausgewogene Diät empfohlen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e502e7eb-4f0c-48a6-baf2-ba93d4640bc5",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il digiuno",
+      "sentence": "Prima dell'esame del sangue è richiesto il digiuno."
+    },
+    "de": {
+      "word": "das Fasten",
+      "sentence": "Vor der Blutuntersuchung ist ein Fasten erforderlich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b3ac7c5f-87a2-4981-93b8-b1648707ff68",
+    "level": "A2",
+    "topic": "Food",
+    "it": {
+      "word": "l'aperitivo",
+      "sentence": "Prendiamo un aperitivo prima di cena."
+    },
+    "de": {
+      "word": "der Aperitif",
+      "sentence": "Wir trinken einen Aperitif vor dem Essen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]
