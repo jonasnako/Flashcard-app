@@ -23,7 +23,7 @@ of which territories exist; all word choices and example sentences are our own.
 | **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 91 ✓ | +~25 (Körperpflege, Notruf) |
 | **Education** | Lernen, Sprache, Schule/Universität/Ausbildung, Fächer | 94 ✓ | +~15 top-up (spiegare, errore, domanda/risposta) |
 | **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | 78 ✓ | +~35 top-up |
-| **Culture** | Lektüre, Musik, Kunst, Theater und Film | — | ~100 |
+| **Culture** | Lektüre, Musik, Kunst, Theater und Film | 73 ✓ | +~25 top-up |
 | **Freizeit** | Feste feiern, Feiertage, Ausgehen, Sport, Hobbys | — | ~110 |
 | **Shopping** | Einkaufen: Auswählen/Bezahlen, Geschäfte | — | ~80 |
 | **Food** | Ernährung (all subchapters) + Restaurant und Café | 96 ✓ | +~45 |

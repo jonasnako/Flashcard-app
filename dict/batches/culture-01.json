@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "00c1ebc5-4830-4111-9506-17b2de10f870",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "il libro",
+      "sentence": "Sto leggendo un libro molto avvincente."
+    },
+    "de": {
+      "word": "das Buch",
+      "sentence": "Ich lese gerade ein sehr spannendes Buch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f29c2a8a-6f71-44ef-9ad6-097df72d146c",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il romanzo",
+      "sentence": "Questo romanzo racconta una toccante storia d'amore."
+    },
+    "de": {
+      "word": "der Roman",
+      "sentence": "Dieser Roman erzählt eine sehr bewegende Liebesgeschichte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7595afc4-4624-42db-bf28-53c2b3dfa0ce",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la poesia",
+      "sentence": "Ha imparato a memoria una poesia di Leopardi."
+    },
+    "de": {
+      "word": "das Gedicht",
+      "sentence": "Sie hat ein Gedicht von Leopardi auswendig gelernt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ee1907cf-37eb-4356-afb1-93f51f905bc5",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il racconto",
+      "sentence": "Ho letto un breve racconto prima di dormire."
+    },
+    "de": {
+      "word": "die Erzählung",
+      "sentence": "Ich habe vor dem Schlafen eine kurze Erzählung gelesen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3f63b147-f76f-476e-b345-e5a37c40f96e",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "l'autore",
+      "sentence": "Chi è l'autore di questo libro?"
+    },
+    "de": {
+      "word": "der Autor",
+      "sentence": "Wer ist der Autor dieses Buches?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5acf802a-3933-4d1a-aa65-b842ca6cf663",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "lo scrittore",
+      "sentence": "Lo scrittore firma le copie dopo la presentazione."
+    },
+    "de": {
+      "word": "der Schriftsteller",
+      "sentence": "Der Schriftsteller signiert die Exemplare nach der Vorstellung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "14764ec9-9aca-478d-a394-613ef77108f5",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il poeta",
+      "sentence": "Il poeta descrive la natura con parole semplici."
+    },
+    "de": {
+      "word": "der Dichter",
+      "sentence": "Der Dichter beschreibt die Natur mit einfachen Worten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "53c3fe29-e7a3-40c4-abb5-eac1803fcb93",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il lettore",
+      "sentence": "Questo giallo tiene il lettore col fiato sospeso."
+    },
+    "de": {
+      "word": "der Leser",
+      "sentence": "Dieser Krimi hält den Leser in Atem."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5e7a5e14-8171-4b5c-a1d6-63e9587d6e65",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la trama",
+      "sentence": "La trama del film è piuttosto complicata."
+    },
+    "de": {
+      "word": "die Handlung",
+      "sentence": "Die Handlung des Films ist ziemlich kompliziert."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6d0ecb57-55b8-4b91-ba2d-3d5a64cda536",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il personaggio",
+      "sentence": "Il personaggio principale è un giovane medico."
+    },
+    "de": {
+      "word": "die Figur",
+      "sentence": "Die Hauptfigur ist ein junger Arzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "30c5b05b-90d6-400f-8d2e-330d60e9559d",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "il capitolo",
+      "sentence": "Ho letto solo il primo capitolo del libro."
+    },
+    "de": {
+      "word": "das Kapitel",
+      "sentence": "Ich habe nur das erste Kapitel des Buches gelesen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d1f16c76-6735-4cff-9fa6-c8654959350c",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "la pagina",
+      "sentence": "A che pagina siamo arrivati ieri?"
+    },
+    "de": {
+      "word": "die Buchseite",
+      "sentence": "Bis zu welcher Buchseite sind wir gestern gekommen?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3645505f-9fc1-4bcd-afe7-806eb7f2a641",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la copertina",
+      "sentence": "La copertina del libro è molto colorata."
+    },
+    "de": {
+      "word": "der Einband",
+      "sentence": "Der Einband des Buches ist sehr bunt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7050eeba-a6b8-475c-abb6-533ce01ce82b",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "la fiaba",
+      "sentence": "La nonna racconta una fiaba ogni sera."
+    },
+    "de": {
+      "word": "das Märchen",
+      "sentence": "Die Grossmutter erzählt jeden Abend ein Märchen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8ee95897-318b-42c9-be4b-8468f9c340e9",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la casa editrice",
+      "sentence": "La casa editrice pubblica soprattutto libri per bambini."
+    },
+    "de": {
+      "word": "der Verlag",
+      "sentence": "Der Verlag veröffentlicht vor allem Bücher für Kinder."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5e8cca56-756f-4e50-8e1e-b4a53349a8a7",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la biografia",
+      "sentence": "La biografia dell'artista è uscita l'anno scorso."
+    },
+    "de": {
+      "word": "die Biografie",
+      "sentence": "Die Biografie des Künstlers ist letztes Jahr erschienen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9b5d2a6e-f283-4838-a194-09ee1a159bbb",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "la musica",
+      "sentence": "Ascolto sempre musica quando cucino."
+    },
+    "de": {
+      "word": "die Musik",
+      "sentence": "Ich höre immer Musik, wenn ich koche."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5a0ac62f-d5f0-4898-80b4-ac4673df0605",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "la canzone",
+      "sentence": "Questa canzone mi ricorda l'estate scorsa."
+    },
+    "de": {
+      "word": "das Lied",
+      "sentence": "Dieses Lied erinnert mich an den letzten Sommer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b37c7abc-9f28-4dde-b4ec-7b742da83959",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "il cantante",
+      "sentence": "Il cantante ha una voce potente."
+    },
+    "de": {
+      "word": "der Sänger",
+      "sentence": "Der Sänger hat eine kräftige Stimme."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ef71ef7a-e7bf-4d9b-8af5-8fe383dd3486",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il musicista",
+      "sentence": "Il musicista si esibisce ogni venerdì in un locale."
+    },
+    "de": {
+      "word": "der Musiker",
+      "sentence": "Der Musiker tritt jeden Freitag in einer Bar auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0042fd4b-758b-427a-9c80-372081330290",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "lo strumento",
+      "sentence": "Sai suonare bene qualche strumento musicale classico?"
+    },
+    "de": {
+      "word": "das Instrument",
+      "sentence": "Kannst du irgendein klassisches Musikinstrument gut spielen?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e0e5fe06-8350-41b0-a239-f52cb7219dcf",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "l'orchestra",
+      "sentence": "L'orchestra ha suonato una sinfonia di Beethoven."
+    },
+    "de": {
+      "word": "das Orchester",
+      "sentence": "Das Orchester hat eine Sinfonie von Beethoven gespielt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f8374493-9a0d-4080-acde-550dc40605f7",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il coro",
+      "sentence": "Canta in un coro tutte le domeniche."
+    },
+    "de": {
+      "word": "der Chor",
+      "sentence": "Sie singt jeden Sonntag in einem Chor."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "33751a6a-9c97-4ee1-9b92-f7410897ba82",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la melodia",
+      "sentence": "La melodia di questa canzone è dolce e triste."
+    },
+    "de": {
+      "word": "die Melodie",
+      "sentence": "Die Melodie dieses Liedes ist süss und traurig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "305f4090-cb19-464f-90f1-971ef46fa995",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il ritmo",
+      "sentence": "Il ritmo di questa musica invita a ballare."
+    },
+    "de": {
+      "word": "der Rhythmus",
+      "sentence": "Der Rhythmus dieser Musik lädt zum Tanzen ein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "959c89bd-ad0e-4430-a963-9ae01420d21f",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "il pianoforte",
+      "sentence": "Mia figlia studia pianoforte da tre anni."
+    },
+    "de": {
+      "word": "das Klavier",
+      "sentence": "Meine Tochter lernt seit drei Jahren Klavier."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6aa419f4-06dc-4353-85c9-e5e48797404a",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "la chitarra",
+      "sentence": "Suona la chitarra intorno al fuoco."
+    },
+    "de": {
+      "word": "die Gitarre",
+      "sentence": "Er spielt am Lagerfeuer Gitarre."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c5e7b83a-2b0b-41ca-819c-5526ba460e02",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il violino",
+      "sentence": "Il violino è uno strumento difficile da imparare."
+    },
+    "de": {
+      "word": "die Geige",
+      "sentence": "Die Geige ist ein schwer zu lernendes Instrument."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a2fab7bc-18ad-4c74-b46a-e1d14a8b7f82",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la batteria",
+      "sentence": "Il ragazzo suona la batteria in una band."
+    },
+    "de": {
+      "word": "das Schlagzeug",
+      "sentence": "Der Junge spielt in einer Band Schlagzeug."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b3784ee9-1dab-4719-872b-28b9e35aaa4c",
+    "level": "B2",
+    "topic": "Culture",
+    "it": {
+      "word": "il compositore",
+      "sentence": "Il compositore ha scritto la colonna sonora del film."
+    },
+    "de": {
+      "word": "der Komponist",
+      "sentence": "Der Komponist hat die gesamte Musik für diesen Film geschrieben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8761d0db-023b-4bbe-995d-3ab18f8640ea",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il brano",
+      "sentence": "Il primo brano dell'album è il più famoso."
+    },
+    "de": {
+      "word": "das Musikstück",
+      "sentence": "Das erste Musikstück des Albums ist das berühmteste."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d4cecd75-5588-473d-8929-656bf5f9b240",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "l'album",
+      "sentence": "Il nuovo album esce il mese prossimo."
+    },
+    "de": {
+      "word": "das Album",
+      "sentence": "Das neue Album erscheint nächsten Monat."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5a5c4cf3-7d18-453b-847f-8b6ba367951b",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il palco",
+      "sentence": "La cantante è salita sul palco tra gli applausi."
+    },
+    "de": {
+      "word": "die Bühne",
+      "sentence": "Die Sängerin betrat unter Applaus die Bühne."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2ebf529e-f229-4429-9cf1-7d47111b3d53",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "l'arte",
+      "sentence": "L'arte moderna non è facile da capire."
+    },
+    "de": {
+      "word": "die Kunst",
+      "sentence": "Moderne Kunst ist nicht leicht zu verstehen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f624ea2c-5e71-4302-a66b-590b598973a0",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il dipinto",
+      "sentence": "Questo antico dipinto risale al primo Rinascimento."
+    },
+    "de": {
+      "word": "das Gemälde",
+      "sentence": "Dieses Gemälde stammt aus der frühen Renaissance."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1160a11b-4b3d-457c-bd32-3092658c165a",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la pittura",
+      "sentence": "La pittura a olio richiede molta pazienza."
+    },
+    "de": {
+      "word": "die Malerei",
+      "sentence": "Die Ölmalerei erfordert sehr viel Geduld und Übung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "81345a16-9bf9-4a19-915e-86938cb3d214",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "il pittore",
+      "sentence": "Il pittore lavora nel suo studio luminoso."
+    },
+    "de": {
+      "word": "der Maler",
+      "sentence": "Der Maler arbeitet in seinem hellen Atelier."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e27bdbc9-7825-44e5-bf5b-76e1b4a5b551",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la scultura",
+      "sentence": "La scultura di marmo pesa diverse tonnellate."
+    },
+    "de": {
+      "word": "die Skulptur",
+      "sentence": "Die grosse Marmorskulptur wiegt gut mehrere Tonnen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "765755d3-11e4-4fcb-ba1b-8d867c7e683d",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "lo scultore",
+      "sentence": "Lo scultore modella l'argilla con grande precisione."
+    },
+    "de": {
+      "word": "der Bildhauer",
+      "sentence": "Der Bildhauer formt den Ton mit grosser Genauigkeit."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c5339128-e711-4a8b-ab25-fbac09aabc6b",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "la statua",
+      "sentence": "Nella piazza c'è una statua di bronzo."
+    },
+    "de": {
+      "word": "die Statue",
+      "sentence": "Auf dem Platz steht eine Statue aus Bronze."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "895265b8-725a-4047-906d-df3d906134a3",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la galleria",
+      "sentence": "La galleria d'arte ospita una nuova mostra."
+    },
+    "de": {
+      "word": "die Galerie",
+      "sentence": "Die Kunstgalerie zeigt eine neue Ausstellung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "56316274-28f0-42db-bdb9-61d1bb7f0cfb",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il capolavoro",
+      "sentence": "Questo quadro è considerato il suo capolavoro."
+    },
+    "de": {
+      "word": "das Meisterwerk",
+      "sentence": "Dieses Bild gilt als sein grösstes Meisterwerk."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c074bc48-6934-4533-9fc2-686fc6068137",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il pennello",
+      "sentence": "Pulisce i pennelli dopo ogni sessione di pittura."
+    },
+    "de": {
+      "word": "der Pinsel",
+      "sentence": "Er reinigt die Pinsel nach jeder Malsitzung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8dab131f-599f-4e2f-8625-049313c9569a",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la tela",
+      "sentence": "L'artista stende il colore sulla tela bianca."
+    },
+    "de": {
+      "word": "die Leinwand",
+      "sentence": "Der Künstler trägt die Farbe auf die weisse Leinwand auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "72113cfc-95ab-4b31-a136-87fe9d71e9bf",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la cornice",
+      "sentence": "Ha messo il disegno in una cornice dorata."
+    },
+    "de": {
+      "word": "der Rahmen",
+      "sentence": "Sie hat die Zeichnung in einen goldenen Rahmen gesetzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "19b0c2a6-92e5-4093-9b0e-58690c1259d1",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "l'artista",
+      "sentence": "L'artista espone le sue opere in centro."
+    },
+    "de": {
+      "word": "der Künstler",
+      "sentence": "Der Künstler stellt seine Werke im Zentrum aus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "693191a1-3d76-477f-a94a-cab7a3634dd2",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "il film",
+      "sentence": "Il film dell'orrore mi ha spaventato molto."
+    },
+    "de": {
+      "word": "der Film",
+      "sentence": "Der Horrorfilm hat mich sehr erschreckt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8a99ec1b-0491-407c-9399-06281e3913c9",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "il cinema",
+      "sentence": "Andiamo al cinema questo fine settimana?"
+    },
+    "de": {
+      "word": "das Kino",
+      "sentence": "Gehen wir dieses Wochenende ins Kino?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2c65ddaa-b06c-4d0b-ad3d-b26057fe4776",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "l'attore",
+      "sentence": "L'attore ha vinto un premio importante."
+    },
+    "de": {
+      "word": "der Schauspieler",
+      "sentence": "Der Schauspieler hat einen wichtigen Preis gewonnen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a282df96-f3b8-47f6-82c3-cda44e815aff",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "l'attrice",
+      "sentence": "L'attrice recita in questo teatro da anni."
+    },
+    "de": {
+      "word": "die Schauspielerin",
+      "sentence": "Die Schauspielerin spielt seit Jahren an diesem Theater."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "da6dbece-a594-4499-be02-2b258d7195a3",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il regista",
+      "sentence": "Il regista ha girato il film in Sicilia."
+    },
+    "de": {
+      "word": "der Regisseur",
+      "sentence": "Der Regisseur hat den Film in Sizilien gedreht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "02f4160c-ae3c-4f25-9fb3-5c799702699b",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la scena",
+      "sentence": "La scena finale è davvero commovente."
+    },
+    "de": {
+      "word": "die Szene",
+      "sentence": "Die Schlussszene ist wirklich sehr rührend."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "635fd473-0d4c-4328-9ff3-500750a96eba",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il palcoscenico",
+      "sentence": "Gli attori entrano sul palcoscenico al buio."
+    },
+    "de": {
+      "word": "die Theaterbühne",
+      "sentence": "Die Schauspieler betreten die Theaterbühne im Dunkeln."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "41c570f1-96cc-4e2f-b469-75b578a13c1a",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la commedia",
+      "sentence": "Ieri sera abbiamo riso a una commedia brillante."
+    },
+    "de": {
+      "word": "die Komödie",
+      "sentence": "Gestern Abend haben wir bei einer brillanten Komödie gelacht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e50b0f0e-b2aa-45cd-8918-e56dd7389bf7",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la tragedia",
+      "sentence": "La tragedia greca affronta temi molto profondi."
+    },
+    "de": {
+      "word": "die Tragödie",
+      "sentence": "Die griechische Tragödie behandelt sehr tiefe Themen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a568616e-17df-4132-8e3e-5b60dd49047d",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "lo spettacolo",
+      "sentence": "Lo spettacolo comincia alle nove di sera."
+    },
+    "de": {
+      "word": "die Vorstellung",
+      "sentence": "Die Vorstellung beginnt um neun Uhr abends."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "625c7a22-58e0-46f7-8abb-e6608276a85e",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il ruolo",
+      "sentence": "Ha interpretato il ruolo del padre severo."
+    },
+    "de": {
+      "word": "die Rolle",
+      "sentence": "Er hat die Rolle des strengen Vaters gespielt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "97121d3d-c795-4bfd-96cf-4473334028c6",
+    "level": "B2",
+    "topic": "Culture",
+    "it": {
+      "word": "il copione",
+      "sentence": "Gli attori imparano il copione in poche settimane."
+    },
+    "de": {
+      "word": "das Drehbuch",
+      "sentence": "Die Schauspieler lernen das Drehbuch in wenigen Wochen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9de01466-f07e-4fb4-9807-5c9e34aa56f8",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il protagonista",
+      "sentence": "Il protagonista del romanzo è un vecchio marinaio."
+    },
+    "de": {
+      "word": "der Hauptdarsteller",
+      "sentence": "Der Hauptdarsteller des Romans ist ein alter Seemann."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f81c85fe-69fb-4d49-85b2-23cc2511e42c",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il costume",
+      "sentence": "Il costume di scena è cucito a mano."
+    },
+    "de": {
+      "word": "das Kostüm",
+      "sentence": "Das Bühnenkostüm ist von Hand genäht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "52d08eeb-e5b5-45a6-afd1-819c352813f1",
+    "level": "B2",
+    "topic": "Culture",
+    "it": {
+      "word": "il sipario",
+      "sentence": "Il sipario si apre e comincia lo spettacolo."
+    },
+    "de": {
+      "word": "der Bühnenvorhang",
+      "sentence": "Der Bühnenvorhang öffnet sich und die Vorstellung beginnt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "161a4e40-cf31-4df4-9204-a87d03e05408",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la recensione",
+      "sentence": "La recensione del film è molto positiva."
+    },
+    "de": {
+      "word": "die Kritik",
+      "sentence": "Die Kritik zu dem Film ist sehr positiv."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "00838b0f-18ae-4240-bf7d-f7b136a245dd",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il premio",
+      "sentence": "Il film ha ricevuto un premio a Venezia."
+    },
+    "de": {
+      "word": "die Auszeichnung",
+      "sentence": "Der Film hat in Venedig eine Auszeichnung erhalten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "db694184-40a0-47ea-9f6a-438ccddd4faa",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "recitare",
+      "sentence": "Da giovane recitava in una compagnia teatrale."
+    },
+    "de": {
+      "word": "schauspielern",
+      "sentence": "Als junger Mensch schauspielerte er in einer Theatergruppe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cd2ec437-160c-4c7f-856a-9333ae89645f",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "dipingere",
+      "sentence": "Le piace dipingere paesaggi di campagna."
+    },
+    "de": {
+      "word": "malen",
+      "sentence": "Sie malt gern Landschaften vom Land."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e5ad29f3-d62e-43b1-907f-0a9c080a2379",
+    "level": "B2",
+    "topic": "Culture",
+    "it": {
+      "word": "comporre",
+      "sentence": "Ha composto questa sinfonia a soli venticinque anni."
+    },
+    "de": {
+      "word": "komponieren",
+      "sentence": "Er hat diese Sinfonie mit nur fünfundzwanzig Jahren komponiert."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "72e10542-b610-4c2f-964c-49fd08cd51a7",
+    "level": "B2",
+    "topic": "Culture",
+    "it": {
+      "word": "esibirsi",
+      "sentence": "La band si esibisce stasera in un teatro storico."
+    },
+    "de": {
+      "word": "auftreten",
+      "sentence": "Die Band tritt heute Abend in einem historischen Theater auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "557bd92a-f5f1-4947-aa2d-0e794623af1e",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "interpretare",
+      "sentence": "L'attrice interpreta il personaggio con grande intensità."
+    },
+    "de": {
+      "word": "interpretieren",
+      "sentence": "Die Schauspielerin interpretiert die Figur mit grosser Intensität."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "16423fed-969d-4a33-881e-551d1c40a7b3",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "suonare",
+      "sentence": "Suona il pianoforte da quando era bambino."
+    },
+    "de": {
+      "word": "spielen",
+      "sentence": "Er spielt Klavier, seit er ein Kind war."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3f39806e-efb0-4d64-8e9c-b3fb6f47ea9b",
+    "level": "A2",
+    "topic": "Culture",
+    "it": {
+      "word": "cantare",
+      "sentence": "I bambini cantano una canzone di Natale."
+    },
+    "de": {
+      "word": "singen",
+      "sentence": "Die Kinder singen ein Weihnachtslied."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "56a08b83-48a5-4cac-b3a6-0be0b98a3738",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "scolpire",
+      "sentence": "L'artigiano scolpisce il legno con pazienza."
+    },
+    "de": {
+      "word": "meisseln",
+      "sentence": "Der Handwerker meisselt das Holz mit Geduld."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "02525ac9-88a0-48b7-b269-98f00022f8b6",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "applaudire",
+      "sentence": "Il pubblico ha applaudito in piedi per dieci minuti."
+    },
+    "de": {
+      "word": "applaudieren",
+      "sentence": "Das Publikum hat zehn Minuten lang stehend applaudiert."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]
