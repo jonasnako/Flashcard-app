@@ -1,0 +1,1490 @@
+[
+  {
+    "id": "82e276c4-4ae0-4355-99f6-1adccd6e1c08",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "il denaro",
+      "sentence": "Non porto mai molto denaro con me."
+    },
+    "de": {
+      "word": "das Geld",
+      "sentence": "Ich trage nie viel Geld bei mir."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5be6628b-b7b1-4d31-b7af-79d576463a62",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "i soldi",
+      "sentence": "Ho messo da parte i soldi per le vacanze."
+    },
+    "de": {
+      "word": "das Ersparte",
+      "sentence": "Ich habe das Ersparte für den Urlaub zurückgelegt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7d61f049-b21a-4512-b597-2cef5208882f",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "la moneta",
+      "sentence": "Ho trovato una vecchia moneta nel cassetto."
+    },
+    "de": {
+      "word": "die Münze",
+      "sentence": "Ich habe eine alte Münze in der Schublade gefunden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0685dc27-7764-49e6-8936-89e92ae111b4",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la banconota",
+      "sentence": "Il distributore non accetta banconote da cinquanta."
+    },
+    "de": {
+      "word": "der Geldschein",
+      "sentence": "Der Automat akzeptiert keine Geldscheine über fünfzig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a1a87f73-a628-424b-b999-a2082d329947",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il conto corrente",
+      "sentence": "Ho aperto un conto corrente in una nuova banca."
+    },
+    "de": {
+      "word": "das Girokonto",
+      "sentence": "Ich habe bei einer neuen Bank ein Girokonto eröffnet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b2f7b058-1ec5-4579-a5c4-365a08e64798",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "il bancomat",
+      "sentence": "Prelevo i contanti al bancomat all'angolo."
+    },
+    "de": {
+      "word": "der Geldautomat",
+      "sentence": "Ich hebe Bargeld am Geldautomaten ab."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "46ab5e8d-f653-4733-ab37-b83b7f6423df",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "la carta di credito",
+      "sentence": "Pago quasi sempre con la carta di credito."
+    },
+    "de": {
+      "word": "die Kreditkarte",
+      "sentence": "Ich zahle fast immer mit der Kreditkarte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "24644732-117e-4737-9ef0-69907eadb9c1",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il prestito",
+      "sentence": "La banca gli ha concesso un prestito importante."
+    },
+    "de": {
+      "word": "der Kredit",
+      "sentence": "Die Bank hat ihm einen grossen Kredit gewährt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1eabc7be-e7de-49f7-b44b-8e0bac928140",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "il mutuo",
+      "sentence": "Per comprare casa abbiamo acceso un mutuo trentennale."
+    },
+    "de": {
+      "word": "die Hypothek",
+      "sentence": "Für den Hauskauf haben wir eine Hypothek über dreissig Jahre aufgenommen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f62d873e-e4ee-41e7-b9fa-f2f6877788c6",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il debito",
+      "sentence": "Ha molti debiti e non riesce a pagarli."
+    },
+    "de": {
+      "word": "die Schulden",
+      "sentence": "Er hat viele Schulden und kann sie nicht zahlen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8fb2cf22-3acc-4604-a95f-c6045aa6861f",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il credito",
+      "sentence": "La ditta gode di un buon credito in banca."
+    },
+    "de": {
+      "word": "das Guthaben",
+      "sentence": "Die Firma hat bei der Bank ein gutes Guthaben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5b177d98-7c87-4ed1-ba67-db2e5e42bc2d",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "gli interessi",
+      "sentence": "Su questo prestito paghi interessi molto alti ogni mese."
+    },
+    "de": {
+      "word": "die Zinsen",
+      "sentence": "Für diesen Kredit zahlst du jeden Monat sehr hohe Zinsen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e2a4e0e2-a632-4ce9-b05b-68b32d11caae",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il risparmio",
+      "sentence": "Il risparmio delle famiglie è calato quest'anno."
+    },
+    "de": {
+      "word": "die Ersparnis",
+      "sentence": "Die Ersparnis der Haushalte ist dieses Jahr gesunken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "70c0f54d-874b-42d4-9a29-4d22530fa254",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "l'investimento",
+      "sentence": "Questo investimento comporta un rischio elevato."
+    },
+    "de": {
+      "word": "die Investition",
+      "sentence": "Diese Investition birgt ein hohes Risiko."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7c6244bb-3a01-4d94-abeb-3bcc8e8cfe37",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "il capitale",
+      "sentence": "Serve davvero molto capitale per avviare un'impresa simile oggi."
+    },
+    "de": {
+      "word": "das Kapital",
+      "sentence": "Man braucht viel Kapital, um so ein Unternehmen zu gründen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ba9d1277-abb2-4829-9360-5f0ae75020a0",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il bilancio",
+      "sentence": "L'azienda presenta il bilancio alla fine dell'anno."
+    },
+    "de": {
+      "word": "die Bilanz",
+      "sentence": "Das Unternehmen legt am Jahresende die Bilanz vor."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "45930685-d0c8-46d4-a3ad-477f8238b091",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il budget",
+      "sentence": "Il budget del progetto è già stato superato."
+    },
+    "de": {
+      "word": "das Budget",
+      "sentence": "Das Budget des Projekts wurde bereits überschritten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ac619181-d0f0-4fdc-9347-ea091abf0e66",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il guadagno",
+      "sentence": "Il guadagno di quest'anno supera le previsioni."
+    },
+    "de": {
+      "word": "der Gewinn",
+      "sentence": "Der Gewinn dieses Jahres übertrifft die Erwartungen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "497b381e-252a-4bf6-9a23-2298fd45852b",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la perdita",
+      "sentence": "La società ha registrato una grave perdita."
+    },
+    "de": {
+      "word": "der Verlust",
+      "sentence": "Die Gesellschaft hat einen schweren Verlust verzeichnet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bb72eaf2-acce-4f94-8e44-2d9a15067b95",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "il profitto",
+      "sentence": "L'obiettivo di ogni impresa è aumentare il profitto."
+    },
+    "de": {
+      "word": "der Profit",
+      "sentence": "Das Ziel jedes Unternehmens ist es, den Profit zu steigern."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a29bdf77-5cf2-46c3-bf0d-98f039266f50",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "il fatturato",
+      "sentence": "Il fatturato annuale dell'azienda è cresciuto del dieci percento."
+    },
+    "de": {
+      "word": "der Umsatz",
+      "sentence": "Der Jahresumsatz des Unternehmens ist um zehn Prozent gewachsen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "52f6758a-cb24-47df-a840-db7a384783b2",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "il costo",
+      "sentence": "Il costo della vita è aumentato molto."
+    },
+    "de": {
+      "word": "die Kosten",
+      "sentence": "Die Lebenshaltungskosten sind stark gestiegen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bace4d6f-643b-494e-822b-4a6d3573ffc2",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la valuta",
+      "sentence": "L'euro è la valuta di molti paesi europei."
+    },
+    "de": {
+      "word": "die Währung",
+      "sentence": "Der Euro ist die Währung vieler europäischer Länder."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0a60448a-6a95-4b89-a92b-b804b25cb29d",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "il cambio",
+      "sentence": "Il cambio tra euro e dollaro varia ogni giorno."
+    },
+    "de": {
+      "word": "der Wechselkurs",
+      "sentence": "Der Wechselkurs zwischen Euro und Dollar schwankt jeden Tag."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "76d2905f-12e9-4df8-9193-3c3e72e221b0",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "l'inflazione",
+      "sentence": "L'inflazione riduce ogni anno il potere d'acquisto delle famiglie."
+    },
+    "de": {
+      "word": "die Inflation",
+      "sentence": "Die Inflation senkt jedes Jahr die Kaufkraft der privaten Haushalte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d5be7917-85c5-43d9-a8d0-b434ca838a02",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la crisi",
+      "sentence": "La crisi economica ha colpito molte piccole imprese."
+    },
+    "de": {
+      "word": "die Krise",
+      "sentence": "Die Wirtschaftskrise hat viele kleine Betriebe getroffen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "59e079c5-43bf-4884-a237-af459b2b08aa",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "la recessione",
+      "sentence": "Durante la recessione molte persone hanno perso il lavoro."
+    },
+    "de": {
+      "word": "die Rezession",
+      "sentence": "Während der Rezession haben viele Menschen ihre Arbeit verloren."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d6c023f4-4ae9-4980-a66a-4028f706015e",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "la tassa",
+      "sentence": "Ogni anno pago le tasse sulla casa."
+    },
+    "de": {
+      "word": "die Steuer",
+      "sentence": "Jedes Jahr zahle ich die Steuer auf das Haus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7f15bcaa-47c3-4012-95f5-bf2413dcd4ad",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "l'imposta",
+      "sentence": "L'imposta sul reddito dipende sempre da quanto si guadagna."
+    },
+    "de": {
+      "word": "die Abgabe",
+      "sentence": "Die Einkommensabgabe hängt davon ab, wie viel du verdienst."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "03055533-1649-488e-8ca7-76a243a9d957",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la ricchezza",
+      "sentence": "La ricchezza del paese deriva dal turismo."
+    },
+    "de": {
+      "word": "der Reichtum",
+      "sentence": "Der Reichtum des Landes stammt aus dem Tourismus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "be0c2d41-efdc-4da6-8acd-eba9dac099b1",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la povertà",
+      "sentence": "Il governo vuole combattere la povertà infantile."
+    },
+    "de": {
+      "word": "die Armut",
+      "sentence": "Die Regierung will die Kinderarmut bekämpfen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b1c9cd22-9f09-4e11-8f0d-603bc30d9179",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "l'industria",
+      "sentence": "L'industria automobilistica dà lavoro a molte persone."
+    },
+    "de": {
+      "word": "die Industrie",
+      "sentence": "Die Autoindustrie gibt vielen Menschen Arbeit."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "044e3685-2bef-42da-8a2d-f30519ee3a28",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "il commercio",
+      "sentence": "Il commercio con l'estero è molto importante."
+    },
+    "de": {
+      "word": "der Handel",
+      "sentence": "Der Handel mit dem Ausland ist sehr wichtig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f35b07ca-b6ce-4aa3-81b3-bc06a732e837",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la produzione",
+      "sentence": "La produzione è aumentata dopo il nuovo impianto."
+    },
+    "de": {
+      "word": "die Produktion",
+      "sentence": "Die Produktion ist nach der neuen Anlage gestiegen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bed3d103-46b1-4c01-aab9-9e405b7c1fcc",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "il prodotto",
+      "sentence": "Questo prodotto è fatto interamente in Italia."
+    },
+    "de": {
+      "word": "das Produkt",
+      "sentence": "Dieses Produkt wird vollständig in Italien hergestellt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7220c3cd-340b-4194-b828-97b0991c9cf5",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la merce",
+      "sentence": "La merce viene consegnata entro tre giorni."
+    },
+    "de": {
+      "word": "die Ware",
+      "sentence": "Die Ware wird innerhalb von drei Tagen geliefert."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "87d8b232-cd48-4007-b295-5e20f3d8cc43",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "la domanda",
+      "sentence": "Quando la domanda cresce, anche i prezzi salgono."
+    },
+    "de": {
+      "word": "die Nachfrage",
+      "sentence": "Wenn die Nachfrage steigt, steigen auch die Preise."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "24ece2c0-9a03-4dc1-b6cc-952ff13d36d3",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "l'offerta",
+      "sentence": "Se l'offerta supera la domanda, i prezzi scendono."
+    },
+    "de": {
+      "word": "das Angebot",
+      "sentence": "Wenn das Angebot die Nachfrage übersteigt, sinken die Preise."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b547ad54-32b5-4a2b-8d3f-2ed5fa89333c",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il consumatore",
+      "sentence": "Il consumatore cerca sempre il prezzo migliore."
+    },
+    "de": {
+      "word": "der Verbraucher",
+      "sentence": "Der Verbraucher sucht immer den besten Preis."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5727f362-596e-4738-9c0c-1d2f9a1af24d",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la concorrenza",
+      "sentence": "La concorrenza tra le aziende è molto forte."
+    },
+    "de": {
+      "word": "die Konkurrenz",
+      "sentence": "Die Konkurrenz zwischen den Firmen ist sehr stark."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "63424963-a33c-4254-bfb9-06bf9a36e5d8",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il concorrente",
+      "sentence": "Il nostro concorrente ha abbassato i prezzi."
+    },
+    "de": {
+      "word": "der Wettbewerber",
+      "sentence": "Unser Wettbewerber hat die Preise gesenkt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e37d10f1-f7f2-4962-a9fe-11e0ef3ca4d7",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il fornitore",
+      "sentence": "Il fornitore consegna la merce ogni settimana."
+    },
+    "de": {
+      "word": "der Lieferant",
+      "sentence": "Der Lieferant liefert die Ware jede Woche."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8bf73da0-5c1f-45db-b06d-6f78fa0c1021",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "l'esportazione",
+      "sentence": "L'esportazione di vino è cresciuta molto."
+    },
+    "de": {
+      "word": "der Export",
+      "sentence": "Der Export von Wein ist stark gewachsen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "66e0bbc1-6eb8-49a8-b38e-4bcff4eccb4e",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "l'importazione",
+      "sentence": "L'importazione di gas dipende da altri paesi."
+    },
+    "de": {
+      "word": "der Import",
+      "sentence": "Der Import von Gas hängt von anderen Ländern ab."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3c1674a1-17e6-43f6-a4fb-9aec8a271d50",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "la manodopera",
+      "sentence": "In questa regione la manodopera qualificata costa di più."
+    },
+    "de": {
+      "word": "die Arbeitskraft",
+      "sentence": "In dieser Region kostet die qualifizierte Arbeitskraft mehr."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cacb5eb5-cf23-4dfc-a5fa-1d7e140b1c1e",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il magazzino",
+      "sentence": "La merce resta nel magazzino fino alla spedizione."
+    },
+    "de": {
+      "word": "das Lager",
+      "sentence": "Die Ware bleibt bis zum Versand im Lager."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "03b2e662-8134-4adf-8b84-5e4ebc105066",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la crescita",
+      "sentence": "La crescita economica del paese rallenta."
+    },
+    "de": {
+      "word": "das Wachstum",
+      "sentence": "Das Wirtschaftswachstum des Landes verlangsamt sich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ceb49cb9-247d-49b4-865a-098e5927a567",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "l'agricoltura",
+      "sentence": "L'agricoltura è importante per questa regione."
+    },
+    "de": {
+      "word": "die Landwirtschaft",
+      "sentence": "Die Landwirtschaft ist für diese Region wichtig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1b182ac3-ed6b-4fbd-b377-66a2ac899b2f",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "il contadino",
+      "sentence": "Il contadino raccoglie il grano in estate."
+    },
+    "de": {
+      "word": "der Bauer",
+      "sentence": "Der Bauer erntet im Sommer das Getreide."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1a43a104-b225-4505-8653-b3b2c129335d",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il raccolto",
+      "sentence": "Quest'anno il raccolto è stato molto abbondante."
+    },
+    "de": {
+      "word": "die Ernte",
+      "sentence": "Dieses Jahr ist die Ernte sehr reichlich ausgefallen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f3810dcb-653c-40b1-a216-6a40c529b436",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "la materia prima",
+      "sentence": "Il paese importa quasi tutte le materie prime dall'estero."
+    },
+    "de": {
+      "word": "der Rohstoff",
+      "sentence": "Das Land importiert fast alle Rohstoffe aus dem Ausland."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "21b0c0bf-3add-4260-aee5-4fb7824e54c1",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il petrolio",
+      "sentence": "Il prezzo del petrolio influenza tutta l'economia."
+    },
+    "de": {
+      "word": "das Erdöl",
+      "sentence": "Der Erdölpreis beeinflusst die gesamte Wirtschaft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e9792a13-9d37-42ea-ae49-aea6ec81aa36",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il carbone",
+      "sentence": "Molte centrali bruciano ancora il carbone."
+    },
+    "de": {
+      "word": "die Kohle",
+      "sentence": "Viele Kraftwerke verbrennen immer noch Kohle."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8fff88b0-cde3-4ea4-87bb-ea429ce2874f",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "il gas",
+      "sentence": "Il prezzo del gas è salito quest'inverno."
+    },
+    "de": {
+      "word": "das Gas",
+      "sentence": "Der Gaspreis ist diesen Winter gestiegen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "90dd1671-54a5-4d7b-b3c6-6cbf71f047d2",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "l'energia",
+      "sentence": "Le fonti di energia rinnovabile sono in crescita."
+    },
+    "de": {
+      "word": "die Energie",
+      "sentence": "Die erneuerbaren Energiequellen nehmen stark zu."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3890f481-67cc-4ded-be7c-362a01b8e5fe",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "l'elettricità",
+      "sentence": "L'elettricità in fabbrica costa sempre di più."
+    },
+    "de": {
+      "word": "der Strom",
+      "sentence": "Der Strom in der Fabrik wird immer teurer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "37bd2775-2081-4d1e-96b6-6636492e23cb",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la centrale",
+      "sentence": "La centrale produce energia per tutta la città."
+    },
+    "de": {
+      "word": "das Kraftwerk",
+      "sentence": "Das Kraftwerk erzeugt Energie für die ganze Stadt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "891cb113-9c98-45e5-a22e-927c1736aed2",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "l'acciaio",
+      "sentence": "L'acciaio serve per costruire ponti e navi."
+    },
+    "de": {
+      "word": "der Stahl",
+      "sentence": "Stahl braucht man für den Bau von Brücken und Schiffen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "81c845b2-439a-4e7c-9693-965cd5adfd3f",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "il ferro",
+      "sentence": "Il ferro è un metallo molto resistente."
+    },
+    "de": {
+      "word": "das Eisen",
+      "sentence": "Eisen ist ein sehr widerstandsfähiges Metall."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f07a2bbb-74b7-4917-9f0b-1c6ace0e3be4",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "il rame",
+      "sentence": "I cavi elettrici sono spesso fatti di rame."
+    },
+    "de": {
+      "word": "das Kupfer",
+      "sentence": "Elektrische Kabel bestehen oft aus Kupfer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "56d45e1c-d4af-47f7-b207-781a76512776",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la miniera",
+      "sentence": "In questa miniera si estrae ancora il carbone."
+    },
+    "de": {
+      "word": "das Bergwerk",
+      "sentence": "In diesem Bergwerk wird noch Kohle abgebaut."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "968657cd-934e-492c-ac92-ec887bc37d89",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la risorsa",
+      "sentence": "L'acqua è una risorsa sempre più preziosa."
+    },
+    "de": {
+      "word": "die Ressource",
+      "sentence": "Wasser ist eine immer wertvollere Ressource."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dc7c79cc-a651-443f-a091-249d36c397fb",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "la ricerca",
+      "sentence": "L'azienda investe molto nella ricerca scientifica."
+    },
+    "de": {
+      "word": "die Forschung",
+      "sentence": "Das Unternehmen investiert viel in die wissenschaftliche Forschung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "11ac8f21-ed75-4cc2-8f9f-2ea21a9d0dab",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "la tecnologia",
+      "sentence": "La nuova tecnologia riduce i costi di produzione."
+    },
+    "de": {
+      "word": "die Technologie",
+      "sentence": "Die neue Technologie senkt die Produktionskosten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8878a441-950a-4ad1-bd62-069514158758",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "il brevetto",
+      "sentence": "L'azienda ha depositato un brevetto per la sua invenzione."
+    },
+    "de": {
+      "word": "das Patent",
+      "sentence": "Das Unternehmen hat ein Patent für seine Erfindung angemeldet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "64097365-ea0a-4c8b-b723-8720489d4e5c",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "l'innovazione",
+      "sentence": "L'innovazione è la chiave del successo economico."
+    },
+    "de": {
+      "word": "die Innovation",
+      "sentence": "Innovation ist der Schlüssel zum wirtschaftlichen Erfolg."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5af2fcaf-0236-4a80-9f8a-af5cf8907c3e",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "lo stabilimento",
+      "sentence": "Il nuovo stabilimento darà lavoro a trecento persone."
+    },
+    "de": {
+      "word": "das Werk",
+      "sentence": "Das neue Werk wird dreihundert Menschen Arbeit geben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3a82970f-a827-435d-bad4-c843976e2abc",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "investire",
+      "sentence": "Ha deciso di investire i risparmi in azioni."
+    },
+    "de": {
+      "word": "investieren",
+      "sentence": "Er hat beschlossen, die Ersparnisse in Aktien zu investieren."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2c28e8fb-09fb-4b94-9c9f-a7a0a711f8b3",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "guadagnare",
+      "sentence": "In questo lavoro si guadagna abbastanza bene."
+    },
+    "de": {
+      "word": "verdienen",
+      "sentence": "In diesem Beruf verdient man ziemlich gut."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e504174e-e1a6-48a2-8c83-eeffaf93a59a",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "risparmiare",
+      "sentence": "Cerco di risparmiare un po' ogni mese."
+    },
+    "de": {
+      "word": "sparen",
+      "sentence": "Ich versuche, jeden Monat ein bisschen zu sparen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "32898fc0-42ee-4712-b1b2-fb8effcf91aa",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "spendere",
+      "sentence": "Spende troppo denaro in cose inutili."
+    },
+    "de": {
+      "word": "ausgeben",
+      "sentence": "Er gibt zu viel Geld für unnütze Dinge aus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9b98de0d-9c5c-4d05-9019-e8a59df74b21",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "esportare",
+      "sentence": "L'Italia esporta molti prodotti alimentari in tutto il mondo."
+    },
+    "de": {
+      "word": "exportieren",
+      "sentence": "Italien exportiert viele Lebensmittel in die ganze Welt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b0dbaf72-7d33-4d9e-a9e5-22532abe5d93",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "importare",
+      "sentence": "Il paese importa energia dai suoi vicini."
+    },
+    "de": {
+      "word": "importieren",
+      "sentence": "Das Land importiert Energie von seinen Nachbarn."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b0512e6b-9a91-44fb-a7cc-a974b139b90c",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "tassare",
+      "sentence": "Lo stato ha deciso di tassare di più i profitti."
+    },
+    "de": {
+      "word": "besteuern",
+      "sentence": "Der Staat hat beschlossen, die Gewinne stärker zu besteuern."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "332c4f86-f3b5-41aa-8ec4-6bf13ce92ad1",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "quotare",
+      "sentence": "La società verrà quotata in borsa il mese prossimo."
+    },
+    "de": {
+      "word": "an die Börse bringen",
+      "sentence": "Die Gesellschaft wird nächsten Monat an die Börse gebracht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dd64ae76-ff85-4c9d-a4cb-56ce8b289b07",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "commerciare",
+      "sentence": "Questa ditta commercia in prodotti tessili."
+    },
+    "de": {
+      "word": "handeln",
+      "sentence": "Diese Firma handelt vor allem mit Textilprodukten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2dcee1aa-614d-488b-85a5-cc5c4f565cd7",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "fabbricare",
+      "sentence": "La ditta fabbrica pezzi di ricambio per auto."
+    },
+    "de": {
+      "word": "herstellen",
+      "sentence": "Die Firma stellt Ersatzteile für Autos her."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3078bf05-88ca-4730-9cf4-33997a9c24bc",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "consumare",
+      "sentence": "Le famiglie consumano meno durante la crisi."
+    },
+    "de": {
+      "word": "konsumieren",
+      "sentence": "Die Haushalte konsumieren während der Krise weniger."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5873e4ae-f9f1-497f-b0db-40fe05d028d7",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "finanziare",
+      "sentence": "La banca finanzia la costruzione del nuovo impianto."
+    },
+    "de": {
+      "word": "finanzieren",
+      "sentence": "Die Bank finanziert den Bau der neuen Anlage."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "16f1839f-91e0-4bf0-a357-50427a17b36c",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "fondare",
+      "sentence": "Ha fondato la sua azienda a soli venticinque anni."
+    },
+    "de": {
+      "word": "gründen",
+      "sentence": "Er hat seine Firma mit nur fünfundzwanzig Jahren gegründet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "14fd464a-0ec6-490f-ae2d-70c1dbf01107",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "il fallimento",
+      "sentence": "Il fallimento della ditta ha lasciato molti senza lavoro."
+    },
+    "de": {
+      "word": "der Konkurs",
+      "sentence": "Der Konkurs der Firma hat viele ohne Arbeit zurückgelassen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c866c6c9-705a-4964-9716-8aac51c10bdf",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "economico",
+      "sentence": "Questo modello è più economico degli altri."
+    },
+    "de": {
+      "word": "günstig",
+      "sentence": "Dieses Modell ist günstiger als die anderen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "08e9e04f-3abd-4b57-aa66-372ed2cd8a67",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "finanziario",
+      "sentence": "La società ha gravi problemi finanziari."
+    },
+    "de": {
+      "word": "finanziell",
+      "sentence": "Die Gesellschaft hat schwere finanzielle Probleme."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d37dcb49-c3e5-4be1-bece-7f1857ba5c1b",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "industriale",
+      "sentence": "Questa è una zona industriale molto attiva."
+    },
+    "de": {
+      "word": "industriell",
+      "sentence": "Dies ist eine sehr aktive Industriezone."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c9460680-e49d-4c69-b620-92662c2b9c3c",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "commerciale",
+      "sentence": "Hanno firmato un accordo commerciale importante."
+    },
+    "de": {
+      "word": "kommerziell",
+      "sentence": "Sie haben ein wichtiges Handelsabkommen unterschrieben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9d5a50a3-3497-4649-961d-9ebc52fe4587",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "redditizio",
+      "sentence": "Il turismo è diventato un settore molto redditizio."
+    },
+    "de": {
+      "word": "rentabel",
+      "sentence": "Der Tourismus ist zu einer sehr rentablen Branche geworden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "eea18806-cf3d-459a-9ebb-40dc0d4c819f",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "costoso",
+      "sentence": "Questo materiale è troppo costoso per noi."
+    },
+    "de": {
+      "word": "teuer",
+      "sentence": "Dieses Material ist für uns zu teuer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e8a9bee0-1028-4039-b4cc-81ddde5c9eb3",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "gratuito",
+      "sentence": "L'ingresso al museo è gratuito la domenica."
+    },
+    "de": {
+      "word": "kostenlos",
+      "sentence": "Der Eintritt ins Museum ist sonntags kostenlos."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4a73767a-2c91-4683-8265-b533062e7944",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "ricco",
+      "sentence": "È diventato ricco grazie al commercio."
+    },
+    "de": {
+      "word": "reich",
+      "sentence": "Er ist durch den Handel reich geworden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "133ef18d-4a76-4b56-84c9-d56f4ea35b96",
+    "level": "A2",
+    "topic": "Economy",
+    "it": {
+      "word": "povero",
+      "sentence": "Molte famiglie povere ricevono un aiuto statale."
+    },
+    "de": {
+      "word": "arm",
+      "sentence": "Viele arme Familien bekommen eine staatliche Hilfe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c9cf63bf-4301-40bc-95f9-b544cfe4f7b5",
+    "level": "A2",
+    "topic": "City",
+    "it": {
+      "word": "la banca",
+      "sentence": "Vado in banca a ritirare dei contanti."
+    },
+    "de": {
+      "word": "die Bank",
+      "sentence": "Ich gehe zur Bank, um Bargeld abzuheben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "41ac6910-bbd7-46a8-9d70-2662d501bcd8",
+    "level": "A2",
+    "topic": "Work",
+    "it": {
+      "word": "il cliente",
+      "sentence": "Il cliente aspetta una risposta dall'ufficio."
+    },
+    "de": {
+      "word": "der Kunde",
+      "sentence": "Der Kunde wartet auf eine Antwort vom Büro."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2ec89b15-7f32-4d88-ab5b-ef970bc10639",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il bestiame",
+      "sentence": "Il contadino porta il bestiame al pascolo."
+    },
+    "de": {
+      "word": "das Vieh",
+      "sentence": "Der Bauer bringt das Vieh auf die Weide."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]

@@ -34,7 +34,7 @@ of which territories exist; all word choices and example sentences are our own.
 | **City** | (our own — no direct book chapter) | 98 ✓ | done |
 | **Clothes** | Bekleidung und Schuhe, Accessoires | 96 ✓ | done |
 | **Media** | Post, Presse und Rundfunk, Telefon/Handy/Internet, Computer | — | ~110 |
-| **Economy** | Industrie/Handel, Geld/Banken, Landwirtschaft, Technik/Energie/Forschung, Rohstoffe | — | ~120 |
+| **Economy** | Industrie/Handel, Geld/Banken, Landwirtschaft, Technik/Energie/Forschung, Rohstoffe | 91 ✓ | +~25 top-up |
 | **Society** | Geschichte, Gesellschaft, Religion/Moral, Politik, Verteidigung, Institutionen, Gesetz | — | ~130 |
 | **Time** | Jahresablauf, Tageszeit, Zeitbegriffe (Dauer, Häufigkeit, Ablauf) | old approach | ~100 **rebuild** |
 | **Space** | Räumliche Begriffe, Bewegung/Geschwindigkeit, Kommen und Gehen | 106 ✓ | +30 (movement, speed) |
@@ -76,7 +76,7 @@ id-matched update (keep the existing id; change only `topic`) once the target to
 | svuotare | Household |
 | riempire | Household |
 | piegare | Household |
-| produrre | Economy |
+| ~~produrre~~ | ~~Economy~~ ✓ done |
 | ~~gestire~~ | ~~Work~~ ✓ done |
 
 **Disambiguation is not one-directional:** existing entries can be re-homed when a
@@ -91,7 +91,9 @@ When Education was built, these general school words moved into it from Children
 imparare*. Kept in Children: *la maestra, la ricreazione, spiegare* (early-childhood flavour).
 When Work was built, *delegare* moved into it from Household (review-approved). Society was
 seeded with *il sindacato* out of the Work batch's ambiguous review; the full Society build is
-still pending.
+still pending. The Economy batch's review routed *la banca* → City, *il cliente* → Work,
+*il bestiame* → Animals, and reserved *il prezzo / der Preis* for the future Shopping topic
+(do not author it into Economy).
 
 ---
 
