@@ -29794,5 +29794,1084 @@
       "word": "kaum",
       "sentence": "Er spricht so leise, dass man ihn kaum hört."
     }
+  },
+  {
+    "id": "77763009-55d6-4943-9c99-0585b9b20ebb",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "il colore",
+      "sentence": "Il rosso è il mio colore preferito."
+    },
+    "de": {
+      "word": "die Farbe",
+      "sentence": "Rot ist meine liebste Farbe."
+    }
+  },
+  {
+    "id": "9c603941-da99-4656-a1ca-83660dca5cc9",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "rosso",
+      "sentence": "Ha comprato una macchina rossa nuova."
+    },
+    "de": {
+      "word": "rot",
+      "sentence": "Sie hat ein neues rotes Auto gekauft."
+    }
+  },
+  {
+    "id": "4e0c1fae-2572-4d4e-b19a-f052d6e08e6c",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "blu",
+      "sentence": "Il cielo oggi è di un blu intenso."
+    },
+    "de": {
+      "word": "blau",
+      "sentence": "Der Himmel ist heute tiefblau."
+    }
+  },
+  {
+    "id": "68251b88-1e99-4246-900b-70c6db3b86f4",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "verde",
+      "sentence": "In primavera i prati diventano verdi."
+    },
+    "de": {
+      "word": "grün",
+      "sentence": "Im Frühling werden die Wiesen grün."
+    }
+  },
+  {
+    "id": "6885023d-bf87-4a07-8ac7-1ae04cfe463d",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "giallo",
+      "sentence": "I limoni maturi sono di un bel giallo."
+    },
+    "de": {
+      "word": "gelb",
+      "sentence": "Reife Zitronen haben ein schönes Gelb."
+    }
+  },
+  {
+    "id": "dad74961-921e-431e-87af-55feaf579c61",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "nero",
+      "sentence": "Porta sempre un cappotto nero elegante."
+    },
+    "de": {
+      "word": "schwarz",
+      "sentence": "Er trägt immer einen eleganten schwarzen Mantel."
+    }
+  },
+  {
+    "id": "ca955409-2707-4907-bc11-093af84b8659",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "bianco",
+      "sentence": "Le pareti della cucina sono bianche."
+    },
+    "de": {
+      "word": "weiss",
+      "sentence": "Die Wände der Küche sind weiss."
+    }
+  },
+  {
+    "id": "eb1c61f1-85da-46b0-a80a-d3a5e57ce7f2",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "grigio",
+      "sentence": "Il cielo grigio annuncia la pioggia."
+    },
+    "de": {
+      "word": "grau",
+      "sentence": "Der graue Himmel kündigt Regen an."
+    }
+  },
+  {
+    "id": "c3f5271c-ed51-4a58-b845-bc33063965d5",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "marrone",
+      "sentence": "Ho perso i miei guanti marroni."
+    },
+    "de": {
+      "word": "braun",
+      "sentence": "Ich habe meine braunen Handschuhe verloren."
+    }
+  },
+  {
+    "id": "01c8e4ed-5e0b-450f-8b0e-d067772be70b",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "rosa",
+      "sentence": "Le ha regalato delle rose rosa."
+    },
+    "de": {
+      "word": "rosa",
+      "sentence": "Er hat ihr rosa Rosen geschenkt."
+    }
+  },
+  {
+    "id": "134c22f8-3ef6-4f42-b281-3d00ac586484",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "arancione",
+      "sentence": "Il tramonto ha colorato il cielo di arancione."
+    },
+    "de": {
+      "word": "orange",
+      "sentence": "Der Sonnenuntergang färbte den Himmel orange."
+    }
+  },
+  {
+    "id": "d11cc615-4c95-4c50-bff9-241a2813a175",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "viola",
+      "sentence": "Ha dipinto la vecchia porta di viola."
+    },
+    "de": {
+      "word": "lila",
+      "sentence": "Sie hat die alte Tür lila gestrichen."
+    }
+  },
+  {
+    "id": "6670de5d-9f05-4921-acca-cdc0f5af1a3f",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "azzurro",
+      "sentence": "Oggi indossa una camicia azzurra chiara."
+    },
+    "de": {
+      "word": "hellblau",
+      "sentence": "Heute trägt er ein hellblaues Hemd."
+    }
+  },
+  {
+    "id": "5cc6f893-ef8b-4c06-8e50-92b0dc58eccf",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "celeste",
+      "sentence": "Le pareti della cameretta sono celesti."
+    },
+    "de": {
+      "word": "himmelblau",
+      "sentence": "Die Wände des Kinderzimmers sind himmelblau."
+    }
+  },
+  {
+    "id": "5fe63ff1-0ab7-4cb7-8a72-a164a49a2630",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "beige",
+      "sentence": "Preferisco i toni neutri come il beige."
+    },
+    "de": {
+      "word": "beige",
+      "sentence": "Ich mag neutrale Töne wie Beige."
+    }
+  },
+  {
+    "id": "26b054d5-2403-40a2-b49c-8ca4ba13e36f",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "dorato",
+      "sentence": "La cornice dorata dà valore al quadro."
+    },
+    "de": {
+      "word": "golden",
+      "sentence": "Der goldene Rahmen wertet das Bild auf."
+    }
+  },
+  {
+    "id": "12ca0eff-7cef-4446-a8f0-42461f275fc2",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "argentato",
+      "sentence": "Ha scelto un elegante orologio argentato."
+    },
+    "de": {
+      "word": "silbern",
+      "sentence": "Er hat eine elegante silberne Uhr gewählt."
+    }
+  },
+  {
+    "id": "37077fb8-ffb2-40da-9658-226c8d0dd2b4",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "chiaro",
+      "sentence": "Preferisco i colori chiari per l'estate."
+    },
+    "de": {
+      "word": "hell",
+      "sentence": "Für den Sommer mag ich helle Farben."
+    }
+  },
+  {
+    "id": "9aae900c-30bd-49a0-9634-4ea8ac8e5308",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "scuro",
+      "sentence": "La sera indossa spesso vestiti scuri."
+    },
+    "de": {
+      "word": "dunkel",
+      "sentence": "Abends trägt sie oft dunkle Kleidung."
+    }
+  },
+  {
+    "id": "60922b1f-6db1-4562-863d-793cfa0a8fa6",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "colorato",
+      "sentence": "I bambini hanno disegnato un mondo colorato."
+    },
+    "de": {
+      "word": "bunt",
+      "sentence": "Die Kinder haben eine bunte Welt gemalt."
+    }
+  },
+  {
+    "id": "f627e730-a35f-4633-9bd0-1acfc0388b54",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "a tinta unita",
+      "sentence": "Preferisco una camicia a tinta unita."
+    },
+    "de": {
+      "word": "einfarbig",
+      "sentence": "Ich bevorzuge lieber ein einfarbiges Hemd."
+    }
+  },
+  {
+    "id": "00294c66-5f12-4619-906f-f25721e4b69f",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "la sfumatura",
+      "sentence": "Tra i due muri c'è una leggera differenza di sfumatura."
+    },
+    "de": {
+      "word": "der Farbton",
+      "sentence": "Zwischen den beiden Wänden gibt es einen leichten Unterschied im Farbton."
+    }
+  },
+  {
+    "id": "9165898b-15c1-491a-af9a-3a8bea793d53",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il metro",
+      "sentence": "La stanza è larga quasi quattro metri."
+    },
+    "de": {
+      "word": "der Meter",
+      "sentence": "Das Zimmer ist fast vier Meter breit."
+    }
+  },
+  {
+    "id": "d3b769dd-e137-4418-b0ac-1c51e56fc5af",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il centimetro",
+      "sentence": "Il neonato è cresciuto di due centimetri."
+    },
+    "de": {
+      "word": "der Zentimeter",
+      "sentence": "Das Baby ist um zwei Zentimeter gewachsen."
+    }
+  },
+  {
+    "id": "be21c109-6971-4c96-afe0-2234e0b8abae",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il chilometro",
+      "sentence": "Corriamo cinque chilometri ogni mattina."
+    },
+    "de": {
+      "word": "der Kilometer",
+      "sentence": "Wir laufen jeden Morgen fünf Kilometer."
+    }
+  },
+  {
+    "id": "010fad7c-e0e7-4f94-8097-a36f9a96143c",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il litro",
+      "sentence": "Bevo almeno due litri d'acqua al giorno."
+    },
+    "de": {
+      "word": "der Liter",
+      "sentence": "Ich trinke täglich mindestens zwei Liter Wasser."
+    }
+  },
+  {
+    "id": "5b242e6e-8c10-4001-8924-9f9de0017ea6",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il chilo",
+      "sentence": "Ho comprato un chilo di mele."
+    },
+    "de": {
+      "word": "das Kilo",
+      "sentence": "Ich habe ein Kilo Äpfel gekauft."
+    }
+  },
+  {
+    "id": "2d4dc8cb-a07d-4288-affb-6f47d18fd201",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il grammo",
+      "sentence": "Aggiungi cento grammi di zucchero all'impasto."
+    },
+    "de": {
+      "word": "das Gramm",
+      "sentence": "Gib hundert Gramm Zucker in den Teig."
+    }
+  },
+  {
+    "id": "902ce103-ead5-4dfd-a345-bbcd8e3a6ba0",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "la tonnellata",
+      "sentence": "Il camion trasporta diverse tonnellate di merce."
+    },
+    "de": {
+      "word": "die Tonne",
+      "sentence": "Der Lastwagen transportiert mehrere Tonnen Ware."
+    }
+  },
+  {
+    "id": "b688b179-c800-4667-a857-d969937c8b6c",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il peso",
+      "sentence": "Qual è il peso del tuo bagaglio?"
+    },
+    "de": {
+      "word": "das Gewicht",
+      "sentence": "Wie viel wiegt eigentlich dein Gepäck?"
+    }
+  },
+  {
+    "id": "cd20c599-63f1-4d9e-b4c5-67f9b24eee3b",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "la misura",
+      "sentence": "Prendo le misure prima di comprare i mobili."
+    },
+    "de": {
+      "word": "das Mass",
+      "sentence": "Ich nehme die Masse, bevor ich die Möbel kaufe."
+    }
+  },
+  {
+    "id": "37e00cda-ef1e-42bb-a770-eaf11963378c",
+    "level": "B2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il volume",
+      "sentence": "Il volume di questo contenitore è di dieci litri."
+    },
+    "de": {
+      "word": "das Volumen",
+      "sentence": "Das Volumen dieses grossen Behälters beträgt genau zehn Liter."
+    }
+  },
+  {
+    "id": "31feef7c-8dc5-4a80-9dbc-3637a120b537",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "l'altezza",
+      "sentence": "L'altezza della torre supera i cento metri."
+    },
+    "de": {
+      "word": "die Höhe",
+      "sentence": "Die Höhe des Turms übersteigt hundert Meter."
+    }
+  },
+  {
+    "id": "02f1f488-900f-4084-9523-445015a87e32",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "la quantità",
+      "sentence": "Serve una piccola quantità di sale."
+    },
+    "de": {
+      "word": "die Menge",
+      "sentence": "Man braucht eine kleine Menge Salz."
+    }
+  },
+  {
+    "id": "dda2cf22-2142-437e-97f0-9de3d1ec0e62",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il numero",
+      "sentence": "Scrivi il tuo numero di telefono qui."
+    },
+    "de": {
+      "word": "die Zahl",
+      "sentence": "Schreib deine Telefonnummer hier auf."
+    }
+  },
+  {
+    "id": "1ac39637-fb23-4625-b244-04ce6208b643",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "la cifra",
+      "sentence": "Ha speso una cifra enorme per l'auto."
+    },
+    "de": {
+      "word": "die Summe",
+      "sentence": "Er hat eine riesige Summe für das Auto ausgegeben."
+    }
+  },
+  {
+    "id": "5f5b1ace-5c55-4b7e-b0e9-bb9d82ad9712",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "la metà",
+      "sentence": "Ho mangiato solo la metà della pizza."
+    },
+    "de": {
+      "word": "die Hälfte",
+      "sentence": "Ich habe nur die Hälfte der Pizza gegessen."
+    }
+  },
+  {
+    "id": "d1c0ee25-5f9a-4902-8ee3-0b619c87c5ac",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "il doppio",
+      "sentence": "Questo modello costa il doppio dell'altro."
+    },
+    "de": {
+      "word": "das Doppelte",
+      "sentence": "Dieses Modell kostet das Doppelte des anderen."
+    }
+  },
+  {
+    "id": "23c894a6-2a6b-41ae-96dc-760aa3ac1740",
+    "level": "B2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il triplo",
+      "sentence": "Il nuovo appartamento è il triplo del vecchio."
+    },
+    "de": {
+      "word": "das Dreifache",
+      "sentence": "Die neue Wohnung ist das Dreifache der alten."
+    }
+  },
+  {
+    "id": "f1a0d17a-3522-49bb-ad3e-73b7a28ab55b",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "un paio",
+      "sentence": "Ho comprato un paio di scarpe nuove."
+    },
+    "de": {
+      "word": "ein Paar",
+      "sentence": "Ich habe ein Paar neue Schuhe gekauft."
+    }
+  },
+  {
+    "id": "7767ada1-7f78-4a43-88da-b141cfbdaf06",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "la dozzina",
+      "sentence": "Al mercato ho preso una dozzina di uova."
+    },
+    "de": {
+      "word": "das Dutzend",
+      "sentence": "Auf dem Markt habe ich ein Dutzend Eier gekauft."
+    }
+  },
+  {
+    "id": "0fe9f49b-7b36-4a9c-908a-388267104b23",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "la percentuale",
+      "sentence": "Solo una piccola percentuale ha risposto al sondaggio."
+    },
+    "de": {
+      "word": "der Prozentsatz",
+      "sentence": "Nur ein kleiner Prozentsatz hat auf die Umfrage geantwortet."
+    }
+  },
+  {
+    "id": "149f3f64-01dd-46fc-985c-6094f916bcc4",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "la media",
+      "sentence": "La media dei voti è piuttosto alta."
+    },
+    "de": {
+      "word": "der Durchschnitt",
+      "sentence": "Der Durchschnitt der Noten ist ziemlich hoch."
+    }
+  },
+  {
+    "id": "7a9091c5-e992-42e5-b57c-69653bb0a3e0",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il totale",
+      "sentence": "Il totale della spesa è di cinquanta euro."
+    },
+    "de": {
+      "word": "die Summe",
+      "sentence": "Die Summe des Einkaufs beträgt fünfzig Euro."
+    }
+  },
+  {
+    "id": "422ff270-f6db-4f8d-9915-7a9777ff4a33",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il resto",
+      "sentence": "Il cassiere mi ha dato il resto sbagliato."
+    },
+    "de": {
+      "word": "das Rückgeld",
+      "sentence": "Der Kassierer hat mir das falsche Rückgeld gegeben."
+    }
+  },
+  {
+    "id": "995a4eea-7f89-4c9d-bfb1-e307595d84fd",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il pezzo",
+      "sentence": "Vuoi un altro pezzo di torta?"
+    },
+    "de": {
+      "word": "das Stück",
+      "sentence": "Möchtest du noch ein Stück Kuchen?"
+    }
+  },
+  {
+    "id": "8ec8b9a7-aa58-434e-a21d-d0b4b74390b2",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "la parte",
+      "sentence": "Una parte del gruppo è già partita."
+    },
+    "de": {
+      "word": "der Teil",
+      "sentence": "Ein Teil der Gruppe ist schon abgereist."
+    }
+  },
+  {
+    "id": "6c1ff8dd-665b-4b73-b33b-1e116625ec21",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "un mucchio",
+      "sentence": "Sulla scrivania c'era un mucchio di documenti."
+    },
+    "de": {
+      "word": "ein Haufen",
+      "sentence": "Auf dem Schreibtisch lag ein Haufen Dokumente."
+    }
+  },
+  {
+    "id": "29198dc7-2e0e-44de-85b5-cd429adbdad9",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "una manciata",
+      "sentence": "Aggiungi una manciata di noci all'insalata."
+    },
+    "de": {
+      "word": "eine Handvoll",
+      "sentence": "Gib eine Handvoll Nüsse in den Salat."
+    }
+  },
+  {
+    "id": "8f3bd4d0-f6e5-4515-abab-956389cc3317",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "la decina",
+      "sentence": "Alla festa c'erano una decina di persone."
+    },
+    "de": {
+      "word": "das Dutzend etwa",
+      "sentence": "Auf der Party waren etwa zehn Leute."
+    }
+  },
+  {
+    "id": "42d46402-eea9-46e3-9a12-306f41841c4e",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "il centinaio",
+      "sentence": "Un centinaio di persone ha firmato la petizione."
+    },
+    "de": {
+      "word": "das Hundert",
+      "sentence": "Rund hundert Leute haben die Petition unterschrieben."
+    }
+  },
+  {
+    "id": "72271f63-bd21-4924-8a8e-f9bbfc84c32b",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "il migliaio",
+      "sentence": "Migliaia di turisti visitano la città ogni estate."
+    },
+    "de": {
+      "word": "das Tausend",
+      "sentence": "Tausende Touristen besuchen die Stadt jeden Sommer."
+    }
+  },
+  {
+    "id": "eb8e741c-be1e-4b77-b8c0-a4bd49c555f2",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "la forma",
+      "sentence": "La torta ha la forma di un cuore."
+    },
+    "de": {
+      "word": "die Form",
+      "sentence": "Der Kuchen hat die Form eines Herzens."
+    }
+  },
+  {
+    "id": "bf3c62a9-a3bf-4fef-92da-8c3335f8c5be",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il cerchio",
+      "sentence": "I bambini si siedono in cerchio."
+    },
+    "de": {
+      "word": "der Kreis",
+      "sentence": "Die Kinder setzen sich in einen Kreis."
+    }
+  },
+  {
+    "id": "a7a839d7-b8cf-4b23-97fe-480f63368853",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il quadrato",
+      "sentence": "La scacchiera è divisa in tanti quadrati."
+    },
+    "de": {
+      "word": "das Quadrat",
+      "sentence": "Das Schachbrett ist in viele Quadrate geteilt."
+    }
+  },
+  {
+    "id": "eb72ef68-608a-4c8b-bf49-fae40f486b48",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "il triangolo",
+      "sentence": "Un triangolo ha sempre tre lati."
+    },
+    "de": {
+      "word": "das Dreieck",
+      "sentence": "Ein Dreieck hat immer drei Seiten."
+    }
+  },
+  {
+    "id": "950d78be-0523-46f5-9fe7-7d57e5c59279",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "il rettangolo",
+      "sentence": "Il campo da gioco ha la forma di un rettangolo."
+    },
+    "de": {
+      "word": "das Rechteck",
+      "sentence": "Das Spielfeld hat die Form eines Rechtecks."
+    }
+  },
+  {
+    "id": "5e3e0ec8-f449-463c-bb2a-5eb9141034e7",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "la linea",
+      "sentence": "Traccia una linea dritta con il righello."
+    },
+    "de": {
+      "word": "die Linie",
+      "sentence": "Zieh eine gerade Linie mit dem Lineal."
+    }
+  },
+  {
+    "id": "c9c07484-9451-4fad-84f3-2f8d27d6c59f",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il punto",
+      "sentence": "Ogni cerchio ha un solo punto centrale."
+    },
+    "de": {
+      "word": "der Punkt",
+      "sentence": "Jeder Kreis hat nur einen Mittelpunkt."
+    }
+  },
+  {
+    "id": "cbd12bae-d546-4a19-ad51-8f0838ecae67",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "la sfera",
+      "sentence": "La palla ha la forma di una sfera perfetta."
+    },
+    "de": {
+      "word": "die Kugel",
+      "sentence": "Der Ball hat die Form einer perfekten Kugel."
+    }
+  },
+  {
+    "id": "8fd99fc3-d1ed-4d9a-abd1-4ed34eded2c2",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "il cubo",
+      "sentence": "Un cubo ha sei facce uguali."
+    },
+    "de": {
+      "word": "der Würfel",
+      "sentence": "Ein Würfel hat sechs gleiche Flächen."
+    }
+  },
+  {
+    "id": "fa0d8799-e2e7-4004-a74f-b4274e42ae3b",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "tondo",
+      "sentence": "Il tavolo della cucina è tondo."
+    },
+    "de": {
+      "word": "rund",
+      "sentence": "Der Küchentisch ist rund."
+    }
+  },
+  {
+    "id": "64c14b7c-b7bb-4b66-b889-db10ed70b64b",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "curvo",
+      "sentence": "La strada è stretta e molto curva."
+    },
+    "de": {
+      "word": "gebogen",
+      "sentence": "Die Strasse ist eng und stark gebogen."
+    }
+  },
+  {
+    "id": "e948306d-4f2a-43e4-bfb7-80edd4280f36",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "ovale",
+      "sentence": "Lo specchio dell'ingresso ha una forma ovale."
+    },
+    "de": {
+      "word": "oval",
+      "sentence": "Der Spiegel im Flur hat eine ovale Form."
+    }
+  },
+  {
+    "id": "17acefa7-4cc9-4b03-bf8e-d6043699f9ee",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "il lato",
+      "sentence": "Ogni lato del quadrato misura dieci centimetri."
+    },
+    "de": {
+      "word": "die Seite",
+      "sentence": "Jede Seite des Quadrats misst zehn Zentimeter."
+    }
+  },
+  {
+    "id": "eaa2797e-5f8c-4022-9609-a806196ea571",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "contare",
+      "sentence": "Il bambino impara a contare fino a venti."
+    },
+    "de": {
+      "word": "zählen",
+      "sentence": "Das Kind lernt, bis zwanzig zu zählen."
+    }
+  },
+  {
+    "id": "c3aa54dd-3a94-4cee-8f26-84db8915561a",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "misurare",
+      "sentence": "Il sarto misura la lunghezza dei pantaloni."
+    },
+    "de": {
+      "word": "messen",
+      "sentence": "Der Schneider misst die Länge der Hose."
+    }
+  },
+  {
+    "id": "d67db8e3-b348-48c8-8435-1c4b45515bdf",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "pesare",
+      "sentence": "La cassiera pesa la frutta alla bilancia."
+    },
+    "de": {
+      "word": "wiegen",
+      "sentence": "Die Kassiererin wiegt das Obst auf der Waage."
+    }
+  },
+  {
+    "id": "664efd52-0d3a-43ab-b15f-1aef7460c607",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "calcolare",
+      "sentence": "Calcolo le spese del mese alla fine."
+    },
+    "de": {
+      "word": "rechnen",
+      "sentence": "Am Ende rechne ich die Ausgaben des Monats."
+    }
+  },
+  {
+    "id": "70b275b6-31b8-442f-a1a3-a70975ca58ff",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "sommare",
+      "sentence": "Sommando tutte le cifre ottieni cento."
+    },
+    "de": {
+      "word": "addieren",
+      "sentence": "Wenn du alle Zahlen addierst, bekommst du hundert."
+    }
+  },
+  {
+    "id": "00d49626-7108-4cf7-ba40-3a157bbba27c",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "dividere",
+      "sentence": "Dividiamo il conto in parti uguali."
+    },
+    "de": {
+      "word": "teilen",
+      "sentence": "Wir teilen die Rechnung in gleiche Teile."
+    }
+  },
+  {
+    "id": "e2529edd-42ed-4ee6-aa6f-decb777f1ab7",
+    "level": "B2",
+    "topic": "Numbers",
+    "it": {
+      "word": "moltiplicare",
+      "sentence": "Per trovare l'area devi moltiplicare base e altezza."
+    },
+    "de": {
+      "word": "multiplizieren",
+      "sentence": "Um die Fläche zu finden, musst du Grundlinie und Höhe multiplizieren."
+    }
+  },
+  {
+    "id": "68237cd1-4be6-451c-bf02-f8b48fbfb2e1",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "raddoppiare",
+      "sentence": "In pochi anni i prezzi sono raddoppiati."
+    },
+    "de": {
+      "word": "sich verdoppeln",
+      "sentence": "In wenigen Jahren haben sich die Preise verdoppelt."
+    }
+  },
+  {
+    "id": "2975ae28-2b9e-4048-acec-74f0e920a2f8",
+    "level": "B2",
+    "topic": "Numbers",
+    "it": {
+      "word": "arrotondare",
+      "sentence": "Per comodità arrotondiamo sempre la cifra all'euro più vicino."
+    },
+    "de": {
+      "word": "runden",
+      "sentence": "Der Einfachheit halber runden wir die Summe auf den Euro."
+    }
+  },
+  {
+    "id": "c0b90094-b8f8-45ee-9c86-bb76fab284c5",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "circa",
+      "sentence": "Il viaggio dura circa due ore."
+    },
+    "de": {
+      "word": "ungefähr",
+      "sentence": "Die Reise dauert ungefähr zwei Stunden."
+    }
+  },
+  {
+    "id": "304c1ab3-2884-46f4-b333-15349ec75829",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "più o meno",
+      "sentence": "Saremo più o meno una ventina di persone."
+    },
+    "de": {
+      "word": "mehr oder weniger",
+      "sentence": "Wir werden mehr oder weniger zwanzig Leute sein."
+    }
+  },
+  {
+    "id": "e3a718cd-769f-4fae-9a59-991cba0dd05a",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "numeroso",
+      "sentence": "Ha una famiglia davvero molto numerosa e unita."
+    },
+    "de": {
+      "word": "zahlreich",
+      "sentence": "Er hat eine sehr zahlreiche und grosse Familie."
+    }
+  },
+  {
+    "id": "2e4cb580-63fd-4540-9ca8-f8c849c91d14",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "scarso",
+      "sentence": "Quest'anno il raccolto è stato scarso."
+    },
+    "de": {
+      "word": "gering",
+      "sentence": "Dieses Jahr ist die Ernte gering ausgefallen."
+    }
+  },
+  {
+    "id": "6f596fe3-2d2a-47d4-acd4-5c7b4a349ea0",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "sufficiente",
+      "sentence": "Un litro di latte è sufficiente per la ricetta."
+    },
+    "de": {
+      "word": "ausreichend",
+      "sentence": "Ein Liter Milch ist ausreichend für das Rezept."
+    }
+  },
+  {
+    "id": "6ea34565-e42b-44c0-b346-66d1457160ad",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "enorme",
+      "sentence": "Nel giardino cresce un albero enorme."
+    },
+    "de": {
+      "word": "riesig",
+      "sentence": "Im Garten wächst ein riesiger Baum."
+    }
+  },
+  {
+    "id": "94bba4d6-f504-4e63-bc55-7570d15140a2",
+    "level": "A2",
+    "topic": "Numbers",
+    "it": {
+      "word": "il grado",
+      "sentence": "Oggi ci sono venti gradi all'ombra."
+    },
+    "de": {
+      "word": "der Grad",
+      "sentence": "Heute sind es zwanzig Grad im Schatten."
+    }
+  },
+  {
+    "id": "366ef3f5-3682-49fc-8b5b-bca666ab8bc4",
+    "level": "B1",
+    "topic": "Numbers",
+    "it": {
+      "word": "l'angolo",
+      "sentence": "Un triangolo rettangolo ha un angolo di novanta gradi."
+    },
+    "de": {
+      "word": "der Winkel",
+      "sentence": "Ein rechtwinkliges Dreieck hat einen Winkel von neunzig Grad."
+    }
+  },
+  {
+    "id": "9c79b72a-c114-4c73-a318-2925e82d6220",
+    "level": "A2",
+    "topic": "City",
+    "it": {
+      "word": "l'angolo",
+      "sentence": "Il bar si trova proprio all'angolo della strada."
+    },
+    "de": {
+      "word": "die Ecke",
+      "sentence": "Die Bar ist genau an der Strassenecke."
+    }
   }
 ]

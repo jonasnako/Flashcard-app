@@ -1,0 +1,354 @@
+[
+  {
+    "id": "77763009-55d6-4943-9c99-0585b9b20ebb",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "il colore",
+      "sentence": "Il rosso è il mio colore preferito."
+    },
+    "de": {
+      "word": "die Farbe",
+      "sentence": "Rot ist meine liebste Farbe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9c603941-da99-4656-a1ca-83660dca5cc9",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "rosso",
+      "sentence": "Ha comprato una macchina rossa nuova."
+    },
+    "de": {
+      "word": "rot",
+      "sentence": "Sie hat ein neues rotes Auto gekauft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4e0c1fae-2572-4d4e-b19a-f052d6e08e6c",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "blu",
+      "sentence": "Il cielo oggi è di un blu intenso."
+    },
+    "de": {
+      "word": "blau",
+      "sentence": "Der Himmel ist heute tiefblau."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "68251b88-1e99-4246-900b-70c6db3b86f4",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "verde",
+      "sentence": "In primavera i prati diventano verdi."
+    },
+    "de": {
+      "word": "grün",
+      "sentence": "Im Frühling werden die Wiesen grün."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6885023d-bf87-4a07-8ac7-1ae04cfe463d",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "giallo",
+      "sentence": "I limoni maturi sono di un bel giallo."
+    },
+    "de": {
+      "word": "gelb",
+      "sentence": "Reife Zitronen haben ein schönes Gelb."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dad74961-921e-431e-87af-55feaf579c61",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "nero",
+      "sentence": "Porta sempre un cappotto nero elegante."
+    },
+    "de": {
+      "word": "schwarz",
+      "sentence": "Er trägt immer einen eleganten schwarzen Mantel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ca955409-2707-4907-bc11-093af84b8659",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "bianco",
+      "sentence": "Le pareti della cucina sono bianche."
+    },
+    "de": {
+      "word": "weiss",
+      "sentence": "Die Wände der Küche sind weiss."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "eb1c61f1-85da-46b0-a80a-d3a5e57ce7f2",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "grigio",
+      "sentence": "Il cielo grigio annuncia la pioggia."
+    },
+    "de": {
+      "word": "grau",
+      "sentence": "Der graue Himmel kündigt Regen an."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c3f5271c-ed51-4a58-b845-bc33063965d5",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "marrone",
+      "sentence": "Ho perso i miei guanti marroni."
+    },
+    "de": {
+      "word": "braun",
+      "sentence": "Ich habe meine braunen Handschuhe verloren."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "01c8e4ed-5e0b-450f-8b0e-d067772be70b",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "rosa",
+      "sentence": "Le ha regalato delle rose rosa."
+    },
+    "de": {
+      "word": "rosa",
+      "sentence": "Er hat ihr rosa Rosen geschenkt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "134c22f8-3ef6-4f42-b281-3d00ac586484",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "arancione",
+      "sentence": "Il tramonto ha colorato il cielo di arancione."
+    },
+    "de": {
+      "word": "orange",
+      "sentence": "Der Sonnenuntergang färbte den Himmel orange."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d11cc615-4c95-4c50-bff9-241a2813a175",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "viola",
+      "sentence": "Ha dipinto la vecchia porta di viola."
+    },
+    "de": {
+      "word": "lila",
+      "sentence": "Sie hat die alte Tür lila gestrichen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6670de5d-9f05-4921-acca-cdc0f5af1a3f",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "azzurro",
+      "sentence": "Oggi indossa una camicia azzurra chiara."
+    },
+    "de": {
+      "word": "hellblau",
+      "sentence": "Heute trägt er ein hellblaues Hemd."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5cc6f893-ef8b-4c06-8e50-92b0dc58eccf",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "celeste",
+      "sentence": "Le pareti della cameretta sono celesti."
+    },
+    "de": {
+      "word": "himmelblau",
+      "sentence": "Die Wände des Kinderzimmers sind himmelblau."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5fe63ff1-0ab7-4cb7-8a72-a164a49a2630",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "beige",
+      "sentence": "Preferisco i toni neutri come il beige."
+    },
+    "de": {
+      "word": "beige",
+      "sentence": "Ich mag neutrale Töne wie Beige."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "26b054d5-2403-40a2-b49c-8ca4ba13e36f",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "dorato",
+      "sentence": "La cornice dorata dà valore al quadro."
+    },
+    "de": {
+      "word": "golden",
+      "sentence": "Der goldene Rahmen wertet das Bild auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "12ca0eff-7cef-4446-a8f0-42461f275fc2",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "argentato",
+      "sentence": "Ha scelto un elegante orologio argentato."
+    },
+    "de": {
+      "word": "silbern",
+      "sentence": "Er hat eine elegante silberne Uhr gewählt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "37077fb8-ffb2-40da-9658-226c8d0dd2b4",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "chiaro",
+      "sentence": "Preferisco i colori chiari per l'estate."
+    },
+    "de": {
+      "word": "hell",
+      "sentence": "Für den Sommer mag ich helle Farben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9aae900c-30bd-49a0-9634-4ea8ac8e5308",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "scuro",
+      "sentence": "La sera indossa spesso vestiti scuri."
+    },
+    "de": {
+      "word": "dunkel",
+      "sentence": "Abends trägt sie oft dunkle Kleidung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "60922b1f-6db1-4562-863d-793cfa0a8fa6",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "colorato",
+      "sentence": "I bambini hanno disegnato un mondo colorato."
+    },
+    "de": {
+      "word": "bunt",
+      "sentence": "Die Kinder haben eine bunte Welt gemalt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f627e730-a35f-4633-9bd0-1acfc0388b54",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "a tinta unita",
+      "sentence": "Preferisco una camicia a tinta unita."
+    },
+    "de": {
+      "word": "einfarbig",
+      "sentence": "Ich bevorzuge lieber ein einfarbiges Hemd."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "00294c66-5f12-4619-906f-f25721e4b69f",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "la sfumatura",
+      "sentence": "Tra i due muri c'è una leggera differenza di sfumatura."
+    },
+    "de": {
+      "word": "der Farbton",
+      "sentence": "Zwischen den beiden Wänden gibt es einen leichten Unterschied im Farbton."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]

@@ -54,7 +54,8 @@ digiuno* out of the Food batch's ambiguous review; the full Health build is stil
 |---|---|---|---|
 | **Verbs** | Allgemeine Tätigkeiten, Bemühung/Vorhaben, Hilfe/Verpflichtung, Besitzen/Geben/Nehmen + polysemous chunk verbs + verb-preposition government | 129 ✓ | +~15 |
 | **Expressions** | Häufige Redewendungen, Klassifizierung (Unterschied, Ursache/Wirkung, Art und Weise), Strukturwörter (connectives, adverbs, quantifiers, modality) | 123 ✓ | +~25 |
-| **Numbers** | Masse und Gewichte, Mengenbegriffe, Farben und Formen (skip literal counting — A1) | — | ~60 |
+| **Numbers** | Masse und Gewichte, Mengenbegriffe, Formen (skip literal counting — A1) | 60 ✓ | done |
+| **Colours** | Farben (split out of Numbers — colours are not numbers) | 22 ✓ | done (small by design) |
 
 ---
 
@@ -105,7 +106,10 @@ expressions from Expressions → Time: *prima o poi, nel frattempo, ogni tanto, 
 all'improvviso, ormai, intanto, da un momento all'altro, di tanto in tanto, a lungo, a volte,
 quasi mai, ben presto*. Kept in Expressions as manner/degree: *a poco a poco, man mano che*.
 **appena** was split into two sense-entries: *appena / soeben* ("just now", Time) and
-*appena / kaum* ("barely", Expressions).
+*appena / kaum* ("barely", Expressions). **Colours** was split out of Numbers into its own small
+topic (colours are not numbers). The Numbers batch's review put *il grado* → Numbers and split
+*l'angolo* into two sense-entries: *l'angolo / der Winkel* (geometric angle, Numbers) and
+*l'angolo / die Ecke* (street corner, City).
 
 ---
 
