@@ -1102,21 +1102,5 @@
     "streak": 0,
     "correct": 0,
     "seen": 0
-  },
-  {
-    "id": "ca36c56a-b869-4a96-84b3-ab569dc255ff",
-    "level": "A2",
-    "topic": "Health",
-    "it": {
-      "word": "fare male",
-      "sentence": "Mi fa male la schiena da giorni."
-    },
-    "de": {
-      "word": "weh tun",
-      "sentence": "Mein Rücken tut mir schon seit Tagen weh."
-    },
-    "streak": 0,
-    "correct": 0,
-    "seen": 0
   }
 ]

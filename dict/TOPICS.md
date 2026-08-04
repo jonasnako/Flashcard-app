@@ -15,12 +15,12 @@ of which territories exist; all word choices and example sentences are our own.
 | Topic | Book chapters absorbed | Status | Target |
 |---|---|---|---|
 | **Person** | Persönliche Angaben, Charaktereigenschaften, Aussehen, Lebenszyklus | 120 ✓ | +40 (personal data, life cycle) |
-| **Children** | (our own — parenting & early childhood; kept from seed) | 153 ✓ | done (keep separate — large enough) |
+| **Children** | (our own — parenting & early childhood; kept from seed) | 148 ✓ | done (keep separate — large enough) |
 | **Relationships** | Familie, Partnerschaft und Ehe, Freundschaft und soziale Kontakte | 78 ✓ | +~30 top-up (absorbs old Friendship) |
 | **Thinking & Feeling** | Denken und Fühlen: Gedanken, Gefühle, Sinneseindrücke | 126 ✓ | +20 gap-fill |
 | **Kommunikation** | Sprechsituationen: Gespräche, Fragen/Bitten, Befehl/Verbot, Diskussion, Konflikte, Begrüssen, Redewendungen | 125 ✓ | +30 (greetings, phone/letter) |
-| **Body** | Körperteile und Organe | 82 ✓ | done |
-| **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 71 ✓ | +~45 (Körperpflege, Notruf) |
+| **Body** | Körperteile und Organe | 67 ✓ | done (symptom/treatment terms moved to Health) |
+| **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 91 ✓ | +~25 (Körperpflege, Notruf) |
 | **Education** | Lernen, Sprache, Schule/Universität/Ausbildung, Fächer | — | ~110 |
 | **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | old approach | ~120 **rebuild** |
 | **Culture** | Lektüre, Musik, Kunst, Theater und Film | — | ~100 |
@@ -78,6 +78,14 @@ id-matched update (keep the existing id; change only `topic`) once the target to
 | piegare | Household |
 | produrre | Economy |
 | gestire | Work |
+
+**Disambiguation is not one-directional:** existing entries can be re-homed when a
+better topic is built — the id-matched update keeps scores intact. When Health was
+built, these moved into it: *il dolore, far male, il mal di testa, la ferita, il livido,
+storcersi, la vertigine, gonfio, guarire, riprendersi, la medicina, il cerotto, la
+fisioterapia, il massaggio, prendersi cura di sé* (from Body); *la febbre, il raffreddore,
+la tosse, vaccinare, il libretto delle vaccinazioni* (from Children); *la cicatrice* (from
+Person). Kept where they were after review: *l'ospedale* (City), *la gelosia* (Children).
 
 ---
 

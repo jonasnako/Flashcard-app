@@ -2901,7 +2901,7 @@
   {
     "id": "315fb816-e796-425c-9fa0-7d35f408beda",
     "level": "B2",
-    "topic": "Children",
+    "topic": "Health",
     "it": {
       "word": "il libretto delle vaccinazioni",
       "sentence": "Non dimenticare il libretto delle vaccinazioni."
@@ -2914,7 +2914,7 @@
   {
     "id": "62628e40-d1f7-4b2c-83d9-d8e6da76ab05",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Health",
     "it": {
       "word": "vaccinare",
       "sentence": "L'abbiamo vaccinato secondo il calendario."
@@ -3681,7 +3681,7 @@
   {
     "id": "3c801809-a0b6-44f0-ab2b-b3ef4acdf9cd",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Health",
     "it": {
       "word": "la febbre",
       "sentence": "Ha la febbre alta da stamattina."
@@ -3694,7 +3694,7 @@
   {
     "id": "01f72d09-2ae4-443d-ab6f-f039189d0407",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Health",
     "it": {
       "word": "il raffreddore",
       "sentence": "Un altro raffreddore, il terzo questo mese."
@@ -3707,7 +3707,7 @@
   {
     "id": "9cfcd190-bf7e-4243-a7c3-ebf662976025",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Health",
     "it": {
       "word": "la tosse",
       "sentence": "La tosse notturna non lo lascia dormire."
@@ -12703,7 +12703,7 @@
   {
     "id": "796223f8-b6c5-4855-98fb-18a3e7cbb525",
     "level": "B2",
-    "topic": "Person",
+    "topic": "Health",
     "it": {
       "word": "la cicatrice",
       "sentence": "Ha una piccola cicatrice sopra il sopracciglio."
@@ -16018,7 +16018,7 @@
   {
     "id": "49d8d24a-65d9-4fc9-bfec-b61a836a6461",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "il dolore",
       "sentence": "Il dolore è passato dopo un paio d'ore."
@@ -16031,7 +16031,7 @@
   {
     "id": "996c5c4d-f05f-4096-b6bc-50331e06cda6",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "far male",
       "sentence": "Dove ti fa male esattamente?"
@@ -16044,7 +16044,7 @@
   {
     "id": "eb69218b-6914-4a43-babe-5fee7794b603",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "il mal di testa",
       "sentence": "Ho un mal di testa terribile da stamattina."
@@ -16057,7 +16057,7 @@
   {
     "id": "134413b2-e950-4012-b0bc-726b2599fc68",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "la ferita",
       "sentence": "La ferita è guarita più in fretta del previsto."
@@ -16070,7 +16070,7 @@
   {
     "id": "5b29efc0-68d3-4993-bec5-b85fc1ff5882",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "il livido",
       "sentence": "Il giorno dopo era pieno di lividi."
@@ -16083,7 +16083,7 @@
   {
     "id": "866857c6-49d0-47d3-9577-0bbe73196309",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "gonfio",
       "sentence": "La caviglia era ancora gonfia, quindi siamo tornati indietro."
@@ -16096,7 +16096,7 @@
   {
     "id": "d6cc000d-8967-484d-b689-f51cd23faf54",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "storcersi",
       "sentence": "Mi sono storto il piede sul ghiaione bagnato."
@@ -16109,7 +16109,7 @@
   {
     "id": "6975bc31-4c9b-472c-9614-0a713543dbbc",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "la vertigine",
       "sentence": "Se le vertigini continuassero, faresti bene a farti visitare."
@@ -16122,7 +16122,7 @@
   {
     "id": "c9d0282f-e609-413e-85e7-dc1ed9d6b3ef",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "guarire",
       "sentence": "Il taglio guarirà in pochi giorni, però dovrai tenerlo pulito."
@@ -16135,7 +16135,7 @@
   {
     "id": "8bcf4d90-52c3-49eb-a20c-abd8cc2c340f",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "la medicina",
       "sentence": "Hai preso la medicina stamattina?"
@@ -16148,7 +16148,7 @@
   {
     "id": "53a5a975-6a43-4ead-a676-c569042648bc",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "il cerotto",
       "sentence": "Mettici un cerotto e vedrai che domani non ci penserai più."
@@ -16161,7 +16161,7 @@
   {
     "id": "a514f0d0-9811-4dd8-97ce-d6aeed8b5bdb",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "la fisioterapia",
       "sentence": "Da quando fa fisioterapia, la spalla va molto meglio."
@@ -16174,7 +16174,7 @@
   {
     "id": "93fd2e1f-03a3-4e33-9c9c-ddcab9a9150b",
     "level": "B1",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "il massaggio",
       "sentence": "Se aveste tempo domani, vi consiglierei un massaggio."
@@ -16187,7 +16187,7 @@
   {
     "id": "ef1fb98a-6083-4440-bf86-a7148577d028",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "riprendersi",
       "sentence": "Ci è voluto un mese prima che si riprendesse del tutto."
@@ -16200,7 +16200,7 @@
   {
     "id": "b050aabe-8f12-4d50-bc53-6a48baef037b",
     "level": "B2",
-    "topic": "Body",
+    "topic": "Health",
     "it": {
       "word": "prendersi cura di sé",
       "sentence": "Con due bambini piccoli, è difficile prendersi cura di sé."
@@ -22617,19 +22617,6 @@
     "de": {
       "word": "schwach",
       "sentence": "Als Kind war er ein eher schwacher Typ."
-    }
-  },
-  {
-    "id": "ca36c56a-b869-4a96-84b3-ab569dc255ff",
-    "level": "A2",
-    "topic": "Health",
-    "it": {
-      "word": "fare male",
-      "sentence": "Mi fa male la schiena da giorni."
-    },
-    "de": {
-      "word": "weh tun",
-      "sentence": "Mein Rücken tut mir schon seit Tagen weh."
     }
   }
 ]
