@@ -33,7 +33,7 @@ of which territories exist; all word choices and example sentences are our own.
 | **Animals** | Tiere (kept separate — large enough) | 91 ✓ | done |
 | **City** | (our own — no direct book chapter) | 98 ✓ | done |
 | **Clothes** | Bekleidung und Schuhe, Accessoires | 96 ✓ | done |
-| **Media** | Post, Presse und Rundfunk, Telefon/Handy/Internet, Computer | — | ~110 |
+| **Media** | Post, Presse und Rundfunk, Telefon/Handy/Internet, Computer | 70 ✓ | +~20 top-up |
 | **Economy** | Industrie/Handel, Geld/Banken, Landwirtschaft, Technik/Energie/Forschung, Rohstoffe | 91 ✓ | +~25 top-up |
 | **Society** | Geschichte, Gesellschaft, Religion/Moral, Politik, Verteidigung, Institutionen, Gesetz | 106 ✓ | +~20 top-up |
 | **Time** | Jahresablauf, Tageszeit, Zeitbegriffe (Dauer, Häufigkeit, Ablauf) | 68 ✓ | +~30 top-up |
