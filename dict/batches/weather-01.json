@@ -1,0 +1,450 @@
+[
+  {
+    "id": "18e7ee6d-9824-45d4-abd4-4e58b780f789",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il tempo",
+      "sentence": "Che tempo fa oggi da voi?"
+    },
+    "de": {
+      "word": "das Wetter",
+      "sentence": "Wie ist das Wetter heute bei euch?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "739e9235-851e-4c2a-b85a-08e15b7612ec",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "la pioggia",
+      "sentence": "La pioggia non smette da tre giorni."
+    },
+    "de": {
+      "word": "der Regen",
+      "sentence": "Der Regen hört seit drei Tagen nicht auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2a5f1d5f-6469-4787-a948-41e0c0c74ee4",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il sole",
+      "sentence": "Finalmente è uscito il sole."
+    },
+    "de": {
+      "word": "die Sonne",
+      "sentence": "Endlich ist die Sonne herausgekommen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "076592cb-cdad-4c79-bcce-a46ec315e108",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il vento",
+      "sentence": "Il vento forte ha piegato gli alberi."
+    },
+    "de": {
+      "word": "der Wind",
+      "sentence": "Der starke Wind hat die Bäume gebogen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ded46fc2-dbd4-4dc1-8841-e6e4c587f730",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "la neve",
+      "sentence": "La neve ha coperto tutti i tetti."
+    },
+    "de": {
+      "word": "der Schnee",
+      "sentence": "Der Schnee hat alle Dächer bedeckt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8720aecf-4406-43ed-a1a5-eea418a33406",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "la nuvola",
+      "sentence": "Poche nuvole bianche coprono il sole."
+    },
+    "de": {
+      "word": "die Wolke",
+      "sentence": "Ein paar weisse Wolken verdecken die Sonne."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e4b1a956-ff4c-434a-a76e-0b524f79f97c",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "il temporale",
+      "sentence": "Il temporale è arrivato all'improvviso nel pomeriggio."
+    },
+    "de": {
+      "word": "das Gewitter",
+      "sentence": "Das Gewitter kam am Nachmittag ganz plötzlich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f678ae59-54e2-4c58-8442-c5fc1c009c3f",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il ghiaccio",
+      "sentence": "Sulla strada c'è ghiaccio, guida piano."
+    },
+    "de": {
+      "word": "das Eis",
+      "sentence": "Auf der Strasse liegt Eis, fahr langsam."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "79485f1c-34b5-4f69-b4a1-13101e3ac3d3",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il caldo",
+      "sentence": "In agosto il caldo è insopportabile."
+    },
+    "de": {
+      "word": "die Hitze",
+      "sentence": "Im August ist die Hitze unerträglich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "85a18a35-a544-4dda-b661-9cee4c46e0dc",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il freddo",
+      "sentence": "D'inverno il freddo arriva presto qui."
+    },
+    "de": {
+      "word": "die Kälte",
+      "sentence": "Im Winter kommt die Kälte hier früh."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2f314c45-d033-4446-bdab-13a8c4265114",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "la tempesta",
+      "sentence": "La tempesta ha causato molti danni sulla costa."
+    },
+    "de": {
+      "word": "der Sturm",
+      "sentence": "Der Sturm hat an der Küste viele Schäden verursacht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f741831d-4561-4606-85ce-af59151584bc",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "la grandine",
+      "sentence": "La grandine ha rovinato tutto il raccolto."
+    },
+    "de": {
+      "word": "der Hagel",
+      "sentence": "Der Hagel hat die ganze Ernte zerstört."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "001c97c4-793e-439b-a053-647ebb7a6958",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "la temperatura",
+      "sentence": "Domani la temperatura scenderà sotto lo zero."
+    },
+    "de": {
+      "word": "die Temperatur",
+      "sentence": "Morgen sinkt die Temperatur unter null."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8d333796-2c90-497c-a96e-de6710516276",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "la previsione del tempo",
+      "sentence": "Secondo le previsioni del tempo domani pioverà."
+    },
+    "de": {
+      "word": "die Wettervorhersage",
+      "sentence": "Laut der Wettervorhersage regnet es morgen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "804b5800-fe51-4309-af1a-f3e7270c6bc3",
+    "level": "B2",
+    "topic": "Weather",
+    "it": {
+      "word": "il riscaldamento globale",
+      "sentence": "Il riscaldamento globale scioglie i ghiacciai ogni anno di più."
+    },
+    "de": {
+      "word": "die globale Erwärmung",
+      "sentence": "Die globale Erwärmung lässt die Gletscher jedes Jahr weiter schmelzen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6e75b81b-3bf6-4265-83a0-3c5fdb8819cb",
+    "level": "B2",
+    "topic": "Weather",
+    "it": {
+      "word": "la nevicata",
+      "sentence": "La nevicata di stanotte ha bloccato tutte le strade."
+    },
+    "de": {
+      "word": "der Schneefall",
+      "sentence": "Der Schneefall in der Nacht hat alle Strassen blockiert."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "df5028bd-b1ea-499a-ad58-8b56c83001ae",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "piovere",
+      "sentence": "Prendi l'ombrello, sta per piovere."
+    },
+    "de": {
+      "word": "regnen",
+      "sentence": "Nimm den Schirm, es fängt gleich an zu regnen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5c9cc4af-7cbe-40cd-9d83-a472a6ab2acb",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "nevicare",
+      "sentence": "In montagna nevica già da ottobre."
+    },
+    "de": {
+      "word": "schneien",
+      "sentence": "In den Bergen schneit es schon seit Oktober."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fe49eac8-ebb5-4361-8e03-a07c786b0384",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "gelare",
+      "sentence": "Stanotte gela, copri bene le piante."
+    },
+    "de": {
+      "word": "frieren",
+      "sentence": "Heute Nacht friert es, deck die Pflanzen gut zu."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "079cf80e-d9a1-4bdc-bc52-a3365f343a1f",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "schiarirsi",
+      "sentence": "Nel pomeriggio il cielo si schiarisce lentamente."
+    },
+    "de": {
+      "word": "sich aufklären",
+      "sentence": "Am Nachmittag klärt sich der Himmel langsam auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "13355b0c-aa56-4d57-9bd4-1900d0395276",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "soleggiato",
+      "sentence": "È stata una splendida giornata soleggiata."
+    },
+    "de": {
+      "word": "sonnig",
+      "sentence": "Es war ein herrlicher sonniger Tag."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a2604a48-2624-45e5-9fbc-f0c772e99d5e",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "nuvoloso",
+      "sentence": "Il cielo è nuvoloso ma non piove."
+    },
+    "de": {
+      "word": "bewölkt",
+      "sentence": "Der Himmel ist bewölkt, aber es regnet nicht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3713a1a3-d4c9-445c-9cce-4b4797adcbea",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "ventoso",
+      "sentence": "Sulla spiaggia era freddo e ventoso."
+    },
+    "de": {
+      "word": "windig",
+      "sentence": "Am Strand war es kalt und windig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d3ef3a35-ed0a-4679-85a6-eb95b5ee2c79",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "piovoso",
+      "sentence": "Preferisco l'autunno anche se è piovoso."
+    },
+    "de": {
+      "word": "regnerisch",
+      "sentence": "Ich mag den Herbst, auch wenn er regnerisch ist."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9f01124c-a1da-4a03-8a52-e9b65af2d687",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "mite",
+      "sentence": "Quest'anno l'inverno è stato molto mite."
+    },
+    "de": {
+      "word": "mild",
+      "sentence": "Dieses Jahr war der Winter sehr mild."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e2553686-bfec-4347-8268-79a777c1fbbb",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "umido",
+      "sentence": "Il clima qui è caldo e umido."
+    },
+    "de": {
+      "word": "feucht",
+      "sentence": "Das Klima ist hier warm und feucht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7b4b009f-91c7-43e5-9491-25471d88acde",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "afoso",
+      "sentence": "In città l'aria d'estate è afosa."
+    },
+    "de": {
+      "word": "schwül",
+      "sentence": "In der Stadt ist die Luft im Sommer schwül."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "25412ec1-38ca-4a8b-872b-6ca9fcd55763",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "sereno",
+      "sentence": "Domani il cielo sarà sereno tutto il giorno."
+    },
+    "de": {
+      "word": "heiter",
+      "sentence": "Morgen wird der Himmel den ganzen Tag heiter sein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]

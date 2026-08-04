@@ -17,10 +17,10 @@ of which territories exist; all word choices and example sentences are our own.
 | **Person** | Persönliche Angaben, Charaktereigenschaften, Aussehen, Lebenszyklus | 120 ✓ | +40 (personal data, life cycle) |
 | **Children** | (our own — parenting & early childhood; kept from seed) | 140 ✓ | done (keep separate — large enough) |
 | **Relationships** | Familie, Partnerschaft und Ehe, Freundschaft und soziale Kontakte | 78 ✓ | +~30 top-up (absorbs old Friendship) |
-| **Thinking & Feeling** | Denken und Fühlen: Gedanken, Gefühle, Sinneseindrücke | 126 ✓ | +20 gap-fill |
+| **Thinking & Feeling** | Denken und Fühlen: Gedanken, Gefühle, Sinneseindrücke | 137 ✓ | +~10 gap-fill |
 | **Kommunikation** | Sprechsituationen: Gespräche, Fragen/Bitten, Befehl/Verbot, Diskussion, Konflikte, Begrüssen, Redewendungen | 125 ✓ | +30 (greetings, phone/letter) |
 | **Body** | Körperteile und Organe | 67 ✓ | done (symptom/treatment terms moved to Health) |
-| **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 91 ✓ | +~25 (Körperpflege, Notruf) |
+| **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 106 ✓ | +~10 (Notruf) |
 | **Education** | Lernen, Sprache, Schule/Universität/Ausbildung, Fächer | 94 ✓ | +~15 top-up (spiegare, errore, domanda/risposta) |
 | **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | 78 ✓ | +~35 top-up |
 | **Culture** | Lektüre, Musik, Kunst, Theater und Film | 73 ✓ | +~25 top-up |
@@ -29,7 +29,8 @@ of which territories exist; all word choices and example sentences are our own.
 | **Food** | Ernährung (all subchapters) + Restaurant und Café | 96 ✓ | +~45 |
 | **Household** | Häuser/Wohnungen, Zimmer, Einrichtung, Haushaltsführung | 198 ✓ | done (dwelling types, furniture added) |
 | **Travel** | Reisen, Übernachten, Sehenswürdigkeiten, Verkehrsmittel, Individualverkehr | 75 ✓ | +~35 top-up |
-| **Nature** | Landschaft, Weltall, Umwelt/Wetter/Klima, Pflanzen | 99 ✓ | +40 (Weltall, Klima) |
+| **Nature** | Landschaft, Weltall, Umwelt, Pflanzen | 129 ✓ | done (geography + Weltall added; Wetter split to Weather) |
+| **Weather** | Wetter und Klima (split out of Nature) | 35 ✓ | done |
 | **Animals** | Tiere (kept separate — large enough) | 91 ✓ | done |
 | **City** | (our own — no direct book chapter) | 98 ✓ | done |
 | **Clothes** | Bekleidung und Schuhe, Accessoires | 96 ✓ | done |

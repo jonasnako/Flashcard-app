@@ -1,0 +1,578 @@
+[
+  {
+    "id": "47433118-9639-48ee-b5b2-d3b893b27447",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la montagna",
+      "sentence": "In estate andiamo spesso in montagna."
+    },
+    "de": {
+      "word": "der Berg",
+      "sentence": "Im Sommer gehen wir oft in die Berge."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "257640ac-ebfa-4c79-82db-b30a02ae83b6",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "il mare",
+      "sentence": "Il mare oggi è calmo e azzurro."
+    },
+    "de": {
+      "word": "das Meer",
+      "sentence": "Das Meer ist heute ruhig und blau."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8e483554-be94-4c6d-a838-3ef4d4bddcc6",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "il fiume",
+      "sentence": "Il fiume attraversa tutta la città."
+    },
+    "de": {
+      "word": "der Fluss",
+      "sentence": "Der Fluss durchquert die ganze Stadt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "27db7545-1a42-41b9-8dc9-7fa29907fad9",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "il lago",
+      "sentence": "D'estate nuotiamo nel lago vicino."
+    },
+    "de": {
+      "word": "der See",
+      "sentence": "Im Sommer schwimmen wir im nahen See."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fa2cb2e1-d785-494c-b6e0-a5ed73ed7379",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la valle",
+      "sentence": "La valle è verde e piena di alberi."
+    },
+    "de": {
+      "word": "das Tal",
+      "sentence": "Das Tal ist grün und voller Bäume."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4533c921-d770-444c-af09-0290baad2e46",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'isola",
+      "sentence": "Abbiamo passato le vacanze su un'isola."
+    },
+    "de": {
+      "word": "die Insel",
+      "sentence": "Wir haben den Urlaub auf einer Insel verbracht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "15ef1ce7-cb74-4206-94cd-17e223f42d41",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il deserto",
+      "sentence": "Nel deserto le notti sono molto fredde."
+    },
+    "de": {
+      "word": "die Wüste",
+      "sentence": "In der Wüste sind die Nächte sehr kalt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d7e4988c-0884-487a-83dd-8276880fb8e7",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la collina",
+      "sentence": "La casa si trova su una piccola collina."
+    },
+    "de": {
+      "word": "der Hügel",
+      "sentence": "Das Haus liegt auf einem kleinen Hügel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "51941526-9e1c-43e6-a9e3-37197b89b10d",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la pianura",
+      "sentence": "La pianura si estende fino all'orizzonte."
+    },
+    "de": {
+      "word": "die Ebene",
+      "sentence": "Die Ebene erstreckt sich bis zum Horizont."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fba669d0-6133-41a8-8bfb-cb924cb30948",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la costa",
+      "sentence": "La costa è famosa per le sue scogliere."
+    },
+    "de": {
+      "word": "die Küste",
+      "sentence": "Die Küste ist für ihre Klippen bekannt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "02b2a153-e889-4525-90d3-7b468d16c441",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il vulcano",
+      "sentence": "Il vulcano non erutta da molti anni."
+    },
+    "de": {
+      "word": "der Vulkan",
+      "sentence": "Der Vulkan ist seit vielen Jahren nicht ausgebrochen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9fe552c4-9805-4c1c-a668-89a59f6a6ca7",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il sentiero",
+      "sentence": "Il sentiero sale ripido verso la cima."
+    },
+    "de": {
+      "word": "der Wanderweg",
+      "sentence": "Der Wanderweg steigt steil zum Gipfel an."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "33608d5c-12f9-4b77-b5cf-104fd0f3147a",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la grotta",
+      "sentence": "I turisti visitano la grotta con una guida."
+    },
+    "de": {
+      "word": "die Höhle",
+      "sentence": "Die Touristen besichtigen die Höhle mit einem Führer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c11157b3-979e-4dbf-9b5f-db46790d40c6",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la baia",
+      "sentence": "Le barche riposano tranquille nella piccola baia."
+    },
+    "de": {
+      "word": "die Bucht",
+      "sentence": "Die Boote liegen ruhig in der kleinen Bucht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d7988d17-f4ac-4f92-887b-12f21e16cd69",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il continente",
+      "sentence": "L'Africa è un continente ricco di risorse naturali."
+    },
+    "de": {
+      "word": "der Kontinent",
+      "sentence": "Afrika ist ein Kontinent voller natürlicher Ressourcen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bca53c85-7d04-48b4-abd2-75923e5b8448",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il paesaggio",
+      "sentence": "Il paesaggio di montagna toglie il fiato."
+    },
+    "de": {
+      "word": "die Landschaft",
+      "sentence": "Die Berglandschaft hier oben ist wirklich absolut atemberaubend."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f9510e7a-1daf-4723-90e5-7652f85778f5",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la cima",
+      "sentence": "Dalla cima si vede tutta la valle."
+    },
+    "de": {
+      "word": "der Gipfel",
+      "sentence": "Vom Gipfel aus sieht man das ganze Tal."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "217c1af3-0b74-4637-b8b7-f7397458b75f",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la stella",
+      "sentence": "Di notte in campagna si vedono mille stelle."
+    },
+    "de": {
+      "word": "der Stern",
+      "sentence": "Nachts auf dem Land sieht man tausend Sterne."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b4361167-8022-40b6-98f8-a6e5f737d701",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la luna",
+      "sentence": "Stasera la luna è piena e luminosa."
+    },
+    "de": {
+      "word": "der Mond",
+      "sentence": "Heute Abend ist der Mond voll und hell."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "39bd96e2-beec-4870-970a-23d0f6c03ab4",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "il cielo",
+      "sentence": "Il cielo è coperto di nuvole grigie."
+    },
+    "de": {
+      "word": "der Himmel",
+      "sentence": "Der Himmel ist mit grauen Wolken bedeckt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3d076fbc-c834-4547-8ec5-ee0ecd752e25",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il pianeta",
+      "sentence": "Marte è il pianeta più vicino a noi."
+    },
+    "de": {
+      "word": "der Planet",
+      "sentence": "Mars ist der uns am nächsten gelegene Planet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cc6790d0-a075-4a14-bf01-76b2897e2f75",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'universo",
+      "sentence": "L'universo contiene miliardi di stelle e di galassie lontane."
+    },
+    "de": {
+      "word": "das Universum",
+      "sentence": "Das Universum enthält Milliarden von Sternen und fernen Galaxien."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a39e87e4-6b46-4e5d-b3bb-b84a8ee10382",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la galassia",
+      "sentence": "La nostra galassia si chiama Via Lattea."
+    },
+    "de": {
+      "word": "die Galaxie",
+      "sentence": "Unsere eigene Galaxie trägt den Namen Milchstrasse."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c45e0ec9-dc93-4e9d-920a-e946bd7d72c2",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la Terra",
+      "sentence": "La Terra gira intorno al Sole in un anno."
+    },
+    "de": {
+      "word": "die Erde",
+      "sentence": "Die Erde dreht sich in einem Jahr um die Sonne."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d80f6846-bc17-4bfe-9d7e-58fabdf7ada4",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il satellite",
+      "sentence": "Il satellite invia immagini della superficie terrestre."
+    },
+    "de": {
+      "word": "der Satellit",
+      "sentence": "Der Satellit sendet Bilder von der ganzen Erdoberfläche."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f8fd23f1-d921-4cfa-9b7d-8d991495f9a1",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'atmosfera",
+      "sentence": "L'atmosfera protegge il pianeta dai raggi solari."
+    },
+    "de": {
+      "word": "die Atmosphäre",
+      "sentence": "Die Atmosphäre schützt den Planeten vor den Sonnenstrahlen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7088e438-c3ca-44cc-8f95-baa04a0cfecb",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il razzo",
+      "sentence": "Il razzo è partito verso la stazione spaziale."
+    },
+    "de": {
+      "word": "die Rakete",
+      "sentence": "Die Rakete ist zur Raumstation gestartet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "03558ea6-a9ee-4487-a3df-4c82dcc40300",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'astronauta",
+      "sentence": "L'astronauta cammina lentamente sulla superficie della Luna."
+    },
+    "de": {
+      "word": "der Astronaut",
+      "sentence": "Der Astronaut geht langsam auf dem Mond."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "96b52dbc-e49c-42bc-8003-5440860e4aea",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la cometa",
+      "sentence": "La cometa passa vicino alla Terra ogni settant'anni."
+    },
+    "de": {
+      "word": "der Komet",
+      "sentence": "Der Komet kommt alle siebzig Jahre nah an die Erde."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3eb22c5c-f164-4c9a-a61a-e5d3f57ff695",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il sistema solare",
+      "sentence": "Il sistema solare ha otto pianeti principali."
+    },
+    "de": {
+      "word": "das Sonnensystem",
+      "sentence": "Das Sonnensystem hat insgesamt acht grosse Planeten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6112c224-c961-420c-977c-df8b3a0e7877",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la pianta",
+      "sentence": "Annaffio le piante sul balcone ogni giorno."
+    },
+    "de": {
+      "word": "die Pflanze",
+      "sentence": "Ich giesse jeden Tag die Pflanzen auf dem Balkon."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "efbdb1ae-4f94-4392-ae6b-677c14172607",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il cespuglio",
+      "sentence": "Un uccellino si nasconde nel cespuglio."
+    },
+    "de": {
+      "word": "der Busch",
+      "sentence": "Ein kleiner Vogel versteckt sich im Busch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6eaa9d4d-d28c-4ffc-a550-0f36646cb949",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il pino",
+      "sentence": "Il profumo dei pini riempie tutto il bosco."
+    },
+    "de": {
+      "word": "die Kiefer",
+      "sentence": "Der Duft der Kiefern erfüllt den ganzen Wald."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c660d672-8231-4428-ae4e-834cfd9361d7",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la quercia",
+      "sentence": "La vecchia quercia ha più di cento anni."
+    },
+    "de": {
+      "word": "die Eiche",
+      "sentence": "Die alte Eiche ist über hundert Jahre alt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1561d40a-106c-4c07-9f3a-52ec227674b0",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "il petalo",
+      "sentence": "Il vento ha staccato i petali dai fiori."
+    },
+    "de": {
+      "word": "das Blütenblatt",
+      "sentence": "Der Wind hat die Blütenblätter von den Blumen gelöst."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9a40875f-5ef4-4f62-8ed7-846fc787ebba",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il frutto",
+      "sentence": "In autunno l'albero è carico di frutti."
+    },
+    "de": {
+      "word": "die Frucht",
+      "sentence": "Im Herbst ist der Baum voller Früchte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]

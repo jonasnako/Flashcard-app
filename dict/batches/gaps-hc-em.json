@@ -1,0 +1,402 @@
+[
+  {
+    "id": "98e00a2b-c144-402f-89d8-68e9132dc317",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "lavarsi",
+      "sentence": "Mi lavo le mani prima di mangiare."
+    },
+    "de": {
+      "word": "sich waschen",
+      "sentence": "Ich wasche mir vor dem Essen die Hände."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f2feb345-6b12-4462-af04-0db89c0512c3",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la doccia",
+      "sentence": "Faccio la doccia ogni mattina presto."
+    },
+    "de": {
+      "word": "die Dusche",
+      "sentence": "Ich dusche jeden Morgen früh."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "38986db0-55f9-4337-b226-6a6d6f5220f0",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il sapone",
+      "sentence": "Il sapone profuma di lavanda."
+    },
+    "de": {
+      "word": "die Seife",
+      "sentence": "Die Seife duftet nach Lavendel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1fca3afc-2bc0-47c6-8675-3abe243208d4",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "lo spazzolino",
+      "sentence": "Cambio lo spazzolino ogni due mesi."
+    },
+    "de": {
+      "word": "die Zahnbürste",
+      "sentence": "Ich wechsle die Zahnbürste alle zwei Monate."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "80882ddd-a141-4d2e-a3e1-964300e1cc01",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il dentifricio",
+      "sentence": "Metti poco dentifricio sullo spazzolino."
+    },
+    "de": {
+      "word": "die Zahnpasta",
+      "sentence": "Gib wenig Zahnpasta auf die Zahnbürste."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "747f67c2-e9b9-414e-aba5-ebba839ecb92",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il pettine",
+      "sentence": "Cerco il pettine per sistemarmi i capelli."
+    },
+    "de": {
+      "word": "der Kamm",
+      "sentence": "Ich suche den Kamm, um meine Haare zu richten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fe098f25-04a5-4e8a-abb1-7a7149006827",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il rasoio",
+      "sentence": "Ha comprato un rasoio elettrico nuovo."
+    },
+    "de": {
+      "word": "der Rasierer",
+      "sentence": "Er hat einen neuen elektrischen Rasierer gekauft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6a0d71da-3759-4521-9076-934999ece809",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "radersi",
+      "sentence": "Si rade ogni mattina prima del lavoro."
+    },
+    "de": {
+      "word": "sich rasieren",
+      "sentence": "Er rasiert sich jeden Morgen vor der Arbeit."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3a0e18f3-4635-41ce-9a98-242bc3ca3795",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "pettinarsi",
+      "sentence": "La bambina impara a pettinarsi da sola."
+    },
+    "de": {
+      "word": "sich kämmen",
+      "sentence": "Das Mädchen lernt, sich allein zu kämmen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9b28b8c6-963e-45f1-b2e3-e3637bed5133",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "asciugarsi",
+      "sentence": "Mi asciugo con un asciugamano pulito."
+    },
+    "de": {
+      "word": "sich abtrocknen",
+      "sentence": "Ich trockne mich mit einem sauberen Handtuch ab."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4c338d25-9a11-4b58-bcd4-305d531a2788",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "l'asciugamano",
+      "sentence": "Prendi un asciugamano pulito dall'armadio."
+    },
+    "de": {
+      "word": "das Handtuch",
+      "sentence": "Nimm ein sauberes Handtuch aus dem Schrank."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1263e403-63db-4016-8ec1-2ced147e91fe",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "lo shampoo",
+      "sentence": "Questo shampoo è delicato per i capelli."
+    },
+    "de": {
+      "word": "das Shampoo",
+      "sentence": "Dieses Shampoo ist mild für die Haare."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a238d877-f1c7-438c-889c-cafb761e81af",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il deodorante",
+      "sentence": "Uso ogni giorno un deodorante senza profumo."
+    },
+    "de": {
+      "word": "das Deodorant",
+      "sentence": "Ich benutze ein Deodorant ohne Duft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9e837ce2-313b-45a3-b6cb-54d9f521c751",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "truccarsi",
+      "sentence": "Si trucca appena per le occasioni speciali."
+    },
+    "de": {
+      "word": "sich schminken",
+      "sentence": "Sie schminkt sich nur für besondere Anlässe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4ecc1ad8-fdb5-40b8-ab3d-2afc7e81da4b",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "tagliarsi le unghie",
+      "sentence": "Dovrei tagliarmi le unghie, sono diventate troppo lunghe."
+    },
+    "de": {
+      "word": "sich die Nägel schneiden",
+      "sentence": "Ich sollte mir die Nägel schneiden, sie sind zu lang geworden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "aef77e7a-a429-438c-af54-0210a06baecc",
+    "level": "A2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "arrabbiato",
+      "sentence": "È arrabbiato perché ha perso il treno."
+    },
+    "de": {
+      "word": "wütend",
+      "sentence": "Er ist wütend, weil er den Zug verpasst hat."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "26fdd085-89ec-4519-af5c-400e917fa38f",
+    "level": "A2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "preoccupato",
+      "sentence": "La madre è preoccupata per il figlio malato."
+    },
+    "de": {
+      "word": "besorgt",
+      "sentence": "Die Mutter ist besorgt um ihren kranken Sohn."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fbe2140a-6928-4ea3-9422-34d195a24e8c",
+    "level": "A2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "calmo",
+      "sentence": "Nonostante il caos, è rimasto perfettamente calmo."
+    },
+    "de": {
+      "word": "ruhig",
+      "sentence": "Trotz des Chaos ist er ganz ruhig geblieben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "953fba10-ab0e-469b-b0ec-fc2fa1c864de",
+    "level": "A2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "sorpreso",
+      "sentence": "Sono rimasto sorpreso dalla bella notizia."
+    },
+    "de": {
+      "word": "überrascht",
+      "sentence": "Ich war über die schöne Nachricht überrascht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d2c72526-a6fc-4324-b458-eb184dc530f9",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "annoiato",
+      "sentence": "I bambini erano annoiati dal lungo viaggio."
+    },
+    "de": {
+      "word": "gelangweilt",
+      "sentence": "Die Kinder waren von der langen Reise gelangweilt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "20c93cc4-3d81-4ef8-b5a0-c89c581e789d",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "spaventato",
+      "sentence": "Il cane era spaventato dai fuochi d'artificio."
+    },
+    "de": {
+      "word": "verängstigt",
+      "sentence": "Der Hund war von dem Feuerwerk verängstigt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6f32f0b1-d499-4277-bc3b-c1dea0242d2b",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "deluso",
+      "sentence": "Era deluso dal risultato del suo esame."
+    },
+    "de": {
+      "word": "enttäuscht",
+      "sentence": "Er war vom Ergebnis seiner Prüfung enttäuscht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "02c23589-e4b1-4b71-966c-72fbdd026adb",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "orgoglioso",
+      "sentence": "I genitori sono orgogliosi della figlia laureata."
+    },
+    "de": {
+      "word": "stolz",
+      "sentence": "Die Eltern sind stolz auf ihre Tochter mit Abschluss."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8cda9bb6-e5f1-4daf-8f38-81e049685dc2",
+    "level": "B2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "commosso",
+      "sentence": "Era così commosso che non riusciva a parlare."
+    },
+    "de": {
+      "word": "gerührt",
+      "sentence": "Er war so gerührt, dass er nicht sprechen konnte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "936c1d43-ab4e-49b2-bffd-a91671d1e9a8",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "emozionato",
+      "sentence": "Ero troppo emozionato prima di salire sul palco."
+    },
+    "de": {
+      "word": "aufgeregt",
+      "sentence": "Ich war vor dem Auftritt auf der Bühne zu aufgeregt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]

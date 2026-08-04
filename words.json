@@ -8868,7 +8868,7 @@
   {
     "id": "9b476ca4-dd60-4cb4-a2b9-66265b1537c5",
     "level": "B1",
-    "topic": "Nature",
+    "topic": "Weather",
     "it": {
       "word": "il clima",
       "sentence": "Il clima qui è molto mite."
@@ -8881,7 +8881,7 @@
   {
     "id": "8e4257cc-7409-456f-b6de-9a0fc5d6d71a",
     "level": "B1",
-    "topic": "Nature",
+    "topic": "Weather",
     "it": {
       "word": "il fulmine",
       "sentence": "Un fulmine ha colpito un albero vicino."
@@ -8894,7 +8894,7 @@
   {
     "id": "120b8003-ed3f-418b-a65e-b4a37fbd7fea",
     "level": "B1",
-    "topic": "Nature",
+    "topic": "Weather",
     "it": {
       "word": "il tuono",
       "sentence": "Il tuono ha svegliato tutti."
@@ -8907,7 +8907,7 @@
   {
     "id": "41ff0567-ffb1-48b5-911d-7a8e78aee098",
     "level": "B1",
-    "topic": "Nature",
+    "topic": "Weather",
     "it": {
       "word": "la nebbia",
       "sentence": "La nebbia copriva tutta la valle stamattina."
@@ -8933,7 +8933,7 @@
   {
     "id": "bb0ca422-4b5c-4253-9c3b-6ddbcc4385fc",
     "level": "B2",
-    "topic": "Nature",
+    "topic": "Weather",
     "it": {
       "word": "la siccità",
       "sentence": "La siccità di quest'estate è stata grave."
@@ -8946,7 +8946,7 @@
   {
     "id": "5d0c9741-ebbc-4e9e-a2e7-99c55bc12e26",
     "level": "B2",
-    "topic": "Nature",
+    "topic": "Weather",
     "it": {
       "word": "l'alluvione",
       "sentence": "L'alluvione ha danneggiato molte case."
@@ -9726,7 +9726,7 @@
   {
     "id": "316c7e48-549f-481f-839e-945696d0f7db",
     "level": "B1",
-    "topic": "Nature",
+    "topic": "Weather",
     "it": {
       "word": "la brezza",
       "sentence": "Una leggera brezza rinfrescava l'aria."
@@ -34070,6 +34070,1163 @@
     "de": {
       "word": "umtauschen",
       "sentence": "Kann ich das Hemd umtauschen, wenn es nicht passt?"
+    }
+  },
+  {
+    "id": "47433118-9639-48ee-b5b2-d3b893b27447",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la montagna",
+      "sentence": "In estate andiamo spesso in montagna."
+    },
+    "de": {
+      "word": "der Berg",
+      "sentence": "Im Sommer gehen wir oft in die Berge."
+    }
+  },
+  {
+    "id": "257640ac-ebfa-4c79-82db-b30a02ae83b6",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "il mare",
+      "sentence": "Il mare oggi è calmo e azzurro."
+    },
+    "de": {
+      "word": "das Meer",
+      "sentence": "Das Meer ist heute ruhig und blau."
+    }
+  },
+  {
+    "id": "8e483554-be94-4c6d-a838-3ef4d4bddcc6",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "il fiume",
+      "sentence": "Il fiume attraversa tutta la città."
+    },
+    "de": {
+      "word": "der Fluss",
+      "sentence": "Der Fluss durchquert die ganze Stadt."
+    }
+  },
+  {
+    "id": "27db7545-1a42-41b9-8dc9-7fa29907fad9",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "il lago",
+      "sentence": "D'estate nuotiamo nel lago vicino."
+    },
+    "de": {
+      "word": "der See",
+      "sentence": "Im Sommer schwimmen wir im nahen See."
+    }
+  },
+  {
+    "id": "fa2cb2e1-d785-494c-b6e0-a5ed73ed7379",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la valle",
+      "sentence": "La valle è verde e piena di alberi."
+    },
+    "de": {
+      "word": "das Tal",
+      "sentence": "Das Tal ist grün und voller Bäume."
+    }
+  },
+  {
+    "id": "4533c921-d770-444c-af09-0290baad2e46",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'isola",
+      "sentence": "Abbiamo passato le vacanze su un'isola."
+    },
+    "de": {
+      "word": "die Insel",
+      "sentence": "Wir haben den Urlaub auf einer Insel verbracht."
+    }
+  },
+  {
+    "id": "15ef1ce7-cb74-4206-94cd-17e223f42d41",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il deserto",
+      "sentence": "Nel deserto le notti sono molto fredde."
+    },
+    "de": {
+      "word": "die Wüste",
+      "sentence": "In der Wüste sind die Nächte sehr kalt."
+    }
+  },
+  {
+    "id": "d7e4988c-0884-487a-83dd-8276880fb8e7",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la collina",
+      "sentence": "La casa si trova su una piccola collina."
+    },
+    "de": {
+      "word": "der Hügel",
+      "sentence": "Das Haus liegt auf einem kleinen Hügel."
+    }
+  },
+  {
+    "id": "51941526-9e1c-43e6-a9e3-37197b89b10d",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la pianura",
+      "sentence": "La pianura si estende fino all'orizzonte."
+    },
+    "de": {
+      "word": "die Ebene",
+      "sentence": "Die Ebene erstreckt sich bis zum Horizont."
+    }
+  },
+  {
+    "id": "fba669d0-6133-41a8-8bfb-cb924cb30948",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la costa",
+      "sentence": "La costa è famosa per le sue scogliere."
+    },
+    "de": {
+      "word": "die Küste",
+      "sentence": "Die Küste ist für ihre Klippen bekannt."
+    }
+  },
+  {
+    "id": "02b2a153-e889-4525-90d3-7b468d16c441",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il vulcano",
+      "sentence": "Il vulcano non erutta da molti anni."
+    },
+    "de": {
+      "word": "der Vulkan",
+      "sentence": "Der Vulkan ist seit vielen Jahren nicht ausgebrochen."
+    }
+  },
+  {
+    "id": "9fe552c4-9805-4c1c-a668-89a59f6a6ca7",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il sentiero",
+      "sentence": "Il sentiero sale ripido verso la cima."
+    },
+    "de": {
+      "word": "der Wanderweg",
+      "sentence": "Der Wanderweg steigt steil zum Gipfel an."
+    }
+  },
+  {
+    "id": "33608d5c-12f9-4b77-b5cf-104fd0f3147a",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la grotta",
+      "sentence": "I turisti visitano la grotta con una guida."
+    },
+    "de": {
+      "word": "die Höhle",
+      "sentence": "Die Touristen besichtigen die Höhle mit einem Führer."
+    }
+  },
+  {
+    "id": "c11157b3-979e-4dbf-9b5f-db46790d40c6",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la baia",
+      "sentence": "Le barche riposano tranquille nella piccola baia."
+    },
+    "de": {
+      "word": "die Bucht",
+      "sentence": "Die Boote liegen ruhig in der kleinen Bucht."
+    }
+  },
+  {
+    "id": "d7988d17-f4ac-4f92-887b-12f21e16cd69",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il continente",
+      "sentence": "L'Africa è un continente ricco di risorse naturali."
+    },
+    "de": {
+      "word": "der Kontinent",
+      "sentence": "Afrika ist ein Kontinent voller natürlicher Ressourcen."
+    }
+  },
+  {
+    "id": "bca53c85-7d04-48b4-abd2-75923e5b8448",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il paesaggio",
+      "sentence": "Il paesaggio di montagna toglie il fiato."
+    },
+    "de": {
+      "word": "die Landschaft",
+      "sentence": "Die Berglandschaft hier oben ist wirklich absolut atemberaubend."
+    }
+  },
+  {
+    "id": "f9510e7a-1daf-4723-90e5-7652f85778f5",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la cima",
+      "sentence": "Dalla cima si vede tutta la valle."
+    },
+    "de": {
+      "word": "der Gipfel",
+      "sentence": "Vom Gipfel aus sieht man das ganze Tal."
+    }
+  },
+  {
+    "id": "217c1af3-0b74-4637-b8b7-f7397458b75f",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la stella",
+      "sentence": "Di notte in campagna si vedono mille stelle."
+    },
+    "de": {
+      "word": "der Stern",
+      "sentence": "Nachts auf dem Land sieht man tausend Sterne."
+    }
+  },
+  {
+    "id": "b4361167-8022-40b6-98f8-a6e5f737d701",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la luna",
+      "sentence": "Stasera la luna è piena e luminosa."
+    },
+    "de": {
+      "word": "der Mond",
+      "sentence": "Heute Abend ist der Mond voll und hell."
+    }
+  },
+  {
+    "id": "39bd96e2-beec-4870-970a-23d0f6c03ab4",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "il cielo",
+      "sentence": "Il cielo è coperto di nuvole grigie."
+    },
+    "de": {
+      "word": "der Himmel",
+      "sentence": "Der Himmel ist mit grauen Wolken bedeckt."
+    }
+  },
+  {
+    "id": "3d076fbc-c834-4547-8ec5-ee0ecd752e25",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il pianeta",
+      "sentence": "Marte è il pianeta più vicino a noi."
+    },
+    "de": {
+      "word": "der Planet",
+      "sentence": "Mars ist der uns am nächsten gelegene Planet."
+    }
+  },
+  {
+    "id": "cc6790d0-a075-4a14-bf01-76b2897e2f75",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'universo",
+      "sentence": "L'universo contiene miliardi di stelle e di galassie lontane."
+    },
+    "de": {
+      "word": "das Universum",
+      "sentence": "Das Universum enthält Milliarden von Sternen und fernen Galaxien."
+    }
+  },
+  {
+    "id": "a39e87e4-6b46-4e5d-b3bb-b84a8ee10382",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la galassia",
+      "sentence": "La nostra galassia si chiama Via Lattea."
+    },
+    "de": {
+      "word": "die Galaxie",
+      "sentence": "Unsere eigene Galaxie trägt den Namen Milchstrasse."
+    }
+  },
+  {
+    "id": "c45e0ec9-dc93-4e9d-920a-e946bd7d72c2",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la Terra",
+      "sentence": "La Terra gira intorno al Sole in un anno."
+    },
+    "de": {
+      "word": "die Erde",
+      "sentence": "Die Erde dreht sich in einem Jahr um die Sonne."
+    }
+  },
+  {
+    "id": "d80f6846-bc17-4bfe-9d7e-58fabdf7ada4",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il satellite",
+      "sentence": "Il satellite invia immagini della superficie terrestre."
+    },
+    "de": {
+      "word": "der Satellit",
+      "sentence": "Der Satellit sendet Bilder von der ganzen Erdoberfläche."
+    }
+  },
+  {
+    "id": "f8fd23f1-d921-4cfa-9b7d-8d991495f9a1",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'atmosfera",
+      "sentence": "L'atmosfera protegge il pianeta dai raggi solari."
+    },
+    "de": {
+      "word": "die Atmosphäre",
+      "sentence": "Die Atmosphäre schützt den Planeten vor den Sonnenstrahlen."
+    }
+  },
+  {
+    "id": "7088e438-c3ca-44cc-8f95-baa04a0cfecb",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il razzo",
+      "sentence": "Il razzo è partito verso la stazione spaziale."
+    },
+    "de": {
+      "word": "die Rakete",
+      "sentence": "Die Rakete ist zur Raumstation gestartet."
+    }
+  },
+  {
+    "id": "03558ea6-a9ee-4487-a3df-4c82dcc40300",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "l'astronauta",
+      "sentence": "L'astronauta cammina lentamente sulla superficie della Luna."
+    },
+    "de": {
+      "word": "der Astronaut",
+      "sentence": "Der Astronaut geht langsam auf dem Mond."
+    }
+  },
+  {
+    "id": "96b52dbc-e49c-42bc-8003-5440860e4aea",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "la cometa",
+      "sentence": "La cometa passa vicino alla Terra ogni settant'anni."
+    },
+    "de": {
+      "word": "der Komet",
+      "sentence": "Der Komet kommt alle siebzig Jahre nah an die Erde."
+    }
+  },
+  {
+    "id": "3eb22c5c-f164-4c9a-a61a-e5d3f57ff695",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il sistema solare",
+      "sentence": "Il sistema solare ha otto pianeti principali."
+    },
+    "de": {
+      "word": "das Sonnensystem",
+      "sentence": "Das Sonnensystem hat insgesamt acht grosse Planeten."
+    }
+  },
+  {
+    "id": "6112c224-c961-420c-977c-df8b3a0e7877",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la pianta",
+      "sentence": "Annaffio le piante sul balcone ogni giorno."
+    },
+    "de": {
+      "word": "die Pflanze",
+      "sentence": "Ich giesse jeden Tag die Pflanzen auf dem Balkon."
+    }
+  },
+  {
+    "id": "efbdb1ae-4f94-4392-ae6b-677c14172607",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il cespuglio",
+      "sentence": "Un uccellino si nasconde nel cespuglio."
+    },
+    "de": {
+      "word": "der Busch",
+      "sentence": "Ein kleiner Vogel versteckt sich im Busch."
+    }
+  },
+  {
+    "id": "6eaa9d4d-d28c-4ffc-a550-0f36646cb949",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il pino",
+      "sentence": "Il profumo dei pini riempie tutto il bosco."
+    },
+    "de": {
+      "word": "die Kiefer",
+      "sentence": "Der Duft der Kiefern erfüllt den ganzen Wald."
+    }
+  },
+  {
+    "id": "c660d672-8231-4428-ae4e-834cfd9361d7",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "la quercia",
+      "sentence": "La vecchia quercia ha più di cento anni."
+    },
+    "de": {
+      "word": "die Eiche",
+      "sentence": "Die alte Eiche ist über hundert Jahre alt."
+    }
+  },
+  {
+    "id": "1561d40a-106c-4c07-9f3a-52ec227674b0",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "il petalo",
+      "sentence": "Il vento ha staccato i petali dai fiori."
+    },
+    "de": {
+      "word": "das Blütenblatt",
+      "sentence": "Der Wind hat die Blütenblätter von den Blumen gelöst."
+    }
+  },
+  {
+    "id": "9a40875f-5ef4-4f62-8ed7-846fc787ebba",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "il frutto",
+      "sentence": "In autunno l'albero è carico di frutti."
+    },
+    "de": {
+      "word": "die Frucht",
+      "sentence": "Im Herbst ist der Baum voller Früchte."
+    }
+  },
+  {
+    "id": "18e7ee6d-9824-45d4-abd4-4e58b780f789",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il tempo",
+      "sentence": "Che tempo fa oggi da voi?"
+    },
+    "de": {
+      "word": "das Wetter",
+      "sentence": "Wie ist das Wetter heute bei euch?"
+    }
+  },
+  {
+    "id": "739e9235-851e-4c2a-b85a-08e15b7612ec",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "la pioggia",
+      "sentence": "La pioggia non smette da tre giorni."
+    },
+    "de": {
+      "word": "der Regen",
+      "sentence": "Der Regen hört seit drei Tagen nicht auf."
+    }
+  },
+  {
+    "id": "2a5f1d5f-6469-4787-a948-41e0c0c74ee4",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il sole",
+      "sentence": "Finalmente è uscito il sole."
+    },
+    "de": {
+      "word": "die Sonne",
+      "sentence": "Endlich ist die Sonne herausgekommen."
+    }
+  },
+  {
+    "id": "076592cb-cdad-4c79-bcce-a46ec315e108",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il vento",
+      "sentence": "Il vento forte ha piegato gli alberi."
+    },
+    "de": {
+      "word": "der Wind",
+      "sentence": "Der starke Wind hat die Bäume gebogen."
+    }
+  },
+  {
+    "id": "ded46fc2-dbd4-4dc1-8841-e6e4c587f730",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "la neve",
+      "sentence": "La neve ha coperto tutti i tetti."
+    },
+    "de": {
+      "word": "der Schnee",
+      "sentence": "Der Schnee hat alle Dächer bedeckt."
+    }
+  },
+  {
+    "id": "8720aecf-4406-43ed-a1a5-eea418a33406",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "la nuvola",
+      "sentence": "Poche nuvole bianche coprono il sole."
+    },
+    "de": {
+      "word": "die Wolke",
+      "sentence": "Ein paar weisse Wolken verdecken die Sonne."
+    }
+  },
+  {
+    "id": "e4b1a956-ff4c-434a-a76e-0b524f79f97c",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "il temporale",
+      "sentence": "Il temporale è arrivato all'improvviso nel pomeriggio."
+    },
+    "de": {
+      "word": "das Gewitter",
+      "sentence": "Das Gewitter kam am Nachmittag ganz plötzlich."
+    }
+  },
+  {
+    "id": "f678ae59-54e2-4c58-8442-c5fc1c009c3f",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il ghiaccio",
+      "sentence": "Sulla strada c'è ghiaccio, guida piano."
+    },
+    "de": {
+      "word": "das Eis",
+      "sentence": "Auf der Strasse liegt Eis, fahr langsam."
+    }
+  },
+  {
+    "id": "79485f1c-34b5-4f69-b4a1-13101e3ac3d3",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il caldo",
+      "sentence": "In agosto il caldo è insopportabile."
+    },
+    "de": {
+      "word": "die Hitze",
+      "sentence": "Im August ist die Hitze unerträglich."
+    }
+  },
+  {
+    "id": "85a18a35-a544-4dda-b661-9cee4c46e0dc",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "il freddo",
+      "sentence": "D'inverno il freddo arriva presto qui."
+    },
+    "de": {
+      "word": "die Kälte",
+      "sentence": "Im Winter kommt die Kälte hier früh."
+    }
+  },
+  {
+    "id": "2f314c45-d033-4446-bdab-13a8c4265114",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "la tempesta",
+      "sentence": "La tempesta ha causato molti danni sulla costa."
+    },
+    "de": {
+      "word": "der Sturm",
+      "sentence": "Der Sturm hat an der Küste viele Schäden verursacht."
+    }
+  },
+  {
+    "id": "f741831d-4561-4606-85ce-af59151584bc",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "la grandine",
+      "sentence": "La grandine ha rovinato tutto il raccolto."
+    },
+    "de": {
+      "word": "der Hagel",
+      "sentence": "Der Hagel hat die ganze Ernte zerstört."
+    }
+  },
+  {
+    "id": "001c97c4-793e-439b-a053-647ebb7a6958",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "la temperatura",
+      "sentence": "Domani la temperatura scenderà sotto lo zero."
+    },
+    "de": {
+      "word": "die Temperatur",
+      "sentence": "Morgen sinkt die Temperatur unter null."
+    }
+  },
+  {
+    "id": "8d333796-2c90-497c-a96e-de6710516276",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "la previsione del tempo",
+      "sentence": "Secondo le previsioni del tempo domani pioverà."
+    },
+    "de": {
+      "word": "die Wettervorhersage",
+      "sentence": "Laut der Wettervorhersage regnet es morgen."
+    }
+  },
+  {
+    "id": "804b5800-fe51-4309-af1a-f3e7270c6bc3",
+    "level": "B2",
+    "topic": "Weather",
+    "it": {
+      "word": "il riscaldamento globale",
+      "sentence": "Il riscaldamento globale scioglie i ghiacciai ogni anno di più."
+    },
+    "de": {
+      "word": "die globale Erwärmung",
+      "sentence": "Die globale Erwärmung lässt die Gletscher jedes Jahr weiter schmelzen."
+    }
+  },
+  {
+    "id": "6e75b81b-3bf6-4265-83a0-3c5fdb8819cb",
+    "level": "B2",
+    "topic": "Weather",
+    "it": {
+      "word": "la nevicata",
+      "sentence": "La nevicata di stanotte ha bloccato tutte le strade."
+    },
+    "de": {
+      "word": "der Schneefall",
+      "sentence": "Der Schneefall in der Nacht hat alle Strassen blockiert."
+    }
+  },
+  {
+    "id": "df5028bd-b1ea-499a-ad58-8b56c83001ae",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "piovere",
+      "sentence": "Prendi l'ombrello, sta per piovere."
+    },
+    "de": {
+      "word": "regnen",
+      "sentence": "Nimm den Schirm, es fängt gleich an zu regnen."
+    }
+  },
+  {
+    "id": "5c9cc4af-7cbe-40cd-9d83-a472a6ab2acb",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "nevicare",
+      "sentence": "In montagna nevica già da ottobre."
+    },
+    "de": {
+      "word": "schneien",
+      "sentence": "In den Bergen schneit es schon seit Oktober."
+    }
+  },
+  {
+    "id": "fe49eac8-ebb5-4361-8e03-a07c786b0384",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "gelare",
+      "sentence": "Stanotte gela, copri bene le piante."
+    },
+    "de": {
+      "word": "frieren",
+      "sentence": "Heute Nacht friert es, deck die Pflanzen gut zu."
+    }
+  },
+  {
+    "id": "079cf80e-d9a1-4bdc-bc52-a3365f343a1f",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "schiarirsi",
+      "sentence": "Nel pomeriggio il cielo si schiarisce lentamente."
+    },
+    "de": {
+      "word": "sich aufklären",
+      "sentence": "Am Nachmittag klärt sich der Himmel langsam auf."
+    }
+  },
+  {
+    "id": "13355b0c-aa56-4d57-9bd4-1900d0395276",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "soleggiato",
+      "sentence": "È stata una splendida giornata soleggiata."
+    },
+    "de": {
+      "word": "sonnig",
+      "sentence": "Es war ein herrlicher sonniger Tag."
+    }
+  },
+  {
+    "id": "a2604a48-2624-45e5-9fbc-f0c772e99d5e",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "nuvoloso",
+      "sentence": "Il cielo è nuvoloso ma non piove."
+    },
+    "de": {
+      "word": "bewölkt",
+      "sentence": "Der Himmel ist bewölkt, aber es regnet nicht."
+    }
+  },
+  {
+    "id": "3713a1a3-d4c9-445c-9cce-4b4797adcbea",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "ventoso",
+      "sentence": "Sulla spiaggia era freddo e ventoso."
+    },
+    "de": {
+      "word": "windig",
+      "sentence": "Am Strand war es kalt und windig."
+    }
+  },
+  {
+    "id": "d3ef3a35-ed0a-4679-85a6-eb95b5ee2c79",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "piovoso",
+      "sentence": "Preferisco l'autunno anche se è piovoso."
+    },
+    "de": {
+      "word": "regnerisch",
+      "sentence": "Ich mag den Herbst, auch wenn er regnerisch ist."
+    }
+  },
+  {
+    "id": "9f01124c-a1da-4a03-8a52-e9b65af2d687",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "mite",
+      "sentence": "Quest'anno l'inverno è stato molto mite."
+    },
+    "de": {
+      "word": "mild",
+      "sentence": "Dieses Jahr war der Winter sehr mild."
+    }
+  },
+  {
+    "id": "e2553686-bfec-4347-8268-79a777c1fbbb",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "umido",
+      "sentence": "Il clima qui è caldo e umido."
+    },
+    "de": {
+      "word": "feucht",
+      "sentence": "Das Klima ist hier warm und feucht."
+    }
+  },
+  {
+    "id": "7b4b009f-91c7-43e5-9491-25471d88acde",
+    "level": "B1",
+    "topic": "Weather",
+    "it": {
+      "word": "afoso",
+      "sentence": "In città l'aria d'estate è afosa."
+    },
+    "de": {
+      "word": "schwül",
+      "sentence": "In der Stadt ist die Luft im Sommer schwül."
+    }
+  },
+  {
+    "id": "25412ec1-38ca-4a8b-872b-6ca9fcd55763",
+    "level": "A2",
+    "topic": "Weather",
+    "it": {
+      "word": "sereno",
+      "sentence": "Domani il cielo sarà sereno tutto il giorno."
+    },
+    "de": {
+      "word": "heiter",
+      "sentence": "Morgen wird der Himmel den ganzen Tag heiter sein."
+    }
+  },
+  {
+    "id": "98e00a2b-c144-402f-89d8-68e9132dc317",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "lavarsi",
+      "sentence": "Mi lavo le mani prima di mangiare."
+    },
+    "de": {
+      "word": "sich waschen",
+      "sentence": "Ich wasche mir vor dem Essen die Hände."
+    }
+  },
+  {
+    "id": "f2feb345-6b12-4462-af04-0db89c0512c3",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "la doccia",
+      "sentence": "Faccio la doccia ogni mattina presto."
+    },
+    "de": {
+      "word": "die Dusche",
+      "sentence": "Ich dusche jeden Morgen früh."
+    }
+  },
+  {
+    "id": "38986db0-55f9-4337-b226-6a6d6f5220f0",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il sapone",
+      "sentence": "Il sapone profuma di lavanda."
+    },
+    "de": {
+      "word": "die Seife",
+      "sentence": "Die Seife duftet nach Lavendel."
+    }
+  },
+  {
+    "id": "1fca3afc-2bc0-47c6-8675-3abe243208d4",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "lo spazzolino",
+      "sentence": "Cambio lo spazzolino ogni due mesi."
+    },
+    "de": {
+      "word": "die Zahnbürste",
+      "sentence": "Ich wechsle die Zahnbürste alle zwei Monate."
+    }
+  },
+  {
+    "id": "80882ddd-a141-4d2e-a3e1-964300e1cc01",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "il dentifricio",
+      "sentence": "Metti poco dentifricio sullo spazzolino."
+    },
+    "de": {
+      "word": "die Zahnpasta",
+      "sentence": "Gib wenig Zahnpasta auf die Zahnbürste."
+    }
+  },
+  {
+    "id": "747f67c2-e9b9-414e-aba5-ebba839ecb92",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il pettine",
+      "sentence": "Cerco il pettine per sistemarmi i capelli."
+    },
+    "de": {
+      "word": "der Kamm",
+      "sentence": "Ich suche den Kamm, um meine Haare zu richten."
+    }
+  },
+  {
+    "id": "fe098f25-04a5-4e8a-abb1-7a7149006827",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il rasoio",
+      "sentence": "Ha comprato un rasoio elettrico nuovo."
+    },
+    "de": {
+      "word": "der Rasierer",
+      "sentence": "Er hat einen neuen elektrischen Rasierer gekauft."
+    }
+  },
+  {
+    "id": "6a0d71da-3759-4521-9076-934999ece809",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "radersi",
+      "sentence": "Si rade ogni mattina prima del lavoro."
+    },
+    "de": {
+      "word": "sich rasieren",
+      "sentence": "Er rasiert sich jeden Morgen vor der Arbeit."
+    }
+  },
+  {
+    "id": "3a0e18f3-4635-41ce-9a98-242bc3ca3795",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "pettinarsi",
+      "sentence": "La bambina impara a pettinarsi da sola."
+    },
+    "de": {
+      "word": "sich kämmen",
+      "sentence": "Das Mädchen lernt, sich allein zu kämmen."
+    }
+  },
+  {
+    "id": "9b28b8c6-963e-45f1-b2e3-e3637bed5133",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "asciugarsi",
+      "sentence": "Mi asciugo con un asciugamano pulito."
+    },
+    "de": {
+      "word": "sich abtrocknen",
+      "sentence": "Ich trockne mich mit einem sauberen Handtuch ab."
+    }
+  },
+  {
+    "id": "4c338d25-9a11-4b58-bcd4-305d531a2788",
+    "level": "A2",
+    "topic": "Health",
+    "it": {
+      "word": "l'asciugamano",
+      "sentence": "Prendi un asciugamano pulito dall'armadio."
+    },
+    "de": {
+      "word": "das Handtuch",
+      "sentence": "Nimm ein sauberes Handtuch aus dem Schrank."
+    }
+  },
+  {
+    "id": "1263e403-63db-4016-8ec1-2ced147e91fe",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "lo shampoo",
+      "sentence": "Questo shampoo è delicato per i capelli."
+    },
+    "de": {
+      "word": "das Shampoo",
+      "sentence": "Dieses Shampoo ist mild für die Haare."
+    }
+  },
+  {
+    "id": "a238d877-f1c7-438c-889c-cafb761e81af",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il deodorante",
+      "sentence": "Uso ogni giorno un deodorante senza profumo."
+    },
+    "de": {
+      "word": "das Deodorant",
+      "sentence": "Ich benutze ein Deodorant ohne Duft."
+    }
+  },
+  {
+    "id": "9e837ce2-313b-45a3-b6cb-54d9f521c751",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "truccarsi",
+      "sentence": "Si trucca appena per le occasioni speciali."
+    },
+    "de": {
+      "word": "sich schminken",
+      "sentence": "Sie schminkt sich nur für besondere Anlässe."
+    }
+  },
+  {
+    "id": "4ecc1ad8-fdb5-40b8-ab3d-2afc7e81da4b",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "tagliarsi le unghie",
+      "sentence": "Dovrei tagliarmi le unghie, sono diventate troppo lunghe."
+    },
+    "de": {
+      "word": "sich die Nägel schneiden",
+      "sentence": "Ich sollte mir die Nägel schneiden, sie sind zu lang geworden."
+    }
+  },
+  {
+    "id": "aef77e7a-a429-438c-af54-0210a06baecc",
+    "level": "A2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "arrabbiato",
+      "sentence": "È arrabbiato perché ha perso il treno."
+    },
+    "de": {
+      "word": "wütend",
+      "sentence": "Er ist wütend, weil er den Zug verpasst hat."
+    }
+  },
+  {
+    "id": "26fdd085-89ec-4519-af5c-400e917fa38f",
+    "level": "A2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "preoccupato",
+      "sentence": "La madre è preoccupata per il figlio malato."
+    },
+    "de": {
+      "word": "besorgt",
+      "sentence": "Die Mutter ist besorgt um ihren kranken Sohn."
+    }
+  },
+  {
+    "id": "fbe2140a-6928-4ea3-9422-34d195a24e8c",
+    "level": "A2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "calmo",
+      "sentence": "Nonostante il caos, è rimasto perfettamente calmo."
+    },
+    "de": {
+      "word": "ruhig",
+      "sentence": "Trotz des Chaos ist er ganz ruhig geblieben."
+    }
+  },
+  {
+    "id": "953fba10-ab0e-469b-b0ec-fc2fa1c864de",
+    "level": "A2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "sorpreso",
+      "sentence": "Sono rimasto sorpreso dalla bella notizia."
+    },
+    "de": {
+      "word": "überrascht",
+      "sentence": "Ich war über die schöne Nachricht überrascht."
+    }
+  },
+  {
+    "id": "d2c72526-a6fc-4324-b458-eb184dc530f9",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "annoiato",
+      "sentence": "I bambini erano annoiati dal lungo viaggio."
+    },
+    "de": {
+      "word": "gelangweilt",
+      "sentence": "Die Kinder waren von der langen Reise gelangweilt."
+    }
+  },
+  {
+    "id": "20c93cc4-3d81-4ef8-b5a0-c89c581e789d",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "spaventato",
+      "sentence": "Il cane era spaventato dai fuochi d'artificio."
+    },
+    "de": {
+      "word": "verängstigt",
+      "sentence": "Der Hund war von dem Feuerwerk verängstigt."
+    }
+  },
+  {
+    "id": "6f32f0b1-d499-4277-bc3b-c1dea0242d2b",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "deluso",
+      "sentence": "Era deluso dal risultato del suo esame."
+    },
+    "de": {
+      "word": "enttäuscht",
+      "sentence": "Er war vom Ergebnis seiner Prüfung enttäuscht."
+    }
+  },
+  {
+    "id": "02c23589-e4b1-4b71-966c-72fbdd026adb",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "orgoglioso",
+      "sentence": "I genitori sono orgogliosi della figlia laureata."
+    },
+    "de": {
+      "word": "stolz",
+      "sentence": "Die Eltern sind stolz auf ihre Tochter mit Abschluss."
+    }
+  },
+  {
+    "id": "8cda9bb6-e5f1-4daf-8f38-81e049685dc2",
+    "level": "B2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "commosso",
+      "sentence": "Era così commosso che non riusciva a parlare."
+    },
+    "de": {
+      "word": "gerührt",
+      "sentence": "Er war so gerührt, dass er nicht sprechen konnte."
+    }
+  },
+  {
+    "id": "936c1d43-ab4e-49b2-bffd-a91671d1e9a8",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "emozionato",
+      "sentence": "Ero troppo emozionato prima di salire sul palco."
+    },
+    "de": {
+      "word": "aufgeregt",
+      "sentence": "Ich war vor dem Auftritt auf der Bühne zu aufgeregt."
     }
   }
 ]
