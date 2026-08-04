@@ -15,13 +15,13 @@ of which territories exist; all word choices and example sentences are our own.
 | Topic | Book chapters absorbed | Status | Target |
 |---|---|---|---|
 | **Person** | Persönliche Angaben, Charaktereigenschaften, Aussehen, Lebenszyklus | 120 ✓ | +40 (personal data, life cycle) |
-| **Children** | (our own — parenting & early childhood; kept from seed) | 148 ✓ | done (keep separate — large enough) |
+| **Children** | (our own — parenting & early childhood; kept from seed) | 140 ✓ | done (keep separate — large enough) |
 | **Relationships** | Familie, Partnerschaft und Ehe, Freundschaft und soziale Kontakte | 78 ✓ | +~30 top-up (absorbs old Friendship) |
 | **Thinking & Feeling** | Denken und Fühlen: Gedanken, Gefühle, Sinneseindrücke | 126 ✓ | +20 gap-fill |
 | **Kommunikation** | Sprechsituationen: Gespräche, Fragen/Bitten, Befehl/Verbot, Diskussion, Konflikte, Begrüssen, Redewendungen | 125 ✓ | +30 (greetings, phone/letter) |
 | **Body** | Körperteile und Organe | 67 ✓ | done (symptom/treatment terms moved to Health) |
 | **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 91 ✓ | +~25 (Körperpflege, Notruf) |
-| **Education** | Lernen, Sprache, Schule/Universität/Ausbildung, Fächer | — | ~110 |
+| **Education** | Lernen, Sprache, Schule/Universität/Ausbildung, Fächer | 94 ✓ | +~15 top-up (spiegare, errore, domanda/risposta) |
 | **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | old approach | ~120 **rebuild** |
 | **Culture** | Lektüre, Musik, Kunst, Theater und Film | — | ~100 |
 | **Freizeit** | Feste feiern, Feiertage, Ausgehen, Sport, Hobbys | — | ~110 |
@@ -68,7 +68,7 @@ id-matched update (keep the existing id; change only `topic`) once the target to
 | ~~innamorarsi di~~ | ~~Relationships~~ ✓ done |
 | ~~andare d'accordo~~ | ~~Relationships~~ ✓ done |
 | ~~regalare~~ | ~~Relationships~~ ✓ done |
-| prendere appunti | Education |
+| ~~prendere appunti~~ | ~~Education~~ ✓ done |
 | tagliare | Food |
 | aggiungere | Food |
 | aggiustare | Household |
@@ -86,6 +86,9 @@ storcersi, la vertigine, gonfio, guarire, riprendersi, la medicina, il cerotto, 
 fisioterapia, il massaggio, prendersi cura di sé* (from Body); *la febbre, il raffreddore,
 la tosse, vaccinare, il libretto delle vaccinazioni* (from Children); *la cicatrice* (from
 Person). Kept where they were after review: *l'ospedale* (City), *la gelosia* (Children).
+When Education was built, these general school words moved into it from Children (review-approved):
+*la scuola, la classe, l'insegnante, il compagno di classe, il voto, la pagella, i compiti,
+imparare*. Kept in Children: *la maestra, la ricreazione, spiegare* (early-childhood flavour).
 
 ---
 

@@ -405,7 +405,7 @@
   {
     "id": "326071e6-17cb-4b27-b5b7-756f7dae15b4",
     "level": "B2",
-    "topic": "Children",
+    "topic": "Education",
     "it": {
       "word": "i compiti",
       "sentence": "Dopo la scuola deve finire i compiti prima di giocare."
@@ -1107,7 +1107,7 @@
   {
     "id": "5c66fb06-c12a-40ec-8a5c-de382b9d2933",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Education",
     "it": {
       "word": "imparare",
       "sentence": "A scuola i bambini imparano a leggere e a scrivere."
@@ -1172,7 +1172,7 @@
   {
     "id": "561741dc-118d-4a1e-9375-b16570d2bbe9",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Education",
     "it": {
       "word": "la scuola",
       "sentence": "Mio figlio va a scuola a piedi ogni mattina."
@@ -3187,7 +3187,7 @@
   {
     "id": "c8c2a5fb-0fcd-4ccb-84d8-096a9b52e99e",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Education",
     "it": {
       "word": "l'insegnante",
       "sentence": "L'insegnante ha parlato bene di lui."
@@ -3200,7 +3200,7 @@
   {
     "id": "1c09d7aa-0586-404c-8cd3-51d51fb9c181",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Education",
     "it": {
       "word": "la classe",
       "sentence": "È il più piccolo della classe."
@@ -3213,7 +3213,7 @@
   {
     "id": "991ad28f-ba72-4792-809c-5753f0ef476b",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Education",
     "it": {
       "word": "il compagno di classe",
       "sentence": "Ha invitato un compagno di classe a giocare."
@@ -3226,7 +3226,7 @@
   {
     "id": "0cec9661-e3a9-4fdc-9521-b20c4bb34737",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Education",
     "it": {
       "word": "la pagella",
       "sentence": "La pagella di fine anno è stata positiva."
@@ -3239,7 +3239,7 @@
   {
     "id": "cea3b05c-32b7-465c-8d5c-22a1d245b04e",
     "level": "B1",
-    "topic": "Children",
+    "topic": "Education",
     "it": {
       "word": "il voto",
       "sentence": "Ha preso un buon voto in matematica."
@@ -16356,7 +16356,7 @@
   {
     "id": "7d1a67f7-7b25-4ef1-ab61-4996311798a3",
     "level": "B1",
-    "topic": "Verbs",
+    "topic": "Education",
     "it": {
       "word": "prendere appunti",
       "sentence": "Durante il corso prendo sempre appunti."
@@ -22617,6 +22617,1111 @@
     "de": {
       "word": "schwach",
       "sentence": "Als Kind war er ein eher schwacher Typ."
+    }
+  },
+  {
+    "id": "d879f493-eccc-4fa8-98ff-8dce9f7ec0c6",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la scuola elementare",
+      "sentence": "Mia figlia va alla scuola elementare."
+    },
+    "de": {
+      "word": "die Grundschule",
+      "sentence": "Meine Tochter geht in die Grundschule."
+    }
+  },
+  {
+    "id": "8b95ba87-f27f-4791-84bc-d9ac0c5d9045",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la scuola media",
+      "sentence": "Alla scuola media si studiano più materie."
+    },
+    "de": {
+      "word": "die Mittelschule",
+      "sentence": "In der Mittelschule lernt man mehr Fächer."
+    }
+  },
+  {
+    "id": "dafba94e-aa90-40b0-ae0c-adb4ba11cb68",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la scuola superiore",
+      "sentence": "La scuola superiore dura cinque anni."
+    },
+    "de": {
+      "word": "die Oberschule",
+      "sentence": "Die Oberschule dauert bei uns fünf Jahre."
+    }
+  },
+  {
+    "id": "47a7d0fd-0c68-4f0c-adc6-c85d8d121997",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "il liceo",
+      "sentence": "Ho frequentato un liceo scientifico."
+    },
+    "de": {
+      "word": "das Gymnasium",
+      "sentence": "Ich habe ein naturwissenschaftliches Gymnasium besucht."
+    }
+  },
+  {
+    "id": "01aefa40-f6bc-4d92-8759-321ccbb6ecd7",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "l'università",
+      "sentence": "Studia medicina all'università di Bologna."
+    },
+    "de": {
+      "word": "die Universität",
+      "sentence": "Sie studiert Medizin an der Universität Bologna."
+    }
+  },
+  {
+    "id": "1b7289dd-1645-42b6-87cc-3d91ca1688fc",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "l'aula",
+      "sentence": "L'aula è piena di studenti."
+    },
+    "de": {
+      "word": "der Klassenraum",
+      "sentence": "Der Klassenraum ist voller Studenten."
+    }
+  },
+  {
+    "id": "64d33e55-a3f1-4b3e-8abc-2048ad915fe7",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la lavagna",
+      "sentence": "Il professore scrive la data sulla lavagna."
+    },
+    "de": {
+      "word": "die Tafel",
+      "sentence": "Der Lehrer schreibt das Datum an die Tafel."
+    }
+  },
+  {
+    "id": "d074d258-54bf-423a-833c-78cc4c3edc82",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "il banco",
+      "sentence": "Ogni alunno ha il proprio banco."
+    },
+    "de": {
+      "word": "das Pult",
+      "sentence": "Jeder Schüler hat sein eigenes Pult."
+    }
+  },
+  {
+    "id": "4421896f-84a4-411e-ab3b-5ced9bf6c31e",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la mensa",
+      "sentence": "A mezzogiorno mangiamo alla mensa scolastica."
+    },
+    "de": {
+      "word": "die Kantine",
+      "sentence": "Mittags essen wir in der Schulkantine."
+    }
+  },
+  {
+    "id": "358a97e4-009d-487f-87cc-b17a6f16b53b",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il laboratorio",
+      "sentence": "L'esperimento si svolge nel laboratorio di chimica."
+    },
+    "de": {
+      "word": "das Labor",
+      "sentence": "Das Experiment findet im Chemielabor statt."
+    }
+  },
+  {
+    "id": "757640d5-35f4-4485-93ec-a67e4ddb14fb",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "lo studente",
+      "sentence": "Lo studente arriva sempre puntuale."
+    },
+    "de": {
+      "word": "der Student",
+      "sentence": "Der Student kommt immer pünktlich an."
+    }
+  },
+  {
+    "id": "b03c48fc-f111-4022-99a7-d7193e1aaa74",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la studentessa",
+      "sentence": "La studentessa prende ottimi voti."
+    },
+    "de": {
+      "word": "die Studentin",
+      "sentence": "Die Studentin bekommt immer sehr gute Noten."
+    }
+  },
+  {
+    "id": "5a84fd4c-e85c-451d-9c61-ba4b6a593674",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "l'alunno",
+      "sentence": "L'alunno alza la mano per rispondere."
+    },
+    "de": {
+      "word": "der Schüler",
+      "sentence": "Der Schüler hebt die Hand, um zu antworten."
+    }
+  },
+  {
+    "id": "9c4fa97d-c585-4fc8-b447-6792670002db",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "il maestro",
+      "sentence": "Il maestro insegna con molta pazienza."
+    },
+    "de": {
+      "word": "der Lehrer",
+      "sentence": "Der Lehrer unterrichtet mit sehr viel Geduld."
+    }
+  },
+  {
+    "id": "efe07fa7-404a-4574-abbf-0ed31e32c018",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "il professore",
+      "sentence": "Il professore spiega la lezione con chiarezza."
+    },
+    "de": {
+      "word": "der Professor",
+      "sentence": "Der Professor erklärt die Lektion sehr klar."
+    }
+  },
+  {
+    "id": "8a7377ad-be89-48dc-b6a5-3703b1d84aa0",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la professoressa",
+      "sentence": "La professoressa corregge i compiti stasera."
+    },
+    "de": {
+      "word": "die Professorin",
+      "sentence": "Die Professorin korrigiert heute Abend die Aufgaben."
+    }
+  },
+  {
+    "id": "d35ed3c5-aaf7-422c-bf47-248aa22ddf00",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il preside",
+      "sentence": "Il preside ha convocato tutti i genitori."
+    },
+    "de": {
+      "word": "der Schulleiter",
+      "sentence": "Der Schulleiter hat alle Eltern einberufen."
+    }
+  },
+  {
+    "id": "b1dfe392-e018-4466-82d3-741305ace5fa",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "il rettore",
+      "sentence": "Il rettore ha inaugurato il nuovo anno accademico all'università."
+    },
+    "de": {
+      "word": "der Rektor",
+      "sentence": "Der Rektor hat das neue akademische Jahr feierlich eröffnet."
+    }
+  },
+  {
+    "id": "232328e9-59ba-4f5f-bf0e-fe748978a3b5",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il bidello",
+      "sentence": "Il bidello apre la scuola ogni mattina presto."
+    },
+    "de": {
+      "word": "der Hausmeister",
+      "sentence": "Der Hausmeister öffnet die Schule jeden Morgen früh."
+    }
+  },
+  {
+    "id": "5252c7c4-36b4-4965-956b-c48bd4bf33ca",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "studiare",
+      "sentence": "Studio due ore ogni pomeriggio."
+    },
+    "de": {
+      "word": "lernen",
+      "sentence": "Ich lerne jeden Nachmittag zwei Stunden."
+    }
+  },
+  {
+    "id": "6c554501-eb9c-4429-974b-8f7883941ace",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "insegnare",
+      "sentence": "Insegna italiano agli stranieri da anni."
+    },
+    "de": {
+      "word": "unterrichten",
+      "sentence": "Sie unterrichtet seit Jahren Italienisch für Ausländer."
+    }
+  },
+  {
+    "id": "3939c645-9eac-46ed-99a5-d576acf91391",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "ripassare",
+      "sentence": "Prima dell'esame ripasso tutti gli appunti."
+    },
+    "de": {
+      "word": "wiederholen",
+      "sentence": "Vor der Prüfung wiederhole ich alle Notizen."
+    }
+  },
+  {
+    "id": "cd7d988c-940f-46cb-b088-3039e8924579",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "memorizzare",
+      "sentence": "Cerco di memorizzare venti parole al giorno."
+    },
+    "de": {
+      "word": "auswendig lernen",
+      "sentence": "Ich versuche, täglich zwanzig Wörter auswendig zu lernen."
+    }
+  },
+  {
+    "id": "6279ba03-6b2c-48ab-9a81-1cff55716152",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "esercitarsi",
+      "sentence": "Mi esercito ogni giorno con la grammatica."
+    },
+    "de": {
+      "word": "üben",
+      "sentence": "Ich übe jeden Tag mit der Grammatik."
+    }
+  },
+  {
+    "id": "d6d7cd96-75d4-4c86-a5bc-20c29c6a1d1f",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "fare i compiti",
+      "sentence": "Faccio i compiti prima di cena."
+    },
+    "de": {
+      "word": "Hausaufgaben machen",
+      "sentence": "Ich mache die Hausaufgaben vor dem Abendessen."
+    }
+  },
+  {
+    "id": "675cb295-97c3-4d93-83e6-f0135c214493",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "apprendere",
+      "sentence": "I bambini apprendono le lingue molto in fretta."
+    },
+    "de": {
+      "word": "erlernen",
+      "sentence": "Kinder erlernen Sprachen wirklich sehr schnell."
+    }
+  },
+  {
+    "id": "b466cf4d-369f-4987-a088-3a76dd585673",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "copiare",
+      "sentence": "Non si può copiare durante l'esame."
+    },
+    "de": {
+      "word": "abschreiben",
+      "sentence": "Man darf während der Prüfung nicht abschreiben."
+    }
+  },
+  {
+    "id": "5a5acd80-6483-401c-9f9b-7215a81234e5",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "correggere",
+      "sentence": "L'insegnante corregge gli errori con la penna rossa."
+    },
+    "de": {
+      "word": "korrigieren",
+      "sentence": "Die Lehrerin korrigiert die Fehler mit rotem Stift."
+    }
+  },
+  {
+    "id": "7710069c-a1a0-46fa-9e9d-1799a159947f",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "valutare",
+      "sentence": "Il professore valuta ogni compito con attenzione."
+    },
+    "de": {
+      "word": "bewerten",
+      "sentence": "Der Professor bewertet jede Arbeit sehr sorgfältig."
+    }
+  },
+  {
+    "id": "2ae1df96-59a8-4902-81bc-40933cf2c9b3",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "frequentare",
+      "sentence": "Frequento un corso di tedesco serale."
+    },
+    "de": {
+      "word": "besuchen",
+      "sentence": "Ich besuche einen Deutschkurs am Abend."
+    }
+  },
+  {
+    "id": "471f9039-722d-4072-a3b3-d8dab01fbb09",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "l'esame",
+      "sentence": "Domani ho un esame importante di storia."
+    },
+    "de": {
+      "word": "die Prüfung",
+      "sentence": "Morgen habe ich eine wichtige Geschichtsprüfung."
+    }
+  },
+  {
+    "id": "195ca62d-ec97-403b-a488-6613dbe14f6b",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "il compito",
+      "sentence": "Il compito in classe dura due ore."
+    },
+    "de": {
+      "word": "die Klassenarbeit",
+      "sentence": "Die Klassenarbeit dauert bei uns zwei Stunden."
+    }
+  },
+  {
+    "id": "768c598b-05be-462c-9ffa-6bd362eb1688",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "la verifica",
+      "sentence": "La verifica di matematica è andata bene."
+    },
+    "de": {
+      "word": "der Test",
+      "sentence": "Der Mathetest ist ziemlich gut gelaufen."
+    }
+  },
+  {
+    "id": "ea793b85-3fc7-435e-86b0-35d35c658d0c",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "l'interrogazione",
+      "sentence": "Ho paura dell'interrogazione di storia di domani."
+    },
+    "de": {
+      "word": "die mündliche Prüfung",
+      "sentence": "Ich habe Angst vor der mündlichen Prüfung morgen."
+    }
+  },
+  {
+    "id": "113ac79d-4dda-45fe-b565-b38b8b68f67b",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il diploma",
+      "sentence": "Ha ottenuto il diploma con il massimo dei voti."
+    },
+    "de": {
+      "word": "das Diplom",
+      "sentence": "Er hat das Diplom mit der Bestnote erhalten."
+    }
+  },
+  {
+    "id": "1b3725de-1853-45ad-aad9-b7b9d59a481c",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "la laurea",
+      "sentence": "Dopo la laurea vuole lavorare all'estero."
+    },
+    "de": {
+      "word": "der Studienabschluss",
+      "sentence": "Nach dem Studienabschluss will sie im Ausland arbeiten."
+    }
+  },
+  {
+    "id": "8b2c27b1-a4e5-411c-b0b9-89674a4af3e3",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "bocciare",
+      "sentence": "Se non studi, ti possono bocciare."
+    },
+    "de": {
+      "word": "durchfallen lassen",
+      "sentence": "Wenn du nicht lernst, können sie dich durchfallen lassen."
+    }
+  },
+  {
+    "id": "134fd9c9-eeec-4fe9-b914-4d550b24a8aa",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "promuovere",
+      "sentence": "Alla fine dell'anno lo hanno promosso."
+    },
+    "de": {
+      "word": "versetzen",
+      "sentence": "Am Ende des Jahres haben sie ihn versetzt."
+    }
+  },
+  {
+    "id": "e84f0d06-01d3-4975-a0fa-c8c44e8ba0a1",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "superare un esame",
+      "sentence": "È riuscito a superare l'esame al primo tentativo."
+    },
+    "de": {
+      "word": "eine Prüfung bestehen",
+      "sentence": "Er konnte die Prüfung gleich beim ersten Versuch bestehen."
+    }
+  },
+  {
+    "id": "58fbe1d9-ab64-4759-8ae4-e016b06b3571",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "iscriversi",
+      "sentence": "Mi sono iscritto a un corso di spagnolo."
+    },
+    "de": {
+      "word": "sich einschreiben",
+      "sentence": "Ich habe mich in einen Spanischkurs eingeschrieben."
+    }
+  },
+  {
+    "id": "f2de4979-2e58-462f-a354-16f7c679c1f6",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "laurearsi",
+      "sentence": "Si è laureata in giurisprudenza a Roma."
+    },
+    "de": {
+      "word": "seinen Abschluss machen",
+      "sentence": "Sie hat in Rom ihren Abschluss in Jura gemacht."
+    }
+  },
+  {
+    "id": "48d49297-410a-428c-8640-5c939040f109",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "il certificato",
+      "sentence": "Alla fine del corso ricevi un certificato ufficiale di frequenza."
+    },
+    "de": {
+      "word": "das Zertifikat",
+      "sentence": "Am Ende des Kurses bekommst du ein offizielles Teilnahmezertifikat."
+    }
+  },
+  {
+    "id": "97165320-7fc6-44e7-99a9-d65488e72877",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "la borsa di studio",
+      "sentence": "Grazie alla borsa di studio ha potuto studiare all'estero."
+    },
+    "de": {
+      "word": "das Stipendium",
+      "sentence": "Dank des Stipendiums konnte sie im Ausland studieren."
+    }
+  },
+  {
+    "id": "5af24359-4f3e-4748-996b-4a57e99adba1",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la materia",
+      "sentence": "La mia materia preferita è la storia."
+    },
+    "de": {
+      "word": "das Fach",
+      "sentence": "Mein Lieblingsfach ist die Geschichte."
+    }
+  },
+  {
+    "id": "4215f455-3fcd-4bf3-ac22-7f8be6514d65",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "il corso",
+      "sentence": "Il corso di lingua inizia a settembre."
+    },
+    "de": {
+      "word": "der Kurs",
+      "sentence": "Der Sprachkurs beginnt im September."
+    }
+  },
+  {
+    "id": "faf7c3f0-1f3b-4fe5-954f-611c7d76e8ee",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la lezione",
+      "sentence": "La lezione di oggi è molto interessante."
+    },
+    "de": {
+      "word": "die Lektion",
+      "sentence": "Die heutige Lektion ist wirklich sehr interessant."
+    }
+  },
+  {
+    "id": "dc8dbb80-964a-4271-9a3c-757cb72c1ce2",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il semestre",
+      "sentence": "Il primo semestre finisce a gennaio."
+    },
+    "de": {
+      "word": "das Semester",
+      "sentence": "Das erste Semester endet im Januar."
+    }
+  },
+  {
+    "id": "e828dbfc-4709-4554-bb51-6f1688cd758f",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "l'assenza",
+      "sentence": "Troppe assenze possono causare problemi seri agli studenti."
+    },
+    "de": {
+      "word": "die Abwesenheit",
+      "sentence": "Zu viele Abwesenheiten können echte Probleme verursachen."
+    }
+  },
+  {
+    "id": "33f8a95d-2047-474d-a7e0-cde0caac6f77",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il voto finale",
+      "sentence": "Il voto finale dipende anche dai compiti."
+    },
+    "de": {
+      "word": "die Endnote",
+      "sentence": "Die Endnote hängt auch von den Aufgaben ab."
+    }
+  },
+  {
+    "id": "2444e31a-5612-4105-87e7-bdbe00dec642",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la matematica",
+      "sentence": "La matematica non è la mia materia."
+    },
+    "de": {
+      "word": "die Mathematik",
+      "sentence": "Die Mathematik ist nicht mein Fach."
+    }
+  },
+  {
+    "id": "42a4e485-ff9d-43a1-93a0-83981a7d5272",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la geografia",
+      "sentence": "In geografia studiamo i fiumi europei."
+    },
+    "de": {
+      "word": "die Geografie",
+      "sentence": "In Geografie lernen wir die europäischen Flüsse."
+    }
+  },
+  {
+    "id": "187a77c9-b78c-4bc3-97e6-cc475008ec22",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "le scienze",
+      "sentence": "Le scienze mi hanno sempre affascinato."
+    },
+    "de": {
+      "word": "die Naturwissenschaften",
+      "sentence": "Die Naturwissenschaften haben mich immer fasziniert."
+    }
+  },
+  {
+    "id": "0794c9d6-c40b-4fd7-ad66-760ebd1f260d",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "la chimica",
+      "sentence": "La chimica spiega come reagiscono le sostanze."
+    },
+    "de": {
+      "word": "die Chemie",
+      "sentence": "Die Chemie erklärt, wie Stoffe miteinander reagieren."
+    }
+  },
+  {
+    "id": "adea994f-7cda-48ff-973b-eac065044567",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "la fisica",
+      "sentence": "In fisica abbiamo studiato la gravità."
+    },
+    "de": {
+      "word": "die Physik",
+      "sentence": "In Physik haben wir die Schwerkraft studiert."
+    }
+  },
+  {
+    "id": "5cb60b58-0073-4f35-a6a8-477b66e5e8ba",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "la biologia",
+      "sentence": "La biologia studia gli esseri viventi."
+    },
+    "de": {
+      "word": "die Biologie",
+      "sentence": "Die Biologie erforscht die lebenden Organismen."
+    }
+  },
+  {
+    "id": "38857494-eb51-42d1-bc27-6d4e73c6c5e1",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "la letteratura",
+      "sentence": "Amo la letteratura italiana dell'Ottocento e del Novecento."
+    },
+    "de": {
+      "word": "die Literatur",
+      "sentence": "Ich liebe die italienische Literatur des neunzehnten Jahrhunderts."
+    }
+  },
+  {
+    "id": "9b691005-0891-47ad-8226-86be704ceaeb",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "la filosofia",
+      "sentence": "La filosofia ci insegna a porre le domande giuste."
+    },
+    "de": {
+      "word": "die Philosophie",
+      "sentence": "Die Philosophie lehrt uns, die richtigen Fragen zu stellen."
+    }
+  },
+  {
+    "id": "8e597ac2-95bb-4834-b496-17d0897cbd95",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "l'informatica",
+      "sentence": "Studia informatica perché le piace programmare."
+    },
+    "de": {
+      "word": "die Informatik",
+      "sentence": "Sie studiert Informatik, weil sie gern programmiert."
+    }
+  },
+  {
+    "id": "38cf7dce-cf0e-41ae-8616-7e09e73b1086",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la grammatica",
+      "sentence": "La grammatica tedesca è piuttosto difficile."
+    },
+    "de": {
+      "word": "die Grammatik",
+      "sentence": "Die deutsche Grammatik ist ziemlich schwierig."
+    }
+  },
+  {
+    "id": "52255d07-7d21-4a08-af64-c6929b0aae8c",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "l'ortografia",
+      "sentence": "Fai sempre attenzione all'ortografia quando scrivi un testo."
+    },
+    "de": {
+      "word": "die Rechtschreibung",
+      "sentence": "Achte beim Schreiben genau auf die Rechtschreibung."
+    }
+  },
+  {
+    "id": "8d7b9fc0-6339-4771-81cf-7828589d7c92",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la lingua",
+      "sentence": "Il tedesco è una lingua molto precisa."
+    },
+    "de": {
+      "word": "die Sprache",
+      "sentence": "Deutsch ist eine sehr präzise Sprache."
+    }
+  },
+  {
+    "id": "27d08ebc-735d-455e-8d72-65bc65ce7033",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la parola",
+      "sentence": "Non conosco il significato di questa parola."
+    },
+    "de": {
+      "word": "das Wort",
+      "sentence": "Ich kenne die Bedeutung dieses Wortes nicht."
+    }
+  },
+  {
+    "id": "32842f7e-5567-411a-a4fd-fd24c264c294",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la frase",
+      "sentence": "Scrivi una frase completa con questo verbo."
+    },
+    "de": {
+      "word": "der Satz",
+      "sentence": "Schreib einen vollständigen Satz mit diesem Verb."
+    }
+  },
+  {
+    "id": "a04ef53f-fd30-4f56-98ae-055568d3f062",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il vocabolo",
+      "sentence": "Ogni giorno imparo cinque vocaboli nuovi."
+    },
+    "de": {
+      "word": "die Vokabel",
+      "sentence": "Jeden Tag lerne ich fünf neue Vokabeln."
+    }
+  },
+  {
+    "id": "91aaa205-2223-4d94-b26f-ea1a3b1e42cd",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "la traduzione",
+      "sentence": "La traduzione di questo testo è difficile."
+    },
+    "de": {
+      "word": "die Übersetzung",
+      "sentence": "Die Übersetzung dieses Textes ist recht schwierig."
+    }
+  },
+  {
+    "id": "2a820efa-4026-4eef-b5f9-2e1466e34ff4",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "il dizionario",
+      "sentence": "Cerco la parola nel dizionario bilingue."
+    },
+    "de": {
+      "word": "das Wörterbuch",
+      "sentence": "Ich suche das Wort im zweisprachigen Wörterbuch."
+    }
+  },
+  {
+    "id": "d113f3a0-cee1-4b28-9734-3775582cb170",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "la pronuncia",
+      "sentence": "La sua pronuncia inglese è quasi perfetta."
+    },
+    "de": {
+      "word": "die Aussprache",
+      "sentence": "Seine englische Aussprache ist fast schon perfekt."
+    }
+  },
+  {
+    "id": "7438b9d0-5f82-485b-b334-a5485e676e17",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "l'accento",
+      "sentence": "Metti l'accento sulla sillaba giusta di questa parola."
+    },
+    "de": {
+      "word": "die Betonung",
+      "sentence": "Setz die Betonung auf die richtige Silbe."
+    }
+  },
+  {
+    "id": "11078ae4-342b-46f6-ab79-bd53b39dc0fc",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la regola",
+      "sentence": "Questa regola grammaticale ha molte eccezioni."
+    },
+    "de": {
+      "word": "die Regel",
+      "sentence": "Diese Grammatikregel hat viele Ausnahmen."
+    }
+  },
+  {
+    "id": "060ad4a0-d9dc-48cf-9c5b-0861af2150c3",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il verbo",
+      "sentence": "In italiano il verbo cambia secondo la persona."
+    },
+    "de": {
+      "word": "das Verb",
+      "sentence": "Im Italienischen ändert sich das Verb je nach Person."
+    }
+  },
+  {
+    "id": "c9fd95b3-a489-4fc6-8fbd-27eb1e3f02e2",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "il sostantivo",
+      "sentence": "In tedesco ogni sostantivo si scrive con la maiuscola."
+    },
+    "de": {
+      "word": "das Substantiv",
+      "sentence": "Im Deutschen schreibt man jedes Substantiv immer mit einem grossen Anfangsbuchstaben."
+    }
+  },
+  {
+    "id": "9ecec8d1-61c5-4629-aa0a-cb371d7e36ee",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "l'aggettivo",
+      "sentence": "L'aggettivo concorda con il nome in genere."
+    },
+    "de": {
+      "word": "das Adjektiv",
+      "sentence": "Das Adjektiv stimmt im Geschlecht mit dem Nomen überein."
+    }
+  },
+  {
+    "id": "4a465d94-fb92-46af-b7ab-4968c7a2d073",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "tradurre",
+      "sentence": "Traduco l'intero articolo dall'italiano al tedesco per lei."
+    },
+    "de": {
+      "word": "übersetzen",
+      "sentence": "Ich übersetze den Artikel aus dem Italienischen ins Deutsche."
+    }
+  },
+  {
+    "id": "66981440-55b9-46e2-8382-2504dc75af52",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "coniugare",
+      "sentence": "Bisogna imparare a coniugare bene i verbi irregolari italiani."
+    },
+    "de": {
+      "word": "konjugieren",
+      "sentence": "Man muss lernen, die unregelmässigen Verben zu konjugieren."
+    }
+  },
+  {
+    "id": "e7c5fe23-9f19-4d7c-9d11-c9a34de7b24d",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "la madrelingua",
+      "sentence": "La sua madrelingua è il portoghese."
+    },
+    "de": {
+      "word": "die Muttersprache",
+      "sentence": "Seine Muttersprache ist eigentlich Portugiesisch und nicht Spanisch."
+    }
+  },
+  {
+    "id": "fa3dd0d6-7e9d-44c9-b4f8-e3d413f88363",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il livello",
+      "sentence": "Ho raggiunto un buon livello di francese."
+    },
+    "de": {
+      "word": "das Niveau",
+      "sentence": "Ich habe ein gutes Niveau in Französisch erreicht."
+    }
+  },
+  {
+    "id": "253ba795-8d7e-4312-9c25-2a50aaaddc9a",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "il quaderno",
+      "sentence": "Scrivo gli appunti sul quaderno."
+    },
+    "de": {
+      "word": "das Heft",
+      "sentence": "Ich schreibe die Notizen in mein Heft."
+    }
+  },
+  {
+    "id": "9b30435d-60e4-4f8f-b02c-41cbc1baf2c3",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la penna",
+      "sentence": "Firma il modulo con la penna blu."
+    },
+    "de": {
+      "word": "der Kugelschreiber",
+      "sentence": "Unterschreib das Formular mit dem blauen Kugelschreiber."
+    }
+  },
+  {
+    "id": "f157456c-9bba-46bf-9045-ccf822b7a403",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la matita",
+      "sentence": "Disegno lo schema a matita."
+    },
+    "de": {
+      "word": "der Bleistift",
+      "sentence": "Ich zeichne das Schema mit Bleistift."
+    }
+  },
+  {
+    "id": "89fb71ba-0af3-42f0-8d4d-6393c42b4543",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "la gomma",
+      "sentence": "Uso la gomma per cancellare l'errore."
+    },
+    "de": {
+      "word": "der Radiergummi",
+      "sentence": "Ich benutze den Radiergummi, um den Fehler zu löschen."
+    }
+  },
+  {
+    "id": "9c56b390-3434-4dff-bd0e-a8f4b3303ad0",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "il righello",
+      "sentence": "Traccio la linea con il righello."
+    },
+    "de": {
+      "word": "das Lineal",
+      "sentence": "Ich ziehe die Linie mit dem Lineal."
+    }
+  },
+  {
+    "id": "c4b9cd21-4ea4-4f16-a492-4d34b7fe2dcf",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il manuale",
+      "sentence": "Il manuale spiega ogni regola con esempi."
+    },
+    "de": {
+      "word": "das Lehrbuch",
+      "sentence": "Das Lehrbuch erklärt jede Regel mit Beispielen."
+    }
+  },
+  {
+    "id": "e265008f-355c-4760-86b3-ade9164b9ec0",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il testo",
+      "sentence": "Leggi il testo e rispondi alle domande."
+    },
+    "de": {
+      "word": "der Text",
+      "sentence": "Lies den Text und beantworte die Fragen."
+    }
+  },
+  {
+    "id": "83df9284-55f6-4493-80c8-a7310247d6e4",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "l'astuccio",
+      "sentence": "Nell'astuccio tengo penne e matite."
+    },
+    "de": {
+      "word": "das Federmäppchen",
+      "sentence": "Im Federmäppchen habe ich Stifte und Bleistifte."
+    }
+  },
+  {
+    "id": "eb5175d4-fbc2-4944-8e8e-1cb4e0229e0c",
+    "level": "A2",
+    "topic": "Education",
+    "it": {
+      "word": "il foglio",
+      "sentence": "Scrivi la risposta su un foglio bianco."
+    },
+    "de": {
+      "word": "das Blatt",
+      "sentence": "Schreib die Antwort auf ein weisses Blatt."
     }
   }
 ]
