@@ -27896,5 +27896,993 @@
       "word": "die Kirche",
       "sentence": "Die Kirche steht mitten in der Altstadt."
     }
+  },
+  {
+    "id": "caab09a0-ccf4-4343-a912-31bcb30d86ca",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il viaggio",
+      "sentence": "Il viaggio in Sicilia è stato bellissimo."
+    },
+    "de": {
+      "word": "die Reise",
+      "sentence": "Die Reise nach Sizilien war wirklich wunderschön."
+    }
+  },
+  {
+    "id": "37b8fc36-b797-47b0-9061-40807e529323",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la vacanza",
+      "sentence": "Andiamo in vacanza al mare ogni estate."
+    },
+    "de": {
+      "word": "die Ferien",
+      "sentence": "Wir fahren jeden Sommer ans Meer in die Ferien."
+    }
+  },
+  {
+    "id": "a5ad0568-9f57-4884-be0a-f59ac3b300ed",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il turista",
+      "sentence": "Ogni anno milioni di turisti visitano Roma."
+    },
+    "de": {
+      "word": "der Tourist",
+      "sentence": "Jedes Jahr besuchen Millionen Touristen Rom."
+    }
+  },
+  {
+    "id": "8994a59d-b3cd-4350-b923-b4dc98bc8e90",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il turismo",
+      "sentence": "Il turismo è la principale risorsa dell'isola."
+    },
+    "de": {
+      "word": "der Tourismus",
+      "sentence": "Der Tourismus ist die wichtigste Einnahmequelle der Insel."
+    }
+  },
+  {
+    "id": "e9dc0596-0144-417a-b2c9-2b84c75f393a",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "la meta",
+      "sentence": "Le Dolomiti sono una meta molto amata."
+    },
+    "de": {
+      "word": "das Reiseziel",
+      "sentence": "Die Dolomiten sind ein sehr beliebtes Reiseziel."
+    }
+  },
+  {
+    "id": "80b92ea3-bf1d-4cf0-b85c-2fa52e046ea3",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "la destinazione",
+      "sentence": "La nostra destinazione finale è Lisbona."
+    },
+    "de": {
+      "word": "das Ziel",
+      "sentence": "Unser endgültiges Reiseziel auf dieser Fahrt ist Lissabon."
+    }
+  },
+  {
+    "id": "735ef471-22d6-492c-b9ce-41446c62ec7f",
+    "level": "B2",
+    "topic": "Travel",
+    "it": {
+      "word": "l'itinerario",
+      "sentence": "Abbiamo pianificato con cura l'intero itinerario del nostro viaggio."
+    },
+    "de": {
+      "word": "die Reiseroute",
+      "sentence": "Wir haben die ganze Reiseroute sorgfältig im Voraus geplant."
+    }
+  },
+  {
+    "id": "8c1670e1-f878-44aa-8bb3-ecb111942a5f",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la valigia",
+      "sentence": "Faccio la valigia la sera prima di partire."
+    },
+    "de": {
+      "word": "der Koffer",
+      "sentence": "Ich packe den Koffer am Abend vor der Abreise."
+    }
+  },
+  {
+    "id": "8eebce9c-9f77-43a9-9e49-212dbb845c78",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il bagaglio",
+      "sentence": "Il bagaglio a mano deve essere leggero."
+    },
+    "de": {
+      "word": "das Gepäck",
+      "sentence": "Das Handgepäck muss ziemlich leicht sein."
+    }
+  },
+  {
+    "id": "2b096f8c-c5e2-499a-86d0-f6d461a789f9",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il passaporto",
+      "sentence": "Non dimenticare il passaporto all'aeroporto."
+    },
+    "de": {
+      "word": "der Reisepass",
+      "sentence": "Vergiss den Reisepass nicht am Flughafen."
+    }
+  },
+  {
+    "id": "12e5cbc7-a538-499c-b3f9-d71e7514504a",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la partenza",
+      "sentence": "La partenza è prevista per le otto."
+    },
+    "de": {
+      "word": "die Abfahrt",
+      "sentence": "Die Abfahrt ist für acht Uhr geplant."
+    }
+  },
+  {
+    "id": "b28b96a2-578d-4b99-a8a9-cd8451a1862a",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "l'arrivo",
+      "sentence": "L'arrivo a Napoli è previsto a mezzogiorno."
+    },
+    "de": {
+      "word": "die Ankunft",
+      "sentence": "Die Ankunft in Neapel ist für Mittag geplant."
+    }
+  },
+  {
+    "id": "6d8915ba-7ffa-44cf-b1f9-30e93ace8dd4",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "la dogana",
+      "sentence": "Alla dogana hanno controllato le valigie."
+    },
+    "de": {
+      "word": "der Zoll",
+      "sentence": "Am Zoll haben sie die Koffer kontrolliert."
+    }
+  },
+  {
+    "id": "3c7aa806-f0e1-4193-bddc-3afe6490ddb6",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il visto",
+      "sentence": "Per quel paese serve un visto turistico."
+    },
+    "de": {
+      "word": "das Visum",
+      "sentence": "Für jenes Land braucht man ein Touristenvisum."
+    }
+  },
+  {
+    "id": "711766aa-9b55-4c4a-873a-e82155bf231f",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la guida",
+      "sentence": "La guida ci ha mostrato il centro storico."
+    },
+    "de": {
+      "word": "der Reiseführer",
+      "sentence": "Der Reiseführer hat uns die Altstadt gezeigt."
+    }
+  },
+  {
+    "id": "c32fe7ea-bb5f-4ba4-a862-7a64e3f676cf",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la cartina",
+      "sentence": "Studio la cartina prima di uscire in città."
+    },
+    "de": {
+      "word": "die Landkarte",
+      "sentence": "Ich schaue die Landkarte an, bevor ich losgehe."
+    }
+  },
+  {
+    "id": "35bc45a4-7d4b-4d43-91c5-65a10656f33f",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il souvenir",
+      "sentence": "Ho comprato un souvenir per mia sorella."
+    },
+    "de": {
+      "word": "das Andenken",
+      "sentence": "Ich habe ein Andenken für meine Schwester gekauft."
+    }
+  },
+  {
+    "id": "2f12b23b-65df-450e-a415-06672580102e",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la gita",
+      "sentence": "Domenica facciamo una gita al lago."
+    },
+    "de": {
+      "word": "der Ausflug",
+      "sentence": "Am Sonntag machen wir einen Ausflug zum See."
+    }
+  },
+  {
+    "id": "61cfc384-d049-4aa0-855d-dfe624360aa2",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "l'escursione",
+      "sentence": "L'escursione in montagna dura tutto il giorno."
+    },
+    "de": {
+      "word": "die Wanderung",
+      "sentence": "Die Wanderung in den Bergen dauert den ganzen Tag."
+    }
+  },
+  {
+    "id": "7e7987ba-7e68-4ff7-aec5-7210c3f0d94a",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il viaggiatore",
+      "sentence": "Il viaggiatore esperto porta sempre poco bagaglio."
+    },
+    "de": {
+      "word": "der Reisende",
+      "sentence": "Der erfahrene Reisende nimmt immer wenig Gepäck mit."
+    }
+  },
+  {
+    "id": "c8bf2141-7acf-4f04-8854-1138458aa27c",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "la frontiera",
+      "sentence": "Abbiamo attraversato la frontiera senza problemi."
+    },
+    "de": {
+      "word": "die Grenze",
+      "sentence": "Wir haben die Grenze ohne Probleme überquert."
+    }
+  },
+  {
+    "id": "9211d2cc-9a31-4106-9b6c-eba2142b933f",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il treno",
+      "sentence": "Prendo il treno delle sette per Milano."
+    },
+    "de": {
+      "word": "der Zug",
+      "sentence": "Ich nehme den Zug um sieben nach Mailand."
+    }
+  },
+  {
+    "id": "eb879afa-8794-4403-b613-50a02d16ff37",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "l'aereo",
+      "sentence": "L'aereo per Parigi è già decollato."
+    },
+    "de": {
+      "word": "das Flugzeug",
+      "sentence": "Das Flugzeug nach Paris ist schon gestartet."
+    }
+  },
+  {
+    "id": "8f782cd5-4744-402b-9144-3192d514d8ee",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il volo",
+      "sentence": "Il volo ha due ore di ritardo."
+    },
+    "de": {
+      "word": "der Flug",
+      "sentence": "Der Flug hat zwei Stunden Verspätung."
+    }
+  },
+  {
+    "id": "9f08ed75-4ee0-4371-bd1c-db3a7e468b34",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la nave",
+      "sentence": "La nave parte dal porto alle nove."
+    },
+    "de": {
+      "word": "das Schiff",
+      "sentence": "Das Schiff fährt um neun vom Hafen ab."
+    }
+  },
+  {
+    "id": "24b3ce88-89bd-44c1-abe9-da4d843ff75d",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il traghetto",
+      "sentence": "Il traghetto per l'isola parte ogni ora."
+    },
+    "de": {
+      "word": "die Fähre",
+      "sentence": "Die Fähre zur Insel fährt jede Stunde ab."
+    }
+  },
+  {
+    "id": "2d7bc214-fe1f-483c-83f6-b2dd1eb93218",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il porto",
+      "sentence": "Le barche sono ormeggiate nel porto."
+    },
+    "de": {
+      "word": "der Hafen",
+      "sentence": "Die Boote liegen im Hafen vor Anker."
+    }
+  },
+  {
+    "id": "c89e2b8c-e893-4a39-be49-11646530ec7e",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il pullman",
+      "sentence": "Il pullman turistico ci porta fino in albergo."
+    },
+    "de": {
+      "word": "der Reisebus",
+      "sentence": "Der Reisebus bringt uns bis zum Hotel."
+    }
+  },
+  {
+    "id": "97ac8f7f-2b11-46b7-a197-be8df3d42bdf",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il taxi",
+      "sentence": "Prendiamo un taxi per andare in stazione."
+    },
+    "de": {
+      "word": "das Taxi",
+      "sentence": "Wir nehmen ein Taxi zum Bahnhof."
+    }
+  },
+  {
+    "id": "be9fdd47-bb7e-43ed-a5eb-2f2708c3d65e",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "la coincidenza",
+      "sentence": "Ho perso la coincidenza per soli cinque minuti."
+    },
+    "de": {
+      "word": "der Anschluss",
+      "sentence": "Ich habe den Anschluss um nur fünf Minuten verpasst."
+    }
+  },
+  {
+    "id": "742079c4-67f7-4072-a559-86d9903ff087",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il ritardo",
+      "sentence": "Il treno è arrivato con un forte ritardo."
+    },
+    "de": {
+      "word": "die Verspätung",
+      "sentence": "Der Zug ist mit grosser Verspätung angekommen."
+    }
+  },
+  {
+    "id": "1c5c729f-7e24-44de-900a-264da9fb4c73",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il vagone",
+      "sentence": "Il nostro posto è nel vagone numero sei."
+    },
+    "de": {
+      "word": "der Waggon",
+      "sentence": "Unser Platz ist im Waggon Nummer sechs."
+    }
+  },
+  {
+    "id": "24254599-8f79-4c23-85f1-5355579c7aa2",
+    "level": "B2",
+    "topic": "Travel",
+    "it": {
+      "word": "lo scompartimento",
+      "sentence": "Nello scompartimento del treno c'era posto per sei persone comode."
+    },
+    "de": {
+      "word": "das Abteil",
+      "sentence": "Im Abteil des Zuges gab es Platz für sechs Personen."
+    }
+  },
+  {
+    "id": "f86b48ef-c66b-48e4-bc30-5519f67f3090",
+    "level": "B2",
+    "topic": "Travel",
+    "it": {
+      "word": "la cuccetta",
+      "sentence": "In treno ho prenotato una cuccetta per la notte."
+    },
+    "de": {
+      "word": "der Liegewagen",
+      "sentence": "Im Zug habe ich für die Nacht einen Liegewagen gebucht."
+    }
+  },
+  {
+    "id": "f27cd004-aef3-4dc8-b184-042b20e47779",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il controllore",
+      "sentence": "Il controllore ha chiesto i biglietti a tutti."
+    },
+    "de": {
+      "word": "der Schaffner",
+      "sentence": "Der Schaffner hat von allen die Fahrkarten verlangt."
+    }
+  },
+  {
+    "id": "94ae8357-fed4-4ea5-b406-931dab65e04d",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la patente",
+      "sentence": "Ho preso la patente a diciotto anni."
+    },
+    "de": {
+      "word": "der Führerschein",
+      "sentence": "Ich habe mit achtzehn Jahren den Führerschein gemacht."
+    }
+  },
+  {
+    "id": "95cc6f6b-0007-460b-a644-8ad77ea2be29",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il distributore",
+      "sentence": "Ci fermiamo al distributore per fare benzina."
+    },
+    "de": {
+      "word": "die Tankstelle",
+      "sentence": "Wir halten an der Tankstelle, um zu tanken."
+    }
+  },
+  {
+    "id": "afb418a8-760a-486e-8bce-f8f5f5df45bf",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la benzina",
+      "sentence": "La benzina costa sempre di più."
+    },
+    "de": {
+      "word": "das Benzin",
+      "sentence": "Das Benzin wird immer teurer."
+    }
+  },
+  {
+    "id": "a3618bd8-0e5b-4085-9d40-6d548c8aadd9",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il volante",
+      "sentence": "Tiene sempre le mani sul volante."
+    },
+    "de": {
+      "word": "das Lenkrad",
+      "sentence": "Er hält die Hände immer am Lenkrad."
+    }
+  },
+  {
+    "id": "10627fae-df5c-4a9b-bf40-e5279cc270a7",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la ruota",
+      "sentence": "Una ruota della bici è a terra."
+    },
+    "de": {
+      "word": "das Rad",
+      "sentence": "Ein Rad des Fahrrads ist platt."
+    }
+  },
+  {
+    "id": "3db93995-536e-4a41-a1ba-570d772302bb",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il motore",
+      "sentence": "Il motore fa uno strano rumore."
+    },
+    "de": {
+      "word": "der Motor",
+      "sentence": "Der Motor macht ein seltsames Geräusch."
+    }
+  },
+  {
+    "id": "3320a8a4-8b7b-4cf7-b282-0bb437b7516f",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il navigatore",
+      "sentence": "Il navigatore ci ha portato sulla strada sbagliata."
+    },
+    "de": {
+      "word": "das Navi",
+      "sentence": "Das Navi hat uns auf die falsche Strasse gebracht."
+    }
+  },
+  {
+    "id": "b4de9a3c-6356-4689-9c4a-ac4ffb9ab6bd",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il carburante",
+      "sentence": "Il prezzo del carburante è aumentato di nuovo."
+    },
+    "de": {
+      "word": "der Kraftstoff",
+      "sentence": "Der Preis für Kraftstoff ist wieder gestiegen."
+    }
+  },
+  {
+    "id": "6c1ba052-7363-4273-a0e4-14eed77bfc06",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "fare il pieno",
+      "sentence": "Prima del viaggio faccio il pieno di benzina."
+    },
+    "de": {
+      "word": "volltanken",
+      "sentence": "Vor der Reise tanke ich das Auto ganz voll."
+    }
+  },
+  {
+    "id": "a34a6a0c-6f20-4206-98c3-3ffe68119d80",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "l'autostrada",
+      "sentence": "Sull'autostrada per Milano c'era molto traffico stamattina."
+    },
+    "de": {
+      "word": "die Autobahn",
+      "sentence": "Auf der Autobahn war heute Morgen viel Verkehr."
+    }
+  },
+  {
+    "id": "a6900ef4-c5c8-4fcc-816f-3b89c23626a8",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il pedaggio",
+      "sentence": "In autostrada si paga un pedaggio."
+    },
+    "de": {
+      "word": "die Maut",
+      "sentence": "Auf der Autobahn zahlt man eine Maut."
+    }
+  },
+  {
+    "id": "aa3c72b3-2cfc-4d62-b50b-d9760f2bf2a2",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "l'albergo",
+      "sentence": "Abbiamo dormito in un piccolo albergo."
+    },
+    "de": {
+      "word": "das Hotel",
+      "sentence": "Wir haben in einem kleinen Hotel geschlafen."
+    }
+  },
+  {
+    "id": "69982e12-b2ea-4951-add9-07d257f74f39",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "la pensione",
+      "sentence": "In quel paesino c'è solo una pensione familiare."
+    },
+    "de": {
+      "word": "die Pension",
+      "sentence": "In jenem Dorf gibt es nur eine familiäre Pension."
+    }
+  },
+  {
+    "id": "bbe62dcf-72df-4d0b-9e75-0ba460374217",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "l'ostello",
+      "sentence": "Da giovani dormivamo sempre in ostello."
+    },
+    "de": {
+      "word": "die Jugendherberge",
+      "sentence": "Als junge Leute schliefen wir immer in der Jugendherberge."
+    }
+  },
+  {
+    "id": "d740f304-46b3-461e-8301-da497a8ae421",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "la reception",
+      "sentence": "Lascio le chiavi alla reception quando esco."
+    },
+    "de": {
+      "word": "die Rezeption",
+      "sentence": "Ich gebe die Schlüssel an der Rezeption ab."
+    }
+  },
+  {
+    "id": "2d7770c6-c9e8-48a4-9c40-363f0502987e",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la prenotazione",
+      "sentence": "Ho confermato la prenotazione per due notti."
+    },
+    "de": {
+      "word": "die Reservierung",
+      "sentence": "Ich habe die Reservierung für zwei Nächte bestätigt."
+    }
+  },
+  {
+    "id": "d5d0472e-d40c-46c4-9183-6bc89fee2629",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il campeggio",
+      "sentence": "D'estate dormiamo in tenda al campeggio."
+    },
+    "de": {
+      "word": "der Campingplatz",
+      "sentence": "Im Sommer schlafen wir im Zelt auf dem Campingplatz."
+    }
+  },
+  {
+    "id": "76287bba-0c88-4dec-bdcb-79f28e61dac9",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "la roulotte",
+      "sentence": "Viaggiano per l'Europa con la loro roulotte."
+    },
+    "de": {
+      "word": "der Wohnwagen",
+      "sentence": "Sie reisen mit ihrem Wohnwagen durch Europa."
+    }
+  },
+  {
+    "id": "152ef2be-32be-4e31-9cc7-1829293f1bf8",
+    "level": "B2",
+    "topic": "Travel",
+    "it": {
+      "word": "la mezza pensione",
+      "sentence": "In hotel abbiamo scelto la formula a mezza pensione."
+    },
+    "de": {
+      "word": "die Halbpension",
+      "sentence": "Im Hotel haben wir uns für die Halbpension entschieden."
+    }
+  },
+  {
+    "id": "c4b24484-cd15-4477-b295-bcf5f2dacbb3",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la camera doppia",
+      "sentence": "Vorremmo una camera doppia con vista sul mare."
+    },
+    "de": {
+      "word": "das Doppelzimmer",
+      "sentence": "Wir hätten gern ein Doppelzimmer mit Blick aufs Meer."
+    }
+  },
+  {
+    "id": "bee3b0b3-5bcc-4622-8b2c-5c4a16f65843",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il pernottamento",
+      "sentence": "Il pernottamento include la prima colazione."
+    },
+    "de": {
+      "word": "die Übernachtung",
+      "sentence": "Die Übernachtung schliesst das Frühstück mit ein."
+    }
+  },
+  {
+    "id": "06e65c3a-1738-432c-a93c-4f149a52279a",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il monumento",
+      "sentence": "Questo monumento ricorda una battaglia famosa."
+    },
+    "de": {
+      "word": "das Denkmal",
+      "sentence": "Dieses Denkmal erinnert an eine berühmte Schlacht."
+    }
+  },
+  {
+    "id": "b73680f6-dad2-45cd-b943-6b39e75adfdd",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "la cattedrale",
+      "sentence": "La cattedrale gotica domina tutta la piazza."
+    },
+    "de": {
+      "word": "die Kathedrale",
+      "sentence": "Die gotische Kathedrale beherrscht den ganzen Platz."
+    }
+  },
+  {
+    "id": "b741ee13-776c-472c-9272-68543fd8feb8",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "le rovine",
+      "sentence": "Abbiamo visitato le rovine di un antico teatro."
+    },
+    "de": {
+      "word": "die Ruinen",
+      "sentence": "Wir haben die Ruinen eines antiken Theaters besichtigt."
+    }
+  },
+  {
+    "id": "1137901a-9dc4-4330-8d77-74bb047875fe",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "la fontana",
+      "sentence": "La fontana barocca è nel cuore della città."
+    },
+    "de": {
+      "word": "der Brunnen",
+      "sentence": "Der barocke Brunnen steht im Herzen der Stadt."
+    }
+  },
+  {
+    "id": "2e2e9d90-2aa0-4482-a314-44bc1acd7b1d",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la torre",
+      "sentence": "Dalla torre si gode una vista magnifica."
+    },
+    "de": {
+      "word": "der Turm",
+      "sentence": "Vom Turm aus geniesst man eine herrliche Aussicht."
+    }
+  },
+  {
+    "id": "7b8b51e8-0668-4a79-8943-b99659d8a737",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "viaggiare",
+      "sentence": "Da giovane viaggiavo con lo zaino in spalla."
+    },
+    "de": {
+      "word": "reisen",
+      "sentence": "Als junger Mensch reiste ich mit dem Rucksack."
+    }
+  },
+  {
+    "id": "3cae845d-fa13-44b1-827b-7888cd892616",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "partire",
+      "sentence": "Partiamo domani mattina molto presto."
+    },
+    "de": {
+      "word": "abreisen",
+      "sentence": "Wir reisen morgen früh sehr zeitig ab."
+    }
+  },
+  {
+    "id": "a6022578-4c62-4d71-bf3e-f954086118ce",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "arrivare",
+      "sentence": "Arriviamo a destinazione nel primo pomeriggio."
+    },
+    "de": {
+      "word": "ankommen",
+      "sentence": "Wir kommen am frühen Nachmittag am Ziel an."
+    }
+  },
+  {
+    "id": "6e3a6bb2-4feb-4990-8bb6-eed817a8271c",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "prenotare",
+      "sentence": "Conviene prenotare il volo con largo anticipo."
+    },
+    "de": {
+      "word": "buchen",
+      "sentence": "Man sollte den Flug lange im Voraus buchen."
+    }
+  },
+  {
+    "id": "38c81e81-f407-4ba0-8700-68b10e149263",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "alloggiare",
+      "sentence": "Durante il viaggio alloggiamo presso amici."
+    },
+    "de": {
+      "word": "übernachten",
+      "sentence": "Während der Reise übernachten wir bei Freunden."
+    }
+  },
+  {
+    "id": "df4ffdce-34d9-4a01-b0f1-47d53ae1847c",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "noleggiare",
+      "sentence": "All'aeroporto abbiamo noleggiato una piccola auto."
+    },
+    "de": {
+      "word": "mieten",
+      "sentence": "Am Flughafen haben wir ein kleines Auto gemietet."
+    }
+  },
+  {
+    "id": "36811f87-121b-40dd-af2b-8d8bc4e18a5a",
+    "level": "B2",
+    "topic": "Travel",
+    "it": {
+      "word": "imbarcarsi",
+      "sentence": "I passeggeri si imbarcano mezz'ora prima del volo."
+    },
+    "de": {
+      "word": "an Bord gehen",
+      "sentence": "Die Passagiere gehen eine halbe Stunde vor dem Flug an Bord."
+    }
+  },
+  {
+    "id": "28e3f4aa-8bc9-41a8-bcb5-ca10d7caf168",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "atterrare",
+      "sentence": "L'aereo è atterrato con un leggero ritardo."
+    },
+    "de": {
+      "word": "landen",
+      "sentence": "Das Flugzeug ist mit leichter Verspätung gelandet."
+    }
+  },
+  {
+    "id": "ff281957-dd09-4774-a473-50f4c617fc6d",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "decollare",
+      "sentence": "Il nostro aereo decolla tra pochi minuti soltanto."
+    },
+    "de": {
+      "word": "abheben",
+      "sentence": "Das Flugzeug hebt in wenigen Minuten ab."
+    }
+  },
+  {
+    "id": "916ae52d-94d0-4dad-80ba-aec4b416f89f",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "fare il check-in",
+      "sentence": "Conviene fare il check-in online prima di partire."
+    },
+    "de": {
+      "word": "einchecken",
+      "sentence": "Man sollte vor der Abreise online einchecken."
+    }
+  },
+  {
+    "id": "ceb3d033-90a5-4cb9-9ad6-4b457f304fd6",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "esplorare",
+      "sentence": "Ci piace esplorare le città a piedi."
+    },
+    "de": {
+      "word": "erkunden",
+      "sentence": "Wir erkunden Städte gern zu Fuss."
+    }
+  },
+  {
+    "id": "4e26b9fc-b2fa-4f6f-acdb-640793761863",
+    "level": "B2",
+    "topic": "Travel",
+    "it": {
+      "word": "perdere la coincidenza",
+      "sentence": "A causa del ritardo abbiamo rischiato di perdere la coincidenza."
+    },
+    "de": {
+      "word": "den Anschluss verpassen",
+      "sentence": "Wegen der Verspätung hätten wir fast den Anschluss verpasst."
+    }
+  },
+  {
+    "id": "6ed7472c-7396-4315-8350-c4711344a1e4",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "la spiaggia",
+      "sentence": "D'estate passiamo intere giornate in spiaggia."
+    },
+    "de": {
+      "word": "der Strand",
+      "sentence": "Im Sommer verbringen wir ganze Tage am Strand."
+    }
+  },
+  {
+    "id": "6f7b9719-8ac0-42ba-bf29-aeb762235308",
+    "level": "A2",
+    "topic": "City",
+    "it": {
+      "word": "la macchina",
+      "sentence": "Parcheggio la macchina davanti a casa."
+    },
+    "de": {
+      "word": "das Auto",
+      "sentence": "Ich parke das Auto direkt vor dem Haus."
+    }
+  },
+  {
+    "id": "7121f0d8-5616-47aa-b796-fbcdca94d2da",
+    "level": "A2",
+    "topic": "Travel",
+    "it": {
+      "word": "il castello",
+      "sentence": "Abbiamo visitato un antico castello sulla collina."
+    },
+    "de": {
+      "word": "das Schloss",
+      "sentence": "Wir haben ein altes Schloss auf dem Hügel besichtigt."
+    }
   }
 ]

@@ -28,7 +28,7 @@ of which territories exist; all word choices and example sentences are our own.
 | **Shopping** | Einkaufen: Auswählen/Bezahlen, Geschäfte | — | ~80 |
 | **Food** | Ernährung (all subchapters) + Restaurant und Café | 96 ✓ | +~45 |
 | **Household** | Häuser/Wohnungen, Zimmer, Einrichtung, Haushaltsführung | 198 ✓ | done (dwelling types, furniture added) |
-| **Travel** | Reisen, Übernachten, Sehenswürdigkeiten, Verkehrsmittel, Individualverkehr | — | ~120 |
+| **Travel** | Reisen, Übernachten, Sehenswürdigkeiten, Verkehrsmittel, Individualverkehr | 75 ✓ | +~35 top-up |
 | **Nature** | Landschaft, Weltall, Umwelt/Wetter/Klima, Pflanzen | 99 ✓ | +40 (Weltall, Klima) |
 | **Animals** | Tiere (kept separate — large enough) | 91 ✓ | done |
 | **City** | (our own — no direct book chapter) | 98 ✓ | done |
@@ -97,7 +97,8 @@ still pending. The Economy batch's review routed *la banca* → City, *il client
 *il bestiame* → Animals, and reserved *il prezzo / der Preis* for the future Shopping topic
 (do not author it into Economy). The Household top-up's review kept *il giardino* and *lo studio*
 in Household and seeded Culture with *il quadro*. The Society batch's review put *il sindaco* →
-Society and *la chiesa* → City.
+Society and *la chiesa* → City. The Travel batch's review put *la spiaggia* and *il castello* →
+Travel, and *la macchina* → City.
 
 ---
 
