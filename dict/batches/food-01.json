@@ -1,0 +1,418 @@
+[
+  {
+    "id": "a9a045de-a69f-4a25-a8f8-c3e052432a46",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la pera",
+      "sentence": "Ho messo una pera matura nel tuo zaino."
+    },
+    "de": {
+      "word": "die Birne",
+      "sentence": "Ich habe eine reife Birne in deinen Rucksack gelegt."
+    }
+  },
+  {
+    "id": "e7c17ef7-8ab5-4a77-9904-4756a7afcff3",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "l'uva",
+      "sentence": "Compri dell'uva quando vai al supermercato?"
+    },
+    "de": {
+      "word": "die Trauben",
+      "sentence": "Kaufst du Trauben, wenn du in den Supermarkt gehst?"
+    }
+  },
+  {
+    "id": "aecda143-fd04-4301-afcb-11b8724cd909",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la fragola",
+      "sentence": "I bambini raccolgono le fragole in giardino."
+    },
+    "de": {
+      "word": "die Erdbeere",
+      "sentence": "Die Kinder pflücken die Erdbeeren im Garten."
+    }
+  },
+  {
+    "id": "0d94e9cc-f49f-43ae-a470-9f40fcd0dc27",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la carota",
+      "sentence": "Grattugia una carota per l'insalata, per favore."
+    },
+    "de": {
+      "word": "die Karotte",
+      "sentence": "Reib bitte eine Karotte für den Salat."
+    }
+  },
+  {
+    "id": "3a9a7cfb-abf7-4f98-8fa5-cadacd07c11f",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la cipolla",
+      "sentence": "Mentre tagliavo la cipolla, mi lacrimavano gli occhi."
+    },
+    "de": {
+      "word": "die Zwiebel",
+      "sentence": "Während ich die Zwiebel schnitt, tränten mir die Augen."
+    }
+  },
+  {
+    "id": "ea5705f8-6a14-42bf-81b3-f9b1d373229b",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "l'aglio",
+      "sentence": "Metti poco aglio, altrimenti il sugo diventa troppo forte."
+    },
+    "de": {
+      "word": "der Knoblauch",
+      "sentence": "Nimm wenig Knoblauch, sonst wird die Sosse zu kräftig."
+    }
+  },
+  {
+    "id": "d51dda57-61b4-455d-986d-a7f943d45f81",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il pomodoro",
+      "sentence": "In estate coltiviamo i pomodori sul balcone."
+    },
+    "de": {
+      "word": "die Tomate",
+      "sentence": "Im Sommer ziehen wir Tomaten auf dem Balkon."
+    }
+  },
+  {
+    "id": "04331c84-ba4b-4e87-9ade-e579d91efbd1",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la patata",
+      "sentence": "Vuoi le patate al forno o fritte?"
+    },
+    "de": {
+      "word": "die Kartoffel",
+      "sentence": "Möchtest du die Kartoffeln aus dem Ofen oder frittiert?"
+    }
+  },
+  {
+    "id": "e7e558e3-e990-48d4-ad63-069122bcc843",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "gli spinaci",
+      "sentence": "Da piccolo non sopportavo affatto gli spinaci."
+    },
+    "de": {
+      "word": "der Spinat",
+      "sentence": "Als Kind konnte ich Spinat überhaupt nicht ausstehen."
+    }
+  },
+  {
+    "id": "b423bac3-78d7-4adc-9c22-d01b6a832fd2",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "i piselli",
+      "sentence": "Aggiungi i piselli solo alla fine della cottura."
+    },
+    "de": {
+      "word": "die Erbsen",
+      "sentence": "Gib die Erbsen erst am Ende der Garzeit dazu."
+    }
+  },
+  {
+    "id": "ae1c0195-53a2-425b-90f8-0a96c637b0e9",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il pollo",
+      "sentence": "Stasera preparo un pollo al forno con le patate."
+    },
+    "de": {
+      "word": "das Hähnchen",
+      "sentence": "Heute Abend mache ich ein Hähnchen mit Kartoffeln."
+    }
+  },
+  {
+    "id": "34bc9c50-3c87-45c4-8bde-ac45db2d85ac",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il prosciutto",
+      "sentence": "Preferisci il prosciutto crudo o quello cotto?"
+    },
+    "de": {
+      "word": "der Schinken",
+      "sentence": "Magst du lieber rohen oder gekochten Schinken?"
+    }
+  },
+  {
+    "id": "38885fb2-7ed1-4a17-aed9-96532f960edd",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "l'uovo",
+      "sentence": "Mi serve ancora un uovo per la torta."
+    },
+    "de": {
+      "word": "das Ei",
+      "sentence": "Ich brauche noch ein Ei für den Kuchen."
+    }
+  },
+  {
+    "id": "1277092b-e3a2-4c4d-bf96-17b42f467caa",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la panna",
+      "sentence": "Se aggiungi la panna, la salsa diventa più cremosa."
+    },
+    "de": {
+      "word": "der Rahm",
+      "sentence": "Wenn du Rahm dazugibst, wird die Sauce cremiger."
+    }
+  },
+  {
+    "id": "5455a649-a38b-4ffd-add3-4c31e8fd138d",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la farina",
+      "sentence": "Setaccia la farina prima di impastare il pane."
+    },
+    "de": {
+      "word": "das Mehl",
+      "sentence": "Sieb das Mehl, bevor du den Teig knetest."
+    }
+  },
+  {
+    "id": "7bda760f-8851-4f52-aa67-a6bc610d58f3",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "lo zucchero",
+      "sentence": "Quanti cucchiai di zucchero metti nel caffè?"
+    },
+    "de": {
+      "word": "der Zucker",
+      "sentence": "Wie viele Löffel Zucker nimmst du in den Kaffee?"
+    }
+  },
+  {
+    "id": "f36fe01a-0192-48b1-8dd6-4fab2517f23b",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il riso",
+      "sentence": "Il riso è pronto, mettiamoci subito a tavola."
+    },
+    "de": {
+      "word": "der Reis",
+      "sentence": "Der Reis ist fertig, gehen wir zu Tisch."
+    }
+  },
+  {
+    "id": "eb54418b-4b3c-4177-8d1d-d473c5523bad",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "l'olio d'oliva",
+      "sentence": "Condisci l'insalata con un filo d'olio d'oliva."
+    },
+    "de": {
+      "word": "das Olivenöl",
+      "sentence": "Mach den Salat mit etwas Olivenöl an."
+    }
+  },
+  {
+    "id": "da4b8cd0-c70b-4b77-974a-c0c23f0cf042",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "friggere",
+      "sentence": "Friggo le patatine finché non diventano dorate."
+    },
+    "de": {
+      "word": "frittieren",
+      "sentence": "Ich frittiere die Pommes, bis sie goldbraun sind."
+    }
+  },
+  {
+    "id": "fece1a01-b734-4f14-b566-2d694267e600",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "assaggiare",
+      "sentence": "Assaggia la minestra e dimmi se manca il sale."
+    },
+    "de": {
+      "word": "probieren",
+      "sentence": "Probier die Suppe und sag mir, ob Salz fehlt."
+    }
+  },
+  {
+    "id": "f25dc4e8-5fe9-4fa2-a4ae-7409ada0515a",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "sbucciare",
+      "sentence": "Puoi sbucciare le mele mentre scaldo il forno?"
+    },
+    "de": {
+      "word": "schälen",
+      "sentence": "Kannst du die Äpfel schälen, während ich den Ofen vorheize?"
+    }
+  },
+  {
+    "id": "dda10d90-71cb-4294-83e1-1df9919f501a",
+    "level": "B2",
+    "topic": "Food",
+    "it": {
+      "word": "grattugiare",
+      "sentence": "Prima di servire, grattugia un po' di parmigiano sulla pasta."
+    },
+    "de": {
+      "word": "reiben",
+      "sentence": "Reib vor dem Servieren etwas Parmesan über die Pasta."
+    }
+  },
+  {
+    "id": "5bf84d93-f242-43b1-b74d-3e9b5206ec3b",
+    "level": "B2",
+    "topic": "Food",
+    "it": {
+      "word": "impastare",
+      "sentence": "Se impastassi più a lungo, il pane verrebbe più soffice."
+    },
+    "de": {
+      "word": "kneten",
+      "sentence": "Wenn du länger knetest, würde das Brot lockerer werden."
+    }
+  },
+  {
+    "id": "d93cee13-24d9-495c-b3f2-2063f9ebcc99",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "cuocere al forno",
+      "sentence": "Cuocio la torta al forno per quaranta minuti."
+    },
+    "de": {
+      "word": "backen",
+      "sentence": "Ich backe den Kuchen vierzig Minuten im Ofen."
+    }
+  },
+  {
+    "id": "a58506b4-4bc0-4a08-93fe-ed8cbfa66e19",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "servire",
+      "sentence": "A che ora servite la cena agli ospiti?"
+    },
+    "de": {
+      "word": "servieren",
+      "sentence": "Um wie viel Uhr serviert ihr den Gästen das Essen?"
+    }
+  },
+  {
+    "id": "a413e4ff-35a5-4a7e-a8e4-bcf0d26c52c9",
+    "level": "B2",
+    "topic": "Food",
+    "it": {
+      "word": "brindare",
+      "sentence": "Prima di mangiare, brindiamo alla salute dei nonni."
+    },
+    "de": {
+      "word": "anstossen",
+      "sentence": "Bevor wir essen, stossen wir auf die Grosseltern an."
+    }
+  },
+  {
+    "id": "8f9dd8bd-f5bb-42ed-ae96-440a78dd850a",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il cameriere",
+      "sentence": "Il cameriere ci ha consigliato il piatto del giorno."
+    },
+    "de": {
+      "word": "der Kellner",
+      "sentence": "Der Kellner hat uns das Tagesgericht empfohlen."
+    }
+  },
+  {
+    "id": "f56679ff-5404-419b-84ac-6676f020db93",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "la mancia",
+      "sentence": "In Svizzera non è obbligatorio lasciare la mancia."
+    },
+    "de": {
+      "word": "das Trinkgeld",
+      "sentence": "In der Schweiz muss man kein Trinkgeld geben."
+    }
+  },
+  {
+    "id": "05d5dbd8-6c22-406e-b769-b78fc486ca45",
+    "level": "B2",
+    "topic": "Food",
+    "it": {
+      "word": "l'antipasto",
+      "sentence": "Come antipasto prenderei volentieri qualcosa che non sia troppo pesante."
+    },
+    "de": {
+      "word": "die Vorspeise",
+      "sentence": "Als Vorspeise nähme ich gern etwas, das nicht zu schwer ist."
+    }
+  },
+  {
+    "id": "592e5133-f066-467e-a400-713fa54dd292",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il contorno",
+      "sentence": "Come contorno preferisco delle verdure grigliate."
+    },
+    "de": {
+      "word": "die Beilage",
+      "sentence": "Als Beilage nehme ich am liebsten gegrilltes Gemüse."
+    }
+  },
+  {
+    "id": "f0ee3c58-4585-4202-b8fe-192583ff3c96",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il sapore",
+      "sentence": "Questa zuppa ha un sapore delizioso e delicato."
+    },
+    "de": {
+      "word": "der Geschmack",
+      "sentence": "Diese Suppe hat einen köstlichen und feinen Geschmack."
+    }
+  },
+  {
+    "id": "2a419130-e275-4292-b664-d082cbbfe9d2",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "piccante",
+      "sentence": "Non ordinare quel curry se non ami il piccante."
+    },
+    "de": {
+      "word": "scharf",
+      "sentence": "Bestell das Curry nicht, wenn du es nicht scharf magst."
+    }
+  }
+]
