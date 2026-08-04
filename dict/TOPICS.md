@@ -27,7 +27,7 @@ of which territories exist; all word choices and example sentences are our own.
 | **Freizeit** | Feste feiern, Feiertage, Ausgehen, Sport, Hobbys | — | ~110 |
 | **Shopping** | Einkaufen: Auswählen/Bezahlen, Geschäfte | — | ~80 |
 | **Food** | Ernährung (all subchapters) + Restaurant und Café | 96 ✓ | +~45 |
-| **Household** | Häuser/Wohnungen, Zimmer, Einrichtung, Haushaltsführung | 150 ✓ | +30 (dwelling types, furniture) |
+| **Household** | Häuser/Wohnungen, Zimmer, Einrichtung, Haushaltsführung | 198 ✓ | done (dwelling types, furniture added) |
 | **Travel** | Reisen, Übernachten, Sehenswürdigkeiten, Verkehrsmittel, Individualverkehr | — | ~120 |
 | **Nature** | Landschaft, Weltall, Umwelt/Wetter/Klima, Pflanzen | 99 ✓ | +40 (Weltall, Klima) |
 | **Animals** | Tiere (kept separate — large enough) | 91 ✓ | done |
@@ -69,15 +69,17 @@ id-matched update (keep the existing id; change only `topic`) once the target to
 | ~~andare d'accordo~~ | ~~Relationships~~ ✓ done |
 | ~~regalare~~ | ~~Relationships~~ ✓ done |
 | ~~prendere appunti~~ | ~~Education~~ ✓ done |
-| tagliare | Food |
-| aggiungere | Food |
-| aggiustare | Household |
-| appendere | Household |
-| svuotare | Household |
-| riempire | Household |
-| piegare | Household |
+| ~~tagliare~~ | ~~Food~~ ✓ done |
+| ~~aggiungere~~ | ~~Food~~ ✓ done |
+| ~~aggiustare~~ | ~~Household~~ — N/A (no such entry existed) |
+| ~~appendere~~ | ~~Household~~ ✓ done |
+| ~~svuotare~~ | ~~Household~~ ✓ done |
+| ~~riempire~~ | ~~Household~~ ✓ done |
+| ~~piegare~~ | ~~Household~~ ✓ done |
 | ~~produrre~~ | ~~Economy~~ ✓ done |
 | ~~gestire~~ | ~~Work~~ ✓ done |
+
+**All pending re-tags are now reclaimed** (aggiustare never existed as an entry).
 
 **Disambiguation is not one-directional:** existing entries can be re-homed when a
 better topic is built — the id-matched update keeps scores intact. When Health was
@@ -93,7 +95,8 @@ When Work was built, *delegare* moved into it from Household (review-approved). 
 seeded with *il sindacato* out of the Work batch's ambiguous review; the full Society build is
 still pending. The Economy batch's review routed *la banca* → City, *il cliente* → Work,
 *il bestiame* → Animals, and reserved *il prezzo / der Preis* for the future Shopping topic
-(do not author it into Economy).
+(do not author it into Economy). The Household top-up's review kept *il giardino* and *lo studio*
+in Household and seeded Culture with *il quadro*.
 
 ---
 

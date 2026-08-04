@@ -1,0 +1,722 @@
+[
+  {
+    "id": "25513804-54f2-4656-bdaa-dde94a1def8b",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "la casa",
+      "sentence": "La nostra casa ha un piccolo giardino."
+    },
+    "de": {
+      "word": "das Haus",
+      "sentence": "Unser Haus hat einen kleinen Garten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "54bf5dea-c28f-4d34-8c9b-47d7dc3ec071",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "l'appartamento",
+      "sentence": "Cerchiamo un appartamento con tre camere."
+    },
+    "de": {
+      "word": "die Wohnung",
+      "sentence": "Wir suchen eine Wohnung mit drei Zimmern."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "390f1c9b-704f-49d9-b5a8-9fb2286651c4",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "la villa",
+      "sentence": "Hanno comprato una villa in campagna."
+    },
+    "de": {
+      "word": "die Villa",
+      "sentence": "Sie haben eine Villa auf dem Land gekauft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d948a959-f183-4283-b95a-a1c3543ecbec",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il monolocale",
+      "sentence": "Da studente vivevo in un piccolo monolocale."
+    },
+    "de": {
+      "word": "die Einzimmerwohnung",
+      "sentence": "Als Student wohnte ich in einer kleinen Einzimmerwohnung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4970e5de-215b-4934-8fc4-fcc64ecba3c4",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "l'attico",
+      "sentence": "Dall'attico si vede tutta la città."
+    },
+    "de": {
+      "word": "das Penthouse",
+      "sentence": "Vom Penthouse aus sieht man die ganze Stadt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "efb73787-b32a-45a9-af1e-14d96c135eec",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la mansarda",
+      "sentence": "La mansarda ha un bel soffitto inclinato."
+    },
+    "de": {
+      "word": "die Dachwohnung",
+      "sentence": "Die Dachwohnung hat eine schöne schräge Decke."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6e12c660-799e-4d63-913b-1e94c6c2ad1f",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il palazzo",
+      "sentence": "Abito in un palazzo di sei piani."
+    },
+    "de": {
+      "word": "das Gebäude",
+      "sentence": "Ich wohne in einem Gebäude mit sechs Stockwerken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "362aa2b3-b41d-4b74-8630-02951d7df08e",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il piano",
+      "sentence": "Il nostro appartamento è al quarto piano."
+    },
+    "de": {
+      "word": "das Stockwerk",
+      "sentence": "Unsere Wohnung ist im vierten Stockwerk."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "abbf17ae-dbf0-4d9d-8bbc-ce4338ce9904",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il pianterreno",
+      "sentence": "Gli anziani preferiscono abitare al pianterreno."
+    },
+    "de": {
+      "word": "das Erdgeschoss",
+      "sentence": "Ältere Menschen wohnen lieber im Erdgeschoss."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3d1ac536-845d-4a12-a9aa-8c0e9250c862",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il seminterrato",
+      "sentence": "Il seminterrato è umido e poco luminoso."
+    },
+    "de": {
+      "word": "das Untergeschoss",
+      "sentence": "Das Untergeschoss ist feucht und wenig hell."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fa7174f3-556c-4ac0-8033-891ac7f441b2",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "la cantina",
+      "sentence": "Teniamo il vino in cantina."
+    },
+    "de": {
+      "word": "der Keller",
+      "sentence": "Wir lagern den Wein im Keller."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bd19c0ba-9dd4-4bdf-9f9f-910acf108630",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la soffitta",
+      "sentence": "In soffitta conserviamo le vecchie valigie."
+    },
+    "de": {
+      "word": "der Dachboden",
+      "sentence": "Auf dem Dachboden bewahren wir die alten Koffer auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "852a7f87-4275-4ad8-992f-86b4bcff90ef",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il garage",
+      "sentence": "Metto la macchina in garage la sera."
+    },
+    "de": {
+      "word": "die Garage",
+      "sentence": "Abends stelle ich das Auto in die Garage."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f18537d7-41f4-4a07-adeb-1f79cee38eee",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il balcone",
+      "sentence": "Sul balcone coltivo dei fiori profumati."
+    },
+    "de": {
+      "word": "der Balkon",
+      "sentence": "Auf dem Balkon ziehe ich duftende Blumen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "83f80440-39fc-4146-adaf-c6431484f2ae",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "la terrazza",
+      "sentence": "D'estate ceniamo spesso sulla terrazza."
+    },
+    "de": {
+      "word": "die Terrasse",
+      "sentence": "Im Sommer essen wir oft auf der Terrasse."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2d423b52-2517-48f7-8be6-548908a90554",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il tetto",
+      "sentence": "Il tetto perde acqua quando piove."
+    },
+    "de": {
+      "word": "das Dach",
+      "sentence": "Das Dach ist undicht, wenn es regnet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "965711fb-2c2a-4eae-85ef-9c776830e55a",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "la parete",
+      "sentence": "Ho dipinto la parete di azzurro."
+    },
+    "de": {
+      "word": "die Wand",
+      "sentence": "Ich habe die Wand blau gestrichen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bf8ab560-8e02-4677-91c2-91f4cfb59d55",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il pavimento",
+      "sentence": "Il pavimento della cucina è di piastrelle."
+    },
+    "de": {
+      "word": "der Boden",
+      "sentence": "Der Küchenboden besteht ganz aus Fliesen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f1529684-bc9a-4c2f-b202-6796a11bb086",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il soffitto",
+      "sentence": "Il soffitto alto rende la stanza luminosa."
+    },
+    "de": {
+      "word": "die Zimmerdecke",
+      "sentence": "Die hohe Zimmerdecke macht den Raum sehr hell."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e5049c42-1ac7-41dc-b3d3-bbc263727f9d",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "la scala",
+      "sentence": "Salgo le scale invece di prendere l'ascensore."
+    },
+    "de": {
+      "word": "die Treppe",
+      "sentence": "Ich nehme die Treppe statt den Aufzug."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2510875a-dc44-428f-b432-caf21ccc7cbe",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il corridoio",
+      "sentence": "Le camere si affacciano sul corridoio."
+    },
+    "de": {
+      "word": "der Flur",
+      "sentence": "Die Zimmer gehen alle vom Flur ab."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2712ecbd-a150-4ac0-bcc4-7ddba665eca9",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "l'ingresso",
+      "sentence": "Lascia le scarpe vicino all'ingresso."
+    },
+    "de": {
+      "word": "der Eingang",
+      "sentence": "Lass die Schuhe beim Eingang stehen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "892663d1-a5f0-44d1-afe5-378ac5ebebb7",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il ripostiglio",
+      "sentence": "Teniamo le scope dentro il piccolo ripostiglio."
+    },
+    "de": {
+      "word": "die Abstellkammer",
+      "sentence": "Die Besen stehen in der kleinen Abstellkammer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a34629de-5fab-40b5-8654-7f8dc05e3908",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il camino",
+      "sentence": "D'inverno accendiamo il camino ogni sera."
+    },
+    "de": {
+      "word": "der Kamin",
+      "sentence": "Im Winter machen wir jeden Abend den Kamin an."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "65846721-a01f-4f0b-883e-a69c99751136",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "la stanza",
+      "sentence": "Questa stanza è troppo piccola per due letti."
+    },
+    "de": {
+      "word": "das Zimmer",
+      "sentence": "Dieses Zimmer ist zu klein für zwei Betten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d6a45c42-def2-49d0-a62e-1f06b7536816",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il divano",
+      "sentence": "La sera guardiamo la tv sul divano."
+    },
+    "de": {
+      "word": "das Sofa",
+      "sentence": "Abends schauen wir auf dem Sofa fern."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "00a5f20f-830c-4dd4-b79a-b62dbae9babb",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "la poltrona",
+      "sentence": "Il nonno legge sulla sua poltrona."
+    },
+    "de": {
+      "word": "der Sessel",
+      "sentence": "Der Grossvater liest in seinem alten Sessel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "95288007-b031-4720-9fbc-45df90587121",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "lo scaffale",
+      "sentence": "Metti i libri sullo scaffale."
+    },
+    "de": {
+      "word": "das Regal",
+      "sentence": "Stell die Bücher bitte ins Regal."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6f18c342-a352-40e2-8bf2-a8e53e2b0428",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il comodino",
+      "sentence": "La lampada è sul comodino accanto al letto."
+    },
+    "de": {
+      "word": "der Nachttisch",
+      "sentence": "Die Lampe steht auf dem Nachttisch neben dem Bett."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d9c1d2df-a959-4c96-8ca8-e9561fa817ec",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il tavolino",
+      "sentence": "Appoggio la tazza sul tavolino del salotto."
+    },
+    "de": {
+      "word": "der Couchtisch",
+      "sentence": "Ich stelle die Tasse auf den Couchtisch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a2bb8779-a6f3-41d2-922f-49de6c0f0020",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la mensola",
+      "sentence": "Ho fissato una mensola sopra la scrivania."
+    },
+    "de": {
+      "word": "das Wandbrett",
+      "sentence": "Ich habe ein Wandbrett über dem Schreibtisch befestigt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cc3e2052-2064-4a79-81f5-0018035fc6e7",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "lo specchio",
+      "sentence": "Mi guardo allo specchio prima di uscire."
+    },
+    "de": {
+      "word": "der Spiegel",
+      "sentence": "Ich schaue in den Spiegel, bevor ich gehe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dddf243f-7b4e-45cb-b9dd-2701061651fc",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il tappeto",
+      "sentence": "Il tappeto rende la stanza più calda."
+    },
+    "de": {
+      "word": "der Teppich",
+      "sentence": "Der Teppich macht das Zimmer wärmer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a48b8294-7f23-45d4-ab1a-1fb2472397b4",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "la tenda",
+      "sentence": "Chiudo le tende quando fa buio."
+    },
+    "de": {
+      "word": "der Vorhang",
+      "sentence": "Ich ziehe die Vorhänge zu, wenn es dunkel wird."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "beb8028c-2118-4c97-b8ef-d4279c28fe00",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "la lampada",
+      "sentence": "Accendi la lampada, non ci vedo."
+    },
+    "de": {
+      "word": "die Lampe",
+      "sentence": "Mach die Lampe an, ich sehe nichts."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6edf89e4-93ab-40f6-8da7-21e8079f5a0e",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il cuscino",
+      "sentence": "Metto un cuscino dietro la schiena."
+    },
+    "de": {
+      "word": "das Kissen",
+      "sentence": "Ich lege ein Kissen hinter den Rücken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a6d42fdf-3df5-4dd6-a742-93bd43ed4fa6",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "la coperta",
+      "sentence": "D'inverno dormo con una coperta pesante."
+    },
+    "de": {
+      "word": "die Wolldecke",
+      "sentence": "Im Winter schlafe ich mit einer dicken Wolldecke."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bb17e683-37be-4702-863a-bb07944a49c5",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il materasso",
+      "sentence": "Il materasso nuovo è molto più comodo."
+    },
+    "de": {
+      "word": "die Matratze",
+      "sentence": "Die neue Matratze ist viel bequemer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c9de5eb8-244d-4455-ac42-bbdbc2766d9a",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la credenza",
+      "sentence": "I piatti buoni sono nella credenza."
+    },
+    "de": {
+      "word": "die Anrichte",
+      "sentence": "Das gute Geschirr steht in der Anrichte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e7479ae6-d2e9-4fe5-b6c6-81827feba1ba",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "lo sgabello",
+      "sentence": "Mi siedo sullo sgabello in cucina."
+    },
+    "de": {
+      "word": "der Hocker",
+      "sentence": "Ich setze mich auf den Hocker in der Küche."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9283b4a9-176f-4d99-8986-e0dd894fc344",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la vasca da bagno",
+      "sentence": "Riempio la vasca da bagno d'acqua calda."
+    },
+    "de": {
+      "word": "die Badewanne",
+      "sentence": "Ich fülle die Badewanne mit warmem Wasser."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0d15977a-1157-4179-86cf-5aa034bde036",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il lavandino",
+      "sentence": "Il lavandino del bagno è otturato."
+    },
+    "de": {
+      "word": "das Waschbecken",
+      "sentence": "Das Waschbecken im Bad ist verstopft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0f6cd9c8-f9ac-4bcd-8c9a-ff0acee9c05f",
+    "level": "A2",
+    "topic": "Household",
+    "it": {
+      "word": "il giardino",
+      "sentence": "In giardino abbiamo piantato un albero di limoni."
+    },
+    "de": {
+      "word": "der Garten",
+      "sentence": "Im Garten haben wir einen Zitronenbaum gepflanzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "299e4f3f-394f-4834-b4d2-686c53fd47c9",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "lo studio",
+      "sentence": "Lavoro da casa nel mio piccolo studio."
+    },
+    "de": {
+      "word": "das Arbeitszimmer",
+      "sentence": "Ich arbeite von zu Hause in meinem kleinen Arbeitszimmer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c715b527-d32e-487d-8f66-c5b065fc05b4",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il quadro",
+      "sentence": "Al museo abbiamo ammirato un quadro famoso."
+    },
+    "de": {
+      "word": "das Bild",
+      "sentence": "Im Museum haben wir ein berühmtes Bild bewundert."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]
