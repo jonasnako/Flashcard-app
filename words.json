@@ -28884,5 +28884,902 @@
       "word": "das Schloss",
       "sentence": "Wir haben ein altes Schloss auf dem Hügel besichtigt."
     }
+  },
+  {
+    "id": "4aae4ecf-0a6c-4acc-8280-87042c0e4fd5",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "il giorno",
+      "sentence": "Passo la maggior parte del giorno al lavoro."
+    },
+    "de": {
+      "word": "der Tag",
+      "sentence": "Ich verbringe fast den ganzen Tag bei der Arbeit."
+    }
+  },
+  {
+    "id": "6c7de69f-6752-40dd-8d6f-758fbb1b3e0d",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "la notte",
+      "sentence": "Di notte la città diventa silenziosa."
+    },
+    "de": {
+      "word": "die Nacht",
+      "sentence": "In der Nacht wird die Stadt ganz still."
+    }
+  },
+  {
+    "id": "01ea9bc7-ab8d-42fd-be28-abab3bea5e7a",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "la mattina",
+      "sentence": "La mattina bevo sempre un caffè."
+    },
+    "de": {
+      "word": "der Morgen",
+      "sentence": "Am Morgen trinke ich immer einen Kaffee."
+    }
+  },
+  {
+    "id": "577af91e-3232-4b37-b50d-15d884dee111",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "il pomeriggio",
+      "sentence": "Nel pomeriggio faccio una breve passeggiata."
+    },
+    "de": {
+      "word": "der Nachmittag",
+      "sentence": "Am Nachmittag mache ich einen kurzen Spaziergang."
+    }
+  },
+  {
+    "id": "4baa1f4b-9563-4912-80dc-a544a3a0fde9",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "la sera",
+      "sentence": "La sera guardiamo un film insieme."
+    },
+    "de": {
+      "word": "der Abend",
+      "sentence": "Am Abend schauen wir zusammen einen Film."
+    }
+  },
+  {
+    "id": "535deb01-a56f-4e2e-9261-08d24f684bf8",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "mezzogiorno",
+      "sentence": "A mezzogiorno ci fermiamo per pranzare."
+    },
+    "de": {
+      "word": "der Mittag",
+      "sentence": "Am Mittag halten wir zum Essen an."
+    }
+  },
+  {
+    "id": "09dff333-7eaf-48d7-842f-1a34d022afe6",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "mezzanotte",
+      "sentence": "La festa è finita dopo mezzanotte."
+    },
+    "de": {
+      "word": "die Mitternacht",
+      "sentence": "Das Fest ist erst nach Mitternacht zu Ende gegangen."
+    }
+  },
+  {
+    "id": "4bb21b27-6ff0-40bc-8b7d-7d366e724123",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "la giornata",
+      "sentence": "È stata una giornata lunga e faticosa."
+    },
+    "de": {
+      "word": "der Tag",
+      "sentence": "Es war ein langer und anstrengender Tag."
+    }
+  },
+  {
+    "id": "22fd0cc2-9d94-4658-8144-a719d90300f8",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "oggi",
+      "sentence": "Oggi il tempo è finalmente bello."
+    },
+    "de": {
+      "word": "heute",
+      "sentence": "Heute ist das Wetter endlich schön."
+    }
+  },
+  {
+    "id": "2d21a988-cdbc-4170-8c2b-739e396197a7",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "ieri",
+      "sentence": "Ieri sera sono andato a letto presto."
+    },
+    "de": {
+      "word": "gestern",
+      "sentence": "Gestern Abend bin ich früh ins Bett gegangen."
+    }
+  },
+  {
+    "id": "dac68223-1992-45b2-93e0-10c4d1be305d",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "domani",
+      "sentence": "Domani comincia la mia settimana di ferie."
+    },
+    "de": {
+      "word": "morgen",
+      "sentence": "Morgen beginnt meine Urlaubswoche."
+    }
+  },
+  {
+    "id": "64845d52-697f-4001-977a-c65e5b7dc0a3",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "dopodomani",
+      "sentence": "Dopodomani parto per un breve viaggio."
+    },
+    "de": {
+      "word": "übermorgen",
+      "sentence": "Übermorgen fahre ich für eine kurze Reise weg."
+    }
+  },
+  {
+    "id": "f9ef4f40-a2b9-4bf5-97e5-3de878949d3e",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "l'altroieri",
+      "sentence": "L'altroieri ho incontrato un vecchio amico."
+    },
+    "de": {
+      "word": "vorgestern",
+      "sentence": "Vorgestern habe ich einen alten Freund getroffen."
+    }
+  },
+  {
+    "id": "47b6b385-3894-495f-81fe-7befe59a7e3e",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "il fine settimana",
+      "sentence": "Nel fine settimana andiamo spesso in campagna."
+    },
+    "de": {
+      "word": "das Wochenende",
+      "sentence": "Am Wochenende fahren wir oft aufs Land."
+    }
+  },
+  {
+    "id": "95058979-37a8-4244-95f9-1cad6e86b0f9",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "la settimana",
+      "sentence": "Questa settimana ho molto da fare."
+    },
+    "de": {
+      "word": "die Woche",
+      "sentence": "Diese Woche habe ich sehr viel zu tun."
+    }
+  },
+  {
+    "id": "194eb445-49e7-4c07-867e-6c2827629603",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "il mese",
+      "sentence": "Il mese prossimo cambio lavoro."
+    },
+    "de": {
+      "word": "der Monat",
+      "sentence": "Nächsten Monat wechsle ich die Stelle."
+    }
+  },
+  {
+    "id": "4108c109-02ce-455e-8c4b-67f4f39e66c7",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "l'anno",
+      "sentence": "L'anno scorso abbiamo visitato la Grecia."
+    },
+    "de": {
+      "word": "das Jahr",
+      "sentence": "Letztes Jahr haben wir Griechenland besucht."
+    }
+  },
+  {
+    "id": "de652ccf-ccd0-4196-adad-9c4586f4b36e",
+    "level": "B2",
+    "topic": "Time",
+    "it": {
+      "word": "il decennio",
+      "sentence": "Negli ultimi decenni la tecnologia è cambiata moltissimo."
+    },
+    "de": {
+      "word": "das Jahrzehnt",
+      "sentence": "In den letzten Jahrzehnten hat sich die Technik enorm verändert."
+    }
+  },
+  {
+    "id": "ec97d411-2437-4ca1-9c97-ca7336ba8410",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "il periodo",
+      "sentence": "In questo periodo ho poco tempo libero."
+    },
+    "de": {
+      "word": "der Zeitraum",
+      "sentence": "In diesem Zeitraum habe ich wenig Freizeit."
+    }
+  },
+  {
+    "id": "621726cb-f14f-4075-9296-917ac3b01e1c",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "la data",
+      "sentence": "Segna la data della riunione sul calendario."
+    },
+    "de": {
+      "word": "das Datum",
+      "sentence": "Trag das Datum der Besprechung in den Kalender ein."
+    }
+  },
+  {
+    "id": "a5b8e6af-4bf5-4dba-a850-9564c37db2a2",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "il secondo",
+      "sentence": "Mancano solo pochi secondi alla fine."
+    },
+    "de": {
+      "word": "die Sekunde",
+      "sentence": "Es fehlen nur noch wenige Sekunden bis zum Ende."
+    }
+  },
+  {
+    "id": "35f9fcb9-a2df-423f-b54a-7cf071ddf3b7",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "il minuto",
+      "sentence": "Aspettami, arrivo tra cinque minuti."
+    },
+    "de": {
+      "word": "die Minute",
+      "sentence": "Warte auf mich, ich komme in fünf Minuten."
+    }
+  },
+  {
+    "id": "99334800-3e3f-450f-b460-b6015ed0f257",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "l'ora",
+      "sentence": "La lezione dura un'ora e mezza."
+    },
+    "de": {
+      "word": "die Stunde",
+      "sentence": "Der Unterricht dauert anderthalb Stunden."
+    }
+  },
+  {
+    "id": "c10ee7d4-83b6-4d2e-894b-1b82458a6870",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "il quarto d'ora",
+      "sentence": "Il treno parte tra un quarto d'ora."
+    },
+    "de": {
+      "word": "die Viertelstunde",
+      "sentence": "Der Zug fährt in einer Viertelstunde ab."
+    }
+  },
+  {
+    "id": "e5778321-ce81-49e4-8574-a3c44dcfc116",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "l'orologio",
+      "sentence": "Il mio orologio va avanti di cinque minuti."
+    },
+    "de": {
+      "word": "die Uhr",
+      "sentence": "Meine Uhr geht fünf Minuten vor."
+    }
+  },
+  {
+    "id": "7b2e53db-cd01-429c-b308-93856ce285b6",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "il calendario",
+      "sentence": "Appendo il nuovo calendario in cucina."
+    },
+    "de": {
+      "word": "der Kalender",
+      "sentence": "Ich hänge den neuen Kalender in der Küche auf."
+    }
+  },
+  {
+    "id": "cd0b7b86-3c47-4695-b5c3-7c6e9e4bcc92",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "la sveglia",
+      "sentence": "Metto la sveglia alle sei e mezza."
+    },
+    "de": {
+      "word": "der Wecker",
+      "sentence": "Ich stelle den Wecker auf halb sieben."
+    }
+  },
+  {
+    "id": "c4df8d0f-cc34-4629-b48f-eac368a8aafe",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "il momento",
+      "sentence": "In questo momento non posso rispondere."
+    },
+    "de": {
+      "word": "der Moment",
+      "sentence": "In diesem Moment kann ich nicht antworten."
+    }
+  },
+  {
+    "id": "a16dff9c-43b9-4649-a9a4-0af45b30ddbe",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "l'attimo",
+      "sentence": "Per un attimo ho pensato di aver sbagliato strada."
+    },
+    "de": {
+      "word": "der Augenblick",
+      "sentence": "Für einen Augenblick dachte ich, ich hätte mich verfahren."
+    }
+  },
+  {
+    "id": "3437bff7-066a-4eb5-8fe4-78850bc93374",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "il futuro",
+      "sentence": "Nel futuro vorrei vivere vicino al mare."
+    },
+    "de": {
+      "word": "die Zukunft",
+      "sentence": "In Zukunft möchte ich gern am Meer wohnen."
+    }
+  },
+  {
+    "id": "db480365-5399-404d-8814-1719f057aa03",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "il passato",
+      "sentence": "Preferisce non parlare del suo passato."
+    },
+    "de": {
+      "word": "die Vergangenheit",
+      "sentence": "Er spricht lieber nicht über seine Vergangenheit."
+    }
+  },
+  {
+    "id": "8e781408-eae0-48b6-8f27-2b1d386c7490",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "il presente",
+      "sentence": "Bisogna godersi il presente senza troppe preoccupazioni."
+    },
+    "de": {
+      "word": "die Gegenwart",
+      "sentence": "Man sollte die Gegenwart ohne zu viele Sorgen geniessen."
+    }
+  },
+  {
+    "id": "cb0b164f-eb6c-47ed-b103-869f4b469f9c",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "sempre",
+      "sentence": "Arriva sempre in orario agli appuntamenti."
+    },
+    "de": {
+      "word": "immer",
+      "sentence": "Er kommt immer pünktlich zu den Terminen."
+    }
+  },
+  {
+    "id": "96767a29-e27f-4eec-a644-717258cd1d7f",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "mai",
+      "sentence": "Non ho mai visto un tramonto così bello."
+    },
+    "de": {
+      "word": "nie",
+      "sentence": "Ich habe nie einen so schönen Sonnenuntergang gesehen."
+    }
+  },
+  {
+    "id": "abd707c7-b30a-4505-b194-1ce35a80cd09",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "spesso",
+      "sentence": "Vado spesso a correre nel parco."
+    },
+    "de": {
+      "word": "oft",
+      "sentence": "Ich gehe oft im Park joggen."
+    }
+  },
+  {
+    "id": "be2146a6-9665-4e34-9b5e-1c44a0ae63ea",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "raramente",
+      "sentence": "Raramente guardo la televisione la sera."
+    },
+    "de": {
+      "word": "selten",
+      "sentence": "Ich schaue abends nur selten fern."
+    }
+  },
+  {
+    "id": "662ac095-6c21-4871-a158-4e57687ba3a1",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "quotidiano",
+      "sentence": "Fare esercizio è ormai un'abitudine quotidiana."
+    },
+    "de": {
+      "word": "täglich",
+      "sentence": "Sport zu treiben ist inzwischen eine tägliche Gewohnheit."
+    }
+  },
+  {
+    "id": "5bf77907-4066-4189-8734-465cee95fa99",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "settimanale",
+      "sentence": "La rivista esce con cadenza settimanale."
+    },
+    "de": {
+      "word": "wöchentlich",
+      "sentence": "Die Zeitschrift erscheint im wöchentlichen Rhythmus."
+    }
+  },
+  {
+    "id": "a087a97b-ae58-4d77-9d2d-7f3f30173661",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "mensile",
+      "sentence": "Paghiamo un affitto mensile abbastanza alto."
+    },
+    "de": {
+      "word": "monatlich",
+      "sentence": "Wir zahlen eine ziemlich hohe monatliche Miete."
+    }
+  },
+  {
+    "id": "340587bd-ead8-49f2-8c69-8f5d7819a896",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "annuale",
+      "sentence": "La festa annuale del paese è in agosto."
+    },
+    "de": {
+      "word": "jährlich",
+      "sentence": "Das jährliche Dorffest findet im August statt."
+    }
+  },
+  {
+    "id": "15e30969-967d-4c79-bdcd-5f0444f16613",
+    "level": "B2",
+    "topic": "Time",
+    "it": {
+      "word": "frequentemente",
+      "sentence": "Viaggia molto frequentemente all'estero per motivi di lavoro importanti."
+    },
+    "de": {
+      "word": "häufig",
+      "sentence": "Sie reist sehr häufig aus beruflichen Gründen ins Ausland."
+    }
+  },
+  {
+    "id": "5c5f181f-6c88-4559-a607-de93eb5b4d95",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "prima",
+      "sentence": "Prima di uscire controllo sempre le finestre."
+    },
+    "de": {
+      "word": "vorher",
+      "sentence": "Vorher kontrolliere ich immer die Fenster."
+    }
+  },
+  {
+    "id": "d1dfaaf7-b812-4f6f-a7e5-5bc52a8bd939",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "dopo",
+      "sentence": "Dopo cena facciamo una passeggiata."
+    },
+    "de": {
+      "word": "danach",
+      "sentence": "Nach dem Essen machen wir danach einen Spaziergang."
+    }
+  },
+  {
+    "id": "e353ca7b-cb44-46ee-929d-9718acda0caf",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "poi",
+      "sentence": "Finisco questo lavoro e poi ti chiamo."
+    },
+    "de": {
+      "word": "dann",
+      "sentence": "Ich beende diese Arbeit und rufe dich dann an."
+    }
+  },
+  {
+    "id": "9a3a9b8b-265a-4d99-ac39-3d40bb6b6404",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "mentre",
+      "sentence": "Ascolto la radio mentre preparo la cena."
+    },
+    "de": {
+      "word": "während",
+      "sentence": "Ich höre Radio, während ich das Abendessen koche."
+    }
+  },
+  {
+    "id": "622f8975-9566-479f-8d36-4b9fcb139af1",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "finora",
+      "sentence": "Finora non ho ricevuto nessuna risposta."
+    },
+    "de": {
+      "word": "bisher",
+      "sentence": "Bisher habe ich noch keine Antwort bekommen."
+    }
+  },
+  {
+    "id": "2c2499f5-2823-4650-abb5-364dee56d2a8",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "già",
+      "sentence": "Ho già finito tutti i compiti."
+    },
+    "de": {
+      "word": "schon",
+      "sentence": "Ich habe schon alle Aufgaben erledigt."
+    }
+  },
+  {
+    "id": "f671e5b8-157e-42e1-91cb-c2c059ed0331",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "ancora",
+      "sentence": "È tardi, ma lui lavora ancora."
+    },
+    "de": {
+      "word": "noch",
+      "sentence": "Es ist spät, aber er arbeitet immer noch."
+    }
+  },
+  {
+    "id": "90cb8d8b-0237-49be-aeeb-f780bd889ca3",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "subito",
+      "sentence": "Ti richiamo subito dopo la riunione."
+    },
+    "de": {
+      "word": "sofort",
+      "sentence": "Ich rufe dich sofort nach der Besprechung zurück."
+    }
+  },
+  {
+    "id": "3122c0c1-132f-4e59-a037-5a04347e8d06",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "presto",
+      "sentence": "Domani devo alzarmi molto presto."
+    },
+    "de": {
+      "word": "früh",
+      "sentence": "Morgen muss ich sehr früh aufstehen."
+    }
+  },
+  {
+    "id": "7ec43ccd-105d-4c05-b8c8-a89f54e6dbc9",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "tardi",
+      "sentence": "Siamo arrivati troppo tardi alla stazione."
+    },
+    "de": {
+      "word": "spät",
+      "sentence": "Wir sind zu spät am Bahnhof angekommen."
+    }
+  },
+  {
+    "id": "e55c8375-d00d-4e55-8fab-2a628c73dea7",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "adesso",
+      "sentence": "Adesso non ho tempo, ripassa più tardi."
+    },
+    "de": {
+      "word": "jetzt",
+      "sentence": "Jetzt habe ich keine Zeit, komm später wieder."
+    }
+  },
+  {
+    "id": "8f1e3615-44cd-4d94-b156-a952b804c790",
+    "level": "B2",
+    "topic": "Time",
+    "it": {
+      "word": "recentemente",
+      "sentence": "Recentemente ho cambiato del tutto le mie vecchie abitudini."
+    },
+    "de": {
+      "word": "kürzlich",
+      "sentence": "Erst kürzlich habe ich meine täglichen Gewohnheiten völlig geändert."
+    }
+  },
+  {
+    "id": "3c080408-6ed3-479e-be2e-8fc0b8e3c538",
+    "level": "B2",
+    "topic": "Time",
+    "it": {
+      "word": "attualmente",
+      "sentence": "Attualmente lavoro a un progetto internazionale molto interessante e complesso."
+    },
+    "de": {
+      "word": "derzeit",
+      "sentence": "Derzeit arbeite ich an einem sehr interessanten internationalen Projekt."
+    }
+  },
+  {
+    "id": "0f58c2b0-5df9-4331-8ea8-eb5aaeb82757",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "scorso",
+      "sentence": "La settimana scorsa ha piovuto ogni giorno."
+    },
+    "de": {
+      "word": "letzt",
+      "sentence": "Letzte Woche hat es jeden Tag geregnet."
+    }
+  },
+  {
+    "id": "a28bd974-57c9-4a1c-b8ab-0c119386caac",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "prossimo",
+      "sentence": "Il prossimo treno parte tra dieci minuti."
+    },
+    "de": {
+      "word": "nächst",
+      "sentence": "Der nächste Zug fährt in zehn Minuten ab."
+    }
+  },
+  {
+    "id": "23bef00e-4ac1-45de-8053-6ce9dc81de07",
+    "level": "B2",
+    "topic": "Time",
+    "it": {
+      "word": "precedente",
+      "sentence": "Il giorno precedente avevamo già preparato con calma tutto."
+    },
+    "de": {
+      "word": "vorherig",
+      "sentence": "Am vorherigen Tag hatten wir schon in Ruhe alles vorbereitet."
+    }
+  },
+  {
+    "id": "a7a1a89a-b40f-4a2b-8c14-89051e83a98a",
+    "level": "B2",
+    "topic": "Time",
+    "it": {
+      "word": "successivo",
+      "sentence": "Nei giorni successivi il tempo è migliorato molto."
+    },
+    "de": {
+      "word": "folgend",
+      "sentence": "In den folgenden Tagen hat sich das Wetter stark gebessert."
+    }
+  },
+  {
+    "id": "42f0c910-a4e0-42de-8f74-ca786a5d295e",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "attuale",
+      "sentence": "La situazione attuale è piuttosto complicata."
+    },
+    "de": {
+      "word": "aktuell",
+      "sentence": "Die aktuelle Lage ist ziemlich kompliziert."
+    }
+  },
+  {
+    "id": "dc84a638-faff-4218-896e-a39ae2171aac",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "recente",
+      "sentence": "Una recente ricerca conferma questi risultati."
+    },
+    "de": {
+      "word": "jüngst",
+      "sentence": "Eine jüngste Studie bestätigt diese Ergebnisse."
+    }
+  },
+  {
+    "id": "4af71d1b-d4c9-499f-92d7-edb43990c40a",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "durare",
+      "sentence": "Il film dura quasi tre ore."
+    },
+    "de": {
+      "word": "dauern",
+      "sentence": "Der Film dauert fast drei Stunden."
+    }
+  },
+  {
+    "id": "8b45e6a1-97be-4b21-9687-7e52e74286fa",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "cominciare",
+      "sentence": "Lo spettacolo comincia alle nove in punto."
+    },
+    "de": {
+      "word": "anfangen",
+      "sentence": "Die Vorstellung fängt pünktlich um neun an."
+    }
+  },
+  {
+    "id": "59de92fe-64ff-4070-a941-2e397bd6e2c4",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "iniziare",
+      "sentence": "Le lezioni iniziano la prima settimana di settembre."
+    },
+    "de": {
+      "word": "beginnen",
+      "sentence": "Der Unterricht beginnt in der ersten Septemberwoche."
+    }
+  },
+  {
+    "id": "4c2e388c-d62a-4aa3-be03-d3114cdee2f0",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "finire",
+      "sentence": "Il concerto finisce verso mezzanotte."
+    },
+    "de": {
+      "word": "enden",
+      "sentence": "Das Konzert endet gegen Mitternacht."
+    }
+  },
+  {
+    "id": "fd049042-1142-46a6-a48e-fe98c10b699c",
+    "level": "A2",
+    "topic": "Time",
+    "it": {
+      "word": "aspettare",
+      "sentence": "Ti aspetto davanti al cinema alle otto."
+    },
+    "de": {
+      "word": "warten",
+      "sentence": "Ich warte um acht vor dem Kino auf dich."
+    }
+  },
+  {
+    "id": "084d1927-d720-4e7e-aa5d-5020e8a21608",
+    "level": "B1",
+    "topic": "Time",
+    "it": {
+      "word": "affrettarsi",
+      "sentence": "Dobbiamo affrettarci o perderemo il treno."
+    },
+    "de": {
+      "word": "sich beeilen",
+      "sentence": "Wir müssen uns beeilen, sonst verpassen wir den Zug."
+    }
+  },
+  {
+    "id": "7286c3a9-4b7f-4ae0-95fd-491600cd2e44",
+    "level": "B2",
+    "topic": "Time",
+    "it": {
+      "word": "tardare",
+      "sentence": "Non tardare troppo, la cena è ormai quasi pronta."
+    },
+    "de": {
+      "word": "sich verspäten",
+      "sentence": "Verspäte dich nicht zu sehr, das Abendessen ist fast fertig."
+    }
+  },
+  {
+    "id": "80125ba0-1f12-41fb-90e1-17ba24a2ef2f",
+    "level": "B2",
+    "topic": "Time",
+    "it": {
+      "word": "trascorrere",
+      "sentence": "Abbiamo trascorso l'intera estate insieme in una casa in montagna."
+    },
+    "de": {
+      "word": "verbringen",
+      "sentence": "Wir haben den ganzen Sommer in den Bergen verbracht."
+    }
+  },
+  {
+    "id": "f7858c56-4576-4fd2-bf52-2bf4fa2ca088",
+    "level": "A2",
+    "topic": "Nature",
+    "it": {
+      "word": "la stagione",
+      "sentence": "Ogni stagione ha i suoi colori particolari."
+    },
+    "de": {
+      "word": "die Jahreszeit",
+      "sentence": "Jede Jahreszeit hat ihre eigenen besonderen Farben."
+    }
   }
 ]

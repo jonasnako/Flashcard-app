@@ -36,7 +36,7 @@ of which territories exist; all word choices and example sentences are our own.
 | **Media** | Post, Presse und Rundfunk, Telefon/Handy/Internet, Computer | — | ~110 |
 | **Economy** | Industrie/Handel, Geld/Banken, Landwirtschaft, Technik/Energie/Forschung, Rohstoffe | 91 ✓ | +~25 top-up |
 | **Society** | Geschichte, Gesellschaft, Religion/Moral, Politik, Verteidigung, Institutionen, Gesetz | 106 ✓ | +~20 top-up |
-| **Time** | Jahresablauf, Tageszeit, Zeitbegriffe (Dauer, Häufigkeit, Ablauf) | old approach | ~100 **rebuild** |
+| **Time** | Jahresablauf, Tageszeit, Zeitbegriffe (Dauer, Häufigkeit, Ablauf) | 68 ✓ | +~30 top-up |
 | **Space** | Räumliche Begriffe, Bewegung/Geschwindigkeit, Kommen und Gehen | 106 ✓ | +30 (movement, speed) |
 
 **Note on Children vs. Relationships/Person:** Children is kept as its own topic (parenting,
@@ -98,7 +98,9 @@ still pending. The Economy batch's review routed *la banca* → City, *il client
 (do not author it into Economy). The Household top-up's review kept *il giardino* and *lo studio*
 in Household and seeded Culture with *il quadro*. The Society batch's review put *il sindaco* →
 Society and *la chiesa* → City. The Travel batch's review put *la spiaggia* and *il castello* →
-Travel, and *la macchina* → City.
+Travel, and *la macchina* → City. The Time batch's review put *la stagione* → Nature (which owns
+the four seasons); frequency/sequence adverbs (sempre, mai, spesso, prima, dopo, poi...) went to
+Time per the manifest's Häufigkeit/Ablauf remit, while Expressions keeps di solito, ormai, appena.
 
 ---
 
