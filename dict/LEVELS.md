@@ -42,6 +42,13 @@ B1/A2 ratio 2.94 — a healthy A2–B2 reference has A2 ≥ B1). Two passes corr
 
 KELLY agreement among matched single/multi-word entries rose 485 → 959.
 
+**One-band cap (correction).** KELLY frequency over-lowered abstract/institutional words
+that are frequent in a news corpus but pedagogically B1–B2 (la costituzione, il parlamento,
+l'integrazione, la consapevolezza, l'identità...). Rule applied afterwards: **a single
+KELLY-frequency signal may move a word at most one band.** The 94 two-band B2→A2 drops were
+restored to B2→B1. Final distribution A2 33% / B1 45% / B2 22% (ratio 1.34) — B1 largest,
+as an Aufbau deck should be.
+
 ## Still open
 
 - **Multiword over-levels** (~371 remaining) need per-phrase judgement, not head-token matching.
