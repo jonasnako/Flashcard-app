@@ -651,7 +651,7 @@
   },
   {
     "id": "aebe1633-773f-46a4-871a-9e6a518b3bb0",
-    "level": "B1",
+    "level": "A2",
     "topic": "Household",
     "it": {
       "word": "la cucina",
@@ -690,7 +690,7 @@
   },
   {
     "id": "6106da02-2cb1-4965-b9fc-27e332904cb0",
-    "level": "B1",
+    "level": "A2",
     "topic": "Household",
     "it": {
       "word": "la camera da letto",
@@ -703,7 +703,7 @@
   },
   {
     "id": "d336de81-b555-4b19-88c5-3c19e8533108",
-    "level": "B1",
+    "level": "A2",
     "topic": "Household",
     "it": {
       "word": "il salotto",
@@ -716,7 +716,7 @@
   },
   {
     "id": "2a17a98d-a1ed-45c5-befd-c7c2686d0dbd",
-    "level": "B1",
+    "level": "A2",
     "topic": "Household",
     "it": {
       "word": "il bagno",
@@ -768,7 +768,7 @@
   },
   {
     "id": "a229b116-eadb-4386-b160-2e461f42ff92",
-    "level": "B1",
+    "level": "A2",
     "topic": "Household",
     "it": {
       "word": "la finestra",
@@ -781,7 +781,7 @@
   },
   {
     "id": "7902e224-50f2-4238-969b-ccf52c624830",
-    "level": "B1",
+    "level": "A2",
     "topic": "Household",
     "it": {
       "word": "la porta",
@@ -833,7 +833,7 @@
   },
   {
     "id": "65b44299-ce85-47c7-87db-4c5a6129bc50",
-    "level": "B1",
+    "level": "A2",
     "topic": "Household",
     "it": {
       "word": "il letto",
@@ -859,7 +859,7 @@
   },
   {
     "id": "83589dad-5b13-45fa-93ab-26cebf0ec41a",
-    "level": "B1",
+    "level": "A2",
     "topic": "Household",
     "it": {
       "word": "la sedia",
@@ -872,7 +872,7 @@
   },
   {
     "id": "9a81cb23-0cdc-4ca9-981d-216c5d2479dd",
-    "level": "B1",
+    "level": "A2",
     "topic": "Household",
     "it": {
       "word": "il tavolo",
@@ -885,7 +885,7 @@
   },
   {
     "id": "9f335a09-5310-4acd-995a-d99096203be8",
-    "level": "B1",
+    "level": "A2",
     "topic": "Household",
     "it": {
       "word": "l'armadio",
@@ -950,7 +950,7 @@
   },
   {
     "id": "a6912111-0143-44a0-b088-6516a9a4c006",
-    "level": "B1",
+    "level": "A2",
     "topic": "Household",
     "it": {
       "word": "la chiave",
@@ -1015,7 +1015,7 @@
   },
   {
     "id": "757fcaa0-f329-4d0f-80ac-fe30e7eef323",
-    "level": "B1",
+    "level": "A2",
     "topic": "Children",
     "it": {
       "word": "dormire",
@@ -1171,7 +1171,7 @@
   },
   {
     "id": "561741dc-118d-4a1e-9375-b16570d2bbe9",
-    "level": "B1",
+    "level": "A2",
     "topic": "Education",
     "it": {
       "word": "la scuola",
@@ -4473,7 +4473,7 @@
   },
   {
     "id": "970a1e15-908f-4292-ba36-7fb68cfd03bd",
-    "level": "B1",
+    "level": "A2",
     "topic": "Thinking & Feeling",
     "it": {
       "word": "felice",
@@ -4590,7 +4590,7 @@
   },
   {
     "id": "9ef30acd-d82c-4ec9-b0c4-2422dcb9f929",
-    "level": "B1",
+    "level": "A2",
     "topic": "Thinking & Feeling",
     "it": {
       "word": "triste",
@@ -8477,7 +8477,7 @@
   },
   {
     "id": "56497afe-987c-47ba-bfe9-06e8e812f601",
-    "level": "B1",
+    "level": "A2",
     "topic": "Nature",
     "it": {
       "word": "l'albero",
@@ -8490,7 +8490,7 @@
   },
   {
     "id": "0329b403-da75-4656-ad65-5fe22a89ca54",
-    "level": "B1",
+    "level": "A2",
     "topic": "Nature",
     "it": {
       "word": "il fiore",
@@ -9959,7 +9959,7 @@
   },
   {
     "id": "e3eab116-17a4-4ae2-8e6b-0029fb768d9d",
-    "level": "B1",
+    "level": "A2",
     "topic": "City",
     "it": {
       "word": "il biglietto",
@@ -10050,7 +10050,7 @@
   },
   {
     "id": "e202b864-2f2c-43cc-bbad-03097ff5c1f1",
-    "level": "B1",
+    "level": "A2",
     "topic": "City",
     "it": {
       "word": "la biblioteca",
@@ -10063,7 +10063,7 @@
   },
   {
     "id": "930067ee-a2fa-4328-a030-9a8e78978b97",
-    "level": "B1",
+    "level": "A2",
     "topic": "City",
     "it": {
       "word": "il museo",
@@ -10115,7 +10115,7 @@
   },
   {
     "id": "7b378c78-7f04-41e4-905c-825e925b3ef4",
-    "level": "B1",
+    "level": "A2",
     "topic": "City",
     "it": {
       "word": "la stazione",
@@ -10167,7 +10167,7 @@
   },
   {
     "id": "c3d5e7a2-590f-4b4d-8908-74c2b4a4802a",
-    "level": "B1",
+    "level": "A2",
     "topic": "City",
     "it": {
       "word": "l'ospedale",
@@ -14002,7 +14002,7 @@
   },
   {
     "id": "b096f2e2-9736-4b6b-b2db-c283808c5967",
-    "level": "B1",
+    "level": "A2",
     "topic": "Animals",
     "it": {
       "word": "il cane",
@@ -14015,7 +14015,7 @@
   },
   {
     "id": "d1e32918-40a5-4b3d-94b8-6566e7ff35a6",
-    "level": "B1",
+    "level": "A2",
     "topic": "Animals",
     "it": {
       "word": "il gatto",
@@ -14496,7 +14496,7 @@
   },
   {
     "id": "37321a6e-1e9f-4899-9378-e0c21c0ed437",
-    "level": "B1",
+    "level": "A2",
     "topic": "Animals",
     "it": {
       "word": "il pesce",
@@ -15172,7 +15172,7 @@
   },
   {
     "id": "3e6e2ea8-f69f-4f3a-a723-40f1bf9b1dae",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "la testa",
@@ -15185,7 +15185,7 @@
   },
   {
     "id": "2845f81d-4d04-4284-b1f4-0a224140b31f",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "i capelli",
@@ -15211,7 +15211,7 @@
   },
   {
     "id": "40d5d2f8-40d5-4f93-a647-0f711487be69",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "l'occhio",
@@ -15224,7 +15224,7 @@
   },
   {
     "id": "e4ea0c2d-2f9b-4308-96ff-65bf39623507",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "il naso",
@@ -15237,7 +15237,7 @@
   },
   {
     "id": "6678e126-0e36-48f5-a8d5-9527f1578725",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "la bocca",
@@ -15263,7 +15263,7 @@
   },
   {
     "id": "5dec5622-a655-4d7e-9cef-e7c9e8a78c4f",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "il dente",
@@ -15289,7 +15289,7 @@
   },
   {
     "id": "bb37a47b-6931-4e25-b9b0-1173d089b801",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "l'orecchio",
@@ -15328,7 +15328,7 @@
   },
   {
     "id": "0cfdf215-1842-48c5-9b42-75546bbaf282",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "il collo",
@@ -15367,7 +15367,7 @@
   },
   {
     "id": "01a9ac92-0d0f-464e-8cb4-41161a37fb16",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "la schiena",
@@ -15380,7 +15380,7 @@
   },
   {
     "id": "1cd760db-5183-47e6-9513-e2297fae9d97",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "la pancia",
@@ -15419,7 +15419,7 @@
   },
   {
     "id": "ebdbb43d-c873-4e61-8dfb-6c4ccabb8543",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "il braccio",
@@ -15445,7 +15445,7 @@
   },
   {
     "id": "baae235a-153f-4ccc-937f-61204eb61da2",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "la mano",
@@ -15458,7 +15458,7 @@
   },
   {
     "id": "86729c72-e13f-4453-ab71-06a56649bb00",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "il dito",
@@ -15510,7 +15510,7 @@
   },
   {
     "id": "fa7ad735-07a5-4f5b-a1e8-5e54b8f3a718",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "la gamba",
@@ -15536,7 +15536,7 @@
   },
   {
     "id": "878f9b58-71e7-4d64-9a22-5c29cb843891",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "il piede",
@@ -15653,7 +15653,7 @@
   },
   {
     "id": "2db9e20b-7bfe-4d94-84f7-4c5cdbf98776",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "il cuore",
@@ -15952,7 +15952,7 @@
   },
   {
     "id": "25974a09-abe9-4bef-a0da-b5265ac6c958",
-    "level": "B1",
+    "level": "A2",
     "topic": "Body",
     "it": {
       "word": "stanco",
@@ -16121,7 +16121,7 @@
   },
   {
     "id": "c9d0282f-e609-413e-85e7-dc1ed9d6b3ef",
-    "level": "B1",
+    "level": "A2",
     "topic": "Health",
     "it": {
       "word": "guarire",
@@ -19488,7 +19488,7 @@
   },
   {
     "id": "a9a045de-a69f-4a25-a8f8-c3e052432a46",
-    "level": "B1",
+    "level": "A2",
     "topic": "Food",
     "it": {
       "word": "la pera",
@@ -19501,7 +19501,7 @@
   },
   {
     "id": "e7c17ef7-8ab5-4a77-9904-4756a7afcff3",
-    "level": "B1",
+    "level": "A2",
     "topic": "Food",
     "it": {
       "word": "l'uva",
@@ -19527,7 +19527,7 @@
   },
   {
     "id": "0d94e9cc-f49f-43ae-a470-9f40fcd0dc27",
-    "level": "B1",
+    "level": "A2",
     "topic": "Food",
     "it": {
       "word": "la carota",
@@ -19540,7 +19540,7 @@
   },
   {
     "id": "3a9a7cfb-abf7-4f98-8fa5-cadacd07c11f",
-    "level": "B1",
+    "level": "A2",
     "topic": "Food",
     "it": {
       "word": "la cipolla",
@@ -19566,7 +19566,7 @@
   },
   {
     "id": "d51dda57-61b4-455d-986d-a7f943d45f81",
-    "level": "B1",
+    "level": "A2",
     "topic": "Food",
     "it": {
       "word": "il pomodoro",
@@ -19579,7 +19579,7 @@
   },
   {
     "id": "04331c84-ba4b-4e87-9ade-e579d91efbd1",
-    "level": "B1",
+    "level": "A2",
     "topic": "Food",
     "it": {
       "word": "la patata",
@@ -19618,7 +19618,7 @@
   },
   {
     "id": "ae1c0195-53a2-425b-90f8-0a96c637b0e9",
-    "level": "B1",
+    "level": "A2",
     "topic": "Food",
     "it": {
       "word": "il pollo",
@@ -19644,7 +19644,7 @@
   },
   {
     "id": "38885fb2-7ed1-4a17-aed9-96532f960edd",
-    "level": "B1",
+    "level": "A2",
     "topic": "Food",
     "it": {
       "word": "l'uovo",
@@ -19683,7 +19683,7 @@
   },
   {
     "id": "7bda760f-8851-4f52-aa67-a6bc610d58f3",
-    "level": "B1",
+    "level": "A2",
     "topic": "Food",
     "it": {
       "word": "lo zucchero",
@@ -19696,7 +19696,7 @@
   },
   {
     "id": "f36fe01a-0192-48b1-8dd6-4fab2517f23b",
-    "level": "B1",
+    "level": "A2",
     "topic": "Food",
     "it": {
       "word": "il riso",
@@ -33385,7 +33385,7 @@
   },
   {
     "id": "19da5e98-52ae-4479-930c-4f97441d0453",
-    "level": "B1",
+    "level": "A2",
     "topic": "Freizeit",
     "it": {
       "word": "festeggiare",
