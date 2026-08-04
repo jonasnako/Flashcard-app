@@ -1,0 +1,706 @@
+[
+  {
+    "id": "c20202be-30ed-4bb5-8791-b2cce734fa2b",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "allergico",
+      "sentence": "Sono allergico ai pollini in primavera."
+    },
+    "de": {
+      "word": "allergisch",
+      "sentence": "Im Frühling bin ich gegen Pollen allergisch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dd72c6f0-30cb-4872-aeb1-abaae1452130",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'ambulatorio",
+      "sentence": "L'ambulatorio del medico apre alle otto."
+    },
+    "de": {
+      "word": "die Arztpraxis",
+      "sentence": "Die Arztpraxis öffnet jeden Morgen um acht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8c2e1577-59ec-45c2-b493-faab095b52c6",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'analisi",
+      "sentence": "Il medico ha richiesto le analisi del sangue."
+    },
+    "de": {
+      "word": "die Untersuchung",
+      "sentence": "Der Arzt hat eine Blutuntersuchung angeordnet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5df378f3-fc70-45f8-895d-cf7db714f679",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "la clinica",
+      "sentence": "È stato operato in una clinica privata."
+    },
+    "de": {
+      "word": "die Klinik",
+      "sentence": "Er wurde in einer privaten Klinik operiert."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "df3ba55d-920d-4f0f-8dbf-e2c20bf81223",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "il dentista",
+      "sentence": "Ho un appuntamento dal dentista giovedì mattina."
+    },
+    "de": {
+      "word": "der Zahnarzt",
+      "sentence": "Ich habe am Donnerstagmorgen einen Termin beim Zahnarzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "807b4207-a496-404e-a13e-b68488008023",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "l'emergenza",
+      "sentence": "In caso di emergenza chiama subito l'ambulanza."
+    },
+    "de": {
+      "word": "der Notfall",
+      "sentence": "Ruf im Notfall sofort den Krankenwagen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a5627f19-9ee5-4b0a-9ce4-8b1a6e543a15",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "ferire",
+      "sentence": "Il grave incidente ha ferito due passanti innocenti."
+    },
+    "de": {
+      "word": "verletzen",
+      "sentence": "Der schwere Unfall hat zwei unschuldige Passanten verletzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "79c41015-9381-41c2-b4ee-7d0d817c7b2f",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "lo sciroppo",
+      "sentence": "Prendi lo sciroppo per la tosse due volte al giorno."
+    },
+    "de": {
+      "word": "der Hustensaft",
+      "sentence": "Nimm den Hustensaft zweimal täglich vor dem Essen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "21c24534-e43e-432a-8ba9-b351750b4a07",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "l'asma",
+      "sentence": "Da bambino soffriva spesso di asma e forti allergie."
+    },
+    "de": {
+      "word": "das Asthma",
+      "sentence": "Als Kind litt er oft an Asthma und starken Allergien."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7fa8083f-0441-4ef9-a8b9-387a2709a816",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "cieco",
+      "sentence": "Dopo il grave incidente stradale è diventato completamente cieco."
+    },
+    "de": {
+      "word": "blind",
+      "sentence": "Nach dem Unfall ist er völlig blind geworden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "26b997cd-f762-41a6-8315-315a7d460889",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il leone",
+      "sentence": "Il leone è considerato il re degli animali."
+    },
+    "de": {
+      "word": "der Löwe",
+      "sentence": "Der Löwe gilt als der König der Tiere."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3d673806-79f9-4cda-8865-67e3e4dd7e7b",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "la tigre",
+      "sentence": "La tigre caccia soprattutto di notte."
+    },
+    "de": {
+      "word": "der Tiger",
+      "sentence": "Der Tiger jagt vor allem in der Nacht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "43a8388e-0c64-492c-ad44-4927acca801d",
+    "level": "B1",
+    "topic": "Animals",
+    "it": {
+      "word": "il canguro",
+      "sentence": "Il canguro vive soltanto in Australia."
+    },
+    "de": {
+      "word": "das Känguru",
+      "sentence": "Das Känguru lebt nur in Australien."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "006c7bb7-90bb-4f30-8c98-e551a346234c",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il cimitero",
+      "sentence": "Il cimitero si trova appena fuori dal paese."
+    },
+    "de": {
+      "word": "der Friedhof",
+      "sentence": "Der Friedhof liegt gleich ausserhalb des Dorfes."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5f4202f9-adaf-4da8-aef8-1caf152551af",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il duomo",
+      "sentence": "Il duomo di Milano attira moltissimi turisti."
+    },
+    "de": {
+      "word": "der Dom",
+      "sentence": "Der Mailänder Dom zieht sehr viele Touristen an."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d5f08dc3-3ffe-4034-8a60-ca3928a8d93c",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "la questura",
+      "sentence": "Ho denunciato il furto alla questura."
+    },
+    "de": {
+      "word": "die Polizeiwache",
+      "sentence": "Ich habe den Diebstahl auf der Polizeiwache angezeigt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1f1f8614-8c2b-4af3-9f8a-b4bfc61a1f40",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il vigile",
+      "sentence": "Il vigile dirige il traffico all'incrocio."
+    },
+    "de": {
+      "word": "der Verkehrspolizist",
+      "sentence": "Der Verkehrspolizist regelt den Verkehr an der Kreuzung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "93fb6a4f-4d4a-4c90-802d-3bf9edf2cfce",
+    "level": "B2",
+    "topic": "City",
+    "it": {
+      "word": "il cantiere",
+      "sentence": "Il cantiere dell'autostrada resta sempre chiuso la domenica."
+    },
+    "de": {
+      "word": "die Baustelle",
+      "sentence": "Die Baustelle an der Autobahn bleibt sonntags immer geschlossen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d84aeef8-e7eb-48ec-8597-dc0e8324413a",
+    "level": "B1",
+    "topic": "City",
+    "it": {
+      "word": "il villaggio",
+      "sentence": "Abbiamo visitato un piccolo villaggio di montagna."
+    },
+    "de": {
+      "word": "das Dorf",
+      "sentence": "Wir haben ein kleines Bergdorf besucht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "39ae4fea-0426-4e64-9879-b5db9c00e2ae",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "l'alloggio",
+      "sentence": "L'alloggio in hotel include la prima colazione."
+    },
+    "de": {
+      "word": "die Unterkunft",
+      "sentence": "Die Unterkunft schliesst das Frühstück mit ein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "224c6612-09de-428f-a54b-181b6d127969",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il binario",
+      "sentence": "Il treno per Roma parte dal binario cinque."
+    },
+    "de": {
+      "word": "das Gleis",
+      "sentence": "Der Zug nach Rom fährt von Gleis fünf ab."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "303c1663-cc1b-4e5a-9851-7d6a2ac09078",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "il camion",
+      "sentence": "Il camion trasporta la merce durante la notte."
+    },
+    "de": {
+      "word": "der Lastwagen",
+      "sentence": "Der Lastwagen transportiert die Ware während der Nacht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bb8b30ee-5d3a-4e2d-bd8c-f6be88f936ed",
+    "level": "B1",
+    "topic": "Travel",
+    "it": {
+      "word": "l'elicottero",
+      "sentence": "L'elicottero è atterrato sul tetto dell'ospedale."
+    },
+    "de": {
+      "word": "der Hubschrauber",
+      "sentence": "Der Hubschrauber ist auf dem Krankenhausdach gelandet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5de3056c-4d8d-457d-b5c9-79567f9b1d2b",
+    "level": "B2",
+    "topic": "Travel",
+    "it": {
+      "word": "l'agriturismo",
+      "sentence": "In vacanza abbiamo alloggiato in un agriturismo tranquillo."
+    },
+    "de": {
+      "word": "der Bauernhof-Urlaub",
+      "sentence": "Im Urlaub haben wir auf einem ruhigen Bauernhof gewohnt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4a72fcbd-e03e-4e61-97fe-d95f280dca73",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "acido",
+      "sentence": "Questo limone è davvero troppo acido."
+    },
+    "de": {
+      "word": "sauer",
+      "sentence": "Diese Zitrone ist wirklich viel zu sauer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e29ba80a-1749-4229-be9d-3ff69e182701",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "il prezzemolo",
+      "sentence": "Aggiungi un po' di prezzemolo tritato al sugo."
+    },
+    "de": {
+      "word": "die Petersilie",
+      "sentence": "Gib etwas gehackte Petersilie in die Sauce."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "004e945d-ff5e-41cb-a998-b5d8185dab86",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "lo spicchio",
+      "sentence": "Metti uno spicchio d'aglio nella pentola."
+    },
+    "de": {
+      "word": "die Zehe",
+      "sentence": "Gib eine Knoblauchzehe in den Topf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d1bbd72a-eed7-4e06-9ed5-2dbfcdae5f26",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "bollente",
+      "sentence": "Attento, l'acqua nella pentola è bollente."
+    },
+    "de": {
+      "word": "kochend heiss",
+      "sentence": "Vorsicht, das Wasser im Topf ist kochend heiss."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "066541bb-dc3d-4a5f-9d49-cc743481f694",
+    "level": "B2",
+    "topic": "Food",
+    "it": {
+      "word": "l'alimentazione",
+      "sentence": "Una buona alimentazione aiuta a prevenire molte malattie comuni."
+    },
+    "de": {
+      "word": "die Ernährung",
+      "sentence": "Eine gute Ernährung hilft dabei, vielen häufigen Krankheiten vorzubeugen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3b0c6fef-b8d2-42c0-8a42-8b6624597857",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "l'ambiente",
+      "sentence": "Dobbiamo tutti proteggere meglio l'ambiente per le generazioni future."
+    },
+    "de": {
+      "word": "die Umwelt",
+      "sentence": "Wir müssen die Umwelt für die künftigen Generationen besser schützen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "673cb699-6265-4c4b-a639-c78c836961ed",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "ansioso",
+      "sentence": "Era ansioso prima del colloquio di lavoro."
+    },
+    "de": {
+      "word": "ängstlich",
+      "sentence": "Er war vor dem Vorstellungsgespräch ziemlich ängstlich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0be3ad35-240f-4dab-9016-49454ed78486",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "confuso",
+      "sentence": "Dopo quella notizia mi sentivo davvero confuso."
+    },
+    "de": {
+      "word": "verwirrt",
+      "sentence": "Nach dieser Nachricht war ich ziemlich verwirrt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9fa8e638-30f1-4278-bff9-7a7d00fb4b82",
+    "level": "B2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "l'incubo",
+      "sentence": "Stanotte il bambino ha fatto un incubo davvero terribile."
+    },
+    "de": {
+      "word": "der Albtraum",
+      "sentence": "Heute Nacht hatte das Kind einen wirklich schrecklichen Albtraum."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8aadb5eb-5e90-4986-b1b6-1be1b65fc53f",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "il carabiniere",
+      "sentence": "Il carabiniere ha subito fermato l'automobilista chiaramente distratto sulla strada."
+    },
+    "de": {
+      "word": "der Polizist",
+      "sentence": "Der Polizist hat den sichtlich unaufmerksamen Autofahrer sofort angehalten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "53752d5c-4ccb-4197-abd9-a2ecb02b65af",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "l'incendio",
+      "sentence": "I pompieri hanno spento l'incendio in poche ore."
+    },
+    "de": {
+      "word": "der Brand",
+      "sentence": "Die Feuerwehr hat den Brand in wenigen Stunden gelöscht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "273929de-f900-4c22-b00b-af531d3a5e4d",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "il cadavere",
+      "sentence": "La polizia ha trovato un cadavere nel bosco."
+    },
+    "de": {
+      "word": "die Leiche",
+      "sentence": "Die Polizei hat im Wald eine Leiche gefunden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bb0404e1-e20e-490c-98f2-e3f27586a41c",
+    "level": "B1",
+    "topic": "Work",
+    "it": {
+      "word": "il concorso",
+      "sentence": "Ha vinto un concorso pubblico per l'insegnamento."
+    },
+    "de": {
+      "word": "der Auswahlwettbewerb",
+      "sentence": "Sie hat einen öffentlichen Auswahlwettbewerb für den Lehrberuf gewonnen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5d75c250-bdbc-433c-b84b-0e9c7903b158",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "diplomarsi",
+      "sentence": "Si è diplomato al liceo con ottimi voti."
+    },
+    "de": {
+      "word": "das Abitur machen",
+      "sentence": "Er hat mit sehr guten Noten das Abitur gemacht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "409efa88-c83d-48b1-938e-b89e358b3575",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il dialetto",
+      "sentence": "In casa i nonni parlano ancora il dialetto."
+    },
+    "de": {
+      "word": "der Dialekt",
+      "sentence": "Zu Hause sprechen die Grosseltern noch den Dialekt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5b3a96da-f7c4-4431-844b-28493a13cc52",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "il termosifone",
+      "sentence": "In inverno il termosifone resta acceso tutto il giorno."
+    },
+    "de": {
+      "word": "die Heizung",
+      "sentence": "Im Winter bleibt die Heizung den ganzen Tag an."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7be76805-891a-4c52-aa0a-71c509a40d84",
+    "level": "B1",
+    "topic": "Household",
+    "it": {
+      "word": "la cassettiera",
+      "sentence": "Ho riposto i maglioni nella cassettiera."
+    },
+    "de": {
+      "word": "die Kommode",
+      "sentence": "Ich habe die Pullover in die Kommode geräumt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f31c5f39-07eb-43a7-aac6-71ee9c8efb70",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "vietare",
+      "sentence": "Il regolamento vieta di fumare all'interno."
+    },
+    "de": {
+      "word": "verbieten",
+      "sentence": "Die Vorschrift verbietet das Rauchen im Inneren."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a17ac839-b169-4557-9de1-2e74c1eafcb2",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "scoprire",
+      "sentence": "Gli scienziati hanno scoperto una nuova specie."
+    },
+    "de": {
+      "word": "entdecken",
+      "sentence": "Die Wissenschaftler haben eine neue Art entdeckt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "55273b7c-3e6f-4ae5-a2a3-cca02c391f6e",
+    "level": "B1",
+    "topic": "Verbs",
+    "it": {
+      "word": "osservare",
+      "sentence": "Il bambino osserva gli insetti con curiosità."
+    },
+    "de": {
+      "word": "beobachten",
+      "sentence": "Das Kind beobachtet die Insekten voller Neugier."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]
