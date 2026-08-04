@@ -25,7 +25,7 @@ of which territories exist; all word choices and example sentences are our own.
 | **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | 78 ✓ | +~35 top-up |
 | **Culture** | Lektüre, Musik, Kunst, Theater und Film | 73 ✓ | +~25 top-up |
 | **Freizeit** | Feste feiern, Feiertage, Ausgehen, Sport, Hobbys | 61 ✓ | +~30 top-up |
-| **Shopping** | Einkaufen: Auswählen/Bezahlen, Geschäfte | — | ~80 |
+| **Shopping** | Einkaufen: Auswählen/Bezahlen, Geschäfte | 43 ✓ | +~20 top-up |
 | **Food** | Ernährung (all subchapters) + Restaurant und Café | 96 ✓ | +~45 |
 | **Household** | Häuser/Wohnungen, Zimmer, Einrichtung, Haushaltsführung | 198 ✓ | done (dwelling types, furniture added) |
 | **Travel** | Reisen, Übernachten, Sehenswürdigkeiten, Verkehrsmittel, Individualverkehr | 75 ✓ | +~35 top-up |
@@ -95,8 +95,7 @@ imparare*. Kept in Children: *la maestra, la ricreazione, spiegare* (early-child
 When Work was built, *delegare* moved into it from Household (review-approved). Society was
 seeded with *il sindacato* out of the Work batch's ambiguous review; the full Society build is
 still pending. The Economy batch's review routed *la banca* → City, *il cliente* → Work,
-*il bestiame* → Animals, and reserved *il prezzo / der Preis* for the future Shopping topic
-(do not author it into Economy). The Household top-up's review kept *il giardino* and *lo studio*
+*il bestiame* → Animals, and authored *il prezzo / der Preis* into Shopping (was reserved from the Economy review). The Household top-up's review kept *il giardino* and *lo studio*
 in Household and seeded Culture with *il quadro*. The Society batch's review put *il sindaco* →
 Society and *la chiesa* → City. The Travel batch's review put *la spiaggia* and *il castello* →
 Travel, and *la macchina* → City. The Time batch's review put *la stagione* → Nature (which owns

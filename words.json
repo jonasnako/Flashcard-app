@@ -33512,5 +33512,564 @@
       "word": "wetten",
       "sentence": "Man sollte kein Geld wetten, das man nicht hat."
     }
+  },
+  {
+    "id": "7f870ce1-643c-4211-9138-a2e1d7340bfd",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "il negozio",
+      "sentence": "Questo negozio chiude alle sette di sera."
+    },
+    "de": {
+      "word": "das Geschäft",
+      "sentence": "Dieses Geschäft schliesst um sieben Uhr abends."
+    }
+  },
+  {
+    "id": "1cd2c104-baf6-4b55-b0eb-2ad6e2d26456",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "il supermercato",
+      "sentence": "Faccio la spesa al supermercato il sabato."
+    },
+    "de": {
+      "word": "der Supermarkt",
+      "sentence": "Ich kaufe samstags im Supermarkt ein."
+    }
+  },
+  {
+    "id": "6c05930d-0a09-4855-b6bf-c5617f3400b2",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "la panetteria",
+      "sentence": "Compro il pane fresco in panetteria."
+    },
+    "de": {
+      "word": "die Bäckerei",
+      "sentence": "Ich kaufe frisches Brot in der Bäckerei."
+    }
+  },
+  {
+    "id": "491616be-22e1-4b79-afb1-e37272f9b6a7",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "la macelleria",
+      "sentence": "In macelleria vendono carne di ottima qualità."
+    },
+    "de": {
+      "word": "die Metzgerei",
+      "sentence": "In der Metzgerei verkaufen sie Fleisch von bester Qualität."
+    }
+  },
+  {
+    "id": "efacef81-86f4-4c24-9d2b-16f5db4b0f1c",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "la pescheria",
+      "sentence": "La pescheria riceve il pesce fresco ogni mattina."
+    },
+    "de": {
+      "word": "die Fischhandlung",
+      "sentence": "Die Fischhandlung bekommt jeden Morgen frischen Fisch."
+    }
+  },
+  {
+    "id": "c5351b7a-f7a1-4ae0-a280-c2ec2e149c23",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "la gioielleria",
+      "sentence": "Nella vetrina della gioielleria brillano anelli d'oro."
+    },
+    "de": {
+      "word": "das Schmuckgeschäft",
+      "sentence": "Im Schaufenster des Schmuckgeschäfts glänzen goldene Ringe."
+    }
+  },
+  {
+    "id": "41de88e5-d278-4d13-969a-7ef5a1e94446",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "la libreria",
+      "sentence": "In libreria ho trovato l'ultimo romanzo giallo."
+    },
+    "de": {
+      "word": "die Buchhandlung",
+      "sentence": "In der Buchhandlung habe ich den neuesten Krimi gefunden."
+    }
+  },
+  {
+    "id": "6a7801d0-073f-4ae3-ba58-f60518e915db",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "la cartoleria",
+      "sentence": "In cartoleria compro quaderni e penne."
+    },
+    "de": {
+      "word": "das Schreibwarengeschäft",
+      "sentence": "Im Schreibwarengeschäft kaufe ich Hefte und Stifte."
+    }
+  },
+  {
+    "id": "bbf51689-6112-4e94-bfb8-dcfee8d1d2d0",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "il fioraio",
+      "sentence": "Dal fioraio ho preso un mazzo di rose."
+    },
+    "de": {
+      "word": "das Blumengeschäft",
+      "sentence": "Im Blumengeschäft habe ich einen Strauss Rosen geholt."
+    }
+  },
+  {
+    "id": "cab1287c-8c1c-46c9-9ae6-fa09ddcf9278",
+    "level": "B2",
+    "topic": "Shopping",
+    "it": {
+      "word": "il grande magazzino",
+      "sentence": "Il grande magazzino ha reparti su cinque piani diversi."
+    },
+    "de": {
+      "word": "das Kaufhaus",
+      "sentence": "Das Kaufhaus hat Abteilungen auf fünf verschiedenen Stockwerken."
+    }
+  },
+  {
+    "id": "c44bc499-8972-4028-9991-b0485923819f",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "la cassa",
+      "sentence": "Alla cassa c'è una lunga coda."
+    },
+    "de": {
+      "word": "die Kasse",
+      "sentence": "An der Kasse ist eine lange Schlange."
+    }
+  },
+  {
+    "id": "4e4cf641-72c0-4c90-99ee-5cb63fd9263b",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "il carrello",
+      "sentence": "Riempio il carrello di frutta e verdura."
+    },
+    "de": {
+      "word": "der Einkaufswagen",
+      "sentence": "Ich fülle den Einkaufswagen mit Obst und Gemüse."
+    }
+  },
+  {
+    "id": "d802c8b4-9941-4300-976b-d4ad60240f55",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "il cestino",
+      "sentence": "Per pochi articoli prendo solo il cestino."
+    },
+    "de": {
+      "word": "der Korb",
+      "sentence": "Für wenige Artikel nehme ich nur den Korb."
+    }
+  },
+  {
+    "id": "dba43eb9-40f3-4bac-8182-4699ab82fd09",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "il bancone",
+      "sentence": "Il commesso appoggia la merce sul bancone."
+    },
+    "de": {
+      "word": "die Theke",
+      "sentence": "Der Verkäufer legt die Ware auf die Theke."
+    }
+  },
+  {
+    "id": "91def7a8-2fbe-4c5f-8aea-bea8a4fe983e",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "la busta della spesa",
+      "sentence": "La busta della spesa era troppo pesante."
+    },
+    "de": {
+      "word": "die Einkaufstasche",
+      "sentence": "Die Einkaufstasche war viel zu schwer."
+    }
+  },
+  {
+    "id": "cd9861e6-cda2-41e2-9b68-73737c8d0355",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "l'etichetta",
+      "sentence": "Sull'etichetta è indicato il prezzo scontato."
+    },
+    "de": {
+      "word": "das Etikett",
+      "sentence": "Auf dem Etikett steht der reduzierte Preis."
+    }
+  },
+  {
+    "id": "8b82c733-41ea-415b-86dd-a83531d87099",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "la confezione",
+      "sentence": "La confezione contiene sei bottiglie d'acqua."
+    },
+    "de": {
+      "word": "die Packung",
+      "sentence": "Die Packung enthält sechs Flaschen Wasser."
+    }
+  },
+  {
+    "id": "f11cdc63-dd7f-4985-9893-86814abf1bd6",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "la coda",
+      "sentence": "C'era una coda enorme davanti alla cassa."
+    },
+    "de": {
+      "word": "die Warteschlange",
+      "sentence": "Vor der Kasse war eine riesige Warteschlange."
+    }
+  },
+  {
+    "id": "16a426a6-cb2b-4595-8997-f30b33945857",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "il commesso",
+      "sentence": "Il commesso mi ha aiutato a scegliere."
+    },
+    "de": {
+      "word": "der Verkäufer",
+      "sentence": "Der Verkäufer hat mir bei der Auswahl geholfen."
+    }
+  },
+  {
+    "id": "d5105372-1f06-4589-9acc-b74959bea503",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "la commessa",
+      "sentence": "La commessa è stata molto gentile con noi."
+    },
+    "de": {
+      "word": "die Verkäuferin",
+      "sentence": "Die Verkäuferin war sehr freundlich zu uns."
+    }
+  },
+  {
+    "id": "d10e83fd-e0e8-4049-9e69-e5cf8b728ab0",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "il cassiere",
+      "sentence": "Il cassiere conta i soldi con attenzione."
+    },
+    "de": {
+      "word": "der Kassierer",
+      "sentence": "Der Kassierer zählt das Geld sorgfältig."
+    }
+  },
+  {
+    "id": "474fed70-0172-4e46-b4b2-4b61c05cd005",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "il negoziante",
+      "sentence": "Il negoziante conosce tutti i suoi clienti."
+    },
+    "de": {
+      "word": "der Ladenbesitzer",
+      "sentence": "Der Ladenbesitzer kennt alle seine Kunden."
+    }
+  },
+  {
+    "id": "85836854-2a7c-4844-a3bf-7c1587996475",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "il prezzo",
+      "sentence": "Il prezzo di questa giacca è troppo alto."
+    },
+    "de": {
+      "word": "der Preis",
+      "sentence": "Der Preis dieser Jacke ist zu hoch."
+    }
+  },
+  {
+    "id": "094311d2-b1e8-4d1f-9088-785ae4cd4e4e",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "comprare",
+      "sentence": "Ho comprato un regalo per mia madre."
+    },
+    "de": {
+      "word": "kaufen",
+      "sentence": "Ich habe ein Geschenk für meine Mutter gekauft."
+    }
+  },
+  {
+    "id": "5bbfbb93-10de-4af2-895a-133980735c98",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "vendere",
+      "sentence": "Questo negozio vende solo prodotti locali."
+    },
+    "de": {
+      "word": "verkaufen",
+      "sentence": "Dieses Geschäft verkauft nur lokale Produkte."
+    }
+  },
+  {
+    "id": "07662a14-1b86-440b-a19d-c49a4c8b2c35",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "pagare",
+      "sentence": "Preferisci pagare in contanti o con carta?"
+    },
+    "de": {
+      "word": "bezahlen",
+      "sentence": "Möchtest du bar oder mit Karte bezahlen?"
+    }
+  },
+  {
+    "id": "c71935e5-7b61-4c83-bd73-8430456ec791",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "costare",
+      "sentence": "Quanto costa questo paio di scarpe?"
+    },
+    "de": {
+      "word": "kosten",
+      "sentence": "Wie viel kostet dieses Paar Schuhe?"
+    }
+  },
+  {
+    "id": "abfadc8b-7379-47b8-ab8b-fa63a1e66e46",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "l'acquisto",
+      "sentence": "Sono soddisfatto del mio ultimo acquisto."
+    },
+    "de": {
+      "word": "der Kauf",
+      "sentence": "Ich bin mit meinem letzten Kauf zufrieden."
+    }
+  },
+  {
+    "id": "a8321d1c-80a3-411e-8f20-74da5c26ffe6",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "la spesa",
+      "sentence": "La spesa di oggi è costata cinquanta euro."
+    },
+    "de": {
+      "word": "der Einkauf",
+      "sentence": "Der Einkauf heute hat fünfzig Euro gekostet."
+    }
+  },
+  {
+    "id": "0f2c2cb9-997a-454c-9f96-e4cd3cff8ec2",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "i contanti",
+      "sentence": "Non ho contanti, posso pagare con la carta?"
+    },
+    "de": {
+      "word": "das Bargeld",
+      "sentence": "Ich habe kein Bargeld, kann ich mit Karte zahlen?"
+    }
+  },
+  {
+    "id": "5645771b-d95f-4f68-887e-26608d97711e",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "la ricevuta",
+      "sentence": "Conservo sempre la ricevuta di ogni acquisto importante."
+    },
+    "de": {
+      "word": "die Quittung",
+      "sentence": "Ich hebe immer die Quittung des Kaufs auf."
+    }
+  },
+  {
+    "id": "1b69f8c9-4c00-479b-b3cb-0ea88ad2b921",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "lo scontrino",
+      "sentence": "La cassiera mi ha dato lo scontrino."
+    },
+    "de": {
+      "word": "der Kassenbon",
+      "sentence": "Die Kassiererin hat mir den Kassenbon gegeben."
+    }
+  },
+  {
+    "id": "5ab19491-de81-4a44-92e5-0064f5f86680",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "il rimborso",
+      "sentence": "Ho chiesto il rimborso per il maglione difettoso."
+    },
+    "de": {
+      "word": "die Rückerstattung",
+      "sentence": "Ich habe die Rückerstattung für den kaputten Pullover verlangt."
+    }
+  },
+  {
+    "id": "9d660d8a-754c-4906-bf59-478ddac3bed7",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "l'affare",
+      "sentence": "Questo cappotto a metà prezzo è un vero affare."
+    },
+    "de": {
+      "word": "das Schnäppchen",
+      "sentence": "Dieser Mantel zum halben Preis ist ein echtes Schnäppchen."
+    }
+  },
+  {
+    "id": "008a9013-c2de-4da3-a75f-73d1992710bf",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "il buono sconto",
+      "sentence": "Ho usato un buono sconto alla cassa."
+    },
+    "de": {
+      "word": "der Gutschein",
+      "sentence": "Ich habe an der Kasse einen Gutschein benutzt."
+    }
+  },
+  {
+    "id": "10cb8a17-23b3-48b6-9c0d-2c24db43d47a",
+    "level": "B2",
+    "topic": "Shopping",
+    "it": {
+      "word": "il reso",
+      "sentence": "Il reso è gratuito entro trenta giorni dall'acquisto."
+    },
+    "de": {
+      "word": "die Rückgabe",
+      "sentence": "Die Rückgabe ist innerhalb von dreissig Tagen nach dem Kauf kostenlos."
+    }
+  },
+  {
+    "id": "79b35079-1af3-47a0-b66b-e756d0d9a70a",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "conveniente",
+      "sentence": "Comprare all'ingrosso è quasi sempre più conveniente."
+    },
+    "de": {
+      "word": "preiswert",
+      "sentence": "Im Grosshandel einzukaufen ist meistens deutlich preiswerter."
+    }
+  },
+  {
+    "id": "0cb59c88-b566-4e8d-bf25-325d668133b9",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "caro",
+      "sentence": "Questo negozio è troppo caro per me."
+    },
+    "de": {
+      "word": "teuer",
+      "sentence": "Dieses Geschäft ist mir zu teuer."
+    }
+  },
+  {
+    "id": "068980b5-ea76-45b4-b96d-9f132aa9c879",
+    "level": "A2",
+    "topic": "Shopping",
+    "it": {
+      "word": "gratis",
+      "sentence": "Con due prodotti il terzo è gratis."
+    },
+    "de": {
+      "word": "umsonst",
+      "sentence": "Bei zwei Produkten ist das dritte umsonst."
+    }
+  },
+  {
+    "id": "a98d4000-2539-414b-aabf-6f33b513c6f3",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "incartare",
+      "sentence": "La commessa incarta il regalo con cura."
+    },
+    "de": {
+      "word": "einpacken",
+      "sentence": "Die Verkäuferin packt das Geschenk sorgfältig ein."
+    }
+  },
+  {
+    "id": "f28a7a98-ce69-49d1-a4fd-3788d9d0d6cb",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "provare",
+      "sentence": "Vorrei provare questa gonna in una taglia più grande."
+    },
+    "de": {
+      "word": "anprobieren",
+      "sentence": "Ich möchte diesen Rock in einer grösseren Grösse anprobieren."
+    }
+  },
+  {
+    "id": "1512ae07-35fd-4942-b0e3-24dd75ad4c50",
+    "level": "B2",
+    "topic": "Shopping",
+    "it": {
+      "word": "spedire",
+      "sentence": "Il negozio spedisce la merce a casa gratuitamente."
+    },
+    "de": {
+      "word": "verschicken",
+      "sentence": "Das Geschäft verschickt die Ware kostenlos nach Hause."
+    }
+  },
+  {
+    "id": "f33a34cc-b966-4c0f-a2b1-b611722ab1c8",
+    "level": "B1",
+    "topic": "Shopping",
+    "it": {
+      "word": "scambiare",
+      "sentence": "Posso scambiare la camicia se non va bene?"
+    },
+    "de": {
+      "word": "umtauschen",
+      "sentence": "Kann ich das Hemd umtauschen, wenn es nicht passt?"
+    }
   }
 ]
