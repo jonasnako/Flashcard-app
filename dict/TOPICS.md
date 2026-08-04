@@ -35,7 +35,7 @@ of which territories exist; all word choices and example sentences are our own.
 | **Clothes** | Bekleidung und Schuhe, Accessoires | 96 ✓ | done |
 | **Media** | Post, Presse und Rundfunk, Telefon/Handy/Internet, Computer | — | ~110 |
 | **Economy** | Industrie/Handel, Geld/Banken, Landwirtschaft, Technik/Energie/Forschung, Rohstoffe | 91 ✓ | +~25 top-up |
-| **Society** | Geschichte, Gesellschaft, Religion/Moral, Politik, Verteidigung, Institutionen, Gesetz | — | ~130 |
+| **Society** | Geschichte, Gesellschaft, Religion/Moral, Politik, Verteidigung, Institutionen, Gesetz | 106 ✓ | +~20 top-up |
 | **Time** | Jahresablauf, Tageszeit, Zeitbegriffe (Dauer, Häufigkeit, Ablauf) | old approach | ~100 **rebuild** |
 | **Space** | Räumliche Begriffe, Bewegung/Geschwindigkeit, Kommen und Gehen | 106 ✓ | +30 (movement, speed) |
 
@@ -96,7 +96,8 @@ seeded with *il sindacato* out of the Work batch's ambiguous review; the full So
 still pending. The Economy batch's review routed *la banca* → City, *il cliente* → Work,
 *il bestiame* → Animals, and reserved *il prezzo / der Preis* for the future Shopping topic
 (do not author it into Economy). The Household top-up's review kept *il giardino* and *lo studio*
-in Household and seeded Culture with *il quadro*.
+in Household and seeded Culture with *il quadro*. The Society batch's review put *il sindaco* →
+Society and *la chiesa* → City.
 
 ---
 

@@ -26518,5 +26518,1383 @@
       "word": "das Bild",
       "sentence": "Im Museum haben wir ein berühmtes Bild bewundert."
     }
+  },
+  {
+    "id": "7ab15da7-0827-4dbf-a2c6-2f15149f4737",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "il governo",
+      "sentence": "Il governo ha approvato una nuova legge."
+    },
+    "de": {
+      "word": "die Regierung",
+      "sentence": "Die Regierung hat ein neues Gesetz verabschiedet."
+    }
+  },
+  {
+    "id": "2c6930f5-ed78-4672-9b7c-a5cc2202983c",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "lo stato",
+      "sentence": "Lo stato garantisce l'istruzione a tutti."
+    },
+    "de": {
+      "word": "der Staat",
+      "sentence": "Der Staat garantiert allen die Bildung."
+    }
+  },
+  {
+    "id": "651c8775-4be0-491b-98e2-272094d3a4ba",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "il presidente",
+      "sentence": "Il presidente terrà un discorso stasera."
+    },
+    "de": {
+      "word": "der Präsident",
+      "sentence": "Der Präsident hält heute Abend eine Rede."
+    }
+  },
+  {
+    "id": "caf82fce-192f-4348-a2af-e40997017592",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il ministro",
+      "sentence": "Il ministro dell'economia ha presentato il piano."
+    },
+    "de": {
+      "word": "der Minister",
+      "sentence": "Der Wirtschaftsminister hat den Plan vorgestellt."
+    }
+  },
+  {
+    "id": "58767b7f-8b2b-48bf-9811-424332342f0a",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il parlamento",
+      "sentence": "Il parlamento discute la riforma da settimane."
+    },
+    "de": {
+      "word": "das Parlament",
+      "sentence": "Das Parlament diskutiert die Reform seit Wochen."
+    }
+  },
+  {
+    "id": "f0b2b499-24f9-4710-b3fb-e5ff5cf4c329",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "il partito",
+      "sentence": "Il suo partito ha vinto le elezioni."
+    },
+    "de": {
+      "word": "die Partei",
+      "sentence": "Seine Partei hat die Wahlen gewonnen."
+    }
+  },
+  {
+    "id": "cfe67f63-0b28-40ea-82c1-a541fd05be3e",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "la politica",
+      "sentence": "La politica lo interessa fin da giovane."
+    },
+    "de": {
+      "word": "die Politik",
+      "sentence": "Die Politik interessiert ihn schon seit seiner Jugend."
+    }
+  },
+  {
+    "id": "7f4ba3c4-20f7-4a09-aafd-ad219794806f",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il politico",
+      "sentence": "Il politico ha promesso meno tasse."
+    },
+    "de": {
+      "word": "der Politiker",
+      "sentence": "Der Politiker hat weniger Steuern versprochen."
+    }
+  },
+  {
+    "id": "549a369d-6d8f-497d-bac1-f438e3f9ab4a",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "la legge",
+      "sentence": "La nuova legge entra in vigore domani."
+    },
+    "de": {
+      "word": "das Gesetz",
+      "sentence": "Das neue Gesetz tritt morgen in Kraft."
+    }
+  },
+  {
+    "id": "9b0dcd5b-acda-48d4-afc3-7fd1f39a4b42",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il diritto",
+      "sentence": "Ogni cittadino ha diritto a un processo giusto."
+    },
+    "de": {
+      "word": "das Recht",
+      "sentence": "Jeder Bürger hat das Recht auf ein faires Verfahren."
+    }
+  },
+  {
+    "id": "7df368e1-9fa6-4edd-8456-f748234b1625",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il dovere",
+      "sentence": "Pagare le tasse è un dovere di tutti."
+    },
+    "de": {
+      "word": "die Pflicht",
+      "sentence": "Steuern zu zahlen ist die Pflicht aller."
+    }
+  },
+  {
+    "id": "db553689-09b8-4d4b-a4cd-b67599d7995a",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la democrazia",
+      "sentence": "In una democrazia il popolo sceglie i suoi rappresentanti."
+    },
+    "de": {
+      "word": "die Demokratie",
+      "sentence": "In einer Demokratie wählt das Volk seine Vertreter."
+    }
+  },
+  {
+    "id": "6cecea01-5ded-4f86-a277-cca8c0242faf",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la dittatura",
+      "sentence": "Sotto la dittatura la stampa non era affatto libera di informare."
+    },
+    "de": {
+      "word": "die Diktatur",
+      "sentence": "Unter der Diktatur war die Presse überhaupt nicht frei zu berichten."
+    }
+  },
+  {
+    "id": "8a0d0b9c-d82a-472d-ad23-b92479675682",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la repubblica",
+      "sentence": "L'Italia è diventata una repubblica nel millenovecentoquarantasei."
+    },
+    "de": {
+      "word": "die Republik",
+      "sentence": "Italien wurde im Jahr neunzehnhundertsechsundvierzig endlich eine Republik."
+    }
+  },
+  {
+    "id": "d305ff7f-c4c3-40d0-80d0-a7baa8ed78e8",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la monarchia",
+      "sentence": "In quel paese la monarchia esiste ancora."
+    },
+    "de": {
+      "word": "die Monarchie",
+      "sentence": "In jenem Land besteht die Monarchie immer noch."
+    }
+  },
+  {
+    "id": "0e0896db-b276-40f8-83e1-e5a7ec3b1536",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "il re",
+      "sentence": "Il re governò il paese per quarant'anni."
+    },
+    "de": {
+      "word": "der König",
+      "sentence": "Der König regierte das Land vierzig Jahre lang."
+    }
+  },
+  {
+    "id": "167f23d4-347e-448c-8ce7-4e21c66cfb4a",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "la regina",
+      "sentence": "La regina ha visitato la città ieri."
+    },
+    "de": {
+      "word": "die Königin",
+      "sentence": "Die Königin hat gestern die Stadt besucht."
+    }
+  },
+  {
+    "id": "eafb5cf7-e508-440f-8b02-3647c3617b9f",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "le elezioni",
+      "sentence": "Le elezioni si terranno la prossima primavera."
+    },
+    "de": {
+      "word": "die Wahlen",
+      "sentence": "Die Wahlen finden im nächsten Frühling statt."
+    }
+  },
+  {
+    "id": "6a98f254-93eb-40cf-accd-dbc4bc7931e6",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la campagna elettorale",
+      "sentence": "Durante la campagna elettorale i candidati girano tutto il paese."
+    },
+    "de": {
+      "word": "der Wahlkampf",
+      "sentence": "Während des Wahlkampfs reisen die Kandidaten durch das ganze Land."
+    }
+  },
+  {
+    "id": "7f0365cf-91ef-444a-9d68-f9b7cca479da",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il deputato",
+      "sentence": "Il deputato ha votato contro la proposta."
+    },
+    "de": {
+      "word": "der Abgeordnete",
+      "sentence": "Der Abgeordnete hat gegen den Vorschlag gestimmt."
+    }
+  },
+  {
+    "id": "296cfde0-1e70-4e1e-aab6-a9dae609c9c0",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la costituzione",
+      "sentence": "La costituzione del paese garantisce a tutti la libertà di espressione."
+    },
+    "de": {
+      "word": "die Verfassung",
+      "sentence": "Die Verfassung des Landes garantiert allen die Freiheit der Meinungsäusserung."
+    }
+  },
+  {
+    "id": "9b21f1b9-edf8-4dd4-8b48-a4855675e6d8",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "il referendum",
+      "sentence": "Il referendum di ottobre ha respinto chiaramente la nuova riforma."
+    },
+    "de": {
+      "word": "das Referendum",
+      "sentence": "Das Referendum im Oktober hat die neue Reform klar abgelehnt."
+    }
+  },
+  {
+    "id": "44937b91-864b-425c-8252-51a7ea7ef01f",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la maggioranza",
+      "sentence": "La maggioranza ha approvato la legge in fretta."
+    },
+    "de": {
+      "word": "die Mehrheit",
+      "sentence": "Die Mehrheit hat das Gesetz schnell verabschiedet."
+    }
+  },
+  {
+    "id": "c1e550e7-9ae2-4024-bb4f-fc17d1dfeadb",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "l'opposizione",
+      "sentence": "L'opposizione critica duramente il governo su ogni decisione."
+    },
+    "de": {
+      "word": "die Opposition",
+      "sentence": "Die Opposition kritisiert die Regierung bei jeder Entscheidung hart."
+    }
+  },
+  {
+    "id": "e298f8c4-f494-4dc9-88ab-86a619d3363b",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il potere",
+      "sentence": "Il partito è al potere da dieci anni."
+    },
+    "de": {
+      "word": "die Macht",
+      "sentence": "Die Partei ist seit zehn Jahren an der Macht."
+    }
+  },
+  {
+    "id": "1a645b26-28c9-448d-98a0-8f9be330c581",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "la libertà",
+      "sentence": "La libertà di stampa è un diritto fondamentale."
+    },
+    "de": {
+      "word": "die Freiheit",
+      "sentence": "Die Pressefreiheit ist ein grundlegendes Recht."
+    }
+  },
+  {
+    "id": "fb0527af-7809-4dbb-9b17-7a8cdee7c575",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "la nazione",
+      "sentence": "La nazione festeggia oggi la sua indipendenza."
+    },
+    "de": {
+      "word": "die Nation",
+      "sentence": "Die Nation feiert heute ihre Unabhängigkeit."
+    }
+  },
+  {
+    "id": "5a1dce5f-cba6-4b8b-9eb0-db6694cc4c17",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "la bandiera",
+      "sentence": "La bandiera sventola davanti al municipio."
+    },
+    "de": {
+      "word": "die Fahne",
+      "sentence": "Die Fahne weht vor dem Rathaus."
+    }
+  },
+  {
+    "id": "16c38ebc-0952-40ac-8561-361bc2621fa3",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la giustizia",
+      "sentence": "Tutti chiedono giustizia per le vittime."
+    },
+    "de": {
+      "word": "die Gerechtigkeit",
+      "sentence": "Alle fordern Gerechtigkeit für die Opfer."
+    }
+  },
+  {
+    "id": "1ce51314-0192-48c8-a703-10efd9640c23",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "il giudice",
+      "sentence": "Il giudice ha ascoltato tutti i testimoni."
+    },
+    "de": {
+      "word": "der Richter",
+      "sentence": "Der Richter hat alle Zeugen angehört."
+    }
+  },
+  {
+    "id": "aa0786b0-a3af-4c0e-9517-23f45aeba375",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "l'avvocato",
+      "sentence": "L'avvocato difende il suo cliente in aula."
+    },
+    "de": {
+      "word": "der Anwalt",
+      "sentence": "Der Anwalt verteidigt seinen Mandanten vor Gericht."
+    }
+  },
+  {
+    "id": "01ed824c-5802-4db0-bc76-7aed00850133",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il processo",
+      "sentence": "Il processo è durato più di un anno."
+    },
+    "de": {
+      "word": "der Prozess",
+      "sentence": "Der Prozess hat über ein Jahr gedauert."
+    }
+  },
+  {
+    "id": "50df349c-2b9f-44d3-8bd3-49a451b6e836",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il crimine",
+      "sentence": "La polizia indaga su un grave crimine."
+    },
+    "de": {
+      "word": "das Verbrechen",
+      "sentence": "Die Polizei ermittelt in einem schweren Verbrechen."
+    }
+  },
+  {
+    "id": "2f7391e1-c370-429f-bb9f-1ed672037d1b",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il reato",
+      "sentence": "Rubare in un negozio è un reato."
+    },
+    "de": {
+      "word": "die Straftat",
+      "sentence": "In einem Geschäft zu stehlen ist eine Straftat."
+    }
+  },
+  {
+    "id": "f41fbc77-59ad-4de9-9358-74a7fd3138e5",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "il ladro",
+      "sentence": "Il ladro è entrato dalla finestra."
+    },
+    "de": {
+      "word": "der Dieb",
+      "sentence": "Der Dieb ist durch das Fenster eingestiegen."
+    }
+  },
+  {
+    "id": "b95a187c-a4d2-4608-9597-a6bcff746c35",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il carcere",
+      "sentence": "Il giudice lo ha condannato al carcere."
+    },
+    "de": {
+      "word": "das Gefängnis",
+      "sentence": "Der Richter hat ihn zu Gefängnis verurteilt."
+    }
+  },
+  {
+    "id": "5bc8ed46-fe6b-40cc-b0c1-7464a020bbfb",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la pena",
+      "sentence": "La pena per questo reato è severa."
+    },
+    "de": {
+      "word": "die Strafe",
+      "sentence": "Die Strafe für diese Tat ist streng."
+    }
+  },
+  {
+    "id": "b0fc60fb-3544-4054-8dca-373b22b70e10",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il testimone",
+      "sentence": "Il testimone ha raccontato quello che ha visto."
+    },
+    "de": {
+      "word": "der Zeuge",
+      "sentence": "Der Zeuge hat erzählt, was er gesehen hat."
+    }
+  },
+  {
+    "id": "fbe3ae12-ad5d-4d37-8749-af4e90211049",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la prova",
+      "sentence": "Senza prove non si può condannare nessuno."
+    },
+    "de": {
+      "word": "der Beweis",
+      "sentence": "Ohne Beweise kann man niemanden verurteilen."
+    }
+  },
+  {
+    "id": "9cacb974-f570-40ee-bde9-eaaef14b83fc",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "l'accusa",
+      "sentence": "L'accusa non ha convinto la giuria."
+    },
+    "de": {
+      "word": "die Anklage",
+      "sentence": "Die Anklage hat die Geschworenen nicht überzeugt."
+    }
+  },
+  {
+    "id": "0c24732f-b776-40ca-bb0c-a7e76ead4639",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la difesa",
+      "sentence": "La difesa ha chiesto l'assoluzione dell'imputato."
+    },
+    "de": {
+      "word": "die Verteidigung",
+      "sentence": "Die Verteidigung hat den Freispruch des Angeklagten gefordert."
+    }
+  },
+  {
+    "id": "43c2cafc-0453-4569-a149-a8086215c10c",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "la multa",
+      "sentence": "Ho preso una multa per divieto di sosta."
+    },
+    "de": {
+      "word": "das Bussgeld",
+      "sentence": "Ich habe ein Bussgeld wegen Parkverbots bekommen."
+    }
+  },
+  {
+    "id": "fd773712-0a3e-4092-9c34-e0a1305472c1",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il furto",
+      "sentence": "Il furto è avvenuto in pieno giorno."
+    },
+    "de": {
+      "word": "der Diebstahl",
+      "sentence": "Der Diebstahl geschah am helllichten Tag."
+    }
+  },
+  {
+    "id": "7f770b97-5f28-4622-ad37-24f3c9cf4908",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la vittima",
+      "sentence": "La vittima ha subito denunciato l'aggressore alla polizia."
+    },
+    "de": {
+      "word": "das Opfer",
+      "sentence": "Das Opfer hat den Angreifer bei der Polizei angezeigt."
+    }
+  },
+  {
+    "id": "7937ac45-be5c-4235-ab7d-61fe7b57d2be",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la sentenza",
+      "sentence": "La sentenza definitiva sarà pronunciata dal giudice la settimana prossima."
+    },
+    "de": {
+      "word": "das Urteil",
+      "sentence": "Das endgültige Urteil wird vom Richter nächste Woche verkündet."
+    }
+  },
+  {
+    "id": "336476fb-76e8-41b6-ba88-b10357436a1a",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la corte",
+      "sentence": "La corte suprema ha respinto in appello il ricorso dell'imputato."
+    },
+    "de": {
+      "word": "der Gerichtshof",
+      "sentence": "Der oberste Gerichtshof hat die Berufung des Angeklagten endgültig abgewiesen."
+    }
+  },
+  {
+    "id": "39cb85e2-00f1-4337-80b8-ec5d7b8a423a",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "colpevole",
+      "sentence": "La giuria lo ha dichiarato colpevole."
+    },
+    "de": {
+      "word": "schuldig",
+      "sentence": "Die Geschworenen haben ihn schuldig gesprochen."
+    }
+  },
+  {
+    "id": "0dbcd3b3-007b-4a31-b755-6e92d9bc6d47",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "innocente",
+      "sentence": "Si è sempre dichiarato del tutto innocente."
+    },
+    "de": {
+      "word": "unschuldig",
+      "sentence": "Er hat sich stets für völlig unschuldig erklärt."
+    }
+  },
+  {
+    "id": "2b349ee6-5230-413c-8e86-e121268aff29",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "la società",
+      "sentence": "Viviamo in una società sempre più complessa."
+    },
+    "de": {
+      "word": "die Gesellschaft",
+      "sentence": "Wir leben in einer immer komplexeren Gesellschaft."
+    }
+  },
+  {
+    "id": "9552c4fd-ea39-4422-9852-2ad296bba5b6",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "il popolo",
+      "sentence": "Il popolo è sceso in piazza per protestare."
+    },
+    "de": {
+      "word": "das Volk",
+      "sentence": "Das Volk ging auf die Strasse, um zu protestieren."
+    }
+  },
+  {
+    "id": "5c991b56-60d8-473f-b55a-4a2ac8b6d09f",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la classe sociale",
+      "sentence": "La sua classe sociale ha influenzato le sue possibilità."
+    },
+    "de": {
+      "word": "die soziale Schicht",
+      "sentence": "Seine soziale Schicht hat seine beruflichen Chancen stark beeinflusst."
+    }
+  },
+  {
+    "id": "81ec1f12-7aad-4d9f-97f3-26f173a502cb",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "l'immigrazione",
+      "sentence": "L'immigrazione è un tema molto discusso."
+    },
+    "de": {
+      "word": "die Einwanderung",
+      "sentence": "Die Einwanderung ist ein viel diskutiertes Thema."
+    }
+  },
+  {
+    "id": "c8731419-1e40-4d5d-b976-7804763ac766",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "l'immigrato",
+      "sentence": "L'immigrato cerca lavoro e una nuova vita."
+    },
+    "de": {
+      "word": "der Einwanderer",
+      "sentence": "Der Einwanderer sucht Arbeit und ein neues Leben."
+    }
+  },
+  {
+    "id": "b3fd3124-6860-40d2-b03b-62669f83da6a",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il rifugiato",
+      "sentence": "Il rifugiato ha lasciato il suo paese in guerra."
+    },
+    "de": {
+      "word": "der Flüchtling",
+      "sentence": "Der Flüchtling hat sein Land im Krieg verlassen."
+    }
+  },
+  {
+    "id": "27608fcd-b5ec-489f-acf1-246506c4abea",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "l'integrazione",
+      "sentence": "L'integrazione degli stranieri nella società richiede tempo e molto impegno."
+    },
+    "de": {
+      "word": "die Integration",
+      "sentence": "Die Integration der Ausländer in die Gesellschaft braucht viel Zeit."
+    }
+  },
+  {
+    "id": "36850127-974b-4d7c-9271-04e08bd539e2",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la discriminazione",
+      "sentence": "La legge vieta severamente ogni forma di discriminazione sul lavoro."
+    },
+    "de": {
+      "word": "die Diskriminierung",
+      "sentence": "Das Gesetz verbietet streng jede Form von Diskriminierung am Arbeitsplatz."
+    }
+  },
+  {
+    "id": "fa9e600e-f336-446b-8a1a-c8ea5de14863",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "il razzismo",
+      "sentence": "La scuola cerca di combattere il razzismo con l'educazione civica."
+    },
+    "de": {
+      "word": "der Rassismus",
+      "sentence": "Die Schule bekämpft den Rassismus mit Bildung und viel Aufklärung."
+    }
+  },
+  {
+    "id": "84625c24-7708-44aa-93eb-72689f115cf8",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la manifestazione",
+      "sentence": "Migliaia di persone hanno partecipato alla manifestazione."
+    },
+    "de": {
+      "word": "die Demonstration",
+      "sentence": "Tausende Menschen haben an der Demonstration teilgenommen."
+    }
+  },
+  {
+    "id": "d37fe0ee-ff18-4170-8df4-791b03e09adf",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il volontariato",
+      "sentence": "Dedica il fine settimana al volontariato."
+    },
+    "de": {
+      "word": "das Ehrenamt",
+      "sentence": "Er widmet das Wochenende dem Ehrenamt."
+    }
+  },
+  {
+    "id": "6168e3fb-311d-453a-b703-92318522ce97",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "la religione",
+      "sentence": "La religione ha un ruolo importante qui."
+    },
+    "de": {
+      "word": "die Religion",
+      "sentence": "Die Religion spielt hier eine wichtige Rolle."
+    }
+  },
+  {
+    "id": "6fd59822-a9ed-4710-96d3-8946f1b49d3b",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "il prete",
+      "sentence": "Il prete celebra la messa la domenica."
+    },
+    "de": {
+      "word": "der Priester",
+      "sentence": "Der Priester feiert am Sonntag die Messe."
+    }
+  },
+  {
+    "id": "98bb99fe-a029-4577-9d0b-960cbdbfd0d0",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "Dio",
+      "sentence": "Molte persone credono in un solo Dio."
+    },
+    "de": {
+      "word": "Gott",
+      "sentence": "Viele Menschen glauben an einen einzigen Gott."
+    }
+  },
+  {
+    "id": "08daa282-9f6a-4a99-91e3-9255de4784ba",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la fede",
+      "sentence": "La sua fede lo aiuta nei momenti difficili."
+    },
+    "de": {
+      "word": "der Glaube",
+      "sentence": "Sein Glaube hilft ihm in schweren Zeiten."
+    }
+  },
+  {
+    "id": "8febe42a-7523-43b4-91fc-04d727536e6a",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la preghiera",
+      "sentence": "Recita una preghiera prima di dormire."
+    },
+    "de": {
+      "word": "das Gebet",
+      "sentence": "Er spricht ein Gebet, bevor er schläft."
+    }
+  },
+  {
+    "id": "12d47862-0a5e-41f4-94dc-b080c161c8b3",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il peccato",
+      "sentence": "Secondo la sua religione, mentire è un peccato."
+    },
+    "de": {
+      "word": "die Sünde",
+      "sentence": "Nach seiner Religion ist Lügen eine Sünde."
+    }
+  },
+  {
+    "id": "4dd6d49b-ae36-4d0c-8c03-bf97311cf1ab",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la morale",
+      "sentence": "Ogni società sviluppa nel tempo una propria morale condivisa."
+    },
+    "de": {
+      "word": "die Moral",
+      "sentence": "Jede Gesellschaft entwickelt mit der Zeit ihre eigene gemeinsame Moral."
+    }
+  },
+  {
+    "id": "ea177977-bcfa-45f1-8250-4a2bde593fdb",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "l'etica",
+      "sentence": "L'etica ci guida quando scegliamo tra bene e male."
+    },
+    "de": {
+      "word": "die Ethik",
+      "sentence": "Die Ethik leitet uns, wenn wir zwischen Gut und Böse wählen."
+    }
+  },
+  {
+    "id": "95d3beb5-aa22-47b3-8256-e5ece974b826",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il paradiso",
+      "sentence": "Molte religioni promettono il paradiso ai fedeli."
+    },
+    "de": {
+      "word": "das Paradies",
+      "sentence": "Viele Religionen versprechen den Gläubigen das Paradies."
+    }
+  },
+  {
+    "id": "25fdc0d0-90a8-45ab-ae18-2306e0ba256a",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "l'inferno",
+      "sentence": "Nella tradizione, i peccatori finiscono all'inferno."
+    },
+    "de": {
+      "word": "die Hölle",
+      "sentence": "In der Tradition landen die Sünder in der Hölle."
+    }
+  },
+  {
+    "id": "946aec28-87df-4632-ab68-69e1acb99ada",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la moschea",
+      "sentence": "I fedeli pregano nella moschea il venerdì."
+    },
+    "de": {
+      "word": "die Moschee",
+      "sentence": "Die Gläubigen beten am Freitag in der Moschee."
+    }
+  },
+  {
+    "id": "33bc4f6b-b975-45a0-8693-15af0c0f39f7",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il tempio",
+      "sentence": "Il tempio antico attira molti visitatori."
+    },
+    "de": {
+      "word": "der Tempel",
+      "sentence": "Der alte Tempel zieht viele Besucher an."
+    }
+  },
+  {
+    "id": "dcedb160-c756-480e-80e3-8d9e2298b4fd",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "il credente",
+      "sentence": "Ogni vero credente segue con impegno le regole della sua fede."
+    },
+    "de": {
+      "word": "der Gläubige",
+      "sentence": "Jeder überzeugte Gläubige befolgt gewissenhaft die Regeln seines Glaubens."
+    }
+  },
+  {
+    "id": "dc73d34c-e6fb-41e2-b0d0-dab1c51060ce",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "l'ateo",
+      "sentence": "L'ateo non crede in nessun dio né in alcuna divinità."
+    },
+    "de": {
+      "word": "der Atheist",
+      "sentence": "Der Atheist glaubt weder an einen Gott noch an eine Gottheit."
+    }
+  },
+  {
+    "id": "b9fe80e3-9233-403b-ad55-8a95695175ce",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il cristiano",
+      "sentence": "Il cristiano festeggia il Natale in dicembre."
+    },
+    "de": {
+      "word": "der Christ",
+      "sentence": "Der Christ feiert Weihnachten im Dezember."
+    }
+  },
+  {
+    "id": "e1a654de-07b7-492b-bf58-83da2e3db876",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il musulmano",
+      "sentence": "Il musulmano digiuna durante il Ramadan."
+    },
+    "de": {
+      "word": "der Muslim",
+      "sentence": "Der Muslim fastet während des Ramadan."
+    }
+  },
+  {
+    "id": "a05286ec-ca7c-4ee7-94e1-0aa183e6c52c",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "l'ebreo",
+      "sentence": "L'ebreo osserva il riposo del sabato."
+    },
+    "de": {
+      "word": "der Jude",
+      "sentence": "Der Jude hält die Sabbatruhe ein."
+    }
+  },
+  {
+    "id": "46fe185e-dff5-45bc-9d51-b200bb4c078d",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "il secolo",
+      "sentence": "Questo castello risale al quindicesimo secolo."
+    },
+    "de": {
+      "word": "das Jahrhundert",
+      "sentence": "Dieses Schloss stammt aus dem fünfzehnten Jahrhundert."
+    }
+  },
+  {
+    "id": "0f837f90-0bd1-487a-90b0-1dc571709fb2",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "l'epoca",
+      "sentence": "In quell'epoca viaggiare era molto difficile."
+    },
+    "de": {
+      "word": "die Epoche",
+      "sentence": "In jener Epoche war das Reisen sehr schwierig."
+    }
+  },
+  {
+    "id": "6f88bfc3-9606-42e8-8f66-55bf34f9fb92",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "la guerra",
+      "sentence": "La guerra durò quasi sei anni."
+    },
+    "de": {
+      "word": "der Krieg",
+      "sentence": "Der Krieg dauerte fast sechs Jahre."
+    }
+  },
+  {
+    "id": "d6cc89ce-b171-42f6-b800-d2e428c40ce0",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "la pace",
+      "sentence": "Dopo anni di conflitto è tornata la pace."
+    },
+    "de": {
+      "word": "der Frieden",
+      "sentence": "Nach Jahren des Konflikts kehrte der Frieden zurück."
+    }
+  },
+  {
+    "id": "cec6be04-46f8-499e-8522-4a2f3b6a4e51",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la rivoluzione",
+      "sentence": "La rivoluzione cambiò per sempre il paese."
+    },
+    "de": {
+      "word": "die Revolution",
+      "sentence": "Die Revolution veränderte das Land für immer."
+    }
+  },
+  {
+    "id": "d26278f3-1791-4832-8d11-491bfc8e7844",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "l'impero",
+      "sentence": "All'epoca l'impero si estendeva su ben tre continenti diversi."
+    },
+    "de": {
+      "word": "das Reich",
+      "sentence": "Damals erstreckte sich das Reich über ganze drei Kontinente."
+    }
+  },
+  {
+    "id": "98f4a2bb-d4f4-4a30-acb8-376c76414a8f",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "la battaglia",
+      "sentence": "La battaglia decisiva si svolse vicino al fiume."
+    },
+    "de": {
+      "word": "die Schlacht",
+      "sentence": "Die entscheidende Schlacht fand nahe dem Fluss statt."
+    }
+  },
+  {
+    "id": "418c8aec-3561-4b4a-9e8a-88c9f3962411",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "il trattato",
+      "sentence": "I due paesi hanno firmato un trattato di pace."
+    },
+    "de": {
+      "word": "das Abkommen",
+      "sentence": "Die beiden Länder haben nach Jahren ein wichtiges Friedensabkommen unterschrieben."
+    }
+  },
+  {
+    "id": "1caa7261-b24d-4a45-aff8-70c4241b1d2f",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il medioevo",
+      "sentence": "Nel medioevo le città erano circondate da mura."
+    },
+    "de": {
+      "word": "das Mittelalter",
+      "sentence": "Im Mittelalter waren die Städte von Mauern umgeben."
+    }
+  },
+  {
+    "id": "447c4abc-8488-4174-9187-6af6bf917983",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "l'esercito",
+      "sentence": "L'esercito difende i confini del paese."
+    },
+    "de": {
+      "word": "die Armee",
+      "sentence": "Die Armee verteidigt die Grenzen des Landes."
+    }
+  },
+  {
+    "id": "5264b565-009c-406d-b08f-dd913ddf8576",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "il soldato",
+      "sentence": "Il soldato ha servito per cinque anni."
+    },
+    "de": {
+      "word": "der Soldat",
+      "sentence": "Der Soldat hat fünf Jahre lang gedient."
+    }
+  },
+  {
+    "id": "142e013b-540a-446e-8bd6-f380544ea260",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "l'arma",
+      "sentence": "Il possesso di armi è regolato dalla legge."
+    },
+    "de": {
+      "word": "die Waffe",
+      "sentence": "Der Besitz von Waffen ist gesetzlich geregelt."
+    }
+  },
+  {
+    "id": "8d0f2615-311c-4380-89ec-0ae3fc7779c4",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il generale",
+      "sentence": "Il generale ha ordinato la ritirata."
+    },
+    "de": {
+      "word": "der General",
+      "sentence": "Der General hat den Rückzug befohlen."
+    }
+  },
+  {
+    "id": "f74c49e1-c453-46ce-b4b3-12aede2e475f",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "il nemico",
+      "sentence": "L'esercito ha respinto il nemico al confine."
+    },
+    "de": {
+      "word": "der Feind",
+      "sentence": "Die Armee hat den Feind an der Grenze zurückgeschlagen."
+    }
+  },
+  {
+    "id": "79e9d88a-ead1-4ef2-a021-712b716d57d9",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "l'alleanza",
+      "sentence": "I due stati hanno formato una solida alleanza."
+    },
+    "de": {
+      "word": "das Bündnis",
+      "sentence": "Die beiden Staaten haben ein festes Bündnis geschlossen."
+    }
+  },
+  {
+    "id": "ac8a9188-b1e1-4766-89e0-ff92abca054d",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "votare",
+      "sentence": "Domenica andiamo a votare per il nuovo sindaco."
+    },
+    "de": {
+      "word": "abstimmen",
+      "sentence": "Am Sonntag gehen wir über den neuen Bürgermeister abstimmen."
+    }
+  },
+  {
+    "id": "57730e5f-3a85-4e26-b5f0-42b5ad4a2b9f",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "eleggere",
+      "sentence": "Il popolo elegge il presidente ogni cinque anni."
+    },
+    "de": {
+      "word": "wählen",
+      "sentence": "Das Volk wählt den Präsidenten alle fünf Jahre."
+    }
+  },
+  {
+    "id": "695c030a-8e82-454d-b9b0-970f32d8b094",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "governare",
+      "sentence": "Il partito governa il paese da troppo tempo."
+    },
+    "de": {
+      "word": "regieren",
+      "sentence": "Die Partei regiert das Land schon zu lange."
+    }
+  },
+  {
+    "id": "6e33ba8c-342b-44b3-817c-3aa485a5fff4",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "legiferare",
+      "sentence": "Il parlamento legifera spesso su temi economici molto complessi."
+    },
+    "de": {
+      "word": "Gesetze erlassen",
+      "sentence": "Das Parlament erlässt Gesetze zu sehr komplexen wirtschaftlichen Themen."
+    }
+  },
+  {
+    "id": "0401a9d8-db18-497b-bf3f-ebffbda24333",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "condannare",
+      "sentence": "Il tribunale lo ha condannato a cinque anni."
+    },
+    "de": {
+      "word": "verurteilen",
+      "sentence": "Das Gericht hat ihn zu fünf Jahren verurteilt."
+    }
+  },
+  {
+    "id": "200fe04d-fc54-4626-82d9-9b5d54a44f95",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "assolvere",
+      "sentence": "Il giudice ha deciso di assolvere l'imputato per mancanza di prove."
+    },
+    "de": {
+      "word": "freisprechen",
+      "sentence": "Der Richter hat beschlossen, den Angeklagten aus Mangel an Beweisen freizusprechen."
+    }
+  },
+  {
+    "id": "a4dfd44e-a1a8-478e-bc35-69d4317d8947",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "denunciare",
+      "sentence": "Ha deciso di denunciare il vicino alla polizia."
+    },
+    "de": {
+      "word": "anzeigen",
+      "sentence": "Er hat beschlossen, den Nachbarn bei der Polizei anzuzeigen."
+    }
+  },
+  {
+    "id": "1435855b-5329-4de8-a678-80324dee26f0",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "manifestare",
+      "sentence": "Gli studenti manifestano contro i tagli alla scuola."
+    },
+    "de": {
+      "word": "demonstrieren",
+      "sentence": "Die Studenten demonstrieren gegen die Kürzungen an der Schule."
+    }
+  },
+  {
+    "id": "71a4ed11-0a19-4c6b-86c9-9b4b2ab96b7d",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "pregare",
+      "sentence": "Molti fedeli pregano ogni giorno in silenzio."
+    },
+    "de": {
+      "word": "beten",
+      "sentence": "Viele Gläubige beten jeden Tag in Stille."
+    }
+  },
+  {
+    "id": "8d2deed8-f133-488e-a263-264a1ede0eb7",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "combattere",
+      "sentence": "I soldati hanno combattuto con grande coraggio."
+    },
+    "de": {
+      "word": "kämpfen",
+      "sentence": "Die Soldaten haben mit grossem Mut gekämpft."
+    }
+  },
+  {
+    "id": "2973fda1-8deb-42ca-83cb-b6efa4d7def3",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "conquistare",
+      "sentence": "Nel corso dei secoli l'impero conquistò molte terre lontane."
+    },
+    "de": {
+      "word": "erobern",
+      "sentence": "Im Lauf der Jahrhunderte eroberte das Reich viele ferne Länder."
+    }
+  },
+  {
+    "id": "87c63fb8-9c26-4f42-9f0a-5c53c9e1451f",
+    "level": "A2",
+    "topic": "Society",
+    "it": {
+      "word": "rubare",
+      "sentence": "Qualcuno ha cercato di rubare la mia bici."
+    },
+    "de": {
+      "word": "stehlen",
+      "sentence": "Jemand hat versucht, mein Fahrrad zu stehlen."
+    }
+  },
+  {
+    "id": "8d4e5c66-514a-4584-a148-e915e326abbe",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "arrestare",
+      "sentence": "La polizia ha arrestato il sospetto ieri sera."
+    },
+    "de": {
+      "word": "verhaften",
+      "sentence": "Die Polizei hat den Verdächtigen gestern Abend verhaftet."
+    }
+  },
+  {
+    "id": "6f037187-f18b-4143-b20f-d70ae60f8c6e",
+    "level": "B1",
+    "topic": "Society",
+    "it": {
+      "word": "il sindaco",
+      "sentence": "Il sindaco ha inaugurato il nuovo ospedale."
+    },
+    "de": {
+      "word": "der Bürgermeister",
+      "sentence": "Der Bürgermeister hat das neue Krankenhaus eingeweiht."
+    }
+  },
+  {
+    "id": "672795cf-6bdb-40af-9856-c85ebe4f7fec",
+    "level": "A2",
+    "topic": "City",
+    "it": {
+      "word": "la chiesa",
+      "sentence": "La chiesa si trova nel centro storico."
+    },
+    "de": {
+      "word": "die Kirche",
+      "sentence": "Die Kirche steht mitten in der Altstadt."
+    }
   }
 ]
