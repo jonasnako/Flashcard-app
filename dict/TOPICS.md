@@ -1,0 +1,148 @@
+# lessico — Topic Manifest
+
+Target: **~2900–3000 entries**, every topic at comparable density (80–150).
+Coherence comes from each topic getting the same subcluster treatment — not from
+padding thin topics to match large ones.
+
+Structure follows the Langenscheidt Grund- und Aufbauwortschatz Italienisch table of
+contents in **approach**, compressed to single-word topic names. The book is the map
+of which territories exist; all word choices and example sentences are our own.
+
+---
+
+## Content topics
+
+| Topic | Book chapters absorbed | Status | Target |
+|---|---|---|---|
+| **Person** | Persönliche Angaben, Charaktereigenschaften, Aussehen, Lebenszyklus | 120 ✓ | +40 (personal data, life cycle) |
+| **Children** | (our own — parenting & early childhood; kept from seed) | 153 ✓ | done (keep separate — large enough) |
+| **Relationships** | Familie, Partnerschaft und Ehe, Freundschaft und soziale Kontakte | — | ~110 (absorbs old Friendship) |
+| **Thinking & Feeling** | Denken und Fühlen: Gedanken, Gefühle, Sinneseindrücke | 126 ✓ | +20 gap-fill |
+| **Kommunikation** | Sprechsituationen: Gespräche, Fragen/Bitten, Befehl/Verbot, Diskussion, Konflikte, Begrüssen, Redewendungen | 125 ✓ | +30 (greetings, phone/letter) |
+| **Body** | Körperteile und Organe | 82 ✓ | done |
+| **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | — | ~120 |
+| **Education** | Lernen, Sprache, Schule/Universität/Ausbildung, Fächer | — | ~110 |
+| **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | old approach | ~120 **rebuild** |
+| **Culture** | Lektüre, Musik, Kunst, Theater und Film | — | ~100 |
+| **Freizeit** | Feste feiern, Feiertage, Ausgehen, Sport, Hobbys | — | ~110 |
+| **Shopping** | Einkaufen: Auswählen/Bezahlen, Geschäfte | — | ~80 |
+| **Food** | Ernährung (all subchapters) + Restaurant und Café | — | ~140 |
+| **Household** | Häuser/Wohnungen, Zimmer, Einrichtung, Haushaltsführung | 151 ✓ | +30 (dwelling types, furniture) |
+| **Travel** | Reisen, Übernachten, Sehenswürdigkeiten, Verkehrsmittel, Individualverkehr | — | ~120 |
+| **Nature** | Landschaft, Weltall, Umwelt/Wetter/Klima, Pflanzen | 99 ✓ | +40 (Weltall, Klima) |
+| **Animals** | Tiere (kept separate — large enough) | 91 ✓ | done |
+| **City** | (our own — no direct book chapter) | 98 ✓ | done |
+| **Clothes** | Bekleidung und Schuhe, Accessoires | 96 ✓ | done |
+| **Media** | Post, Presse und Rundfunk, Telefon/Handy/Internet, Computer | — | ~110 |
+| **Economy** | Industrie/Handel, Geld/Banken, Landwirtschaft, Technik/Energie/Forschung, Rohstoffe | — | ~120 |
+| **Society** | Geschichte, Gesellschaft, Religion/Moral, Politik, Verteidigung, Institutionen, Gesetz | — | ~130 |
+| **Time** | Jahresablauf, Tageszeit, Zeitbegriffe (Dauer, Häufigkeit, Ablauf) | old approach | ~100 **rebuild** |
+| **Space** | Räumliche Begriffe, Bewegung/Geschwindigkeit, Kommen und Gehen | 106 ✓ | +30 (movement, speed) |
+
+**Note on Children vs. Relationships/Person:** Children is kept as its own topic (parenting,
+babies, early schooling — a personally high-frequency domain). Relationships covers couples,
+family structure and friendship; Person covers identity, character and the life cycle. Words
+about a *child's own world* (toys, tantrums, nappies, Kita) stay in Children; words about
+*being in a relationship or family* go to Relationships.
+
+## Cross-cutting topics
+
+| Topic | Book chapters absorbed | Status | Target |
+|---|---|---|---|
+| **Verbs** | Allgemeine Tätigkeiten, Bemühung/Vorhaben, Hilfe/Verpflichtung, Besitzen/Geben/Nehmen + polysemous chunk verbs + verb-preposition government | 129 ✓ | +~15 |
+| **Expressions** | Häufige Redewendungen, Klassifizierung (Unterschied, Ursache/Wirkung, Art und Weise), Strukturwörter (connectives, adverbs, quantifiers, modality) | 123 ✓ | +~25 |
+| **Numbers** | Masse und Gewichte, Mengenbegriffe, Farben und Formen (skip literal counting — A1) | — | ~60 |
+
+---
+
+## Pending re-tags
+
+These were authored into **Verbs** before their home topic existed. Re-tag via
+id-matched update (keep the existing id; change only `topic`) once the target topic is built.
+
+| Word | → Topic |
+|---|---|
+| innamorarsi di | Relationships |
+| andare d'accordo | Relationships |
+| regalare | Relationships |
+| prendere appunti | Education |
+| tagliare | Food |
+| aggiungere | Food |
+| aggiustare | Household |
+| appendere | Household |
+| svuotare | Household |
+| riempire | Household |
+| piegare | Household |
+| produrre | Economy |
+| gestire | Work |
+
+---
+
+## Reservation lists
+
+Vocabulary deliberately **held back** so its home topic stays rich. Do not author these
+into cross-cutting batches. Extend this list whenever a batch is planned.
+
+**Food** — mescolare, friggere, bollire, cuocere al forno, condire, assaggiare,
+grattugiare, sbucciare, impastare, servire, ordinare, apparecchiare, brindare
+
+**Relationships** — sposarsi, fidanzarsi, separarsi, divorziare, frequentarsi,
+lasciarsi, trasferirsi insieme, litigare (as couple), corteggiare, tradire
+
+**Health** — curare, operare, ricoverare, visitare, prescrivere, ammalarsi, riprendersi,
+vaccinare, misurare la febbre, medicare
+
+**Education** — iscriversi, laurearsi, bocciare, promuovere, ripassare, memorizzare,
+insegnare, spiegare (in class sense), esercitarsi, sostenere un esame
+
+**Work** — assumere, licenziare, dimettersi, candidarsi, negoziare, delegare, promuovere,
+timbrare, fare gli straordinari
+
+**Travel** — prenotare, imbarcarsi, atterrare, decollare, noleggiare, fare il check-in,
+perdere la coincidenza, alloggiare
+
+**Economy** — investire, guadagnare, risparmiare, prestare (financial), fallire (business),
+esportare, importare, tassare, quotare
+
+**Society** — votare, eleggere, governare, protestare (political), legiferare, condannare,
+assolvere, denunciare, manifestare
+
+**Media** — trasmettere, pubblicare, abbonarsi, navigare, scaricare, condividere (online),
+inviare, allegare
+
+**Culture** — recitare, dipingere, comporre, esibirsi, pubblicare (book), interpretare
+
+**Freizeit** — allenarsi, tifare, festeggiare, brindare, gareggiare, vincere, perdere
+
+---
+
+## Build order
+
+Priority is driven by two things: reclaiming the pending re-tags, and keeping topics
+above the ~80 floor.
+
+1. **Food** — largest book chapter; reclaims tagliare, aggiungere
+2. **Relationships** — reclaims 3 words; absorbs orphaned Friendship
+3. **Health**
+4. **Education** — reclaims prendere appunti
+5. **Work (rebuild)** — reclaims gestire
+6. **Economy** — reclaims produrre
+7. **Household top-up** — reclaims 5 words; closes out the re-tag list
+8. **Travel**
+9. **Media**
+10. **Society**
+11. **Culture**
+12. **Freizeit**
+13. **Shopping**
+14. **Time (rebuild)**
+15. **Numbers**
+16. Small top-ups: Person, Thinking & Feeling, Kommunikation, Nature, Space, Verbs, Expressions
+17. **Final level cross-check** against KELLY / Profilo (SPEC.md §7)
+
+---
+
+## Coverage arithmetic
+
+Existing ~1500 (incl. Children, Verbs + Expressions) + new/rebuilt ~1450 ≈ **2950**.
+Sits between the 2500 floor and the full ~4500 "complete B1–B2", with every topic
+at comparable depth.
