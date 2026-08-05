@@ -36437,5 +36437,901 @@
       "word": "durch",
       "sentence": "Wir haben uns zufällig durch einen gemeinsamen Freund kennengelernt."
     }
+  },
+  {
+    "id": "aa069824-e966-4712-9a26-7e8e228857ff",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "il criminale",
+      "sentence": "Il criminale è stato arrestato dalla polizia dopo una lunga indagine."
+    },
+    "de": {
+      "word": "der Kriminelle",
+      "sentence": "Der Kriminelle wurde nach langer Ermittlung von der Polizei verhaftet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "de5d218b-5131-4955-ac61-bb62b135f143",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "l'assassino",
+      "sentence": "L'assassino ha confessato il delitto solo dopo molti giorni."
+    },
+    "de": {
+      "word": "der Mörder",
+      "sentence": "Der Mörder gestand die Tat erst nach vielen Tagen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b4a48d4f-70e4-44bb-a307-3555e4c3f437",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "l'omicidio",
+      "sentence": "L'omicidio è avvenuto in pieno centro durante la notte."
+    },
+    "de": {
+      "word": "der Mord",
+      "sentence": "Der Mord geschah mitten im Zentrum während der Nacht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0a19063d-81f5-4e59-9779-1ba7fd7ce19c",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la rapina",
+      "sentence": "Durante la rapina in banca nessuno per fortuna è rimasto ferito."
+    },
+    "de": {
+      "word": "der Raubüberfall",
+      "sentence": "Bei dem Banküberfall wurde zum Glück niemand verletzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f7278a20-9317-4006-974c-7139a8f38b62",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "sparare",
+      "sentence": "Il ladro ha cercato di sparare, ma la pistola era scarica."
+    },
+    "de": {
+      "word": "schiessen",
+      "sentence": "Der Dieb wollte schiessen, doch die Pistole war leer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "42125cbd-58f1-4f8d-8143-0b203853abfe",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la pistola",
+      "sentence": "Il poliziotto ha estratto la pistola e ha intimato l'alt."
+    },
+    "de": {
+      "word": "die Pistole",
+      "sentence": "Der Polizist zog die Pistole und rief ihm ein Halt zu."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bb7ea0ad-edca-4dfc-8000-f95c4d7b18e9",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la prigione",
+      "sentence": "È stato condannato a cinque anni di prigione per truffa."
+    },
+    "de": {
+      "word": "das Gefängnis",
+      "sentence": "Er wurde wegen Betrugs zu fünf Jahren Gefängnis verurteilt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ff6ff0a9-7bd5-460f-b755-4710c9934e38",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la denuncia",
+      "sentence": "Ha presentato una denuncia alla polizia contro il vicino violento."
+    },
+    "de": {
+      "word": "die Anzeige",
+      "sentence": "Er erstattete bei der Polizei Anzeige gegen den gewalttätigen Nachbarn."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e2f96351-5e04-447f-a2e4-0fba22ea3b38",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "l'attentato",
+      "sentence": "L'attentato ha provocato grande paura in tutta la città."
+    },
+    "de": {
+      "word": "der Anschlag",
+      "sentence": "Der Anschlag löste in der ganzen Stadt grosse Angst aus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a9626dcb-8bd4-41b5-b298-ddb45425b016",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "il terrorismo",
+      "sentence": "La lotta contro il terrorismo richiede la collaborazione di molti paesi."
+    },
+    "de": {
+      "word": "der Terrorismus",
+      "sentence": "Der Kampf gegen den Terrorismus erfordert die Zusammenarbeit vieler Länder."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a5a1234f-bc16-4d20-8034-a17a43846744",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "catturare",
+      "sentence": "Dopo settimane di ricerche hanno finalmente catturato il fuggitivo."
+    },
+    "de": {
+      "word": "fassen",
+      "sentence": "Nach wochenlanger Suche haben sie den Flüchtigen endlich gefasst."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "93cab5bf-427f-40a6-b3be-b1387ae2d02d",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "sconfiggere",
+      "sentence": "L'esercito è riuscito a sconfiggere il nemico dopo una lunga battaglia."
+    },
+    "de": {
+      "word": "besiegen",
+      "sentence": "Das Heer konnte den Feind nach langer Schlacht besiegen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e30d648a-fce7-4faf-8b2d-8bac799f7b76",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "il senato",
+      "sentence": "La nuova legge deve ancora essere approvata dal senato."
+    },
+    "de": {
+      "word": "der Senat",
+      "sentence": "Das neue Gesetz muss noch vom Senat verabschiedet werden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3ae96e35-9c82-47e6-a406-521ee0470102",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la regione",
+      "sentence": "Ogni regione italiana ha le proprie tradizioni e i propri piatti."
+    },
+    "de": {
+      "word": "die Region",
+      "sentence": "Jede italienische Region hat ihre eigenen Traditionen und Gerichte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "42796b5f-4a58-4e83-9af3-0e505faccf65",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la provincia",
+      "sentence": "Vive in un piccolo paese di provincia lontano dalla città."
+    },
+    "de": {
+      "word": "die Provinz",
+      "sentence": "Er lebt in einem kleinen Dorf in der Provinz, fern der Stadt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "38158331-2e63-402b-a9e8-252fc64ce2ea",
+    "level": "B2",
+    "topic": "Society",
+    "it": {
+      "word": "la cittadinanza",
+      "sentence": "Dopo dieci anni di residenza ha ottenuto la cittadinanza italiana."
+    },
+    "de": {
+      "word": "die Staatsbürgerschaft",
+      "sentence": "Nach zehn Jahren Aufenthalt erhielt er die italienische Staatsbürgerschaft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "858688ba-8698-40a1-a67f-23b923a2679e",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "il coraggio",
+      "sentence": "Non ho avuto il coraggio di dirle la verità."
+    },
+    "de": {
+      "word": "der Mut",
+      "sentence": "Ich hatte nicht den Mut, ihr die Wahrheit zu sagen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ba5cbdca-8334-4a0d-893c-216c78e77dfd",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "l'odio",
+      "sentence": "Tra i due fratelli c'era un odio profondo e antico."
+    },
+    "de": {
+      "word": "der Hass",
+      "sentence": "Zwischen den beiden Brüdern herrschte ein tiefer, alter Hass."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "457f662f-3f81-4f1b-88d1-098673f021d1",
+    "level": "B1",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "la passione",
+      "sentence": "La musica è sempre stata la sua grande passione."
+    },
+    "de": {
+      "word": "die Leidenschaft",
+      "sentence": "Die Musik war immer seine grosse Leidenschaft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a5f16a20-11ae-4e83-b835-cb8c44c43e78",
+    "level": "B2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "il desiderio",
+      "sentence": "Il suo unico desiderio era rivedere presto la famiglia."
+    },
+    "de": {
+      "word": "der Wunsch",
+      "sentence": "Sein einziger Wunsch war es, die Familie bald wiederzusehen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c5fd2d38-a751-4433-9674-1ce982850f72",
+    "level": "B2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "l'intenzione",
+      "sentence": "Non avevo alcuna intenzione di offenderti con quelle parole."
+    },
+    "de": {
+      "word": "die Absicht",
+      "sentence": "Ich hatte nicht die Absicht, dich mit diesen Worten zu verletzen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "890f8e39-2209-4cee-91af-5671cceb90b1",
+    "level": "B2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "temere",
+      "sentence": "Temo che questa volta non riusciremo a finire in tempo."
+    },
+    "de": {
+      "word": "befürchten",
+      "sentence": "Ich befürchte, dass wir es diesmal nicht rechtzeitig schaffen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "01d7fd74-f54f-4302-9627-c6525df6b55f",
+    "level": "B2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "detestare",
+      "sentence": "Detesto alzarmi presto quando fuori fa ancora freddo e buio."
+    },
+    "de": {
+      "word": "verabscheuen",
+      "sentence": "Ich verabscheue es, früh aufzustehen, wenn es draussen noch kalt und dunkel ist."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9c13b34c-3a48-44c4-afaf-0a4d67656678",
+    "level": "B2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "apprezzare",
+      "sentence": "Apprezzo molto la tua sincerità, anche quando è scomoda."
+    },
+    "de": {
+      "word": "schätzen",
+      "sentence": "Ich schätze deine Ehrlichkeit sehr, auch wenn sie unbequem ist."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "79bcd588-4272-454a-8f53-9f54b6f488c9",
+    "level": "B2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "dubitare",
+      "sentence": "Comincio a dubitare che abbia davvero capito il problema."
+    },
+    "de": {
+      "word": "bezweifeln",
+      "sentence": "Ich beginne zu bezweifeln, dass er das Problem wirklich verstanden hat."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2da40944-232f-4e3f-9168-19189cf1941d",
+    "level": "B2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "convincere",
+      "sentence": "Ho cercato a lungo di convincerlo, ma è rimasto della sua idea."
+    },
+    "de": {
+      "word": "überzeugen",
+      "sentence": "Ich habe lange versucht, ihn zu überzeugen, doch er blieb bei seiner Meinung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "16a18be5-a593-4681-9764-0cf1b80d98b2",
+    "level": "B2",
+    "topic": "Thinking & Feeling",
+    "it": {
+      "word": "la solitudine",
+      "sentence": "Dopo il trasloco ha sofferto a lungo di solitudine."
+    },
+    "de": {
+      "word": "die Einsamkeit",
+      "sentence": "Nach dem Umzug litt er lange unter Einsamkeit."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b8782a84-3de7-426a-ad00-9d461283ee91",
+    "level": "B1",
+    "topic": "Communication",
+    "it": {
+      "word": "comunicare",
+      "sentence": "Ci comunicheranno i risultati dell'esame la prossima settimana."
+    },
+    "de": {
+      "word": "mitteilen",
+      "sentence": "Sie werden uns die Prüfungsergebnisse nächste Woche mitteilen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "432e6979-887a-4657-9092-00a307acbb01",
+    "level": "B1",
+    "topic": "Communication",
+    "it": {
+      "word": "chiacchierare",
+      "sentence": "Abbiamo chiacchierato per ore davanti a un buon caffè."
+    },
+    "de": {
+      "word": "plaudern",
+      "sentence": "Wir haben stundenlang bei einem guten Kaffee geplaudert."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "eecf7a8d-68d8-49d5-a835-205c962a4f9a",
+    "level": "B1",
+    "topic": "Communication",
+    "it": {
+      "word": "contattare",
+      "sentence": "Ti contatterò appena avrò notizie più precise."
+    },
+    "de": {
+      "word": "kontaktieren",
+      "sentence": "Ich kontaktiere dich, sobald ich genauere Nachrichten habe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5d31eac2-b362-4a92-8138-56a0b71c22da",
+    "level": "B2",
+    "topic": "Communication",
+    "it": {
+      "word": "il commento",
+      "sentence": "Il suo commento sarcastico ha messo tutti a disagio."
+    },
+    "de": {
+      "word": "die Bemerkung",
+      "sentence": "Seine sarkastische Bemerkung machte alle im Raum ziemlich verlegen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c8e1949d-82ca-44b6-a5db-bf867cff884c",
+    "level": "B2",
+    "topic": "Communication",
+    "it": {
+      "word": "dichiarare",
+      "sentence": "Il ministro ha dichiarato che la crisi è ormai superata."
+    },
+    "de": {
+      "word": "erklären",
+      "sentence": "Der Minister erklärte, dass die Krise nun überwunden sei."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4fe32f10-c977-4155-85ab-1a2a9416a076",
+    "level": "B2",
+    "topic": "Communication",
+    "it": {
+      "word": "affermare",
+      "sentence": "Continua ad affermare di non sapere niente dell'accaduto."
+    },
+    "de": {
+      "word": "behaupten",
+      "sentence": "Er behauptet weiterhin, nichts von dem Vorfall zu wissen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0eb1f95a-c3aa-4635-96e2-7a0acb4dff71",
+    "level": "B2",
+    "topic": "Communication",
+    "it": {
+      "word": "gridare",
+      "sentence": "Ha gridato così forte che l'hanno sentito anche i vicini."
+    },
+    "de": {
+      "word": "schreien",
+      "sentence": "Er schrie so laut, dass ihn sogar die Nachbarn hörten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "15f90c72-efd1-499b-86c7-6fa7244dbb6f",
+    "level": "B2",
+    "topic": "Communication",
+    "it": {
+      "word": "scherzare",
+      "sentence": "Non prendertela, stavo soltanto scherzando un po' con te."
+    },
+    "de": {
+      "word": "scherzen",
+      "sentence": "Nimm es nicht ernst, ich habe nur mit dir gescherzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a743d4b5-f695-41d8-9b2d-69d614a282b9",
+    "level": "B2",
+    "topic": "Communication",
+    "it": {
+      "word": "discutere",
+      "sentence": "Abbiamo discusso a lungo prima di prendere una decisione."
+    },
+    "de": {
+      "word": "diskutieren",
+      "sentence": "Wir haben lange diskutiert, bevor wir eine Entscheidung getroffen haben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8b2117ec-8cea-4378-9d2d-1d0f7b9f97dd",
+    "level": "B2",
+    "topic": "Communication",
+    "it": {
+      "word": "la discussione",
+      "sentence": "La discussione si è accesa quando si è parlato di soldi."
+    },
+    "de": {
+      "word": "die Diskussion",
+      "sentence": "Die Diskussion wurde hitzig, als es um Geld ging."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "83ddf567-6f2b-469a-bae9-2e172c3c5f29",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "curarsi",
+      "sentence": "Dopo l'operazione deve curarsi con molta attenzione per un mese."
+    },
+    "de": {
+      "word": "sich pflegen",
+      "sentence": "Nach der Operation muss er sich einen Monat lang sehr sorgfältig pflegen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e766889a-d824-4f86-9cd9-2a480bca052d",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "rimettersi",
+      "sentence": "Dopo una brutta influenza ci ha messo settimane a rimettersi."
+    },
+    "de": {
+      "word": "sich erholen",
+      "sentence": "Nach einer schweren Grippe brauchte er Wochen, um sich zu erholen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a243d907-503c-4be3-82cf-2c759ab4abf4",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "la dipendenza",
+      "sentence": "La dipendenza dal fumo è difficile da superare da soli."
+    },
+    "de": {
+      "word": "die Abhängigkeit",
+      "sentence": "Die Abhängigkeit vom Rauchen ist allein schwer zu überwinden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3b687b42-1a53-453b-a064-980f93c50c40",
+    "level": "B2",
+    "topic": "Health",
+    "it": {
+      "word": "la droga",
+      "sentence": "Il medico gli ha spiegato i rischi legati all'uso di droga."
+    },
+    "de": {
+      "word": "die Droge",
+      "sentence": "Der Arzt erklärte ihm die Risiken des Drogenkonsums."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b357ebf0-b014-4331-bf27-472bdd1b8668",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "bruciarsi",
+      "sentence": "Attento a non bruciarti le dita con la pentola."
+    },
+    "de": {
+      "word": "sich verbrennen",
+      "sentence": "Pass auf, dass du dir nicht die Finger verbrennst."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "088f2b21-e8b8-4a98-b70f-590e41c47e0d",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "calmarsi",
+      "sentence": "Respira profondamente e cerca di calmarti un momento."
+    },
+    "de": {
+      "word": "sich beruhigen",
+      "sentence": "Atme tief durch und versuch dich einen Moment zu beruhigen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4abe4693-c723-41da-b008-490f78bdeb1b",
+    "level": "B1",
+    "topic": "Health",
+    "it": {
+      "word": "spaventare",
+      "sentence": "Il forte rumore nella notte ha spaventato tutti i bambini."
+    },
+    "de": {
+      "word": "erschrecken",
+      "sentence": "Der laute Lärm in der Nacht hat alle Kinder erschreckt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "29cc776f-e911-46a1-b86c-5efc647f444d",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "l'assegno",
+      "sentence": "Ha pagato l'affitto con un assegno invece che in contanti."
+    },
+    "de": {
+      "word": "der Scheck",
+      "sentence": "Er hat die Miete mit einem Scheck statt bar bezahlt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1c45b8c7-4a3a-412f-a12d-941d37fac2e7",
+    "level": "B1",
+    "topic": "Economy",
+    "it": {
+      "word": "l'acconto",
+      "sentence": "Al momento della prenotazione bisogna versare un piccolo acconto."
+    },
+    "de": {
+      "word": "die Anzahlung",
+      "sentence": "Bei der Buchung muss man eine kleine Anzahlung leisten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6191c2cf-7d7e-4d8a-9314-adb25f9bb388",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "il bonifico",
+      "sentence": "Ti mando i soldi con un bonifico entro domani mattina."
+    },
+    "de": {
+      "word": "die Überweisung",
+      "sentence": "Ich schicke dir das Geld bis morgen früh per Überweisung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "34c956e1-6fef-48e5-9abd-5f64670fcace",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "la rata",
+      "sentence": "Abbiamo comprato la macchina pagandola a rate mensili."
+    },
+    "de": {
+      "word": "die Rate",
+      "sentence": "Wir haben das Auto gekauft und zahlen es in monatlichen Raten ab."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a032ffc1-880d-4fa3-9653-9a6423e74eba",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "il pagamento",
+      "sentence": "Il pagamento della fattura deve avvenire entro trenta giorni."
+    },
+    "de": {
+      "word": "die Zahlung",
+      "sentence": "Die Zahlung der Rechnung muss innerhalb von dreissig Tagen erfolgen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ce484ff6-6cf7-493b-b253-e5df298151b1",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "l'assicurazione",
+      "sentence": "Prima di un lungo viaggio conviene stipulare un'assicurazione sanitaria."
+    },
+    "de": {
+      "word": "die Versicherung",
+      "sentence": "Vor der Reise lohnt es sich, eine Krankenversicherung abzuschliessen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "eae76364-8fff-455b-ac5f-869e1a7d4d9f",
+    "level": "B2",
+    "topic": "Economy",
+    "it": {
+      "word": "l'aumento",
+      "sentence": "I lavoratori chiedono da mesi un aumento dello stipendio."
+    },
+    "de": {
+      "word": "die Erhöhung",
+      "sentence": "Die Arbeiter fordern seit Monaten eine Erhöhung des Gehalts."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f3703819-206c-423d-90e1-e12e694560b3",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "comportarsi",
+      "sentence": "In pubblico i bambini si sono comportati molto bene."
+    },
+    "de": {
+      "word": "sich benehmen",
+      "sentence": "In der Öffentlichkeit haben sich die Kinder sehr gut benommen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "33109c44-fa40-4c9b-a4e3-f491d802a9ff",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "il comportamento",
+      "sentence": "Il suo comportamento durante la riunione mi ha davvero sorpreso."
+    },
+    "de": {
+      "word": "das Verhalten",
+      "sentence": "Sein Verhalten während der Sitzung hat mich wirklich überrascht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c2a15cf5-32a6-40ee-87d0-9b46d64aed2a",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "l'atteggiamento",
+      "sentence": "Il suo atteggiamento negativo rovina l'umore a tutto il gruppo."
+    },
+    "de": {
+      "word": "die Haltung",
+      "sentence": "Seine negative Haltung verdirbt der ganzen Gruppe die Stimmung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7d1ded84-67ee-426d-b397-63c167e4f0a0",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "l'abitudine",
+      "sentence": "Ha la buona abitudine di fare una passeggiata ogni sera."
+    },
+    "de": {
+      "word": "die Gewohnheit",
+      "sentence": "Er hat die gute Gewohnheit, jeden Abend einen Spaziergang zu machen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "33a21a71-cecc-4061-b47c-76a5a9d66ed1",
+    "level": "B2",
+    "topic": "Person",
+    "it": {
+      "word": "il difetto",
+      "sentence": "Il suo unico difetto è che parla sempre troppo."
+    },
+    "de": {
+      "word": "der Fehler",
+      "sentence": "Sein einziger Fehler ist, dass er immer zu viel redet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
   }
 ]
