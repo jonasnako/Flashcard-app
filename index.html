@@ -21,8 +21,15 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px}
 .logo{font-family:'Fraunces',serif;font-weight:600;font-size:28px;letter-spacing:-.02em}
 .logo i{color:var(--green);font-style:normal}
-.counts{text-align:right;font-size:12px;color:rgba(246,241,230,.55);line-height:1.5}
-.counts b{color:var(--paper)}
+.counts{text-align:right;font-size:12px;color:rgba(246,241,230,.55);line-height:1.5;position:relative}
+.counts b{color:var(--paper);display:inline-block;position:relative}
+.counts b.pop{animation:learnpop .6s cubic-bezier(.34,1.56,.64,1)}
+.counts b.pop::after{content:"";position:absolute;left:50%;top:50%;width:1.5em;height:1.5em;margin:-.75em 0 0 -.75em;border-radius:50%;border:1px solid var(--green);pointer-events:none;animation:learnring .7s ease-out forwards}
+@keyframes learnpop{0%{transform:scale(1);color:var(--paper)}22%{transform:scale(1.32);color:var(--green)}62%{color:var(--green)}100%{transform:scale(1);color:var(--paper)}}
+@keyframes learnring{0%{opacity:.5;transform:scale(.5)}100%{opacity:0;transform:scale(1.8)}}
+.counts .plusone{position:absolute;right:0;top:-3px;font-family:'Fraunces',serif;font-style:italic;font-size:13px;color:var(--ochre);pointer-events:none;animation:plusrise .9s ease-out forwards}
+@keyframes plusrise{0%{opacity:0;transform:translateY(3px)}25%{opacity:.95}100%{opacity:0;transform:translateY(-15px)}}
+@media(prefers-reduced-motion:reduce){.counts b.pop,.counts b.pop::after,.counts .plusone{animation:none}}
 .scene{perspective:1600px;margin-bottom:18px;position:relative}
 .card{position:relative;width:100%;min-height:clamp(300px,48vw,380px);transform-style:preserve-3d;transition:transform .55s cubic-bezier(.2,.85,.25,1);cursor:pointer}
 .card.flip{transform:rotateY(180deg)}
@@ -387,7 +394,7 @@ function rate(known){
     if(!known){c.streak=0;c.correct=0;}
   }else{
     const was=c.streak>=settings.learnY;
-    if(known){c.correct++;c.streak++;if(c.streak>=settings.learnY&&!was)session.learned++;}
+    if(known){c.correct++;c.streak++;if(c.streak>=settings.learnY&&!was){session.learned++;justLearned=true;}}
     else{c.streak=0;}
   }
   saveProg();
@@ -397,7 +404,17 @@ function rate(known){
   if(!session.queue.length)session.active=false;
   saveSession();
 }
-function assess(known){rate(known);paintSession();paintCounts();}
+let justLearned=false;
+function assess(known){justLearned=false;rate(known);paintSession();paintCounts();if(justLearned){celebrateLearned();justLearned=false;}}
+// Sleek learn cue on the top-right counter: number springs + flashes green, a thin ring radiates, a serif "+1" drifts up.
+function celebrateLearned(){
+  const e=document.getElementById("counts");if(!e)return;
+  const b=e.querySelector("b");
+  if(b){b.classList.remove("pop");void b.offsetWidth;b.classList.add("pop");}
+  const plus=el("span",{class:"plusone"},["+1"]);
+  e.appendChild(plus);
+  setTimeout(()=>plus.remove(),950);
+}
 
 /* ============ tiny DOM helper ============ */
 function el(tag,props,kids){const e=document.createElement(tag);
