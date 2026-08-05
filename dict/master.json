@@ -39369,7 +39369,7 @@
   {
     "id": "da7fd02b-dab9-4982-b870-b1cb0a4cc13c",
     "level": "A1",
-    "topic": "Communication",
+    "topic": "Expressions",
     "it": {
       "word": "arrivederci",
       "sentence": "Arrivederci e a presto!"
@@ -39385,7 +39385,7 @@
   {
     "id": "904dfbfe-f4dd-494e-903c-8fe3c765bc64",
     "level": "A1",
-    "topic": "Communication",
+    "topic": "Expressions",
     "it": {
       "word": "buonanotte",
       "sentence": "Buonanotte a tutti, dormite bene!"
@@ -39401,7 +39401,7 @@
   {
     "id": "cdd8979a-2110-4c0f-8d79-290df5544378",
     "level": "A1",
-    "topic": "Communication",
+    "topic": "Expressions",
     "it": {
       "word": "buonasera",
       "sentence": "Buonasera, come sta oggi?"
@@ -39417,7 +39417,7 @@
   {
     "id": "e4609af2-d5e6-4701-8fb4-c6627e4a8f36",
     "level": "A1",
-    "topic": "Communication",
+    "topic": "Expressions",
     "it": {
       "word": "buongiorno",
       "sentence": "Buongiorno, ha dormito bene?"
@@ -39433,7 +39433,7 @@
   {
     "id": "1d9f1c36-9d75-46ba-a47c-9aa2b49880e7",
     "level": "A1",
-    "topic": "Communication",
+    "topic": "Expressions",
     "it": {
       "word": "ciao",
       "sentence": "Ciao, come va la vita?"
@@ -39449,7 +39449,7 @@
   {
     "id": "2762f961-df2d-40b5-8afe-30e3668e78ab",
     "level": "A1",
-    "topic": "Communication",
+    "topic": "Expressions",
     "it": {
       "word": "prego",
       "sentence": "Prego, si accomodi pure."
@@ -39481,7 +39481,7 @@
   {
     "id": "850926f7-c643-4059-807c-f02818ec31b6",
     "level": "A1",
-    "topic": "Communication",
+    "topic": "Expressions",
     "it": {
       "word": "cin cin",
       "sentence": "Cin cin, alla tua salute!"
@@ -40801,6 +40801,230 @@
     "de": {
       "word": "sicher",
       "sentence": "Bist du sicher bei dieser Antwort?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "20c52637-62d8-43c0-9293-1de72218612a",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "grazie",
+      "sentence": "Grazie mille per il tuo aiuto."
+    },
+    "de": {
+      "word": "danke",
+      "sentence": "Vielen Dank für deine Hilfe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ab8a29a0-d50c-4dc0-b133-9a5c37a8e62b",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "per favore",
+      "sentence": "Mi passi il sale, per favore?"
+    },
+    "de": {
+      "word": "bitte",
+      "sentence": "Reichst du mir bitte das Salz?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a5cac4c0-c19e-4654-856f-3efd907b8530",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "salve",
+      "sentence": "Salve, come posso aiutarla?"
+    },
+    "de": {
+      "word": "guten Tag",
+      "sentence": "Guten Tag, wie kann ich helfen?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e7122697-8953-43ea-9b2c-4e01eb75e708",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "piacere",
+      "sentence": "Piacere di conoscerti, io sono Marco."
+    },
+    "de": {
+      "word": "freut mich",
+      "sentence": "Freut mich, ich bin Marco."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2fe0ffa1-8957-47a4-ab87-0a2634235dd9",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "di niente",
+      "sentence": "Grazie mille! – Di niente, davvero."
+    },
+    "de": {
+      "word": "gern geschehen",
+      "sentence": "Vielen Dank! – Gern geschehen, wirklich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "52ec9dd7-f6f9-455d-8dac-fca10ed6ebb7",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "mi dispiace",
+      "sentence": "Mi dispiace, non posso venire."
+    },
+    "de": {
+      "word": "es tut mir leid",
+      "sentence": "Es tut mir leid, ich kann nicht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a750eae3-5db3-4c41-a0c3-e8880574e680",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "permesso",
+      "sentence": "Permesso, posso passare un attimo?"
+    },
+    "de": {
+      "word": "darf ich vorbei",
+      "sentence": "Entschuldigung, darf ich kurz vorbei?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5789b97d-875a-45d7-b71a-b8427118abaf",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "a presto",
+      "sentence": "Ciao, ci vediamo a presto!"
+    },
+    "de": {
+      "word": "bis bald",
+      "sentence": "Tschüss, wir sehen uns bald!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "abd481f2-eae9-4d13-87c8-20e3aaa21ce7",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "come stai",
+      "sentence": "Ciao Anna, come stai oggi?"
+    },
+    "de": {
+      "word": "wie geht es dir",
+      "sentence": "Hallo Anna, wie geht es dir?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "14caf743-5524-4860-98ec-8ce01e7baf59",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "come va",
+      "sentence": "Come va? Tutto bene, grazie."
+    },
+    "de": {
+      "word": "wie geht's",
+      "sentence": "Wie geht's? Alles gut, danke."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5fd0fb03-36bf-40f9-a589-80103a674fdf",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "auguri",
+      "sentence": "Tanti auguri di buon compleanno!"
+    },
+    "de": {
+      "word": "herzlichen Glückwunsch",
+      "sentence": "Herzlichen Glückwunsch zum Geburtstag!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "71562daa-d800-4a9f-8122-45ed3d97365f",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "salute",
+      "sentence": "Hai starnutito, salute a te!"
+    },
+    "de": {
+      "word": "Gesundheit",
+      "sentence": "Du hast geniest, Gesundheit!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "45e397b0-bdea-4519-af56-ddd3ec06886c",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "buon appetito",
+      "sentence": "Buon appetito a tutti voi!"
+    },
+    "de": {
+      "word": "guten Appetit",
+      "sentence": "Guten Appetit euch allen!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4084819f-a9d3-49f6-9f3e-49e25a1b604a",
+    "level": "A1",
+    "topic": "Expressions",
+    "it": {
+      "word": "benvenuto",
+      "sentence": "Benvenuto a casa nostra!"
+    },
+    "de": {
+      "word": "willkommen",
+      "sentence": "Willkommen in unserem Haus!"
     },
     "streak": 0,
     "correct": 0,

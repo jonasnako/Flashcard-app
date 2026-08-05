@@ -54,7 +54,7 @@ digiuno* out of the Food batch's ambiguous review; the full Health build is stil
 | Topic | Book chapters absorbed | Status | Target |
 |---|---|---|---|
 | **Verbs** | Allgemeine Tätigkeiten, Bemühung/Vorhaben, Hilfe/Verpflichtung, Besitzen/Geben/Nehmen + polysemous chunk verbs + verb-preposition government | 129 ✓ | +~15 |
-| **Expressions** | Häufige Redewendungen / idioms & reaction-formulas (vale la pena, meno male, in bocca al lupo, figurati…) | 22 ✓ | +~20 |
+| **Expressions** | Fixed phrases deployed verbatim: greetings & politeness formulas (buongiorno, grazie, per favore, piacere…), reaction-formulas & idioms (vale la pena, meno male, in bocca al lupo, figurati…) | 48 ✓ | done |
 | **Structure words** | Strukturwörter: connectives, conjunctions, adverbs, particles, quantifiers, modality; classification, cause/effect, manner | 137 ✓ | +~30 |
 | **Numbers** | Masse und Gewichte, Mengenbegriffe, Formen (skip literal counting — A1) | 60 ✓ | done |
 | **Colours** | Farben (split out of Numbers — colours are not numbers) | 22 ✓ | done (small by design) |
@@ -82,6 +82,15 @@ relabelled **A2→A1 in place** (244 entries, no topic move, scores preserved), 
 is now complete rather than partial. Result: **422 A1 words across 29 topics**; level
 distribution A1 14% / A2 26% / B1 35% / B2 25%. Multi-word collocations (*fare la spesa*) and
 B1/B2 senses were deliberately excluded to avoid over-promotion.
+
+**Greetings → Expressions (done):** the manifest originally routed *Begrüssen* to Communication,
+but fixed greeting/politeness formulas read better as a phrasebook than as communication
+vocabulary. The seven fixed formulas (*buongiorno, buonasera, buonanotte, ciao, arrivederci,
+prego, cin cin*) were relocated Communication → Expressions (id-matched, scores kept), and a
+core A1 phrasebook was authored into Expressions: *grazie, per favore, salve, piacere, di
+niente, mi dispiace, permesso, a presto, come stai, come va, auguri, salute, buon appetito,
+benvenuto*. Communication keeps the productive vocabulary of talking (verbs, discussion,
+conflict). Expressions is now the home for fixed phrases at every level (21 at A1).
 
 ---
 
