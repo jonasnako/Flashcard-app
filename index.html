@@ -254,10 +254,10 @@ function norm(c){
   const de=(c.de&&typeof c.de==="object")?c.de:{word:c.de||"",sentence:c.des||""};
   return {id:c.id||uid(),level:(c.level||"B1").toUpperCase(),topic:c.topic||"Other",
     it:{word:it.word||"",sentence:it.sentence||""},de:{word:de.word||"",sentence:de.sentence||""},
-    streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};
+    streak:c.streak||0,correct:c.correct||0,seen:c.seen||0,ivl:c.ivl||0,due:c.due||0,retired:!!c.retired};
 }
 const stripWord=c=>({id:c.id,level:c.level,topic:c.topic,it:{word:c.it.word,sentence:c.it.sentence},de:{word:c.de.word,sentence:c.de.sentence}});
-const stripProg=c=>({streak:c.streak||0,correct:c.correct||0,seen:c.seen||0});
+const stripProg=c=>{const o={streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};if(c.ivl)o.ivl=c.ivl;if(c.due)o.due=c.due;if(c.retired)o.retired=true;return o;};
 const wordsFromLib=()=>lib.map(stripWord);
 function progFromLib(){const p={};lib.forEach(c=>{p[c.id]=stripProg(c);});return p;}
 function readJSON(k){try{const v=localStorage.getItem(k);return v?JSON.parse(v):null;}catch(e){return null;}}
@@ -328,12 +328,16 @@ const inFilter=c=>(!settings.levels.length||settings.levels.includes(c.level))&&
 const front=()=>settings.direction==="it"||settings.direction==="de"?settings.direction:(Math.random()<.5?"it":"de");
 const isNewC=c=>eligible(c)&&(c.streak||0)===0;   // no dots yet (never right, or reset by a miss)
 const isProgC=c=>eligible(c)&&(c.streak||0)>0;    // in progress (1–2 dots)
+// Maintenance spacing for the Refresh stop: once learned, a word gets a review interval that grows
+// ×M_MULT each time it's recalled, then retires (leaves the review queue for good) past M_RETIRE days.
+const DAY=864e5, M_FIRST=7, M_MULT=3, M_RETIRE=180;
+const dueNow=c=>status(c)==="learned"&&!c.retired&&(c.due||0)<=Date.now();
 // Focus is a single lifecycle dial. "refresh" draws already-learned words (maintenance); "new"
 // draws only unseen; the blend stops (explore/balanced/consolidate) draw from new + in-progress.
 const inSession=c=>{
   if(!inFilter(c))return false;
   const f=settings.focus;
-  if(f==="refresh")return status(c)==="learned";
+  if(f==="refresh")return dueNow(c);
   if(f==="new")return isNewC(c);
   return eligible(c);
 };
@@ -367,7 +371,7 @@ function interleave(a,b){const out=[],n=a.length+b.length;let i=0,j=0;
 // short, then interleave so new and review aren't blocked into runs.
 function pickCards(size){
   const f=settings.focus, inF=lib.filter(inFilter);
-  if(f==="refresh")return shuffle(inF.filter(c=>status(c)==="learned")).slice(0,size);
+  if(f==="refresh")return shuffle(inF.filter(dueNow)).slice(0,size);
   const news=shuffle(inF.filter(isNewC)), prog=shuffle(inF.filter(isProgC));
   if(f==="new")return news.slice(0,size);
   let share;
@@ -389,11 +393,15 @@ function rate(known){
   c.seen=(c.seen||0)+1;
   const recap=settings.focus==="refresh";
   if(recap){
-    // Reviewing learned words: forgetting one resets its score so it re-enters learning; remembering keeps it learned.
-    if(!known){c.streak=0;c.correct=0;}
+    // Spaced maintenance: a miss sends it back to learning; a hit grows the interval until it retires (off the list).
+    if(!known){c.streak=0;c.correct=0;c.ivl=0;c.due=0;c.retired=false;}
+    else{const cur=c.ivl||M_FIRST;c.ivl=Math.round(cur*M_MULT);
+      if(c.ivl>=M_RETIRE){c.retired=true;c.due=0;milestone={top:c.it.word,sub:"mastered"};}
+      else c.due=Date.now()+c.ivl*DAY;}
   }else{
     const was=c.streak>=settings.learnY;
     if(known){c.correct++;c.streak++;if(c.streak>=settings.learnY&&!was){session.learned++;justLearned=true;
+      c.ivl=M_FIRST;c.due=Date.now()+M_FIRST*DAY;c.retired=false; // schedule the first spaced review
       const cell=tally(x=>x.topic===c.topic&&x.level===c.level); // did this word finish its topic×level bucket?
       if(cell.done){const tw=tally(x=>x.topic===c.topic),lw=tally(x=>x.level===c.level);
         milestone=(tw.done&&tw.size>cell.size)?{top:c.topic,sub:"topic complete"}
@@ -524,8 +532,8 @@ function paintSession(){
     const avail=lib.filter(inSession).length;
     const done=session&&session.total>0;
     const recap=settings.focus==="refresh";
-    const emptyMsg=recap?"No learned words to refresh under this filter yet — learn some first.":"Nothing to learn under this filter. Change filters or add words.";
-    const readyMsg=(recap?(avail+" learned word"+(avail===1?"":"s")+" to refresh"):(avail+" word"+(avail===1?"":"s")+" available"))+" under your current filter — sessions take up to "+settings.sessionSize+".";
+    const emptyMsg=recap?"Nothing due for review right now — learned words come back here spaced out over time, then retire.":"Nothing to learn under this filter. Change filters or add words.";
+    const readyMsg=(recap?(avail+" word"+(avail===1?"":"s")+" due for review"):(avail+" word"+(avail===1?"":"s")+" available"))+" under your current filter — sessions take up to "+settings.sessionSize+".";
     const fp=filterProgress(done?(session.learned||0):0);
     area.appendChild(el("div",{class:"state"},[
       el("p",{class:"big"},[done?(recap?"Refresh complete":"Session complete"):(avail?"Ready when you are":"All caught up")]),
@@ -694,7 +702,7 @@ function paintSettings(){
 
   app.appendChild(el("div",{class:"sec"},["How"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["new","New"],["explore","Explore"],["balanced","Balanced"],["consolidate","Consolidate"],["refresh","Refresh"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();},"segwrap"),el("span",{class:"sub"},["From introducing to maintaining. New: only unseen. Explore → Consolidate: more review as you move right (Balanced adapts). Refresh re-tests learned words — learned = 3 correct in a row."])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["new","New"],["explore","Explore"],["balanced","Balanced"],["consolidate","Consolidate"],["refresh","Refresh"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();},"segwrap"),el("span",{class:"sub"},["From introducing to maintaining. New: 0-dot words only. Explore → Consolidate: more review as you move right (Balanced adapts). Refresh: spaced reviews of learned words — the gap grows each time you're right, until a word retires and stops coming back. (Learned = 3 correct in a row.)"])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
 
   app.appendChild(el("div",{class:"sec"},["Audio"]));
