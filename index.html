@@ -610,7 +610,7 @@ function paintList(){
   const w=document.getElementById("list");if(!w)return;w.innerHTML="";
   const q=search.trim().toLowerCase();
   const artKey=s=>(s||"").toLowerCase().replace(/^(l'|un'|il |lo |la |i |gli |le |un |uno |una )/,"").trim();
-  const all=lib.filter(c=>(listLevel==="all"||c.level===listLevel)&&(listTopic==="all"||c.topic===listTopic)&&(!q||c.it.word.toLowerCase().includes(q)||c.de.word.toLowerCase().includes(q))).sort((a,b)=>artKey(a.it.word).localeCompare(artKey(b.it.word),"it"));
+  const all=lib.filter(c=>(listLevel==="all"||c.level===listLevel)&&(listTopic==="all"||c.topic===listTopic)&&(!q||c.it.word.toLowerCase().includes(q)||c.de.word.toLowerCase().includes(q)||(c.it.sentence||"").toLowerCase().includes(q)||(c.de.sentence||"").toLowerCase().includes(q))).sort((a,b)=>artKey(a.it.word).localeCompare(artKey(b.it.word),"it"));
   const pages=Math.max(1,Math.ceil(all.length/PAGE));if(page>=pages)page=pages-1;
   const slice=all.slice(page*PAGE,page*PAGE+PAGE);
   w.appendChild(el("div",{class:"hint"},[all.length+" words"]));
