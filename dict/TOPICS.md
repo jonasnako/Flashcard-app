@@ -14,13 +14,13 @@ of which territories exist; all word choices and example sentences are our own.
 
 | Topic | Book chapters absorbed | Status | Target |
 |---|---|---|---|
-| **Person** | Persönliche Angaben, Charaktereigenschaften, Aussehen, Lebenszyklus | 120 ✓ | +40 (personal data, life cycle) |
+| **Person** | Persönliche Angaben, Charaktereigenschaften, Aussehen, Lebenszyklus | 125 ✓ | +35 (personal data, life cycle) |
 | **Children** | (our own — parenting & early childhood; kept from seed) | 140 ✓ | done (keep separate — large enough) |
 | **Relationships** | Familie, Partnerschaft und Ehe, Freundschaft und soziale Kontakte | 78 ✓ | +~30 top-up (absorbs old Friendship) |
-| **Thinking & Feeling** | Denken und Fühlen: Gedanken, Gefühle, Sinneseindrücke | 137 ✓ | +~10 gap-fill |
-| **Communication** | Sprechsituationen: Gespräche, Fragen/Bitten, Befehl/Verbot, Diskussion, Konflikte, Begrüssen, Redewendungen | 125 ✓ | +30 (greetings, phone/letter) |
+| **Thinking & Feeling** | Denken und Fühlen: Gedanken, Gefühle, Sinneseindrücke | 151 ✓ | done |
+| **Communication** | Sprechsituationen: Gespräche, Fragen/Bitten, Befehl/Verbot, Diskussion, Konflikte, Begrüssen, Redewendungen | 135 ✓ | +30 (greetings, phone/letter) |
 | **Body** | Körperteile und Organe | 67 ✓ | done (symptom/treatment terms moved to Health) |
-| **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 106 ✓ | +~10 (Notruf) |
+| **Health** | Krankheit, Ärztliche Untersuchung, Krankenhaus, Notruf, Körperpflege | 123 ✓ | done |
 | **Education** | Lernen, Sprache, Schule/Universität/Ausbildung, Fächer | 94 ✓ | +~15 top-up (spiegare, errore, domanda/risposta) |
 | **Work** | Berufsleben, Berufe, Büroalltag, Bewerbung/Kündigung, Arbeitsbedingungen | 78 ✓ | +~35 top-up |
 | **Culture** | Lektüre, Musik, Kunst, Theater und Film | 73 ✓ | +~25 top-up |
@@ -35,8 +35,8 @@ of which territories exist; all word choices and example sentences are our own.
 | **City** | (our own — no direct book chapter) | 98 ✓ | done |
 | **Clothes** | Bekleidung und Schuhe, Accessoires | 96 ✓ | done |
 | **Media** | Post, Presse und Rundfunk, Telefon/Handy/Internet, Computer | 70 ✓ | +~20 top-up |
-| **Economy** | Industrie/Handel, Geld/Banken, Landwirtschaft, Technik/Energie/Forschung, Rohstoffe | 91 ✓ | +~25 top-up |
-| **Society** | Geschichte, Gesellschaft, Religion/Moral, Politik, Verteidigung, Institutionen, Gesetz | 106 ✓ | +~20 top-up |
+| **Economy** | Industrie/Handel, Geld/Banken, Landwirtschaft, Technik/Energie/Forschung, Rohstoffe | 98 ✓ | done |
+| **Society** | Geschichte, Gesellschaft, Religion/Moral, Politik, Verteidigung, Institutionen, Gesetz | 125 ✓ | done (crime & institutions added) |
 | **Time** | Jahresablauf, Tageszeit, Zeitbegriffe (Dauer, Häufigkeit, Ablauf) | 68 ✓ | +~30 top-up |
 | **Space** | Räumliche Begriffe, Bewegung/Geschwindigkeit, Kommen und Gehen | 106 ✓ | +30 (movement, speed) |
 
