@@ -77,9 +77,11 @@ age); *piccolo, corto* → Space (dimension); *sporco, nuovo* → Household (sta
 facile, importante, interessante, vero, falso* → Thinking & Feeling (evaluation);
 *internazionale* → Society; *certo* → Structure words (modality).
 
-**Open:** ~244 further single-word A1 lemmas are already carded in thematic topics but tagged
-**A2**. The A1 filter is therefore currently partial. Relabelling those A2→A1 in place (no
-topic move) would make the A1 level coherent/complete — pending decision.
+**A1 coherence pass (done):** all single-word Profilo-A1 lemmas that were carded at A2 were
+relabelled **A2→A1 in place** (244 entries, no topic move, scores preserved), so the A1 filter
+is now complete rather than partial. Result: **422 A1 words across 29 topics**; level
+distribution A1 14% / A2 26% / B1 35% / B2 25%. Multi-word collocations (*fare la spesa*) and
+B1/B2 senses were deliberately excluded to avoid over-promotion.
 
 ---
 

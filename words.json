@@ -651,7 +651,7 @@
   },
   {
     "id": "aebe1633-773f-46a4-871a-9e6a518b3bb0",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "la cucina",
@@ -716,7 +716,7 @@
   },
   {
     "id": "2a17a98d-a1ed-45c5-befd-c7c2686d0dbd",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "il bagno",
@@ -729,7 +729,7 @@
   },
   {
     "id": "b0490244-508a-4ffc-ba58-495c8667627d",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "pulire",
@@ -768,7 +768,7 @@
   },
   {
     "id": "a229b116-eadb-4386-b160-2e461f42ff92",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "la finestra",
@@ -781,7 +781,7 @@
   },
   {
     "id": "7902e224-50f2-4238-969b-ccf52c624830",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "la porta",
@@ -833,7 +833,7 @@
   },
   {
     "id": "65b44299-ce85-47c7-87db-4c5a6129bc50",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "il letto",
@@ -859,7 +859,7 @@
   },
   {
     "id": "83589dad-5b13-45fa-93ab-26cebf0ec41a",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "la sedia",
@@ -872,7 +872,7 @@
   },
   {
     "id": "9a81cb23-0cdc-4ca9-981d-216c5d2479dd",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "il tavolo",
@@ -950,7 +950,7 @@
   },
   {
     "id": "a6912111-0143-44a0-b088-6516a9a4c006",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "la chiave",
@@ -989,7 +989,7 @@
   },
   {
     "id": "85520634-f5b1-4414-abb6-d99e8d7e2b48",
-    "level": "A2",
+    "level": "A1",
     "topic": "Children",
     "it": {
       "word": "giocare",
@@ -1015,7 +1015,7 @@
   },
   {
     "id": "757fcaa0-f329-4d0f-80ac-fe30e7eef323",
-    "level": "A2",
+    "level": "A1",
     "topic": "Children",
     "it": {
       "word": "dormire",
@@ -1028,7 +1028,7 @@
   },
   {
     "id": "51a37a95-82fb-4e7b-aabd-8b431090b45e",
-    "level": "A2",
+    "level": "A1",
     "topic": "Children",
     "it": {
       "word": "svegliarsi",
@@ -1067,7 +1067,7 @@
   },
   {
     "id": "fbb16e92-37b2-4e28-891a-411ed081ef66",
-    "level": "A2",
+    "level": "A1",
     "topic": "Children",
     "it": {
       "word": "mangiare",
@@ -1106,7 +1106,7 @@
   },
   {
     "id": "5c66fb06-c12a-40ec-8a5c-de382b9d2933",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "imparare",
@@ -1171,7 +1171,7 @@
   },
   {
     "id": "561741dc-118d-4a1e-9375-b16570d2bbe9",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "la scuola",
@@ -1236,7 +1236,7 @@
   },
   {
     "id": "c4e90f2a-4206-438d-92d0-320a4b1361e7",
-    "level": "A2",
+    "level": "A1",
     "topic": "Children",
     "it": {
       "word": "il compleanno",
@@ -2276,7 +2276,7 @@
   },
   {
     "id": "5a3e33df-e459-4ec9-81c1-b911a93648c5",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "il vicino",
@@ -3186,7 +3186,7 @@
   },
   {
     "id": "c8c2a5fb-0fcd-4ccb-84d8-096a9b52e99e",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "l'insegnante",
@@ -3199,7 +3199,7 @@
   },
   {
     "id": "1c09d7aa-0586-404c-8cd3-51d51fb9c181",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "la classe",
@@ -4096,7 +4096,7 @@
   },
   {
     "id": "da0abbf8-3dd7-4a57-a5a4-478d6d383ffc",
-    "level": "A2",
+    "level": "A1",
     "topic": "Thinking & Feeling",
     "it": {
       "word": "capire",
@@ -4473,7 +4473,7 @@
   },
   {
     "id": "970a1e15-908f-4292-ba36-7fb68cfd03bd",
-    "level": "A2",
+    "level": "A1",
     "topic": "Thinking & Feeling",
     "it": {
       "word": "felice",
@@ -4590,7 +4590,7 @@
   },
   {
     "id": "9ef30acd-d82c-4ec9-b0c4-2422dcb9f929",
-    "level": "A2",
+    "level": "A1",
     "topic": "Thinking & Feeling",
     "it": {
       "word": "triste",
@@ -4889,7 +4889,7 @@
   },
   {
     "id": "3c4c964c-0e0c-44d2-9ba7-d040519930b6",
-    "level": "A2",
+    "level": "A1",
     "topic": "Thinking & Feeling",
     "it": {
       "word": "piacere",
@@ -4941,7 +4941,7 @@
   },
   {
     "id": "fdd098ec-ed33-43b8-b19f-f1119c60a075",
-    "level": "A2",
+    "level": "A1",
     "topic": "Thinking & Feeling",
     "it": {
       "word": "amare",
@@ -5305,7 +5305,7 @@
   },
   {
     "id": "b88795ca-8d09-44cc-bbd8-d1e987acbec9",
-    "level": "A2",
+    "level": "A1",
     "topic": "Thinking & Feeling",
     "it": {
       "word": "guardare",
@@ -5331,7 +5331,7 @@
   },
   {
     "id": "aab012a1-bd25-4c54-a391-63452865fa39",
-    "level": "A2",
+    "level": "A1",
     "topic": "Thinking & Feeling",
     "it": {
       "word": "ascoltare",
@@ -5591,7 +5591,7 @@
   },
   {
     "id": "89b7150f-524b-4dbb-8b66-f62680a41e2d",
-    "level": "A2",
+    "level": "A1",
     "topic": "Communication",
     "it": {
       "word": "parlare",
@@ -5604,7 +5604,7 @@
   },
   {
     "id": "b05c40d5-48c7-41a2-bebf-ff2b8ef9ed1f",
-    "level": "A2",
+    "level": "A1",
     "topic": "Communication",
     "it": {
       "word": "dire",
@@ -5656,7 +5656,7 @@
   },
   {
     "id": "26cb2e69-1479-4ac9-a30c-d8514f289737",
-    "level": "A2",
+    "level": "A1",
     "topic": "Communication",
     "it": {
       "word": "ripetere",
@@ -5851,7 +5851,7 @@
   },
   {
     "id": "d3f68b92-cbad-41d4-a472-fb5b3fda4ea8",
-    "level": "A2",
+    "level": "A1",
     "topic": "Communication",
     "it": {
       "word": "l'informazione",
@@ -6007,7 +6007,7 @@
   },
   {
     "id": "36b49cf7-f673-493b-af4e-d731f30b22be",
-    "level": "A2",
+    "level": "A1",
     "topic": "Communication",
     "it": {
       "word": "rispondere",
@@ -6059,7 +6059,7 @@
   },
   {
     "id": "0c69afff-949f-443a-bd6f-4d6f056327c1",
-    "level": "A2",
+    "level": "A1",
     "topic": "Communication",
     "it": {
       "word": "la domanda",
@@ -6111,7 +6111,7 @@
   },
   {
     "id": "5b85e36b-8c89-49ba-8822-3362435a29c7",
-    "level": "A2",
+    "level": "A1",
     "topic": "Communication",
     "it": {
       "word": "il favore",
@@ -7216,7 +7216,7 @@
   },
   {
     "id": "d71da5bd-ac92-4d41-beea-70777a36a81f",
-    "level": "A2",
+    "level": "A1",
     "topic": "Clothes",
     "it": {
       "word": "la camicia",
@@ -7229,7 +7229,7 @@
   },
   {
     "id": "cd674df5-c981-415f-bc96-d7bb4c8360bc",
-    "level": "A2",
+    "level": "A1",
     "topic": "Clothes",
     "it": {
       "word": "la maglietta",
@@ -7255,7 +7255,7 @@
   },
   {
     "id": "767a45b6-9f48-4844-8a0a-e169ab90442a",
-    "level": "A2",
+    "level": "A1",
     "topic": "Clothes",
     "it": {
       "word": "la gonna",
@@ -7268,7 +7268,7 @@
   },
   {
     "id": "63d59d4f-b02a-4e4e-b872-7ad646aff2f9",
-    "level": "A2",
+    "level": "A1",
     "topic": "Clothes",
     "it": {
       "word": "il vestito",
@@ -7281,7 +7281,7 @@
   },
   {
     "id": "1af6504e-688c-4d6f-9959-2cff5c57eed5",
-    "level": "A2",
+    "level": "A1",
     "topic": "Clothes",
     "it": {
       "word": "la giacca",
@@ -7294,7 +7294,7 @@
   },
   {
     "id": "27a9a13f-bbed-4a3f-aaca-f4123505bbda",
-    "level": "A2",
+    "level": "A1",
     "topic": "Clothes",
     "it": {
       "word": "il cappotto",
@@ -7307,7 +7307,7 @@
   },
   {
     "id": "c163c476-7543-42a8-b911-6e8e1bf18d11",
-    "level": "A2",
+    "level": "A1",
     "topic": "Clothes",
     "it": {
       "word": "il maglione",
@@ -7554,7 +7554,7 @@
   },
   {
     "id": "5cfdea52-1919-43d6-ad3e-a4e347cf5a75",
-    "level": "A2",
+    "level": "A1",
     "topic": "Clothes",
     "it": {
       "word": "la borsa",
@@ -7710,7 +7710,7 @@
   },
   {
     "id": "93e102e6-c299-43c2-acf9-32e54afed5f2",
-    "level": "A2",
+    "level": "A1",
     "topic": "Clothes",
     "it": {
       "word": "stretto",
@@ -7723,7 +7723,7 @@
   },
   {
     "id": "4047bce8-d6b1-4fb5-9bff-d9bb79c5cddb",
-    "level": "A2",
+    "level": "A1",
     "topic": "Clothes",
     "it": {
       "word": "largo",
@@ -8256,7 +8256,7 @@
   },
   {
     "id": "4db6150b-a313-4875-a63c-15336fd59b49",
-    "level": "A2",
+    "level": "A1",
     "topic": "Clothes",
     "it": {
       "word": "l'ombrello",
@@ -8477,7 +8477,7 @@
   },
   {
     "id": "56497afe-987c-47ba-bfe9-06e8e812f601",
-    "level": "A2",
+    "level": "A1",
     "topic": "Nature",
     "it": {
       "word": "l'albero",
@@ -8490,7 +8490,7 @@
   },
   {
     "id": "0329b403-da75-4656-ad65-5fe22a89ca54",
-    "level": "A2",
+    "level": "A1",
     "topic": "Nature",
     "it": {
       "word": "il fiore",
@@ -8958,7 +8958,7 @@
   },
   {
     "id": "b1e83f95-c979-4c9a-a969-61189c7feec1",
-    "level": "A2",
+    "level": "A1",
     "topic": "Nature",
     "it": {
       "word": "la primavera",
@@ -8971,7 +8971,7 @@
   },
   {
     "id": "d0487ede-3294-4c6a-9faf-fc7a377746fc",
-    "level": "A2",
+    "level": "A1",
     "topic": "Nature",
     "it": {
       "word": "l'estate",
@@ -8984,7 +8984,7 @@
   },
   {
     "id": "7403106b-3727-4452-8432-529089628473",
-    "level": "A2",
+    "level": "A1",
     "topic": "Nature",
     "it": {
       "word": "l'autunno",
@@ -8997,7 +8997,7 @@
   },
   {
     "id": "3aa2d651-1aff-463e-bbf8-7700f1605b9d",
-    "level": "A2",
+    "level": "A1",
     "topic": "Nature",
     "it": {
       "word": "l'inverno",
@@ -9218,7 +9218,7 @@
   },
   {
     "id": "abbf8558-5d9d-4af1-aeea-293c22762a01",
-    "level": "A2",
+    "level": "A1",
     "topic": "Nature",
     "it": {
       "word": "lo zaino",
@@ -9764,7 +9764,7 @@
   },
   {
     "id": "492edcb8-d5d9-41e0-897b-3563629556ac",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "la piazza",
@@ -9907,7 +9907,7 @@
   },
   {
     "id": "28f7a65e-932a-448f-bbd2-38e2d84f1133",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "l'autobus",
@@ -9946,7 +9946,7 @@
   },
   {
     "id": "ddd6f034-e464-4355-8d16-0f7a5d36d9e8",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "la fermata",
@@ -9959,7 +9959,7 @@
   },
   {
     "id": "e3eab116-17a4-4ae2-8e6b-0029fb768d9d",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "il biglietto",
@@ -9985,7 +9985,7 @@
   },
   {
     "id": "1c75cc16-97d0-404b-aae7-708f1ef8c138",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "il parcheggio",
@@ -10063,7 +10063,7 @@
   },
   {
     "id": "930067ee-a2fa-4328-a030-9a8e78978b97",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "il museo",
@@ -10076,7 +10076,7 @@
   },
   {
     "id": "77e1d4c7-c83c-40fe-83a8-8db9826979d4",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "il teatro",
@@ -10115,7 +10115,7 @@
   },
   {
     "id": "7b378c78-7f04-41e4-905c-825e925b3ef4",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "la stazione",
@@ -10128,7 +10128,7 @@
   },
   {
     "id": "f8bc17e8-b487-4b42-9672-414e298bb01f",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "l'aeroporto",
@@ -10167,7 +10167,7 @@
   },
   {
     "id": "c3d5e7a2-590f-4b4d-8908-74c2b4a4802a",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "l'ospedale",
@@ -10180,7 +10180,7 @@
   },
   {
     "id": "8d361ecc-ac9a-4ad9-b7c6-fe2267ded827",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "la farmacia",
@@ -10219,7 +10219,7 @@
   },
   {
     "id": "e61ac901-86a5-49e2-a122-e0cc05a58653",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "l'ambasciata",
@@ -10271,7 +10271,7 @@
   },
   {
     "id": "844e893b-f8e7-455f-ab9f-a0041ff70cff",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "il mercato",
@@ -10765,7 +10765,7 @@
   },
   {
     "id": "86767a6d-8c87-429c-a51a-f517648309fc",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "l'indirizzo",
@@ -10778,7 +10778,7 @@
   },
   {
     "id": "702efe96-a627-43b4-9217-5bb50f24e8f1",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "la polizia",
@@ -11389,7 +11389,7 @@
   },
   {
     "id": "dd5697a5-2d3e-441c-9627-7ea7579b7fce",
-    "level": "A2",
+    "level": "A1",
     "topic": "Space",
     "it": {
       "word": "lontano",
@@ -11402,7 +11402,7 @@
   },
   {
     "id": "c1cf1853-3a34-4b30-b4ae-bb7f39f46c0b",
-    "level": "A2",
+    "level": "A1",
     "topic": "Space",
     "it": {
       "word": "vicino",
@@ -12325,7 +12325,7 @@
   },
   {
     "id": "1fe2515d-8c32-43b2-84f1-bd4a4d6ed2ac",
-    "level": "A2",
+    "level": "A1",
     "topic": "Space",
     "it": {
       "word": "lungo",
@@ -12520,7 +12520,7 @@
   },
   {
     "id": "3a663102-9145-4c7b-895e-300b744db71e",
-    "level": "A2",
+    "level": "A1",
     "topic": "Person",
     "it": {
       "word": "alto",
@@ -12546,7 +12546,7 @@
   },
   {
     "id": "cba8a48b-69a9-4788-b6b5-a2eb361cb93e",
-    "level": "A2",
+    "level": "A1",
     "topic": "Person",
     "it": {
       "word": "magro",
@@ -12754,7 +12754,7 @@
   },
   {
     "id": "11f2a084-1404-43d6-8adb-9fb1c7b74105",
-    "level": "A2",
+    "level": "A1",
     "topic": "Person",
     "it": {
       "word": "biondo",
@@ -12767,7 +12767,7 @@
   },
   {
     "id": "a97fab71-de25-4199-9cd7-9211de697f1b",
-    "level": "A2",
+    "level": "A1",
     "topic": "Person",
     "it": {
       "word": "castano",
@@ -13066,7 +13066,7 @@
   },
   {
     "id": "7f0050b6-08a1-4427-a244-a7e06b38965a",
-    "level": "A2",
+    "level": "A1",
     "topic": "Person",
     "it": {
       "word": "gentile",
@@ -13547,7 +13547,7 @@
   },
   {
     "id": "e059c6d5-f17e-47af-9d20-8f8a13283f72",
-    "level": "A2",
+    "level": "A1",
     "topic": "Person",
     "it": {
       "word": "intelligente",
@@ -13924,7 +13924,7 @@
   },
   {
     "id": "f25891af-2d0b-4398-b0f2-3183ce7e5b2c",
-    "level": "A2",
+    "level": "A1",
     "topic": "Person",
     "it": {
       "word": "cambiare",
@@ -14002,7 +14002,7 @@
   },
   {
     "id": "b096f2e2-9736-4b6b-b2db-c283808c5967",
-    "level": "A2",
+    "level": "A1",
     "topic": "Animals",
     "it": {
       "word": "il cane",
@@ -14015,7 +14015,7 @@
   },
   {
     "id": "d1e32918-40a5-4b3d-94b8-6566e7ff35a6",
-    "level": "A2",
+    "level": "A1",
     "topic": "Animals",
     "it": {
       "word": "il gatto",
@@ -14496,7 +14496,7 @@
   },
   {
     "id": "37321a6e-1e9f-4899-9378-e0c21c0ed437",
-    "level": "A2",
+    "level": "A1",
     "topic": "Animals",
     "it": {
       "word": "il pesce",
@@ -15276,7 +15276,7 @@
   },
   {
     "id": "3cb422e6-d098-4ed5-8c84-b65144bbfb23",
-    "level": "A2",
+    "level": "A1",
     "topic": "Body",
     "it": {
       "word": "la lingua",
@@ -15952,7 +15952,7 @@
   },
   {
     "id": "25974a09-abe9-4bef-a0da-b5265ac6c958",
-    "level": "A2",
+    "level": "A1",
     "topic": "Body",
     "it": {
       "word": "stanco",
@@ -16134,7 +16134,7 @@
   },
   {
     "id": "8bcf4d90-52c3-49eb-a20c-abd8cc2c340f",
-    "level": "A2",
+    "level": "A1",
     "topic": "Health",
     "it": {
       "word": "la medicina",
@@ -19566,7 +19566,7 @@
   },
   {
     "id": "d51dda57-61b4-455d-986d-a7f943d45f81",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "il pomodoro",
@@ -19644,7 +19644,7 @@
   },
   {
     "id": "38885fb2-7ed1-4a17-aed9-96532f960edd",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "l'uovo",
@@ -19683,7 +19683,7 @@
   },
   {
     "id": "7bda760f-8851-4f52-aa67-a6bc610d58f3",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "lo zucchero",
@@ -19696,7 +19696,7 @@
   },
   {
     "id": "f36fe01a-0192-48b1-8dd6-4fab2517f23b",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "il riso",
@@ -19917,7 +19917,7 @@
   },
   {
     "id": "e2b6d1d9-5bc1-4649-af93-b6cbea143e4e",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "la colazione",
@@ -19930,7 +19930,7 @@
   },
   {
     "id": "5f60e28f-5d65-406b-a410-bcac6c5a66ea",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "il pranzo",
@@ -19943,7 +19943,7 @@
   },
   {
     "id": "0386aec7-be60-46da-ad9b-a3be67223264",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "la cena",
@@ -19969,7 +19969,7 @@
   },
   {
     "id": "bd8abb2c-08a7-4f8f-8efe-0d91beb874ca",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "il menù",
@@ -19982,7 +19982,7 @@
   },
   {
     "id": "5a910a89-997b-4917-964f-2cf3c8b78dca",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "il conto",
@@ -20047,7 +20047,7 @@
   },
   {
     "id": "0a225667-e7fc-481c-a6f8-d1cb60fdf711",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "il secondo",
@@ -20099,7 +20099,7 @@
   },
   {
     "id": "0a21a1e5-c976-4cea-9ff0-ec1e3377f416",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "il pane",
@@ -20112,7 +20112,7 @@
   },
   {
     "id": "5e98253d-13b8-49ca-82c6-264422605a84",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "la pasta",
@@ -20177,7 +20177,7 @@
   },
   {
     "id": "a1c2aeaa-0eb1-42dd-b37d-17d1eb9dafe4",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "la carne",
@@ -20268,7 +20268,7 @@
   },
   {
     "id": "959ae809-bef3-4e61-b9ac-5f9cb680133f",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "il latte",
@@ -20320,7 +20320,7 @@
   },
   {
     "id": "990c2437-9e8a-4737-90da-c0746240d43b",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "la verdura",
@@ -20333,7 +20333,7 @@
   },
   {
     "id": "e8d7debf-30a5-44fa-bd89-947608b976ee",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "la frutta",
@@ -20476,7 +20476,7 @@
   },
   {
     "id": "83aa7431-6589-4096-ac6f-365e2d42563b",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "il vino",
@@ -20489,7 +20489,7 @@
   },
   {
     "id": "2105765b-3e8a-4f7b-a531-10d4958f6cbd",
-    "level": "A2",
+    "level": "A1",
     "topic": "Food",
     "it": {
       "word": "la birra",
@@ -20736,7 +20736,7 @@
   },
   {
     "id": "14d03720-ce16-48b2-9e1d-932e1550e659",
-    "level": "A2",
+    "level": "A1",
     "topic": "Relationships",
     "it": {
       "word": "la famiglia",
@@ -20749,7 +20749,7 @@
   },
   {
     "id": "f7b0d019-433a-4ca4-8a1f-78b7b327fec4",
-    "level": "A2",
+    "level": "A1",
     "topic": "Relationships",
     "it": {
       "word": "la madre",
@@ -20762,7 +20762,7 @@
   },
   {
     "id": "d09037f1-16a1-4d8d-af26-452ea7186279",
-    "level": "A2",
+    "level": "A1",
     "topic": "Relationships",
     "it": {
       "word": "il padre",
@@ -20801,7 +20801,7 @@
   },
   {
     "id": "5c03329e-e843-4b36-a405-8fdfb8a5593a",
-    "level": "A2",
+    "level": "A1",
     "topic": "Relationships",
     "it": {
       "word": "il fratello",
@@ -20814,7 +20814,7 @@
   },
   {
     "id": "8c56bfdc-911f-4ec8-b3fa-177aae0debdd",
-    "level": "A2",
+    "level": "A1",
     "topic": "Relationships",
     "it": {
       "word": "la sorella",
@@ -20983,7 +20983,7 @@
   },
   {
     "id": "828774f5-9ce6-4f8c-ad88-ac6a080d0cfc",
-    "level": "A2",
+    "level": "A1",
     "topic": "Relationships",
     "it": {
       "word": "il marito",
@@ -20996,7 +20996,7 @@
   },
   {
     "id": "5d2839b2-43d1-4ae2-8597-064467db4ceb",
-    "level": "A2",
+    "level": "A1",
     "topic": "Relationships",
     "it": {
       "word": "la moglie",
@@ -21152,7 +21152,7 @@
   },
   {
     "id": "1b11ce10-ddfe-46c7-92ab-a694ce41dadd",
-    "level": "A2",
+    "level": "A1",
     "topic": "Relationships",
     "it": {
       "word": "l'amore",
@@ -21165,7 +21165,7 @@
   },
   {
     "id": "a643bd62-8ab6-490c-b603-877263103e81",
-    "level": "A2",
+    "level": "A1",
     "topic": "Relationships",
     "it": {
       "word": "il bacio",
@@ -21477,7 +21477,7 @@
   },
   {
     "id": "22cfaf9e-e193-4bc1-9108-06f3f1ce6694",
-    "level": "A2",
+    "level": "A1",
     "topic": "Relationships",
     "it": {
       "word": "incontrare",
@@ -21906,7 +21906,7 @@
   },
   {
     "id": "f3c6f302-5518-4cdb-8746-b86985de0352",
-    "level": "A2",
+    "level": "A1",
     "topic": "Health",
     "it": {
       "word": "la salute",
@@ -22374,7 +22374,7 @@
   },
   {
     "id": "d6df17f4-c04d-4433-9253-97eee5441713",
-    "level": "A2",
+    "level": "A1",
     "topic": "Health",
     "it": {
       "word": "visitare",
@@ -22530,7 +22530,7 @@
   },
   {
     "id": "a435e8c1-f6f5-4a52-98db-871e85040f62",
-    "level": "A2",
+    "level": "A1",
     "topic": "Health",
     "it": {
       "word": "malato",
@@ -22673,7 +22673,7 @@
   },
   {
     "id": "01aefa40-f6bc-4d92-8759-321ccbb6ecd7",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "l'università",
@@ -22868,7 +22868,7 @@
   },
   {
     "id": "5252c7c4-36b4-4965-956b-c48bd4bf33ca",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "studiare",
@@ -22881,7 +22881,7 @@
   },
   {
     "id": "6c554501-eb9c-4429-974b-8f7883941ace",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "insegnare",
@@ -23193,7 +23193,7 @@
   },
   {
     "id": "4215f455-3fcd-4bf3-ac22-7f8be6514d65",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "il corso",
@@ -23206,7 +23206,7 @@
   },
   {
     "id": "faf7c3f0-1f3b-4fe5-954f-611c7d76e8ee",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "la lezione",
@@ -23401,7 +23401,7 @@
   },
   {
     "id": "8d7b9fc0-6339-4771-81cf-7828589d7c92",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "la lingua",
@@ -23414,7 +23414,7 @@
   },
   {
     "id": "27d08ebc-735d-455e-8d72-65bc65ce7033",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "la parola",
@@ -23609,7 +23609,7 @@
   },
   {
     "id": "253ba795-8d7e-4312-9c25-2a50aaaddc9a",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "il quaderno",
@@ -23622,7 +23622,7 @@
   },
   {
     "id": "9b30435d-60e4-4f8f-b02c-41cbc1baf2c3",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "la penna",
@@ -23635,7 +23635,7 @@
   },
   {
     "id": "f157456c-9bba-46bf-9045-ccf822b7a403",
-    "level": "A2",
+    "level": "A1",
     "topic": "Education",
     "it": {
       "word": "la matita",
@@ -23726,7 +23726,7 @@
   },
   {
     "id": "277ea131-5c6f-445c-a137-5934109b90bd",
-    "level": "A2",
+    "level": "A1",
     "topic": "Work",
     "it": {
       "word": "il lavoro",
@@ -23856,7 +23856,7 @@
   },
   {
     "id": "0f5e3865-2d1d-453a-9294-2084e1bb877b",
-    "level": "A2",
+    "level": "A1",
     "topic": "Work",
     "it": {
       "word": "l'ufficio",
@@ -23895,7 +23895,7 @@
   },
   {
     "id": "97732dfd-b887-4fa8-8219-aceedb7056e7",
-    "level": "A2",
+    "level": "A1",
     "topic": "Work",
     "it": {
       "word": "la fabbrica",
@@ -24194,7 +24194,7 @@
   },
   {
     "id": "21688945-e151-4aa1-80ec-12cde3f7e1d8",
-    "level": "A2",
+    "level": "A1",
     "topic": "Work",
     "it": {
       "word": "il documento",
@@ -24454,7 +24454,7 @@
   },
   {
     "id": "a5c09412-534e-4012-bb7b-2f36ea53e1af",
-    "level": "A2",
+    "level": "A1",
     "topic": "Work",
     "it": {
       "word": "lavorare",
@@ -24857,7 +24857,7 @@
   },
   {
     "id": "8fb2cf22-3acc-4604-a95f-c6045aa6861f",
-    "level": "A2",
+    "level": "A1",
     "topic": "Economy",
     "it": {
       "word": "il credito",
@@ -25130,7 +25130,7 @@
   },
   {
     "id": "b1c9cd22-9f09-4e11-8f0d-603bc30d9179",
-    "level": "A2",
+    "level": "A1",
     "topic": "Economy",
     "it": {
       "word": "l'industria",
@@ -25195,7 +25195,7 @@
   },
   {
     "id": "87d8b232-cd48-4007-b295-5e20f3d8cc43",
-    "level": "A2",
+    "level": "A1",
     "topic": "Economy",
     "it": {
       "word": "la domanda",
@@ -25871,7 +25871,7 @@
   },
   {
     "id": "4a73767a-2c91-4683-8265-b533062e7944",
-    "level": "A2",
+    "level": "A1",
     "topic": "Economy",
     "it": {
       "word": "ricco",
@@ -25897,7 +25897,7 @@
   },
   {
     "id": "c9cf63bf-4301-40bc-95f9-b544cfe4f7b5",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "la banca",
@@ -25936,7 +25936,7 @@
   },
   {
     "id": "25513804-54f2-4656-bdaa-dde94a1def8b",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "la casa",
@@ -25949,7 +25949,7 @@
   },
   {
     "id": "54bf5dea-c28f-4d34-8c9b-47d7dc3ec071",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "l'appartamento",
@@ -26027,7 +26027,7 @@
   },
   {
     "id": "362aa2b3-b41d-4b74-8630-02951d7df08e",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "il piano",
@@ -26482,7 +26482,7 @@
   },
   {
     "id": "0f6cd9c8-f9ac-4bcd-8c9a-ff0acee9c05f",
-    "level": "A2",
+    "level": "A1",
     "topic": "Household",
     "it": {
       "word": "il giardino",
@@ -26508,7 +26508,7 @@
   },
   {
     "id": "c715b527-d32e-487d-8f66-c5b065fc05b4",
-    "level": "A2",
+    "level": "A1",
     "topic": "Culture",
     "it": {
       "word": "il quadro",
@@ -26651,7 +26651,7 @@
   },
   {
     "id": "7df368e1-9fa6-4edd-8456-f748234b1625",
-    "level": "A2",
+    "level": "A1",
     "topic": "Society",
     "it": {
       "word": "il dovere",
@@ -26833,7 +26833,7 @@
   },
   {
     "id": "e298f8c4-f494-4dc9-88ab-86a619d3363b",
-    "level": "A2",
+    "level": "A1",
     "topic": "Society",
     "it": {
       "word": "il potere",
@@ -26859,7 +26859,7 @@
   },
   {
     "id": "fb0527af-7809-4dbb-9b17-7a8cdee7c575",
-    "level": "A2",
+    "level": "A1",
     "topic": "Society",
     "it": {
       "word": "la nazione",
@@ -27886,7 +27886,7 @@
   },
   {
     "id": "672795cf-6bdb-40af-9856-c85ebe4f7fec",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "la chiesa",
@@ -27899,7 +27899,7 @@
   },
   {
     "id": "caab09a0-ccf4-4343-a912-31bcb30d86ca",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "il viaggio",
@@ -27912,7 +27912,7 @@
   },
   {
     "id": "37b8fc36-b797-47b0-9061-40807e529323",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "la vacanza",
@@ -27925,7 +27925,7 @@
   },
   {
     "id": "a5ad0568-9f57-4884-be0a-f59ac3b300ed",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "il turista",
@@ -27990,7 +27990,7 @@
   },
   {
     "id": "8c1670e1-f878-44aa-8bb3-ecb111942a5f",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "la valigia",
@@ -28016,7 +28016,7 @@
   },
   {
     "id": "2b096f8c-c5e2-499a-86d0-f6d461a789f9",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "il passaporto",
@@ -28068,7 +28068,7 @@
   },
   {
     "id": "3c7aa806-f0e1-4193-bddc-3afe6490ddb6",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "il visto",
@@ -28172,7 +28172,7 @@
   },
   {
     "id": "9211d2cc-9a31-4106-9b6c-eba2142b933f",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "il treno",
@@ -28263,7 +28263,7 @@
   },
   {
     "id": "97ac8f7f-2b11-46b7-a197-be8df3d42bdf",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "il taxi",
@@ -28497,7 +28497,7 @@
   },
   {
     "id": "aa3c72b3-2cfc-4d62-b50b-d9760f2bf2a2",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "l'albergo",
@@ -28692,7 +28692,7 @@
   },
   {
     "id": "7b8b51e8-0668-4a79-8943-b99659d8a737",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "viaggiare",
@@ -28705,7 +28705,7 @@
   },
   {
     "id": "3cae845d-fa13-44b1-827b-7888cd892616",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "partire",
@@ -28718,7 +28718,7 @@
   },
   {
     "id": "a6022578-4c62-4d71-bf3e-f954086118ce",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "arrivare",
@@ -28731,7 +28731,7 @@
   },
   {
     "id": "6e3a6bb2-4feb-4990-8bb6-eed817a8271c",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "prenotare",
@@ -28848,7 +28848,7 @@
   },
   {
     "id": "6ed7472c-7396-4315-8350-c4711344a1e4",
-    "level": "A2",
+    "level": "A1",
     "topic": "Travel",
     "it": {
       "word": "la spiaggia",
@@ -28861,7 +28861,7 @@
   },
   {
     "id": "6f7b9719-8ac0-42ba-bf29-aeb762235308",
-    "level": "A2",
+    "level": "A1",
     "topic": "City",
     "it": {
       "word": "la macchina",
@@ -28887,7 +28887,7 @@
   },
   {
     "id": "4aae4ecf-0a6c-4acc-8280-87042c0e4fd5",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "il giorno",
@@ -28900,7 +28900,7 @@
   },
   {
     "id": "6c7de69f-6752-40dd-8d6f-758fbb1b3e0d",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "la notte",
@@ -28913,7 +28913,7 @@
   },
   {
     "id": "01ea9bc7-ab8d-42fd-be28-abab3bea5e7a",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "la mattina",
@@ -28926,7 +28926,7 @@
   },
   {
     "id": "577af91e-3232-4b37-b50d-15d884dee111",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "il pomeriggio",
@@ -28939,7 +28939,7 @@
   },
   {
     "id": "4baa1f4b-9563-4912-80dc-a544a3a0fde9",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "la sera",
@@ -28952,7 +28952,7 @@
   },
   {
     "id": "535deb01-a56f-4e2e-9261-08d24f684bf8",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "mezzogiorno",
@@ -28965,7 +28965,7 @@
   },
   {
     "id": "09dff333-7eaf-48d7-842f-1a34d022afe6",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "mezzanotte",
@@ -28978,7 +28978,7 @@
   },
   {
     "id": "4bb21b27-6ff0-40bc-8b7d-7d366e724123",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "la giornata",
@@ -28991,7 +28991,7 @@
   },
   {
     "id": "22fd0cc2-9d94-4658-8144-a719d90300f8",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "oggi",
@@ -29004,7 +29004,7 @@
   },
   {
     "id": "2d21a988-cdbc-4170-8c2b-739e396197a7",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "ieri",
@@ -29017,7 +29017,7 @@
   },
   {
     "id": "dac68223-1992-45b2-93e0-10c4d1be305d",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "domani",
@@ -29069,7 +29069,7 @@
   },
   {
     "id": "95058979-37a8-4244-95f9-1cad6e86b0f9",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "la settimana",
@@ -29082,7 +29082,7 @@
   },
   {
     "id": "194eb445-49e7-4c07-867e-6c2827629603",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "il mese",
@@ -29095,7 +29095,7 @@
   },
   {
     "id": "4108c109-02ce-455e-8c4b-67f4f39e66c7",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "l'anno",
@@ -29134,7 +29134,7 @@
   },
   {
     "id": "621726cb-f14f-4075-9296-917ac3b01e1c",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "la data",
@@ -29147,7 +29147,7 @@
   },
   {
     "id": "a5b8e6af-4bf5-4dba-a850-9564c37db2a2",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "il secondo",
@@ -29160,7 +29160,7 @@
   },
   {
     "id": "35f9fcb9-a2df-423f-b54a-7cf071ddf3b7",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "il minuto",
@@ -29173,7 +29173,7 @@
   },
   {
     "id": "99334800-3e3f-450f-b460-b6015ed0f257",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "l'ora",
@@ -29199,7 +29199,7 @@
   },
   {
     "id": "e5778321-ce81-49e4-8574-a3c44dcfc116",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "l'orologio",
@@ -29238,7 +29238,7 @@
   },
   {
     "id": "c4df8d0f-cc34-4629-b48f-eac368a8aafe",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "il momento",
@@ -29303,7 +29303,7 @@
   },
   {
     "id": "cb0b164f-eb6c-47ed-b103-869f4b469f9c",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "sempre",
@@ -29316,7 +29316,7 @@
   },
   {
     "id": "96767a29-e27f-4eec-a644-717258cd1d7f",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "mai",
@@ -29329,7 +29329,7 @@
   },
   {
     "id": "abd707c7-b30a-4505-b194-1ce35a80cd09",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "spesso",
@@ -29433,7 +29433,7 @@
   },
   {
     "id": "d1dfaaf7-b812-4f6f-a7e5-5bc52a8bd939",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "dopo",
@@ -29524,7 +29524,7 @@
   },
   {
     "id": "3122c0c1-132f-4e59-a037-5a04347e8d06",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "presto",
@@ -29537,7 +29537,7 @@
   },
   {
     "id": "7ec43ccd-105d-4c05-b8c8-a89f54e6dbc9",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "tardi",
@@ -29550,7 +29550,7 @@
   },
   {
     "id": "e55c8375-d00d-4e55-8fab-2a628c73dea7",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "adesso",
@@ -29680,7 +29680,7 @@
   },
   {
     "id": "8b45e6a1-97be-4b21-9687-7e52e74286fa",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "cominciare",
@@ -29706,7 +29706,7 @@
   },
   {
     "id": "4c2e388c-d62a-4aa3-be03-d3114cdee2f0",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "finire",
@@ -29719,7 +29719,7 @@
   },
   {
     "id": "fd049042-1142-46a6-a48e-fe98c10b699c",
-    "level": "A2",
+    "level": "A1",
     "topic": "Time",
     "it": {
       "word": "aspettare",
@@ -29797,7 +29797,7 @@
   },
   {
     "id": "77763009-55d6-4943-9c99-0585b9b20ebb",
-    "level": "A2",
+    "level": "A1",
     "topic": "Colours",
     "it": {
       "word": "il colore",
@@ -29810,7 +29810,7 @@
   },
   {
     "id": "9c603941-da99-4656-a1ca-83660dca5cc9",
-    "level": "A2",
+    "level": "A1",
     "topic": "Colours",
     "it": {
       "word": "rosso",
@@ -29823,7 +29823,7 @@
   },
   {
     "id": "4e0c1fae-2572-4d4e-b19a-f052d6e08e6c",
-    "level": "A2",
+    "level": "A1",
     "topic": "Colours",
     "it": {
       "word": "blu",
@@ -29836,7 +29836,7 @@
   },
   {
     "id": "68251b88-1e99-4246-900b-70c6db3b86f4",
-    "level": "A2",
+    "level": "A1",
     "topic": "Colours",
     "it": {
       "word": "verde",
@@ -29849,7 +29849,7 @@
   },
   {
     "id": "6885023d-bf87-4a07-8ac7-1ae04cfe463d",
-    "level": "A2",
+    "level": "A1",
     "topic": "Colours",
     "it": {
       "word": "giallo",
@@ -29862,7 +29862,7 @@
   },
   {
     "id": "dad74961-921e-431e-87af-55feaf579c61",
-    "level": "A2",
+    "level": "A1",
     "topic": "Colours",
     "it": {
       "word": "nero",
@@ -29875,7 +29875,7 @@
   },
   {
     "id": "ca955409-2707-4907-bc11-093af84b8659",
-    "level": "A2",
+    "level": "A1",
     "topic": "Colours",
     "it": {
       "word": "bianco",
@@ -30239,7 +30239,7 @@
   },
   {
     "id": "dda2cf22-2142-437e-97f0-9de3d1ec0e62",
-    "level": "A2",
+    "level": "A1",
     "topic": "Numbers",
     "it": {
       "word": "il numero",
@@ -30265,7 +30265,7 @@
   },
   {
     "id": "5f5b1ace-5c55-4b7e-b0e9-bb9d82ad9712",
-    "level": "A2",
+    "level": "A1",
     "topic": "Numbers",
     "it": {
       "word": "la metà",
@@ -30278,7 +30278,7 @@
   },
   {
     "id": "d1c0ee25-5f9a-4902-8ee3-0b619c87c5ac",
-    "level": "A2",
+    "level": "A1",
     "topic": "Numbers",
     "it": {
       "word": "il doppio",
@@ -30876,7 +30876,7 @@
   },
   {
     "id": "f49f3fc7-4054-4738-9be7-a33dba3000d1",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "il giornale",
@@ -31032,7 +31032,7 @@
   },
   {
     "id": "a0f2eb2d-dda8-4e98-856b-59d5fa7f4cfe",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "la radio",
@@ -31045,7 +31045,7 @@
   },
   {
     "id": "9faae543-f7c7-437c-8665-c6f2e7e4d503",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "la televisione",
@@ -31201,7 +31201,7 @@
   },
   {
     "id": "055dac72-e544-4084-8566-2033757050ec",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "la posta",
@@ -31214,7 +31214,7 @@
   },
   {
     "id": "409b7dac-c6ec-45d8-bf4f-d2025ab5b634",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "la lettera",
@@ -31227,7 +31227,7 @@
   },
   {
     "id": "f6e1e14d-ef9d-497a-ac60-a8c52049a089",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "la busta",
@@ -31240,7 +31240,7 @@
   },
   {
     "id": "dd67a2d6-45c4-48b3-b827-e50a73f7616e",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "il francobollo",
@@ -31253,7 +31253,7 @@
   },
   {
     "id": "8feed3b1-7a11-4c6a-a1b3-9a3a0a3cc28e",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "il pacco",
@@ -31318,7 +31318,7 @@
   },
   {
     "id": "68126876-e1e9-4f1f-b682-7c8da2a0c45a",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "il telefono",
@@ -31331,7 +31331,7 @@
   },
   {
     "id": "391be529-4b02-4aa7-9b44-665b4049067c",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "il cellulare",
@@ -31357,7 +31357,7 @@
   },
   {
     "id": "491929fc-9859-4599-8182-0269f6daea04",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "il computer",
@@ -31448,7 +31448,7 @@
   },
   {
     "id": "98cdc952-5c55-4348-afcf-f43b635e7d21",
-    "level": "A2",
+    "level": "A1",
     "topic": "Media",
     "it": {
       "word": "internet",
@@ -31786,7 +31786,7 @@
   },
   {
     "id": "00c1ebc5-4830-4111-9506-17b2de10f870",
-    "level": "A2",
+    "level": "A1",
     "topic": "Culture",
     "it": {
       "word": "il libro",
@@ -31994,7 +31994,7 @@
   },
   {
     "id": "9b5d2a6e-f283-4838-a194-09ee1a159bbb",
-    "level": "A2",
+    "level": "A1",
     "topic": "Culture",
     "it": {
       "word": "la musica",
@@ -32007,7 +32007,7 @@
   },
   {
     "id": "5a0ac62f-d5f0-4898-80b4-ac4673df0605",
-    "level": "A2",
+    "level": "A1",
     "topic": "Culture",
     "it": {
       "word": "la canzone",
@@ -32215,7 +32215,7 @@
   },
   {
     "id": "2ebf529e-f229-4429-9cf1-7d47111b3d53",
-    "level": "A2",
+    "level": "A1",
     "topic": "Culture",
     "it": {
       "word": "l'arte",
@@ -32384,7 +32384,7 @@
   },
   {
     "id": "693191a1-3d76-477f-a94a-cab7a3634dd2",
-    "level": "A2",
+    "level": "A1",
     "topic": "Culture",
     "it": {
       "word": "il film",
@@ -32397,7 +32397,7 @@
   },
   {
     "id": "8a99ec1b-0491-407c-9399-06281e3913c9",
-    "level": "A2",
+    "level": "A1",
     "topic": "Culture",
     "it": {
       "word": "il cinema",
@@ -32670,7 +32670,7 @@
   },
   {
     "id": "16423fed-969d-4a33-881e-551d1c40a7b3",
-    "level": "A2",
+    "level": "A1",
     "topic": "Culture",
     "it": {
       "word": "suonare",
@@ -32683,7 +32683,7 @@
   },
   {
     "id": "3f39806e-efb0-4d64-8e9c-b3fb6f47ea9b",
-    "level": "A2",
+    "level": "A1",
     "topic": "Culture",
     "it": {
       "word": "cantare",
@@ -32722,7 +32722,7 @@
   },
   {
     "id": "39f3b776-c32e-45ce-aa28-e4b55b4cbf99",
-    "level": "A2",
+    "level": "A1",
     "topic": "Leisure",
     "it": {
       "word": "la festa",
@@ -32748,7 +32748,7 @@
   },
   {
     "id": "5bf66e55-7ca7-43fa-bf67-3b98d53904e0",
-    "level": "A2",
+    "level": "A1",
     "topic": "Leisure",
     "it": {
       "word": "il Natale",
@@ -32761,7 +32761,7 @@
   },
   {
     "id": "ab6352d9-b33e-4bc9-9d15-0b3db968bfaa",
-    "level": "A2",
+    "level": "A1",
     "topic": "Leisure",
     "it": {
       "word": "la Pasqua",
@@ -32878,7 +32878,7 @@
   },
   {
     "id": "730f0fb1-c794-4a35-a519-27e9f022ddf3",
-    "level": "A2",
+    "level": "A1",
     "topic": "Leisure",
     "it": {
       "word": "uscire",
@@ -32917,7 +32917,7 @@
   },
   {
     "id": "1ee8e89c-397e-4abd-8121-c83a4c45371e",
-    "level": "A2",
+    "level": "A1",
     "topic": "Leisure",
     "it": {
       "word": "ballare",
@@ -32969,7 +32969,7 @@
   },
   {
     "id": "31aeaf70-ff0b-42f6-8153-66178e9f6e81",
-    "level": "A2",
+    "level": "A1",
     "topic": "Leisure",
     "it": {
       "word": "lo sport",
@@ -33294,7 +33294,7 @@
   },
   {
     "id": "3f331b7b-59ef-48ba-8d75-b9ebd048a1e4",
-    "level": "A2",
+    "level": "A1",
     "topic": "Leisure",
     "it": {
       "word": "l'hobby",
@@ -33333,7 +33333,7 @@
   },
   {
     "id": "897d00d2-2d2a-4934-86a3-eee8518b4923",
-    "level": "A2",
+    "level": "A1",
     "topic": "Leisure",
     "it": {
       "word": "la fotografia",
@@ -33515,7 +33515,7 @@
   },
   {
     "id": "7f870ce1-643c-4211-9138-a2e1d7340bfd",
-    "level": "A2",
+    "level": "A1",
     "topic": "Shopping",
     "it": {
       "word": "il negozio",
@@ -33528,7 +33528,7 @@
   },
   {
     "id": "1cd2c104-baf6-4b55-b0eb-2ad6e2d26456",
-    "level": "A2",
+    "level": "A1",
     "topic": "Shopping",
     "it": {
       "word": "il supermercato",
@@ -33801,7 +33801,7 @@
   },
   {
     "id": "85836854-2a7c-4844-a3bf-7c1587996475",
-    "level": "A2",
+    "level": "A1",
     "topic": "Shopping",
     "it": {
       "word": "il prezzo",
@@ -33814,7 +33814,7 @@
   },
   {
     "id": "094311d2-b1e8-4d1f-9088-785ae4cd4e4e",
-    "level": "A2",
+    "level": "A1",
     "topic": "Shopping",
     "it": {
       "word": "comprare",
@@ -33840,7 +33840,7 @@
   },
   {
     "id": "07662a14-1b86-440b-a19d-c49a4c8b2c35",
-    "level": "A2",
+    "level": "A1",
     "topic": "Shopping",
     "it": {
       "word": "pagare",
@@ -33853,7 +33853,7 @@
   },
   {
     "id": "c71935e5-7b61-4c83-bd73-8430456ec791",
-    "level": "A2",
+    "level": "A1",
     "topic": "Shopping",
     "it": {
       "word": "costare",
@@ -33879,7 +33879,7 @@
   },
   {
     "id": "a8321d1c-80a3-411e-8f20-74da5c26ffe6",
-    "level": "A2",
+    "level": "A1",
     "topic": "Shopping",
     "it": {
       "word": "la spesa",
@@ -33996,7 +33996,7 @@
   },
   {
     "id": "0cb59c88-b566-4e8d-bf25-325d668133b9",
-    "level": "A2",
+    "level": "A1",
     "topic": "Shopping",
     "it": {
       "word": "caro",
@@ -34048,7 +34048,7 @@
   },
   {
     "id": "1512ae07-35fd-4942-b0e3-24dd75ad4c50",
-    "level": "A2",
+    "level": "A1",
     "topic": "Shopping",
     "it": {
       "word": "spedire",
@@ -34074,7 +34074,7 @@
   },
   {
     "id": "47433118-9639-48ee-b5b2-d3b893b27447",
-    "level": "A2",
+    "level": "A1",
     "topic": "Nature",
     "it": {
       "word": "la montagna",
@@ -34087,7 +34087,7 @@
   },
   {
     "id": "257640ac-ebfa-4c79-82db-b30a02ae83b6",
-    "level": "A2",
+    "level": "A1",
     "topic": "Nature",
     "it": {
       "word": "il mare",
@@ -34113,7 +34113,7 @@
   },
   {
     "id": "27db7545-1a42-41b9-8dc9-7fa29907fad9",
-    "level": "A2",
+    "level": "A1",
     "topic": "Nature",
     "it": {
       "word": "il lago",
@@ -34464,7 +34464,7 @@
   },
   {
     "id": "6112c224-c961-420c-977c-df8b3a0e7877",
-    "level": "A2",
+    "level": "A1",
     "topic": "Nature",
     "it": {
       "word": "la pianta",
@@ -34568,7 +34568,7 @@
   },
   {
     "id": "2a5f1d5f-6469-4787-a948-41e0c0c74ee4",
-    "level": "A2",
+    "level": "A1",
     "topic": "Weather",
     "it": {
       "word": "il sole",
@@ -34646,7 +34646,7 @@
   },
   {
     "id": "79485f1c-34b5-4f69-b4a1-13101e3ac3d3",
-    "level": "A2",
+    "level": "A1",
     "topic": "Weather",
     "it": {
       "word": "il caldo",
@@ -34659,7 +34659,7 @@
   },
   {
     "id": "85a18a35-a544-4dda-b661-9cee4c46e0dc",
-    "level": "A2",
+    "level": "A1",
     "topic": "Weather",
     "it": {
       "word": "il freddo",
@@ -34750,7 +34750,7 @@
   },
   {
     "id": "df5028bd-b1ea-499a-ad58-8b56c83001ae",
-    "level": "A2",
+    "level": "A1",
     "topic": "Weather",
     "it": {
       "word": "piovere",
@@ -34919,7 +34919,7 @@
   },
   {
     "id": "f2feb345-6b12-4462-af04-0db89c0512c3",
-    "level": "A2",
+    "level": "A1",
     "topic": "Health",
     "it": {
       "word": "la doccia",
@@ -35868,7 +35868,7 @@
   },
   {
     "id": "32ff3cdd-ad2a-4aa9-9204-16d001a23309",
-    "level": "A2",
+    "level": "A1",
     "topic": "Structure words",
     "it": {
       "word": "quasi",
