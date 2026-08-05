@@ -229,11 +229,10 @@ const SEED = [
 ];
 
 /* ============ storage ============ */
-// Words live in the repo (shared across devices, synced via GitHub); progress is per-device.
-const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1", KEY_KEY="lessico_key_v1";
-const WORDS_KEY="lessico_words_v1", PROG_KEY="lessico_prog_v1", GH_KEY="lessico_gh_v1";
-const DEFAULTS={direction:"de",levels:[],topics:[],sessionSize:20,learnY:3,focus:"balanced",audioMode:"self",audioSentence:true,ghOwner:"",ghRepo:"",ghBranch:"main",ghPath:"words.json"};
-const MODEL="claude-haiku-4-5"; // Claude model for word generation — swap for e.g. "claude-opus-4-8" for higher quality
+// Words are loaded read-only from words.json in the repo; progress is per-device.
+const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1";
+const WORDS_KEY="lessico_words_v1", PROG_KEY="lessico_prog_v1";
+const DEFAULTS={direction:"de",levels:[],topics:[],sessionSize:20,learnY:3,focus:"balanced",audioMode:"self",audioSentence:true};
 const LANG={it:"it-IT",de:"de-DE"};
 const ttsOK=("speechSynthesis" in window);
 const SRClass=window.SpeechRecognition||window.webkitSpeechRecognition||null;
@@ -241,12 +240,7 @@ const srOK=!!SRClass;
 let audioOn=false, audioGen=0, curRecog=null, audioStatus="", voicesCache=[];
 let settings={...DEFAULTS};
 let lib=[];
-let syncStatus="";
 const uid=()=>(crypto.randomUUID?crypto.randomUUID():String(Date.now()+Math.random()));
-function getKey(){try{return localStorage.getItem(KEY_KEY)||"";}catch(e){return "";}}
-function setKey(k){try{if(k)localStorage.setItem(KEY_KEY,k);else localStorage.removeItem(KEY_KEY);}catch(e){}}
-function getGh(){try{return localStorage.getItem(GH_KEY)||"";}catch(e){return "";}}
-function setGh(k){try{if(k)localStorage.setItem(GH_KEY,k);else localStorage.removeItem(GH_KEY);}catch(e){}}
 
 function norm(c){
   const it=(c.it&&typeof c.it==="object")?c.it:{word:c.it||"",sentence:c.its||""};
@@ -296,50 +290,8 @@ function saveProgNow(prog){if(pt)clearTimeout(pt);pt=null;try{localStorage.setIt
 window.addEventListener("pagehide",()=>{saveProgNow();saveSession();});
 document.addEventListener("visibilitychange",()=>{if(document.hidden){saveProgNow();saveSession();}});
 
-/* ---- word persistence: local cache + push to the repo via GitHub ---- */
-function ghAuto(){const h=location.hostname,parts=location.pathname.split("/").filter(Boolean);
-  if(h.endsWith(".github.io")){const owner=h.slice(0,h.indexOf("."));return {owner,repo:parts[0]||(owner+".github.io"),branch:"main",path:"words.json"};}
-  return {owner:"",repo:"",branch:"main",path:"words.json"};}
-function ghCfg(){const a=ghAuto();return {owner:settings.ghOwner||a.owner,repo:settings.ghRepo||a.repo,branch:settings.ghBranch||a.branch||"main",path:settings.ghPath||a.path||"words.json"};}
-function wordsUrl(){const cfg=ghCfg();return new URL(cfg.path||"words.json",location.href).href+"?t="+Date.now();}
-const b64utf8=s=>btoa(unescape(encodeURIComponent(s)));
-function setSync(msg){syncStatus=msg;const e=document.getElementById("syncmsg");if(e){e.textContent=msg;e.style.display=msg?"block":"none";}}
-function ghErr(s,e,phase){const m=(e&&e.message)?e.message:"";
-  if(s===401)return "GitHub: token rejected (401) — check it's valid and not expired.";
-  if(s===403)return "GitHub: token lacks Contents write access to this repo (403)"+(m?" — "+m:"")+".";
-  if(s===404)return "GitHub: repo/branch/path not found (404) — check owner, repo, and branch in Settings.";
-  if(s===409||s===422)return "GitHub ("+s+"): "+(m||"invalid request")+" — reload and try again.";
-  if(s>=500)return "GitHub server error ("+s+") while "+(phase||"saving")+(m?": "+m:"")+" — usually temporary, try Push words now again in a moment.";
-  return "GitHub "+s+(m?": "+m:"")+".";}
-async function ghPut(cfg,content,message){
-  const token=getGh();const base="https://api.github.com/repos/"+cfg.owner+"/"+cfg.repo+"/contents/"+cfg.path.split("/").map(encodeURIComponent).join("/");
-  const H={Authorization:"Bearer "+token,Accept:"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"};
-  let sha=null;
-  const g=await fetch(base+"?ref="+encodeURIComponent(cfg.branch),{headers:H});
-  if(g.ok){const j=await g.json();sha=j.sha;}
-  else if(g.status!==404){const e=await g.json().catch(()=>({}));console.error("lessico: GitHub GET",g.status,e);const err=new Error(ghErr(g.status,e,"reading the file"));err.status=g.status;throw err;}
-  const body={message,content:b64utf8(content),branch:cfg.branch};if(sha)body.sha=sha;
-  const p=await fetch(base,{method:"PUT",headers:{...H,"content-type":"application/json"},body:JSON.stringify(body)});
-  if(!p.ok){const e=await p.json().catch(()=>({}));console.error("lessico: GitHub PUT",p.status,e);const err=new Error(ghErr(p.status,e,"writing the file"));err.status=p.status;throw err;}
-  return p.json();
-}
-async function saveWords(reason){
-  saveWordsLocal();
-  const token=getGh();
-  if(!token){setSync("Saved in this browser. Add a GitHub token in Settings to sync it into the site.");return {ok:false,skipped:true};}
-  const cfg=ghCfg();
-  if(!cfg.owner||!cfg.repo){setSync("Set the repo owner and name in Settings → Sync to sync words into the site.");return {ok:false,error:"no repo"};}
-  setSync("Syncing to "+cfg.owner+"/"+cfg.repo+"…");
-  const payload=JSON.stringify(wordsFromLib(),null,2), msg="lessico: update words ("+(reason||"edit")+")";
-  for(let attempt=0;attempt<2;attempt++){
-    try{await ghPut(cfg,payload,msg);
-      setSync("Synced to "+cfg.owner+"/"+cfg.repo+" — live on the site in ~1 min.");return {ok:true};
-    }catch(e){
-      if(e.status>=500&&attempt===0){setSync("GitHub hiccup ("+e.status+") — retrying…");await wait(1500);continue;}
-      setSync(e.message+" (words are still saved in this browser)");return {ok:false,error:e.message};
-    }
-  }
-}
+/* ---- word list: loaded read-only from words.json in the repo; edits stay in this browser ---- */
+function wordsUrl(){return new URL("words.json",location.href).href+"?t="+Date.now();}
 async function syncFromRepo(){
   try{
     const res=await fetch(wordsUrl(),{cache:"no-store"});
@@ -466,7 +418,7 @@ function el(tag,props,kids){const e=document.createElement(tag);
 
 /* ============ render ============ */
 const app=document.getElementById("app"), tabs=document.getElementById("tabs");
-let search="", page=0; const PAGE=50; let addOpen=false, genOpen=false, listLevel="all", listTopic="all", expandedId=null, editingId=null;
+let search="", page=0; const PAGE=50; let addOpen=false, listLevel="all", listTopic="all", expandedId=null, editingId=null;
 
 function paintCounts(){
   const e=document.getElementById("counts");if(!e)return;
@@ -596,8 +548,6 @@ function paintWords(){
   app.appendChild(el("div",{class:"field"},[el("label",{},["Level"]),seg([["all","All"],...levels.map(l=>[l,l])],listLevel,v=>{listLevel=v;page=0;render();})]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topic"]),topicSegW(listTopic,v=>{listTopic=v;page=0;render();})]));
   app.appendChild(el("div",{id:"add"}));paintAdd();
-  app.appendChild(el("div",{id:"gen"}));paintGen();
-  app.appendChild(el("div",{class:"hint",id:"syncmsg",style:{marginTop:"2px",display:syncStatus?"block":"none"}},[syncStatus]));
   app.appendChild(el("div",{id:"list"}));paintList();
 }
 function paintAdd(){
@@ -617,48 +567,9 @@ function paintAdd(){
       el("button",{class:"solid",onclick:()=>{
         if(!g.it.value.trim()||!g.de.value.trim()){err.textContent="Both words are required.";err.style.display="block";return;}
         lib.unshift(norm({it:g.it.value.trim(),de:g.de.value.trim(),its:g.its.value.trim(),des:g.des.value.trim(),level:lvl.value,topic:top.value}));
-        saveWords("add word");addOpen=false;render();
-      }},["Add"]),
-      el("button",{class:"ghost",onclick:async(ev)=>{
-        const it=g.it.value.trim(),de=g.de.value.trim();
-        if(!it&&!de){err.textContent="Type an Italian or German word first.";err.style.display="block";return;}
-        if(!getKey()){err.textContent="Add your Claude API key in Settings first.";err.style.display="block";return;}
-        const btn=ev.target,old=btn.textContent;btn.textContent="…";btn.disabled=true;err.style.display="none";
-        try{const r=await assistCard(it,de);
-          if(r.it&&!g.it.value.trim())g.it.value=r.it;
-          if(r.de&&!g.de.value.trim())g.de.value=r.de;
-          if(r.its&&!g.its.value.trim())g.its.value=r.its;
-          if(r.des&&!g.des.value.trim())g.des.value=r.des;
-        }catch(e){err.textContent=e.message;err.style.display="block";}
-        btn.textContent=old;btn.disabled=false;
-      }},["✨ Auto-fill"])
+        saveWordsLocal();addOpen=false;render();
+      }},["Add"])
     ]),err
-  ]));
-}
-function paintGen(){
-  const w=document.getElementById("gen");if(!w)return;w.innerHTML="";
-  w.appendChild(el("button",{class:"ghost",style:{marginBottom:"10px"},onclick:()=>{genOpen=!genOpen;paintGen();}},[genOpen?"Close":"✨ Generate with Claude"]));
-  if(!genOpen)return;
-  if(!getKey()){w.appendChild(el("div",{class:"hint"},["Add your Claude API key in Settings to generate words."]));return;}
-  const cnt=el("input",{class:"inp",type:"number",min:"1",max:"40",value:"10"});
-  const lvl=el("select",{class:"inp"},["A1","A2","B1","B2","C1","C2"].map(l=>el("option",{value:l},[l])));lvl.value="B1";
-  const topics=sortedTopics();
-  const top=el("input",{class:"inp",placeholder:"e.g. Work — verbs & adjectives",value:topics[0]||""});
-  const err=el("div",{class:"err",style:{display:"none"}});
-  const info=el("div",{class:"hint",style:{marginTop:"8px"}});
-  w.appendChild(el("div",{},[
-    el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["How many"]),cnt]),el("div",{class:"field"},[el("label",{},["Level"]),lvl])]),
-    el("div",{class:"field"},[el("label",{},["Topic"]),top,el("span",{class:"sub"},["Name a topic, or describe what you want (e.g. “Work — verbs & adjectives”). Claude labels the batch, reusing one of your topics when it fits."])]),
-    el("button",{class:"solid",onclick:async(ev)=>{
-      const n=Math.max(1,Math.min(40,parseInt(cnt.value,10)||10)),prompt=top.value.trim();
-      if(!prompt){err.textContent="Enter a topic or a short description.";err.style.display="block";return;}
-      const btn=ev.target,old=btn.textContent;btn.textContent="Generating…";btn.disabled=true;err.style.display="none";info.textContent="";
-      try{const r=await genWords(n,lvl.value,prompt);
-        info.textContent="Added "+r.added+" to “"+r.topic+"”"+(r.skipped?(", skipped "+r.skipped+" duplicate"+(r.skipped>1?"s":"")):"")+".";
-        if(r.added)paintList();
-      }catch(e){err.textContent=e.message;err.style.display="block";}
-      btn.textContent=old;btn.disabled=false;
-    }},["Generate"]),err,info
   ]));
 }
 function paintList(){
@@ -674,7 +585,7 @@ function paintList(){
       el("div",{class:"pair",style:{cursor:"pointer"},onclick:()=>{expandedId=open?null:c.id;editingId=null;paintList();}},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
       el("span",{class:"lvl"},[c.level]),
       el("span",{class:"dots",title:Math.min(c.streak,settings.learnY)+"/"+settings.learnY},Array.from({length:settings.learnY},(_,i)=>el("span",{class:i<c.streak?"f":""}))),
-      el("button",{class:"del",html:"✕",onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){lib=lib.filter(x=>x.id!==c.id);if(session){session.queue=session.queue.filter(z=>z.id!==c.id);if(!session.queue.length)session.active=false;saveSession();}saveProgNow();saveWords("delete word");render();}}})
+      el("button",{class:"del",html:"✕",onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){lib=lib.filter(x=>x.id!==c.id);if(session){session.queue=session.queue.filter(z=>z.id!==c.id);if(!session.queue.length)session.active=false;saveSession();}saveProgNow();saveWordsLocal();render();}}})
     ]));
     if(open&&editingId!==c.id)w.appendChild(el("div",{class:"rowdet"},[
       c.it.sentence?el("p",{class:"ex it"},[c.it.sentence]):null,
@@ -698,7 +609,7 @@ function paintList(){
             const itw=g.itw.value.trim(),dew=g.dew.value.trim();
             if(!itw||!dew){eErr.textContent="Both words are required.";eErr.style.display="block";return;}
             c.it.word=itw;c.de.word=dew;c.it.sentence=g.its.value.trim();c.de.sentence=g.des.value.trim();c.level=lvlSel.value;c.topic=snapTopic(g.top.value.trim());
-            editingId=null;saveWords("edit word");render();
+            editingId=null;saveWordsLocal();render();
           }},["Save"]),
           el("button",{class:"ghost",onclick:()=>{editingId=null;paintList();}},["Cancel"])
         ])
@@ -752,91 +663,19 @@ function paintSettings(){
     app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},[srOK?"Start it with the ▶ Hands-free button on the Session tab. Needs microphone permission (works on https).":"Voice input needs a Chromium-based browser (Chrome/Edge). Without it, ▶ Hands-free reads each card aloud and you tap ✓/✕ to rate."]));
   }
 
-  app.appendChild(el("div",{class:"sec"},["Claude"]));
-  const keyInput=el("input",{class:"inp",type:"password",placeholder:"sk-ant-…",value:getKey()});
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Anthropic API key"]),keyInput,el("span",{class:"sub"},[getKey()?"Key saved on this device.":"Paste your Anthropic API key to enable word generation."])]));
-  app.appendChild(el("div",{class:"btnwrap"},[
-    el("button",{class:"solid",onclick:()=>{setKey(keyInput.value.trim());render();}},["Save key"]),
-    el("button",{class:"ghost dngr",onclick:()=>{setKey("");render();}},["Clear key"])
-  ]));
-  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Stored only in this browser — never uploaded or committed. Powers Auto-fill and Generate on the Words tab, via Claude ("+MODEL+")."]));
-
-  app.appendChild(el("div",{class:"sec"},["Sync to repo"]));
-  const a=ghAuto();
-  const ghTok=el("input",{class:"inp",type:"password",placeholder:"github_pat_…",value:getGh()});
-  app.appendChild(el("div",{class:"field"},[el("label",{},["GitHub token"]),ghTok,el("span",{class:"sub"},[getGh()?"Token saved on this device.":"Fine-grained token with Contents: Read and write on just this repo."])]));
-  const ownerI=el("input",{class:"inp",placeholder:a.owner||"owner",value:settings.ghOwner||a.owner});
-  const repoI=el("input",{class:"inp",placeholder:a.repo||"repo",value:settings.ghRepo||a.repo});
-  const branchI=el("input",{class:"inp",placeholder:"main",value:settings.ghBranch||a.branch||"main"});
-  const pathI=el("input",{class:"inp",placeholder:"words.json",value:settings.ghPath||a.path||"words.json"});
-  app.appendChild(el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["Repo owner"]),ownerI]),el("div",{class:"field"},[el("label",{},["Repo name"]),repoI])]));
-  app.appendChild(el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["Branch"]),branchI]),el("div",{class:"field"},[el("label",{},["Words file path"]),pathI])]));
-  const persistGh=()=>{setGh(ghTok.value.trim());settings.ghOwner=ownerI.value.trim();settings.ghRepo=repoI.value.trim();settings.ghBranch=branchI.value.trim()||"main";settings.ghPath=pathI.value.trim()||"words.json";saveSet();};
-  app.appendChild(el("div",{class:"btnwrap"},[
-    el("button",{class:"solid",onclick:()=>{persistGh();setSync("Saved. Use “Push words now” to write your current words to the repo.");render();}},["Save"]),
-    el("button",{class:"ghost dngr",onclick:()=>{setGh("");render();}},["Clear token"]),
-    el("button",{class:"ghost",onclick:async(ev)=>{persistGh();const b=ev.target,o=b.textContent;b.textContent="Pushing…";b.disabled=true;await saveWords("manual push");b.textContent=o;b.disabled=false;render();}},["Push words now"])
-  ]));
-  app.appendChild(el("div",{class:"hint",id:"syncmsg",style:{marginTop:"10px",display:syncStatus?"block":"none"}},[syncStatus]));
-  app.appendChild(el("div",{class:"hint",style:{marginTop:"8px"}},["Generated and added words are committed to “"+(settings.ghPath||a.path||"words.json")+"” in your repo, so every device loads the same list. Scores stay per-device. GitHub Pages takes about a minute to publish a change. The token lives only in this browser."]));
-
   app.appendChild(el("div",{class:"sec"},["Data"]));
   app.appendChild(el("div",{class:"btnwrap"},[
     el("button",{class:"ghost",onclick:exportLib},["Export (.json)"]),
     el("button",{class:"ghost dngr",onclick:()=>{if(confirm("Reset all progress? Words stay, scores go to zero.")){lib=lib.map(c=>({...c,streak:0,correct:0,seen:0}));saveProgNow();clearSession();render();}}},["Reset progress"])
   ]));
-  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — a backup. The shared dictionary is built in the repo (dict/) and reaches every device via sync; scores stay per-device, keyed by word id."]));
+  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — a backup. The shared dictionary is loaded from words.json in the repo; scores stay per-device, keyed by word id."]));
 }
 function exportLib(){const blob=new Blob([JSON.stringify(lib,null,2)],{type:"application/json"});const a=el("a",{href:URL.createObjectURL(blob),download:"lessico.json"});document.body.appendChild(a);a.click();a.remove();}
-/* ============ Claude integration ============ */
-const SYS='You create Italian–German vocabulary flashcards for a language learner. Italian and German nouns must include the definite article (e.g. "la casa", "das Haus"). Example sentences must be natural, everyday, correct, and appropriate to the requested CEFR level; the Italian and German example sentences must be faithful translations of each other. Use only real, correct vocabulary.';
-const clean=s=>(s||"").trim().toLowerCase().replace(/\s+/g," ");
-function existsWord(it,de){const i=clean(it),d=clean(de);return lib.some(c=>clean(c.it.word)===i||clean(c.de.word)===d);}
-async function claudeJSON(user,schema,maxTokens){
-  const key=getKey();
-  if(!key)throw new Error("No API key set — add one in Settings.");
-  const res=await fetch("https://api.anthropic.com/v1/messages",{
-    method:"POST",
-    headers:{"content-type":"application/json","x-api-key":key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
-    body:JSON.stringify({model:MODEL,max_tokens:maxTokens||8000,system:SYS,messages:[{role:"user",content:user}],output_config:{format:{type:"json_schema",schema:schema}}})
-  });
-  if(!res.ok){let m=res.status+" "+res.statusText;try{const e=await res.json();if(e&&e.error&&e.error.message)m=e.error.message;}catch(_){}throw new Error("Claude API: "+m);}
-  const data=await res.json();
-  const tb=(data.content||[]).find(b=>b.type==="text");
-  if(!tb)throw new Error("Empty response from Claude.");
-  return JSON.parse(tb.text);
-}
+/* ---- topic helper ---- */
 function snapTopic(t){
   const c=(t||"").trim();if(!c)return "Other";
   const hit=Array.from(new Set(lib.map(x=>x.topic))).find(x=>x.toLowerCase()===c.toLowerCase());
   return hit||c; // reuse existing casing when it's the same topic
-}
-async function genWords(n,level,prompt){
-  const existing=lib.map(c=>c.it.word).join("; ");
-  const topics=sortedTopics();
-  const item={type:"object",additionalProperties:false,required:["it","de","its","des"],properties:{it:{type:"string"},de:{type:"string"},its:{type:"string"},des:{type:"string"}}};
-  const schema={type:"object",additionalProperties:false,required:["topic","words"],properties:{topic:{type:"string"},words:{type:"array",items:item}}};
-  const user='Build a set of '+n+' Italian–German vocabulary flashcards. Request: "'+prompt+'". Target CEFR level: '+level+'.\n'
-    +'Unless the request asks for specific word types, include a balanced variety of nouns, verbs, and adjectives (plus useful adverbs).\n'
-    +'Also choose ONE concise topic label for the whole batch. Reuse one of these existing topics if it fits, with the exact same spelling: '+(topics.join("; ")||"(none yet)")+'. Only invent a new short label (1–2 words) if none fits.\n'
-    +'Return: topic (the batch label), and words — each with it (Italian, with article if a noun), de (German translation, with article if a noun), its (a natural Italian example sentence using the word), des (the German translation of that sentence).\n'
-    +'Do NOT include any of these words that already exist: '+existing;
-  const out=await claudeJSON(user,schema,8000);
-  const words=(out&&out.words)||[];
-  const topic=snapTopic((out&&out.topic)||prompt);
-  let added=0,skipped=0;
-  words.forEach(w=>{
-    if(!w.it||!w.de||existsWord(w.it,w.de)){skipped++;return;}
-    lib.unshift(norm({it:w.it,de:w.de,its:w.its,des:w.des,level:level,topic:topic}));added++;
-  });
-  if(added)await saveWords("generate "+topic);
-  return {added:added,skipped:skipped,topic:topic};
-}
-async function assistCard(it,de){
-  const schema={type:"object",additionalProperties:false,required:["it","de","its","des"],properties:{it:{type:"string"},de:{type:"string"},its:{type:"string"},des:{type:"string"}}};
-  const given=[it?("Italian word: "+it):"",de?("German word: "+de):""].filter(Boolean).join("\n");
-  const user="Complete this Italian–German flashcard.\n"+given+"\nReturn: it (Italian, with article if a noun), de (German translation, with article if a noun), its (a natural Italian example sentence using the word), des (the German translation of that sentence). Keep any word already provided.";
-  return claudeJSON(user,schema,1000);
 }
 
 /* ============ hands-free audio ============ */
