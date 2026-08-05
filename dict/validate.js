@@ -18,7 +18,7 @@ const E = (i, m) => errors.push(`  [${i}] ${m}`);
 const W = (i, m) => warns.push(`  [${i}] ${m}`);
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-const LEVELS = new Set(["A2", "B1", "B2"]);
+const LEVELS = new Set(["A1", "A2", "B1", "B2"]);
 const norm = s => (s || "").trim().toLowerCase().replace(/\s+/g, " ");
 const words = s => (s || "").trim().split(/\s+/).filter(Boolean).length;
 
@@ -61,7 +61,7 @@ batch.forEach((w, i) => {
     const n = words(w[side] && w[side].sentence);
     if (n > 13) E(i, `${side} sentence too long (${n} words, ceiling ~12): "${w[side].sentence}"`);
     else {
-      const [lo, hi] = w.level === "B2" ? [9, 12] : w.level === "A2" ? [5, 8] : [7, 9];
+      const [lo, hi] = w.level === "B2" ? [9, 12] : w.level === "B1" ? [7, 9] : w.level === "A2" ? [5, 8] : [4, 7];
       if (n < lo - 1 || n > hi + 1) W(i, `${side} sentence ${n} words, outside ${w.level} target ${lo}–${hi}`);
     }
   }

@@ -58,6 +58,22 @@ digiuno* out of the Food batch's ambiguous review; the full Health build is stil
 | **Structure words** | Strukturwörter: connectives, conjunctions, adverbs, particles, quantifiers, modality; classification, cause/effect, manner | 137 ✓ | +~30 |
 | **Numbers** | Masse und Gewichte, Mengenbegriffe, Formen (skip literal counting — A1) | 60 ✓ | done |
 | **Colours** | Farben (split out of Numbers — colours are not numbers) | 22 ✓ | done (small by design) |
+| **Basics** | The entire A1 Grundwortschatz, consolidated: greetings, days/months, core verbs, question words, pronouns, core adjectives, everyday nouns (food, family, directions) | 189 ✓ | grows with A1 |
+
+## Foundational layer (A1)
+
+**Basics** is the home of the whole A1 stratum, held together as one "start here" bin
+**regardless of thematic home** (per explicit decision): *caffè* lives here, not in Food;
+*città* here, not in City. This is the only topic carrying the **A1** level — a real,
+selectable tag (added to `dict/validate.js` LEVELS with its own short-sentence band
+4–7 words; the app already surfaces any level present in the data). Word levels are
+assigned by **Profilo A1 membership** (lemma in `profilo_a1.txt` → A1; core grammar words
+absent from the frequency lists — *io, e, o, chi* — are genuine A1). Eleven A1 words already
+carded elsewhere were **relocated** into Basics by id-matched update (scores preserved),
+not duplicated: *il cameriere* (was Food), *l'amico, il figlio* (Relationships), *il bambino,
+il nonno* (Children), *il professore, lo studente* (Education), *l'email* (Media),
+*i pantaloni* (Clothes), *gli occhiali* (Person), *i capelli* (Body). Bare articles
+(*il/lo/la/i/gli/le/un*) and clitic near-duplicates were skipped — untestable as two-sided cards.
 
 ---
 
