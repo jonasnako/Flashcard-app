@@ -35800,5 +35800,642 @@
       "word": "beobachten",
       "sentence": "Das Kind beobachtet die Insekten voller Neugier."
     }
+  },
+  {
+    "id": "9f437c6f-cc2c-4cff-b9d2-37a9dc8076aa",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "proprio",
+      "sentence": "È proprio quello che volevo dire."
+    },
+    "de": {
+      "word": "genau",
+      "sentence": "Das ist genau das, was ich sagen wollte."
+    }
+  },
+  {
+    "id": "b61f8795-5514-4f68-bdd1-67e005a76a1b",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "soltanto",
+      "sentence": "Ho soltanto cinque minuti di tempo."
+    },
+    "de": {
+      "word": "nur",
+      "sentence": "Ich habe nur fünf Minuten Zeit."
+    }
+  },
+  {
+    "id": "62f4c093-d494-4021-bd4f-aaf05c642197",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "solamente",
+      "sentence": "Per procedere ci manca solamente il tuo consenso scritto."
+    },
+    "de": {
+      "word": "lediglich",
+      "sentence": "Um weiterzumachen, fehlt uns lediglich noch deine schriftliche Zustimmung."
+    }
+  },
+  {
+    "id": "cb4e9e6c-34e8-4e49-b04d-903390b522ed",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "davvero",
+      "sentence": "Non pensavo che fosse davvero difficile."
+    },
+    "de": {
+      "word": "wirklich",
+      "sentence": "Ich hätte nicht gedacht, dass es wirklich schwierig ist."
+    }
+  },
+  {
+    "id": "77924fc1-fb79-46bc-98d1-e27bee1f141c",
+    "level": "A2",
+    "topic": "Structure words",
+    "it": {
+      "word": "veramente",
+      "sentence": "Questo film è veramente bello."
+    },
+    "de": {
+      "word": "echt",
+      "sentence": "Dieser Film ist echt schön."
+    }
+  },
+  {
+    "id": "32ff3cdd-ad2a-4aa9-9204-16d001a23309",
+    "level": "A2",
+    "topic": "Structure words",
+    "it": {
+      "word": "quasi",
+      "sentence": "Ho quasi finito il lavoro."
+    },
+    "de": {
+      "word": "fast",
+      "sentence": "Ich bin fast mit der Arbeit fertig."
+    }
+  },
+  {
+    "id": "dd15675f-4d62-49e0-bc93-ab13cb2aa8cc",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "generalmente",
+      "sentence": "Generalmente pranzo verso l'una insieme ai miei colleghi."
+    },
+    "de": {
+      "word": "normalerweise",
+      "sentence": "Normalerweise esse ich gegen eins zusammen mit den Kollegen."
+    }
+  },
+  {
+    "id": "c4788628-40eb-4ad1-9e60-3e3938168cf9",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "praticamente",
+      "sentence": "Il lavoro sul nuovo progetto è ormai praticamente finito."
+    },
+    "de": {
+      "word": "praktisch",
+      "sentence": "Die Arbeit am neuen Projekt ist inzwischen praktisch fertig."
+    }
+  },
+  {
+    "id": "bae45c20-c270-4d90-87cb-2f061c25ac92",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "semplicemente",
+      "sentence": "Volevo semplicemente ringraziarti per tutto il tuo aiuto."
+    },
+    "de": {
+      "word": "einfach",
+      "sentence": "Ich wollte dir einfach für deine ganze Hilfe danken."
+    }
+  },
+  {
+    "id": "899746f9-cbfe-48c0-8895-60d0894486d4",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "esattamente",
+      "sentence": "Non ricordo esattamente cosa ha detto."
+    },
+    "de": {
+      "word": "genau",
+      "sentence": "Ich erinnere mich nicht genau, was er gesagt hat."
+    }
+  },
+  {
+    "id": "262f34fc-98b7-4eeb-a712-54347aeb960c",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "chiaramente",
+      "sentence": "Ha spiegato tutto molto chiaramente durante la lezione."
+    },
+    "de": {
+      "word": "deutlich",
+      "sentence": "Er hat während des Unterrichts alles sehr deutlich erklärt."
+    }
+  },
+  {
+    "id": "aaa6df91-6214-4851-8b24-094edda7169d",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "completamente",
+      "sentence": "Su questo punto sono completamente d'accordo con te."
+    },
+    "de": {
+      "word": "völlig",
+      "sentence": "In diesem einen Punkt stimme ich dir völlig zu."
+    }
+  },
+  {
+    "id": "6aa61236-36f8-4fcd-bb3c-8aef80c72eee",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "immediatamente",
+      "sentence": "Il medico è arrivato immediatamente dopo la telefonata."
+    },
+    "de": {
+      "word": "sofort",
+      "sentence": "Der Arzt ist sofort nach dem Anruf gekommen."
+    }
+  },
+  {
+    "id": "651addb8-e5b5-418a-8426-8ca184f8c371",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "direttamente",
+      "sentence": "Vado direttamente a casa dopo il lavoro."
+    },
+    "de": {
+      "word": "direkt",
+      "sentence": "Ich gehe nach der Arbeit direkt nach Hause."
+    }
+  },
+  {
+    "id": "6c455533-76e2-43be-9331-7a882a4dfa4d",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "gradualmente",
+      "sentence": "Con la terapia la situazione è gradualmente migliorata."
+    },
+    "de": {
+      "word": "allmählich",
+      "sentence": "Mit der Therapie hat sich die Lage allmählich gebessert."
+    }
+  },
+  {
+    "id": "4ecb1f54-976e-4d71-ba9a-4aad9681316f",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "ovviamente",
+      "sentence": "Ovviamente pagherò io il conto di stasera."
+    },
+    "de": {
+      "word": "selbstverständlich",
+      "sentence": "Selbstverständlich bezahle ich heute Abend die ganze Rechnung."
+    }
+  },
+  {
+    "id": "7489380b-d056-45f5-872c-bfcbbe285234",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "effettivamente",
+      "sentence": "Effettivamente hai proprio ragione su questo punto delicato."
+    },
+    "de": {
+      "word": "tatsächlich",
+      "sentence": "Du hast in diesem heiklen Punkt tatsächlich völlig recht."
+    }
+  },
+  {
+    "id": "59b90a16-5014-424c-989f-606c1b867e38",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "estremamente",
+      "sentence": "Negli ultimi mesi la situazione è diventata estremamente complicata."
+    },
+    "de": {
+      "word": "äusserst",
+      "sentence": "In den letzten Monaten ist die Lage äusserst kompliziert geworden."
+    }
+  },
+  {
+    "id": "905efff0-530b-4dad-9f74-85fcdecc74d8",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "ultimamente",
+      "sentence": "Ultimamente lavora troppo e dorme poco."
+    },
+    "de": {
+      "word": "in letzter Zeit",
+      "sentence": "In letzter Zeit arbeitet er zu viel und schläft wenig."
+    }
+  },
+  {
+    "id": "cc27fafe-145b-458b-9efc-3eb529f475e9",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "apparentemente",
+      "sentence": "Apparentemente il problema tecnico è già stato risolto del tutto."
+    },
+    "de": {
+      "word": "offenbar",
+      "sentence": "Offenbar wurde das technische Problem inzwischen schon vollständig gelöst."
+    }
+  },
+  {
+    "id": "d9867b55-e534-49c7-84fd-51fdf78b2f19",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "purtroppo",
+      "sentence": "Purtroppo non potrò venire alla festa."
+    },
+    "de": {
+      "word": "leider",
+      "sentence": "Leider kann ich nicht zur Party kommen."
+    }
+  },
+  {
+    "id": "fce6b150-6b53-4c09-840e-0460d57bd003",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "fortunatamente",
+      "sentence": "Fortunatamente nessuno si è fatto male."
+    },
+    "de": {
+      "word": "zum Glück",
+      "sentence": "Zum Glück hat sich niemand verletzt."
+    }
+  },
+  {
+    "id": "a92eeadf-0cee-4663-8051-b41c4867dcc6",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "però",
+      "sentence": "Mi piace molto, però costa troppo."
+    },
+    "de": {
+      "word": "aber",
+      "sentence": "Es gefällt mir sehr, aber es kostet zu viel."
+    }
+  },
+  {
+    "id": "34f88477-9194-4d5d-a0e6-752570ac92b8",
+    "level": "A2",
+    "topic": "Structure words",
+    "it": {
+      "word": "invece",
+      "sentence": "Pensavo piovesse, invece c'è il sole."
+    },
+    "de": {
+      "word": "stattdessen",
+      "sentence": "Ich dachte, es regnet, stattdessen scheint die Sonne."
+    }
+  },
+  {
+    "id": "ed204eb2-9adc-4f00-a445-acbcc0c8f2a1",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "inoltre",
+      "sentence": "È tardi; inoltre, sono davvero stanco."
+    },
+    "de": {
+      "word": "ausserdem",
+      "sentence": "Es ist spät; ausserdem bin ich wirklich müde."
+    }
+  },
+  {
+    "id": "512d9c11-8916-4e04-a986-291f7e279195",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "infine",
+      "sentence": "Infine vorrei ringraziare di cuore tutti voi."
+    },
+    "de": {
+      "word": "schliesslich",
+      "sentence": "Schliesslich möchte ich euch allen von Herzen danken."
+    }
+  },
+  {
+    "id": "f48c0ac2-d71d-4126-89f6-1fe4ed479f5d",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "cioè",
+      "sentence": "Arrivo tra poco, cioè verso le otto."
+    },
+    "de": {
+      "word": "das heisst",
+      "sentence": "Ich komme bald, das heisst gegen acht."
+    }
+  },
+  {
+    "id": "5ed9dd2b-c0b7-4e37-9d77-49b560b03308",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "altrimenti",
+      "sentence": "Sbrigati un po', altrimenti perdiamo di sicuro il treno."
+    },
+    "de": {
+      "word": "sonst",
+      "sentence": "Beeil dich ein wenig, sonst verpassen wir sicher den Zug."
+    }
+  },
+  {
+    "id": "84d67af0-226c-4f0e-8cd9-25302541b4bb",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "sennò",
+      "sentence": "Chiudi la finestra, sennò prendi freddo."
+    },
+    "de": {
+      "word": "sonst",
+      "sentence": "Mach das Fenster zu, sonst wird dir kalt."
+    }
+  },
+  {
+    "id": "a11b96dc-60d0-4349-b082-d96943124605",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "pertanto",
+      "sentence": "Piove molto forte; pertanto rimandiamo la gita a domani."
+    },
+    "de": {
+      "word": "daher",
+      "sentence": "Es regnet sehr stark; daher verschieben wir den Ausflug auf morgen."
+    }
+  },
+  {
+    "id": "170f6f6f-18a6-4570-bd41-9bd6c6ef8dcb",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "malgrado",
+      "sentence": "Malgrado la pioggia battente, siamo usciti lo stesso a piedi."
+    },
+    "de": {
+      "word": "trotz",
+      "sentence": "Trotz des strömenden Regens sind wir trotzdem zu Fuss losgegangen."
+    }
+  },
+  {
+    "id": "f6a797fb-55d4-4afc-84c9-d9e9d2fe9055",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "sebbene",
+      "sentence": "Sebbene fosse molto stanco, ha continuato a lavorare fino a tardi."
+    },
+    "de": {
+      "word": "obwohl",
+      "sentence": "Obwohl er sehr müde war, hat er bis spät weitergearbeitet."
+    }
+  },
+  {
+    "id": "40b5cdf0-02b8-4d3f-a4ac-f092574579fa",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "benché",
+      "sentence": "Benché piovesse, la festa è stata un successo."
+    },
+    "de": {
+      "word": "obgleich",
+      "sentence": "Obgleich es regnete, war das Fest ein Erfolg."
+    }
+  },
+  {
+    "id": "154ee075-1e8d-4738-961c-36d668c6d47a",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "finché",
+      "sentence": "Aspettami qui davanti finché non torno dal medico."
+    },
+    "de": {
+      "word": "bis",
+      "sentence": "Warte hier vorne, bis ich vom Arzt zurückkomme."
+    }
+  },
+  {
+    "id": "ca9fa165-b4dc-43b5-992a-9d0fdf651ca1",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "qualora",
+      "sentence": "Qualora ti servisse un aiuto, chiamami pure in qualsiasi momento."
+    },
+    "de": {
+      "word": "falls",
+      "sentence": "Falls du Hilfe brauchen solltest, ruf mich jederzeit ruhig an."
+    }
+  },
+  {
+    "id": "f555ab62-9486-4cc5-8bf7-cbe7389634ae",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "qualsiasi",
+      "sentence": "Puoi chiamarmi a qualsiasi ora del giorno."
+    },
+    "de": {
+      "word": "irgendein",
+      "sentence": "Du kannst mich zu irgendeiner Uhrzeit anrufen."
+    }
+  },
+  {
+    "id": "9aa2ee9e-b335-425e-82d5-14f811dffa16",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "qualunque",
+      "sentence": "Qualunque decisione tu prenda alla fine, io ti sostengo."
+    },
+    "de": {
+      "word": "welch auch immer",
+      "sentence": "Welche Entscheidung du am Ende auch triffst, ich unterstütze dich."
+    }
+  },
+  {
+    "id": "271a516f-3732-4e45-bda4-c56bc5bb491f",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "chiunque",
+      "sentence": "Chiunque lo desideri può partecipare gratuitamente al nostro concorso."
+    },
+    "de": {
+      "word": "jeder",
+      "sentence": "Jeder, der möchte, kann kostenlos an dem Wettbewerb teilnehmen."
+    }
+  },
+  {
+    "id": "c39ba503-d680-4fa3-8913-7250fc772147",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "ognuno",
+      "sentence": "Ognuno di noi ha le proprie responsabilità ben precise."
+    },
+    "de": {
+      "word": "jeder Einzelne",
+      "sentence": "Jeder Einzelne von uns hat seine eigenen genauen Pflichten."
+    }
+  },
+  {
+    "id": "e7a0b9c4-0219-42e9-886c-05099af656d4",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "altrettanto",
+      "sentence": "Ti auguro buon viaggio! – Grazie mille, altrettanto a te."
+    },
+    "de": {
+      "word": "ebenfalls",
+      "sentence": "Ich wünsche dir eine gute Reise! – Danke, dir ebenfalls."
+    }
+  },
+  {
+    "id": "5b232ac9-f821-4ff2-ba6c-41302094e830",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "ne",
+      "sentence": "Vuoi del caffè? Ne prendo volentieri un po'."
+    },
+    "de": {
+      "word": "davon",
+      "sentence": "Möchtest du Kaffee? Ich nehme gern etwas davon."
+    }
+  },
+  {
+    "id": "ce7014ca-f1cb-4914-8a1f-7cde4ab72adb",
+    "level": "B1",
+    "topic": "Structure words",
+    "it": {
+      "word": "cui",
+      "sentence": "Il libro di cui ti ho parlato è finito."
+    },
+    "de": {
+      "word": "dem",
+      "sentence": "Das Buch, von dem ich dir erzählt habe, ist aus."
+    }
+  },
+  {
+    "id": "14fef537-fc37-41b0-8ee2-9ba954ae2157",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "ciò",
+      "sentence": "Ciò che dici adesso non ha davvero molto senso."
+    },
+    "de": {
+      "word": "das",
+      "sentence": "Das, was du jetzt sagst, ergibt wirklich wenig Sinn."
+    }
+  },
+  {
+    "id": "85a9624d-3572-42c0-95bd-a929a0675ece",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "tale",
+      "sentence": "Non avevo mai sentito prima d'ora una tale sciocchezza."
+    },
+    "de": {
+      "word": "solch",
+      "sentence": "So einen grossen Unsinn habe ich noch nie gehört."
+    }
+  },
+  {
+    "id": "a2a68f88-5ead-4737-98fe-b909c296c50e",
+    "level": "A2",
+    "topic": "Structure words",
+    "it": {
+      "word": "ecco",
+      "sentence": "Ecco le chiavi che cercavi."
+    },
+    "de": {
+      "word": "hier ist",
+      "sentence": "Hier sind die Schlüssel, die du gesucht hast."
+    }
+  },
+  {
+    "id": "499a8cf4-64cd-4b75-99f2-4c2250812a60",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "entro",
+      "sentence": "Devi consegnare il modulo compilato entro venerdì della prossima settimana."
+    },
+    "de": {
+      "word": "bis spätestens",
+      "sentence": "Du musst das ausgefüllte Formular bis nächsten Freitag einreichen."
+    }
+  },
+  {
+    "id": "b93c27e1-1ec6-4f79-a9b7-a3da00d8813b",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "presso",
+      "sentence": "Ha lavorato per anni presso una grande azienda."
+    },
+    "de": {
+      "word": "bei",
+      "sentence": "Er hat jahrelang bei einer grossen Firma gearbeitet."
+    }
+  },
+  {
+    "id": "7b8b0aeb-bd13-4356-b6dc-630007f47552",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "eccetto",
+      "sentence": "Il negozio è aperto tutti i giorni della settimana eccetto il lunedì."
+    },
+    "de": {
+      "word": "ausser",
+      "sentence": "Das Geschäft hat jeden Tag geöffnet, ausser am Montag."
+    }
+  },
+  {
+    "id": "02921a24-3b66-404b-9a58-6da251b2d230",
+    "level": "B2",
+    "topic": "Structure words",
+    "it": {
+      "word": "tramite",
+      "sentence": "Ci siamo conosciuti per caso tramite un amico comune."
+    },
+    "de": {
+      "word": "durch",
+      "sentence": "Wir haben uns zufällig durch einen gemeinsamen Freund kennengelernt."
+    }
   }
 ]

@@ -55,7 +55,7 @@ digiuno* out of the Food batch's ambiguous review; the full Health build is stil
 |---|---|---|---|
 | **Verbs** | Allgemeine Tätigkeiten, Bemühung/Vorhaben, Hilfe/Verpflichtung, Besitzen/Geben/Nehmen + polysemous chunk verbs + verb-preposition government | 129 ✓ | +~15 |
 | **Expressions** | Häufige Redewendungen / idioms & reaction-formulas (vale la pena, meno male, in bocca al lupo, figurati…) | 22 ✓ | +~20 |
-| **Structure words** | Strukturwörter: connectives, conjunctions, adverbs, particles, quantifiers, modality; classification (Unterschied), cause/effect (Ursache/Wirkung), manner (Art und Weise) | 88 ✓ | +~40 (split out of Expressions) |
+| **Structure words** | Strukturwörter: connectives, conjunctions, adverbs, particles, quantifiers, modality; classification, cause/effect, manner | 137 ✓ | +~30 |
 | **Numbers** | Masse und Gewichte, Mengenbegriffe, Formen (skip literal counting — A1) | 60 ✓ | done |
 | **Colours** | Farben (split out of Numbers — colours are not numbers) | 22 ✓ | done (small by design) |
 
