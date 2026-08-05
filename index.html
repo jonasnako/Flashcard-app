@@ -237,12 +237,14 @@ const SEED = [
 // Words are loaded read-only from words.json in the repo; progress is per-device.
 const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1";
 const WORDS_KEY="lessico_words_v1", PROG_KEY="lessico_prog_v1";
-const DEFAULTS={direction:"de",levels:[],topics:[],sessionSize:20,learnY:3,focus:"balanced",audioMode:"self",audioSentence:true};
+const DEFAULTS={direction:"de",levels:[],topics:[],sessionSize:20,learnY:3,focus:"balanced",audioMode:"self",audioSentence:true,sfx:true};
 const LANG={it:"it-IT",de:"de-DE"};
 const ttsOK=("speechSynthesis" in window);
 const SRClass=window.SpeechRecognition||window.webkitSpeechRecognition||null;
 const srOK=!!SRClass;
 let audioOn=false, audioGen=0, curRecog=null, audioStatus="", voicesCache=[];
+const ACtxClass=window.AudioContext||window.webkitAudioContext;
+const audioFxOK=!!ACtxClass; let actx=null;
 let settings={...DEFAULTS};
 let lib=[];
 const uid=()=>(crypto.randomUUID?crypto.randomUUID():String(Date.now()+Math.random()));
@@ -408,7 +410,11 @@ function rate(known){
   saveSession();
 }
 let justLearned=false, milestone=null;
-function assess(known){justLearned=false;milestone=null;rate(known);paintSession();paintCounts();if(justLearned)celebrateLearned();if(milestone){celebrateMilestone(milestone);milestone=null;}}
+function assess(known){justLearned=false;milestone=null;rate(known);paintSession();paintCounts();
+  if(justLearned)celebrateLearned();
+  if(milestone)celebrateMilestone(milestone);
+  if(milestone)sfxMilestone();else if(justLearned)sfxLearn(); // chime takes precedence over the learn blip
+  milestone=null;}
 // Sleek learn cue on the top-right counter: number springs + flashes green, a thin ring radiates, a serif "+1" drifts up.
 function celebrateLearned(){
   const e=document.getElementById("counts");if(!e)return;
@@ -424,6 +430,19 @@ function celebrateMilestone(m){
   document.body.appendChild(t);
   setTimeout(()=>t.remove(),2800);
 }
+/* ---- discreet synthesized sound cues (Web Audio, no files) ---- */
+function actxGet(){if(!ACtxClass)return null;if(!actx)actx=new ACtxClass();if(actx.state==="suspended")actx.resume();return actx;}
+function tone(ctx,freq,t0,dur,peak){ // soft sine with a quick attack and exponential decay
+  const o=ctx.createOscillator(),g=ctx.createGain(),t=ctx.currentTime+t0;
+  o.type="sine";o.frequency.value=freq;o.connect(g);g.connect(ctx.destination);
+  g.gain.setValueAtTime(0.0001,t);g.gain.linearRampToValueAtTime(peak,t+0.012);
+  g.gain.exponentialRampToValueAtTime(0.0001,t+dur);
+  o.start(t);o.stop(t+dur+0.03);
+}
+function sfxLearn(){if(!settings.sfx)return;const c=actxGet();if(!c)return; // gentle two-note blip (E5→B5)
+  tone(c,659.25,0,0.12,0.05);tone(c,987.77,0.06,0.16,0.045);}
+function sfxMilestone(){if(!settings.sfx)return;const c=actxGet();if(!c)return; // ascending D–F#–A–D arpeggio, a touch richer
+  tone(c,587.33,0,0.5,0.05);tone(c,739.99,0.10,0.5,0.05);tone(c,880.0,0.20,0.6,0.055);tone(c,1174.66,0.30,0.7,0.04);}
 
 /* ============ tiny DOM helper ============ */
 function el(tag,props,kids){const e=document.createElement(tag);
@@ -673,7 +692,8 @@ function paintSettings(){
   app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["new","New"],["explore","Explore"],["balanced","Balanced"],["consolidate","Consolidate"],["refresh","Refresh"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();},"segwrap"),el("span",{class:"sub"},["One dial from introducing to maintaining. New: only unseen words. Explore, Balanced, Consolidate: blends of new and in-progress words, with less new as you move right — Balanced adapts to how many in-progress words are waiting. Refresh: re-tests words you've already learned; miss one and it returns to learning, get it right and it stays learned."])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();}),el("span",{class:"sub"},["A word is learned after 3 correct in a row (the 3 dots on the card). Learned words leave normal sessions; review them with Focus → Refresh."])]));
 
-  app.appendChild(el("div",{class:"sec"},["Voice"]));
+  app.appendChild(el("div",{class:"sec"},["Audio"]));
+  if(audioFxOK)app.appendChild(el("div",{class:"field"},[el("label",{},["Sound effects"]),seg([["on","On"],["off","Off"]],settings.sfx?"on":"off",v=>{settings.sfx=(v==="on");saveSet();if(settings.sfx)sfxLearn();}),el("span",{class:"sub"},["Discreet chimes when you learn a word or finish a topic. Plays only in response to your ratings."])]));
   if(!ttsOK){
     app.appendChild(el("div",{class:"hint"},["This browser doesn’t support speech, so the hands-free reader is unavailable."]));
   }else{
