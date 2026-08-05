@@ -1,0 +1,626 @@
+[
+  {
+    "id": "c85d262f-0fea-49b8-875f-7cdbf59503cf",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "l'opera",
+      "sentence": "Questa è considerata l'opera più importante dell'autore."
+    },
+    "de": {
+      "word": "das Werk",
+      "sentence": "Dies gilt als das wichtigste Werk des Autors."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2f6ebcf5-b96b-499a-8644-077243c06683",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "la favola",
+      "sentence": "La nonna raccontava sempre una favola prima di dormire."
+    },
+    "de": {
+      "word": "das Märchen",
+      "sentence": "Die Oma erzählte immer ein Märchen vor dem Schlafen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "67207042-6444-47ee-ab9a-b98674c2ab07",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il fumetto",
+      "sentence": "Da bambino leggevo un fumetto nuovo ogni settimana."
+    },
+    "de": {
+      "word": "der Comic",
+      "sentence": "Als Kind las ich jede Woche einen neuen Comic."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2f7ded96-b4a7-4dd7-9a84-425c0bbcc9eb",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "classico",
+      "sentence": "Preferisco la musica classica al rock e al pop."
+    },
+    "de": {
+      "word": "klassisch",
+      "sentence": "Ich mag klassische Musik lieber als Rock und Pop."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "29dd6b60-0360-4658-8b6b-9fede35af910",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "romantico",
+      "sentence": "Hanno passato una serata molto romantica al ristorante."
+    },
+    "de": {
+      "word": "romantisch",
+      "sentence": "Sie verbrachten einen sehr romantischen Abend im Restaurant."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4279de6e-5cca-4d5f-8706-678e73c7a195",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "musicale",
+      "sentence": "Fin da piccola ha mostrato un grande talento musicale."
+    },
+    "de": {
+      "word": "musikalisch",
+      "sentence": "Schon als Kind zeigte sie ein grosses musikalisches Talent."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "663b3aa4-50d3-4f93-bb44-12df36971e3a",
+    "level": "B2",
+    "topic": "Culture",
+    "it": {
+      "word": "citare",
+      "sentence": "Nel suo discorso ha citato più volte un famoso filosofo."
+    },
+    "de": {
+      "word": "zitieren",
+      "sentence": "In seiner Rede zitierte er mehrmals einen berühmten Philosophen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c83f0476-23b2-4d06-9c24-9df45465c580",
+    "level": "B1",
+    "topic": "Culture",
+    "it": {
+      "word": "il diario",
+      "sentence": "Da ragazza scriveva ogni sera nel suo diario segreto."
+    },
+    "de": {
+      "word": "das Tagebuch",
+      "sentence": "Als Mädchen schrieb sie jeden Abend in ihr Tagebuch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3dd4da6c-a1be-4f74-8633-dc809cef25f9",
+    "level": "B1",
+    "topic": "Media",
+    "it": {
+      "word": "la raccomandata",
+      "sentence": "Ho spedito i documenti per raccomandata questa mattina."
+    },
+    "de": {
+      "word": "das Einschreiben",
+      "sentence": "Ich habe die Unterlagen heute früh per Einschreiben verschickt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "05309d43-2e6d-46e0-b578-70171da80ec0",
+    "level": "B1",
+    "topic": "Media",
+    "it": {
+      "word": "il prefisso",
+      "sentence": "Per chiamare all'estero devi comporre prima il prefisso."
+    },
+    "de": {
+      "word": "die Vorwahl",
+      "sentence": "Für Auslandsgespräche musst du zuerst die Vorwahl wählen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e39714dc-bf5a-4678-a3c8-60c454570f57",
+    "level": "B1",
+    "topic": "Media",
+    "it": {
+      "word": "stampare",
+      "sentence": "Puoi stampare questo documento in due copie, per favore?"
+    },
+    "de": {
+      "word": "drucken",
+      "sentence": "Kannst du dieses Dokument bitte zweimal ausdrucken?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9025f353-9241-443e-bf99-176bdbff8638",
+    "level": "B1",
+    "topic": "Media",
+    "it": {
+      "word": "la copia",
+      "sentence": "Fai una copia del contratto prima di firmarlo."
+    },
+    "de": {
+      "word": "die Kopie",
+      "sentence": "Mach eine Kopie des Vertrags, bevor du ihn unterschreibst."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6db83ea4-868c-45ff-a7ed-667edef0b153",
+    "level": "B2",
+    "topic": "Media",
+    "it": {
+      "word": "la cronaca",
+      "sentence": "Segue con interesse la cronaca politica sui giornali nazionali."
+    },
+    "de": {
+      "word": "die Berichterstattung",
+      "sentence": "Er verfolgt die politische Berichterstattung in den überregionalen Zeitungen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e216988e-4541-4af4-bb32-ba1e3c343975",
+    "level": "B2",
+    "topic": "Media",
+    "it": {
+      "word": "il telegramma",
+      "sentence": "Una volta si mandava un telegramma per le notizie urgenti."
+    },
+    "de": {
+      "word": "das Telegramm",
+      "sentence": "Früher schickte man für dringende Nachrichten ein Telegramm."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fe8c9ec2-e39c-4bcc-ada6-15e566e82250",
+    "level": "B2",
+    "topic": "Media",
+    "it": {
+      "word": "il bollettino",
+      "sentence": "Il bollettino meteo prevede pioggia per tutto il fine settimana."
+    },
+    "de": {
+      "word": "der Wetterbericht",
+      "sentence": "Der Wetterbericht sagt Regen für das ganze Wochenende voraus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "40b7c04f-6d9f-42b4-a47e-e7a4f9186823",
+    "level": "B1",
+    "topic": "Media",
+    "it": {
+      "word": "l'sms",
+      "sentence": "Ti mando un sms appena arrivo alla stazione."
+    },
+    "de": {
+      "word": "die SMS",
+      "sentence": "Ich schicke dir eine SMS, sobald ich am Bahnhof bin."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c7051e59-6543-4ff5-973f-ae016a26e632",
+    "level": "B1",
+    "topic": "Media",
+    "it": {
+      "word": "connettersi",
+      "sentence": "Non riesco a connettermi a internet da questa mattina."
+    },
+    "de": {
+      "word": "sich verbinden",
+      "sentence": "Ich kann mich seit heute früh nicht mehr verbinden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e3e45d09-0619-43f3-bb05-d0ece85efa95",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "l'avverbio",
+      "sentence": "In questa frase l'avverbio modifica il significato del verbo."
+    },
+    "de": {
+      "word": "das Adverb",
+      "sentence": "In diesem Satz verändert das Adverb die Bedeutung des Verbs."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ee7e078c-d4af-4f7d-bc33-db5c1bfb06f8",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il pronome",
+      "sentence": "In italiano il pronome personale spesso non è necessario."
+    },
+    "de": {
+      "word": "das Pronomen",
+      "sentence": "Im Italienischen ist das Personalpronomen oft nicht nötig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "40941a2b-628a-41d9-befc-6e730ba0352f",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "la preposizione",
+      "sentence": "La scelta della preposizione giusta è spesso difficile."
+    },
+    "de": {
+      "word": "die Präposition",
+      "sentence": "Die Wahl der richtigen Präposition ist oft schwierig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "74474d02-172b-47e1-a6f3-ea929734b537",
+    "level": "B1",
+    "topic": "Education",
+    "it": {
+      "word": "il soggetto",
+      "sentence": "In ogni frase il soggetto compie di solito l'azione."
+    },
+    "de": {
+      "word": "das Subjekt",
+      "sentence": "In jedem Satz führt das Subjekt meist die Handlung aus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2adbd814-9d66-4804-867b-fa75b85e0de0",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "la vocale",
+      "sentence": "La lingua italiana termina quasi sempre con una vocale."
+    },
+    "de": {
+      "word": "der Vokal",
+      "sentence": "Die italienische Sprache endet fast immer mit einem Vokal."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "df04267d-aa44-4d63-997d-a856658bc21e",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "la consonante",
+      "sentence": "In questa parola la doppia consonante si sente chiaramente."
+    },
+    "de": {
+      "word": "der Konsonant",
+      "sentence": "In diesem Wort hört man den doppelten Konsonanten deutlich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "79aaa029-e269-4e9d-95b7-d8ae0581430d",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "la sillaba",
+      "sentence": "L'accento di questa parola cade sulla penultima sillaba."
+    },
+    "de": {
+      "word": "die Silbe",
+      "sentence": "Die Betonung dieses Wortes liegt auf der vorletzten Silbe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "80c4f46f-43ad-4325-a79b-602409c7782b",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "il significato",
+      "sentence": "Non conosco il significato preciso di questa espressione."
+    },
+    "de": {
+      "word": "die Bedeutung",
+      "sentence": "Ich kenne die genaue Bedeutung dieses Ausdrucks nicht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6c79f46a-9b5a-4dbf-b2d0-cbc5d92e9fc6",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "l'espressione",
+      "sentence": "Questa espressione idiomatica non si può tradurre alla lettera."
+    },
+    "de": {
+      "word": "der Ausdruck",
+      "sentence": "Diesen idiomatischen Ausdruck kann man nicht wörtlich übersetzen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "aa0d7faa-59c1-4379-92e2-98b3120016c8",
+    "level": "B2",
+    "topic": "Education",
+    "it": {
+      "word": "l'iscrizione",
+      "sentence": "L'iscrizione al corso di lingua scade la prossima settimana."
+    },
+    "de": {
+      "word": "die Anmeldung",
+      "sentence": "Die Anmeldung für den Sprachkurs läuft nächste Woche ab."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f8756fc0-3ab1-4eea-9052-a0e7e00825aa",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "boh",
+      "sentence": "Sai dov'è finito il telecomando? Boh, non ne ho idea."
+    },
+    "de": {
+      "word": "keine Ahnung",
+      "sentence": "Weisst du, wo die Fernbedienung ist? Keine Ahnung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7c93ca3d-2be4-4e84-a7ce-1eb9870d3cf1",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "mah",
+      "sentence": "Ti piace il nuovo film? Mah, non mi ha convinto molto."
+    },
+    "de": {
+      "word": "na ja",
+      "sentence": "Gefällt dir der neue Film? Na ja, nicht so wirklich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3e51211c-7a16-4bb5-b2e0-f55185bb4970",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "accidenti",
+      "sentence": "Accidenti, ho di nuovo dimenticato le chiavi in ufficio!"
+    },
+    "de": {
+      "word": "verdammt",
+      "sentence": "Verdammt, ich habe schon wieder die Schlüssel im Büro vergessen!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "eb5c5a5a-63b7-4ce0-9bdb-35aef616a1d8",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "uffa",
+      "sentence": "Uffa, non ho proprio voglia di rifare tutto da capo!"
+    },
+    "de": {
+      "word": "puh",
+      "sentence": "Puh, ich habe echt keine Lust, alles noch mal zu machen!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3d1dcb60-9ab8-4f7e-8717-60561abaa74f",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "cavolo",
+      "sentence": "Cavolo, ho perso di nuovo l'autobus per il centro!"
+    },
+    "de": {
+      "word": "Mist",
+      "sentence": "Mist, ich habe schon wieder den Bus ins Zentrum verpasst!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fd308fc3-d816-49e7-b0bc-73313b5e06bd",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "ottimista",
+      "sentence": "Nonostante i problemi, resta sempre molto ottimista sul futuro."
+    },
+    "de": {
+      "word": "optimistisch",
+      "sentence": "Trotz der Probleme bleibt sie stets sehr optimistisch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d0ab147a-2825-4798-8ad5-7a3e78756e0e",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "pessimista",
+      "sentence": "Non essere così pessimista, andrà tutto per il meglio."
+    },
+    "de": {
+      "word": "pessimistisch",
+      "sentence": "Sei nicht so pessimistisch, es wird alles gut gehen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f664b41c-beab-4afb-95e7-432b3ef08b60",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "impaziente",
+      "sentence": "I bambini erano impazienti di aprire i loro regali."
+    },
+    "de": {
+      "word": "ungeduldig",
+      "sentence": "Die Kinder waren ungeduldig, ihre Geschenke zu öffnen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "44e82345-883f-437f-b931-96e17dacae91",
+    "level": "B1",
+    "topic": "Person",
+    "it": {
+      "word": "cordiale",
+      "sentence": "Ci ha accolti con un sorriso cordiale e sincero."
+    },
+    "de": {
+      "word": "herzlich",
+      "sentence": "Sie empfing uns mit einem herzlichen und ehrlichen Lächeln."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6a3c6845-34e0-4ebe-800f-bd6be03a505d",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "aspro",
+      "sentence": "Questo limone è troppo aspro per il mio gusto."
+    },
+    "de": {
+      "word": "sauer",
+      "sentence": "Diese Zitrone ist mir viel zu sauer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c717daa2-8c82-4eb0-b2c9-cbd10defba61",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "insipido",
+      "sentence": "La minestra è rimasta insipida perché manca il sale."
+    },
+    "de": {
+      "word": "fade",
+      "sentence": "Die Suppe ist fade, weil das Salz fehlt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "977fad4c-42fc-4a4b-9e9c-4c3082749854",
+    "level": "B1",
+    "topic": "Food",
+    "it": {
+      "word": "secco",
+      "sentence": "Preferisco un vino bianco secco con il pesce."
+    },
+    "de": {
+      "word": "trocken",
+      "sentence": "Ich mag zum Fisch lieber einen trockenen Weisswein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]
