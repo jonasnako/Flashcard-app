@@ -641,18 +641,18 @@ function paintSettings(){
       d.appendChild(el("button",{class:isOn?"on":"",style:col?{color:col}:{},onclick:()=>on(isOn?sel.filter(x=>x!==o):[...sel,o])},[o]));});
     return d;};
 
-  app.appendChild(el("div",{class:"sec first"},["Study"]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
+  app.appendChild(el("div",{class:"sec first"},["What"]));
   const levels=["A1","A2","B1","B2","C1","C2"].filter(l=>lib.some(c=>c.level===l));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Levels"]),multiSeg(levels,settings.levels,v=>{settings.levels=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Sessions draw only from the selected levels."])]));
   const topics=sortedTopics();
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),topicSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Each topic's colour shows its progress at the selected level(s) — amber needs work, green is learned."])]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["new","New"],["explore","Explore"],["balanced","Balanced"],["consolidate","Consolidate"],["refresh","Refresh"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();},"segwrap"),el("span",{class:"sub"},["One dial from introducing to maintaining. New: only unseen words. Explore, Balanced, Consolidate: blends of new and in-progress words, with less new as you move right — Balanced adapts to how many in-progress words are waiting. Refresh: re-tests words you've already learned; miss one and it returns to learning, get it right and it stays learned."])]));
   {const fp=filterProgress(0);
    app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in this filter"]),fp.bar,el("span",{class:"sub"},[fp.label])]));}
 
-  app.appendChild(el("div",{class:"sec"},["Learning"]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();}),el("span",{class:"sub"},["A word is learned after 3 correct in a row (the 3 dots on the card). Learned words leave normal sessions; review them with Focus → Recap."])]));
+  app.appendChild(el("div",{class:"sec"},["How"]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["new","New"],["explore","Explore"],["balanced","Balanced"],["consolidate","Consolidate"],["refresh","Refresh"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();},"segwrap"),el("span",{class:"sub"},["One dial from introducing to maintaining. New: only unseen words. Explore, Balanced, Consolidate: blends of new and in-progress words, with less new as you move right — Balanced adapts to how many in-progress words are waiting. Refresh: re-tests words you've already learned; miss one and it returns to learning, get it right and it stays learned."])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();}),el("span",{class:"sub"},["A word is learned after 3 correct in a row (the 3 dots on the card). Learned words leave normal sessions; review them with Focus → Refresh."])]));
 
   app.appendChild(el("div",{class:"sec"},["Voice"]));
   if(!ttsOK){
