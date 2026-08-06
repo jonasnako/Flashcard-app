@@ -254,10 +254,10 @@ function norm(c){
   const de=(c.de&&typeof c.de==="object")?c.de:{word:c.de||"",sentence:c.des||""};
   return {id:c.id||uid(),level:(c.level||"B1").toUpperCase(),topic:c.topic||"Other",
     it:{word:it.word||"",sentence:it.sentence||""},de:{word:de.word||"",sentence:de.sentence||""},
-    streak:c.streak||0,correct:c.correct||0,seen:c.seen||0,ivl:c.ivl||0,due:c.due||0,retired:!!c.retired};
+    streak:c.streak||0,correct:c.correct||0,seen:c.seen||0,seenAt:c.seenAt||0,ivl:c.ivl||0,due:c.due||0,retired:!!c.retired};
 }
 const stripWord=c=>({id:c.id,level:c.level,topic:c.topic,it:{word:c.it.word,sentence:c.it.sentence},de:{word:c.de.word,sentence:c.de.sentence}});
-const stripProg=c=>{const o={streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};if(c.ivl)o.ivl=c.ivl;if(c.due)o.due=c.due;if(c.retired)o.retired=true;return o;};
+const stripProg=c=>{const o={streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};if(c.seenAt)o.seenAt=c.seenAt;if(c.ivl)o.ivl=c.ivl;if(c.due)o.due=c.due;if(c.retired)o.retired=true;return o;};
 const wordsFromLib=()=>lib.map(stripWord);
 function progFromLib(){const p={};lib.forEach(c=>{p[c.id]=stripProg(c);});return p;}
 function readJSON(k){try{const v=localStorage.getItem(k);return v?JSON.parse(v):null;}catch(e){return null;}}
@@ -372,7 +372,10 @@ function interleave(a,b){const out=[],n=a.length+b.length;let i=0,j=0;
 function pickCards(size){
   const f=settings.focus, inF=lib.filter(inFilter);
   if(f==="refresh")return shuffle(inF.filter(dueNow)).slice(0,size);
-  const news=shuffle(inF.filter(isNewC)), prog=shuffle(inF.filter(isProgC));
+  // least-recently-seen first (shuffle breaks ties): a card you just saw sinks to the back, so it
+  // won't reappear next session while fresher cards remain — and if the pool is small it just repeats.
+  const byRecency=arr=>shuffle(arr).sort((a,b)=>(a.seenAt||0)-(b.seenAt||0));
+  const news=byRecency(inF.filter(isNewC)), prog=byRecency(inF.filter(isProgC));
   if(f==="new")return news.slice(0,size);
   let share;
   if(f in NEW_SHARE)share=NEW_SHARE[f];
@@ -391,7 +394,7 @@ function startSession(){
 const cur=()=>session&&session.queue[0]?lib.find(c=>c.id===session.queue[0].id):null;
 function rate(known){
   const head=session.queue[0];const c=lib.find(x=>x.id===head.id);if(!c)return;
-  c.seen=(c.seen||0)+1;
+  c.seen=(c.seen||0)+1;c.seenAt=Date.now(); // last-seen time drives least-recently-seen ordering (soft spacing)
   const recap=settings.focus==="refresh";
   if(recap){
     // Spaced maintenance: a miss sends it back to learning; a hit grows the interval until it retires (off the list).
