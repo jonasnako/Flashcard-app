@@ -447,13 +447,14 @@ function tone(ctx,freq,t0,dur,peak,atk){ // soft sine with a quick attack and ex
   g.gain.exponentialRampToValueAtTime(0.0001,t+dur);
   o.start(t);o.stop(t+dur+0.03);
 }
-function sfxLearn(){if(!settings.sfx)return;const c=actxGet();if(!c)return; // discreet bell: bright inharmonic partials with a long soft ring-out
-  const f=1174.66;
-  tone(c,f,     0,1.7, 0.046,0.004);
-  tone(c,f*2.0, 0,1.4, 0.030,0.004);
-  tone(c,f*2.76,0,1.15,0.024,0.004);
-  tone(c,f*3.9, 0,0.9, 0.016,0.004);
-  tone(c,f*5.4, 0,0.7, 0.011,0.004);}
+function sfxLearn(){if(!settings.sfx)return;const c=actxGet();if(!c)return; // meditation bell: bright shimmer, long slow fade-out
+  const f=1318.5;
+  tone(c,f,     0,4.0,0.042,0.003);
+  tone(c,f*2.0, 0,3.3,0.032,0.003);
+  tone(c,f*2.76,0,2.7,0.026,0.003);
+  tone(c,f*3.9, 0,2.1,0.019,0.003);
+  tone(c,f*5.4, 0,1.6,0.013,0.003);
+  tone(c,f*7.1, 0,1.2,0.008,0.003);}
 function sfxMilestone(){if(!settings.sfx)return;const c=actxGet();if(!c)return; // ascending D–F#–A–D arpeggio, a touch richer
   tone(c,587.33,0,0.5,0.05);tone(c,739.99,0.10,0.5,0.05);tone(c,880.0,0.20,0.6,0.055);tone(c,1174.66,0.30,0.7,0.04);}
 
