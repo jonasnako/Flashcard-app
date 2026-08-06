@@ -383,6 +383,7 @@ function pickCards(size){
   return interleave(news.slice(0,nNew),prog.slice(0,nProg));
 }
 function startSession(){
+  if(settings.sfx)actxGet(); // warm up audio on this gesture so the first cue plays without resume lag
   const chosen=pickCards(Math.max(1,settings.sessionSize|0));
   session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,active:chosen.length>0};
   flipped=false;saveSession();
@@ -418,10 +419,11 @@ function rate(known){
   saveSession();
 }
 let justLearned=false, milestone=null;
-function assess(known){justLearned=false;milestone=null;rate(known);paintSession();paintCounts();
+function assess(known){if(settings.sfx)actxGet();justLearned=false;milestone=null;rate(known);
+  if(milestone)sfxMilestone();else if(justLearned)sfxLearn(); // fire sound first, before the DOM work, so it lands immediately
+  paintSession();paintCounts();
   if(justLearned)celebrateLearned();
   if(milestone)celebrateMilestone(milestone);
-  if(milestone)sfxMilestone();else if(justLearned)sfxLearn(); // chime takes precedence over the learn blip
   milestone=null;}
 // Sleek learn cue on the top-right counter: number springs + flashes green, a thin ring radiates, a serif "+1" drifts up.
 function celebrateLearned(){
@@ -449,12 +451,12 @@ function tone(ctx,freq,t0,dur,peak,atk){ // soft sine with a quick attack and ex
 }
 function sfxLearn(){if(!settings.sfx)return;const c=actxGet();if(!c)return; // meditation bell: bright shimmer, long slow fade-out
   const f=1318.5;
-  tone(c,f,     0,4.0,0.042,0.003);
-  tone(c,f*2.0, 0,3.3,0.032,0.003);
-  tone(c,f*2.76,0,2.7,0.026,0.003);
-  tone(c,f*3.9, 0,2.1,0.019,0.003);
-  tone(c,f*5.4, 0,1.6,0.013,0.003);
-  tone(c,f*7.1, 0,1.2,0.008,0.003);}
+  tone(c,f,     0,4.0,0.026,0.003);
+  tone(c,f*2.0, 0,3.3,0.020,0.003);
+  tone(c,f*2.76,0,2.7,0.016,0.003);
+  tone(c,f*3.9, 0,2.1,0.012,0.003);
+  tone(c,f*5.4, 0,1.6,0.008,0.003);
+  tone(c,f*7.1, 0,1.2,0.005,0.003);}
 function sfxMilestone(){if(!settings.sfx)return;const c=actxGet();if(!c)return; // ascending D–F#–A–D arpeggio, a touch richer
   tone(c,587.33,0,0.5,0.05);tone(c,739.99,0.10,0.5,0.05);tone(c,880.0,0.20,0.6,0.055);tone(c,1174.66,0.30,0.7,0.04);}
 
