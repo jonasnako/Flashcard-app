@@ -44,7 +44,7 @@
     "topic": "Household",
     "it": {
       "word": "stirare",
-      "sentence": "Odio stirare le camicie, perciò cerco di comprarne di stropicciabili."
+      "sentence": "Odio stirare le camicie, perciò cerco di comprarne di ingualcibili."
     },
     "de": {
       "word": "bügeln",
@@ -1387,7 +1387,7 @@
     },
     "de": {
       "word": "die Waschmaschine beladen",
-      "sentence": "Ich beladen die Waschmaschine alle zwei Tage."
+      "sentence": "Ich belade die Waschmaschine alle zwei Tage."
     }
   },
   {
@@ -2218,7 +2218,7 @@
       "sentence": "Puoi darmi una mano con la spesa?"
     },
     "de": {
-      "word": "helfend zur Hand gehen",
+      "word": "zur Hand gehen",
       "sentence": "Kannst du mir mit dem Einkauf zur Hand gehen?"
     }
   },
@@ -2661,7 +2661,7 @@
     },
     "de": {
       "word": "wiederverwenden",
-      "sentence": "Wir verwenden die Glasgläser für die Vorratskammer wieder."
+      "sentence": "Wir verwenden die Einmachgläser für die Vorratskammer wieder."
     }
   },
   {
@@ -4182,7 +4182,7 @@
     },
     "de": {
       "word": "sich überzeugen",
-      "sentence": "Am Ende hat er sich überzeugt anzunehmen."
+      "sentence": "Am Ende liess er sich überzeugen, zuzusagen."
     }
   },
   {
@@ -4429,7 +4429,7 @@
     },
     "de": {
       "word": "das Gespür",
-      "sentence": "Er hatte ein seltsames Gespür für Déjà-vu."
+      "sentence": "Er hatte ein seltsames Déjà-vu-Gefühl."
     }
   },
   {
@@ -4763,7 +4763,7 @@
     "topic": "Thinking & Feeling",
     "it": {
       "word": "avere abbastanza",
-      "sentence": "Ho abbastanza di queste scuse."
+      "sentence": "Ne ho abbastanza di queste scuse."
     },
     "de": {
       "word": "genug haben",
@@ -6063,7 +6063,7 @@
     "topic": "Communication",
     "it": {
       "word": "la domanda",
-      "sentence": "È una domanda difficile da rispondere."
+      "sentence": "È una domanda a cui è difficile rispondere."
     },
     "de": {
       "word": "die Frage",
@@ -8082,7 +8082,7 @@
     },
     "de": {
       "word": "sich beflecken",
-      "sentence": "Er hat sich beim Mittagessen das Hemd befleckt."
+      "sentence": "Er hat sich beim Mittagessen das Hemd bekleckert."
     }
   },
   {
@@ -9066,7 +9066,7 @@
     "topic": "Nature",
     "it": {
       "word": "l'eco",
-      "sentence": "Nella valle si sentiva un forte eco."
+      "sentence": "Nella valle si sentiva una forte eco."
     },
     "de": {
       "word": "das Echo",
@@ -14824,8 +14824,8 @@
     "level": "B2",
     "topic": "Animals",
     "it": {
-      "word": "la zampa artigliata",
-      "sentence": "Bisognerebbe tagliargli le unghie, altrimenti graffia il divano."
+      "word": "l'artiglio",
+      "sentence": "Bisognerebbe tagliargli gli artigli, altrimenti graffia il divano."
     },
     "de": {
       "word": "die Kralle",
@@ -15583,7 +15583,7 @@
     },
     "de": {
       "word": "der Oberschenkel",
-      "sentence": "Nach dem Training spürte er die Oberschenkel zu sehr zum Laufen."
+      "sentence": "Nach dem Training waren seine Oberschenkel zu wund, um zu laufen."
     }
   },
   {
@@ -17286,7 +17286,7 @@
     },
     "de": {
       "word": "abtrennen",
-      "sentence": "Trenn den Stecker, bevor du das Gerät reinigst."
+      "sentence": "Zieh den Stecker, bevor du das Gerät reinigst."
     }
   },
   {
@@ -17598,7 +17598,7 @@
     },
     "de": {
       "word": "helfen bei",
-      "sentence": "Helfe ich dir, den Einkauf zu tragen?"
+      "sentence": "Soll ich dir helfen, den Einkauf zu tragen?"
     }
   },
   {
@@ -19626,7 +19626,7 @@
     },
     "de": {
       "word": "das Hähnchen",
-      "sentence": "Heute Abend mache ich ein Hähnchen mit Kartoffeln."
+      "sentence": "Heute Abend mache ich ein Hähnchen aus dem Ofen mit Kartoffeln."
     }
   },
   {
@@ -19925,7 +19925,7 @@
     },
     "de": {
       "word": "das Frühstück",
-      "sentence": "Zum Frühstück trinke ich Kaffee mit Brot."
+      "sentence": "Zum Frühstück esse ich Brot und trinke Kaffee."
     }
   },
   {
@@ -20055,7 +20055,7 @@
     },
     "de": {
       "word": "der Hauptgang",
-      "sentence": "Der Hauptgang besteht aus Fisch mit frischem Gemüse."
+      "sentence": "Der Hauptgang besteht aus Fisch mit Gemüse."
     }
   },
   {
@@ -20068,7 +20068,7 @@
     },
     "de": {
       "word": "die Nachspeise",
-      "sentence": "Als Nachspeise haben wir ein leckeres Tiramisu gegessen."
+      "sentence": "Als Nachspeise haben wir Tiramisu gegessen."
     }
   },
   {
@@ -20263,7 +20263,7 @@
     },
     "de": {
       "word": "die Meeresfrüchte",
-      "sentence": "Diese Suppe enthält viele verschiedene frische Meeresfrüchte."
+      "sentence": "Diese Suppe enthält viele frische Meeresfrüchte."
     }
   },
   {
@@ -20406,7 +20406,7 @@
     },
     "de": {
       "word": "der Salat",
-      "sentence": "Ich mache den Salat mit Öl an."
+      "sentence": "Ich mache den Salat mit Öl und Salz an."
     }
   },
   {
@@ -20510,7 +20510,7 @@
     },
     "de": {
       "word": "der Saft",
-      "sentence": "Die Kinder trinken Apfelsaft zum Frühstück."
+      "sentence": "Die Kinder trinken Apfelsaft."
     }
   },
   {
@@ -20666,7 +20666,7 @@
     },
     "de": {
       "word": "die Sauce",
-      "sentence": "Die Tomatensauce kocht langsam auf dem Herd."
+      "sentence": "Die Tomatensauce kocht langsam."
     }
   },
   {
@@ -20926,7 +20926,7 @@
     },
     "de": {
       "word": "die Schwiegertochter",
-      "sentence": "Die Schwiegertochter hat das ganze Sonntagessen zubereitet."
+      "sentence": "Die Schwiegertochter hat das Sonntagsessen zubereitet."
     }
   },
   {
@@ -21017,7 +21017,7 @@
     },
     "de": {
       "word": "der Verlobte",
-      "sentence": "Mein Verlobter hat mir schöne Blumen geschenkt."
+      "sentence": "Mein Verlobter hat mir Blumen geschenkt."
     }
   },
   {
@@ -21069,7 +21069,7 @@
     },
     "de": {
       "word": "der Ex-Partner",
-      "sentence": "Sein Ex-Partner wohnt noch in derselben Stadt."
+      "sentence": "Seine Ex wohnt noch in derselben Stadt."
     }
   },
   {
@@ -21186,7 +21186,7 @@
     },
     "de": {
       "word": "die Umarmung",
-      "sentence": "Eine herzliche Umarmung hat mich sofort beruhigt."
+      "sentence": "Eine herzliche Umarmung hat mich beruhigt."
     }
   },
   {
@@ -21199,7 +21199,7 @@
     },
     "de": {
       "word": "die Treue",
-      "sentence": "Treue ist für mich die wichtigste Grundlage jeder dauerhaften Beziehung."
+      "sentence": "Treue ist die Grundlage jeder gesunden und dauerhaften Beziehung."
     }
   },
   {
@@ -21238,7 +21238,7 @@
     },
     "de": {
       "word": "der Respekt",
-      "sentence": "Der gegenseitige Respekt hält das Paar dauerhaft zusammen."
+      "sentence": "Der gegenseitige Respekt hält das Paar zusammen."
     }
   },
   {
@@ -21615,7 +21615,7 @@
     },
     "de": {
       "word": "eifersüchtig",
-      "sentence": "Er ist eifersüchtig, wenn sie ausgeht."
+      "sentence": "Er ist eifersüchtig, wenn sie mit anderen ausgeht."
     }
   },
   {
@@ -21719,7 +21719,7 @@
     },
     "de": {
       "word": "das Zusammenleben",
-      "sentence": "Das gemeinsame Zusammenleben erfordert viel Geduld und viele tägliche Kompromisse."
+      "sentence": "Das Zusammenleben erfordert viel Geduld und viele kleine tägliche Kompromisse."
     }
   },
   {
@@ -21771,7 +21771,7 @@
     },
     "de": {
       "word": "die Bauchschmerzen",
-      "sentence": "Das Kind hat oft starke Bauchschmerzen."
+      "sentence": "Das Kind hat oft Bauchschmerzen."
     }
   },
   {
@@ -21810,7 +21810,7 @@
     },
     "de": {
       "word": "die Infektion",
-      "sentence": "Das Antibiotikum hilft gegen die bakterielle Infektion."
+      "sentence": "Das Antibiotikum hilft gegen eine schlimme Infektion."
     }
   },
   {
@@ -21823,7 +21823,7 @@
     },
     "de": {
       "word": "die Allergie",
-      "sentence": "Im Frühling habe ich eine starke Pollenallergie."
+      "sentence": "Im Frühling habe ich eine Pollenallergie."
     }
   },
   {
@@ -21836,7 +21836,7 @@
     },
     "de": {
       "word": "die Übelkeit",
-      "sentence": "Nach der Bootsfahrt spürte ich starke Übelkeit."
+      "sentence": "Nach der Bootsfahrt spürte ich Übelkeit."
     }
   },
   {
@@ -22278,7 +22278,7 @@
     },
     "de": {
       "word": "der Gips",
-      "sentence": "Er trug den Gips ganze sechs Wochen lang."
+      "sentence": "Er trug den Gips sechs Wochen lang."
     }
   },
   {
@@ -22460,7 +22460,7 @@
     },
     "de": {
       "word": "bluten",
-      "sentence": "Die Wunde hat endlich aufgehört zu bluten."
+      "sentence": "Die Wunde hat aufgehört zu bluten."
     }
   },
   {
@@ -22486,7 +22486,7 @@
     },
     "de": {
       "word": "sich übergeben",
-      "sentence": "Das Kind hat sich nach dem Essen übergeben."
+      "sentence": "Das Kind hat sich sofort nach dem Abendessen übergeben."
     }
   },
   {
@@ -22655,7 +22655,7 @@
     },
     "de": {
       "word": "die Oberschule",
-      "sentence": "Die Oberschule dauert bei uns fünf Jahre."
+      "sentence": "Die Oberschule dauert fünf Jahre."
     }
   },
   {
@@ -22837,7 +22837,7 @@
     },
     "de": {
       "word": "der Schulleiter",
-      "sentence": "Der Schulleiter hat alle Eltern einberufen."
+      "sentence": "Der Schulleiter hat alle Eltern einbestellt."
     }
   },
   {
@@ -23032,7 +23032,7 @@
     },
     "de": {
       "word": "die Klassenarbeit",
-      "sentence": "Die Klassenarbeit dauert bei uns zwei Stunden."
+      "sentence": "Die Klassenarbeit dauert zwei Stunden."
     }
   },
   {
@@ -23240,7 +23240,7 @@
     },
     "de": {
       "word": "die Abwesenheit",
-      "sentence": "Zu viele Abwesenheiten können echte Probleme verursachen."
+      "sentence": "Zu viele Abwesenheiten können den Schülern ernste Probleme verursachen."
     }
   },
   {
@@ -23344,7 +23344,7 @@
     },
     "de": {
       "word": "die Literatur",
-      "sentence": "Ich liebe die italienische Literatur des neunzehnten Jahrhunderts."
+      "sentence": "Ich liebe die italienische Literatur des neunzehnten und zwanzigsten Jahrhunderts."
     }
   },
   {
@@ -23565,7 +23565,7 @@
     },
     "de": {
       "word": "übersetzen",
-      "sentence": "Ich übersetze den Artikel aus dem Italienischen ins Deutsche."
+      "sentence": "Ich übersetze den ganzen Artikel für sie aus dem Italienischen ins Deutsche."
     }
   },
   {
@@ -23578,7 +23578,7 @@
     },
     "de": {
       "word": "konjugieren",
-      "sentence": "Man muss lernen, die unregelmässigen Verben zu konjugieren."
+      "sentence": "Man muss lernen, die italienischen unregelmässigen Verben gut zu konjugieren."
     }
   },
   {
@@ -23786,7 +23786,7 @@
     },
     "de": {
       "word": "der Beruf",
-      "sentence": "Von Beruf ist er Architekt in einem Architekturbüro."
+      "sentence": "Von Beruf ist er Architekt in einem grossen Architekturbüro."
     }
   },
   {
@@ -24033,7 +24033,7 @@
     },
     "de": {
       "word": "der Unternehmer",
-      "sentence": "Der Unternehmer investiert in neue Technologien."
+      "sentence": "Der Unternehmer investiert viel in neue digitale Technologien."
     }
   },
   {
@@ -24254,7 +24254,7 @@
     },
     "de": {
       "word": "der Lohn",
-      "sentence": "Der Mindestlohn ist bei uns gesetzlich genau festgelegt."
+      "sentence": "Der Mindestlohn ist gesetzlich festgelegt."
     }
   },
   {
@@ -24527,7 +24527,7 @@
     },
     "de": {
       "word": "leiten",
-      "sentence": "Sie leitet das Unternehmen mit grosser Kompetenz."
+      "sentence": "Sie leitet das ganze Unternehmen mit grosser Kompetenz und Energie."
     }
   },
   {
@@ -24743,8 +24743,8 @@
     "level": "A2",
     "topic": "Economy",
     "it": {
-      "word": "i soldi",
-      "sentence": "Ho messo da parte i soldi per le vacanze."
+      "word": "i risparmi",
+      "sentence": "Ho messo da parte i risparmi per le vacanze."
     },
     "de": {
       "word": "das Ersparte",
@@ -25710,7 +25710,7 @@
     },
     "de": {
       "word": "handeln",
-      "sentence": "Diese Firma handelt vor allem mit Textilprodukten."
+      "sentence": "Diese Firma handelt mit Textilprodukten."
     }
   },
   {
@@ -26282,7 +26282,7 @@
     },
     "de": {
       "word": "der Sessel",
-      "sentence": "Der Grossvater liest in seinem alten Sessel."
+      "sentence": "Der Grossvater liest in seinem Sessel."
     }
   },
   {
@@ -26698,7 +26698,7 @@
     },
     "de": {
       "word": "die Republik",
-      "sentence": "Italien wurde im Jahr neunzehnhundertsechsundvierzig endlich eine Republik."
+      "sentence": "Italien wurde im Jahr neunzehnhundertsechsundvierzig eine Republik."
     }
   },
   {
@@ -26984,7 +26984,7 @@
     },
     "de": {
       "word": "das Gefängnis",
-      "sentence": "Der Richter hat ihn zu Gefängnis verurteilt."
+      "sentence": "Der Richter hat ihn zu einer Gefängnisstrafe verurteilt."
     }
   },
   {
@@ -27179,7 +27179,7 @@
     },
     "de": {
       "word": "die soziale Schicht",
-      "sentence": "Seine soziale Schicht hat seine beruflichen Chancen stark beeinflusst."
+      "sentence": "Seine soziale Schicht hat seine Möglichkeiten beeinflusst."
     }
   },
   {
@@ -27231,7 +27231,7 @@
     },
     "de": {
       "word": "die Integration",
-      "sentence": "Die Integration der Ausländer in die Gesellschaft braucht viel Zeit."
+      "sentence": "Die Integration der Ausländer in die Gesellschaft braucht Zeit und viel Engagement."
     }
   },
   {
@@ -27257,7 +27257,7 @@
     },
     "de": {
       "word": "der Rassismus",
-      "sentence": "Die Schule bekämpft den Rassismus mit Bildung und viel Aufklärung."
+      "sentence": "Die Schule versucht, den Rassismus mit staatsbürgerlicher Bildung zu bekämpfen."
     }
   },
   {
@@ -27711,8 +27711,8 @@
       "sentence": "Domenica andiamo a votare per il nuovo sindaco."
     },
     "de": {
-      "word": "abstimmen",
-      "sentence": "Am Sonntag gehen wir über den neuen Bürgermeister abstimmen."
+      "word": "wählen",
+      "sentence": "Am Sonntag gehen wir den neuen Bürgermeister wählen."
     }
   },
   {
@@ -27972,7 +27972,7 @@
     },
     "de": {
       "word": "das Ziel",
-      "sentence": "Unser endgültiges Reiseziel auf dieser Fahrt ist Lissabon."
+      "sentence": "Unser endgültiges Reiseziel ist Lissabon."
     }
   },
   {
@@ -27985,7 +27985,7 @@
     },
     "de": {
       "word": "die Reiseroute",
-      "sentence": "Wir haben die ganze Reiseroute sorgfältig im Voraus geplant."
+      "sentence": "Wir haben die ganze Reiseroute sorgfältig geplant."
     }
   },
   {
@@ -28544,7 +28544,7 @@
     },
     "de": {
       "word": "die Rezeption",
-      "sentence": "Ich gebe die Schlüssel an der Rezeption ab."
+      "sentence": "Ich gebe die Schlüssel an der Rezeption ab, wenn ich weggehe."
     }
   },
   {
@@ -29428,7 +29428,7 @@
     },
     "de": {
       "word": "vorher",
-      "sentence": "Vorher kontrolliere ich immer die Fenster."
+      "sentence": "Bevor ich ausgehe, kontrolliere ich immer die Fenster."
     }
   },
   {
@@ -29441,7 +29441,7 @@
     },
     "de": {
       "word": "danach",
-      "sentence": "Nach dem Essen machen wir danach einen Spaziergang."
+      "sentence": "Nach dem Essen machen wir einen Spaziergang."
     }
   },
   {
@@ -29571,7 +29571,7 @@
     },
     "de": {
       "word": "kürzlich",
-      "sentence": "Erst kürzlich habe ich meine täglichen Gewohnheiten völlig geändert."
+      "sentence": "Erst kürzlich habe ich meine alten Gewohnheiten völlig geändert."
     }
   },
   {
@@ -29766,7 +29766,7 @@
     },
     "de": {
       "word": "verbringen",
-      "sentence": "Wir haben den ganzen Sommer in den Bergen verbracht."
+      "sentence": "Wir haben den ganzen Sommer zusammen in einem Haus in den Bergen verbracht."
     }
   },
   {
@@ -30065,7 +30065,7 @@
     },
     "de": {
       "word": "einfarbig",
-      "sentence": "Ich bevorzuge lieber ein einfarbiges Hemd."
+      "sentence": "Ich bevorzuge ein einfarbiges Hemd."
     }
   },
   {
@@ -30208,7 +30208,7 @@
     },
     "de": {
       "word": "das Volumen",
-      "sentence": "Das Volumen dieses grossen Behälters beträgt genau zehn Liter."
+      "sentence": "Das Volumen dieses Behälters beträgt zehn Liter."
     }
   },
   {
@@ -30441,7 +30441,7 @@
       "sentence": "Alla festa c'erano una decina di persone."
     },
     "de": {
-      "word": "das Dutzend etwa",
+      "word": "etwa zehn",
       "sentence": "Auf der Party waren etwa zehn Leute."
     }
   },
@@ -30793,7 +30793,7 @@
     },
     "de": {
       "word": "zahlreich",
-      "sentence": "Er hat eine sehr zahlreiche und grosse Familie."
+      "sentence": "Er hat eine wirklich sehr grosse und eng verbundene Familie."
     }
   },
   {
@@ -31001,7 +31001,7 @@
     },
     "de": {
       "word": "das Interview",
-      "sentence": "Das Interview mit dem Sänger dauert eine halbe Stunde."
+      "sentence": "Das Interview mit dem jungen Sänger dauert fast eine halbe Stunde."
     }
   },
   {
@@ -31131,7 +31131,7 @@
     },
     "de": {
       "word": "die Übertragung",
-      "sentence": "Die gestrige Liveübertragung hatte leider einige kleinere technische Probleme."
+      "sentence": "Die Liveübertragung hatte einige technische Probleme."
     }
   },
   {
@@ -31664,7 +31664,7 @@
     },
     "de": {
       "word": "abonnieren",
-      "sentence": "Ich habe seit Kurzem eine Onlinezeitung abonniert."
+      "sentence": "Ich habe eine Onlinezeitung abonniert."
     }
   },
   {
@@ -31677,7 +31677,7 @@
     },
     "de": {
       "word": "surfen",
-      "sentence": "Ich verbringe zu viel Zeit im Internet zu surfen."
+      "sentence": "Ich verbringe zu viel Zeit damit, im Internet zu surfen."
     }
   },
   {
@@ -32249,7 +32249,7 @@
     },
     "de": {
       "word": "die Malerei",
-      "sentence": "Die Ölmalerei erfordert sehr viel Geduld und Übung."
+      "sentence": "Die Ölmalerei erfordert sehr viel Geduld."
     }
   },
   {
@@ -32275,7 +32275,7 @@
     },
     "de": {
       "word": "die Skulptur",
-      "sentence": "Die grosse Marmorskulptur wiegt gut mehrere Tonnen."
+      "sentence": "Die Marmorskulptur wiegt mehrere Tonnen."
     }
   },
   {
@@ -32547,8 +32547,8 @@
       "sentence": "Il protagonista del romanzo è un vecchio marinaio."
     },
     "de": {
-      "word": "der Hauptdarsteller",
-      "sentence": "Der Hauptdarsteller des Romans ist ein alter Seemann."
+      "word": "die Hauptfigur",
+      "sentence": "Die Hauptfigur des Romans ist ein alter Seemann."
     }
   },
   {
@@ -32743,7 +32743,7 @@
     },
     "de": {
       "word": "der Jahrestag",
-      "sentence": "Wir feiern morgen unseren fünften Hochzeitstag zusammen."
+      "sentence": "Wir feiern morgen unseren Hochzeitstag."
     }
   },
   {
@@ -32847,7 +32847,7 @@
     },
     "de": {
       "word": "das Feuerwerk",
-      "sentence": "Das grosse Feuerwerk hat den ganzen dunklen Nachthimmel erleuchtet."
+      "sentence": "Das Feuerwerk hat den ganzen Nachthimmel erleuchtet."
     }
   },
   {
@@ -34277,7 +34277,7 @@
     },
     "de": {
       "word": "die Landschaft",
-      "sentence": "Die Berglandschaft hier oben ist wirklich absolut atemberaubend."
+      "sentence": "Die Berglandschaft ist atemberaubend."
     }
   },
   {
@@ -35252,7 +35252,7 @@
     },
     "de": {
       "word": "die Arztpraxis",
-      "sentence": "Die Arztpraxis öffnet jeden Morgen um acht."
+      "sentence": "Die Arztpraxis öffnet um acht."
     }
   },
   {
@@ -35330,7 +35330,7 @@
     },
     "de": {
       "word": "der Hustensaft",
-      "sentence": "Nimm den Hustensaft zweimal täglich vor dem Essen."
+      "sentence": "Nimm den Hustensaft zweimal täglich."
     }
   },
   {
@@ -35356,7 +35356,7 @@
     },
     "de": {
       "word": "blind",
-      "sentence": "Nach dem Unfall ist er völlig blind geworden."
+      "sentence": "Nach dem schweren Verkehrsunfall ist er völlig blind geworden."
     }
   },
   {
@@ -39520,7 +39520,7 @@
     },
     "de": {
       "word": "der Wunsch",
-      "sentence": "Viele Wünsche zu deinem Geburtstag!"
+      "sentence": "Herzliche Glückwünsche zum Geburtstag!"
     },
     "streak": 0,
     "correct": 0,
