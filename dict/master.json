@@ -23587,11 +23587,11 @@
     "topic": "Education",
     "it": {
       "word": "la madrelingua",
-      "sentence": "La sua madrelingua è il portoghese."
+      "sentence": "La sua madrelingua è il portoghese, non lo spagnolo."
     },
     "de": {
       "word": "die Muttersprache",
-      "sentence": "Seine Muttersprache ist eigentlich Portugiesisch und nicht Spanisch."
+      "sentence": "Seine Muttersprache ist Portugiesisch, nicht Spanisch."
     }
   },
   {
@@ -27608,7 +27608,7 @@
     },
     "de": {
       "word": "das Abkommen",
-      "sentence": "Die beiden Länder haben nach Jahren ein wichtiges Friedensabkommen unterschrieben."
+      "sentence": "Die beiden Länder haben ein Friedensabkommen unterschrieben."
     }
   },
   {
