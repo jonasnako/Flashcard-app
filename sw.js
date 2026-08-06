@@ -1,7 +1,7 @@
 /* lessico service worker — network-first so the app auto-updates online,
    with a cached copy as an offline fallback. Scores live in localStorage and
    are never touched by this. */
-const CACHE = "lessico-shell-v1";
+const CACHE = "lessico-shell-v2";
 
 self.addEventListener("install", () => {
   // Take over as soon as the new worker is ready — no waiting for old tabs.
@@ -23,8 +23,9 @@ self.addEventListener("fetch", (e) => {
   if (url.origin !== self.location.origin) return;      // only same-origin app files
   e.respondWith((async () => {
     try {
-      // Network-first: always try to get the freshest copy when online.
-      const fresh = await fetch(req);
+      // Network-first, and bypass the browser's HTTP cache (GitHub Pages tags files with
+      // ~10 min max-age) so a fresh deploy shows up on the next reload, not 10 minutes later.
+      const fresh = await fetch(new Request(req.url, { cache: "no-cache" }));
       if (fresh && fresh.ok) {
         const cache = await caches.open(CACHE);
         cache.put(req, fresh.clone());
