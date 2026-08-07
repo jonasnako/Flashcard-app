@@ -372,10 +372,16 @@ function interleave(a,b){const out=[],n=a.length+b.length;let i=0,j=0;
 function pickCards(size){
   const f=settings.focus, inF=lib.filter(inFilter);
   if(f==="refresh")return shuffle(inF.filter(dueNow)).slice(0,size);
-  // least-recently-seen first (shuffle breaks ties): a card you just saw sinks to the back, so it
-  // won't reappear next session while fresher cards remain — and if the pool is small it just repeats.
-  const byRecency=arr=>shuffle(arr).sort((a,b)=>(a.seenAt||0)-(b.seenAt||0));
-  const news=byRecency(inF.filter(isNewC)), prog=byRecency(inF.filter(isProgC));
+  // Random order each session (varied, good for learning), but keep the most-recently-seen ~one
+  // session's worth on cooldown so nothing repeats too soon. After the cooldown a card is back in the
+  // random pool — no rigid full-cycle wait. Cooldown shrinks for small pools so sessions never starve.
+  const spaced=arr=>{
+    const ss=settings.sessionSize||20, cd=Math.min(ss,Math.max(0,arr.length-ss));
+    if(cd<=0) return shuffle(arr.slice());
+    const cool=new Set(arr.slice().sort((a,b)=>(b.seenAt||0)-(a.seenAt||0)).slice(0,cd).map(c=>c.id));
+    return shuffle(arr.filter(c=>!cool.has(c.id))).concat(shuffle(arr.filter(c=>cool.has(c.id))));
+  };
+  const news=spaced(inF.filter(isNewC)), prog=spaced(inF.filter(isProgC));
   if(f==="new")return news.slice(0,size);
   let share;
   if(f in NEW_SHARE)share=NEW_SHARE[f];
