@@ -57,7 +57,7 @@ digiuno* out of the Food batch's ambiguous review; the full Health build is stil
 | **Expressions** | Fixed phrases deployed verbatim: greetings & politeness formulas (buongiorno, grazie, per favore, piacere…), reaction-formulas & idioms (vale la pena, meno male, in bocca al lupo, figurati…) | 48 ✓ | done |
 | **Structure words** | Strukturwörter: connectives, conjunctions, adverbs, particles, quantifiers, modality; classification, cause/effect, manner | 137 ✓ | +~30 |
 | **Numbers** | Masse und Gewichte, Mengenbegriffe, Formen (skip literal counting — A1) | 60 ✓ | done |
-| **Colours** | Farben (split out of Numbers — colours are not numbers) | 22 ✓ | done (small by design) |
+| **Colours** | Farben + light/surface qualities (glänzend, iridescente, fluorescente…), colour verbs (brillare, scintillare, sbiadire…), shade/tone nouns, extra hues | 56 ✓ | done |
 
 ## Foundational layer (A1)
 
