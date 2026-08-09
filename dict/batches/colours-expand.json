@@ -1,0 +1,546 @@
+[
+  {
+    "id": "d1f82039-7c8d-45e9-803c-3d01501b0624",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "lucido",
+      "sentence": "Il pavimento appena lucidato era davvero lucido."
+    },
+    "de": {
+      "word": "glänzend",
+      "sentence": "Der frisch polierte Boden war richtig glänzend."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d703886c-b220-4b0a-8498-94b6375f3733",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "opaco",
+      "sentence": "Preferisco un rossetto opaco a uno lucido."
+    },
+    "de": {
+      "word": "matt",
+      "sentence": "Ich mag matten Lippenstift lieber als glänzenden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8c05b311-ff75-4e03-8965-8503b9d18ca6",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "brillante",
+      "sentence": "Ha scelto un rosso brillante per le pareti."
+    },
+    "de": {
+      "word": "strahlend",
+      "sentence": "Sie hat ein strahlendes Rot für die Wände gewählt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a98bdc36-87ab-4ded-8bf5-c3d5b0515758",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "tenue",
+      "sentence": "Le pareti della cameretta sono di un rosa tenue."
+    },
+    "de": {
+      "word": "zart",
+      "sentence": "Die Wände des Kinderzimmers sind in einem zarten Rosa gehalten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b63cc749-f280-43b2-bf05-9a7e3294943d",
+    "level": "A2",
+    "topic": "Colours",
+    "it": {
+      "word": "trasparente",
+      "sentence": "Il bicchiere è completamente trasparente."
+    },
+    "de": {
+      "word": "durchsichtig",
+      "sentence": "Das Glas ist völlig durchsichtig."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4dfca213-c8bb-4270-ba06-392474e93140",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "iridescente",
+      "sentence": "Le ali della farfalla brillavano di mille colori iridescenti."
+    },
+    "de": {
+      "word": "schillernd",
+      "sentence": "Die Flügel des Schmetterlings schillerten in tausend Farben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7b6eed5c-424d-42f8-ab63-ee8d5f2f2db5",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "fluorescente",
+      "sentence": "I giubbotti dei ciclisti hanno un colore fluorescente."
+    },
+    "de": {
+      "word": "fluoreszierend",
+      "sentence": "Die Westen der Radfahrer haben eine fluoreszierende Farbe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "db9ba1e5-1c0c-47ff-aba6-a774893cd22e",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "metallizzato",
+      "sentence": "Ha comprato una nuova auto di colore grigio metallizzato."
+    },
+    "de": {
+      "word": "metallisch",
+      "sentence": "Er hat ein neues Auto in metallischem Grau gekauft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8be58f6b-14cc-4fb4-a57f-6e530ffb83f3",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "cangiante",
+      "sentence": "La seta cangiante cambia colore secondo la luce."
+    },
+    "de": {
+      "word": "changierend",
+      "sentence": "Der changierende Stoff wechselt die Farbe je nach Licht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c6dfe0d9-38ae-4ee1-a944-77c4164961f0",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "spento",
+      "sentence": "Dopo tanti lavaggi il maglione ha un colore spento."
+    },
+    "de": {
+      "word": "stumpf",
+      "sentence": "Nach vielen Wäschen hat der Pullover eine stumpfe Farbe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "301017b9-6b0a-4da9-92a4-cf2a133e8016",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "brillare",
+      "sentence": "Le stelle brillano nel cielo sereno d'inverno."
+    },
+    "de": {
+      "word": "glänzen",
+      "sentence": "Die Sterne glänzen am klaren Himmel im Winter."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f12bbc92-8c68-42be-9e06-5b16ae4906cf",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "splendere",
+      "sentence": "Il sole splende alto nel cielo estivo."
+    },
+    "de": {
+      "word": "strahlen",
+      "sentence": "Die Sonne strahlt hoch oben am Sommerhimmel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "abac3be7-27c4-46f2-bbd3-20a92a82a9b0",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "luccicare",
+      "sentence": "L'acqua del lago luccicava sotto il sole del mattino."
+    },
+    "de": {
+      "word": "glitzern",
+      "sentence": "Das Wasser des Sees glitzerte in der Morgensonne."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4fd0b9a9-0984-4423-80b6-cd15d683000a",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "scintillare",
+      "sentence": "I suoi occhi scintillavano di gioia tutta la sera."
+    },
+    "de": {
+      "word": "funkeln",
+      "sentence": "Ihre Augen funkelten den ganzen Abend vor Freude."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ceaff83b-c65d-4ead-9bc5-e24a82bb933d",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "tremolare",
+      "sentence": "La fiamma della candela tremolava nella corrente d'aria."
+    },
+    "de": {
+      "word": "flackern",
+      "sentence": "Die Flamme der Kerze flackerte im leichten Luftzug."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "29abf318-dd1c-4007-8621-70e6a6b4c402",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "lampeggiare",
+      "sentence": "Le luci d'emergenza lampeggiavano nel buio della notte."
+    },
+    "de": {
+      "word": "blinken",
+      "sentence": "Die Warnlichter blinkten im Dunkeln die ganze Nacht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "609d9231-dce0-478b-8375-09bfd73d12d4",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "riflettere",
+      "sentence": "Lo specchio riflette la luce del sole."
+    },
+    "de": {
+      "word": "reflektieren",
+      "sentence": "Der Spiegel reflektiert das Licht der Sonne."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2e241545-5fae-446c-b190-dd4a802e3b1f",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "abbagliare",
+      "sentence": "I fari della macchina in arrivo mi hanno abbagliato."
+    },
+    "de": {
+      "word": "blenden",
+      "sentence": "Die Scheinwerfer des entgegenkommenden Autos haben mich geblendet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2abb98d5-b28b-4c16-a9d9-86794a65e2dd",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "illuminare",
+      "sentence": "I lampioni illuminano tutta la strada di sera."
+    },
+    "de": {
+      "word": "beleuchten",
+      "sentence": "Die Strassenlaternen beleuchten am Abend die ganze Strasse."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2d7b6297-1b7c-4e48-bf2e-80e0ff5c6d65",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "scurire",
+      "sentence": "Il legno chiaro tende a scurire con il tempo."
+    },
+    "de": {
+      "word": "nachdunkeln",
+      "sentence": "Helles Holz neigt dazu, mit der Zeit nachzudunkeln."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bd2247a3-56f1-4de4-abe5-70a31a1f3720",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "schiarire",
+      "sentence": "Il sole d'estate le ha schiarito i capelli."
+    },
+    "de": {
+      "word": "aufhellen",
+      "sentence": "Die Sommersonne hat ihr die Haare deutlich aufgehellt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f14a431f-ccf6-40bc-9538-0d59fac61988",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "sbiadire",
+      "sentence": "Con tanti lavaggi la maglietta rossa è sbiadita."
+    },
+    "de": {
+      "word": "verblassen",
+      "sentence": "Nach vielen Wäschen ist das rote T-Shirt verblasst."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fb3d107d-2739-4ab5-968b-5b20ef8c810f",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "scolorire",
+      "sentence": "Il sole forte ha scolorito le tende del salotto."
+    },
+    "de": {
+      "word": "ausbleichen",
+      "sentence": "Die starke Sonne hat die Vorhänge im Wohnzimmer ausgebleicht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9e0c1149-3a64-4210-b9fe-d29424ea6d17",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "attenuare",
+      "sentence": "Attenua un po' le luci, per favore."
+    },
+    "de": {
+      "word": "dämpfen",
+      "sentence": "Dämpf bitte ein bisschen das helle Licht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d056bbee-5c7a-49f1-a6b5-0f89c1a9ac94",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "la tonalità",
+      "sentence": "Ha scelto una tonalità più calda di verde."
+    },
+    "de": {
+      "word": "die Tönung",
+      "sentence": "Sie hat eine wärmere Tönung von Grün gewählt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "16e171f3-1e13-42a8-a443-a51df5286f84",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "la tinta",
+      "sentence": "Si è fatta una tinta scura ai capelli."
+    },
+    "de": {
+      "word": "die Färbung",
+      "sentence": "Sie hat sich eine dunkle Färbung machen lassen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a9a4c22b-260a-4f27-8ebf-fc916c92c761",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "il riflesso",
+      "sentence": "I suoi capelli neri avevano dei riflessi bluastri."
+    },
+    "de": {
+      "word": "der Schimmer",
+      "sentence": "Ihr schwarzes Haar hatte einen leicht bläulichen Schimmer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "edb724fb-efe2-4933-a14b-44dbd27bda14",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "la lucentezza",
+      "sentence": "Questo shampoo dona nuova lucentezza ai capelli spenti."
+    },
+    "de": {
+      "word": "der Glanz",
+      "sentence": "Dieses Shampoo verleiht stumpfem Haar wieder neuen Glanz."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "796df4dc-69f7-4ba2-90cf-d91897a29b59",
+    "level": "B1",
+    "topic": "Colours",
+    "it": {
+      "word": "turchese",
+      "sentence": "Il mare dei Caraibi ha un colore turchese."
+    },
+    "de": {
+      "word": "türkis",
+      "sentence": "Das Karibische Meer hat eine türkise Farbe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4ba01d33-2c4e-43ca-adc7-67eab9a9d943",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "lilla",
+      "sentence": "Ha dipinto la camera di un delicato lilla."
+    },
+    "de": {
+      "word": "fliederfarben",
+      "sentence": "Sie hat das ganze Zimmer zart fliederfarben gestrichen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bbd0c7d7-2a81-4aae-9e70-6d26ab835a4e",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "bordeaux",
+      "sentence": "Per la cena elegante ha scelto un vestito bordeaux."
+    },
+    "de": {
+      "word": "weinrot",
+      "sentence": "Für das festliche Essen wählte sie ein weinrotes Kleid."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9778176a-ba7c-4098-b58d-24aa66bba646",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "senape",
+      "sentence": "Quest'autunno va molto di moda il colore senape."
+    },
+    "de": {
+      "word": "senfgelb",
+      "sentence": "Diesen Herbst ist die Farbe Senfgelb sehr angesagt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "da1f28cd-55b3-4a8e-9e81-d2a8fcc7a4cf",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "corallo",
+      "sentence": "Il rossetto color corallo le sta molto bene."
+    },
+    "de": {
+      "word": "korallenrot",
+      "sentence": "Der korallenrote Lippenstift steht ihr wirklich richtig gut."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "22700ac8-d299-4193-bda4-4828f3ddbab8",
+    "level": "B2",
+    "topic": "Colours",
+    "it": {
+      "word": "avorio",
+      "sentence": "L'abito da sposa era di un elegante color avorio."
+    },
+    "de": {
+      "word": "elfenbeinfarben",
+      "sentence": "Das Brautkleid hatte einen sehr eleganten elfenbeinfarbenen Ton."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]
