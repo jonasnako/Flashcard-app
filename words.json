@@ -42789,5 +42789,1493 @@
     "streak": 0,
     "correct": 0,
     "seen": 0
+  },
+  {
+    "id": "b07d25e3-3d9e-4e1d-accd-cd3c65b4632f",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "far venire il latte alle ginocchia",
+      "sentence": "Le sue lamentele continue mi fanno venire il latte alle ginocchia."
+    },
+    "de": {
+      "word": "auf die Nerven gehen",
+      "sentence": "Sein ewiges Jammern geht mir langsam wirklich auf die Nerven."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "48ab6cd0-7336-41cc-9ea2-e2dc2f16e2e7",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere come il prezzemolo",
+      "sentence": "Lo incontro dappertutto, quel tipo è come il prezzemolo."
+    },
+    "de": {
+      "word": "überall auftauchen",
+      "sentence": "Ich treffe ihn überall, der Kerl taucht wirklich ständig auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "432d45b8-3a21-48c4-b449-2d839a546ef4",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "non tutte le ciambelle escono col buco",
+      "sentence": "Ho sbagliato la torta, non tutte le ciambelle escono col buco."
+    },
+    "de": {
+      "word": "es geht nicht immer alles nach Wunsch",
+      "sentence": "Der Kuchen ist misslungen: Es geht eben nicht immer nach Wunsch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ba36cc6c-1860-4b61-b145-3902b4ba5183",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere farina del proprio sacco",
+      "sentence": "Questa bella idea è tutta farina del mio sacco."
+    },
+    "de": {
+      "word": "auf dem eigenen Mist gewachsen sein",
+      "sentence": "Diese Idee ist ganz auf meinem eigenen Mist gewachsen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "06bad4f4-44d0-4b57-b26b-2d6bf112e4c4",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "capitare a fagiolo",
+      "sentence": "Avevo bisogno di aiuto: capiti proprio a fagiolo."
+    },
+    "de": {
+      "word": "wie gerufen kommen",
+      "sentence": "Ich brauchte gerade Hilfe: Du kommst wie gerufen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a6b4b709-e216-4add-a038-cd16b792de00",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere le mani di pasta frolla",
+      "sentence": "Oggi lascio cadere tutto, ho le mani di pasta frolla."
+    },
+    "de": {
+      "word": "zwei linke Hände haben",
+      "sentence": "Heute fällt mir alles hin, ich habe zwei linke Hände."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c44d0540-9023-4781-adde-1ce67f94f260",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere il prosciutto sugli occhi",
+      "sentence": "Non vede l'evidenza, ha proprio il prosciutto sugli occhi."
+    },
+    "de": {
+      "word": "Tomaten auf den Augen haben",
+      "sentence": "Er sieht das Offensichtliche nicht, er hat Tomaten auf den Augen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "33b63714-904f-487c-9c90-38b9267ebd6d",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "andare a tutta birra",
+      "sentence": "Era in ritardo e andava a tutta birra in bici."
+    },
+    "de": {
+      "word": "mit Vollgas",
+      "sentence": "Er war spät dran und fuhr mit Vollgas nach Hause."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0260cac8-a15d-4137-97c7-a744a715f04f",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "non capire un cavolo",
+      "sentence": "Questa lezione è difficile, non ci capisco un cavolo."
+    },
+    "de": {
+      "word": "nur Bahnhof verstehen",
+      "sentence": "Diese Stunde ist schwer, ich verstehe nur Bahnhof."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9e233649-19ee-4265-a8b5-25fe99c4431c",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere alla frutta",
+      "sentence": "Ho lavorato dodici ore, sono proprio alla frutta."
+    },
+    "de": {
+      "word": "am Ende seiner Kräfte sein",
+      "sentence": "Ich habe zwölf Stunden gearbeitet, ich bin am Ende."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3e91e46a-0b30-4b6a-8ca5-5bfe7b114393",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "mettere troppa carne al fuoco",
+      "sentence": "Vuoi fare troppe cose, metti troppa carne al fuoco."
+    },
+    "de": {
+      "word": "zu viele Eisen im Feuer haben",
+      "sentence": "Du willst zu viel, du hast zu viele Eisen im Feuer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "83c701e8-e104-43bf-9b39-4f3534aba54e",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "togliere le castagne dal fuoco",
+      "sentence": "Come sempre tocca a me togliere le castagne dal fuoco."
+    },
+    "de": {
+      "word": "die Kastanien aus dem Feuer holen",
+      "sentence": "Wie immer muss ich die Kastanien aus dem Feuer holen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e124f8ed-bf96-4245-a87c-48b7803d2ca0",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "prendere fischi per fiaschi",
+      "sentence": "Capisce sempre tutto male, prende fischi per fiaschi."
+    },
+    "de": {
+      "word": "etwas in den falschen Hals bekommen",
+      "sentence": "Er versteht alles falsch, er bekommt es in den falschen Hals."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "43d9266c-d15b-4138-b4d2-d8c9f174b216",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fa acqua da tutte le parti",
+      "sentence": "Il tuo piano fa acqua da tutte le parti."
+    },
+    "de": {
+      "word": "hinten und vorne nicht stimmen",
+      "sentence": "Dein Plan stimmt hinten und vorne nicht, das sieht man."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b4c4d8aa-7ffe-4df0-b90d-a2077ca29a75",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere tutto fumo e niente arrosto",
+      "sentence": "Promette molto ma è tutto fumo e niente arrosto."
+    },
+    "de": {
+      "word": "nur heisse Luft sein",
+      "sentence": "Er verspricht viel, aber das ist alles nur heisse Luft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a950ad1b-5fdc-4155-97ab-fb1fcfad81a6",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "allungare il brodo",
+      "sentence": "Bastava una frase, ma lui allunga sempre il brodo."
+    },
+    "de": {
+      "word": "etwas in die Länge ziehen",
+      "sentence": "Ein Satz hätte gereicht, aber er zieht alles in die Länge."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c1deaabf-0b9c-4416-92f3-1441064f6db6",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "perdersi in un bicchier d'acqua",
+      "sentence": "Per ogni piccolo problema si perde in un bicchier d'acqua."
+    },
+    "de": {
+      "word": "an einer Kleinigkeit verzweifeln",
+      "sentence": "Bei jeder Kleinigkeit verzweifelt er und weiss nicht weiter."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f5a3bcfc-1f5f-4a7a-a693-a0912e5977bb",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "passare dalla padella alla brace",
+      "sentence": "Ha cambiato lavoro ma è passato dalla padella alla brace."
+    },
+    "de": {
+      "word": "vom Regen in die Traufe kommen",
+      "sentence": "Er wechselte den Job und kam vom Regen in die Traufe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a9fb0f55-2553-47ed-9460-74b3b6872ffb",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere un orso",
+      "sentence": "Non esce mai con nessuno, è proprio un orso."
+    },
+    "de": {
+      "word": "ein Einzelgänger sein",
+      "sentence": "Er geht nie mit anderen aus, ein echter Einzelgänger."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a41a63f2-301d-4791-89f0-01687956231a",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fare il galletto",
+      "sentence": "Smettila di fare il galletto per farti notare."
+    },
+    "de": {
+      "word": "sich aufplustern",
+      "sentence": "Hör auf, dich so aufzuplustern, nur um aufzufallen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6d36c871-2742-442b-bbf2-69a715b76cf6",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere una capra",
+      "sentence": "Non capisco i numeri, sono proprio una capra."
+    },
+    "de": {
+      "word": "eine Niete sein",
+      "sentence": "Ich verstehe Zahlen nicht, ich bin eine echte Niete."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9b9925f9-98fb-4c3d-8e33-60d9148580f7",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere un asino",
+      "sentence": "Non capisce mai le spiegazioni, è un asino."
+    },
+    "de": {
+      "word": "eine lange Leitung haben",
+      "sentence": "Er versteht die Erklärungen nie, er hat eine lange Leitung."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a86f3c35-2b8a-48db-a376-d3ef6a5cd38e",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere un verme",
+      "sentence": "Chi maltratta gli animali è proprio un verme."
+    },
+    "de": {
+      "word": "ein mieser Kerl sein",
+      "sentence": "Wer Tiere quält, ist wirklich ein mieser Kerl."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e4a880d1-611a-4215-b5c6-6c64c2989e94",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere solo come un cane",
+      "sentence": "Gli amici sono spariti, sono rimasto solo come un cane."
+    },
+    "de": {
+      "word": "mutterseelenallein sein",
+      "sentence": "Die Freunde sagten ab, ich blieb mutterseelenallein zurück."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5cd85d25-bec9-4530-8263-199264afccd3",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere in quattro gatti",
+      "sentence": "Alla riunione di ieri eravamo solo in quattro gatti."
+    },
+    "de": {
+      "word": "nur eine Handvoll Leute sein",
+      "sentence": "Bei der Sitzung waren wir nur eine Handvoll Leute."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "de928e8d-3402-4375-805b-d72644db6138",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "non sapere che pesci prendere",
+      "sentence": "La situazione è complicata, non so che pesci prendere."
+    },
+    "de": {
+      "word": "mit seinem Latein am Ende sein",
+      "sentence": "Die Lage ist verzwickt, ich bin mit meinem Latein am Ende."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "48171d18-2820-4b54-9737-e1d7893e7692",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere pazzo come un cavallo",
+      "sentence": "Fa cose imprevedibili, è pazzo come un cavallo."
+    },
+    "de": {
+      "word": "einen Vogel haben",
+      "sentence": "Er macht unberechenbare Dinge, der hat echt einen Vogel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "55dab155-50ef-48fd-8f33-53418f542c00",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "tagliare la testa al toro",
+      "sentence": "Basta discutere, tagliamo la testa al toro e decidiamo."
+    },
+    "de": {
+      "word": "Nägel mit Köpfen machen",
+      "sentence": "Genug diskutiert, machen wir jetzt Nägel mit Köpfen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "85029af0-3c69-41f8-a083-a0ca280f087d",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "non essere un'aquila",
+      "sentence": "È simpatico, ma a scuola non è un'aquila."
+    },
+    "de": {
+      "word": "keine Leuchte sein",
+      "sentence": "Er ist nett, aber in der Schule keine Leuchte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6f55c665-d923-4030-b156-6e7f017ae2d5",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "ingoiare il rospo",
+      "sentence": "Non era giusto, ma ho dovuto ingoiare il rospo."
+    },
+    "de": {
+      "word": "in den sauren Apfel beissen",
+      "sentence": "Es war ungerecht, aber ich musste in den sauren Apfel beissen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "34a85b11-69aa-41b7-9a06-e90e09b498c6",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "sputare il rospo",
+      "sentence": "So che nascondi qualcosa: dai, sputa il rospo."
+    },
+    "de": {
+      "word": "die Katze aus dem Sack lassen",
+      "sentence": "Ich weiss, du verheimlichst etwas: Lass die Katze aus dem Sack."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "974fbb94-b637-458f-b1e1-408b5171ecfc",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere grilli per la testa",
+      "sentence": "Quel ragazzo ha troppi grilli per la testa."
+    },
+    "de": {
+      "word": "Flausen im Kopf haben",
+      "sentence": "Der Junge hat einfach zu viele Flausen im Kopf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2c4d5f4c-e169-41d6-8367-1e073ac46c17",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere una brutta gatta da pelare",
+      "sentence": "Con quel cliente difficile ho una brutta gatta da pelare."
+    },
+    "de": {
+      "word": "eine harte Nuss",
+      "sentence": "Mit diesem schwierigen Kunden habe ich eine harte Nuss zu knacken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "928dcfe1-c664-46f2-b7d4-e652574cf0a3",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "stare con le mani in mano",
+      "sentence": "Non startene con le mani in mano, aiutami."
+    },
+    "de": {
+      "word": "die Hände in den Schoss legen",
+      "sentence": "Leg nicht die Hände in den Schoss, hilf mir bitte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d33fd888-6368-4c0e-aafa-ffbe68371036",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "lasciarci le penne",
+      "sentence": "Guida in modo pericoloso, prima o poi ci lascia le penne."
+    },
+    "de": {
+      "word": "ins Gras beissen",
+      "sentence": "Er fährt gefährlich, irgendwann beisst er noch ins Gras."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cdf4257f-0579-478e-807b-10557d776715",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "lavarsene le mani",
+      "sentence": "Non voglio responsabilità, me ne lavo le mani."
+    },
+    "de": {
+      "word": "seine Hände in Unschuld waschen",
+      "sentence": "Ich will keine Verantwortung, ich wasche meine Hände in Unschuld."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4c9262a0-2c72-4004-b24e-405cb83252a4",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "occhio per occhio, dente per dente",
+      "sentence": "Mi ha ferito, ora ricambio: occhio per occhio."
+    },
+    "de": {
+      "word": "Auge um Auge, Zahn um Zahn",
+      "sentence": "Er hat mich verletzt, jetzt gilt: Auge um Auge."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ea6d9ec3-8510-4edb-8e5f-08f1e5ccb4c0",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "restare a bocca asciutta",
+      "sentence": "Sperava nell'aumento, ma è rimasto a bocca asciutta."
+    },
+    "de": {
+      "word": "leer ausgehen",
+      "sentence": "Er hoffte auf die Erhöhung, ging aber leer aus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c1a2b007-4a23-4b3e-a2e7-40b98eb8f333",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere uno stomaco di ferro",
+      "sentence": "In ospedale vedi di tutto, serve uno stomaco di ferro."
+    },
+    "de": {
+      "word": "einen starken Magen haben",
+      "sentence": "Im Spital sieht man alles, man braucht einen starken Magen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3a59a865-4179-408c-b279-d8f61f72be6d",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "alzarsi col piede sbagliato",
+      "sentence": "Oggi risponde male a tutti, si è alzato col piede sbagliato."
+    },
+    "de": {
+      "word": "mit dem falschen Fuss aufstehen",
+      "sentence": "Heute ist er gereizt, er ist mit dem falschen Fuss aufgestanden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c40ffe52-ec9b-48ab-b3f8-d25621fb13a0",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "con la testa sulle spalle",
+      "sentence": "È un ragazzo serio, con la testa sulle spalle."
+    },
+    "de": {
+      "word": "den Kopf am rechten Fleck haben",
+      "sentence": "Er ist vernünftig und hat den Kopf am rechten Fleck."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f9948d98-67d8-4cff-93db-4c44442f4795",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere con i piedi per terra",
+      "sentence": "È una persona realista, con i piedi per terra."
+    },
+    "de": {
+      "word": "mit beiden Beinen auf dem Boden stehen",
+      "sentence": "Sie ist realistisch und steht mit beiden Beinen auf dem Boden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2b4f6674-e848-4fa6-8a94-0116ea94e3b7",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere una spina nel fianco",
+      "sentence": "Il suo atteggiamento è una spina nel fianco."
+    },
+    "de": {
+      "word": "ein Dorn im Auge sein",
+      "sentence": "Sein Verhalten ist mir schon lange ein Dorn im Auge."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4187fd78-f8c6-4c34-8462-47436ebba229",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fare il passo più lungo della gamba",
+      "sentence": "Con quel progetto ha fatto il passo più lungo della gamba."
+    },
+    "de": {
+      "word": "sich zu viel zumuten",
+      "sentence": "Mit diesem Projekt hat er sich einfach zu viel zugemutet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bf206746-8773-4d52-b89b-72c9e94bb879",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "non battere ciglio",
+      "sentence": "Ha visto il conto altissimo e non ha battuto ciglio."
+    },
+    "de": {
+      "word": "ohne mit der Wimper zu zucken",
+      "sentence": "Er sah die hohe Rechnung, ohne mit der Wimper zu zucken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "06998a0b-733b-4705-bd5e-a557d5dbd0e1",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fasciarsi la testa prima di rompersela",
+      "sentence": "Non fasciarti la testa prima di rompertela, andrà bene."
+    },
+    "de": {
+      "word": "den Teufel an die Wand malen",
+      "sentence": "Mal nicht den Teufel an die Wand, es wird schon klappen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8ec76e1e-0d35-4599-ba46-6f2db2fa87c5",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "salvarsi per un pelo",
+      "sentence": "L'auto ha frenato in tempo, mi sono salvato per un pelo."
+    },
+    "de": {
+      "word": "um Haaresbreite entkommen",
+      "sentence": "Das Auto bremste rechtzeitig, ich entkam um Haaresbreite."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3dadf5d2-6b52-4b7e-b9ec-e98b8ddf2a36",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere nero",
+      "sentence": "Oggi ce l'ha con tutti, è proprio nero."
+    },
+    "de": {
+      "word": "stinksauer sein",
+      "sentence": "Heute schimpft er mit allen, er ist stinksauer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ac243139-9570-4380-8806-3d03e7af85ce",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "in quattro e quattr'otto",
+      "sentence": "Ha risolto tutti i problemi in quattro e quattr'otto."
+    },
+    "de": {
+      "word": "ruck, zuck",
+      "sentence": "Sie hat alle schwierigen Aufgaben ruck, zuck gelöst."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f284a0d7-be07-4deb-88fc-573136f2f9d0",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fare i conti senza l'oste",
+      "sentence": "Hai deciso tutto da solo? Fai i conti senza l'oste."
+    },
+    "de": {
+      "word": "die Rechnung ohne den Wirt machen",
+      "sentence": "Du hast allein entschieden? Da machst du die Rechnung ohne den Wirt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dbe034d5-8995-411a-82df-1abfd4cf8994",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "ammazzare il tempo",
+      "sentence": "All'aeroporto leggo un libro per ammazzare il tempo."
+    },
+    "de": {
+      "word": "die Zeit totschlagen",
+      "sentence": "Am Flughafen lese ich ein Buch, um die Zeit totzuschlagen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5cf43022-c0bb-4ad2-aadb-4faf654e2b4e",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "spaccare il minuto",
+      "sentence": "È arrivata alle otto in punto, ha spaccato il minuto."
+    },
+    "de": {
+      "word": "auf die Minute genau sein",
+      "sentence": "Sie kam um acht, auf die Minute genau."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ffc728c3-d344-49aa-bbee-fd340c869715",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fare le ore piccole",
+      "sentence": "Avevo tanto lavoro e ho fatto le ore piccole."
+    },
+    "de": {
+      "word": "bis in die frühen Morgenstunden",
+      "sentence": "Ich hatte viel Arbeit und blieb bis in die frühen Morgenstunden auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f53d0f25-3a91-48f6-9b37-c69e6e439c7e",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "sudare sette camicie",
+      "sentence": "Ho sudato sette camicie per finire questo lavoro."
+    },
+    "de": {
+      "word": "sich abrackern",
+      "sentence": "Ich habe mich abgerackert, um diese Arbeit fertigzumachen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "769edddf-422e-4b40-bad1-7f2ad3bca0a3",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "rimboccarsi le maniche",
+      "sentence": "Bisogna rimboccarsi le maniche e iniziare a lavorare."
+    },
+    "de": {
+      "word": "die Ärmel hochkrempeln",
+      "sentence": "Man muss die Ärmel hochkrempeln und endlich anfangen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3e6a8250-05ad-4070-87ff-f82c1ab84b1e",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "conoscere come le proprie tasche",
+      "sentence": "Ho vissuto qui anni, conosco la città come le mie tasche."
+    },
+    "de": {
+      "word": "wie seine Westentasche kennen",
+      "sentence": "Ich lebte hier lange, ich kenne die Stadt wie meine Westentasche."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c5aa7f6d-d434-482a-bde6-338b6b5ccac5",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fare tanto di cappello",
+      "sentence": "Hai fatto un lavoro splendido, tanto di cappello!"
+    },
+    "de": {
+      "word": "den Hut ziehen",
+      "sentence": "Du hast grossartige Arbeit geleistet, da ziehe ich den Hut."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f2dfd7ce-965d-404b-8998-3c022b3a4e14",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "dormire sugli allori",
+      "sentence": "Dopo il successo si è adagiato sugli allori."
+    },
+    "de": {
+      "word": "sich auf den Lorbeeren ausruhen",
+      "sentence": "Nach dem Erfolg ruhte er sich auf seinen Lorbeeren aus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5e7d7baa-c24d-4098-84b8-2146031c9ba8",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "chi dorme non piglia pesci",
+      "sentence": "Alzati presto e datti da fare: chi dorme non piglia pesci."
+    },
+    "de": {
+      "word": "der frühe Vogel fängt den Wurm",
+      "sentence": "Steh früh auf: Der frühe Vogel fängt den Wurm."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "50505ba3-db7e-4f34-b76d-732d750841c6",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "cambiare le carte in tavola",
+      "sentence": "Eravamo d'accordo, ma ora vuole cambiare le carte in tavola."
+    },
+    "de": {
+      "word": "die Karten neu mischen",
+      "sentence": "Wir waren uns einig, jetzt will er die Karten neu mischen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cca368c0-da47-4297-ade9-c142598503f0",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "rispondere picche",
+      "sentence": "L'ho invitata a cena, ma ha risposto picche."
+    },
+    "de": {
+      "word": "einen Korb geben",
+      "sentence": "Ich lud sie zum Essen ein, aber sie gab mir einen Korb."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "31afe417-6733-46e1-9dda-2f35168527bb",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "piantare in asso",
+      "sentence": "Ha ricevuto una chiamata e mi ha piantato in asso."
+    },
+    "de": {
+      "word": "im Stich lassen",
+      "sentence": "Er bekam einen Anruf und liess mich einfach im Stich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "041b3797-80c3-4f59-a464-da59cc8ea630",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "farsi il mazzo",
+      "sentence": "Mia madre si fa il mazzo per mantenere la famiglia."
+    },
+    "de": {
+      "word": "sich krummarbeiten",
+      "sentence": "Meine Mutter arbeitet sich krumm, um die Familie zu ernähren."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a973f0f9-4bb5-4e3f-9076-e4276a0a707e",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "cercare un ago nel pagliaio",
+      "sentence": "Trovare quel documento è come cercare un ago nel pagliaio."
+    },
+    "de": {
+      "word": "die Nadel im Heuhaufen suchen",
+      "sentence": "Das Dokument zu finden ist wie die Nadel im Heuhaufen suchen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "90ab7a6a-2d7a-4ad7-b064-aaf64c21c18f",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere il coltello dalla parte del manico",
+      "sentence": "Hai molte prove: hai il coltello dalla parte del manico."
+    },
+    "de": {
+      "word": "am längeren Hebel sitzen",
+      "sentence": "Du hast viele Beweise, du sitzt am längeren Hebel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "056d371e-4df1-4307-aaeb-1e3a2208da95",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "darsi la zappa sui piedi",
+      "sentence": "Mentendo così si è dato la zappa sui piedi."
+    },
+    "de": {
+      "word": "sich ins eigene Fleisch schneiden",
+      "sentence": "Mit dieser Lüge hat er sich ins eigene Fleisch geschnitten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ab11d89b-4ef2-4820-8ff4-c8ec53e275fd",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere in una botte di ferro",
+      "sentence": "Con questo contratto sei in una botte di ferro."
+    },
+    "de": {
+      "word": "auf der sicheren Seite sein",
+      "sentence": "Mit diesem Vertrag bist du auf der sicheren Seite."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7f0ea42f-1ead-4910-8762-6dedf7066eb1",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere l'ultima ruota del carro",
+      "sentence": "In questa famiglia mi sento l'ultima ruota del carro."
+    },
+    "de": {
+      "word": "das fünfte Rad am Wagen sein",
+      "sentence": "In dieser Familie fühle ich mich wie das fünfte Rad am Wagen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8643419a-f933-409a-8cb0-75cb14e47081",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "mettere i bastoni fra le ruote",
+      "sentence": "Invece di aiutarmi, mi mette i bastoni fra le ruote."
+    },
+    "de": {
+      "word": "Steine in den Weg legen",
+      "sentence": "Statt mir zu helfen, legt er mir Steine in den Weg."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "59c72f07-5f50-400d-820a-e0e628f98f12",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "tirare la corda",
+      "sentence": "Chiede sempre di più: sta tirando troppo la corda."
+    },
+    "de": {
+      "word": "den Bogen überspannen",
+      "sentence": "Er verlangt immer mehr, er überspannt den Bogen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bd25fdd5-1f9d-4cfe-888c-5cb8c22d04d9",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "gettare la spugna",
+      "sentence": "Alla prima vera difficoltà ha subito gettato la spugna."
+    },
+    "de": {
+      "word": "das Handtuch werfen",
+      "sentence": "Bei der ersten Schwierigkeit hat er das Handtuch geworfen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "76826929-0e31-4134-81fc-b6797cb08c73",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere una marcia in più",
+      "sentence": "Risolve ogni problema, ha davvero una marcia in più."
+    },
+    "de": {
+      "word": "das gewisse Etwas haben",
+      "sentence": "Sie löst jedes Problem, sie hat einfach das gewisse Etwas."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "883f67cc-907c-4a3c-95d2-f3045dde7650",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere paura della propria ombra",
+      "sentence": "È timorosa di tutto, ha paura della propria ombra."
+    },
+    "de": {
+      "word": "sich vor dem eigenen Schatten fürchten",
+      "sentence": "Sie ist ängstlich und fürchtet sich vor dem eigenen Schatten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5508163f-fa1e-40cf-918d-9371aaca9810",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fare il bastian contrario",
+      "sentence": "Mi contraddice sempre, ama fare il bastian contrario."
+    },
+    "de": {
+      "word": "aus Prinzip widersprechen",
+      "sentence": "Er widerspricht mir immer, einfach aus reinem Prinzip."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bb8dc935-a976-41b3-9461-e53c72f1464c",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere un Don Giovanni",
+      "sentence": "Ha molte ammiratrici, è proprio un Don Giovanni."
+    },
+    "de": {
+      "word": "ein Schürzenjäger sein",
+      "sentence": "Er hat viele Verehrerinnen, er ist ein richtiger Schürzenjäger."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "354389d0-b911-4eed-a7c0-80f552a1ae75",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere due gocce d'acqua",
+      "sentence": "Madre e figlia sembrano due gocce d'acqua."
+    },
+    "de": {
+      "word": "sich gleichen wie ein Ei dem anderen",
+      "sentence": "Mutter und Tochter gleichen sich wie ein Ei dem anderen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1bf43f0f-90bd-4262-b17f-45305cb3f9ec",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "se la canta e se la suona",
+      "sentence": "Decide tutto da solo, se la canta e se la suona."
+    },
+    "de": {
+      "word": "sein eigenes Süppchen kochen",
+      "sentence": "Er entscheidet alles allein und kocht sein eigenes Süppchen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a9c2deb0-c12a-41bc-8124-8304c6e42eb4",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fare il bello e il cattivo tempo",
+      "sentence": "In ufficio è lui che fa il bello e il cattivo tempo."
+    },
+    "de": {
+      "word": "den Ton angeben",
+      "sentence": "Im Büro ist er es, der den Ton angibt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d3544a20-79e6-42a9-a068-ae2fa1079a46",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere alla mano",
+      "sentence": "È sempre gentile e disponibile, una ragazza alla mano."
+    },
+    "de": {
+      "word": "umgänglich sein",
+      "sentence": "Sie ist immer freundlich und hilfsbereit, ein umgänglicher Mensch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3e82469c-3851-46f4-97e2-063a5bfd938a",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere una ragazza acqua e sapone",
+      "sentence": "È composta e naturale, una ragazza acqua e sapone."
+    },
+    "de": {
+      "word": "das Mädchen von nebenan",
+      "sentence": "Sie ist natürlich und schlicht, wie das Mädchen von nebenan."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5f1c6aef-7aae-4a99-b022-c537588518e4",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "il troppo stroppia",
+      "sentence": "Hai mangiato troppi dolci di nuovo: il troppo stroppia."
+    },
+    "de": {
+      "word": "allzu viel ist ungesund",
+      "sentence": "Du hast wieder zu viele Süssigkeiten gegessen: allzu viel ist ungesund."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "179c8fee-7239-4090-874e-6766d453de4b",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "la matematica non è un'opinione",
+      "sentence": "I conti tornano così: la matematica non è un'opinione."
+    },
+    "de": {
+      "word": "Zahlen lügen nicht",
+      "sentence": "Die Rechnung stimmt genau so, Zahlen lügen eben nicht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "56274ef7-7b5d-44c1-8b3a-1cc426eeb2b0",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "dare un colpo al cerchio e uno alla botte",
+      "sentence": "Cerca di accontentare tutti: dà un colpo al cerchio e uno alla botte."
+    },
+    "de": {
+      "word": "auf zwei Hochzeiten tanzen",
+      "sentence": "Er will es allen recht machen und tanzt auf zwei Hochzeiten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4ba989d7-6737-42e1-a0c6-7881a1fd9362",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "prendere un abbaglio",
+      "sentence": "Pensavo fosse lui, ma ho preso un abbaglio."
+    },
+    "de": {
+      "word": "auf dem Holzweg sein",
+      "sentence": "Ich dachte, er sei es, aber ich war auf dem Holzweg."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "47d1229e-7d92-44e8-af9e-149036d43ee6",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fare a scaricabarile",
+      "sentence": "Nessuno vuole ammettere l'errore, fanno tutti a scaricabarile."
+    },
+    "de": {
+      "word": "den Schwarzen Peter zuschieben",
+      "sentence": "Keiner gibt den Fehler zu, alle schieben den Schwarzen Peter zu."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fc41e780-9a4e-4eb8-b358-3d5a8d56d0ec",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "gira e rigira",
+      "sentence": "Gira e rigira, il risultato non cambia mai."
+    },
+    "de": {
+      "word": "wie man es auch dreht und wendet",
+      "sentence": "Wie man es auch dreht und wendet, es bleibt gleich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a59476e9-86fd-4eb8-9b9d-4f5bda403224",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "tentar non nuoce",
+      "sentence": "Non so se funziona, ma tentar non nuoce."
+    },
+    "de": {
+      "word": "Versuch macht klug",
+      "sentence": "Ich weiss nicht, ob es klappt, aber Versuch macht klug."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6c3dc082-6ac7-468b-bfca-37224ff696bb",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "meglio soli che mal accompagnati",
+      "sentence": "Preferisco stare da sola: meglio soli che mal accompagnati."
+    },
+    "de": {
+      "word": "besser allein als in schlechter Gesellschaft",
+      "sentence": "Ich bleibe lieber allein: besser allein als in schlechter Gesellschaft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "291e67d4-af17-4dd7-9685-6e9927ffc2c6",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "chi la dura la vince",
+      "sentence": "Ha studiato per mesi e ha vinto: chi la dura la vince."
+    },
+    "de": {
+      "word": "steter Tropfen höhlt den Stein",
+      "sentence": "Er lernte monatelang und schaffte es: steter Tropfen höhlt den Stein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4582f7c3-ca43-4d4c-9c38-3fde5526f4ae",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "bando alle ciance",
+      "sentence": "Bando alle ciance, iniziamo subito a lavorare sul serio."
+    },
+    "de": {
+      "word": "genug der Worte, ans Werk",
+      "sentence": "Genug der Worte, ans Werk, wir fangen jetzt an."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "23139ad9-a820-4fb4-94d0-9889808956ed",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "carta canta",
+      "sentence": "Non credi? Guarda il contratto firmato: carta canta."
+    },
+    "de": {
+      "word": "schwarz auf weiss",
+      "sentence": "Du glaubst nicht? Hier steht es schwarz auf weiss."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "88fcc056-d3e9-4011-9d36-93348f63ac1d",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "e qui casca l'asino",
+      "sentence": "Sembrava facile, ma è qui che casca l'asino."
+    },
+    "de": {
+      "word": "da liegt der Hund begraben",
+      "sentence": "Es schien leicht, aber da liegt der Hund begraben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cd84b226-6757-4c95-bdde-8379046b12f6",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "o la va o la spacca",
+      "sentence": "Domani ho l'esame decisivo: o la va o la spacca."
+    },
+    "de": {
+      "word": "auf Biegen oder Brechen",
+      "sentence": "Morgen ist die grosse Prüfung: auf Biegen oder Brechen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
   }
 ]
