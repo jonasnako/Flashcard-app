@@ -17890,7 +17890,7 @@
   {
     "id": "670f9c76-afba-4b6e-a524-f0b91ab24a32",
     "level": "B1",
-    "topic": "Expressions",
+    "topic": "Idioms",
     "it": {
       "word": "vale la pena",
       "sentence": "Vale la pena visitare quel museo?"
@@ -17981,7 +17981,7 @@
   {
     "id": "58756a62-4105-497b-9930-456d41876680",
     "level": "A2",
-    "topic": "Expressions",
+    "topic": "Idioms",
     "it": {
       "word": "non vedo l'ora di",
       "sentence": "Non vedo l'ora di rivederti!"
@@ -17994,7 +17994,7 @@
   {
     "id": "0991fd79-17d3-44c3-b931-fc4e5ab9f6e7",
     "level": "A2",
-    "topic": "Expressions",
+    "topic": "Idioms",
     "it": {
       "word": "in bocca al lupo",
       "sentence": "Domani hai l'esame? In bocca al lupo!"
@@ -18124,7 +18124,7 @@
   {
     "id": "edd2e3db-3da3-458d-b90d-f6c5917a2a4c",
     "level": "B2",
-    "topic": "Expressions",
+    "topic": "Idioms",
     "it": {
       "word": "roba da matti",
       "sentence": "Tre ore di coda per un caffè? Roba da matti!"
@@ -18150,7 +18150,7 @@
   {
     "id": "73050cd8-64e5-4272-9d37-e3ba14a00293",
     "level": "B1",
-    "topic": "Expressions",
+    "topic": "Idioms",
     "it": {
       "word": "neanche per sogno",
       "sentence": "Prestargli la macchina? Neanche per sogno!"
@@ -41569,6 +41569,614 @@
     "de": {
       "word": "elfenbeinfarben",
       "sentence": "Das Brautkleid hatte einen sehr eleganten elfenbeinfarbenen Ton."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8a6d04d9-cbe6-4acf-9341-b131f4774257",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "rosso di rabbia",
+      "sentence": "È diventato rosso di rabbia quando l'ha saputo."
+    },
+    "de": {
+      "word": "rot vor Wut",
+      "sentence": "Er wurde rot vor Wut, als er es erfuhr."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c4fe3651-bd72-4840-8810-29a8cae4c493",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "verde d'invidia",
+      "sentence": "Quando ha visto la mia auto, è diventato verde d'invidia."
+    },
+    "de": {
+      "word": "grün vor Neid",
+      "sentence": "Als er mein Auto sah, wurde er grün vor Neid."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ba0c6f11-e7c2-4caf-8372-a442639ac520",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "il principe azzurro",
+      "sentence": "Aspetta ancora il suo principe azzurro."
+    },
+    "de": {
+      "word": "der Märchenprinz",
+      "sentence": "Sie wartet immer noch auf ihren Märchenprinzen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "197d4964-4a9c-4b65-8b5f-a43024cadd27",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "una notte in bianco",
+      "sentence": "Ho passato una notte in bianco a studiare."
+    },
+    "de": {
+      "word": "eine schlaflose Nacht",
+      "sentence": "Ich habe eine schlaflose Nacht mit Lernen verbracht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d3ff874c-df8e-4aef-a051-3a002b64c392",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "la settimana bianca",
+      "sentence": "A febbraio andiamo in settimana bianca sulle Alpi."
+    },
+    "de": {
+      "word": "die Skiferien",
+      "sentence": "Im Februar machen wir Skiferien in den Alpen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8bcb1306-b26f-434d-8a10-c3f7ca81bf95",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere al verde",
+      "sentence": "Alla fine del mese sono sempre al verde."
+    },
+    "de": {
+      "word": "pleite sein",
+      "sentence": "Am Ende des Monats bin ich immer pleite."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e8bba448-596a-46a8-b9af-425f3a52d1ac",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "costare un occhio della testa",
+      "sentence": "Quella borsa di marca costa un occhio della testa."
+    },
+    "de": {
+      "word": "ein Vermögen kosten",
+      "sentence": "Diese teure Markentasche kostet wirklich ein Vermögen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "85f6f13c-41ed-4f29-adad-8a2a182ede50",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere le mani bucate",
+      "sentence": "Ha le mani bucate e spende tutto quello che guadagna."
+    },
+    "de": {
+      "word": "das Geld zum Fenster hinauswerfen",
+      "sentence": "Er wirft das Geld zum Fenster hinaus und gibt alles aus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "15a65854-c83a-4f57-b6f9-67f6053dabe8",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "tirare la cinghia",
+      "sentence": "Quest'anno dobbiamo tirare un po' la cinghia."
+    },
+    "de": {
+      "word": "den Gürtel enger schnallen",
+      "sentence": "Dieses Jahr müssen wir den Gürtel etwas enger schnallen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "87497ef1-8e09-4720-ab80-956318c37f8c",
+    "level": "A2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere una fame da lupo",
+      "sentence": "Dopo la partita avevo una fame da lupo."
+    },
+    "de": {
+      "word": "einen Bärenhunger haben",
+      "sentence": "Nach dem Spiel hatte ich einen Bärenhunger."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8f6874a3-e813-44e3-b03f-bdf3cecf8df4",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "furbo come una volpe",
+      "sentence": "Quel ragazzino è furbo come una volpe."
+    },
+    "de": {
+      "word": "schlau wie ein Fuchs",
+      "sentence": "Dieser kleine Junge ist schlau wie ein Fuchs."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "10227dd9-c815-41a4-a75b-be68c9afc09f",
+    "level": "A2",
+    "topic": "Idioms",
+    "it": {
+      "word": "lento come una lumaca",
+      "sentence": "Sbrigati, sei lento come una lumaca!"
+    },
+    "de": {
+      "word": "langsam wie eine Schnecke",
+      "sentence": "Beeil dich, du bist langsam wie eine Schnecke!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8990e68f-4a18-4386-9676-e2d6c337b8a4",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "testardo come un mulo",
+      "sentence": "Non cambia mai idea, è testardo come un mulo."
+    },
+    "de": {
+      "word": "stur wie ein Esel",
+      "sentence": "Er ändert nie seine Meinung, stur wie ein Esel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c56ca9ab-a5df-45f3-9866-07a8ac8d2aa1",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "dormire come un ghiro",
+      "sentence": "Dopo il lungo viaggio ho dormito come un ghiro."
+    },
+    "de": {
+      "word": "wie ein Murmeltier schlafen",
+      "sentence": "Nach der langen Reise habe ich wie ein Murmeltier geschlafen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3f0f192e-4236-404f-a1cb-d90e0475bc94",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "sano come un pesce",
+      "sentence": "A ottant'anni è ancora sano come un pesce."
+    },
+    "de": {
+      "word": "kerngesund",
+      "sentence": "Mit achtzig Jahren ist er noch kerngesund."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "63a1737b-a829-4453-bfce-84f74e030c06",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "prendere due piccioni con una fava",
+      "sentence": "Così prendiamo due piccioni con una fava."
+    },
+    "de": {
+      "word": "zwei Fliegen mit einer Klappe schlagen",
+      "sentence": "So schlagen wir zwei Fliegen mit einer Klappe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "aa826eaf-7761-4eb0-a7cd-211988fb9d39",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere un pesce fuor d'acqua",
+      "sentence": "A quella festa elegante mi sentivo un pesce fuor d'acqua."
+    },
+    "de": {
+      "word": "wie ein Fisch auf dem Trockenen",
+      "sentence": "Auf dieser eleganten Party fühlte ich mich wie ein Fisch auf dem Trockenen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "723d3608-161a-4e3a-a559-69d32ee7b7a8",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "piovere a catinelle",
+      "sentence": "Non uscire adesso, piove a catinelle."
+    },
+    "de": {
+      "word": "es giesst wie aus Kübeln",
+      "sentence": "Geh jetzt nicht raus, es giesst wie aus Kübeln."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "19ad3562-b9dc-46eb-b5bb-28270de1d358",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere la testa fra le nuvole",
+      "sentence": "Oggi hai proprio la testa fra le nuvole."
+    },
+    "de": {
+      "word": "mit dem Kopf in den Wolken sein",
+      "sentence": "Heute bist du wirklich mit dem Kopf in den Wolken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1b606213-e762-49f8-92c8-57925fab027f",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "cadere dalle nuvole",
+      "sentence": "Quando l'ho saputo, sono caduto dalle nuvole."
+    },
+    "de": {
+      "word": "aus allen Wolken fallen",
+      "sentence": "Als ich es erfuhr, fiel ich aus allen Wolken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c259dbe4-e1e4-4397-b9ed-e1cab852213a",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere al settimo cielo",
+      "sentence": "Da quando l'ha conosciuta, è al settimo cielo."
+    },
+    "de": {
+      "word": "im siebten Himmel sein",
+      "sentence": "Seit er sie kennengelernt hat, ist er im siebten Himmel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "806f627e-8188-49fa-a524-3318c862849f",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "una goccia nel mare",
+      "sentence": "Il mio piccolo aiuto è solo una goccia nel mare."
+    },
+    "de": {
+      "word": "ein Tropfen auf den heissen Stein",
+      "sentence": "Meine kleine Hilfe ist nur ein Tropfen auf den heissen Stein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a97e8874-9a11-4324-a8be-7e2a85e4bbdd",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere un diavolo per capello",
+      "sentence": "Stamattina ha un diavolo per capello, meglio non disturbarlo."
+    },
+    "de": {
+      "word": "vor Wut kochen",
+      "sentence": "Heute Morgen kocht er vor Wut, man stört ihn besser nicht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "da7c2496-d62f-44d2-b761-13aa2dd5e8f1",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "togliersi un peso dallo stomaco",
+      "sentence": "Dopo averglielo detto, si è tolto un peso dallo stomaco."
+    },
+    "de": {
+      "word": "ein Stein fällt vom Herzen",
+      "sentence": "Nachdem er es ihr gesagt hatte, fiel ihm ein Stein vom Herzen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d16b9b49-f405-4488-9288-bdb24a539200",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere la coda di paglia",
+      "sentence": "Si è offeso subito: ha proprio la coda di paglia."
+    },
+    "de": {
+      "word": "ein schlechtes Gewissen haben",
+      "sentence": "Er war gleich beleidigt: Er hat wohl ein schlechtes Gewissen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "00824b17-c274-4aa4-81cb-e80444b6f1f6",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "buono come il pane",
+      "sentence": "La mia vicina di casa è buona come il pane."
+    },
+    "de": {
+      "word": "herzensgut sein",
+      "sentence": "Meine Nachbarin ist wirklich ein herzensguter Mensch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6f96c328-76ad-47b5-839c-7fd641b6aae2",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere in gamba",
+      "sentence": "La nuova dottoressa è davvero in gamba."
+    },
+    "de": {
+      "word": "auf Zack sein",
+      "sentence": "Die neue Ärztin ist wirklich auf Zack."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5e1864cb-5e8d-4e0c-ab47-55d85f8f620e",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "non avere peli sulla lingua",
+      "sentence": "Dice sempre quello che pensa, non ha peli sulla lingua."
+    },
+    "de": {
+      "word": "kein Blatt vor den Mund nehmen",
+      "sentence": "Er sagt immer, was er denkt, und nimmt kein Blatt vor den Mund."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3e53f995-e210-4175-84f3-0624940e6c9e",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "rompere il ghiaccio",
+      "sentence": "Una battuta simpatica ha aiutato a rompere il ghiaccio."
+    },
+    "de": {
+      "word": "das Eis brechen",
+      "sentence": "Ein netter Witz hat geholfen, das Eis zu brechen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e74be813-c062-46ca-bc3e-fa0d67ebf9b5",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fare orecchie da mercante",
+      "sentence": "Gli ho chiesto aiuto, ma fa orecchie da mercante."
+    },
+    "de": {
+      "word": "sich taub stellen",
+      "sentence": "Ich habe ihn um Hilfe gebeten, aber er stellt sich taub."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "829f00b8-c7e6-4e64-aaa7-58e9c8160355",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "non avere né capo né coda",
+      "sentence": "Il suo lungo discorso non aveva né capo né coda."
+    },
+    "de": {
+      "word": "weder Hand noch Fuss haben",
+      "sentence": "Seine lange Rede hatte weder Hand noch Fuss."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a9419227-b56c-4e29-91fb-40f7cdcf3cea",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere le mani in pasta",
+      "sentence": "In questo settore lui ha davvero le mani in pasta."
+    },
+    "de": {
+      "word": "die Finger im Spiel haben",
+      "sentence": "In dieser Branche hat er überall die Finger im Spiel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "13596b0b-7d69-44a9-88c2-fa46ba085803",
+    "level": "A2",
+    "topic": "Idioms",
+    "it": {
+      "word": "meglio tardi che mai",
+      "sentence": "Hai finito la tesi: meglio tardi che mai!"
+    },
+    "de": {
+      "word": "besser spät als nie",
+      "sentence": "Du hast die Arbeit fertig: besser spät als nie!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bd0de9cd-4a79-43ba-955a-134a3098c378",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "non c'è due senza tre",
+      "sentence": "Ha vinto di nuovo: non c'è due senza tre."
+    },
+    "de": {
+      "word": "aller guten Dinge sind drei",
+      "sentence": "Er hat wieder gewonnen: Aller guten Dinge sind drei."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d5f38f61-e4ea-429f-b20e-4db41db6d3c3",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "l'abito non fa il monaco",
+      "sentence": "Non giudicarlo dall'aspetto: l'abito non fa il monaco."
+    },
+    "de": {
+      "word": "der Schein trügt",
+      "sentence": "Beurteile ihn nicht nach dem Äusseren: Der Schein trügt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "efec8eb8-3c5b-49f3-875f-3d3c6bd54ce7",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "chi va piano va sano e va lontano",
+      "sentence": "Non avere fretta: chi va piano va sano e va lontano."
+    },
+    "de": {
+      "word": "Eile mit Weile",
+      "sentence": "Nur nicht hetzen: Eile mit Weile, heisst es."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f843128d-4696-410a-8df7-8954cca76450",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "mettere il carro davanti ai buoi",
+      "sentence": "Prima finisci gli studi, non mettere il carro davanti ai buoi."
+    },
+    "de": {
+      "word": "das Pferd von hinten aufzäumen",
+      "sentence": "Beende zuerst dein Studium, zäum das Pferd nicht von hinten auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f330600b-cc5a-4a1a-84cc-6bc4deca5ae1",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "il frutto proibito è il più dolce",
+      "sentence": "Lo sanno tutti: il frutto proibito è sempre il più dolce."
+    },
+    "de": {
+      "word": "verbotene Früchte schmecken am besten",
+      "sentence": "Es ist bekannt: Verbotene Früchte schmecken am besten."
     },
     "streak": 0,
     "correct": 0,

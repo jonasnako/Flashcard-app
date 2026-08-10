@@ -54,10 +54,11 @@ digiuno* out of the Food batch's ambiguous review; the full Health build is stil
 | Topic | Book chapters absorbed | Status | Target |
 |---|---|---|---|
 | **Verbs** | Allgemeine Tätigkeiten, Bemühung/Vorhaben, Hilfe/Verpflichtung, Besitzen/Geben/Nehmen + polysemous chunk verbs + verb-preposition government | 129 ✓ | +~15 |
-| **Expressions** | Fixed phrases deployed verbatim: greetings & politeness formulas (buongiorno, grazie, per favore, piacere…), reaction-formulas & idioms (vale la pena, meno male, in bocca al lupo, figurati…) | 48 ✓ | done |
+| **Expressions** | Fixed functional phrases: greetings & politeness formulas (buongiorno, grazie, per favore, piacere…), reaction-formulas & discourse markers (meno male, figurati, magari, boh…) | 43 ✓ | done |
 | **Structure words** | Strukturwörter: connectives, conjunctions, adverbs, particles, quantifiers, modality; classification, cause/effect, manner | 137 ✓ | +~30 |
 | **Numbers** | Masse und Gewichte, Mengenbegriffe, Formen (skip literal counting — A1) | 60 ✓ | done |
 | **Colours** | Farben + light/surface qualities (glänzend, iridescente, fluorescente…), colour verbs (brillare, scintillare, sbiadire…), shade/tone nouns, extra hues | 56 ✓ | done |
+| **Idioms** | Figurative expressions & proverbs at all levels (essere al verde, prendere due piccioni con una fava, l'abito non fa il monaco…); split out of Expressions | 43 ✓ | grows (target 50–100) |
 
 ## Foundational layer (A1)
 
