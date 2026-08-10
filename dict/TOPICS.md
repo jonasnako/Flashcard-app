@@ -58,7 +58,7 @@ digiuno* out of the Food batch's ambiguous review; the full Health build is stil
 | **Structure words** | Strukturwörter: connectives, conjunctions, adverbs, particles, quantifiers, modality; classification, cause/effect, manner | 137 ✓ | +~30 |
 | **Numbers** | Masse und Gewichte, Mengenbegriffe, Formen (skip literal counting — A1) | 60 ✓ | done |
 | **Colours** | Farben + light/surface qualities (glänzend, iridescente, fluorescente…), colour verbs (brillare, scintillare, sbiadire…), shade/tone nouns, extra hues | 56 ✓ | done |
-| **Idioms** | Figurative expressions & proverbs at all levels (essere al verde, prendere due piccioni con una fava, l'abito non fa il monaco…); split out of Expressions | 43 ✓ | grows (target 50–100) |
+| **Idioms** | Figurative expressions & proverbs at all levels (essere al verde, prendere due piccioni con una fava, l'abito non fa il monaco…); split out of Expressions | 81 ✓ | target met (50–100) |
 
 ## Foundational layer (A1)
 

@@ -42181,5 +42181,613 @@
     "streak": 0,
     "correct": 0,
     "seen": 0
+  },
+  {
+    "id": "ded72897-aeb6-41ff-a1c6-efb8318ff32d",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere pane e cacio",
+      "sentence": "Quei due sono pane e cacio, sempre insieme."
+    },
+    "de": {
+      "word": "ein Herz und eine Seele sein",
+      "sentence": "Die beiden sind ein Herz und eine Seele, immer zusammen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "40fb678d-31fe-48de-8af1-551c9d3d1afb",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "rendere pan per focaccia",
+      "sentence": "Mi ha ingannato e gli ho reso pan per focaccia."
+    },
+    "de": {
+      "word": "mit gleicher Münze heimzahlen",
+      "sentence": "Ich habe ihm die Täuschung mit gleicher Münze heimgezahlt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "49e74439-a3cc-48d9-b954-a4e0a35b5592",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "non è pane per i tuoi denti",
+      "sentence": "Quel lavoro non è pane per i tuoi denti."
+    },
+    "de": {
+      "word": "eine Nummer zu gross sein",
+      "sentence": "Diese Aufgabe ist eine Nummer zu gross für dich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "003a513b-d652-42f9-bab0-2821a813cab3",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "cercare il pelo nell'uovo",
+      "sentence": "Smettila di cercare il pelo nell'uovo, va bene così."
+    },
+    "de": {
+      "word": "ein Haar in der Suppe suchen",
+      "sentence": "Hör auf, ein Haar in der Suppe zu suchen, es passt so."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5941743b-cb0c-45e6-b23c-9ed3eb2774f4",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "tutto fa brodo",
+      "sentence": "Accetto anche pochi spiccioli, perché tutto fa brodo."
+    },
+    "de": {
+      "word": "Kleinvieh macht auch Mist",
+      "sentence": "Ich nehme auch ein paar Rappen: Kleinvieh macht auch Mist."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a30850a1-f28b-4c05-94ef-4dbdff688b47",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere sale in zucca",
+      "sentence": "Quel ragazzo ha sale in zucca, andrà lontano."
+    },
+    "de": {
+      "word": "Grips im Kopf haben",
+      "sentence": "Der Junge hat Grips im Kopf, er wird es weit bringen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c356e19d-1d4a-437d-ba67-d43ed6914f49",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere fegato",
+      "sentence": "Ci vuole fegato per fare una cosa del genere."
+    },
+    "de": {
+      "word": "Mumm haben",
+      "sentence": "Man braucht Mumm, um so etwas zu tun."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d1d85532-5f7e-48ac-9010-14468ed696b5",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere la puzza sotto il naso",
+      "sentence": "Da quando è ricco, ha la puzza sotto il naso."
+    },
+    "de": {
+      "word": "hochnäsig sein",
+      "sentence": "Seit er reich ist, ist er richtig hochnäsig geworden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f03a034f-7c60-40b1-aefd-747b918a5a4f",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere le mani legate",
+      "sentence": "Vorrei davvero aiutarti, ma ho le mani legate."
+    },
+    "de": {
+      "word": "jemandem sind die Hände gebunden",
+      "sentence": "Ich würde dir gern helfen, aber mir sind die Hände gebunden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3bf4b44d-22c2-413d-8cb6-607d3224eed1",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "tagliare la corda",
+      "sentence": "Appena ha visto la polizia, ha tagliato la corda."
+    },
+    "de": {
+      "word": "sich aus dem Staub machen",
+      "sentence": "Kaum sah er die Polizei, machte er sich aus dem Staub."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8836a960-6606-474d-9820-994f214f0885",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "essere tutt'orecchi",
+      "sentence": "Racconta pure quello che è successo, sono tutt'orecchi."
+    },
+    "de": {
+      "word": "ganz Ohr sein",
+      "sentence": "Erzähl ruhig, was passiert ist, ich bin ganz Ohr."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4c158148-d926-4ea2-8f06-863d74a77bd4",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "non chiudere occhio",
+      "sentence": "Ho bevuto troppo caffè e non ho chiuso occhio."
+    },
+    "de": {
+      "word": "kein Auge zutun",
+      "sentence": "Ich habe zu viel Kaffee getrunken und kein Auge zugetan."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b8e97166-0bec-444c-a698-b3d1fa8ba284",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "in un batter d'occhio",
+      "sentence": "Ha finito il lavoro in un batter d'occhio."
+    },
+    "de": {
+      "word": "im Handumdrehen",
+      "sentence": "Er hat die Arbeit im Handumdrehen erledigt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "faefaf71-cb6e-4aec-8690-4a15b5a7b581",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "alzare il gomito",
+      "sentence": "Ieri sera ha alzato un po' troppo il gomito."
+    },
+    "de": {
+      "word": "einen über den Durst trinken",
+      "sentence": "Gestern Abend hat er einen über den Durst getrunken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "706f1ba8-d271-4905-89b2-7dff5d2b13dc",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "leccarsi i baffi",
+      "sentence": "Che profumo! Mi lecco già i baffi."
+    },
+    "de": {
+      "word": "sich die Finger lecken",
+      "sentence": "Was für ein Duft! Ich lecke mir schon die Finger."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d9f92a82-7f72-484f-8292-b01b76cc1283",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "a occhio e croce",
+      "sentence": "A occhio e croce saremo una ventina di persone."
+    },
+    "de": {
+      "word": "über den Daumen gepeilt",
+      "sentence": "Über den Daumen gepeilt sind wir etwa zwanzig Leute."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "187b3814-9f13-4220-a03a-da5e4661867a",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere la lingua lunga",
+      "sentence": "Non dirle niente di segreto, ha la lingua lunga."
+    },
+    "de": {
+      "word": "eine lose Zunge haben",
+      "sentence": "Sag ihr nichts Geheimes, sie hat eine lose Zunge."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "44e60e4b-76a7-4eee-9106-dcc6cab328e7",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "quando il gatto non c'è i topi ballano",
+      "sentence": "Quando il gatto non c'è, i topi ballano."
+    },
+    "de": {
+      "word": "wenn die Katze aus dem Haus ist, tanzen die Mäuse",
+      "sentence": "Wenn die Katze aus dem Haus ist, tanzen die Mäuse."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2a96d97f-4a00-4e2d-83f8-3ef305a52bcb",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "prendere il toro per le corna",
+      "sentence": "È ora di prendere il toro per le corna."
+    },
+    "de": {
+      "word": "den Stier bei den Hörnern packen",
+      "sentence": "Es ist Zeit, den Stier bei den Hörnern zu packen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f968eaac-b556-4446-9246-a1dd68dc702e",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "avere una memoria di ferro",
+      "sentence": "Ricorda ogni dettaglio: ha una memoria di ferro."
+    },
+    "de": {
+      "word": "ein Gedächtnis wie ein Elefant haben",
+      "sentence": "Er erinnert sich an jedes Detail: ein Gedächtnis wie ein Elefant."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a7c0c6ec-a3d3-4f77-8da5-91de7c946518",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "a caval donato non si guarda in bocca",
+      "sentence": "A caval donato non si guarda in bocca, si dice."
+    },
+    "de": {
+      "word": "einem geschenkten Gaul schaut man nicht ins Maul",
+      "sentence": "Einem geschenkten Gaul schaut man nicht ins Maul, sagt man."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b2806036-f091-4048-a8c1-4cef870a7809",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "il lupo perde il pelo ma non il vizio",
+      "sentence": "Ha ricominciato a fumare: il lupo perde il pelo ma non il vizio."
+    },
+    "de": {
+      "word": "die Katze lässt das Mausen nicht",
+      "sentence": "Er raucht wieder: Die Katze lässt das Mausen nicht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "58111089-9b7e-47e6-9c78-da28f744412b",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "non è tutto oro quello che luccica",
+      "sentence": "Non fidarti: non è tutto oro quello che luccica."
+    },
+    "de": {
+      "word": "es ist nicht alles Gold, was glänzt",
+      "sentence": "Trau nicht: Es ist nicht alles Gold, was glänzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fbaa10a7-319a-4b5c-928b-c461dc517713",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "ride bene chi ride ultimo",
+      "sentence": "Aspetta la fine: ride bene chi ride ultimo."
+    },
+    "de": {
+      "word": "wer zuletzt lacht, lacht am besten",
+      "sentence": "Warte das Ende ab: Wer zuletzt lacht, lacht am besten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "42e482aa-f09b-43f9-86db-fee58b262506",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "l'unione fa la forza",
+      "sentence": "Lavoriamo insieme, perché l'unione fa la forza."
+    },
+    "de": {
+      "word": "Einigkeit macht stark",
+      "sentence": "Arbeiten wir zusammen, denn Einigkeit macht stark."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e7b8b465-b0d5-44b3-8f90-5f31fcb8fc44",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "batti il ferro finché è caldo",
+      "sentence": "Batti il ferro finché è caldo, dice il proverbio."
+    },
+    "de": {
+      "word": "das Eisen schmieden, solange es heiss ist",
+      "sentence": "Man muss das Eisen schmieden, solange es heiss ist."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "eea81fdb-3b1d-4ad0-b770-d02f1a821dc5",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "chi ha tempo non aspetti tempo",
+      "sentence": "Fallo subito: chi ha tempo non aspetti tempo."
+    },
+    "de": {
+      "word": "was du heute kannst besorgen, verschiebe nicht auf morgen",
+      "sentence": "Mach es sofort: Was du heute kannst besorgen, verschiebe nicht auf morgen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dcc17fec-b020-4449-93fe-56f93e11777b",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "tra il dire e il fare c'è di mezzo il mare",
+      "sentence": "Tra il dire e il fare c'è di mezzo il mare."
+    },
+    "de": {
+      "word": "leichter gesagt als getan",
+      "sentence": "Das ist eben leichter gesagt als getan, mein Freund."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8bb60ca6-c93d-41d8-8e11-80b6d8c06537",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "chi la fa l'aspetti",
+      "sentence": "Chi la fa l'aspetti: prima o poi arriva il conto."
+    },
+    "de": {
+      "word": "wie man in den Wald ruft, so schallt es heraus",
+      "sentence": "Wie man in den Wald ruft, so schallt es heraus."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ba19e025-9815-40f2-bce0-4b743ba9140b",
+    "level": "B1",
+    "topic": "Idioms",
+    "it": {
+      "word": "acqua in bocca",
+      "sentence": "È una sorpresa: mi raccomando, acqua in bocca!"
+    },
+    "de": {
+      "word": "kein Sterbenswörtchen",
+      "sentence": "Es ist eine Überraschung: Bitte kein Sterbenswörtchen!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "aa0eb28f-4bab-443f-b9e2-dbc31885adaa",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "di punto in bianco",
+      "sentence": "Di punto in bianco ha deciso di partire subito."
+    },
+    "de": {
+      "word": "aus heiterem Himmel",
+      "sentence": "Aus heiterem Himmel hat er beschlossen, sofort abzureisen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "20de0399-8ad4-4469-aaf5-b0ce691650a3",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "costi quel che costi",
+      "sentence": "Finirò questo lavoro entro domani, costi quel che costi."
+    },
+    "de": {
+      "word": "koste es, was es wolle",
+      "sentence": "Ich werde diese Arbeit beenden, koste es, was es wolle."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "04d28e81-3acf-44d4-97a8-46076f47a6f8",
+    "level": "A2",
+    "topic": "Idioms",
+    "it": {
+      "word": "sano e salvo",
+      "sentence": "È tornato a casa sano e salvo."
+    },
+    "de": {
+      "word": "heil und gesund",
+      "sentence": "Zum Glück ist er heil und gesund heimgekommen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "24635efc-09f0-4644-947b-1a731ee9123a",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "fare il diavolo a quattro",
+      "sentence": "I bambini facevano il diavolo a quattro in giardino."
+    },
+    "de": {
+      "word": "einen Höllenlärm machen",
+      "sentence": "Die Kinder machten im ganzen Garten einen Höllenlärm."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b245fb86-48f5-4f36-9fef-c0cefce2bf58",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "non avere voce in capitolo",
+      "sentence": "Su questa decisione non ho voce in capitolo."
+    },
+    "de": {
+      "word": "nichts zu melden haben",
+      "sentence": "Bei dieser Entscheidung habe ich nichts zu melden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a37e6780-3afb-4256-a033-846b6a909eff",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "mettere il naso negli affari altrui",
+      "sentence": "Smettila di mettere il naso negli affari altrui."
+    },
+    "de": {
+      "word": "die Nase in fremde Angelegenheiten stecken",
+      "sentence": "Hör auf, deine Nase in fremde Angelegenheiten zu stecken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "afd0fea2-4655-466e-94c8-5888807e658b",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "quando gli asini voleranno",
+      "sentence": "Lui ti aiuterà soltanto quando gli asini voleranno."
+    },
+    "de": {
+      "word": "am Sankt-Nimmerleins-Tag",
+      "sentence": "Er wird dir wohl erst am Sankt-Nimmerleins-Tag helfen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "576ba41b-81f6-4b3a-9624-7886109863d8",
+    "level": "B2",
+    "topic": "Idioms",
+    "it": {
+      "word": "piangere sul latte versato",
+      "sentence": "Ormai è fatta, non serve piangere sul latte versato."
+    },
+    "de": {
+      "word": "der verschütteten Milch nachweinen",
+      "sentence": "Es ist passiert, es bringt nichts, der verschütteten Milch nachzuweinen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
   }
 ]
