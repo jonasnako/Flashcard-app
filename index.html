@@ -272,11 +272,12 @@ function load(){
   if(settings.topic!==undefined){if(!settings.topics.length&&settings.topic!=="all")settings.topics=[settings.topic];delete settings.topic;}
   delete settings.deprecate;delete settings.retireN; // removed: time-based resurfacing and permanent retire
   settings.learnY=3; // baked in: 3 correct in a row = learned (matches the card's 3 dots / stars)
-  // migrate legacy focus modes onto the 5-stop lifecycle dial
+  // migrate legacy focus modes onto the 4-stop lifecycle dial
   if(settings.focus==="mixed")settings.focus="balanced";
   else if(settings.focus==="seen")settings.focus="consolidate";
   else if(settings.focus==="recap")settings.focus="refresh";
-  if(!["new","explore","balanced","consolidate","refresh"].includes(settings.focus))settings.focus="balanced";
+  else if(settings.focus==="new")settings.focus="explore"; // dropped pure-new stop → nearest remaining (most new)
+  if(!["explore","balanced","consolidate","refresh"].includes(settings.focus))settings.focus="balanced";
   if(settings.dirSet===undefined){settings.direction="de";settings.dirSet=true;saveSet();} // one-time: default to DE → IT (still changeable)
   if(settings.ssSet===undefined){settings.sessionSize=20;settings.ssSet=true;saveSet();} // one-time: default to 20 per session (still changeable)
   let words=readJSON(WORDS_KEY), prog=readJSON(PROG_KEY)||{};
@@ -332,13 +333,14 @@ const isProgC=c=>eligible(c)&&(c.streak||0)>0;    // in progress (1–2 dots)
 // ×M_MULT each time it's recalled, then retires (leaves the review queue for good) past M_RETIRE days.
 const DAY=864e5, M_FIRST=7, M_MULT=3, M_RETIRE=180;
 const dueNow=c=>status(c)==="learned"&&!c.retired&&(c.due||0)<=Date.now();
-// Focus is a single lifecycle dial. "refresh" draws already-learned words (maintenance); "new"
-// draws only unseen; the blend stops (explore/balanced/consolidate) draw from new + in-progress.
+// Focus is a single lifecycle dial. "refresh" draws already-learned words (maintenance);
+// "consolidate" draws only in-progress words (1–2 dots); the blend stops (explore/balanced)
+// draw from new + in-progress.
 const inSession=c=>{
   if(!inFilter(c))return false;
   const f=settings.focus;
   if(f==="refresh")return dueNow(c);
-  if(f==="new")return isNewC(c);
+  if(f==="consolidate")return isProgC(c);
   return eligible(c);
 };
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
@@ -356,8 +358,8 @@ function loadSession(){
     return {queue:q,total:s.total||q.length,learned:s.learned||0,active:true};
   }catch(e){return null;}
 }
-// NEW-share targets for the blend stops; Balanced is adaptive (more review as the in-progress backlog grows).
-const NEW_SHARE={explore:.7,consolidate:.2};
+// NEW-share target for the Explore stop; Balanced is adaptive (more review as the in-progress backlog grows).
+const NEW_SHARE={explore:.7};
 function interleave(a,b){const out=[],n=a.length+b.length;let i=0,j=0;
   for(let k=0;k<n;k++){
     if(i>=a.length)out.push(b[j++]);
@@ -382,7 +384,7 @@ function pickCards(size){
     return shuffle(arr.filter(c=>!cool.has(c.id))).concat(shuffle(arr.filter(c=>cool.has(c.id))));
   };
   const news=spaced(inF.filter(isNewC)), prog=spaced(inF.filter(isProgC));
-  if(f==="new")return news.slice(0,size);
+  if(f==="consolidate")return prog.slice(0,size); // in-progress words only, no new
   let share;
   if(f in NEW_SHARE)share=NEW_SHARE[f];
   else{const reviewShare=Math.min(.7,Math.max(.35,size?prog.length/size:0));share=1-reviewShare;} // balanced: adaptive
@@ -714,7 +716,7 @@ function paintSettings(){
 
   app.appendChild(el("div",{class:"sec"},["How"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["new","New"],["explore","Explore"],["balanced","Balanced"],["consolidate","Consolidate"],["refresh","Refresh"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();},"segwrap"),el("span",{class:"sub"},["From introducing to maintaining. New: 0-dot words only. Explore → Consolidate: more review as you move right (Balanced adapts). Refresh: spaced reviews of learned words — the gap grows each time you're right, until a word retires and stops coming back. (Learned = 3 correct in a row.)"])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["explore","Explore"],["balanced","Balanced"],["consolidate","Consolidate"],["refresh","Refresh"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();},"segwrap"),el("span",{class:"sub"},["From introducing to maintaining. Explore: mostly new words. Balanced: adapts, more review as your backlog grows. Consolidate: in-progress words only (1–2 dots), no new. Refresh: spaced reviews of learned words — the gap grows each time you're right, until a word retires and stops coming back. (Learned = 3 correct in a row.)"])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
 
   app.appendChild(el("div",{class:"sec"},["Audio"]));

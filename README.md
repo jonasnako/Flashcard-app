@@ -49,13 +49,13 @@ Each entry looks like:
 
 - **Settings → Study → Levels / Topics** limit which words a session draws from. Both are multi-select: tap any combination of levels and topics (e.g. B1 + B2, or Household + Children), or **All** to clear a selection. An empty selection means everything. Topics are listed **alphabetically**, and each topic name is **coloured by its progress** — amber (needs work) → green (learned), computed for the levels you've selected — so you can see at a glance which topics to focus on. (The **Words** tab's Topic filter is coloured the same way, for the level filter shown there.)
 - **Direction (front side)** defaults to **DE → IT** (German prompt). Change it in Settings → Study — *Mixed*, *IT → DE*, or *DE → IT*.
-- **Settings → Focus** controls which words a session draws from:
-  - **Mixed** — any word still being learned.
-  - **Seen only** — learning words you've already been tested on.
-  - **New only** — words you've never been tested on.
-  - **Recap** — reviews words you've already **learned** (within your Level/Topic filter). Miss one and its score resets to zero, so it drops back into the learning pool; get it right and it stays learned. This replaces time-based resurfacing: instead of learned words reappearing on a schedule, you recap deliberately and only the ones you've actually forgotten come back.
+- **Settings → Focus** is a single lifecycle dial controlling which words a session draws from, running from introducing to maintaining:
+  - **Explore** — mostly new words, blended with some in-progress review.
+  - **Balanced** — adapts, shifting toward more review as your in-progress backlog grows.
+  - **Consolidate** — in-progress words only (1–2 dots), no new words.
+  - **Refresh** — spaced reviews of words you've already **learned** (within your Level/Topic filter). The gap grows each time you're right, until a word retires and stops coming back. Miss one and its score resets to zero, so it drops back into the learning pool.
 
-  A word becomes **learned** after you get it right **3 times in a row** — the three dots on the card fill up as you go. Learned words leave the normal (Mixed/Seen/New) sessions and are reviewed via Recap. There's no permanent "mastered/retired" state — the only two states are *learning* and *learned*, and Recap is what moves words between them.
+  A word becomes **learned** after you get it right **3 times in a row** — the three dots on the card fill up as you go. Learned words leave the Explore/Balanced/Consolidate sessions and are reviewed via Refresh. The two states are *learning* and *learned*, and Refresh is what maintains learned words over time.
 - **How many words am I studying?** A **progress bar** shows your standing under the current study filter, coloured by ripeness: green = learned, then lighter shades for words at 2 dots and 1 dot, and amber for new/unstarted words. Its label breaks that down (*"40 learned · 30 ●●○ · 20 ●○○ · 10 new · 100 total"*). It appears in **Settings → Study** (updating as you change Levels/Topics), on the Session **start** screen ("Ready when you are"), and on the **completion** screen, where the words you just learned this session glow as their own brighter segment. The header (top-right) shows your **learned** total and how many are **in progress** (words at 1–2 of 3 dots) — it leads with what you've learned rather than a big "everything left" number, and updates live as you answer. The deck's total size is on the Words tab.
 - The **Words** tab is filterable by **Level** and **Topic**, on top of the search box. **Tap any word** to expand its example sentences, level, and topic, then **✏️ Edit** to change any field — including moving it to a different topic (typing an existing topic name, in any case, folds it into that topic). Edits sync to the repo just like generated words.
 
