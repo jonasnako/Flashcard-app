@@ -355,7 +355,7 @@ function loadSession(){
     if(!s||!s.active||!Array.isArray(s.queue))return null;
     const q=s.queue.filter(x=>x&&x.id&&lib.some(c=>c.id===x.id)); // drop cards no longer in the library
     if(!q.length)return null;
-    return {queue:q,total:s.total||q.length,learned:s.learned||0,active:true};
+    return {queue:q,total:s.total||q.length,learned:s.learned||0,missed:Array.isArray(s.missed)?s.missed:[],active:true};
   }catch(e){return null;}
 }
 // NEW-share target for the Explore stop; Balanced is adaptive (more review as the in-progress backlog grows).
@@ -396,7 +396,7 @@ function pickCards(size){
 function startSession(){
   if(settings.sfx)actxGet(); // warm up audio on this gesture so the first cue plays without resume lag
   const chosen=pickCards(Math.max(1,settings.sessionSize|0));
-  session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,active:chosen.length>0};
+  session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,missed:[],active:chosen.length>0};
   flipped=false;saveSession();
 }
 const cur=()=>session&&session.queue[0]?lib.find(c=>c.id===session.queue[0].id):null;
@@ -405,22 +405,32 @@ function rate(known){
   c.seen=(c.seen||0)+1;c.seenAt=Date.now(); // last-seen time drives least-recently-seen ordering (soft spacing)
   const recap=settings.focus==="refresh";
   if(recap){
-    // Spaced maintenance: a miss sends it back to learning; a hit grows the interval until it retires (off the list).
-    if(!known){c.streak=0;c.correct=0;c.ivl=0;c.due=0;c.retired=false;}
+    // Spaced maintenance: a lapse drops the word back into learning one step short of learned, so a single
+    // correct answer re-graduates it; a hit grows the interval until it retires (off the list).
+    if(!known){c.streak=Math.max(0,settings.learnY-1);c.ivl=0;c.due=0;c.retired=false;}
     else{const cur=c.ivl||M_FIRST;c.ivl=Math.round(cur*M_MULT);
       if(c.ivl>=M_RETIRE){c.retired=true;c.due=0;milestone={top:c.it.word,sub:"mastered"};}
       else c.due=Date.now()+c.ivl*DAY;}
   }else{
     const was=c.streak>=settings.learnY;
-    if(known){c.correct++;c.streak++;if(c.streak>=settings.learnY&&!was){session.learned++;justLearned=true;
-      c.ivl=M_FIRST;c.due=Date.now()+M_FIRST*DAY;c.retired=false; // schedule the first spaced review
-      const cell=tally(x=>x.topic===c.topic&&x.level===c.level); // did this word finish its topic×level bucket?
-      if(cell.done){const tw=tally(x=>x.topic===c.topic),lw=tally(x=>x.level===c.level);
-        milestone=(tw.done&&tw.size>cell.size)?{top:c.topic,sub:"topic complete"}
-                 :(lw.done&&lw.size>cell.size)?{top:"Level "+c.level,sub:"level complete"}
-                 :{top:c.topic+" · "+c.level,sub:"complete"};}
-    }}
-    else{c.streak=0;}
+    if(!session.missed)session.missed=[];
+    if(!known){
+      // Soft miss: step back one dot instead of wiping the streak, and remember the stumble so the
+      // in-session retry below can't hand the step straight back.
+      c.streak=Math.max(0,(c.streak||0)-1);
+      if(!session.missed.includes(c.id))session.missed.push(c.id);
+    }else{
+      c.correct++;
+      if(session.missed.includes(c.id)){/* retry after a stumble: clears the queue, but earns no dot */}
+      else{c.streak++;if(c.streak>=settings.learnY&&!was){session.learned++;justLearned=true;
+        c.ivl=M_FIRST;c.due=Date.now()+M_FIRST*DAY;c.retired=false; // schedule the first spaced review
+        const cell=tally(x=>x.topic===c.topic&&x.level===c.level); // did this word finish its topic×level bucket?
+        if(cell.done){const tw=tally(x=>x.topic===c.topic),lw=tally(x=>x.level===c.level);
+          milestone=(tw.done&&tw.size>cell.size)?{top:c.topic,sub:"topic complete"}
+                   :(lw.done&&lw.size>cell.size)?{top:"Level "+c.level,sub:"level complete"}
+                   :{top:c.topic+" · "+c.level,sub:"complete"};}
+      }}
+    }
   }
   saveProg();
   // recap is a single pass; normal sessions requeue missed cards until you get them right
