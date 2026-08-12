@@ -557,7 +557,13 @@ function rate(known,easy){
   saveSession();
 }
 let justLearned=false, milestone=null;
-function assess(known,easy){if(settings.sfx)actxGet();justLearned=false;milestone=null;rate(known,easy);
+// A touch that answers a card rebuilds the DOM mid-gesture; the browser then synthesises a click
+// at the same coordinates, which lands on whatever now occupies that spot. Ignore reveal taps for
+// a moment afterwards so that ghost click cannot flip the next card to its answer side.
+let tapLock=0;
+const tapLocked=()=>Date.now()<tapLock;
+function assess(known,easy){tapLock=Math.max(tapLock,Date.now()+150); // swallow the ghost click that follows a touch
+  if(settings.sfx)actxGet();justLearned=false;milestone=null;rate(known,easy);
   if(milestone)sfxMilestone();else if(justLearned)sfxLearn(); // fire sound first, before the DOM work, so it lands immediately
   paintSession();paintCounts();
   if(justLearned)celebrateLearned();
@@ -675,15 +681,14 @@ function paintSession(){
     // is an accusation; the same information as "12 review, 8 new" is just a plan.
     const inF=lib.filter(inFilter);
     const preview=pickCards(Math.max(1,settings.sessionSize|0),nextMood);
-    // "new" means never met, not "no dots yet". Words carried over at stability 1 (met once under
-    // the old model, never actually recalled) have no dots but are revisits, and calling them new
-    // made Review appear to serve new words. The dots say whether retention is proven; this line
-    // says whether you have met the word at all — different questions, both honest.
-    const pNew=preview.filter(c=>!isSeen(c)).length, pRev=preview.length-pNew;
+    // Split by DOTS, the same way the progress bar and the header counts do: no dot is new,
+    // whether or not the word has been met before. A word met once and never recalled has proved
+    // nothing, so counting it as new keeps every number on this screen telling the same story.
+    const pNew=preview.filter(c=>dots(c)<1).length, pRev=preview.length-pNew;
     const avail=preview.length;
     const done=session&&session.total>0;
     const emptyMsg=inF.length?"Everything here has retired — nothing left under this filter.":"No words match this filter.";
-    const readyMsg=avail+" word"+(avail===1?"":"s")+(pNew&&pRev?" · "+pNew+" new · "+pRev+" revisit":pNew?" · all new":" · all revisit");
+    const readyMsg=avail+" word"+(avail===1?"":"s")+(pNew&&pRev?" · "+pNew+" new · "+pRev+" review":pNew?" · all new":" · all review");
     const fp=filterProgress(done?(session.learned||0):0);
     const moods=el("div",{class:"moods"},[
       ["explore","Explore","Lean into new words"],
@@ -713,7 +718,7 @@ function paintSession(){
   }
   controls.push(el("button",{class:"ghost",style:{marginLeft:"auto"},title:"Back to the session picker",onclick:()=>{if(confirm("End this session? The rest is discarded (your scores are kept).")){stopAudio();clearSession();paintSession();}}},["↻ New session"]));
   area.appendChild(el("div",{class:"atools"},controls));
-  const card=el("div",{class:"card"+(flipped?" flip":""),onclick:()=>{if(audioOn)return;flipped=!flipped;card.classList.toggle("flip",flipped);paintButtons();}},[face(c,f,false),face(c,b,true)]);
+  const card=el("div",{class:"card"+(flipped?" flip":""),onclick:()=>{if(audioOn||tapLocked())return;flipped=!flipped;card.classList.toggle("flip",flipped);paintButtons();}},[face(c,f,false),face(c,b,true)]);
   const scene=el("div",{class:"scene"},[card]);
   // one speaker over the card (not one per face) — avoids iOS backface-visibility rendering two; speaks whichever side is showing
   if(ttsOK)scene.appendChild(el("button",{class:"say",title:"Hear this",onclick:(e)=>{e.stopPropagation();if(audioOn)return;speakFace(c,flipped?b:f,e.currentTarget);}},["🔊"]));
@@ -735,19 +740,25 @@ function face(c,lang,back){
 function paintButtons(){
   const a=document.getElementById("btns");if(!a)return;a.innerHTML="";
   if(audioOn){a.appendChild(el("div",{class:"astat",id:"astat"},[audioStatus||"…"]));return;}
-  if(!flipped)a.appendChild(el("div",{class:"assess"},[el("button",{class:"btn wide",onclick:()=>{flipped=true;document.querySelector(".card").classList.add("flip");paintButtons();}},["Show answer"])]));
+  if(!flipped)a.appendChild(el("div",{class:"assess"},[el("button",{class:"btn wide",onclick:()=>{if(tapLocked())return;flipped=true;document.querySelector(".card").classList.add("flip");paintButtons();}},["Show answer"])]));
   else{
     // "Knew it" doubles as Easy on a long press — a third button would compete with the primary
     // choice. The fill sweep shows the hold; releasing early is an ordinary "knew it".
     const know=el("button",{class:"btn know",title:"Tap if you knew it — hold for Easy"},[el("span",{},["✓ Knew it"])]);
     let t=null,fired=false;
     const cancel=()=>{if(t)clearTimeout(t);t=null;know.classList.remove("hold");};
+    // The ordinary tap answers on CLICK, exactly like Missed. Answering on pointerup instead
+    // rebuilt the DOM mid-gesture, and the browser then synthesised a click at the same spot that
+    // landed on the freshly drawn "Show answer" button — flipping the next card to its answer
+    // side, which looked like the wrong language coming up first. Pointer events now only time
+    // the hold; the long press is the one path that fires early, so it alone needs the tap lock.
     know.addEventListener("pointerdown",e=>{if(e.button)return;fired=false;know.classList.add("hold");
-      t=setTimeout(()=>{t=null;fired=true;know.classList.remove("hold");assess(true,true);},600);});
-    know.addEventListener("pointerup",()=>{const held=!!t;cancel();if(!fired&&held)assess(true);fired=false;});
+      t=setTimeout(()=>{t=null;fired=true;know.classList.remove("hold");tapLock=Date.now()+500;assess(true,true);},600);});
+    know.addEventListener("pointerup",cancel);
     know.addEventListener("pointerleave",()=>{cancel();fired=false;});
     know.addEventListener("pointercancel",()=>{cancel();fired=false;});
     know.addEventListener("contextmenu",e=>e.preventDefault());
+    know.addEventListener("click",e=>{if(fired){fired=false;e.preventDefault();return;}assess(true);});
     a.appendChild(el("div",{class:"assess"},[
       el("button",{class:"btn miss",onclick:()=>assess(false)},["✕ Missed"]),know]));
     a.appendChild(el("div",{class:"hint"},["hold ✓ for Easy"]));
