@@ -40,6 +40,11 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .card.flip{transform:rotateY(180deg)}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--paper);color:var(--ink);border-radius:18px;padding:22px 26px;display:flex;flex-direction:column;justify-content:center;box-shadow:0 22px 44px -20px rgba(0,0,0,.55),0 2px 0 var(--edge);overflow:hidden}
 .face.back{transform:rotateY(180deg)}
+/* belt and braces over backface-visibility: hide the face that should not be showing, swapped
+   at the midpoint of the flip so the animation still reads normally. */
+.face{transition:opacity 0s linear .28s}
+.card:not(.flip) .face.back{opacity:0}
+.card.flip .face:not(.back){opacity:0}
 .spine{position:absolute;left:0;top:0;bottom:0;width:7px}
 .word{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(30px,8vw,44px);line-height:1.08;letter-spacing:-.02em;margin:0;overflow-wrap:anywhere;hyphens:auto}
 .sentence{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(19px,5.2vw,23px);line-height:1.55;color:#3B382E;margin-top:16px;max-width:40ch;overflow-wrap:anywhere}
@@ -609,7 +614,7 @@ let search="", page=0; const PAGE=50; let addOpen=false, listLevel="all", listTo
 function paintCounts(){
   const e=document.getElementById("counts");if(!e)return;
   let learned=0,inprog=0,retired=0; // in progress = started but not yet learned (1–2 of 3 dots)
-  lib.forEach(c=>{if(c.retired)retired++;else if(dots(c)>=3)learned++;else if(isSeen(c))inprog++;});
+  lib.forEach(c=>{if(c.retired)retired++;else if(dots(c)>=3)learned++;else if(dots(c)>=1)inprog++;});
   e.innerHTML="";
   // retired words count as learned, so the headline never drops when a word graduates for good
   e.appendChild(el("div",{html:"<b>"+(learned+retired)+"</b> learned"}));
@@ -669,7 +674,7 @@ function paintSession(){
     // is an accusation; the same information as "12 review, 8 new" is just a plan.
     const inF=lib.filter(inFilter);
     const preview=pickCards(Math.max(1,settings.sessionSize|0),nextMood);
-    const pNew=preview.filter(c=>!isSeen(c)).length, pRev=preview.length-pNew;
+    const pNew=preview.filter(c=>dots(c)<1).length, pRev=preview.length-pNew;
     const avail=preview.length;
     const done=session&&session.total>0;
     const emptyMsg=inF.length?"Everything here has retired — nothing left under this filter.":"No words match this filter.";
