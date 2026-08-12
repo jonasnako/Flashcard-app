@@ -523,12 +523,18 @@ function rate(known,easy){
     // early rungs", not "retire unseen" — it still gets verified at a long gap before it can go.
     c.stab=easy?30:S_START;
     if(known)c.correct=(c.correct||0)+1;
+    else session.missed.push(c.id);
     logNote({nw:1});
   }else if(!known){
-    // Soft miss: stability drops to a third rather than resetting, and the stumble is remembered
-    // so the in-session retry below can't hand the step straight back.
-    c.stab=Math.max(S_START,(c.stab||S_START)/S_MISS);
-    if(!session.missed.includes(c.id))session.missed.push(c.id);
+    // Soft miss: stability drops to a third rather than resetting — and only on the FIRST miss of
+    // a session. A missed card is requeued so you don't leave with it unresolved, but that retry
+    // is re-study, not a second independent test: failing it again is the same lapse, and charging
+    // for each repetition would compound one slip into ÷9. Growth is already capped the same way
+    // (the gap is ~0 by then), so a card can move at most one step per session in either direction.
+    if(!session.missed.includes(c.id)){
+      c.stab=Math.max(S_START,(c.stab||S_START)/S_MISS);
+      session.missed.push(c.id);
+    }
   }else{
     c.correct=(c.correct||0)+1;
     if(!session.missed.includes(c.id)){   // a retry after a stumble clears the queue but earns nothing
