@@ -72,8 +72,9 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .btn.know>span{position:relative;z-index:1}
 .btn.know::after{content:"";position:absolute;inset:0;background:rgba(203,146,53,.5);transform:scaleX(0);transform-origin:left center;pointer-events:none}
 .btn.know.hold::after{transform:scaleX(1);transition:transform .6s linear}
+.lede{text-align:center;opacity:.62;font-size:14px;margin:2px 0 14px}
 .hint{text-align:center;font-size:11px;opacity:.38;margin-top:8px;letter-spacing:.03em}
-.moods{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:16px 0 4px}
+.moods{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin:18px 0 12px}
 .moods button{border-radius:999px;padding:7px 15px;font-size:13px;background:transparent;border:1px solid rgba(255,255,255,.16);color:inherit;opacity:.62;cursor:pointer}
 .moods button.on{opacity:1;background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.34)}
 .btn.wide{grid-column:1/-1;background:var(--paper);color:var(--ink);border-color:transparent}
@@ -344,6 +345,10 @@ const status=c=>c.retired?"retired":dots(c)>=3?"learned":"learning";
 const tally=pred=>{let size=0,learned=0;for(const c of lib){if(pred(c)){size++;if(c.retired||dots(c)>=3)learned++;}}return{size,learned,done:size>0&&size===learned};};
 const inFilter=c=>(!settings.levels.length||settings.levels.includes(c.level))&&(!settings.topics.length||settings.topics.includes(c.topic));
 const front=()=>settings.direction==="it"||settings.direction==="de"?settings.direction:(Math.random()<.5?"it":"de");
+// The side was baked into the queue when the session was created and survives in storage, so a
+// session started under Mixed (or the other direction) kept showing the old side after the
+// setting changed. Resolve it at paint time: a fixed direction always wins.
+const sideOf=q=>settings.direction==="it"||settings.direction==="de"?settings.direction:((q&&q.f)||front());
 // The very first interval is cadence-relative — "come back in about two sessions" — so someone
 // doing five sessions a day gets review inside day one instead of a wall of new words.
 const firstGap=()=>Math.max(1/24,Math.min(1,2/Math.max(.5,sessPerDay())));
@@ -429,7 +434,7 @@ function loadSession(){
 // Today's mood is a per-session choice, not a setting: it reverts to Normal once the session
 // starts, so there is nothing to forget you changed. It sets PRIORITY inside the session; the
 // controller above owns the long-run rate.
-let nextMood="normal";
+let nextMood="auto";
 const NOV_SHARE=.5, GUARD=2.5;              // Novelty aims for ~half the session new; throttled past GUARD sessions of backlog
 const NEW_FLOOR=.15, STOP_NEW=5;            // Normal keeps ~15% new until the backlog passes 5 sessions
 function interleave(a,b){const out=[],n=a.length+b.length;let i=0,j=0;
@@ -452,9 +457,9 @@ function pickCards(size,mood){
   const fresh=shuffle(inF.filter(c=>!isSeen(c)));
   const backlog=Math.max(0,due.length-size);
   const guard=backlog>size*GUARD;   // novelty is throttled once you are genuinely behind
-  const m=(mood==="novelty"&&guard)?"normal":(mood||"normal");
+  const m=(mood==="explore"&&guard)?"auto":(mood||"auto");
   let nNew=0,nRev=0;
-  if(m==="consolidate"){nRev=Math.min(due.length,size);}
+  if(m==="review"){nRev=Math.min(due.length,size);}
   else{
     // A backlog shouldn't mean zero new words — that makes an ordinary busy week feel like the
     // app has stopped moving. Keep a small slice for new material until the backlog is genuinely
@@ -466,12 +471,12 @@ function pickCards(size,mood){
     // Novelty lifts the new-word count to about half the session and leaves the rest to review,
     // rather than swallowing every free slot. The two moods should differ by degree, not be
     // different universes. Taking the max keeps Novelty >= Normal even when the pace is high.
-    nNew=m==="novelty"?Math.max(paced,Math.min(fresh.length,Math.round(size*NOV_SHARE))):paced;
+    nNew=m==="explore"?Math.max(paced,Math.min(fresh.length,Math.round(size*NOV_SHARE))):paced;
     nRev=Math.min(due.length,size-nNew);
   }
   // Heavy start: on a filter with nothing in rotation yet there is no review to protect, so
   // fill the whole session with new words rather than handing back a three-card sitting.
-  if(m!=="consolidate"&&!inF.some(inFlight))nNew=Math.min(size,fresh.length);
+  if(m!=="review"&&!inF.some(inFlight))nNew=Math.min(size,fresh.length);
   let revs=due.slice(0,nRev), news=fresh.slice(0,nNew);
   // Top up a short session rather than handing back five cards when there is plenty to practise.
   // First with the words closest to coming round again: answering one early earns little growth
@@ -483,7 +488,7 @@ function pickCards(size,mood){
     revs=revs.concat(inF.filter(c=>inFlight(c)&&!have.has(c.id))
       .sort((a,b)=>overdue(b)-overdue(a)).slice(0,room()));
   }
-  if(room()>0&&m!=="consolidate"){
+  if(room()>0&&m!=="review"){
     const have=new Set([...revs,...news].map(c=>c.id));
     news=news.concat(fresh.filter(c=>!have.has(c.id)).slice(0,room()));
   }
@@ -497,7 +502,7 @@ function startSession(){
   const mood=nextMood;
   const chosen=pickCards(Math.max(1,settings.sessionSize|0),mood);
   session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,missed:[],mood,active:chosen.length>0};
-  nextMood="normal";                       // moods are for today, not forever
+  nextMood="auto";                         // moods are for today, not forever
   logNote({sess:1,back:backlogNow()});
   flipped=false;saveSession();
 }
@@ -667,38 +672,36 @@ function paintSession(){
     const pNew=preview.filter(c=>!isSeen(c)).length, pRev=preview.length-pNew;
     const avail=preview.length;
     const done=session&&session.total>0;
-    const emptyMsg=inF.length?"Everything here has retired — nothing left to practise under this filter. Widen it to keep going.":"No words match this filter.";
-    const readyMsg=avail+" word"+(avail===1?"":"s")+" this session"+
-      (pNew&&pRev?" · "+pRev+" review, "+pNew+" new":pNew?" · all new":" · all review");
+    const emptyMsg=inF.length?"Everything here has retired — nothing left under this filter.":"No words match this filter.";
+    const readyMsg=avail+" word"+(avail===1?"":"s")+(pNew&&pRev?" · "+pNew+" new · "+pRev+" review":pNew?" · all new":" · all review");
     const fp=filterProgress(done?(session.learned||0):0);
     const moods=el("div",{class:"moods"},[
-      ["novelty","Novelty","More new words today — they'll come back as reviews later"],
-      ["normal","Normal","Reviews first, then new words at your current pace"],
-      ["consolidate","Consolidate","No new words — just work through what's due"]
+      ["explore","Explore","Lean into new words"],
+      ["auto","Auto","A steady mix, paced for you"],
+      ["review","Review","Only words you've already started"]
     ].map(([id,label,tip])=>el("button",{class:nextMood===id?"on":"",title:tip,
       onclick:()=>{nextMood=id;paintSession();}},[label])));
+    // One line describes the session, one bar shows the collection. No second explanation of the
+    // same thing, and nothing about what is owed.
     area.appendChild(el("div",{class:"state"},[
       el("p",{class:"big"},[done?"Session complete":(avail?"Ready when you are":"All caught up")]),
-      el("p",{},[done?("You worked through "+session.total+" words"+(session.learned?" and learned "+session.learned:"")+"."):(avail?readyMsg:emptyMsg)]),
-      fp.total?el("div",{},[fp.bar,el("div",{class:"sub",style:{marginTop:"8px"}},[fp.label])]):null,
+      done?el("p",{},["You worked through "+session.total+" words"+(session.learned?" and learned "+session.learned:"")+"."]):null,
       avail?moods:null,
-      avail?el("span",{class:"sub",style:{display:"block",textAlign:"center"}},[
-        nextMood==="novelty"?"New words go first — they come back to be practised later."
-        :nextMood==="consolidate"?"No new words — only what you've already started."
-        :"A steady mix, paced so it stays manageable."]):null,
-      avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"14px auto 0"},onclick:()=>{startSession();paintSession();}},[done?"New session":"Start session"]):null
+      el("p",{class:"lede"},[avail?readyMsg:emptyMsg]),
+      fp.total?fp.bar:null,
+      avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"18px auto 0"},onclick:()=>{startSession();paintSession();}},["Start session"]):null
     ]));
     return;
   }
   const c=cur(), donePart=session.total-session.queue.length;
   area.appendChild(el("div",{class:"meta"},[el("span",{},[session.queue.length+" left"]),el("span",{},[session.learned+" learned"])]));
   area.appendChild(el("div",{class:"progress"},[el("i",{style:{width:Math.round(donePart/session.total*100)+"%"}})]));
-  const f=session.queue[0].f, b=f==="it"?"de":"it";
+  const f=sideOf(session.queue[0]), b=f==="it"?"de":"it";
   const controls=[];
   if(ttsOK){
     controls.push(audioOn?el("button",{class:"ghost dngr",onclick:()=>{stopAudio();paintSession();}},["■ Stop"]):el("button",{class:"ghost",onclick:runHandsFree},["▶ Hands-free"]));
   }
-  controls.push(el("button",{class:"ghost",style:{marginLeft:"auto"},title:"Start a fresh session",onclick:()=>{if(confirm("Start a new session? The current one is discarded (your scores are kept).")){stopAudio();startSession();paintSession();}}},["↻ New session"]));
+  controls.push(el("button",{class:"ghost",style:{marginLeft:"auto"},title:"Back to the session picker",onclick:()=>{if(confirm("End this session? The rest is discarded (your scores are kept).")){stopAudio();clearSession();paintSession();}}},["↻ New session"]));
   area.appendChild(el("div",{class:"atools"},controls));
   const card=el("div",{class:"card"+(flipped?" flip":""),onclick:()=>{if(audioOn)return;flipped=!flipped;card.classList.toggle("flip",flipped);paintButtons();}},[face(c,f,false),face(c,b,true)]);
   const scene=el("div",{class:"scene"},[card]);
@@ -982,7 +985,7 @@ async function runHandsFree(){
   try{
     while(alive(gen)&&session&&session.active){
       const head=session.queue[0],c=cur();if(!c)break;
-      const f=head.f,b=f==="it"?"de":"it";
+      const f=sideOf(head),b=f==="it"?"de":"it";
       flipped=false;const cd=document.querySelector(".card");if(cd)cd.classList.remove("flip");
       setAStat("🔊 "+(f==="it"?"Italian":"German")+"…");
       await speak(c[f].word,LANG[f]);
