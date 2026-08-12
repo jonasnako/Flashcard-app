@@ -340,6 +340,11 @@ const S_D1=5, S_D2=25, S_D3=125;            // dot thresholds: ●○○  ●●
 const dots=c=>{const s=c.stab||0;return s>=S_D3?3:s>=S_D2?2:s>=S_D1?1:0;};
 const isSeen=c=>(c.stab||0)>0||!!c.retired;  // has been introduced
 const inFlight=c=>isSeen(c)&&!c.retired;     // still in rotation
+// A word that has been shown but never once recalled correctly has proved nothing, so it counts
+// as new material rather than review: it never appears in a Review session and competes for the
+// new-word slots instead. Growth only happens on a correct answer, so !started implies no dots.
+const started=c=>(c.correct||0)>0;
+const inReview=c=>inFlight(c)&&started(c);
 const status=c=>c.retired?"retired":dots(c)>=3?"learned":"learning";
 // count words matching a predicate and how many are done — for topic/level completion milestones
 const tally=pred=>{let size=0,learned=0;for(const c of lib){if(pred(c)){size++;if(c.retired||dots(c)>=3)learned++;}}return{size,learned,done:size>0&&size===learned};};
@@ -453,8 +458,11 @@ function interleave(a,b){const out=[],n=a.length+b.length;let i=0,j=0;
 // the session is genuinely short, and that means you are caught up rather than that it is broken.
 function pickCards(size,mood){
   const inF=lib.filter(inFilter);
-  const due=inF.filter(isDue).sort((a,b)=>overdue(b)-overdue(a)); // most overdue served first
-  const fresh=shuffle(inF.filter(c=>!isSeen(c)));
+  const due=inF.filter(c=>inReview(c)&&isDue(c)).sort((a,b)=>overdue(b)-overdue(a)); // most overdue first
+  // New material: never shown, plus anything shown but never yet recalled. The latter go first so
+  // a few hundred untouched words can't bury the ones you have already met once.
+  const unstarted=shuffle(inF.filter(c=>isSeen(c)&&!c.retired&&!started(c)&&isDue(c)));
+  const newPool=unstarted.concat(shuffle(inF.filter(c=>!isSeen(c))));
   const backlog=Math.max(0,due.length-size);
   const guard=backlog>size*GUARD;   // novelty is throttled once you are genuinely behind
   const m=(mood==="explore"&&guard)?"auto":(mood||"auto");
@@ -467,17 +475,17 @@ function pickCards(size,mood){
     // so the controller still has the last word on the long-run rate.
     const quota=newQuota();
     const floor=backlog>size*STOP_NEW?0:Math.min(quota,Math.max(1,Math.round(size*NEW_FLOOR)));
-    const paced=Math.min(quota,size-Math.min(due.length,size-floor),fresh.length); // what Normal takes
-    // Novelty lifts the new-word count to about half the session and leaves the rest to review,
+    const paced=Math.min(quota,size-Math.min(due.length,size-floor),newPool.length); // what Auto takes
+    // Explore lifts the new-word count to about half the session and leaves the rest to review,
     // rather than swallowing every free slot. The two moods should differ by degree, not be
-    // different universes. Taking the max keeps Novelty >= Normal even when the pace is high.
-    nNew=m==="explore"?Math.max(paced,Math.min(fresh.length,Math.round(size*NOV_SHARE))):paced;
+    // different universes. Taking the max keeps Explore >= Auto even when the pace is high.
+    nNew=m==="explore"?Math.max(paced,Math.min(newPool.length,Math.round(size*NOV_SHARE))):paced;
     nRev=Math.min(due.length,size-nNew);
   }
   // Heavy start: on a filter with nothing in rotation yet there is no review to protect, so
   // fill the whole session with new words rather than handing back a three-card sitting.
-  if(m!=="review"&&!inF.some(inFlight))nNew=Math.min(size,fresh.length);
-  let revs=due.slice(0,nRev), news=fresh.slice(0,nNew);
+  if(m!=="review"&&!inF.some(inReview))nNew=Math.min(size,newPool.length);
+  let revs=due.slice(0,nRev), news=newPool.slice(0,nNew);
   // Top up a short session rather than handing back five cards when there is plenty to practise.
   // First with the words closest to coming round again: answering one early earns little growth
   // (the gain is capped by the gap actually elapsed) but it is honest practice and it leaves the
@@ -485,17 +493,17 @@ function pickCards(size,mood){
   const room=()=>size-revs.length-news.length;
   if(room()>0){
     const have=new Set([...revs,...news].map(c=>c.id));
-    revs=revs.concat(inF.filter(c=>inFlight(c)&&!have.has(c.id))
+    revs=revs.concat(inF.filter(c=>inReview(c)&&!have.has(c.id))
       .sort((a,b)=>overdue(b)-overdue(a)).slice(0,room()));
   }
   if(room()>0&&m!=="review"){
     const have=new Set([...revs,...news].map(c=>c.id));
-    news=news.concat(fresh.filter(c=>!have.has(c.id)).slice(0,room()));
+    news=news.concat(newPool.filter(c=>!have.has(c.id)).slice(0,room()));
   }
   return interleave(news,shuffle(revs));
 }
 const backlogNow=()=>{const size=Math.max(1,settings.sessionSize|0);
-  return Math.max(0,lib.filter(c=>inFilter(c)&&isDue(c)).length-size);};
+  return Math.max(0,lib.filter(c=>inFilter(c)&&inReview(c)&&isDue(c)).length-size);};
 function startSession(){
   if(settings.sfx)actxGet(); // warm up audio on this gesture so the first cue plays without resume lag
   tuneIntake();
@@ -684,7 +692,7 @@ function paintSession(){
     // Split by DOTS, the same way the progress bar and the header counts do: no dot is new,
     // whether or not the word has been met before. A word met once and never recalled has proved
     // nothing, so counting it as new keeps every number on this screen telling the same story.
-    const pNew=preview.filter(c=>dots(c)<1).length, pRev=preview.length-pNew;
+    const pNew=preview.filter(c=>!started(c)).length, pRev=preview.length-pNew;
     const avail=preview.length;
     const done=session&&session.total>0;
     const emptyMsg=inF.length?"Everything here has retired — nothing left under this filter.":"No words match this filter.";
