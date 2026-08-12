@@ -68,7 +68,11 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .btn:active{transform:translateY(1px)}
 .btn.miss{background:rgba(203,146,53,.14);border-color:rgba(203,146,53,.4);color:#EAC98A}
 .btn.know{background:rgba(122,154,87,.16);border-color:rgba(122,154,87,.45);color:#BBD69A}
-.btn.easy{background:rgba(203,146,53,.14);border-color:rgba(203,146,53,.42);color:#E0B36B;flex:0 0 auto;padding-left:14px;padding-right:14px}
+.btn.know{position:relative;overflow:hidden;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+.btn.know>span{position:relative;z-index:1}
+.btn.know::after{content:"";position:absolute;inset:0;background:rgba(203,146,53,.5);transform:scaleX(0);transform-origin:left center;pointer-events:none}
+.btn.know.hold::after{transform:scaleX(1);transition:transform .6s linear}
+.hint{text-align:center;font-size:11px;opacity:.38;margin-top:8px;letter-spacing:.03em}
 .moods{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:16px 0 4px}
 .moods button{border-radius:999px;padding:7px 15px;font-size:13px;background:transparent;border:1px solid rgba(255,255,255,.16);color:inherit;opacity:.62;cursor:pointer}
 .moods button.on{opacity:1;background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.34)}
@@ -422,7 +426,8 @@ function loadSession(){
 // starts, so there is nothing to forget you changed. It sets PRIORITY inside the session; the
 // controller above owns the long-run rate.
 let nextMood="normal";
-const NOV_SHARE=.4, NOV_MULT=3, GUARD=2.5;
+const NOV_SHARE=.4, NOV_MULT=3, GUARD=2.5;   // novelty is throttled past GUARD sessions of backlog
+const NEW_FLOOR=.15, STOP_NEW=5;            // Normal keeps ~15% new until the backlog passes 5 sessions
 function interleave(a,b){const out=[],n=a.length+b.length;let i=0,j=0;
   for(let k=0;k<n;k++){
     if(i>=a.length)out.push(b[j++]);
@@ -454,7 +459,12 @@ function pickCards(size,mood){
     nRev=Math.min(due.length,size-reserve);
     nNew=Math.min(fresh.length,size-nRev);
   }else{
-    nRev=Math.min(due.length,size);
+    // A backlog shouldn't mean zero new words — that makes an ordinary busy week feel like the
+    // app has stopped moving. Keep a small slice for new material until the backlog is genuinely
+    // huge, and only then hand the whole session to reviews. The floor never exceeds the daily
+    // quota, so the controller still has the last word on the long-run rate.
+    const floor=backlog>size*STOP_NEW?0:Math.min(newQuota(),Math.max(1,Math.round(size*NEW_FLOOR)));
+    nRev=Math.min(due.length,size-floor);
     nNew=Math.min(newQuota(),size-nRev,fresh.length);
   }
   // Heavy start: on a filter with nothing in rotation yet there is no review to protect, so
@@ -693,11 +703,22 @@ function paintButtons(){
   const a=document.getElementById("btns");if(!a)return;a.innerHTML="";
   if(audioOn){a.appendChild(el("div",{class:"astat",id:"astat"},[audioStatus||"…"]));return;}
   if(!flipped)a.appendChild(el("div",{class:"assess"},[el("button",{class:"btn wide",onclick:()=>{flipped=true;document.querySelector(".card").classList.add("flip");paintButtons();}},["Show answer"])]));
-  else a.appendChild(el("div",{class:"assess"},[
-    el("button",{class:"btn miss",onclick:()=>assess(false)},["✕ Missed"]),
-    el("button",{class:"btn know",onclick:()=>assess(true)},["✓ Knew it"]),
-    el("button",{class:"btn easy",title:"Knew it instantly — jump ahead (a learned word retires on the spot)",onclick:()=>assess(true,true)},["⚡ Easy"])
-  ]));
+  else{
+    // "Knew it" doubles as Easy on a long press — a third button would compete with the primary
+    // choice. The fill sweep shows the hold; releasing early is an ordinary "knew it".
+    const know=el("button",{class:"btn know",title:"Tap if you knew it — hold for Easy"},[el("span",{},["✓ Knew it"])]);
+    let t=null,fired=false;
+    const cancel=()=>{if(t)clearTimeout(t);t=null;know.classList.remove("hold");};
+    know.addEventListener("pointerdown",e=>{if(e.button)return;fired=false;know.classList.add("hold");
+      t=setTimeout(()=>{t=null;fired=true;know.classList.remove("hold");assess(true,true);},600);});
+    know.addEventListener("pointerup",()=>{const held=!!t;cancel();if(!fired&&held)assess(true);fired=false;});
+    know.addEventListener("pointerleave",()=>{cancel();fired=false;});
+    know.addEventListener("pointercancel",()=>{cancel();fired=false;});
+    know.addEventListener("contextmenu",e=>e.preventDefault());
+    a.appendChild(el("div",{class:"assess"},[
+      el("button",{class:"btn miss",onclick:()=>assess(false)},["✕ Missed"]),know]));
+    a.appendChild(el("div",{class:"hint"},["hold ✓ for Easy"]));
+  }
 }
 
 /* ---- words ---- */
