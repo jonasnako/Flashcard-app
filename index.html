@@ -430,7 +430,7 @@ function loadSession(){
 // starts, so there is nothing to forget you changed. It sets PRIORITY inside the session; the
 // controller above owns the long-run rate.
 let nextMood="normal";
-const NOV_SHARE=.4, NOV_MULT=3, GUARD=2.5;   // novelty is throttled past GUARD sessions of backlog
+const NOV_SHARE=.5, GUARD=2.5;              // Novelty aims for ~half the session new; throttled past GUARD sessions of backlog
 const NEW_FLOOR=.15, STOP_NEW=5;            // Normal keeps ~15% new until the backlog passes 5 sessions
 function interleave(a,b){const out=[],n=a.length+b.length;let i=0,j=0;
   for(let k=0;k<n;k++){
@@ -455,21 +455,19 @@ function pickCards(size,mood){
   const m=(mood==="novelty"&&guard)?"normal":(mood||"normal");
   let nNew=0,nRev=0;
   if(m==="consolidate"){nRev=Math.min(due.length,size);}
-  else if(m==="novelty"){
-    // The share caps how much new words may DISPLACE reviews, not how many you get: once the
-    // due pile is served, new words expand into whatever room is left. Capping the total made
-    // Novelty hand back fewer new words than Normal whenever little was due.
-    const reserve=Math.min(fresh.length,Math.floor(size*NOV_SHARE));
-    nRev=Math.min(due.length,size-reserve);
-    nNew=Math.min(fresh.length,size-nRev);
-  }else{
+  else{
     // A backlog shouldn't mean zero new words — that makes an ordinary busy week feel like the
     // app has stopped moving. Keep a small slice for new material until the backlog is genuinely
-    // huge, and only then hand the whole session to reviews. The floor never exceeds the daily
-    // quota, so the controller still has the last word on the long-run rate.
-    const floor=backlog>size*STOP_NEW?0:Math.min(newQuota(),Math.max(1,Math.round(size*NEW_FLOOR)));
-    nRev=Math.min(due.length,size-floor);
-    nNew=Math.min(newQuota(),size-nRev,fresh.length);
+    // huge, and only then hand the whole session to reviews. The floor never exceeds the quota,
+    // so the controller still has the last word on the long-run rate.
+    const quota=newQuota();
+    const floor=backlog>size*STOP_NEW?0:Math.min(quota,Math.max(1,Math.round(size*NEW_FLOOR)));
+    const paced=Math.min(quota,size-Math.min(due.length,size-floor),fresh.length); // what Normal takes
+    // Novelty lifts the new-word count to about half the session and leaves the rest to review,
+    // rather than swallowing every free slot. The two moods should differ by degree, not be
+    // different universes. Taking the max keeps Novelty >= Normal even when the pace is high.
+    nNew=m==="novelty"?Math.max(paced,Math.min(fresh.length,Math.round(size*NOV_SHARE))):paced;
+    nRev=Math.min(due.length,size-nNew);
   }
   // Heavy start: on a filter with nothing in rotation yet there is no review to protect, so
   // fill the whole session with new words rather than handing back a three-card sitting.
