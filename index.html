@@ -266,7 +266,9 @@ function norm(c){
     stab:c.stab||0,jit:c.jit||1};
 }
 const stripWord=c=>({id:c.id,level:c.level,topic:c.topic,it:{word:c.it.word,sentence:c.it.sentence},de:{word:c.de.word,sentence:c.de.sentence}});
-const stripProg=c=>{const o={streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};if(c.seenAt)o.seenAt=c.seenAt;if(c.retired)o.retired=true;if(c.stab)o.stab=Math.round(c.stab*100)/100;if(c.jit&&c.jit!==1)o.jit=Math.round(c.jit*100)/100;return o;};
+// ivl/due are unused by the stability scheduler but are written through untouched, so reverting
+// to the old interval-based system stays lossless rather than resetting everyone's review queue.
+const stripProg=c=>{const o={streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};if(c.seenAt)o.seenAt=c.seenAt;if(c.ivl)o.ivl=c.ivl;if(c.due)o.due=c.due;if(c.retired)o.retired=true;if(c.stab)o.stab=Math.round(c.stab*100)/100;if(c.jit&&c.jit!==1)o.jit=Math.round(c.jit*100)/100;return o;};
 const wordsFromLib=()=>lib.map(stripWord);
 function progFromLib(){const p={};lib.forEach(c=>{p[c.id]=stripProg(c);});return p;}
 function readJSON(k){try{const v=localStorage.getItem(k);return v?JSON.parse(v):null;}catch(e){return null;}}
