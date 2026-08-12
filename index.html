@@ -40,11 +40,6 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .card.flip{transform:rotateY(180deg)}
 .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--paper);color:var(--ink);border-radius:18px;padding:22px 26px;display:flex;flex-direction:column;justify-content:center;box-shadow:0 22px 44px -20px rgba(0,0,0,.55),0 2px 0 var(--edge);overflow:hidden}
 .face.back{transform:rotateY(180deg)}
-/* belt and braces over backface-visibility: hide the face that should not be showing, swapped
-   at the midpoint of the flip so the animation still reads normally. */
-.face{transition:opacity 0s linear .28s}
-.card:not(.flip) .face.back{opacity:0}
-.card.flip .face:not(.back){opacity:0}
 .spine{position:absolute;left:0;top:0;bottom:0;width:7px}
 .word{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(30px,8vw,44px);line-height:1.08;letter-spacing:-.02em;margin:0;overflow-wrap:anywhere;hyphens:auto}
 .sentence{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(19px,5.2vw,23px);line-height:1.55;color:#3B382E;margin-top:16px;max-width:40ch;overflow-wrap:anywhere}
@@ -878,7 +873,10 @@ function paintSettings(){
    app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in this filter"]),fp.bar,el("span",{class:"sub"},[fp.label])]));}
 
   app.appendChild(el("div",{class:"sec"},["How"]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();}),
+    el("span",{class:"sub"},[settings.direction==="de"?"Now: the card shows German first, you recall the Italian."
+      :settings.direction==="it"?"Now: the card shows Italian first, you recall the German."
+      :"Now: Mixed — each card shows a random side first, so Italian comes up about half the time."])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
 
   app.appendChild(el("div",{class:"sec"},["Audio"]));
