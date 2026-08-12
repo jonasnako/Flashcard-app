@@ -680,11 +680,15 @@ function paintSession(){
     // is an accusation; the same information as "12 review, 8 new" is just a plan.
     const inF=lib.filter(inFilter);
     const preview=pickCards(Math.max(1,settings.sessionSize|0),nextMood);
-    const pNew=preview.filter(c=>dots(c)<1).length, pRev=preview.length-pNew;
+    // "new" means never met, not "no dots yet". Words carried over at stability 1 (met once under
+    // the old model, never actually recalled) have no dots but are revisits, and calling them new
+    // made Review appear to serve new words. The dots say whether retention is proven; this line
+    // says whether you have met the word at all — different questions, both honest.
+    const pNew=preview.filter(c=>!isSeen(c)).length, pRev=preview.length-pNew;
     const avail=preview.length;
     const done=session&&session.total>0;
     const emptyMsg=inF.length?"Everything here has retired — nothing left under this filter.":"No words match this filter.";
-    const readyMsg=avail+" word"+(avail===1?"":"s")+(pNew&&pRev?" · "+pNew+" new · "+pRev+" review":pNew?" · all new":" · all review");
+    const readyMsg=avail+" word"+(avail===1?"":"s")+(pNew&&pRev?" · "+pNew+" new · "+pRev+" revisit":pNew?" · all new":" · all revisit");
     const fp=filterProgress(done?(session.learned||0):0);
     const moods=el("div",{class:"moods"},[
       ["explore","Explore","Lean into new words"],
