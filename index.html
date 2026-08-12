@@ -241,7 +241,7 @@ const SEED = [
 // Words are loaded read-only from words.json in the repo; progress is per-device.
 const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1";
 const WORDS_KEY="lessico_words_v1", PROG_KEY="lessico_prog_v1";
-const DEFAULTS={direction:"de",levels:[],topics:[],sessionSize:20,learnY:3,rate:16,rateAuto:true,tunedAt:0,audioMode:"self",audioSentence:true,sfx:true};
+const DEFAULTS={direction:"de",levels:[],topics:[],sessionSize:20,learnY:3,rate:16,tunedAt:0,audioMode:"self",audioSentence:true,sfx:true};
 const LANG={it:"it-IT",de:"de-DE"};
 const ttsOK=("speechSynthesis" in window);
 const SRClass=window.SpeechRecognition||window.webkitSpeechRecognition||null;
@@ -278,7 +278,7 @@ function load(){
   delete settings.deprecate;delete settings.retireN; // removed: time-based resurfacing and permanent retire
   settings.learnY=3; // baked in: 3 correct in a row = learned (matches the card's 3 dots / stars)
   // migrate legacy focus modes onto the 4-stop lifecycle dial
-  delete settings.focus; // the focus dial is gone: the schedule owns reviews, intake is the only knob left
+  delete settings.focus;delete settings.rateAuto; // no dial, no rate setting: the moods are the control
   if(!(settings.rate>0))settings.rate=16;
   if(settings.dirSet===undefined){settings.direction="de";settings.dirSet=true;saveSet();} // one-time: default to DE → IT (still changeable)
   if(settings.ssSet===undefined){settings.sessionSize=20;settings.ssSet=true;saveSet();} // one-time: default to 20 per session (still changeable)
@@ -373,7 +373,6 @@ function sessPerDay(){
 // is the honest one: it is an integral, so daily noise cancels, and it grows whether or not you
 // show up. Wide deadband + slow asymmetric steps, because the feedback lag is months.
 function tuneIntake(){
-  if(!settings.rateAuto)return;
   const L=logGet();
   if(L.length<28||dayNo()-(settings.tunedAt||0)<14)return;
   const act=L.filter(x=>x.cards>0);
@@ -448,8 +447,12 @@ function pickCards(size,mood){
   let nNew=0,nRev=0;
   if(m==="consolidate"){nRev=Math.min(due.length,size);}
   else if(m==="novelty"){
-    nNew=Math.min(newQuota()*NOV_MULT,Math.floor(size*NOV_SHARE),fresh.length);
-    nRev=Math.min(due.length,size-nNew);
+    // The share caps how much new words may DISPLACE reviews, not how many you get: once the
+    // due pile is served, new words expand into whatever room is left. Capping the total made
+    // Novelty hand back fewer new words than Normal whenever little was due.
+    const reserve=Math.min(fresh.length,Math.floor(size*NOV_SHARE));
+    nRev=Math.min(due.length,size-reserve);
+    nNew=Math.min(fresh.length,size-nRev);
   }else{
     nRev=Math.min(due.length,size);
     nNew=Math.min(newQuota(),size-nRev,fresh.length);
@@ -650,7 +653,7 @@ function paintSession(){
       fp.total?el("div",{},[fp.bar,el("div",{class:"sub",style:{marginTop:"8px"}},[fp.label])]):null,
       avail?moods:null,
       avail?el("span",{class:"sub",style:{display:"block",textAlign:"center"}},[
-        nextMood==="novelty"?"Up to "+Math.floor(settings.sessionSize*NOV_SHARE)+" new words, ahead of reviews."
+        nextMood==="novelty"?"New words go first — they come back as reviews later."
         :nextMood==="consolidate"?"Due reviews only — nothing new added."
         :"About "+newQuota()+" new word"+(newQuota()===1?"":"s")+" this session."]):null,
       avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"14px auto 0"},onclick:()=>{startSession();paintSession();}},[done?"New session":"Start session"]):null
@@ -817,12 +820,6 @@ function paintSettings(){
 
   app.appendChild(el("div",{class:"sec"},["How"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["New words per day"]),
-    el("div",{class:"row"},[
-      num(Math.round(settings.rate||16),1,n=>{settings.rate=n;settings.rateAuto=false;saveSet();render();}),
-      el("button",{class:"ghost"+(settings.rateAuto?" on":""),onclick:()=>{settings.rateAuto=!settings.rateAuto;saveSet();render();}},[settings.rateAuto?"Auto ✓":"Auto"])
-    ]),
-    el("span",{class:"sub"},["Each new word costs about six cards over its life, so this sets your daily load: "+Math.round((settings.rate||16)*6)+" cards a day at this rate. On Auto it is retuned every couple of weeks from whether reviews are piling up — never from how much you happen to do on a given day. Pick Novelty or Consolidate on the session screen to lean either way for one session."])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
 
   app.appendChild(el("div",{class:"sec"},["Audio"]));
