@@ -391,10 +391,12 @@ function tuneIntake(){
   settings.rate=Math.max(2,Math.min(40,Math.round(settings.rate*10)/10));
   settings.tunedAt=dayNo();saveSet();
 }
-// new words still owed today, spread over the sessions you typically do
+// New words per session, paced so a typical day lands near the daily rate. Deliberately NOT
+// capped by a daily total: a hard cap makes every session after the budget is spent collapse to
+// a handful of cards, which punishes you for studying more. Doing extra sessions earns extra new
+// words; if that is too much, it shows up in the backlog and the controller lowers the rate.
 function newQuota(){
-  const per=Math.max(1,Math.round((settings.rate||16)/Math.max(1,sessPerDay())));
-  return Math.max(0,Math.min(per,(settings.rate||16)-(logToday().nw||0)));
+  return Math.max(1,Math.round((settings.rate||16)/Math.max(1,sessPerDay())));
 }
 // Seed stability for progress made under the old streak model. Conservative: a word keeps the
 // dots it had, so the counter does not drop, and a failed first long test only costs one dot.
@@ -472,7 +474,22 @@ function pickCards(size,mood){
   // Heavy start: on a filter with nothing in rotation yet there is no review to protect, so
   // fill the whole session with new words rather than handing back a three-card sitting.
   if(m!=="consolidate"&&!inF.some(inFlight))nNew=Math.min(size,fresh.length);
-  return interleave(fresh.slice(0,nNew),shuffle(due.slice(0,nRev)));
+  let revs=due.slice(0,nRev), news=fresh.slice(0,nNew);
+  // Top up a short session rather than handing back five cards when there is plenty to practise.
+  // First with the words closest to coming round again: answering one early earns little growth
+  // (the gain is capped by the gap actually elapsed) but it is honest practice and it leaves the
+  // new-word pacing intact. Only if those run out do we reach past the pace for more new words.
+  const room=()=>size-revs.length-news.length;
+  if(room()>0){
+    const have=new Set([...revs,...news].map(c=>c.id));
+    revs=revs.concat(inF.filter(c=>inFlight(c)&&!have.has(c.id))
+      .sort((a,b)=>overdue(b)-overdue(a)).slice(0,room()));
+  }
+  if(room()>0&&m!=="consolidate"){
+    const have=new Set([...revs,...news].map(c=>c.id));
+    news=news.concat(fresh.filter(c=>!have.has(c.id)).slice(0,room()));
+  }
+  return interleave(news,shuffle(revs));
 }
 const backlogNow=()=>{const size=Math.max(1,settings.sessionSize|0);
   return Math.max(0,lib.filter(c=>inFilter(c)&&isDue(c)).length-size);};
@@ -645,13 +662,16 @@ function paintSessionView(){app.appendChild(el("div",{id:"sess"}));paintSession(
 function paintSession(){
   const area=document.getElementById("sess");if(!area)return;area.innerHTML="";
   if(!session||!session.active){
+    // Describe the session you are about to do, never the pile you have not done. A "due" count
+    // is an accusation; the same information as "12 review, 8 new" is just a plan.
     const inF=lib.filter(inFilter);
-    const dueN=inF.filter(isDue).length, freshN=inF.filter(c=>!isSeen(c)).length;
-    const avail=dueN+freshN;
+    const preview=pickCards(Math.max(1,settings.sessionSize|0),nextMood);
+    const pNew=preview.filter(c=>!isSeen(c)).length, pRev=preview.length-pNew;
+    const avail=preview.length;
     const done=session&&session.total>0;
-    const back=backlogNow();
-    const emptyMsg=inF.length?"Nothing due right now — words come back spaced out over time, and retire once they stick. Come back later, or widen the filter.":"No words match this filter.";
-    const readyMsg=dueN+" due · "+freshN+" not started"+(back?" · "+back+" waiting":"");
+    const emptyMsg=inF.length?"Everything here has retired — nothing left to practise under this filter. Widen it to keep going.":"No words match this filter.";
+    const readyMsg=avail+" word"+(avail===1?"":"s")+" this session"+
+      (pNew&&pRev?" · "+pRev+" review, "+pNew+" new":pNew?" · all new":" · all review");
     const fp=filterProgress(done?(session.learned||0):0);
     const moods=el("div",{class:"moods"},[
       ["novelty","Novelty","More new words today — they'll come back as reviews later"],
@@ -665,9 +685,9 @@ function paintSession(){
       fp.total?el("div",{},[fp.bar,el("div",{class:"sub",style:{marginTop:"8px"}},[fp.label])]):null,
       avail?moods:null,
       avail?el("span",{class:"sub",style:{display:"block",textAlign:"center"}},[
-        nextMood==="novelty"?"New words go first — they come back as reviews later."
-        :nextMood==="consolidate"?"Due reviews only — nothing new added."
-        :"About "+newQuota()+" new word"+(newQuota()===1?"":"s")+" this session."]):null,
+        nextMood==="novelty"?"New words go first — they come back to be practised later."
+        :nextMood==="consolidate"?"No new words — only what you've already started."
+        :"A steady mix, paced so it stays manageable."]):null,
       avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"14px auto 0"},onclick:()=>{startSession();paintSession();}},[done?"New session":"Start session"]):null
     ]));
     return;
