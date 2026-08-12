@@ -68,6 +68,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .btn:active{transform:translateY(1px)}
 .btn.miss{background:rgba(203,146,53,.14);border-color:rgba(203,146,53,.4);color:#EAC98A}
 .btn.know{background:rgba(122,154,87,.16);border-color:rgba(122,154,87,.45);color:#BBD69A}
+.btn.easy{background:rgba(203,146,53,.14);border-color:rgba(203,146,53,.42);color:#E0B36B;flex:0 0 auto;padding-left:14px;padding-right:14px}
+.moods{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:16px 0 4px}
+.moods button{border-radius:999px;padding:7px 15px;font-size:13px;background:transparent;border:1px solid rgba(255,255,255,.16);color:inherit;opacity:.62;cursor:pointer}
+.moods button.on{opacity:1;background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.34)}
 .btn.wide{grid-column:1/-1;background:var(--paper);color:var(--ink);border-color:transparent}
 .state{text-align:center;padding:34px 18px}
 .state .big{font-family:'Fraunces',serif;font-size:24px;margin:0 0 8px}
@@ -237,7 +241,7 @@ const SEED = [
 // Words are loaded read-only from words.json in the repo; progress is per-device.
 const LIB_KEY="lessico_lib_v1", SET_KEY="lessico_set_v1";
 const WORDS_KEY="lessico_words_v1", PROG_KEY="lessico_prog_v1";
-const DEFAULTS={direction:"de",levels:[],topics:[],sessionSize:20,learnY:3,focus:"balanced",audioMode:"self",audioSentence:true,sfx:true};
+const DEFAULTS={direction:"de",levels:[],topics:[],sessionSize:20,learnY:3,rate:16,rateAuto:true,tunedAt:0,audioMode:"self",audioSentence:true,sfx:true};
 const LANG={it:"it-IT",de:"de-DE"};
 const ttsOK=("speechSynthesis" in window);
 const SRClass=window.SpeechRecognition||window.webkitSpeechRecognition||null;
@@ -254,10 +258,11 @@ function norm(c){
   const de=(c.de&&typeof c.de==="object")?c.de:{word:c.de||"",sentence:c.des||""};
   return {id:c.id||uid(),level:(c.level||"B1").toUpperCase(),topic:c.topic||"Other",
     it:{word:it.word||"",sentence:it.sentence||""},de:{word:de.word||"",sentence:de.sentence||""},
-    streak:c.streak||0,correct:c.correct||0,seen:c.seen||0,seenAt:c.seenAt||0,ivl:c.ivl||0,due:c.due||0,retired:!!c.retired};
+    streak:c.streak||0,correct:c.correct||0,seen:c.seen||0,seenAt:c.seenAt||0,ivl:c.ivl||0,due:c.due||0,retired:!!c.retired,
+    stab:c.stab||0,jit:c.jit||1};
 }
 const stripWord=c=>({id:c.id,level:c.level,topic:c.topic,it:{word:c.it.word,sentence:c.it.sentence},de:{word:c.de.word,sentence:c.de.sentence}});
-const stripProg=c=>{const o={streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};if(c.seenAt)o.seenAt=c.seenAt;if(c.ivl)o.ivl=c.ivl;if(c.due)o.due=c.due;if(c.retired)o.retired=true;return o;};
+const stripProg=c=>{const o={streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};if(c.seenAt)o.seenAt=c.seenAt;if(c.retired)o.retired=true;if(c.stab)o.stab=Math.round(c.stab*100)/100;if(c.jit&&c.jit!==1)o.jit=Math.round(c.jit*100)/100;return o;};
 const wordsFromLib=()=>lib.map(stripWord);
 function progFromLib(){const p={};lib.forEach(c=>{p[c.id]=stripProg(c);});return p;}
 function readJSON(k){try{const v=localStorage.getItem(k);return v?JSON.parse(v):null;}catch(e){return null;}}
@@ -273,11 +278,8 @@ function load(){
   delete settings.deprecate;delete settings.retireN; // removed: time-based resurfacing and permanent retire
   settings.learnY=3; // baked in: 3 correct in a row = learned (matches the card's 3 dots / stars)
   // migrate legacy focus modes onto the 4-stop lifecycle dial
-  if(settings.focus==="mixed")settings.focus="balanced";
-  else if(settings.focus==="seen")settings.focus="consolidate";
-  else if(settings.focus==="recap")settings.focus="refresh";
-  else if(settings.focus==="new")settings.focus="explore"; // dropped pure-new stop → nearest remaining (most new)
-  if(!["explore","balanced","consolidate","refresh"].includes(settings.focus))settings.focus="balanced";
+  delete settings.focus; // the focus dial is gone: the schedule owns reviews, intake is the only knob left
+  if(!(settings.rate>0))settings.rate=16;
   if(settings.dirSet===undefined){settings.direction="de";settings.dirSet=true;saveSet();} // one-time: default to DE → IT (still changeable)
   if(settings.ssSet===undefined){settings.sessionSize=20;settings.ssSet=true;saveSet();} // one-time: default to 20 per session (still changeable)
   let words=readJSON(WORDS_KEY), prog=readJSON(PROG_KEY)||{};
@@ -289,6 +291,7 @@ function load(){
     saveWordsLocal(words);saveProgNow(prog);
   }
   lib=buildLib(words,prog);
+  migrateStab();
 }
 function saveSet(){try{localStorage.setItem(SET_KEY,JSON.stringify(settings));}catch(e){}}
 function saveWordsLocal(words){try{localStorage.setItem(WORDS_KEY,JSON.stringify(words||wordsFromLib()));}catch(e){}}
@@ -319,30 +322,88 @@ async function syncFromRepo(){
 }
 
 /* ============ learning model ============ */
-function status(c){
-  return c.streak>=settings.learnY?"learned":"learning";
-}
-const eligible=c=>status(c)==="learning";
-// count words matching a predicate and how many are learned — for topic/level completion milestones
-const tally=pred=>{let size=0,learned=0;for(const c of lib){if(pred(c)){size++;if((c.streak||0)>=settings.learnY)learned++;}}return{size,learned,done:size>0&&size===learned};};
+// Each word carries a STABILITY (stab, in days): roughly "how long it stays reliably
+// retrievable" — at a gap equal to stab you have about an 85% chance of recall. A word is
+// scheduled when that much time has passed, never sooner: showing it early is exactly what
+// forfeits growth. A correct answer sets stability to 5x the gap you just proved you could
+// survive (capped at 5x the old value); a miss cuts it to a third.
+const DAY=864e5;
+const S_START=1, S_GROW=5, S_EASY=15, S_MISS=3, S_RETIRE=625;
+const S_D1=5, S_D2=25, S_D3=125;            // dot thresholds: ●○○  ●●○  ●●● (learned)
+const dots=c=>{const s=c.stab||0;return s>=S_D3?3:s>=S_D2?2:s>=S_D1?1:0;};
+const isSeen=c=>(c.stab||0)>0||!!c.retired;  // has been introduced
+const inFlight=c=>isSeen(c)&&!c.retired;     // still in rotation
+const status=c=>c.retired?"retired":dots(c)>=3?"learned":"learning";
+// count words matching a predicate and how many are done — for topic/level completion milestones
+const tally=pred=>{let size=0,learned=0;for(const c of lib){if(pred(c)){size++;if(c.retired||dots(c)>=3)learned++;}}return{size,learned,done:size>0&&size===learned};};
 const inFilter=c=>(!settings.levels.length||settings.levels.includes(c.level))&&(!settings.topics.length||settings.topics.includes(c.topic));
 const front=()=>settings.direction==="it"||settings.direction==="de"?settings.direction:(Math.random()<.5?"it":"de");
-const isNewC=c=>eligible(c)&&(c.streak||0)===0;   // no dots yet (never right, or reset by a miss)
-const isProgC=c=>eligible(c)&&(c.streak||0)>0;    // in progress (1–2 dots)
-// Maintenance spacing for the Refresh stop: once learned, a word gets a review interval that grows
-// ×M_MULT each time it's recalled, then retires (leaves the review queue for good) past M_RETIRE days.
-const DAY=864e5, M_FIRST=7, M_MULT=3, M_RETIRE=180;
-const dueNow=c=>status(c)==="learned"&&!c.retired&&(c.due||0)<=Date.now();
-// Focus is a single lifecycle dial. "refresh" draws already-learned words (maintenance);
-// "consolidate" draws only in-progress words (1–2 dots); the blend stops (explore/balanced)
-// draw from new + in-progress.
-const inSession=c=>{
-  if(!inFilter(c))return false;
-  const f=settings.focus;
-  if(f==="refresh")return dueNow(c);
-  if(f==="consolidate")return isProgC(c);
-  return eligible(c);
-};
+// The very first interval is cadence-relative — "come back in about two sessions" — so someone
+// doing five sessions a day gets review inside day one instead of a wall of new words.
+const firstGap=()=>Math.max(1/24,Math.min(1,2/Math.max(.5,sessPerDay())));
+const gapTarget=c=>{const s=c.stab||0;return s<=0?0:s<=S_START?firstGap():s*(c.jit||1);};
+const dueAt=c=>(c.seenAt||0)+gapTarget(c)*DAY;
+const overdue=c=>(Date.now()-(c.seenAt||0))/Math.max(1e-9,gapTarget(c)*DAY); // >=1 means due
+const isDue=c=>inFlight(c)&&Date.now()>=dueAt(c);
+const inSession=c=>inFilter(c)&&(isDue(c)||!isSeen(c));
+
+/* ---- activity log: the only way to know how much time someone actually spends ---- */
+const LOG_KEY="lessico_log_v1";
+const dayNo=()=>Math.floor(Date.now()/DAY);
+const logGet=()=>{const l=readJSON(LOG_KEY);return Array.isArray(l)?l:[];};
+function logNote(f){
+  const L=logGet();let t=L[L.length-1];
+  if(!t||t.d!==dayNo()){t={d:dayNo(),cards:0,sess:0,back:0,nw:0};L.push(t);while(L.length>90)L.shift();}
+  if(f.cards)t.cards+=f.cards;
+  if(f.sess)t.sess+=f.sess;
+  if(f.nw)t.nw+=f.nw;
+  if(f.back!=null)t.back=Math.max(t.back||0,f.back);
+  try{localStorage.setItem(LOG_KEY,JSON.stringify(L));}catch(e){}
+  return t;
+}
+const logToday=()=>{const L=logGet(),t=L[L.length-1];return (t&&t.d===dayNo())?t:{d:dayNo(),cards:0,sess:0,back:0,nw:0};};
+const avg=a=>a.length?a.reduce((p,c)=>p+c,0)/a.length:0;
+// sessions per active day, from the last two weeks — drives the first interval only
+function sessPerDay(){
+  const act=logGet().slice(-14).filter(x=>x.sess>0);
+  return act.length?Math.max(.5,Math.min(8,avg(act.map(x=>x.sess)))):1;
+}
+// Intake controller. Throughput is a censored signal (you can only complete what you were
+// offered), so it is useless here — a rolling average of cards done spirals downward. Backlog
+// is the honest one: it is an integral, so daily noise cancels, and it grows whether or not you
+// show up. Wide deadband + slow asymmetric steps, because the feedback lag is months.
+function tuneIntake(){
+  if(!settings.rateAuto)return;
+  const L=logGet();
+  if(L.length<28||dayNo()-(settings.tunedAt||0)<14)return;
+  const act=L.filter(x=>x.cards>0);
+  if(act.length<8){settings.tunedAt=dayNo();saveSet();return;}
+  const capEst=Math.max(1,avg(act.slice(-14).map(x=>x.cards)));
+  const B=L.slice(-28).map(x=>x.back||0);
+  const recent=avg(B.slice(-14)), prior=avg(B.slice(0,14));
+  if(recent>capEst*2&&recent>prior*1.1)settings.rate*=.85;      // persistently and increasingly behind
+  else if(recent<capEst*.25)settings.rate*=1.10;                // consistently caught up
+  settings.rate=Math.max(2,Math.min(40,Math.round(settings.rate*10)/10));
+  settings.tunedAt=dayNo();saveSet();
+}
+// new words still owed today, spread over the sessions you typically do
+function newQuota(){
+  const per=Math.max(1,Math.round((settings.rate||16)/Math.max(1,sessPerDay())));
+  return Math.max(0,Math.min(per,(settings.rate||16)-(logToday().nw||0)));
+}
+// Seed stability for progress made under the old streak model. Conservative: a word keeps the
+// dots it had, so the counter does not drop, and a failed first long test only costs one dot.
+function migrateStab(){
+  let touched=false;
+  lib.forEach(c=>{
+    if(c.stab||!c.seen&&!c.streak&&!c.retired)return;
+    const s=c.streak||0;
+    c.stab=c.retired?S_RETIRE:s>=3?Math.max(S_D3,(c.ivl||0)*5):s===2?S_D2:s===1?S_D1:S_START;
+    if(!c.seenAt)c.seenAt=Date.now();
+    touched=true;
+  });
+  if(touched)saveProg();
+}
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
 /* ============ session ============ */
@@ -358,8 +419,11 @@ function loadSession(){
     return {queue:q,total:s.total||q.length,learned:s.learned||0,missed:Array.isArray(s.missed)?s.missed:[],active:true};
   }catch(e){return null;}
 }
-// NEW-share target for the Explore stop; Balanced is adaptive (more review as the in-progress backlog grows).
-const NEW_SHARE={explore:.7};
+// Today's mood is a per-session choice, not a setting: it reverts to Normal once the session
+// starts, so there is nothing to forget you changed. It sets PRIORITY inside the session; the
+// controller above owns the long-run rate.
+let nextMood="normal";
+const NOV_SHARE=.4, NOV_MULT=3, GUARD=2.5;
 function interleave(a,b){const out=[],n=a.length+b.length;let i=0,j=0;
   for(let k=0;k<n;k++){
     if(i>=a.length)out.push(b[j++]);
@@ -371,76 +435,88 @@ function interleave(a,b){const out=[],n=a.length+b.length;let i=0,j=0;
 // Compose a session honouring the focus dial: pure pools at the ends, ratio-blended new+in-progress
 // in the middle. The ratio is a goal — clamp to what's available and backfill so the session is never
 // short, then interleave so new and review aren't blocked into runs.
-function pickCards(size){
-  const f=settings.focus, inF=lib.filter(inFilter);
-  if(f==="refresh")return shuffle(inF.filter(dueNow)).slice(0,size);
-  // Random order each session (varied, good for learning), but keep the most-recently-seen ~one
-  // session's worth on cooldown so nothing repeats too soon. After the cooldown a card is back in the
-  // random pool — no rigid full-cycle wait. Cooldown shrinks for small pools so sessions never starve.
-  const spaced=arr=>{
-    const ss=settings.sessionSize||20, cd=Math.min(ss,Math.max(0,arr.length-ss));
-    if(cd<=0) return shuffle(arr.slice());
-    const cool=new Set(arr.slice().sort((a,b)=>(b.seenAt||0)-(a.seenAt||0)).slice(0,cd).map(c=>c.id));
-    return shuffle(arr.filter(c=>!cool.has(c.id))).concat(shuffle(arr.filter(c=>cool.has(c.id))));
-  };
-  const news=spaced(inF.filter(isNewC)), prog=spaced(inF.filter(isProgC));
-  if(f==="consolidate")return prog.slice(0,size); // in-progress words only, no new
-  let share;
-  if(f in NEW_SHARE)share=NEW_SHARE[f];
-  else{const reviewShare=Math.min(.7,Math.max(.35,size?prog.length/size:0));share=1-reviewShare;} // balanced: adaptive
-  let nNew=Math.min(Math.round(size*share),news.length);
-  let nProg=Math.min(size-nNew,prog.length);
-  nNew=Math.min(news.length,size-nProg); // backfill from new if in-progress ran short
-  return interleave(news.slice(0,nNew),prog.slice(0,nProg));
+// Reviews are no longer a choice — the schedule decides them. What is left is how many new
+// words to let in, and in what order. `size` is a comfort cap, not a target: when little is due
+// the session is genuinely short, and that means you are caught up rather than that it is broken.
+function pickCards(size,mood){
+  const inF=lib.filter(inFilter);
+  const due=inF.filter(isDue).sort((a,b)=>overdue(b)-overdue(a)); // most overdue served first
+  const fresh=shuffle(inF.filter(c=>!isSeen(c)));
+  const backlog=Math.max(0,due.length-size);
+  const guard=backlog>size*GUARD;   // novelty is throttled once you are genuinely behind
+  const m=(mood==="novelty"&&guard)?"normal":(mood||"normal");
+  let nNew=0,nRev=0;
+  if(m==="consolidate"){nRev=Math.min(due.length,size);}
+  else if(m==="novelty"){
+    nNew=Math.min(newQuota()*NOV_MULT,Math.floor(size*NOV_SHARE),fresh.length);
+    nRev=Math.min(due.length,size-nNew);
+  }else{
+    nRev=Math.min(due.length,size);
+    nNew=Math.min(newQuota(),size-nRev,fresh.length);
+  }
+  // Heavy start: on a filter with nothing in rotation yet there is no review to protect, so
+  // fill the whole session with new words rather than handing back a three-card sitting.
+  if(m!=="consolidate"&&!inF.some(inFlight))nNew=Math.min(size,fresh.length);
+  return interleave(fresh.slice(0,nNew),shuffle(due.slice(0,nRev)));
 }
+const backlogNow=()=>{const size=Math.max(1,settings.sessionSize|0);
+  return Math.max(0,lib.filter(c=>inFilter(c)&&isDue(c)).length-size);};
 function startSession(){
   if(settings.sfx)actxGet(); // warm up audio on this gesture so the first cue plays without resume lag
-  const chosen=pickCards(Math.max(1,settings.sessionSize|0));
-  session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,missed:[],active:chosen.length>0};
+  tuneIntake();
+  const mood=nextMood;
+  const chosen=pickCards(Math.max(1,settings.sessionSize|0),mood);
+  session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,missed:[],mood,active:chosen.length>0};
+  nextMood="normal";                       // moods are for today, not forever
+  logNote({sess:1,back:backlogNow()});
   flipped=false;saveSession();
 }
 const cur=()=>session&&session.queue[0]?lib.find(c=>c.id===session.queue[0].id):null;
-function rate(known){
+function rate(known,easy){
   const head=session.queue[0];const c=lib.find(x=>x.id===head.id);if(!c)return;
-  c.seen=(c.seen||0)+1;c.seenAt=Date.now(); // last-seen time drives least-recently-seen ordering (soft spacing)
-  const recap=settings.focus==="refresh";
-  if(recap){
-    // Spaced maintenance: a lapse drops the word back into learning one step short of learned, so a single
-    // correct answer re-graduates it; a hit grows the interval until it retires (off the list).
-    if(!known){c.streak=Math.max(0,settings.learnY-1);c.ivl=0;c.due=0;c.retired=false;}
-    else{const cur=c.ivl||M_FIRST;c.ivl=Math.round(cur*M_MULT);
-      if(c.ivl>=M_RETIRE){c.retired=true;c.due=0;milestone={top:c.it.word,sub:"mastered"};}
-      else c.due=Date.now()+c.ivl*DAY;}
+  const now=Date.now(), was=dots(c), first=!isSeen(c);
+  const gapD=c.seenAt?(now-c.seenAt)/DAY:0;
+  c.seen=(c.seen||0)+1;
+  if(!session.missed)session.missed=[];
+  if(first){
+    // No gap exists yet, so the growth rule has nothing to bite on. "Easy" here means "skip the
+    // early rungs", not "retire unseen" — it still gets verified at a long gap before it can go.
+    c.stab=easy?30:S_START;
+    if(known)c.correct=(c.correct||0)+1;
+    logNote({nw:1});
+  }else if(!known){
+    // Soft miss: stability drops to a third rather than resetting, and the stumble is remembered
+    // so the in-session retry below can't hand the step straight back.
+    c.stab=Math.max(S_START,(c.stab||S_START)/S_MISS);
+    if(!session.missed.includes(c.id))session.missed.push(c.id);
   }else{
-    const was=c.streak>=settings.learnY;
-    if(!session.missed)session.missed=[];
-    if(!known){
-      // Soft miss: step back one dot instead of wiping the streak, and remember the stumble so the
-      // in-session retry below can't hand the step straight back.
-      c.streak=Math.max(0,(c.streak||0)-1);
-      if(!session.missed.includes(c.id))session.missed.push(c.id);
-    }else{
-      c.correct++;
-      if(session.missed.includes(c.id)){/* retry after a stumble: clears the queue, but earns no dot */}
-      else{c.streak++;if(c.streak>=settings.learnY&&!was){session.learned++;justLearned=true;
-        c.ivl=M_FIRST;c.due=Date.now()+M_FIRST*DAY;c.retired=false; // schedule the first spaced review
+    c.correct=(c.correct||0)+1;
+    if(!session.missed.includes(c.id)){   // a retry after a stumble clears the queue but earns nothing
+      const M=easy?S_EASY:S_GROW, s=c.stab||S_START;
+      c.stab=Math.max(s,Math.min(M*s,M*Math.max(gapD,0)));
+      if(c.stab>=S_RETIRE){c.retired=true;milestone={top:c.it.word,sub:"retired"};}
+      else if(dots(c)>=3&&was<3){session.learned++;justLearned=true;
         const cell=tally(x=>x.topic===c.topic&&x.level===c.level); // did this word finish its topic×level bucket?
         if(cell.done){const tw=tally(x=>x.topic===c.topic),lw=tally(x=>x.level===c.level);
           milestone=(tw.done&&tw.size>cell.size)?{top:c.topic,sub:"topic complete"}
                    :(lw.done&&lw.size>cell.size)?{top:"Level "+c.level,sub:"level complete"}
                    :{top:c.topic+" · "+c.level,sub:"complete"};}
-      }}
+      }
     }
   }
+  c.seenAt=now;
+  c.jit=1+Math.random()*.3;   // upward-only: scheduling early forfeits growth, late costs nothing
+  c.streak=dots(c);           // keep the legacy field in sync so dot rendering stays simple
+  logNote({cards:1,back:backlogNow()});
   saveProg();
-  // recap is a single pass; normal sessions requeue missed cards until you get them right
-  session.queue=(known||recap)?session.queue.slice(1):[...session.queue.slice(1),{id:head.id,f:front()}];
+  // missed cards come back later in the same session until you get them right
+  session.queue=known?session.queue.slice(1):[...session.queue.slice(1),{id:head.id,f:front()}];
   flipped=false;
   if(!session.queue.length)session.active=false;
   saveSession();
 }
 let justLearned=false, milestone=null;
-function assess(known){if(settings.sfx)actxGet();justLearned=false;milestone=null;rate(known);
+function assess(known,easy){if(settings.sfx)actxGet();justLearned=false;milestone=null;rate(known,easy);
   if(milestone)sfxMilestone();else if(justLearned)sfxLearn(); // fire sound first, before the DOM work, so it lands immediately
   paintSession();paintCounts();
   if(justLearned)celebrateLearned();
@@ -497,11 +573,12 @@ let search="", page=0; const PAGE=50; let addOpen=false, listLevel="all", listTo
 
 function paintCounts(){
   const e=document.getElementById("counts");if(!e)return;
-  let learned=0,inprog=0; // in progress = started but not yet learned (1–2 of 3 dots)
-  lib.forEach(c=>{const s=c.streak||0;if(s>=settings.learnY)learned++;else if(s>=1)inprog++;});
+  let learned=0,inprog=0,retired=0; // in progress = started but not yet learned (1–2 of 3 dots)
+  lib.forEach(c=>{if(c.retired)retired++;else if(dots(c)>=3)learned++;else if(isSeen(c))inprog++;});
   e.innerHTML="";
-  e.appendChild(el("div",{html:"<b>"+learned+"</b> learned"}));
-  e.appendChild(el("div",{},[inprog+" in progress"]));
+  // retired words count as learned, so the headline never drops when a word graduates for good
+  e.appendChild(el("div",{html:"<b>"+(learned+retired)+"</b> learned"}));
+  e.appendChild(el("div",{},[inprog+" in progress"+(retired?" · "+retired+" retired":"")]));
 }
 function render(){
   app.innerHTML="";
@@ -553,17 +630,30 @@ function paintSessionView(){app.appendChild(el("div",{id:"sess"}));paintSession(
 function paintSession(){
   const area=document.getElementById("sess");if(!area)return;area.innerHTML="";
   if(!session||!session.active){
-    const avail=lib.filter(inSession).length;
+    const inF=lib.filter(inFilter);
+    const dueN=inF.filter(isDue).length, freshN=inF.filter(c=>!isSeen(c)).length;
+    const avail=dueN+freshN;
     const done=session&&session.total>0;
-    const recap=settings.focus==="refresh";
-    const emptyMsg=recap?"Nothing due for review right now — learned words come back here spaced out over time, then retire.":"Nothing to learn under this filter. Change filters or add words.";
-    const readyMsg=(recap?(avail+" word"+(avail===1?"":"s")+" due for review"):(avail+" word"+(avail===1?"":"s")+" available"))+" under your current filter — sessions take up to "+settings.sessionSize+".";
+    const back=backlogNow();
+    const emptyMsg=inF.length?"Nothing due right now — words come back spaced out over time, and retire once they stick. Come back later, or widen the filter.":"No words match this filter.";
+    const readyMsg=dueN+" due · "+freshN+" not started"+(back?" · "+back+" waiting":"");
     const fp=filterProgress(done?(session.learned||0):0);
+    const moods=el("div",{class:"moods"},[
+      ["novelty","Novelty","More new words today — they'll come back as reviews later"],
+      ["normal","Normal","Reviews first, then new words at your current pace"],
+      ["consolidate","Consolidate","No new words — just work through what's due"]
+    ].map(([id,label,tip])=>el("button",{class:nextMood===id?"on":"",title:tip,
+      onclick:()=>{nextMood=id;paintSession();}},[label])));
     area.appendChild(el("div",{class:"state"},[
-      el("p",{class:"big"},[done?(recap?"Refresh complete":"Session complete"):(avail?"Ready when you are":"All caught up")]),
+      el("p",{class:"big"},[done?"Session complete":(avail?"Ready when you are":"All caught up")]),
       el("p",{},[done?("You worked through "+session.total+" words"+(session.learned?" and learned "+session.learned:"")+"."):(avail?readyMsg:emptyMsg)]),
       fp.total?el("div",{},[fp.bar,el("div",{class:"sub",style:{marginTop:"8px"}},[fp.label])]):null,
-      avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"20px auto 0"},onclick:()=>{startSession();paintSession();}},[done?"New session":(recap?"Start refresh":"Start session")]):null
+      avail?moods:null,
+      avail?el("span",{class:"sub",style:{display:"block",textAlign:"center"}},[
+        nextMood==="novelty"?"Up to "+Math.floor(settings.sessionSize*NOV_SHARE)+" new words, ahead of reviews."
+        :nextMood==="consolidate"?"Due reviews only — nothing new added."
+        :"About "+newQuota()+" new word"+(newQuota()===1?"":"s")+" this session."]):null,
+      avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"14px auto 0"},onclick:()=>{startSession();paintSession();}},[done?"New session":"Start session"]):null
     ]));
     return;
   }
@@ -602,7 +692,8 @@ function paintButtons(){
   if(!flipped)a.appendChild(el("div",{class:"assess"},[el("button",{class:"btn wide",onclick:()=>{flipped=true;document.querySelector(".card").classList.add("flip");paintButtons();}},["Show answer"])]));
   else a.appendChild(el("div",{class:"assess"},[
     el("button",{class:"btn miss",onclick:()=>assess(false)},["✕ Missed"]),
-    el("button",{class:"btn know",onclick:()=>assess(true)},["✓ Knew it"])
+    el("button",{class:"btn know",onclick:()=>assess(true)},["✓ Knew it"]),
+    el("button",{class:"btn easy",title:"Knew it instantly — jump ahead (a learned word retires on the spot)",onclick:()=>assess(true,true)},["⚡ Easy"])
   ]));
 }
 
@@ -726,7 +817,12 @@ function paintSettings(){
 
   app.appendChild(el("div",{class:"sec"},["How"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();})]));
-  app.appendChild(el("div",{class:"field"},[el("label",{},["Focus"]),seg([["explore","Explore"],["balanced","Balanced"],["consolidate","Consolidate"],["refresh","Refresh"]],settings.focus,v=>{settings.focus=v;clearSession();saveSet();},"segwrap"),el("span",{class:"sub"},["From introducing to maintaining. Explore: mostly new words. Balanced: adapts, more review as your backlog grows. Consolidate: in-progress words only (1–2 dots), no new. Refresh: spaced reviews of learned words — the gap grows each time you're right, until a word retires and stops coming back. (Learned = 3 correct in a row.)"])]));
+  app.appendChild(el("div",{class:"field"},[el("label",{},["New words per day"]),
+    el("div",{class:"row"},[
+      num(Math.round(settings.rate||16),1,n=>{settings.rate=n;settings.rateAuto=false;saveSet();render();}),
+      el("button",{class:"ghost"+(settings.rateAuto?" on":""),onclick:()=>{settings.rateAuto=!settings.rateAuto;saveSet();render();}},[settings.rateAuto?"Auto ✓":"Auto"])
+    ]),
+    el("span",{class:"sub"},["Each new word costs about six cards over its life, so this sets your daily load: "+Math.round((settings.rate||16)*6)+" cards a day at this rate. On Auto it is retuned every couple of weeks from whether reviews are piling up — never from how much you happen to do on a given day. Pick Novelty or Consolidate on the session screen to lean either way for one session."])]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Words per session (max)"]),num(settings.sessionSize,1,n=>{settings.sessionSize=n;saveSet();})]));
 
   app.appendChild(el("div",{class:"sec"},["Audio"]));
