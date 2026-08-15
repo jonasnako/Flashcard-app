@@ -18270,11 +18270,11 @@
     "topic": "Expressions",
     "it": {
       "word": "per l'appunto",
-      "sentence": "Parlavamo per l'appunto di te!"
+      "sentence": "Quindi la colpa è sua? – Per l'appunto!"
     },
     "de": {
-      "word": "genau darum",
-      "sentence": "Wir sprachen gerade eben von dir!"
+      "word": "ganz genau",
+      "sentence": "Also ist es seine Schuld? – Ganz genau!"
     }
   },
   {
@@ -21329,7 +21329,7 @@
     },
     "de": {
       "word": "betrügen",
-      "sentence": "Sie verzeiht niemandem, der ihr Vertrauen betrügt."
+      "sentence": "Sie verzeiht niemandem, der sie betrügt."
     }
   },
   {
@@ -40284,11 +40284,11 @@
     "topic": "Structure words",
     "it": {
       "word": "te",
-      "sentence": "Vengo molto volentieri con te."
+      "sentence": "Ho una sorpresa per te."
     },
     "de": {
       "word": "dich",
-      "sentence": "Ich komme sehr gern mit dir."
+      "sentence": "Ich habe eine Überraschung für dich."
     },
     "streak": 0,
     "correct": 0,
