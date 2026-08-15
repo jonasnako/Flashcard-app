@@ -84,6 +84,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .report li{display:flex;justify-content:space-between;font-size:14px}
 .report li b{font-variant-numeric:tabular-nums}
 .report li.dim{opacity:.5}
+.report li.tot{border-top:1px solid rgba(246,241,230,.10);margin-top:4px;padding-top:7px}
 .rdiv{display:flex;align-items:center;gap:12px;margin:22px 0 6px;opacity:.34;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
 .rdiv::before,.rdiv::after{content:"";flex:1;height:1px;background:currentColor}
 .lede{text-align:center;opacity:.62;font-size:14px;margin:2px 0 14px}
@@ -454,7 +455,8 @@ function loadSession(){
     const q=s.queue.filter(x=>x&&x.id&&lib.some(c=>c.id===x.id)); // drop cards no longer in the library
     if(!q.length)return null;
     return {queue:q,total:s.total||q.length,learned:s.learned||0,missed:Array.isArray(s.missed)?s.missed:[],
-      mood:s.mood||"auto",met:s.met||0,gained:s.gained||0,mastered:s.mastered||0,slipped:s.slipped||0,active:true};
+      mood:s.mood||"auto",met:s.met||0,gained:s.gained||0,held:s.held||0,mastered:s.mastered||0,
+      miss:s.miss||0,slipped:s.slipped||0,dotsUp:s.dotsUp||0,active:true};
   }catch(e){return null;}
 }
 // Today's mood is a per-session choice, not a setting: it reverts to Normal once the session
@@ -531,7 +533,7 @@ function startSession(){
   const mood=nextMood;
   const chosen=pickCards(Math.max(1,settings.sessionSize|0),mood);
   session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,missed:[],mood,
-    met:0,gained:0,mastered:0,slipped:0,active:chosen.length>0};
+    met:0,gained:0,held:0,mastered:0,miss:0,slipped:0,dotsUp:0,active:chosen.length>0};
   nextMood="auto";                         // moods are for today, not forever
   logNote({sess:1,back:backlogNow()});
   flipped=false;saveSession();
@@ -549,7 +551,7 @@ function rate(known,easy){
     c.stab=easy?30:S_START;
     if(known)c.correct=(c.correct||0)+1;
     else session.missed.push(c.id);
-    session.met=(session.met||0)+1;
+    session.met=(session.met||0)+1;   // one outcome per card, so the report adds up to the total
     logNote({nw:1});
   }else if(!known){
     // Soft miss: stability drops to a third rather than resetting — and only on the FIRST miss of
@@ -559,6 +561,7 @@ function rate(known,easy){
     // (the gap is ~0 by then), so a card can move at most one step per session in either direction.
     if(!session.missed.includes(c.id)){
       c.stab=Math.max(S_START,(c.stab||S_START)/S_MISS);
+      session.miss=(session.miss||0)+1;
       if(dots(c)<was)session.slipped=(session.slipped||0)+1;
       session.missed.push(c.id);
     }
@@ -567,14 +570,20 @@ function rate(known,easy){
     if(!session.missed.includes(c.id)){   // a retry after a stumble clears the queue but earns nothing
       const M=easy?S_EASY:S_GROW, s=c.stab||S_START;
       c.stab=Math.max(s,Math.min(M*s,M*Math.max(gapD,0)));
-      if(dots(c)>was)session.gained=(session.gained||0)+1;
+      // Counted by whether stability actually moved, not by whether a dot happened to change:
+      // answering a word ahead of its slot grows it without necessarily crossing a threshold, and
+      // reporting only the crossings made a good session look like almost nothing happened.
+      if(dots(c)>was)session.dotsUp=(session.dotsUp||0)+1;
       if(c.stab>=S_RETIRE){c.retired=true;session.mastered=(session.mastered||0)+1;milestone={top:c.it.word,sub:"retired"};}
-      else if(dots(c)>=3&&was<3){session.learned++;justLearned=true;
-        const cell=tally(x=>x.topic===c.topic&&x.level===c.level); // did this word finish its topic×level bucket?
-        if(cell.done){const tw=tally(x=>x.topic===c.topic),lw=tally(x=>x.level===c.level);
-          milestone=(tw.done&&tw.size>cell.size)?{top:c.topic,sub:"topic complete"}
-                   :(lw.done&&lw.size>cell.size)?{top:"Level "+c.level,sub:"level complete"}
-                   :{top:c.topic+" · "+c.level,sub:"complete"};}
+      else{
+        if(c.stab>s)session.gained=(session.gained||0)+1;else session.held=(session.held||0)+1;
+        if(dots(c)>=3&&was<3){session.learned++;justLearned=true;
+          const cell=tally(x=>x.topic===c.topic&&x.level===c.level); // did this word finish its topic×level bucket?
+          if(cell.done){const tw=tally(x=>x.topic===c.topic),lw=tally(x=>x.level===c.level);
+            milestone=(tw.done&&tw.size>cell.size)?{top:c.topic,sub:"topic complete"}
+                     :(lw.done&&lw.size>cell.size)?{top:"Level "+c.level,sub:"level complete"}
+                     :{top:c.topic+" · "+c.level,sub:"complete"};}
+        }
       }
     }
   }
@@ -744,11 +753,14 @@ function paintSession(){
       done?el("div",{class:"report"},[
         el("h3",{},["Last session"]),
         el("ul",{},[
-          session.gained?el("li",{},[el("span",{},["Strengthened"]),el("b",{},[String(session.gained)])]):null,
+          session.gained?el("li",{},[el("span",{},["Strengthened"+(session.dotsUp?" · "+session.dotsUp+" earned a dot":"")]),
+            el("b",{},[String(session.gained)])]):null,
           session.mastered?el("li",{},[el("span",{},["Mastered — retired for good"]),el("b",{},[String(session.mastered)])]):null,
           session.met?el("li",{},[el("span",{},["Met for the first time"]),el("b",{},[String(session.met)])]):null,
-          session.slipped?el("li",{class:"dim"},[el("span",{},["Slipped back a dot"]),el("b",{},[String(session.slipped)])]):null,
-          el("li",{class:"dim"},[el("span",{},["Words worked through"]),el("b",{},[String(session.total)])])
+          session.held?el("li",{class:"dim"},[el("span",{},["Practised, too soon to count"]),el("b",{},[String(session.held)])]):null,
+          session.miss?el("li",{class:"dim"},[el("span",{},["Missed"+(session.slipped?" · "+session.slipped+" lost a dot":"")]),
+            el("b",{},[String(session.miss)])]):null,
+          el("li",{class:"dim tot"},[el("span",{},["Words worked through"]),el("b",{},[String(session.total)])])
         ])
       ]):null,
       done?el("div",{class:"rdiv"},["Next"]):null,
