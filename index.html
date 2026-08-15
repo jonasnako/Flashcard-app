@@ -59,12 +59,16 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .progress i{display:block;height:100%;background:var(--green);transition:width .3s}
 .pbar{display:flex;height:10px;border-radius:999px;overflow:hidden;background:rgba(246,241,230,.08)}
 .pbar i{display:block;height:100%;transition:width .35s}
-.pbar .s4{background:#C8912F}                      /* mastered — retired for good */
-.pbar .s3{background:var(--green)}
-.pbar .s2{background:#A7C178}
-.pbar .s1{background:#CBB05C}
-.pbar .sm{background:rgba(203,146,53,.32)}         /* met, not yet recalled */
-.pbar .s0{background:rgba(246,241,230,.10)}        /* not started */
+.plegend{display:flex;flex-wrap:wrap;gap:3px 13px;margin-top:9px;font-size:11.5px;opacity:.7}
+.plegend span{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.plegend i{width:8px;height:8px;border-radius:2px;flex:0 0 auto}
+.pcap{font-size:11px;letter-spacing:.09em;text-transform:uppercase;opacity:.45;margin:0 0 7px}
+.pbar .s4,.plegend .s4{background:#C8912F}                      /* mastered — retired for good */
+.pbar .s3,.plegend .s3{background:var(--green)}
+.pbar .s2,.plegend .s2{background:#A7C178}
+.pbar .s1,.plegend .s1{background:#CBB05C}
+.pbar .sm,.plegend .sm{background:rgba(203,146,53,.32)}         /* met, not yet recalled */
+.pbar .s0,.plegend .s0{background:rgba(246,241,230,.16)}        /* not started */
 .pbar .new{background:#C7E39A;box-shadow:0 0 8px rgba(199,227,154,.7);animation:newpulse 1.2s ease-in-out 3}
 @keyframes newpulse{0%,100%{opacity:1}50%{opacity:.45}}
 .state .pbar{max-width:320px;margin:20px auto 0}
@@ -719,8 +723,13 @@ function filterProgress(gained){
     g>0?el("i",{class:"s3 new",style:{width:pc(g)+"%"}}):null,
     seg(b[3],"s2"),seg(b[2],"s1"),seg(b[1],"sm"),seg(b[0],"s0")
   ]);
-  const label=total?(learned+" learned · "+b[3]+" ●●○ · "+b[2]+" ●○○ · "+(b[1]+b[0])+" new · "+total+" total"):"No words match this filter.";
-  return {bar,label,total,learned,g,mastered:b[5]};
+  // A legend rather than a sentence: six bands need naming, and the counts belong next to the
+  // colour they refer to. Empty bands are dropped so the row stays short early on.
+  const names=[["s4",b[5],"mastered"],["s3",b[4],"learned"],["s2",b[3],"●●○"],
+               ["s1",b[2],"●○○"],["sm",b[1],"met"],["s0",b[0],"not started"]];
+  const legend=el("div",{class:"plegend"},names.filter(n=>n[1]>0)
+    .map(([cls,n,lab])=>el("span",{},[el("i",{class:cls}),lab+" "+n])));
+  return {bar,legend,total,learned,g,mastered:b[5]};
 }
 
 /* ---- session ---- */
@@ -740,7 +749,7 @@ function paintSession(){
     const done=session&&session.total>0;
     const emptyMsg=inF.length?"Everything here has retired — nothing left under this filter.":"No words match this filter.";
     const readyMsg=avail+" word"+(avail===1?"":"s")+(pNew&&pRev?" · "+pNew+" new · "+pRev+" review":pNew?" · all new":" · all review");
-    const fp=filterProgress(done?(session.learned||0):0);
+    const fp=filterProgress(0);
     const moods=el("div",{class:"moods"},[
       ["explore","Explore","Lean into new words"],
       ["auto","Auto","A steady mix, paced for you"],
@@ -767,7 +776,7 @@ function paintSession(){
       el("p",{class:"big"},[avail?"Ready when you are":"All caught up"]),
       avail?moods:null,
       el("p",{class:"lede"},[avail?readyMsg:emptyMsg]),
-      fp.total?fp.bar:null,
+      fp.total?el("div",{style:{marginTop:"18px"}},[el("p",{class:"pcap"},["This filter"]),fp.bar,fp.legend]):null,
       avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"18px auto 0"},onclick:()=>{startSession();paintSession();}},["Start session"]):null
     ]));
     return;
@@ -954,7 +963,8 @@ function paintSettings(){
   const topics=sortedTopics();
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),topicSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Each topic's colour shows its progress at the selected level(s) — amber needs work, green is learned."])]));
   {const fp=filterProgress(0);
-   app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in this filter"]),fp.bar,el("span",{class:"sub"},[fp.label])]));}
+   app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in this filter"]),fp.bar,fp.legend,
+     el("span",{class:"sub"},["A word climbs one step each time you recall it after a longer gap: 1 day, then 5, then 25 — three dots, learned. Recall it once more after 125 days and it is mastered: it retires and never comes back. Words you have met but not yet recalled sit before the first dot. A miss steps a word back, and the dot it lost stays outlined on the card."])]));}
 
   app.appendChild(el("div",{class:"sec"},["How"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();}),
