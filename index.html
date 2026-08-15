@@ -47,6 +47,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .dots{display:inline-flex;gap:5px;flex-wrap:wrap}
 .dots span{width:7px;height:7px;border-radius:999px;background:rgba(42,40,35,.16)}
 .dots span.f{background:var(--ink)}
+.dots span.g{background:transparent;box-shadow:inset 0 0 0 1.5px rgba(42,40,35,.34)}  /* a dot you had */
+.dots span.h{background:rgba(42,40,35,.42)}                                            /* met, not yet recalled */
+.dots.ret span{background:#C8912F;box-shadow:0 0 0 1px rgba(200,145,47,.35)}
+.dots .star{width:auto;height:auto;background:none;font-size:11px;line-height:1;color:#C8912F;margin-left:2px}
 .say{position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:999px;border:1px solid rgba(42,40,35,.16);background:rgba(42,40,35,.04);color:var(--ink);font-size:16px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;opacity:.55;z-index:2}
 .say:hover{opacity:.9}
 .say:active{transform:translateY(1px)}
@@ -55,10 +59,12 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .progress i{display:block;height:100%;background:var(--green);transition:width .3s}
 .pbar{display:flex;height:10px;border-radius:999px;overflow:hidden;background:rgba(246,241,230,.08)}
 .pbar i{display:block;height:100%;transition:width .35s}
+.pbar .s4{background:#C8912F}                      /* mastered — retired for good */
 .pbar .s3{background:var(--green)}
 .pbar .s2{background:#A7C178}
 .pbar .s1{background:#CBB05C}
-.pbar .s0{background:rgba(203,146,53,.5)}
+.pbar .sm{background:rgba(203,146,53,.32)}         /* met, not yet recalled */
+.pbar .s0{background:rgba(246,241,230,.10)}        /* not started */
 .pbar .new{background:#C7E39A;box-shadow:0 0 8px rgba(199,227,154,.7);animation:newpulse 1.2s ease-in-out 3}
 @keyframes newpulse{0%,100%{opacity:1}50%{opacity:.45}}
 .state .pbar{max-width:320px;margin:20px auto 0}
@@ -72,6 +78,14 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .btn.know>span{position:relative;z-index:1}
 .btn.know::after{content:"";position:absolute;inset:0;background:rgba(203,146,53,.5);transform:scaleX(0);transform-origin:left center;pointer-events:none}
 .btn.know.hold::after{transform:scaleX(1);transition:transform .6s linear}
+.report{background:rgba(246,241,230,.05);border:1px solid rgba(246,241,230,.10);border-radius:14px;padding:16px 18px;margin:2px 0 4px}
+.report h3{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;opacity:.5;font-weight:600}
+.report ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+.report li{display:flex;justify-content:space-between;font-size:14px}
+.report li b{font-variant-numeric:tabular-nums}
+.report li.dim{opacity:.5}
+.rdiv{display:flex;align-items:center;gap:12px;margin:22px 0 6px;opacity:.34;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.rdiv::before,.rdiv::after{content:"";flex:1;height:1px;background:currentColor}
 .lede{text-align:center;opacity:.62;font-size:14px;margin:2px 0 14px}
 .hint{text-align:center;font-size:11px;opacity:.38;margin-top:8px;letter-spacing:.03em}
 .moods{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin:18px 0 12px}
@@ -111,6 +125,9 @@ select.inp{appearance:none}
 .row .dots{flex-wrap:nowrap}
 .row .dots span{background:rgba(246,241,230,.18)}
 .row .dots span.f{background:rgba(246,241,230,.8)}
+.row .dots span.g{background:transparent;box-shadow:inset 0 0 0 1.5px rgba(246,241,230,.34)}
+.row .dots span.h{background:rgba(246,241,230,.42)}
+.row .dots.ret span{background:#E0B36B;box-shadow:none}
 .row .del{background:none;border:0;color:rgba(246,241,230,.35);cursor:pointer;padding:4px;font-size:15px;line-height:1}
 .pager{display:flex;align-items:center;justify-content:space-between;margin-top:14px;font-size:13px;color:rgba(246,241,230,.6)}
 .rowdet{padding:6px 2px 16px;border-bottom:1px solid var(--line)}
@@ -264,12 +281,12 @@ function norm(c){
   return {id:c.id||uid(),level:(c.level||"B1").toUpperCase(),topic:c.topic||"Other",
     it:{word:it.word||"",sentence:it.sentence||""},de:{word:de.word||"",sentence:de.sentence||""},
     streak:c.streak||0,correct:c.correct||0,seen:c.seen||0,seenAt:c.seenAt||0,ivl:c.ivl||0,due:c.due||0,retired:!!c.retired,
-    stab:c.stab||0,jit:c.jit||1};
+    stab:c.stab||0,jit:c.jit||1,best:c.best||0};
 }
 const stripWord=c=>({id:c.id,level:c.level,topic:c.topic,it:{word:c.it.word,sentence:c.it.sentence},de:{word:c.de.word,sentence:c.de.sentence}});
 // ivl/due are unused by the stability scheduler but are written through untouched, so reverting
 // to the old interval-based system stays lossless rather than resetting everyone's review queue.
-const stripProg=c=>{const o={streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};if(c.seenAt)o.seenAt=c.seenAt;if(c.ivl)o.ivl=c.ivl;if(c.due)o.due=c.due;if(c.retired)o.retired=true;if(c.stab)o.stab=Math.round(c.stab*100)/100;if(c.jit&&c.jit!==1)o.jit=Math.round(c.jit*100)/100;return o;};
+const stripProg=c=>{const o={streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};if(c.seenAt)o.seenAt=c.seenAt;if(c.ivl)o.ivl=c.ivl;if(c.due)o.due=c.due;if(c.retired)o.retired=true;if(c.stab)o.stab=Math.round(c.stab*100)/100;if(c.best)o.best=c.best;if(c.jit&&c.jit!==1)o.jit=Math.round(c.jit*100)/100;return o;};
 const wordsFromLib=()=>lib.map(stripWord);
 function progFromLib(){const p={};lib.forEach(c=>{p[c.id]=stripProg(c);});return p;}
 function readJSON(k){try{const v=localStorage.getItem(k);return v?JSON.parse(v):null;}catch(e){return null;}}
@@ -344,6 +361,8 @@ const inFlight=c=>isSeen(c)&&!c.retired;     // still in rotation
 // as new material rather than review: it never appears in a Review session and competes for the
 // new-word slots instead. Growth only happens on a correct answer, so !started implies no dots.
 const started=c=>(c.correct||0)>0;
+const metOnly=c=>isSeen(c)&&!started(c);   // shown, but never yet recalled
+const step=c=>c.retired?4:dots(c);         // 0..4: three dots, then retirement as the fourth
 const inReview=c=>inFlight(c)&&started(c);
 const status=c=>c.retired?"retired":dots(c)>=3?"learned":"learning";
 // count words matching a predicate and how many are done — for topic/level completion milestones
@@ -417,6 +436,7 @@ function migrateStab(){
     const s=c.streak||0;
     c.stab=c.retired?S_RETIRE:s>=3?Math.max(S_D3,(c.ivl||0)*5):s===2?S_D2:s===1?S_D1:S_START;
     if(!c.seenAt)c.seenAt=Date.now();
+    c.best=Math.max(c.best||0,dots(c));
     touched=true;
   });
   if(touched)saveProg();
@@ -433,7 +453,8 @@ function loadSession(){
     if(!s||!s.active||!Array.isArray(s.queue))return null;
     const q=s.queue.filter(x=>x&&x.id&&lib.some(c=>c.id===x.id)); // drop cards no longer in the library
     if(!q.length)return null;
-    return {queue:q,total:s.total||q.length,learned:s.learned||0,missed:Array.isArray(s.missed)?s.missed:[],active:true};
+    return {queue:q,total:s.total||q.length,learned:s.learned||0,missed:Array.isArray(s.missed)?s.missed:[],
+      mood:s.mood||"auto",met:s.met||0,gained:s.gained||0,mastered:s.mastered||0,slipped:s.slipped||0,active:true};
   }catch(e){return null;}
 }
 // Today's mood is a per-session choice, not a setting: it reverts to Normal once the session
@@ -509,7 +530,8 @@ function startSession(){
   tuneIntake();
   const mood=nextMood;
   const chosen=pickCards(Math.max(1,settings.sessionSize|0),mood);
-  session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,missed:[],mood,active:chosen.length>0};
+  session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,missed:[],mood,
+    met:0,gained:0,mastered:0,slipped:0,active:chosen.length>0};
   nextMood="auto";                         // moods are for today, not forever
   logNote({sess:1,back:backlogNow()});
   flipped=false;saveSession();
@@ -527,6 +549,7 @@ function rate(known,easy){
     c.stab=easy?30:S_START;
     if(known)c.correct=(c.correct||0)+1;
     else session.missed.push(c.id);
+    session.met=(session.met||0)+1;
     logNote({nw:1});
   }else if(!known){
     // Soft miss: stability drops to a third rather than resetting — and only on the FIRST miss of
@@ -536,6 +559,7 @@ function rate(known,easy){
     // (the gap is ~0 by then), so a card can move at most one step per session in either direction.
     if(!session.missed.includes(c.id)){
       c.stab=Math.max(S_START,(c.stab||S_START)/S_MISS);
+      if(dots(c)<was)session.slipped=(session.slipped||0)+1;
       session.missed.push(c.id);
     }
   }else{
@@ -543,7 +567,8 @@ function rate(known,easy){
     if(!session.missed.includes(c.id)){   // a retry after a stumble clears the queue but earns nothing
       const M=easy?S_EASY:S_GROW, s=c.stab||S_START;
       c.stab=Math.max(s,Math.min(M*s,M*Math.max(gapD,0)));
-      if(c.stab>=S_RETIRE){c.retired=true;milestone={top:c.it.word,sub:"retired"};}
+      if(dots(c)>was)session.gained=(session.gained||0)+1;
+      if(c.stab>=S_RETIRE){c.retired=true;session.mastered=(session.mastered||0)+1;milestone={top:c.it.word,sub:"retired"};}
       else if(dots(c)>=3&&was<3){session.learned++;justLearned=true;
         const cell=tally(x=>x.topic===c.topic&&x.level===c.level); // did this word finish its topic×level bucket?
         if(cell.done){const tw=tally(x=>x.topic===c.topic),lw=tally(x=>x.level===c.level);
@@ -556,6 +581,7 @@ function rate(known,easy){
   c.seenAt=now;
   c.jit=1+Math.random()*.3;   // upward-only: scheduling early forfeits growth, late costs nothing
   c.streak=dots(c);           // keep the legacy field in sync so dot rendering stays simple
+  c.best=Math.max(c.best||0,dots(c)); // high-water mark: a slipped dot stays visible as an outline
   logNote({cards:1,back:backlogNow()});
   saveProg();
   // missed cards come back later in the same session until you get them right
@@ -629,7 +655,7 @@ let search="", page=0; const PAGE=50; let addOpen=false, listLevel="all", listTo
 function paintCounts(){
   const e=document.getElementById("counts");if(!e)return;
   let learned=0,inprog=0,retired=0; // in progress = started but not yet learned (1–2 of 3 dots)
-  lib.forEach(c=>{if(c.retired)retired++;else if(dots(c)>=3)learned++;else if(dots(c)>=1)inprog++;});
+  lib.forEach(c=>{if(c.retired)retired++;else if(dots(c)>=3)learned++;else if(isSeen(c))inprog++;});
   e.innerHTML="";
   // retired words count as learned, so the headline never drops when a word graduates for good
   e.appendChild(el("div",{html:"<b>"+(learned+retired)+"</b> learned"}));
@@ -656,28 +682,36 @@ function render(){
 function topicProgress(topic,levelOk){
   const ws=lib.filter(c=>c.topic===topic&&(levelOk?levelOk(c):true));
   if(!ws.length)return null;
-  // average ripeness (0..1): each word counts its streak toward learned (3), so 1x/2x correct add partial credit — mirrors the progress bar
-  return ws.reduce((a,c)=>a+Math.min(c.streak||0,3),0)/(ws.length*3);
+  // average ripeness (0..1) on the four-step scale: three dots then retirement, so "everything
+  // learned" is 0.75 and only a fully retired topic reaches 1 — the colour keeps deepening.
+  return ws.reduce((a,c)=>a+step(c),0)/(ws.length*4);
 }
 const sortedTopics=()=>Array.from(new Set(lib.map(c=>c.topic))).sort((a,b)=>a.localeCompare(b));
 // amber (needs work) -> green (learned); wider hue range = more contrast; brighter on dark, darker when selected (paper)
 function progText(p,on){
   if(p==null)return on?"":"rgba(246,241,230,.4)";
-  const h=Math.round(32+80*p);
-  return on?("hsl("+h+" 64% 31%)"):("hsl("+h+" 68% 64%)");
+  // q rises steeply at the start: a topic a few percent in should already look different from an
+  // untouched one, while the top of the range stays reserved for genuinely mastered topics.
+  const q=Math.pow(Math.max(0,Math.min(1,p)),.5);
+  const h=Math.round(30+88*q), sat=Math.round(56+26*q);
+  return on?("hsl("+h+" "+sat+"% 30%)"):("hsl("+h+" "+sat+"% "+Math.round(68-12*q)+"%)");
 }
 function filterProgress(gained){
   const inF=lib.filter(inFilter),total=inF.length;
-  const b=[0,0,0,0];inF.forEach(c=>{b[Math.min(c.streak||0,3)]++;}); // words at 0,1,2,3 dots (3 = learned)
-  const learned=b[3],g=Math.max(0,Math.min(gained||0,learned)),pc=n=>total?(n/total*100):0;
+  // untouched · met · ●○○ · ●●○ · learned · mastered — the last band is what makes the final
+  // step visible, and "met" is what makes early effort visible.
+  const b=[0,0,0,0,0,0];
+  inF.forEach(c=>{b[c.retired?5:dots(c)>0?dots(c)+1:(isSeen(c)?1:0)]++;});
+  const learned=b[4]+b[5],g=Math.max(0,Math.min(gained||0,b[4])),pc=n=>total?(n/total*100):0;
   const seg=(w,cls)=>w>0?el("i",{class:cls,style:{width:pc(w)+"%"}}):null;
   const bar=el("div",{class:"pbar"},[
-    seg(learned-g,"s3"),
+    seg(b[5],"s4"),
+    seg(b[4]-g,"s3"),
     g>0?el("i",{class:"s3 new",style:{width:pc(g)+"%"}}):null,
-    seg(b[2],"s2"),seg(b[1],"s1"),seg(b[0],"s0")
+    seg(b[3],"s2"),seg(b[2],"s1"),seg(b[1],"sm"),seg(b[0],"s0")
   ]);
-  const label=total?(learned+" learned · "+b[2]+" ●●○ · "+b[1]+" ●○○ · "+b[0]+" new · "+total+" total"):"No words match this filter.";
-  return {bar,label,total,learned,g};
+  const label=total?(learned+" learned · "+b[3]+" ●●○ · "+b[2]+" ●○○ · "+(b[1]+b[0])+" new · "+total+" total"):"No words match this filter.";
+  return {bar,label,total,learned,g,mastered:b[5]};
 }
 
 /* ---- session ---- */
@@ -707,8 +741,18 @@ function paintSession(){
     // One line describes the session, one bar shows the collection. No second explanation of the
     // same thing, and nothing about what is owed.
     area.appendChild(el("div",{class:"state"},[
-      el("p",{class:"big"},[done?"Session complete":(avail?"Ready when you are":"All caught up")]),
-      done?el("p",{},["You worked through "+session.total+" words"+(session.learned?" and learned "+session.learned:"")+"."]):null,
+      done?el("div",{class:"report"},[
+        el("h3",{},["Last session"]),
+        el("ul",{},[
+          session.gained?el("li",{},[el("span",{},["Strengthened"]),el("b",{},[String(session.gained)])]):null,
+          session.mastered?el("li",{},[el("span",{},["Mastered — retired for good"]),el("b",{},[String(session.mastered)])]):null,
+          session.met?el("li",{},[el("span",{},["Met for the first time"]),el("b",{},[String(session.met)])]):null,
+          session.slipped?el("li",{class:"dim"},[el("span",{},["Slipped back a dot"]),el("b",{},[String(session.slipped)])]):null,
+          el("li",{class:"dim"},[el("span",{},["Words worked through"]),el("b",{},[String(session.total)])])
+        ])
+      ]):null,
+      done?el("div",{class:"rdiv"},["Next"]):null,
+      el("p",{class:"big"},[avail?"Ready when you are":"All caught up"]),
       avail?moods:null,
       el("p",{class:"lede"},[avail?readyMsg:emptyMsg]),
       fp.total?fp.bar:null,
@@ -734,6 +778,15 @@ function paintSession(){
   area.appendChild(el("div",{id:"btns"}));
   paintButtons();
 }
+// Three dots = three successful recalls. A word met but not yet recalled shows a dimmed first dot
+// so it reads differently from one never opened; a dot you have lost stays as an outline rather
+// than vanishing; retirement fills the row in gold with a star instead of adding a fourth dot.
+function dotRow(c){
+  const n=settings.learnY, d=dots(c), b=Math.min(n,Math.max(c.best||0,d));
+  const kids=Array.from({length:n},(_,i)=>el("span",{class:i<d?"f":(i<b?"g":(i===0&&metOnly(c)?"h":""))}));
+  if(c.retired)kids.push(el("span",{class:"star"},["\u2726"]));
+  return el("span",{class:"dots"+(c.retired?" ret":"")},kids);
+}
 function face(c,lang,back){
   const s=c[lang];
   return el("div",{class:"face"+(back?" back":"")},[
@@ -741,7 +794,7 @@ function face(c,lang,back){
     el("h2",{class:"word"},[s.word]),
     s.sentence?el("p",{class:"sentence"},[s.sentence]):null,
     el("div",{class:"foot"},[
-      el("span",{class:"dots"},Array.from({length:settings.learnY},(_,i)=>el("span",{class:i<c.streak?"f":""})))
+      dotRow(c)
     ])
   ]);
 }
@@ -826,7 +879,7 @@ function paintList(){
     w.appendChild(el("div",{class:"row"},[
       el("div",{class:"pair",style:{cursor:"pointer"},onclick:()=>{expandedId=open?null:c.id;editingId=null;paintList();}},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
       el("span",{class:"lvl"},[c.level]),
-      el("span",{class:"dots",title:Math.min(c.streak,settings.learnY)+"/"+settings.learnY},Array.from({length:settings.learnY},(_,i)=>el("span",{class:i<c.streak?"f":""}))),
+      dotRow(c),
       el("button",{class:"del",html:"✕",onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){lib=lib.filter(x=>x.id!==c.id);if(session){session.queue=session.queue.filter(z=>z.id!==c.id);if(!session.queue.length)session.active=false;saveSession();}saveProgNow();saveWordsLocal();render();}}})
     ]));
     if(open&&editingId!==c.id)w.appendChild(el("div",{class:"rowdet"},[
