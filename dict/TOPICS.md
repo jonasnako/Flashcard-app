@@ -33,9 +33,9 @@ of which territories exist; all word choices and example sentences are our own.
 | **Weather** | Wetter und Klima (split out of Nature) | 35 ✓ | done |
 | **Animals** | Tiere (kept separate — large enough) | 91 ✓ | done |
 | **City** | (our own — no direct book chapter) | 98 ✓ | done |
-| **Clothes** | Bekleidung und Schuhe, Accessoires | 96 ✓ | done |
+| **Clothes** | Bekleidung und Schuhe, Accessoires; textile fibres stay here (cotone, lana, seta), `elastico` moved to **Materials** | 97 ✓ | done |
 | **Media** | Post, Presse und Rundfunk, Telefon/Handy/Internet, Computer | 70 ✓ | +~20 top-up |
-| **Economy** | Industrie/Handel, Geld/Banken, Landwirtschaft, Technik/Energie/Forschung, Rohstoffe | 98 ✓ | done |
+| **Economy** | Industrie/Handel, Geld/Banken, Landwirtschaft, Technik/Energie/Forschung (raw materials moved to **Materials**) | 97 ✓ | done |
 | **Society** | Geschichte, Gesellschaft, Religion/Moral, Politik, Verteidigung, Institutionen, Gesetz | 125 ✓ | done (crime & institutions added) |
 | **Time** | Jahresablauf, Tageszeit, Zeitbegriffe (Dauer, Häufigkeit, Ablauf) | 68 ✓ | +~30 top-up |
 | **Space** | Räumliche Begriffe, Bewegung/Geschwindigkeit, Kommen und Gehen | 106 ✓ | +30 (movement, speed) |
@@ -59,6 +59,7 @@ digiuno* out of the Food batch's ambiguous review; the full Health build is stil
 | **Numbers** | Masse und Gewichte, Mengenbegriffe, Formen (skip literal counting — A1) | 60 ✓ | done |
 | **Colours** | Farben + light/surface qualities (glänzend, iridescente, fluorescente…), colour verbs (brillare, scintillare, sbiadire…), shade/tone nouns, extra hues | 56 ✓ | done |
 | **Idioms** | Figurative expressions & proverbs at all levels (essere al verde, prendere due piccioni con una fava, l'abito non fa il monaco…); split out of Expressions | 174 ✓ | rich collection |
+| **Materials** | Substances (legno, vetro, plastica, marmo, ottone…), their properties (duro, fragile, ruvido, ignifugo…), what you do to them (fondere, saldare, levigare, intagliare…) and what they do (arrugginire, marcire, incrinarsi…) | 104 ✓ | done |
 
 ## Foundational layer (A1)
 

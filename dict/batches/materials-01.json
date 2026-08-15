@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "77c4685f-6fa8-404a-bf89-bc57260e0e17",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "il legno",
+      "sentence": "Questo tavolo è fatto di legno massiccio."
+    },
+    "de": {
+      "word": "das Holz",
+      "sentence": "Dieser Tisch ist aus massivem Holz gemacht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b58a578d-04b6-47eb-87fe-4fcef37fe333",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "il vetro",
+      "sentence": "La bottiglia è di vetro, non di plastica."
+    },
+    "de": {
+      "word": "das Glas",
+      "sentence": "Die Flasche ist aus Glas, nicht aus Plastik."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5bd297bb-6fd2-4136-bf96-7700e901b9af",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "la plastica",
+      "sentence": "Molti giocattoli sono fatti di plastica."
+    },
+    "de": {
+      "word": "das Plastik",
+      "sentence": "Viele Spielsachen sind aus Plastik gemacht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "50a0d778-c0be-44c9-8b80-07933e0732cf",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "il metallo",
+      "sentence": "La porta è di metallo pesante."
+    },
+    "de": {
+      "word": "das Metall",
+      "sentence": "Die Tür ist aus schwerem Metall."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ef70f4a1-cc09-4498-8170-1f600b523e08",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "la carta",
+      "sentence": "Scrivo la lista su un foglio di carta."
+    },
+    "de": {
+      "word": "das Papier",
+      "sentence": "Ich schreibe die Liste auf ein Blatt Papier."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a7b52d93-3585-491a-b612-10e7db957e80",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "il cuoio",
+      "sentence": "Le sue scarpe sono di cuoio marrone."
+    },
+    "de": {
+      "word": "das Leder",
+      "sentence": "Seine Schuhe sind aus braunem Leder."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c11d6a37-6fb9-4323-bb2f-0dee7b68aea7",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "il cemento",
+      "sentence": "Hanno costruito il muro con il cemento."
+    },
+    "de": {
+      "word": "der Zement",
+      "sentence": "Sie haben die Mauer mit Zement gebaut."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "54081154-22e1-4772-8770-3a65ae9fcbac",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "il calcestruzzo",
+      "sentence": "Il ponte moderno è fatto di calcestruzzo armato."
+    },
+    "de": {
+      "word": "der Beton",
+      "sentence": "Die moderne Brücke besteht aus bewehrtem Beton."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8f9be7cc-8f7b-4c1b-871b-3521a2c80583",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "il marmo",
+      "sentence": "Il pavimento della chiesa è di marmo bianco."
+    },
+    "de": {
+      "word": "der Marmor",
+      "sentence": "Der Boden der Kirche ist aus weissem Marmor."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "27100dd4-b51f-4ea4-bc72-64e4c5bdc624",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "il mattone",
+      "sentence": "La casa vecchia è costruita in mattoni rossi."
+    },
+    "de": {
+      "word": "der Ziegel",
+      "sentence": "Das alte Haus ist aus roten Ziegeln gebaut."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "684e3992-097a-4ec3-bdd3-82bcf247fe78",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "il cartone",
+      "sentence": "Metti i libri in una scatola di cartone."
+    },
+    "de": {
+      "word": "die Pappe",
+      "sentence": "Leg die Bücher in eine Schachtel aus Pappe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a542b2f2-aa84-4c83-a142-039432483c7a",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "l'alluminio",
+      "sentence": "Le lattine leggere sono di alluminio."
+    },
+    "de": {
+      "word": "das Aluminium",
+      "sentence": "Die leichten Dosen sind aus Aluminium."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8a60a5f4-478d-4a9b-85d4-224ff388ebcd",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "l'ottone",
+      "sentence": "La maniglia lucida della porta è di ottone."
+    },
+    "de": {
+      "word": "das Messing",
+      "sentence": "Der glänzende Türgriff ist aus Messing gefertigt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8fc78ec2-9565-4ef4-82da-6e8afb74a55b",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "il piombo",
+      "sentence": "Il piombo è un metallo molto pesante e tossico."
+    },
+    "de": {
+      "word": "das Blei",
+      "sentence": "Blei ist ein sehr schweres und giftiges Metall."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b9cc4667-a155-4389-be51-b4a13280a1e9",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "lo zinco",
+      "sentence": "Il tetto della baracca è coperto di zinco."
+    },
+    "de": {
+      "word": "das Zink",
+      "sentence": "Das Dach der Hütte ist mit Zink gedeckt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e8f62e90-b789-4dcf-b4a9-045a5d34dfd8",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "il bronzo",
+      "sentence": "La statua nel parco è di bronzo antico."
+    },
+    "de": {
+      "word": "die Bronze",
+      "sentence": "Die Statue im Park ist aus alter Bronze."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0a600fa8-6c8a-42bf-b906-70e4e995b749",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "la ceramica",
+      "sentence": "Ho comprato una tazza di ceramica dipinta."
+    },
+    "de": {
+      "word": "die Keramik",
+      "sentence": "Ich habe eine bemalte Tasse aus Keramik gekauft."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "88fc79cb-b6f2-4de2-8815-787ecd6a74f5",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "la porcellana",
+      "sentence": "Il servizio da tè è di porcellana finissima."
+    },
+    "de": {
+      "word": "das Porzellan",
+      "sentence": "Das Teeservice ist aus sehr feinem Porzellan."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b5c8c2b4-54be-4543-883f-764b39c96335",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "la ghisa",
+      "sentence": "La padella di ghisa tiene bene il calore."
+    },
+    "de": {
+      "word": "das Gusseisen",
+      "sentence": "Die Pfanne aus Gusseisen hält die Wärme gut."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "504da130-ca83-4061-a528-45ff71f7db9b",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "l'acciaio inossidabile",
+      "sentence": "Il lavello della cucina è di acciaio inossidabile."
+    },
+    "de": {
+      "word": "der Edelstahl",
+      "sentence": "Die Küchenspüle ist aus Edelstahl gefertigt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c0c97ebe-f2e8-47b7-a6f2-f2c7787a6d55",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "la lega",
+      "sentence": "L'ottone è una lega di rame e zinco."
+    },
+    "de": {
+      "word": "die Legierung",
+      "sentence": "Messing ist eine Legierung aus Kupfer und Zink."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "df597edc-2ac7-4fb9-9582-fd50ae15b291",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "la fibra",
+      "sentence": "Questa corda è fatta di fibre naturali."
+    },
+    "de": {
+      "word": "die Faser",
+      "sentence": "Dieses Seil besteht aus natürlichen Fasern."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2d013dc2-d575-4632-a87f-a2e03580170f",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "la schiuma",
+      "sentence": "Il materasso è riempito di schiuma morbida."
+    },
+    "de": {
+      "word": "der Schaum",
+      "sentence": "Die Matratze ist mit weichem Schaum gefüllt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "26922975-0e2c-4f30-907f-d00876dfcdcf",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "la resina",
+      "sentence": "Dal tronco del pino cola una resina appiccicosa."
+    },
+    "de": {
+      "word": "das Harz",
+      "sentence": "Aus dem Stamm der Kiefer fliesst klebriges Harz."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dec73a6a-2465-44fa-8043-73b24fe76772",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "il compensato",
+      "sentence": "Ho tagliato una tavola di compensato sottile."
+    },
+    "de": {
+      "word": "das Sperrholz",
+      "sentence": "Ich habe eine dünne Platte Sperrholz zugeschnitten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "abcd63ff-b099-4915-872c-ba0de1d3bbd2",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "la lamiera",
+      "sentence": "Il tetto del capanno è di lamiera ondulata."
+    },
+    "de": {
+      "word": "das Blech",
+      "sentence": "Das Dach des Schuppens ist aus Wellblech."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d62b3c17-d867-486e-995c-c590b7a4ed4d",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "il filo di ferro",
+      "sentence": "Ho legato i pali con del filo di ferro."
+    },
+    "de": {
+      "word": "der Draht",
+      "sentence": "Ich habe die Pfähle mit Draht zusammengebunden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b589ce02-d76e-4ff2-9d74-91de709c6070",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "la tavola",
+      "sentence": "Segò una tavola per costruire lo scaffale."
+    },
+    "de": {
+      "word": "das Brett",
+      "sentence": "Er sägte ein Brett für das Regal zu."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "165492b1-2d24-4237-89dd-38d250440ee7",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "il tubo",
+      "sentence": "L'acqua passa attraverso un tubo di rame."
+    },
+    "de": {
+      "word": "das Rohr",
+      "sentence": "Das Wasser fliesst durch ein Rohr aus Kupfer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "490af9dd-9be1-45c2-b094-d20e83bfe846",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "la gomma naturale",
+      "sentence": "I pneumatici contengono ancora gomma naturale."
+    },
+    "de": {
+      "word": "der Naturkautschuk",
+      "sentence": "Autoreifen enthalten noch immer Naturkautschuk."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "eda4d3a1-46bd-4994-9d2d-89b95db486b0",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "il gesso per la lavagna",
+      "sentence": "Scrive alla lavagna con un gesso bianco."
+    },
+    "de": {
+      "word": "die Tafelkreide",
+      "sentence": "Sie schreibt mit weisser Tafelkreide an die Tafel."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9a5c3ee0-4721-4e9a-833c-c4a862ee0570",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "la segatura",
+      "sentence": "Il pavimento del laboratorio era coperto di segatura."
+    },
+    "de": {
+      "word": "das Sägemehl",
+      "sentence": "Der Boden der Werkstatt war mit Sägemehl bedeckt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "92f01dd2-cd78-4f09-94ab-1ad44e284cde",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "duro",
+      "sentence": "Questo legno è troppo duro da tagliare."
+    },
+    "de": {
+      "word": "hart",
+      "sentence": "Dieses Holz ist zu hart zum Schneiden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "be4af58d-a785-4c65-be3a-f507f4380191",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "pesante",
+      "sentence": "La cassa di metallo è molto pesante da sollevare."
+    },
+    "de": {
+      "word": "schwer",
+      "sentence": "Die Metallkiste ist sehr schwer zu heben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "73afb9b8-cbc3-4549-8b97-d6d306971e96",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "leggero",
+      "sentence": "Preferisco una giacca leggera per l'estate."
+    },
+    "de": {
+      "word": "leicht",
+      "sentence": "Ich mag eine leichte Jacke für den Sommer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "69d9198f-2732-4f4a-a933-e3d62a4f9c40",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "sottile",
+      "sentence": "Il foglio di metallo è davvero molto sottile."
+    },
+    "de": {
+      "word": "dünn",
+      "sentence": "Das Blatt aus Metall ist wirklich sehr dünn."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "18740f40-3ca5-40c7-ab8a-539e8f3de8a3",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "fragile",
+      "sentence": "Attento, il vetro è molto fragile."
+    },
+    "de": {
+      "word": "zerbrechlich",
+      "sentence": "Vorsicht, das Glas ist sehr zerbrechlich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f9387527-5d26-4529-ad37-2866240ce7c4",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "resistente",
+      "sentence": "Questa stoffa è resistente e dura per anni."
+    },
+    "de": {
+      "word": "widerstandsfähig",
+      "sentence": "Dieser Stoff ist widerstandsfähig und hält jahrelang."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4b17bce9-aba0-4a07-bbb3-8ac2d2eaae8a",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "rigido",
+      "sentence": "Il cartone rigido protegge bene il contenuto."
+    },
+    "de": {
+      "word": "starr",
+      "sentence": "Die starre Pappe schützt den Inhalt gut."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e37634aa-635f-4a3d-8756-0c64b0a190c1",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "flessibile",
+      "sentence": "Il tubo di plastica è abbastanza flessibile."
+    },
+    "de": {
+      "word": "biegsam",
+      "sentence": "Das Rohr aus Plastik ist ziemlich biegsam."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dc827268-6caa-4313-9603-719fc736c8fb",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "liscio",
+      "sentence": "La superficie del marmo è fredda e liscia."
+    },
+    "de": {
+      "word": "glatt",
+      "sentence": "Die Oberfläche des Marmors ist kalt und glatt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "875469c4-d886-4043-a75e-a477219737d0",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "ruvido",
+      "sentence": "La corda ruvida mi ha irritato le mani."
+    },
+    "de": {
+      "word": "rau",
+      "sentence": "Das raue Seil hat meine Hände gereizt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "885f7796-e213-43f6-a1ef-8300515fff7a",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "poroso",
+      "sentence": "La pietra porosa assorbe molta acqua."
+    },
+    "de": {
+      "word": "porös",
+      "sentence": "Der poröse Stein nimmt viel Wasser auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "48151f3e-7681-4ab3-b69e-65834839bd5b",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "infiammabile",
+      "sentence": "Tieni il liquido infiammabile lontano dal fuoco."
+    },
+    "de": {
+      "word": "brennbar",
+      "sentence": "Halte die brennbare Flüssigkeit vom Feuer fern."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "61865aa9-e6e9-4945-8ac5-190fd2c4286e",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "arrugginito",
+      "sentence": "Il cancello arrugginito cigola quando si apre."
+    },
+    "de": {
+      "word": "rostig",
+      "sentence": "Das rostige Tor quietscht, wenn es sich öffnet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a67a866f-53ff-4aad-ad76-c1357bf22b75",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "massiccio",
+      "sentence": "Il tavolo è di quercia massiccia."
+    },
+    "de": {
+      "word": "massiv",
+      "sentence": "Der Tisch ist aus massiver Eiche gefertigt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a7a94c2e-1759-471b-ac3e-a59097a35337",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "cavo",
+      "sentence": "Il tubo è cavo all'interno."
+    },
+    "de": {
+      "word": "hohl",
+      "sentence": "Das Rohr ist innen hohl."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2ea9722e-df7c-437a-9fe9-fcd5e5bc3ca9",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "affilato",
+      "sentence": "Il coltello affilato taglia il pane senza sforzo."
+    },
+    "de": {
+      "word": "messerscharf",
+      "sentence": "Das messerscharfe Messer schneidet das Brot mühelos."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "252f70d5-4e74-401d-a4f0-e989c14948c5",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "appuntito",
+      "sentence": "Il chiodo appuntito è entrato nel legno."
+    },
+    "de": {
+      "word": "spitz",
+      "sentence": "Der spitze Nagel drang in das Holz ein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d02a3e6c-1af3-4f25-a882-4f5f2ece9a74",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "grezzo",
+      "sentence": "Il legno grezzo va ancora levigato."
+    },
+    "de": {
+      "word": "unbehandelt",
+      "sentence": "Das unbehandelte Holz muss noch geschliffen werden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "33de3661-6ac7-47ea-872f-e2cf7f72f95b",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "levigato",
+      "sentence": "Il piano levigato è piacevole al tatto."
+    },
+    "de": {
+      "word": "geschliffen",
+      "sentence": "Die geschliffene Platte fühlt sich angenehm an."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8a954254-b558-439f-abbc-587487398fb5",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "pieghevole",
+      "sentence": "Abbiamo portato una sedia pieghevole in giardino."
+    },
+    "de": {
+      "word": "faltbar",
+      "sentence": "Wir haben einen faltbaren Stuhl in den Garten gebracht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "26329a28-92f7-4d6e-9f5b-7eb801d3b7dc",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "infrangibile",
+      "sentence": "Le finestre del treno sono infrangibili."
+    },
+    "de": {
+      "word": "bruchsicher",
+      "sentence": "Die Fenster des Zuges sind bruchsicher."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "413a8356-a171-4412-8cb2-bad15a1dd2a9",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "ignifugo",
+      "sentence": "La porta ignifuga resiste alle fiamme."
+    },
+    "de": {
+      "word": "feuerfest",
+      "sentence": "Die feuerfeste Tür hält den Flammen stand."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6e5978c1-bbb9-4ad0-aec6-7fe5dcc5fff3",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "inossidabile",
+      "sentence": "Le posate inossidabili non arrugginiscono mai."
+    },
+    "de": {
+      "word": "rostfrei",
+      "sentence": "Das rostfreie Besteck rostet niemals."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d0645267-0aa2-4932-b95b-3a4d3e082179",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "la densità",
+      "sentence": "Il piombo ha una densità molto alta."
+    },
+    "de": {
+      "word": "die Dichte",
+      "sentence": "Blei hat eine sehr hohe Dichte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "564c799e-fc44-4db9-87a1-c049951e089e",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "lo spessore",
+      "sentence": "Misura lo spessore della tavola."
+    },
+    "de": {
+      "word": "die Dicke",
+      "sentence": "Miss die Dicke des Brettes."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a690965d-346a-4989-952a-f8b0f195db16",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "la superficie",
+      "sentence": "La superficie del legno è ancora ruvida."
+    },
+    "de": {
+      "word": "die Oberfläche",
+      "sentence": "Die Oberfläche des Holzes ist noch rau."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b2a1050a-ff13-4841-bf82-d68c94e6d715",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "la consistenza",
+      "sentence": "La consistenza della pasta è troppo morbida."
+    },
+    "de": {
+      "word": "die Beschaffenheit",
+      "sentence": "Die Beschaffenheit des Teigs ist zu weich."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f54ce95f-da91-401d-8cbd-a40b1127281b",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "il materiale",
+      "sentence": "Di che materiale è fatta questa sedia?"
+    },
+    "de": {
+      "word": "der Werkstoff",
+      "sentence": "Aus welchem Werkstoff ist dieser Stuhl gemacht?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6d6690c8-82a7-47dd-bd25-1aed74bab3ea",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "fondere",
+      "sentence": "Il fabbro fonde il metallo nella fornace."
+    },
+    "de": {
+      "word": "schmelzen",
+      "sentence": "Der Schmied schmilzt das Metall im Ofen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7ff6bb8d-c459-477e-a9ef-225044eab60b",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "saldare",
+      "sentence": "L'operaio salda i due tubi di acciaio."
+    },
+    "de": {
+      "word": "schweissen",
+      "sentence": "Der Arbeiter schweisst die beiden Stahlrohre zusammen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "24b181c5-9990-4cb9-8eaf-71d40335f8f9",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "incollare",
+      "sentence": "Ho incollato le due parti rotte."
+    },
+    "de": {
+      "word": "kleben",
+      "sentence": "Ich habe die beiden kaputten Teile geklebt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0e05f3ee-51ee-40dd-b456-e22f5e0cd369",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "inchiodare",
+      "sentence": "Ha inchiodato l'asse alla parete."
+    },
+    "de": {
+      "word": "nageln",
+      "sentence": "Er hat das Brett an die Wand genagelt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0935e11e-6dc0-424a-aba5-b7a5e66bdd0f",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "martellare",
+      "sentence": "Martella il chiodo con più forza."
+    },
+    "de": {
+      "word": "hämmern",
+      "sentence": "Hämmere den Nagel mit mehr Kraft ein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9eff1d39-94d7-4cb0-9ea5-f31517d78811",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "levigare",
+      "sentence": "Devi levigare il legno prima di verniciarlo."
+    },
+    "de": {
+      "word": "schleifen",
+      "sentence": "Du musst das Holz vor dem Lackieren schleifen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "acbf0db8-80dc-4d3a-8441-0614260aaaf7",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "intagliare",
+      "sentence": "Ha intagliato una figura nel legno di tiglio."
+    },
+    "de": {
+      "word": "schnitzen",
+      "sentence": "Er hat eine Figur in Lindenholz geschnitzt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a5539fc5-2427-4362-acf3-39daa57d943a",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "trapanare",
+      "sentence": "Devo trapanare un foro nel muro."
+    },
+    "de": {
+      "word": "bohren",
+      "sentence": "Ich muss ein Loch in die Wand bohren."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "755de747-e572-4c2b-8d2a-669fede74be0",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "forare",
+      "sentence": "Il chiodo ha forato la lamiera sottile."
+    },
+    "de": {
+      "word": "durchbohren",
+      "sentence": "Der Nagel hat das dünne Blech durchbohrt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "72b212be-5e4b-42a5-ac81-ce1edd598cf9",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "segare",
+      "sentence": "Segava la tavola in due pezzi uguali."
+    },
+    "de": {
+      "word": "sägen",
+      "sentence": "Er sägte das Brett in zwei gleiche Stücke."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7f303804-a59a-40f6-89b0-2e0a6e314b92",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "limare",
+      "sentence": "Bisogna limare il bordo tagliente del metallo."
+    },
+    "de": {
+      "word": "feilen",
+      "sentence": "Man muss die scharfe Kante des Metalls feilen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "dcc061c5-c928-4130-9843-146c65fd804c",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "modellare",
+      "sentence": "L'artista modella l'argilla con le mani."
+    },
+    "de": {
+      "word": "formen",
+      "sentence": "Die Künstlerin formt den Ton mit den Händen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "39a75d9e-f2f6-4e80-bffb-d12678b445d7",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "colare",
+      "sentence": "Hanno colato il bronzo liquido nello stampo."
+    },
+    "de": {
+      "word": "giessen",
+      "sentence": "Sie haben die flüssige Bronze in die Form gegossen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "565e691f-f307-43f7-9735-1294700bea1a",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "temprare",
+      "sentence": "Si tempra l'acciaio per renderlo più duro."
+    },
+    "de": {
+      "word": "härten",
+      "sentence": "Man härtet den Stahl, damit er fester wird."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ae89e313-6fe0-42f3-8ebb-0b4faea72400",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "rivestire",
+      "sentence": "Hanno rivestito la parete di legno chiaro."
+    },
+    "de": {
+      "word": "verkleiden",
+      "sentence": "Sie haben die Wand mit hellem Holz verkleidet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e62bb5a1-44bd-414f-8cdc-51ea03661081",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "assemblare",
+      "sentence": "Assembliamo i pezzi seguendo le istruzioni."
+    },
+    "de": {
+      "word": "zusammenfügen",
+      "sentence": "Wir fügen die Teile nach der Anleitung zusammen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e2ecb726-5015-4b2b-b796-61d4af19975b",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "schiacciare",
+      "sentence": "Ha schiacciato la lattina vuota con il piede."
+    },
+    "de": {
+      "word": "zerdrücken",
+      "sentence": "Er hat die leere Dose mit dem Fuss zerdrückt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "071da204-5a21-4869-8663-f9d94a8e6045",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "strappare",
+      "sentence": "Non strappare il foglio, serve ancora."
+    },
+    "de": {
+      "word": "zerreissen",
+      "sentence": "Zerreiss das Blatt nicht, es wird noch gebraucht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "96dd109b-c12b-42f9-a26b-2e834c7fc623",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "piegare la lamiera",
+      "sentence": "L'operaio piega la lamiera con una macchina."
+    },
+    "de": {
+      "word": "das Blech biegen",
+      "sentence": "Der Arbeiter biegt das Blech mit einer Maschine."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7a6f0ca9-0176-4d24-a6c8-bdd20d4a088a",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "spezzare in due",
+      "sentence": "Ha spezzato il bastone in due con le mani."
+    },
+    "de": {
+      "word": "entzweibrechen",
+      "sentence": "Er hat den Stock mit den Händen entzweigebrochen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "41be2d5e-e5bf-4b34-b457-e43cf3bf3a6a",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "tagliare il legno",
+      "sentence": "Taglia il legno lungo la linea segnata."
+    },
+    "de": {
+      "word": "Holz zuschneiden",
+      "sentence": "Schneide das Holz entlang der markierten Linie zu."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "86a1e6c5-5b0b-45dc-ba01-03731ac617f4",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "lo stampo",
+      "sentence": "Il metallo caldo viene versato nello stampo."
+    },
+    "de": {
+      "word": "die Gussform",
+      "sentence": "Das heisse Metall wird in die Gussform gegossen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "081e899f-d2d1-4d47-aba9-7289f6f0b05c",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "arrugginire",
+      "sentence": "Il ferro arrugginisce se resta sotto la pioggia."
+    },
+    "de": {
+      "word": "rosten",
+      "sentence": "Eisen rostet, wenn es im Regen liegen bleibt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1cd58247-570a-453e-90ca-56a23a4c8545",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "la ruggine",
+      "sentence": "La ruggine ha mangiato il fondo dell'auto."
+    },
+    "de": {
+      "word": "der Rost",
+      "sentence": "Der Rost hat den Boden des Autos zerfressen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c5705ff6-cc2c-4183-859a-502e09419785",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "marcire",
+      "sentence": "Il legno bagnato comincia a marcire."
+    },
+    "de": {
+      "word": "verrotten",
+      "sentence": "Das nasse Holz beginnt allmählich zu verrotten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2e2db34c-d3e2-482b-a27c-1cdad7719da5",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "deformarsi",
+      "sentence": "La plastica si deforma con il calore."
+    },
+    "de": {
+      "word": "sich verformen",
+      "sentence": "Plastik verformt sich unter grosser Hitze."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e0e28574-5684-4f6b-9a19-23394429b97a",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "incrinarsi",
+      "sentence": "Il bicchiere si è incrinato ma non si è rotto."
+    },
+    "de": {
+      "word": "einen Sprung bekommen",
+      "sentence": "Das Glas hat einen Sprung bekommen, ist aber ganz."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "331c9131-855e-4f59-8a29-978f1b5330d4",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "la crepa",
+      "sentence": "Una crepa attraversa tutto il muro."
+    },
+    "de": {
+      "word": "der Riss",
+      "sentence": "Ein Riss zieht sich durch die ganze Wand."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1560dbe0-72ec-489b-9e41-7413e49a5687",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "scheggiarsi",
+      "sentence": "Il piatto di porcellana si è scheggiato sul bordo."
+    },
+    "de": {
+      "word": "absplittern",
+      "sentence": "Der Rand des Porzellantellers ist abgesplittert."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "210507e0-5a12-4934-952a-c1a03cc3a7d5",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "corrodersi",
+      "sentence": "Il metallo si corrode a contatto con il sale."
+    },
+    "de": {
+      "word": "korrodieren",
+      "sentence": "Das Metall korrodiert im Kontakt mit Salz."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d7e6a492-541e-4edc-ab20-f23b80422b6c",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "la dilatazione",
+      "sentence": "Il calore provoca la dilatazione del metallo."
+    },
+    "de": {
+      "word": "die Ausdehnung",
+      "sentence": "Die Wärme verursacht die Ausdehnung des Metalls."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5947de7e-5328-4c6d-9733-43de435889b1",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "consumarsi",
+      "sentence": "La suola delle scarpe si consuma in fretta."
+    },
+    "de": {
+      "word": "sich abnutzen",
+      "sentence": "Die Sohle der Schuhe nutzt sich schnell ab."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5039edaf-88bc-4020-bfd3-779aa54572bc",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "ammaccarsi",
+      "sentence": "La lattina si è ammaccata nella borsa."
+    },
+    "de": {
+      "word": "verbeulen",
+      "sentence": "Die Dose ist in der Tasche verbeult worden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "970aaeaa-e8bf-4476-a057-c37d57858e11",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "il graffio",
+      "sentence": "C'è un graffio profondo sul tavolo nuovo."
+    },
+    "de": {
+      "word": "der Kratzer",
+      "sentence": "Auf dem neuen Tisch ist ein tiefer Kratzer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7c7a2045-35e4-4f35-948c-cd490ee631fa",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "rompersi",
+      "sentence": "Il piatto è caduto e si è rotto."
+    },
+    "de": {
+      "word": "entzweigehen",
+      "sentence": "Der Teller ist heruntergefallen und entzweigegangen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "25f3823c-d95e-4b6b-9094-97eecf2fe329",
+    "level": "B1",
+    "topic": "Materials",
+    "it": {
+      "word": "sciogliersi",
+      "sentence": "Il ghiaccio si scioglie al sole."
+    },
+    "de": {
+      "word": "sich auflösen",
+      "sentence": "Das Eis löst sich in der Sonne auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "146def62-22f9-417a-9392-feae0b4dd8fc",
+    "level": "A2",
+    "topic": "Materials",
+    "it": {
+      "word": "bruciare",
+      "sentence": "La carta brucia molto in fretta."
+    },
+    "de": {
+      "word": "brennen",
+      "sentence": "Papier brennt sehr schnell."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "647d2314-c81c-49eb-adb1-2bcf9bb7eefb",
+    "level": "B2",
+    "topic": "Materials",
+    "it": {
+      "word": "logorarsi",
+      "sentence": "La corda si logora con l'uso continuo."
+    },
+    "de": {
+      "word": "verschleissen",
+      "sentence": "Das Seil verschleisst durch den ständigen Gebrauch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]
