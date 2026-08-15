@@ -92,6 +92,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .rdiv{display:flex;align-items:center;gap:12px;margin:22px 0 6px;opacity:.34;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
 .rdiv::before,.rdiv::after{content:"";flex:1;height:1px;background:currentColor}
 .lede{text-align:center;opacity:.62;font-size:14px;margin:2px 0 14px}
+.lede.nudge{opacity:.5;font-size:13px;margin-top:-8px}
 .hint{text-align:center;font-size:11px;opacity:.38;margin-top:8px;letter-spacing:.03em}
 .moods{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin:18px 0 12px}
 .moods button{border-radius:999px;padding:7px 15px;font-size:13px;background:transparent;border:1px solid rgba(255,255,255,.16);color:inherit;opacity:.62;cursor:pointer}
@@ -755,15 +756,30 @@ function paintSession(){
     const emptyMsg=inF.length?"Everything here has retired — nothing left under this filter.":"No words match this filter.";
     const readyMsg=avail+" word"+(avail===1?"":"s")+(pNew&&pRev?" · "+pNew+" new · "+pRev+" review":pNew?" · all new":" · all review");
     // A word of orientation instead of a fixed greeting: how today looks before you commit to it.
+    // "Caught up" is only true if there is something to be caught up ON — a filter where nothing
+    // has been started yet is a fresh start, not an empty inbox.
+    const cap=Math.max(1,settings.sessionSize|0);
     const dueN=inF.filter(c=>inReview(c)&&isDue(c)).length, back=backlogNow();
+    const anyStarted=inF.some(inReview);
     const headline=!avail?"All caught up"
-      :back>Math.max(1,settings.sessionSize|0)*GUARD?"Plenty to review"
-      :dueN>=Math.max(1,settings.sessionSize|0)?"Plenty to review"
-      :avail<Math.max(1,settings.sessionSize|0)?"Ahead of schedule"
+      :!anyStarted?"A fresh start"
+      :back>cap*GUARD||dueN>=cap?"Plenty to review"
+      :avail<cap?"Ahead of schedule"
       :dueN===0?"Caught up on reviews"
       :"Ready when you are";
-    const shortMsg=avail&&avail<Math.max(1,settings.sessionSize|0)
-      ?" — the rest isn't ready yet":"";
+    // When the session can't be filled, point somewhere worth going rather than explaining the
+    // three cards that are left. Looks outside the current filter for untouched material.
+    const suggest=()=>{
+      if(avail>=cap)return null;
+      const cnt={};
+      lib.forEach(c=>{if(c.retired||isSeen(c))return;
+        if(settings.levels.length&&!settings.levels.includes(c.level))return;
+        if(settings.topics.length&&settings.topics.includes(c.topic))return;
+        cnt[c.topic]=(cnt[c.topic]||0)+1;});
+      const best=Object.entries(cnt).sort((a,b)=>b[1]-a[1])[0];
+      return best&&best[1]>=10?best:null;
+    };
+    const tip=suggest();
     const fp=filterProgress(0);
     const moods=el("div",{class:"moods"},[
       ["explore","Explore","Lean into new words"],
@@ -790,7 +806,10 @@ function paintSession(){
       done?el("div",{class:"rdiv"},["Next"]):null,
       el("p",{class:"big"},[headline]),
       avail?moods:null,
-      el("p",{class:"lede"},[avail?readyMsg+shortMsg:emptyMsg]),
+      el("p",{class:"lede"},[avail?readyMsg:emptyMsg]),
+      avail&&avail<cap?el("p",{class:"lede nudge"},[tip
+        ?"Nothing more is ready here. "+tip[0]+" has "+tip[1]+" words you haven't started."
+        :"Nothing more is ready right now — come back later."]):null,
       fp.total?el("div",{style:{marginTop:"18px"}},[el("p",{class:"pcap"},["This filter"]),fp.bar,fp.legend]):null,
       avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"18px auto 0"},onclick:()=>{startSession();paintSession();}},["Start session"]):null
     ]));
