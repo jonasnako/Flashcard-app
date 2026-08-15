@@ -35,6 +35,19 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .milestone .msub{margin-top:3px;font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.14em;color:var(--green)}
 @keyframes milein{0%{opacity:0;transform:translate(-50%,-9px)}9%{opacity:1;transform:translate(-50%,0)}86%{opacity:1;transform:translate(-50%,0)}100%{opacity:0;transform:translate(-50%,-6px)}}
 @media(prefers-reduced-motion:reduce){.milestone{animation:none}}
+.scrim{position:fixed;inset:0;z-index:70;background:rgba(18,28,29,.66);display:flex;align-items:center;justify-content:center;padding:24px;animation:scrimin .16s ease-out}
+.sheet{width:100%;max-width:330px;background:var(--paper);color:var(--ink);border:1px solid var(--edge);border-radius:18px;padding:24px 24px 20px;box-shadow:0 26px 58px -18px rgba(0,0,0,.6);text-align:center;animation:sheetin .22s cubic-bezier(.2,.85,.25,1)}
+.sheet h3{font-family:'Fraunces',serif;font-weight:600;font-size:20px;line-height:1.25;letter-spacing:-.01em;margin:0 0 8px;overflow-wrap:anywhere}
+.sheet p{font-size:13.5px;line-height:1.55;color:#5E5A4E;margin:0 0 20px}
+.sheet .acts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sheet button{font-family:inherit;font-weight:600;font-size:14.5px;border-radius:12px;padding:12px 14px;cursor:pointer;border:1px solid transparent}
+.sheet button:active{transform:translateY(1px)}
+.sheet .no{background:transparent;border-color:rgba(42,40,35,.18);color:rgba(42,40,35,.7)}
+.sheet .yes{background:var(--ink);color:var(--paper)}
+.sheet .yes.dngr{background:#9E4B2B}
+@keyframes scrimin{from{opacity:0}to{opacity:1}}
+@keyframes sheetin{from{opacity:0;transform:translateY(10px) scale(.97)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.scrim,.sheet{animation:none}}
 .scene{perspective:1600px;margin-bottom:18px;position:relative}
 .card{position:relative;width:100%;min-height:clamp(300px,48vw,380px);transform-style:preserve-3d;transition:transform .55s cubic-bezier(.2,.85,.25,1);cursor:pointer}
 .card.flip{transform:rotateY(180deg)}
@@ -649,6 +662,28 @@ function celebrateMilestone(m){
   document.body.appendChild(t);
   setTimeout(()=>t.remove(),2800);
 }
+// Ask before something irreversible. The native confirm() puts the host name and the browser's own
+// chrome in front of the user; this keeps the question inside the app. Lives on <body>, not in #app,
+// so a render() underneath cannot tear it down mid-question.
+function ask(title,body,yesLabel,danger){
+  return new Promise(resolve=>{
+    let done=false;
+    const close=v=>{if(done)return;done=true;document.removeEventListener("keydown",key);scrim.remove();resolve(v);};
+    const key=e=>{if(e.key==="Escape"){e.preventDefault();close(false);}
+                  else if(e.key==="Enter"){e.preventDefault();close(true);}};
+    const yes=el("button",{class:"yes"+(danger?" dngr":""),onclick:()=>close(true)},[yesLabel||"Yes"]);
+    const scrim=el("div",{class:"scrim",role:"dialog","aria-modal":"true",
+      onclick:e=>{if(e.target===scrim)close(false);}},[
+      el("div",{class:"sheet"},[
+        el("h3",{},[title]),
+        body?el("p",{},[body]):null,
+        el("div",{class:"acts"},[el("button",{class:"no",onclick:()=>close(false)},["Cancel"]),yes])
+      ])]);
+    document.body.appendChild(scrim);
+    document.addEventListener("keydown",key);
+    yes.focus();
+  });
+}
 /* ---- discreet synthesized sound cues (Web Audio, no files) ---- */
 function actxGet(){if(!ACtxClass)return null;if(!actx)actx=new ACtxClass();if(actx.state==="suspended")actx.resume();return actx;}
 function tone(ctx,freq,t0,dur,peak,atk){ // soft sine with a quick attack and exponential decay
@@ -832,7 +867,9 @@ function paintSession(){
   if(ttsOK){
     controls.push(audioOn?el("button",{class:"ghost dngr",onclick:()=>{stopAudio();paintSession();}},["■ Stop"]):el("button",{class:"ghost",onclick:runHandsFree},["▶ Hands-free"]));
   }
-  controls.push(el("button",{class:"ghost",style:{marginLeft:"auto"},title:"Back to the session picker",onclick:()=>{if(confirm("End this session? The rest is discarded (your scores are kept).")){stopAudio();clearSession();paintSession();}}},["↻ New session"]));
+  controls.push(el("button",{class:"ghost",style:{marginLeft:"auto"},title:"Back to the session picker",
+    onclick:async()=>{if(await ask("End this session?","The remaining cards are put back. Everything you scored is kept.","End session"))
+      {stopAudio();clearSession();paintSession();}}},["↻ New session"]));
   area.appendChild(el("div",{class:"atools"},controls));
   const card=el("div",{class:"card"+(flipped?" flip":""),onclick:()=>{if(audioOn||tapLocked())return;flipped=!flipped;card.classList.toggle("flip",flipped);paintButtons();}},[face(c,f,false),face(c,b,true)]);
   const scene=el("div",{class:"scene"},[card]);
@@ -944,7 +981,7 @@ function paintList(){
       el("div",{class:"pair",style:{cursor:"pointer"},onclick:()=>{expandedId=open?null:c.id;editingId=null;paintList();}},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
       el("span",{class:"lvl"},[c.level]),
       dotRow(c),
-      el("button",{class:"del",html:"✕",onclick:()=>{if(confirm('Delete "'+c.it.word+'"?')){lib=lib.filter(x=>x.id!==c.id);if(session){session.queue=session.queue.filter(z=>z.id!==c.id);if(!session.queue.length)session.active=false;saveSession();}saveProgNow();saveWordsLocal();render();}}})
+      el("button",{class:"del",html:"✕",onclick:async()=>{if(await ask("Delete “"+c.it.word+"”?","The word and its progress are removed from your collection.","Delete",true)){lib=lib.filter(x=>x.id!==c.id);if(session){session.queue=session.queue.filter(z=>z.id!==c.id);if(!session.queue.length)session.active=false;saveSession();}saveProgNow();saveWordsLocal();render();}}})
     ]));
     if(open&&editingId!==c.id)w.appendChild(el("div",{class:"rowdet"},[
       c.it.sentence?el("p",{class:"ex it"},[c.it.sentence]):null,
@@ -1029,7 +1066,8 @@ function paintSettings(){
   app.appendChild(el("div",{class:"sec"},["Data"]));
   app.appendChild(el("div",{class:"btnwrap"},[
     el("button",{class:"ghost",onclick:exportLib},["Export (.json)"]),
-    el("button",{class:"ghost dngr",onclick:()=>{if(confirm("Reset all progress? Words stay, scores go to zero.")){lib=lib.map(c=>({...c,streak:0,correct:0,seen:0}));saveProgNow();clearSession();render();}}},["Reset progress"])
+    el("button",{class:"ghost dngr",onclick:async()=>{if(await ask("Reset all progress?","Every word stays in your collection, but all dots and scheduling go back to zero.","Reset",true))// clear every progress field, new engine and legacy alike — otherwise stability would survive the reset
+{lib=lib.map(c=>({...c,streak:0,correct:0,seen:0,seenAt:0,stab:0,best:0,jit:1,retired:false,ivl:0,due:0}));saveProgNow();clearSession();render();}}},["Reset progress"])
   ]));
   app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — a backup. The shared dictionary is loaded from words.json in the repo; scores stay per-device, keyed by word id."]));
 }
