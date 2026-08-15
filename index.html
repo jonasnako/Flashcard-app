@@ -322,6 +322,7 @@ function load(){
   }
   lib=buildLib(words,prog);
   migrateStab();
+  migrateKnew();
 }
 function saveSet(){try{localStorage.setItem(SET_KEY,JSON.stringify(settings));}catch(e){}}
 function saveWordsLocal(words){try{localStorage.setItem(WORDS_KEY,JSON.stringify(words||wordsFromLib()));}catch(e){}}
@@ -435,6 +436,16 @@ function newQuota(){
 }
 // Seed stability for progress made under the old streak model. Conservative: a word keeps the
 // dots it had, so the counter does not drop, and a failed first long test only costs one dot.
+// Under the earlier rule a correct first answer left the word at one day, indistinguishable from
+// one that was missed. Give those their first dot: seen exactly once, right exactly once.
+function migrateKnew(){
+  if(settings.migKnew)return;
+  let n=0;
+  lib.forEach(c=>{if(!c.retired&&(c.seen||0)===1&&(c.correct||0)===1&&(c.stab||0)===S_START){
+    c.stab=S_D1;c.streak=dots(c);c.best=Math.max(c.best||0,dots(c));n++;}});
+  settings.migKnew=1;saveSet();
+  if(n)saveProg();
+}
 function migrateStab(){
   let touched=false;
   lib.forEach(c=>{
@@ -460,7 +471,7 @@ function loadSession(){
     const q=s.queue.filter(x=>x&&x.id&&lib.some(c=>c.id===x.id)); // drop cards no longer in the library
     if(!q.length)return null;
     return {queue:q,total:s.total||q.length,learned:s.learned||0,missed:Array.isArray(s.missed)?s.missed:[],
-      mood:s.mood||"auto",met:s.met||0,gained:s.gained||0,held:s.held||0,mastered:s.mastered||0,
+      mood:s.mood||"auto",met:s.met||0,knew:s.knew||0,gained:s.gained||0,held:s.held||0,mastered:s.mastered||0,
       miss:s.miss||0,slipped:s.slipped||0,dotsUp:s.dotsUp||0,active:true};
   }catch(e){return null;}
 }
@@ -543,7 +554,7 @@ function startSession(){
   const mood=nextMood;
   const chosen=pickCards(Math.max(1,settings.sessionSize|0),mood);
   session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,missed:[],mood,
-    met:0,gained:0,held:0,mastered:0,miss:0,slipped:0,dotsUp:0,active:chosen.length>0};
+    met:0,knew:0,gained:0,held:0,mastered:0,miss:0,slipped:0,dotsUp:0,active:chosen.length>0};
   nextMood="auto";                         // moods are for today, not forever
   logNote({sess:1,back:backlogNow()});
   flipped=false;saveSession();
@@ -556,12 +567,13 @@ function rate(known,easy){
   c.seen=(c.seen||0)+1;
   if(!session.missed)session.missed=[];
   if(first){
-    // No gap exists yet, so the growth rule has nothing to bite on. "Easy" here means "skip the
-    // early rungs", not "retire unseen" — it still gets verified at a long gap before it can go.
-    c.stab=easy?30:S_START;
-    if(known)c.correct=(c.correct||0)+1;
-    else session.missed.push(c.id);
-    session.met=(session.met||0)+1;   // one outcome per card, so the report adds up to the total
+    // No gap exists yet, so the growth rule has nothing to bite on — but knowing a word the first
+    // time it appears is real information, not merely having seen it. A correct first answer is
+    // worth the first dot, the same as surviving a one-day gap; only a wrong one leaves the word
+    // as met-but-not-known. "Easy" still means "skip the early rungs", verified before it retires.
+    c.stab=easy?30:(known?S_D1:S_START);
+    if(known){c.correct=(c.correct||0)+1;session.knew=(session.knew||0)+1;}
+    else{session.missed.push(c.id);session.met=(session.met||0)+1;}
     logNote({nw:1});
   }else if(!known){
     // Soft miss: stability drops to a third rather than resetting — and only on the FIRST miss of
@@ -788,6 +800,7 @@ function paintSession(){
           session.gained?el("li",{},[el("span",{},["Strengthened"+(session.dotsUp?" · "+session.dotsUp+" earned a dot":"")]),
             el("b",{},[String(session.gained)])]):null,
           session.mastered?el("li",{},[el("span",{},["Mastered — retired for good"]),el("b",{},[String(session.mastered)])]):null,
+          session.knew?el("li",{},[el("span",{},["Knew already, first time"]),el("b",{},[String(session.knew)])]):null,
           session.met?el("li",{},[el("span",{},["Met for the first time"]),el("b",{},[String(session.met)])]):null,
           session.held?el("li",{class:"dim"},[el("span",{},["Practised, too soon to count"]),el("b",{},[String(session.held)])]):null,
           session.miss?el("li",{class:"dim"},[el("span",{},["Missed"+(session.slipped?" · "+session.slipped+" lost a dot":"")]),
