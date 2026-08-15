@@ -468,7 +468,8 @@ function loadSession(){
 // controller above owns the long-run rate.
 let nextMood="auto";
 const NOV_SHARE=.5, GUARD=2.5;              // Novelty aims for ~half the session new; throttled past GUARD sessions of backlog
-const NEW_FLOOR=.15, STOP_NEW=5;            // Normal keeps ~15% new until the backlog passes 5 sessions
+const NEW_FLOOR=.15, STOP_NEW=5;
+const MIN_EARLY=.5;   // a pulled-forward word must be at least halfway to its slot to be worth asking            // Normal keeps ~15% new until the backlog passes 5 sessions
 function interleave(a,b){const out=[],n=a.length+b.length;let i=0,j=0;
   for(let k=0;k<n;k++){
     if(i>=a.length)out.push(b[j++]);
@@ -519,8 +520,12 @@ function pickCards(size,mood){
   // new-word pacing intact. Only if those run out do we reach past the pace for more new words.
   const room=()=>size-revs.length-news.length;
   if(room()>0){
+    // Only pull a word forward if the answer will actually earn something. Growth is 5x the gap,
+    // so below a fifth of its slot a correct answer moves nothing at all — asking it is pure
+    // padding. Half its slot still roughly doubles stability, so that is the floor; anything
+    // shorter is left alone and new words fill the space instead.
     const have=new Set([...revs,...news].map(c=>c.id));
-    revs=revs.concat(inF.filter(c=>inReview(c)&&!have.has(c.id))
+    revs=revs.concat(inF.filter(c=>inReview(c)&&!have.has(c.id)&&overdue(c)>=MIN_EARLY)
       .sort((a,b)=>overdue(b)-overdue(a)).slice(0,room()));
   }
   if(room()>0&&m!=="review"){
@@ -749,6 +754,16 @@ function paintSession(){
     const done=session&&session.total>0;
     const emptyMsg=inF.length?"Everything here has retired — nothing left under this filter.":"No words match this filter.";
     const readyMsg=avail+" word"+(avail===1?"":"s")+(pNew&&pRev?" · "+pNew+" new · "+pRev+" review":pNew?" · all new":" · all review");
+    // A word of orientation instead of a fixed greeting: how today looks before you commit to it.
+    const dueN=inF.filter(c=>inReview(c)&&isDue(c)).length, back=backlogNow();
+    const headline=!avail?"All caught up"
+      :back>Math.max(1,settings.sessionSize|0)*GUARD?"Plenty to review"
+      :dueN>=Math.max(1,settings.sessionSize|0)?"Plenty to review"
+      :avail<Math.max(1,settings.sessionSize|0)?"Ahead of schedule"
+      :dueN===0?"Caught up on reviews"
+      :"Ready when you are";
+    const shortMsg=avail&&avail<Math.max(1,settings.sessionSize|0)
+      ?" — the rest isn't ready yet":"";
     const fp=filterProgress(0);
     const moods=el("div",{class:"moods"},[
       ["explore","Explore","Lean into new words"],
@@ -773,9 +788,9 @@ function paintSession(){
         ])
       ]):null,
       done?el("div",{class:"rdiv"},["Next"]):null,
-      el("p",{class:"big"},[avail?"Ready when you are":"All caught up"]),
+      el("p",{class:"big"},[headline]),
       avail?moods:null,
-      el("p",{class:"lede"},[avail?readyMsg:emptyMsg]),
+      el("p",{class:"lede"},[avail?readyMsg+shortMsg:emptyMsg]),
       fp.total?el("div",{style:{marginTop:"18px"}},[el("p",{class:"pcap"},["This filter"]),fp.bar,fp.legend]):null,
       avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"18px auto 0"},onclick:()=>{startSession();paintSession();}},["Start session"]):null
     ]));
