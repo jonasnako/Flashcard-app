@@ -773,8 +773,12 @@ function paintSession(){
     const dueN=inF.filter(c=>inReview(c)&&isDue(c)).length, back=backlogNow();
     const anyStarted=inF.some(inReview);
     const allMastered=inF.length>0&&inF.every(c=>c.retired);
+    // Empty because of the mood, or empty full stop? If another mood would still find work, say so
+    // rather than implying the filter is exhausted.
+    const altAvail=(!avail&&nextMood!=="auto"&&!allMastered)?pickCards(cap,"auto").length:0;
     const headline=!inF.length?"No words here"
       :allMastered?"All mastered"
+      :altAvail?(nextMood==="review"?"Nothing to review":"Nothing new here")
       :!avail?"Nothing ready"
       :!anyStarted?"A fresh start"
       :back>cap*GUARD||dueN>=cap?"Plenty to review"
@@ -783,6 +787,7 @@ function paintSession(){
       :"Ready when you are";
     const emptyMsg=!inF.length?"No words match this filter."
       :allMastered?"Every word here has retired. Nothing comes back."
+      :altAvail?"Nothing is due right now. Switch to Auto for "+altAvail+" words."
       :"Nothing due, nothing new. Check another topic and come back later.";
     const fp=filterProgress(0);
     const moods=el("div",{class:"moods"},[
@@ -810,7 +815,7 @@ function paintSession(){
       ]):null,
       done?el("div",{class:"rdiv"},["Next"]):null,
       el("p",{class:"big"},[headline]),
-      avail?moods:null,
+      inF.length?moods:null,
       el("p",{class:"lede"},[avail?readyMsg:emptyMsg]),
       avail&&avail<cap?el("p",{class:"lede nudge"},
         ["Nothing more due, nothing new. Check another topic and come back later."]):null,
