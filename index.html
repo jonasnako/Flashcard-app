@@ -110,6 +110,16 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .moods{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin:18px 0 12px}
 .moods button{border-radius:999px;padding:7px 15px;font-size:13px;background:transparent;border:1px solid rgba(255,255,255,.16);color:inherit;opacity:.62;cursor:pointer}
 .moods button.on{opacity:1;background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.34)}
+.recs{margin:26px auto 0;max-width:340px}
+.recs>div+div{margin-top:16px}
+.recs .pcap{margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:7px;justify-content:center}
+.chips button{font-family:inherit;font-size:13px;color:var(--paper);background:rgba(246,241,230,.06);
+  border:1px solid var(--line);border-radius:999px;padding:8px 14px;cursor:pointer;
+  display:inline-flex;align-items:center;gap:7px}
+.chips button:hover{background:rgba(246,241,230,.11);border-color:rgba(246,241,230,.26)}
+.chips button:active{transform:translateY(1px)}
+.chips button i{font-style:normal;font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--green);opacity:.9}
 .btn.wide{grid-column:1/-1;background:var(--paper);color:var(--ink);border-color:transparent}
 .state{text-align:center;padding:34px 18px}
 .state .big{font-family:'Fraunces',serif;font-size:24px;margin:0 0 8px}
@@ -693,6 +703,29 @@ function progText(p,on){
   const h=Math.round(30+88*q), sat=Math.round(56+26*q);
   return on?("hsl("+h+" "+sat+"% 30%)"):("hsl("+h+" "+sat+"% "+Math.round(68-12*q)+"%)");
 }
+// When the current filter has nothing left, point somewhere concrete instead of telling the user
+// to go looking. Levels still apply — only the topic filter is set aside — so a suggestion never
+// sends you to words you have filtered out on purpose.
+function recommendTopics(){
+  const lvlOK=c=>!settings.levels.length||settings.levels.includes(c.level);
+  const here=new Set(settings.topics);
+  const rev={},fresh={},started_={};
+  lib.forEach(c=>{
+    if(!lvlOK(c)||here.has(c.topic))return;
+    if(inReview(c)){started_[c.topic]=(started_[c.topic]||0)+1;
+      if(isDue(c))rev[c.topic]=(rev[c.topic]||0)+1;}
+    else if(!isSeen(c))fresh[c.topic]=(fresh[c.topic]||0)+1;
+  });
+  const top=(o,n)=>Object.keys(o).sort((a,b)=>o[b]-o[a]).slice(0,n).map(t=>({topic:t,n:o[t]}));
+  // "New" means a topic you have genuinely not begun — a half-done one belongs under review.
+  const untouched={};Object.keys(fresh).forEach(t=>{if(!started_[t])untouched[t]=fresh[t];});
+  return {review:top(rev,3),fresh:top(untouched,3)};
+}
+function topicChips(items,onPick,withCount){
+  return el("div",{class:"chips"},items.map(({topic,n})=>
+    el("button",{onclick:()=>onPick(topic)},
+      [topic,withCount?el("i",{},[String(n)]):null])));
+}
 function filterProgress(gained){
   const inF=lib.filter(inFilter),total=inF.length;
   // untouched · met · ●○○ · ●●○ · learned · mastered — the last band is what makes the final
@@ -737,7 +770,16 @@ function paintSession(){
     // Describe the session you are about to do, never the pile you have not done. A "due" count
     // is an accusation; the same information as "12 review, 8 new" is just a plan.
     const inF=lib.filter(inFilter);
-    const preview=pickCards(Math.max(1,settings.sessionSize|0),nextMood);
+    // Offer only the moods that would actually produce a session. A mood that yields nothing is
+    // not a choice, it is a dead end — and if the one you had selected has run dry, fall back
+    // rather than showing you an empty screen and making you work out why.
+    const MOODS=[["explore","Explore","Lean into new words"],
+                 ["auto","Auto","A steady mix, paced for you"],
+                 ["review","Review","Only words you've already started"]];
+    const cards={};MOODS.forEach(([id])=>{cards[id]=pickCards(Math.max(1,settings.sessionSize|0),id);});
+    const usable=MOODS.filter(([id])=>cards[id].length);
+    if(!cards[nextMood]||!cards[nextMood].length)nextMood=cards.auto.length?"auto":(usable.length?usable[0][0]:"auto");
+    const preview=cards[nextMood]||[];
     // Split by DOTS, the same way the progress bar and the header counts do: no dot is new,
     // whether or not the word has been met before. A word met once and never recalled has proved
     // nothing, so counting it as new keeps every number on this screen telling the same story.
@@ -752,13 +794,9 @@ function paintSession(){
     const dueN=inF.filter(c=>inReview(c)&&isDue(c)).length, back=backlogNow();
     const anyStarted=inF.some(inReview);
     const allMastered=inF.length>0&&inF.every(c=>c.retired);
-    // Empty because of the mood, or empty full stop? If another mood would still find work, say so
-    // rather than implying the filter is exhausted.
-    const altAvail=(!avail&&nextMood!=="auto"&&!allMastered)?pickCards(cap,"auto").length:0;
     const headline=!inF.length?"No words here"
       :allMastered?"All mastered"
-      :altAvail?(nextMood==="review"?"Nothing to review":"Nothing new here")
-      :!avail?"Nothing ready"
+      :!avail?"Nothing ready here"
       :!anyStarted?"A fresh start"
       :back>cap*GUARD||dueN>=cap?"Plenty to review"
       :avail<cap?"Ahead of schedule"
@@ -766,15 +804,22 @@ function paintSession(){
       :"Ready when you are";
     const emptyMsg=!inF.length?"No words match this filter."
       :allMastered?"Every word here has retired. Nothing comes back."
-      :altAvail?"Nothing is due right now. Switch to Auto for "+altAvail+" words."
-      :"Nothing due, nothing new. Check another topic and come back later.";
+      :"Nothing due, nothing new — this topic is resting.";
     const fp=filterProgress(0);
-    const moods=el("div",{class:"moods"},[
-      ["explore","Explore","Lean into new words"],
-      ["auto","Auto","A steady mix, paced for you"],
-      ["review","Review","Only words you've already started"]
-    ].map(([id,label,tip])=>el("button",{class:nextMood===id?"on":"",title:tip,
-      onclick:()=>{nextMood=id;paintSession();}},[label])));
+    // A single pill is not a choice, so the picker earns its place only from two options up.
+    const moods=usable.length>1?el("div",{class:"moods"},usable.map(([id,label,tip])=>
+      el("button",{class:nextMood===id?"on":"",title:tip,
+        onclick:()=>{nextMood=id;paintSession();}},[label]))):null;
+    // Somewhere to go, not just a suggestion to go looking. Shown when this filter is finished
+    // for now, and also when it can only half-fill a session.
+    const rec=(!avail||avail<cap)?recommendTopics():{review:[],fresh:[]};
+    const pick=t=>{settings.topics=[t];clearSession();saveSet();render();};
+    const recBlock=(rec.review.length||rec.fresh.length)?el("div",{class:"recs"},[
+      rec.review.length?el("div",{},[el("p",{class:"pcap"},["Ready to review elsewhere"]),
+        topicChips(rec.review,pick,true)]):null,
+      rec.fresh.length?el("div",{},[el("p",{class:"pcap"},["Or start something new"]),
+        topicChips(rec.fresh,pick,false)]):null
+    ]):null;
     // One line describes the session, one bar shows the collection. No second explanation of the
     // same thing, and nothing about what is owed.
     area.appendChild(el("div",{class:"state"},[
@@ -794,12 +839,11 @@ function paintSession(){
       ]):null,
       done?el("div",{class:"rdiv"},["Next"]):null,
       el("p",{class:"big"},[headline]),
-      inF.length?moods:null,
+      moods,
       el("p",{class:"lede"},[avail?readyMsg:emptyMsg]),
-      avail&&avail<cap?el("p",{class:"lede nudge"},
-        ["Nothing more due, nothing new. Check another topic and come back later."]):null,
-      fp.total?el("div",{style:{marginTop:"18px"}},[el("p",{class:"pcap"},["This filter"]),fp.bar,fp.legend]):null,
-      avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"18px auto 0"},onclick:()=>{startSession();paintSession();}},["Start session"]):null
+      avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"2px auto 0"},onclick:()=>{startSession();paintSession();}},["Start session"]):null,
+      recBlock,
+      fp.total?el("div",{style:{marginTop:"22px"}},[el("p",{class:"pcap"},["This filter"]),fp.bar,fp.legend]):null
     ]));
     return;
   }
