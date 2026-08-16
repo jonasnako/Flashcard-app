@@ -717,6 +717,7 @@ function el(tag,props,kids){const e=document.createElement(tag);
 /* ============ render ============ */
 const app=document.getElementById("app"), tabs=document.getElementById("tabs");
 let search="", page=0; const PAGE=50; let addOpen=false, listLevel="all", listTopic="all", expandedId=null, editingId=null;
+let importMsg=null;   // result line under the Data section, cleared on the next import
 
 function paintCounts(){
   const e=document.getElementById("counts");if(!e)return;
@@ -1066,12 +1067,111 @@ function paintSettings(){
   app.appendChild(el("div",{class:"sec"},["Data"]));
   app.appendChild(el("div",{class:"btnwrap"},[
     el("button",{class:"ghost",onclick:exportLib},["Export (.json)"]),
+    el("button",{class:"ghost",onclick:doImport},["Import scores…"]),
     el("button",{class:"ghost dngr",onclick:async()=>{if(await ask("Reset all progress?","Every word stays in your collection, but all dots and scheduling go back to zero.","Reset",true))// clear every progress field, new engine and legacy alike — otherwise stability would survive the reset
 {lib=lib.map(c=>({...c,streak:0,correct:0,seen:0,seenAt:0,stab:0,best:0,jit:1,retired:false,ivl:0,due:0}));saveProgNow();clearSession();render();}}},["Reset progress"])
   ]));
-  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — a backup. The shared dictionary is loaded from words.json in the repo; scores stay per-device, keyed by word id."]));
+  if(importMsg)app.appendChild(el("p",{class:"impmsg "+(importMsg.bad?"err":"hint"),style:{marginTop:"10px"}},[importMsg.text]));
+  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — a backup. The shared dictionary is loaded from words.json in the repo; scores stay per-device, so to move them to another browser, export here and import there. Importing merges: for each word the more recent practice wins, so an older backup never undoes newer work."]));
+}
+async function doImport(){
+  importMsg=null;
+  const text=await new Promise(r=>pickFile(r));
+  if(text==null){importMsg={bad:true,text:"Could not read that file."};return render();}
+  let parsed;
+  try{parsed=parseImport(text);}catch(e){parsed=null;}
+  if(!parsed||!Object.keys(parsed.prog).length){
+    importMsg={bad:true,text:"That doesn't look like a lessico export — no scores found in it."};
+    return render();}
+  const plan=planImport(parsed);
+  if(!plan.scored){
+    importMsg={bad:true,text:"That file has no scores in it, only words."};
+    return render();}
+  if(!plan.update&&!plan.add.length){
+    importMsg={text:"Nothing to import — this browser is already at least as far along on all "+plan.keep+" words."};
+    return render();}
+  const bits=[];
+  if(plan.update)bits.push(plan.update+" word"+(plan.update===1?"":"s")+" updated");
+  if(plan.add.length)bits.push(plan.add.length+" word"+(plan.add.length===1?"":"s")+" added");
+  if(plan.keep)bits.push(plan.keep+" left as they are, being newer here");
+  if(plan.unknown)bits.push(plan.unknown+" skipped, not in this collection");
+  if(!await ask("Import these scores?",bits.join(", ")+".","Import"))return;
+  applyImport(parsed,plan);
+  importMsg={text:"Imported. "+bits.join(", ")+"."};
+  render();
 }
 function exportLib(){const blob=new Blob([JSON.stringify(lib,null,2)],{type:"application/json"});const a=el("a",{href:URL.createObjectURL(blob),download:"lessico.json"});document.body.appendChild(a);a.click();a.remove();}
+
+/* ---- import: move scores from another browser ---- */
+// Scores live in this browser's localStorage, keyed by word id, so a second browser starts
+// blank. Export there, import here. Words are matched by id, which is stable across devices
+// because the shared dictionary ships them.
+function pickFile(cb){
+  const inp=el("input",{type:"file",accept:"application/json,.json",style:{display:"none"},
+    onchange:()=>{const f=inp.files&&inp.files[0];inp.remove();if(!f)return;
+      const r=new FileReader();
+      r.onload=()=>cb(String(r.result||""));
+      r.onerror=()=>cb(null);
+      r.readAsText(f);}});
+  document.body.appendChild(inp);inp.click();
+}
+const hasScore=p=>!!(p&&(p.streak||p.correct||p.seen||p.seenAt||p.stab||p.best||p.retired||p.ivl||p.due));
+// Accepts either an exported library (an array of cards) or a bare progress map keyed by id,
+// so a file lifted straight out of localStorage works too.
+function parseImport(text){
+  const data=JSON.parse(text);
+  const prog={}, words=[];
+  if(Array.isArray(data)){
+    data.forEach(c=>{if(!c||!c.id)return;const n=norm(c);prog[n.id]=stripProg(n);
+      if(n.it.word||n.de.word)words.push(stripWord(n));});
+  }else if(data&&typeof data==="object"){
+    const src=(data.progress&&typeof data.progress==="object")?data.progress:data;
+    Object.keys(src).forEach(id=>{const v=src[id];if(v&&typeof v==="object")prog[id]=stripProg(v);});
+  }
+  return {prog,words};
+}
+const pairKey=c=>((c.it&&c.it.word)||"").trim().toLowerCase()+"|"+((c.de&&c.de.word)||"").trim().toLowerCase();
+const newerThan=(p,c)=>{
+  const theirs=p.seenAt||0, mine=c.seenAt||0;
+  if(theirs!==mine)return theirs>mine;
+  return mine===0&&(p.correct||0)>(c.correct||0);   // neither dated: prefer the one with a record
+};
+// Match each incoming word to a local one by id, falling back to the word pair. The fallback
+// matters because the built-in starter deck ships without ids, so every browser minted its own
+// for those 100 words — matching on id alone would import them as a second copy of each.
+function resolveImport({prog,words}){
+  const byId=new Map(lib.map(c=>[c.id,c]));
+  const byPair=new Map();lib.forEach(c=>{const k=pairKey(c);if(!byPair.has(k))byPair.set(k,c);});
+  const target=new Map();                                  // incoming id -> local card
+  words.forEach(w=>{const c=byId.get(w.id)||byPair.get(pairKey(w));if(c)target.set(w.id,c);});
+  Object.keys(prog).forEach(id=>{if(!target.has(id)&&byId.has(id))target.set(id,byId.get(id));});
+  return {target,add:words.filter(w=>!target.has(w.id))};
+}
+// Per word the more recent practice wins, so importing an older backup can never roll back a
+// word you have practised since. Words the file has and this browser doesn't are carried over
+// too — otherwise scores for anything added on the other device would land nowhere.
+function planImport(parsed){
+  const {target,add}=resolveImport(parsed);
+  let update=0,keep=0,unknown=0;
+  Object.keys(parsed.prog).forEach(id=>{
+    const c=target.get(id);
+    if(!c){if(!add.some(w=>w.id===id))unknown++;return;}
+    if(newerThan(parsed.prog[id],c))update++;else keep++;
+  });
+  return {target,add,update,keep,unknown,
+    scored:Object.keys(parsed.prog).filter(id=>hasScore(parsed.prog[id])).length};
+}
+function applyImport({prog},plan){
+  plan.add.forEach(w=>{const c=norm({...w,...(prog[w.id]||{})});lib.push(c);});
+  const blank={streak:0,correct:0,seen:0,seenAt:0,ivl:0,due:0,retired:false,stab:0,jit:1,best:0};
+  Object.keys(prog).forEach(id=>{
+    const c=plan.target.get(id);if(!c||!newerThan(prog[id],c))return;
+    const best=Math.max(c.best||0,prog[id].best||0);   // display-only high-water mark: keep the higher
+    Object.assign(c,blank,prog[id],{best});
+  });
+  if(plan.add.length)saveWordsLocal();
+  saveProgNow();clearSession();
+}
 /* ---- topic helper ---- */
 function snapTopic(t){
   const c=(t||"").trim();if(!c)return "Other";
