@@ -24,12 +24,10 @@ function cands(word){
 }
 const plevel=w=>{ for(const c of cands(w)) if(prof.has(c)) return prof.get(c); return null; };
 let matched=0, changed=0;
-for(const f of ["words.json","dict/master.json"]){
-  const p=path.join(__dirname,"..",f), arr=JSON.parse(fs.readFileSync(p,"utf8"));
-  for(const e of arr){ const lv=plevel(e.it.word); if(lv==null) continue;
-    if(f==="words.json"){ matched++; if(lv!==e.level) changed++; }
-    if(APPLY) e.level=lv;
-  }
-  if(APPLY) fs.writeFileSync(p,JSON.stringify(arr,null,2)+"\n");
+const p=path.join(__dirname,"..","words.json"), arr=JSON.parse(fs.readFileSync(p,"utf8"));
+for(const e of arr){ const lv=plevel(e.it.word); if(lv==null) continue;
+  matched++; if(lv!==e.level) changed++;
+  if(APPLY) e.level=lv;
 }
+if(APPLY) fs.writeFileSync(p,JSON.stringify(arr,null,2)+"\n");
 console.log(`Matched to Profilo: ${matched} | mismatches ${changed} ${APPLY?"APPLIED":"(run with --apply to align)"}`);

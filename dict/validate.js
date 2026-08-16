@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Validate a lessico batch against dict/master.json per SPEC.md §8.
+// Validate a lessico batch against words.json per SPEC.md §8.
 //   node dict/validate.js dict/batches/food.json
 // Exits non-zero on any error. Warnings don't fail the batch but should be reviewed.
 const fs = require("fs");
@@ -7,9 +7,9 @@ const path = require("path");
 
 const batchPath = process.argv[2];
 if (!batchPath) { console.error("usage: node dict/validate.js <batch.json>"); process.exit(2); }
-const masterPath = path.join(__dirname, "master.json");
+const deckPath = path.join(__dirname, "..", "words.json");
 
-const master = JSON.parse(fs.readFileSync(masterPath, "utf8"));
+const deck = JSON.parse(fs.readFileSync(deckPath, "utf8"));
 const batch = JSON.parse(fs.readFileSync(batchPath, "utf8"));
 if (!Array.isArray(batch)) { console.error("batch is not a JSON array"); process.exit(2); }
 
@@ -22,11 +22,11 @@ const LEVELS = new Set(["A1", "A2", "B1", "B2"]);
 const norm = s => (s || "").trim().toLowerCase().replace(/\s+/g, " ");
 const words = s => (s || "").trim().split(/\s+/).filter(Boolean).length;
 
-// indexes over master
-const mById = new Map(master.map(w => [w.id, w]));
-const mPair = new Set(master.map(w => norm(w.it && w.it.word) + " ||| " + norm(w.de && w.de.word)));
+// indexes over the shipped deck
+const mById = new Map(deck.map(w => [w.id, w]));
+const mPair = new Set(deck.map(w => norm(w.it && w.it.word) + " ||| " + norm(w.de && w.de.word)));
 const mIt = new Map(), mDe = new Map();
-master.forEach(w => {
+deck.forEach(w => {
   (mIt.get(norm(w.it && w.it.word)) || mIt.set(norm(w.it && w.it.word), []).get(norm(w.it && w.it.word))).push(w);
   (mDe.get(norm(w.de && w.de.word)) || mDe.set(norm(w.de && w.de.word), []).get(norm(w.de && w.de.word))).push(w);
 });
@@ -40,7 +40,7 @@ batch.forEach((w, i) => {
   if (!w.id || !UUID.test(w.id)) E(i, `bad/missing uuid id: ${w.id}`);
   if (seenId.has(w.id)) E(i, `duplicate id within batch: ${w.id}`);
   seenId.add(w.id);
-  if (mById.has(w.id)) E(i, `id already in master (would be an update, not a new entry): ${w.id}`);
+  if (mById.has(w.id)) E(i, `id already in words.json (would be an update, not a new entry): ${w.id}`);
   if (!LEVELS.has(w.level)) E(i, `level must be A2/B1/B2, got: ${w.level}`);
   if (!w.topic || typeof w.topic !== "string") E(i, `missing topic`);
   for (const side of ["it", "de"]) {
@@ -71,10 +71,10 @@ batch.forEach((w, i) => {
   const pair = it + " ||| " + de;
   if (seenPair.has(pair)) E(i, `internal duplicate pair in batch: ${it} / ${de}`);
   seenPair.add(pair);
-  if (mPair.has(pair)) E(i, `exact pair already in master: ${it} / ${de}`);
+  if (mPair.has(pair)) E(i, `exact pair already in words.json: ${it} / ${de}`);
   else {
-    if (mIt.has(it)) W(i, `same Italian headword in master (review sense): ${it}`);
-    if (mDe.has(de)) W(i, `same German headword in master (review synonym): ${de}`);
+    if (mIt.has(it)) W(i, `same Italian headword in words.json (review sense): ${it}`);
+    if (mDe.has(de)) W(i, `same German headword in words.json (review synonym): ${de}`);
   }
 
   // ---- spread signal (§3.2, informational) ----

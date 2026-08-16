@@ -103,9 +103,9 @@ Notes:
 
 ## Building the dictionary
 
-The shared word list is authored in the repo, not in the app, under [`dict/`](dict/):
+The shared word list lives in `words.json` at the repo root — the single source, served straight
+to the app. Authoring rules and tooling sit under [`dict/`](dict/):
 
-- `dict/master.json` — the canonical dictionary content (a scores-free mirror of `words.json`).
 - `dict/SPEC.md` — authoring rules (entry format, Swiss `ss`, sentence complexity by level, topic assignment, dedup).
 - `dict/TOPICS.md` — the topic manifest, build order, pending re-tags, and reservation lists.
 - `dict/validate.js` — mechanical checks for a batch: `node dict/validate.js dict/batches/<batch>.json`.

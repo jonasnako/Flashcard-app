@@ -31,18 +31,15 @@ function lemmaLevel(word) {
   return { multi, k: null };
 }
 
-const files = ["words.json", "dict/master.json"].map(f => path.join(__dirname, "..", f));
+const file = path.join(__dirname, "..", "words.json");
 let matched=0, agree=0, over=0, under=0, corrected=0;
-for (const f of files) {
-  const arr = JSON.parse(fs.readFileSync(f, "utf8"));
-  for (const e of arr) {
-    const { multi, k } = lemmaLevel(e.it.word);
-    if (k == null) continue;
-    if (f.endsWith("words.json")) { matched++; const our = ORD[e.level]; if (our===k) agree++; else if (our>k) over++; else under++; }
-    if (!multi && ORD[e.level] > k) { corrected++; if (APPLY) e.level = NAME[k]; }
-  }
-  if (APPLY) fs.writeFileSync(f, JSON.stringify(arr, null, 2) + "\n");
+const arr = JSON.parse(fs.readFileSync(file, "utf8"));
+for (const e of arr) {
+  const { multi, k } = lemmaLevel(e.it.word);
+  if (k == null) continue;
+  matched++; const our = ORD[e.level]; if (our===k) agree++; else if (our>k) over++; else under++;
+  if (!multi && ORD[e.level] > k) { corrected++; if (APPLY) e.level = NAME[k]; }
 }
-matched = Math.round(matched/1); // words.json pass only counted
+if (APPLY) fs.writeFileSync(file, JSON.stringify(arr, null, 2) + "\n");
 console.log(`Matched to KELLY: ${matched} | agree ${agree} | over-leveled ${over} | under-leveled ${under}`);
-console.log(`Single-word over-level corrections ${APPLY ? "APPLIED" : "available"}: ${corrected/2}`);
+console.log(`Single-word over-level corrections ${APPLY ? "APPLIED" : "available"}: ${corrected}`);

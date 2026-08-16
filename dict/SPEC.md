@@ -1,7 +1,7 @@
 # lessico — Dictionary Authoring Spec
 
 Rules for generating Italian↔German vocabulary batches. Every batch must satisfy these
-before being merged into `master.json`. `validate.js` checks the mechanical rules;
+before being merged into `words.json`. `validate.js` checks the mechanical rules;
 the rest is authoring judgement.
 
 ---
@@ -117,7 +117,7 @@ them before authoring any cross-cutting batch.
 
 ## 6. Deduplication
 
-Before shipping, check the batch against `master.json`:
+Before shipping, check the batch against `words.json`:
 
 1. **Exact pair** (it.word + de.word) — remove from batch.
 2. **Same Italian headword, different German** — review by hand. Sometimes a legitimate
@@ -155,5 +155,5 @@ Output a mismatch report (our level vs. reference level) and correct before fina
 - [ ] Length gradient holds (B1 7–9, B2 9–12, nothing over ~12)
 - [ ] Tense/mood/person/sentence-type spread per §3.2
 - [ ] Reservation lists consulted; §5 rule applied to every entry
-- [ ] Deduped against `master.json` per §6
+- [ ] Deduped against `words.json` per §6
 - [ ] Topic counts reported; no topic left under ~80 entries
