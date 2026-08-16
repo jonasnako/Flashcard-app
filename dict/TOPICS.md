@@ -54,7 +54,7 @@ digiuno* out of the Food batch's ambiguous review; the full Health build is stil
 | Topic | Book chapters absorbed | Status | Target |
 |---|---|---|---|
 | **Verbs** | Allgemeine Tätigkeiten, Bemühung/Vorhaben, Hilfe/Verpflichtung, Besitzen/Geben/Nehmen + polysemous chunk verbs + verb-preposition government | 129 ✓ | +~15 |
-| **Expressions** | Fixed functional phrases: greetings & politeness formulas (buongiorno, grazie, per favore, piacere…), reaction-formulas & discourse markers (meno male, figurati, magari, boh…) | 43 ✓ | done |
+| **Expressions** | Fixed functional phrases: greetings & politeness formulas (buongiorno, grazie, per favore, piacere…), reaction-formulas & conversational routines (meno male, figurati, che peccato, mi raccomando…), and colloquial/youth register at B2 (figo, raga, sclerare, scialla…) | 106 ✓ | done |
 | **Structure words** | Strukturwörter: connectives, conjunctions, adverbs, particles, quantifiers, modality; classification, cause/effect, manner | 137 ✓ | +~30 |
 | **Numbers** | Masse und Gewichte, Mengenbegriffe, Formen (skip literal counting — A1) | 60 ✓ | done |
 | **Colours** | Farben + light/surface qualities (glänzend, iridescente, fluorescente…), colour verbs (brillare, scintillare, sbiadire…), shade/tone nouns, extra hues | 56 ✓ | done |
@@ -93,6 +93,30 @@ core A1 phrasebook was authored into Expressions: *grazie, per favore, salve, pi
 niente, mi dispiace, permesso, a presto, come stai, come va, auguri, salute, buon appetito,
 benvenuto*. Communication keeps the productive vocabulary of talking (verbs, discussion,
 conflict). Expressions is now the home for fixed phrases at every level (21 at A1).
+
+**Expressions expansion + slang (done, 43 → 106):** two strands in `expressions-02.json`.
+A2/B1 got the conversational routines and reaction formulas the topic was missing
+(*che peccato, come mai, mi raccomando, non se ne parla, a occhio, vabbè, come sarebbe a
+dire*). B2 got colloquial and youth register (*figo, che figata, raga, fra, scialla,
+sclerare, spaccare, cazzeggiare, sgamare, gasato, ghostare, che cringe, flexare*),
+following the convention the topic already used — register marks a word B2 regardless of
+how easy it is, which is why *boh, mah, cavolo, uffa* already sat there. Level therefore
+doubles as a register filter: anyone wanting only neutral Italian can exclude B2.
+
+Discourse particles proper (*anzi, cioè, insomma, addirittura, piuttosto, a proposito,
+purtroppo, davvero, volentieri*) were deliberately **not** added — they already live in
+Structure words, and §5 keeps a word in its home chapter.
+
+Four entries had their German side reworded so no gloss is shared with an existing entry:
+*per l'amor del cielo* → um Gottes willen (vs. *per carità* = um Himmels willen),
+*una bomba* → eine Wucht (vs. *il martello* = der Hammer), *beccarsi* → man sieht sich
+(vs. *riunirsi* = sich treffen), *il casino* → das Durcheinander (vs. *il caos* = das Chaos).
+Without that, the German→Italian direction would have been unanswerable.
+
+Length note: the B2 sentences here run 6–9 words rather than the §3.1 band of 9–12.
+Interjections are short exchanges, and the topic's existing B2 entries already behave this
+way (3 of 8 were outside the band; *magari* is 4 words). These entries are B2 for register,
+not for complexity, so the band was not enforced against them.
 
 ---
 

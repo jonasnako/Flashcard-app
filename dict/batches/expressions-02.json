@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "111dcc53-420f-42fe-8fb0-21540935a278",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "non fa niente",
+      "sentence": "Scusa il ritardo! – Non fa niente."
+    },
+    "de": {
+      "word": "macht nichts",
+      "sentence": "Entschuldige die Verspätung! – Macht nichts."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "51efe1a8-2b8a-402f-904c-5aa63462fb56",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "che peccato",
+      "sentence": "Non puoi venire? Che peccato!"
+    },
+    "de": {
+      "word": "wie schade",
+      "sentence": "Du kannst nicht kommen? Wie schade!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "79449c58-8287-4760-9aef-bf2096cad9db",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "come mai",
+      "sentence": "Come mai non sei venuto ieri sera?"
+    },
+    "de": {
+      "word": "wie kommt's",
+      "sentence": "Wie kommt's, dass du gestern Abend nicht da warst?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a84c5323-5351-45cf-a128-2f1a536a3afa",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "ma dai",
+      "sentence": "Ma dai, non ci credo per niente!"
+    },
+    "de": {
+      "word": "ach komm",
+      "sentence": "Ach komm, das glaube ich dir überhaupt nicht!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "451940de-bc1a-4660-a73c-13d32e750d75",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "ci vediamo",
+      "sentence": "Ci vediamo domani davanti alla scuola."
+    },
+    "de": {
+      "word": "wir sehen uns",
+      "sentence": "Wir sehen uns morgen vor der Schule."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "15eedd0d-54a1-433d-932a-7e40f8d6a6d9",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "a più tardi",
+      "sentence": "Devo scappare, a più tardi!"
+    },
+    "de": {
+      "word": "bis später",
+      "sentence": "Ich muss los, bis später!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6b9ff844-4422-4c0c-b5d0-52cbe944388b",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "buona giornata",
+      "sentence": "Buona giornata, ci sentiamo stasera!"
+    },
+    "de": {
+      "word": "einen schönen Tag",
+      "sentence": "Einen schönen Tag, wir hören uns heute Abend!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "6aac0fcb-0772-4e24-90bb-06501fd4b3a7",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "non ti preoccupare",
+      "sentence": "Non ti preoccupare, ci penso io."
+    },
+    "de": {
+      "word": "mach dir keine Sorgen",
+      "sentence": "Mach dir keine Sorgen, ich kümmere mich darum."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7c05aa09-616c-497d-90f5-fd941e9588ed",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "stai tranquillo",
+      "sentence": "Stai tranquillo, abbiamo ancora molto tempo."
+    },
+    "de": {
+      "word": "bleib ganz ruhig",
+      "sentence": "Bleib ganz ruhig, wir haben noch viel Zeit."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "33edeece-5b0a-456b-9f66-5553cf0207f7",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "che ne so",
+      "sentence": "Dove sono le chiavi? Che ne so!"
+    },
+    "de": {
+      "word": "was weiss ich",
+      "sentence": "Wo sind die Schlüssel? Was weiss ich!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cf0b1b5b-c184-474c-97ab-760a228425fc",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "va bene così",
+      "sentence": "Vuoi ancora un po'? No, va bene così."
+    },
+    "de": {
+      "word": "so passt es",
+      "sentence": "Möchtest du noch etwas? Nein, so passt es."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7ecd3292-5024-4634-b8bf-434032f047ef",
+    "level": "A2",
+    "topic": "Expressions",
+    "it": {
+      "word": "senti",
+      "sentence": "Senti, ti posso chiedere un favore?"
+    },
+    "de": {
+      "word": "hör mal",
+      "sentence": "Hör mal, kann ich dich um etwas bitten?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4fc90f21-37b8-42b1-951c-1873667f1be0",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "che ci vuoi fare",
+      "sentence": "È andata così, che ci vuoi fare."
+    },
+    "de": {
+      "word": "was willst du machen",
+      "sentence": "So ist es nun mal gelaufen, was willst du machen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3e54d047-bea3-47b7-beb4-81e42eb59793",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "non ci posso credere",
+      "sentence": "Hanno vinto di nuovo? Non ci posso credere!"
+    },
+    "de": {
+      "word": "das gibt's doch nicht",
+      "sentence": "Sie haben schon wieder gewonnen? Das gibt's doch nicht!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "1334836b-3588-4f46-93a2-5781bd5f3f4e",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "tanto vale",
+      "sentence": "Se piovesse, tanto varrebbe restare a casa."
+    },
+    "de": {
+      "word": "genauso gut können",
+      "sentence": "Wenn es regnen würde, könnten wir genauso gut daheim bleiben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cfe1db8a-c7d4-4699-9d70-e7886a601409",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "cavarsela",
+      "sentence": "In tedesco me la cavo abbastanza bene."
+    },
+    "de": {
+      "word": "zurechtkommen",
+      "sentence": "Auf Deutsch komme ich ganz gut zurecht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b416608f-76f2-4f19-9cd9-8bcb152762f0",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "ci sta",
+      "sentence": "Arriviamo un po' tardi, ma ci sta."
+    },
+    "de": {
+      "word": "das passt schon",
+      "sentence": "Wir kommen etwas später, aber das passt schon."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bd614196-9800-4f35-a1c2-a5dc5b93414d",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "altroché",
+      "sentence": "Ti è piaciuto? Altroché, moltissimo!"
+    },
+    "de": {
+      "word": "und ob",
+      "sentence": "Hat es dir gefallen? Und ob, sehr sogar!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a182ae84-4330-41d6-a20d-22f9efa651cf",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "mi raccomando",
+      "sentence": "Mi raccomando, chiudi bene la porta!"
+    },
+    "de": {
+      "word": "denk bloss daran",
+      "sentence": "Denk bloss daran, die Tür gut zu schliessen!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "30cc5d49-cf7b-40c8-a9cf-6778ed712506",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "come no",
+      "sentence": "Mi dai una mano? Come no!"
+    },
+    "de": {
+      "word": "na klar",
+      "sentence": "Hilfst du mir kurz? Na klar!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0f515109-c6f4-438f-98a2-618d661718ff",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "non se ne parla",
+      "sentence": "Uscire con questo tempo? Non se ne parla proprio."
+    },
+    "de": {
+      "word": "kommt nicht in Frage",
+      "sentence": "Bei diesem Wetter rausgehen? Das kommt überhaupt nicht in Frage."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d79f1cd4-5f5b-426a-99b0-cb5e36c056cb",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "per modo di dire",
+      "sentence": "Siamo colleghi, per modo di dire, ci vediamo raramente."
+    },
+    "de": {
+      "word": "sozusagen",
+      "sentence": "Wir sind Kollegen, sozusagen, wir sehen uns selten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "01072f7e-f829-4961-868c-9c995b5100ef",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "a occhio",
+      "sentence": "A occhio saremo una trentina di persone."
+    },
+    "de": {
+      "word": "über den Daumen",
+      "sentence": "Über den Daumen werden wir etwa dreissig Leute sein."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "57a4312d-7878-4baa-85aa-7d73e8a70734",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "semmai",
+      "sentence": "Semmai ci vediamo la settimana prossima."
+    },
+    "de": {
+      "word": "wenn überhaupt",
+      "sentence": "Wenn überhaupt, sehen wir uns nächste Woche."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7b9126b8-8817-45e0-a042-2385b1018866",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "figuriamoci",
+      "sentence": "Non parla inglese, figuriamoci il cinese."
+    },
+    "de": {
+      "word": "geschweige denn",
+      "sentence": "Er spricht kein Englisch, geschweige denn Chinesisch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "75c95d08-e1e0-4e71-8fa1-981c8d03302d",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "per l'amor del cielo",
+      "sentence": "Per l'amor del cielo, non dirglielo!"
+    },
+    "de": {
+      "word": "um Gottes willen",
+      "sentence": "Um Gottes willen, sag es ihm bloss nicht!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b8c4ff81-febd-4c15-8dc5-41fe285d74ea",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "dai retta a me",
+      "sentence": "Dai retta a me, non ne vale la pena."
+    },
+    "de": {
+      "word": "hör auf mich",
+      "sentence": "Hör auf mich, es lohnt sich wirklich nicht."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2b9d5d68-0591-4155-8b5d-986e443d1edc",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "come sarebbe a dire",
+      "sentence": "Come sarebbe a dire che non vieni più?"
+    },
+    "de": {
+      "word": "wie meinst du das",
+      "sentence": "Wie meinst du das, dass du nicht mehr kommst?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2b384a2a-5809-4b7b-932f-7b1e0b13ad1b",
+    "level": "B1",
+    "topic": "Expressions",
+    "it": {
+      "word": "vabbè",
+      "sentence": "Vabbè, facciamo come dici tu."
+    },
+    "de": {
+      "word": "na gut",
+      "sentence": "Na gut, machen wir es so, wie du sagst."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fcf79f82-9583-4cf5-aeb1-886ef8360af0",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "figo",
+      "sentence": "Il suo nuovo appartamento è davvero figo."
+    },
+    "de": {
+      "word": "cool",
+      "sentence": "Seine neue Wohnung ist echt cool."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9965e503-2b27-4591-b114-75d200323a7c",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "che figata",
+      "sentence": "Ci hanno regalato i biglietti? Che figata!"
+    },
+    "de": {
+      "word": "wie geil",
+      "sentence": "Sie haben uns die Tickets geschenkt? Wie geil!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "769039dd-89fb-4e64-801a-129c0fbb8d5f",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "lo sfigato",
+      "sentence": "Si sente uno sfigato perché nessuno lo invita mai."
+    },
+    "de": {
+      "word": "der Loser",
+      "sentence": "Er fühlt sich wie ein Loser, weil ihn nie jemand einlädt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ab690fae-d478-470b-99b8-e1f07e239008",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "raga",
+      "sentence": "Raga, ci muoviamo o restiamo ancora qui?"
+    },
+    "de": {
+      "word": "Leute",
+      "sentence": "Leute, gehen wir los oder bleiben wir noch hier?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "619a52d6-1a44-4b33-9c57-446c91c913e0",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "fra",
+      "sentence": "Tranquillo fra, ci penso io a tutto."
+    },
+    "de": {
+      "word": "Alter",
+      "sentence": "Locker, Alter, ich kümmere mich um alles."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c388a2a6-dbd0-4330-b3ff-3f6ccc35d772",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "scialla",
+      "sentence": "Scialla, tanto abbiamo ancora un sacco di tempo."
+    },
+    "de": {
+      "word": "ganz locker",
+      "sentence": "Ganz locker, wir haben ja noch massig Zeit."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7fc0f74c-3a03-4dd6-9153-4550f6060265",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "sclerare",
+      "sentence": "Ho sclerato quando ho visto il conto finale."
+    },
+    "de": {
+      "word": "durchdrehen",
+      "sentence": "Ich bin durchgedreht, als ich die Endabrechnung gesehen habe."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b3dc5ed1-12f3-437f-be5e-68f48d92a977",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "spaccare",
+      "sentence": "Il concerto di ieri sera spaccava davvero."
+    },
+    "de": {
+      "word": "richtig abgehen",
+      "sentence": "Das Konzert gestern Abend ging richtig ab."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5e835794-ad6e-4d95-b12a-70253c2569f7",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "una bomba",
+      "sentence": "La torta che hai fatto era una bomba!"
+    },
+    "de": {
+      "word": "eine Wucht",
+      "sentence": "Der Kuchen, den du gebacken hast, war eine Wucht!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "045fe588-6e80-4cbe-a2a7-8c181a603aff",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "da paura",
+      "sentence": "Hanno una casa da paura in montagna."
+    },
+    "de": {
+      "word": "krass",
+      "sentence": "Sie haben ein krasses Haus in den Bergen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "942d1453-cb06-43a3-bf87-b5b10271ab96",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "mitico",
+      "sentence": "Sei mitico, mi hai salvato la giornata!"
+    },
+    "de": {
+      "word": "legendär",
+      "sentence": "Du bist legendär, du hast meinen Tag gerettet!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ce1ddd05-5969-48c0-bd67-e04b34c57fa6",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "che palle",
+      "sentence": "Di nuovo la stessa riunione? Che palle!"
+    },
+    "de": {
+      "word": "wie ätzend",
+      "sentence": "Schon wieder dieselbe Sitzung? Wie ätzend!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ad632b62-cdb6-4545-9232-0865d487c7f6",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "essere fuori",
+      "sentence": "Vuoi partire adesso? Ma sei fuori!"
+    },
+    "de": {
+      "word": "nicht ganz dicht sein",
+      "sentence": "Du willst jetzt losfahren? Du bist nicht ganz dicht!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "5e847a92-0b57-47f8-beb7-088bdffd9afc",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "beccare",
+      "sentence": "L'hanno beccato mentre copiava durante l'esame."
+    },
+    "de": {
+      "word": "erwischen",
+      "sentence": "Sie haben ihn beim Abschreiben in der Prüfung erwischt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b2f53aa5-ff91-48df-ab16-04172b9e5996",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "beccarsi",
+      "sentence": "Ci becchiamo domani sera in piazza?"
+    },
+    "de": {
+      "word": "man sieht sich",
+      "sentence": "Sieht man sich morgen Abend auf dem Platz?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "327d1c4e-0577-4965-bac5-8a8c168a65fa",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "sgamare",
+      "sentence": "Mia madre mi sgama sempre quando mento."
+    },
+    "de": {
+      "word": "durchschauen",
+      "sentence": "Meine Mutter durchschaut mich immer, wenn ich lüge."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a2e07381-77ca-4568-8d66-eef34a57e4c0",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "cazzeggiare",
+      "sentence": "Abbiamo cazzeggiato tutto il pomeriggio senza combinare niente."
+    },
+    "de": {
+      "word": "rumgammeln",
+      "sentence": "Wir haben den ganzen Nachmittag rumgegammelt, ohne etwas zu schaffen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2b4ea85e-44a0-49a6-9d0e-772f15b21cc4",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "sbattersi",
+      "sentence": "Si è sbattuto parecchio per organizzare la festa."
+    },
+    "de": {
+      "word": "sich reinhängen",
+      "sentence": "Er hat sich ziemlich reingehängt, um das Fest zu organisieren."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "23c38ae0-4300-403b-b562-9677e7f72479",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "fregarsene",
+      "sentence": "Se ne frega completamente di quello che pensiamo."
+    },
+    "de": {
+      "word": "pfeifen auf",
+      "sentence": "Er pfeift völlig darauf, was wir denken."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "25091dfc-1d0e-4fbc-a085-a902d8a5f2d5",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "avere una cotta per",
+      "sentence": "Ha una cotta per la sua compagna di banco."
+    },
+    "de": {
+      "word": "verknallt sein in",
+      "sentence": "Er ist in seine Sitznachbarin verknallt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "40457627-5fce-4731-a837-1d4a61e3d825",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "l'abbiocco",
+      "sentence": "Dopo pranzo mi viene sempre un abbiocco tremendo."
+    },
+    "de": {
+      "word": "die Fressnarkose",
+      "sentence": "Nach dem Essen habe ich immer eine fürchterliche Fressnarkose."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3e29f693-2bdb-44e8-8062-f70927c012f7",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "la bufala",
+      "sentence": "Quella notizia era una bufala bella e buona."
+    },
+    "de": {
+      "word": "die Zeitungsente",
+      "sentence": "Diese Meldung war eine glatte Zeitungsente."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b0ee1985-5585-447e-b503-3bca81a6a0e8",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "pazzesco",
+      "sentence": "Hanno vinto all'ultimo minuto, è stato pazzesco!"
+    },
+    "de": {
+      "word": "der Wahnsinn",
+      "sentence": "Sie haben in letzter Minute gewonnen, es war der Wahnsinn!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2d59751a-44f0-4274-8231-6542cce16a4d",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "il casino",
+      "sentence": "In cucina c'era un casino incredibile."
+    },
+    "de": {
+      "word": "das Durcheinander",
+      "sentence": "In der Küche herrschte ein unglaubliches Durcheinander."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fe9217c4-ed3e-4b2b-bb1f-a2cdbe9b610d",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "che schifo",
+      "sentence": "Che schifo, questo latte è andato a male!"
+    },
+    "de": {
+      "word": "wie eklig",
+      "sentence": "Wie eklig, diese Milch ist schlecht geworden!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "38edcb66-b192-43b8-8e42-1f48c48ed136",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "tipo",
+      "sentence": "Era tipo mezzanotte quando finalmente è arrivato."
+    },
+    "de": {
+      "word": "so gegen",
+      "sentence": "Es war so gegen Mitternacht, als er endlich ankam."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3a6d9df1-ab79-4b63-a9bb-98d1d850829b",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "gasato",
+      "sentence": "È tutto gasato per il concerto di sabato."
+    },
+    "de": {
+      "word": "aufgedreht",
+      "sentence": "Er ist total aufgedreht wegen des Konzerts am Samstag."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e93f6d0a-8a81-40b2-b153-9fae5fd3d12b",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "la crush",
+      "sentence": "Ha incontrato la sua crush in palestra."
+    },
+    "de": {
+      "word": "der Schwarm",
+      "sentence": "Sie hat ihren Schwarm im Fitnessstudio getroffen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "18e00fb5-85ad-4b78-b615-0bce36482cd0",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "ghostare",
+      "sentence": "Mi ha ghostato dopo il secondo appuntamento."
+    },
+    "de": {
+      "word": "ghosten",
+      "sentence": "Er hat mich nach dem zweiten Date geghostet."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3ac8f0d0-216b-420b-ace4-b212a82a1677",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "che cringe",
+      "sentence": "Ha cantato davanti a tutti, che cringe!"
+    },
+    "de": {
+      "word": "zum Fremdschämen",
+      "sentence": "Er hat vor allen gesungen, echt zum Fremdschämen!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9ea5c916-83ba-4565-831b-5d128c81547f",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "flexare",
+      "sentence": "Smettila di flexare con la macchina nuova."
+    },
+    "de": {
+      "word": "angeben",
+      "sentence": "Hör auf, mit dem neuen Auto anzugeben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "c8889e84-857b-47a2-9be6-8793c2d41cd7",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "il tizio",
+      "sentence": "Chi è quel tizio seduto vicino a Marco?"
+    },
+    "de": {
+      "word": "der Typ",
+      "sentence": "Wer ist der Typ, der neben Marco sitzt?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "04ebd337-f6ae-406b-904d-203ec12da7d4",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "rimorchiare",
+      "sentence": "Ha provato a rimorchiare per tutta la sera."
+    },
+    "de": {
+      "word": "anbaggern",
+      "sentence": "Er hat den ganzen Abend versucht anzubaggern."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cc314335-9c36-4a29-8aef-23c0dcfaf79d",
+    "level": "B2",
+    "topic": "Expressions",
+    "it": {
+      "word": "essere in para",
+      "sentence": "Sono un po' in para per l'esame di lunedì."
+    },
+    "de": {
+      "word": "durchhängen",
+      "sentence": "Wegen der Prüfung am Montag hänge ich etwas durch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  }
+]
