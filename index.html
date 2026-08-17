@@ -800,12 +800,17 @@ function paintSession(){
     const dueN=inF.filter(c=>inReview(c)&&isDue(c)).length, back=backlogNow();
     const anyStarted=inF.some(inReview);
     const allMastered=inF.length>0&&inF.every(c=>c.retired);
+    // The diagnosis is read off Auto, never off the mood you happen to have selected. Explore and
+    // Review are ways of spending the same state, so switching between them must change the session
+    // on offer and nothing else — otherwise one mood says "caught up" while another, on identical
+    // words, says "ahead of schedule" and points elsewhere.
+    const refAvail=cards.auto.length;
     const headline=!inF.length?"No words here"
       :allMastered?"All mastered"
-      :!avail?"Nothing ready here"
+      :!refAvail&&!avail?"Nothing ready here"
       :!anyStarted?"A fresh start"
       :back>cap*GUARD||dueN>=cap?"Plenty to review"
-      :avail<cap?"Ahead of schedule"
+      :refAvail<cap?"Ahead of schedule"
       :dueN===0?"Caught up on reviews"
       :"Ready when you are";
     const emptyMsg=!inF.length?"No words match this filter."
@@ -816,15 +821,13 @@ function paintSession(){
     const moods=usable.length>1?el("div",{class:"moods"},usable.map(([id,label,tip])=>
       el("button",{class:nextMood===id?"on":"",title:tip,
         onclick:()=>{nextMood=id;paintSession();}},[label]))):null;
-    // Somewhere to go, not just a suggestion to go looking. Shown when this filter is finished
-    // for now, when it can only half-fill a session, and when Auto can only serve new words —
-    // that last one means there is nothing here to consolidate, however full the session looks.
-    // Judged on Auto rather than the selected mood, because it is a fact about the filter:
-    // choosing Explore does not make review appear, and Explore is meant to be new-heavy.
-    const autoAllNew=cards.auto.length>0&&!cards.auto.some(started);
-    const rec=(!avail||avail<cap||autoAllNew)?recommendTopics():{review:[],fresh:[]};
-    // If there is a full session of new words waiting here, more new topics are not the gap.
-    if(autoAllNew&&avail>=cap)rec.fresh=[];
+    // Somewhere to go, not just a suggestion to go looking. Judged on Auto for the same reason the
+    // headline is, and erring towards showing: nothing here, not enough for a full session, or
+    // nothing here to consolidate. That last one covers "Caught up on reviews", which is exactly
+    // when it helps to know another topic has review ready.
+    const rec=(!refAvail||refAvail<cap||dueN===0)?recommendTopics():{review:[],fresh:[]};
+    // A full session is already waiting here, so more new topics is not the gap — only the review is.
+    if(refAvail>=cap)rec.fresh=[];
     const pick=t=>{settings.topics=[t];clearSession();saveSet();render();};
     const recBlock=(rec.review.length||rec.fresh.length)?el("div",{class:"recs"},[
       rec.review.length?el("div",{},[el("p",{class:"pcap"},["Ready to review elsewhere"]),
