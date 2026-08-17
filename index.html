@@ -16,6 +16,11 @@
 :root{--bg:#1E2D2F;--bg2:#223335;--paper:#F6F1E6;--edge:#EBE3D2;--ink:#2A2823;--line:rgba(246,241,230,.10);--green:#7A9A57;--ochre:#CB9235}
 *{box-sizing:border-box}
 html,body{margin:0}
+/* Touch browsers paint their own translucent flash over whatever you press — rounded edge and all —
+   for as long as the press lasts, which a 600ms hold makes very visible, in a blue that has nothing
+   to do with this palette. The app's own :active and the hold sweep are the feedback. Inherited,
+   so this one line covers every tappable thing. */
+html{-webkit-tap-highlight-color:transparent}
 body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 120% at 50% 0%,var(--bg2) 0%,var(--bg) 60%) fixed;color:var(--paper);min-height:100vh;-webkit-font-smoothing:antialiased}
 .wrap{max-width:620px;margin:0 auto;padding:max(24px,env(safe-area-inset-top)) 20px calc(84px + env(safe-area-inset-bottom))}
 .head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px}
@@ -93,6 +98,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .btn.know{background:rgba(122,154,87,.16);border-color:rgba(122,154,87,.45);color:#BBD69A}
 .btn.know{position:relative;overflow:hidden;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
 .btn.know>span{position:relative;z-index:1}
+/* inset:0 puts the sweep against the padding box, so it fills up to the border and never over it */
 .btn.know::after{content:"";position:absolute;inset:0;background:rgba(203,146,53,.5);transform:scaleX(0);transform-origin:left center;pointer-events:none}
 .btn.know.hold::after{transform:scaleX(1);transition:transform .6s linear}
 .report{background:rgba(246,241,230,.05);border:1px solid rgba(246,241,230,.10);border-radius:14px;padding:16px 18px;margin:2px 0 4px}
