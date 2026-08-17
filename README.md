@@ -99,7 +99,12 @@ Notes:
 
 ## Backups
 
-**Settings → Export (.json)** saves a file with all your words *and* your scores — a backup you can keep before a big change or when moving to a new phone.
+**Settings → Export** saves a file with all your words *and* your scores — a backup you can keep before a big
+change or when moving to a new phone. **Settings → Import** reads that file back.
+
+Importing **merges** rather than overwrites: words are matched by id (falling back to the word pair), and for
+each word the more recent practice wins, so an older backup can never undo work you have done since. It shows
+what it would change and waits for you to confirm before touching anything.
 
 ## Building the dictionary
 
@@ -110,7 +115,7 @@ to the app. Authoring rules and tooling sit under [`dict/`](dict/):
 - `dict/TOPICS.md` — the topic manifest, build order, pending re-tags, and reservation lists.
 - `dict/validate.js` — mechanical checks for a batch: `node dict/validate.js dict/batches/<batch>.json`.
 
-New/updated entries land in `words.json` via commits, and every device picks them up through sync **by word id** — so re-tagging a word or rewriting its sentence never touches your scores (scores live per-device, keyed by the same id). In-app import is intentionally disabled to keep the repo the single source of truth.
+New/updated entries land in `words.json` via commits, and every device picks them up through sync **by word id** — so re-tagging a word or rewriting its sentence never touches your scores (scores live per-device, keyed by the same id). The in-app **Import** brings scores across from another browser; it never adds words to the repo.
 
 ## Notes
 

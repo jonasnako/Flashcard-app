@@ -1068,13 +1068,13 @@ function paintSettings(){
 
   app.appendChild(el("div",{class:"sec"},["Data"]));
   app.appendChild(el("div",{class:"btnwrap"},[
-    el("button",{class:"ghost",onclick:exportLib},["Export (.json)"]),
-    el("button",{class:"ghost",onclick:doImport},["Import scores…"]),
-    el("button",{class:"ghost dngr",onclick:async()=>{if(await ask("Reset all progress?","Every word stays in your collection, but all dots and scheduling go back to zero.","Reset",true))// clear every progress field, new engine and legacy alike — otherwise stability would survive the reset
-{lib=lib.map(c=>({...c,streak:0,correct:0,seen:0,seenAt:0,stab:0,best:0,jit:1,retired:false,ivl:0,due:0}));saveProgNow();clearSession();render();}}},["Reset progress"])
+    el("button",{class:"ghost",onclick:exportLib},["Export"]),
+    el("button",{class:"ghost",onclick:doImport},["Import"]),
+    el("button",{class:"ghost dngr",onclick:async()=>{if(await ask("Reset all progress?","Every word stays, but all dots go back to zero and you start over from the beginning.","Reset",true))// clear every progress field, new engine and legacy alike — otherwise stability would survive the reset
+{lib=lib.map(c=>({...c,streak:0,correct:0,seen:0,seenAt:0,stab:0,best:0,jit:1,retired:false,ivl:0,due:0}));saveProgNow();clearSession();render();}}},["Reset"])
   ]));
   if(importMsg)app.appendChild(el("p",{class:"impmsg "+(importMsg.bad?"err":"hint"),style:{marginTop:"10px"}},[importMsg.text]));
-  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Export saves your whole library with scores — a backup. The shared dictionary is loaded from words.json in the repo; scores stay per-device, so to move them to another browser, export here and import there. Importing merges: for each word the more recent practice wins, so an older backup never undoes newer work."]));
+  app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Your progress is kept in this browser, not in an account. Export a backup, and import it if you switch phone or browser. Importing merges with what is already here — for each word, the more recent practice is the one you keep."]));
 }
 async function doImport(){
   importMsg=null;
