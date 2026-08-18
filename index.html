@@ -790,6 +790,16 @@ function topicChips(items,onPick,withCount){
     el("button",{onclick:()=>onPick(topic)},
       [topic,withCount?el("i",{},[String(n)]):null])));
 }
+// Name the slice the bar is about. "This filter" is the app's word for it, not the reader's, and
+// saying which words these are is more use than a label that only makes sense once you already
+// know how the app works. Long selections collapse to a count so the line stays short.
+function filterName(){
+  const some=(a,n,word)=>a.length<=n?a.join(" · "):a.length+" "+word;
+  const parts=[];
+  if(settings.topics.length)parts.push(some(settings.topics,2,"topics"));
+  if(settings.levels.length)parts.push(some(settings.levels,3,"levels"));
+  return parts.length?parts.join(" · "):"all words";
+}
 function filterProgress(gained){
   const inF=lib.filter(inFilter),total=inF.length;
   // untouched · met · ●○○ · ●●○ · learned · mastered — the last band is what makes the final
@@ -922,7 +932,7 @@ function paintSession(){
       el("p",{class:"lede"},[avail?readyMsg:emptyMsg]),
       avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"2px auto 0"},onclick:()=>{startSession();paintSession();}},["Start session"]):null,
       recBlock,
-      fp.total?el("div",{style:{marginTop:"22px"}},[el("p",{class:"pcap"},["This filter"]),fp.bar,fp.legend]):null
+      fp.total?el("div",{style:{marginTop:"22px"}},[el("p",{class:"pcap"},[filterName()]),fp.bar,fp.legend]):null
     ]));
     return;
   }
@@ -1115,7 +1125,7 @@ function paintSettings(){
   const topics=sortedTopics();
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),topicSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Each topic's colour shows its progress at the selected level(s) — amber needs work, green is learned."])]));
   {const fp=filterProgress(0);
-   app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in this filter"]),fp.bar,fp.legend,
+   app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in "+filterName()]),fp.bar,fp.legend,
      el("span",{class:"sub"},["A word climbs one step each time you recall it after a longer gap: 1 day, then 5, then 25 — three dots, learned. Recall it once more after 125 days and it is mastered: it retires and never comes back. A word you have met but not yet earned a dot for shows a faint first dot. A miss steps a word back, and the dot it lost stays outlined on the card."])]));}
 
   app.appendChild(el("div",{class:"sec"},["How"]));
