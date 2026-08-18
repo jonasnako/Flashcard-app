@@ -855,21 +855,28 @@ function paintSession(){
     // "Caught up" is only true if there is something to be caught up ON — a filter where nothing
     // has been started is a fresh start, and one where everything has retired is finished.
     const cap=Math.max(1,settings.sessionSize|0);
-    const dueN=inF.filter(c=>inReview(c)&&isDue(c)).length, back=backlogNow();
+    const back=backlogNow();
     const anyStarted=inF.some(inReview);
     const allMastered=inF.length>0&&inF.every(c=>c.retired);
     // The diagnosis is read off Auto, never off the mood you happen to have selected. Explore and
     // Review are ways of spending the same state, so switching between them must change the session
     // on offer and nothing else — otherwise one mood says "caught up" while another, on identical
     // words, says "ahead of schedule" and points elsewhere.
-    const refAvail=cards.auto.length;
+    //
+    // The strictly-due count and the review Auto actually offers come apart routinely, because the
+    // session tops up with words past halfway to their slot. So the rule is not "never use the due
+    // count" — it is that the headline must never contradict the line under it. "Plenty to review"
+    // beside "17 review" agrees; "Caught up on reviews" beside "12 review" did not, and that is
+    // what put four claims about review on one screen, three of them false.
+    const refAvail=cards.auto.length, refRev=cards.auto.filter(started).length;
+    const dueN=inF.filter(c=>inReview(c)&&isDue(c)).length;
     const headline=!inF.length?"No words here"
       :allMastered?"All mastered"
       :!refAvail&&!avail?"Nothing ready here"
       :!anyStarted?"A fresh start"
       :back>cap*GUARD||dueN>=cap?"Plenty to review"
       :refAvail<cap?"Ahead of schedule"
-      :dueN===0?"Caught up on reviews"
+      :refRev===0?"Caught up on reviews"      // no review in the session, not merely none overdue
       :"Ready when you are";
     const emptyMsg=!inF.length?"No words match this filter."
       :allMastered?"Every word here has retired. Nothing comes back."
@@ -880,10 +887,9 @@ function paintSession(){
       el("button",{class:nextMood===id?"on":"",title:tip,
         onclick:()=>{nextMood=id;paintSession();}},[label]))):null;
     // Somewhere to go, not just a suggestion to go looking. Judged on Auto for the same reason the
-    // headline is, and erring towards showing: nothing here, not enough for a full session, or
-    // nothing here to consolidate. That last one covers "Caught up on reviews", which is exactly
-    // when it helps to know another topic has review ready.
-    const rec=(!refAvail||refAvail<cap||dueN===0)?recommendTopics():{review:[],fresh:[]};
+    // headline is: nothing here, not enough for a full session, or no review here to do. Pointing
+    // elsewhere while a full session of reviews is waiting right here is noise, not help.
+    const rec=(!refAvail||refAvail<cap||refRev===0)?recommendTopics():{review:[],fresh:[]};
     // A full session is already waiting here, so more new topics is not the gap — only the review is.
     if(refAvail>=cap)rec.fresh=[];
     const pick=t=>{settings.topics=[t];clearSession();saveSet();render();};
