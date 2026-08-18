@@ -117,6 +117,39 @@ to the app. Authoring rules and tooling sit under [`dict/`](dict/):
 
 New/updated entries land in `words.json` via commits, and every device picks them up through sync **by word id** — so re-tagging a word or rewriting its sentence never touches your scores (scores live per-device, keyed by the same id). The in-app **Import** brings scores across from another browser; it never adds words to the repo.
 
+## What gets recorded
+
+Two logs, both in `localStorage`, both on your device only — nothing is sent anywhere. They carry
+in Export and merge on Import.
+
+**`lessico_log_v1`** — one row per day, last 90 days:
+
+| | |
+|---|---|
+| `cards` `sess` `ms` | answers given, sessions, time on cards |
+| `revN` `revOK` | reviews attempted / recalled — the retention figure |
+| `newN` `newOK` | first exposures attempted / already known |
+| `up` `down` `nw` | dots gained, dots lost, new words started |
+| `back` | peak backlog (drives the intake controller) |
+| `learned` `retired` | end-of-day totals, so a progress curve can be drawn for the past |
+
+**`lessico_ev_v1`** — one row per review, last 5000, as
+`[day, gap×10, stabilityBefore×10, recalled, side, easy, seconds×10]`. Stability is the value
+*before* the answer, because that is what the schedule was predicted from. Full buffers cost
+about 110 KB.
+
+Only the **first** answer to a word in a session is logged as a test: a card you miss is requeued,
+but that retry is re-study, and counting it would flatter the recall rate. New words and reviews
+are counted apart, because a single combined hit rate moves with how much new material a week
+happened to contain rather than with how well anything is being retained.
+
+The point of the review log is to check the scheduler against reality — it assumes
+`p(recall) = exp(-gap / (6.15 · stability))`, which nothing has ever verified. Bucketing rows by
+`gap / stability` and comparing predicted against observed recall is what would calibrate it.
+That needs months of data, which is why collection starts before there is anything to read.
+
+**Settings → Reset** clears both logs along with the scores.
+
 ## Notes
 
 - A session you leave partway **resumes where you left off** when you come back — the remaining cards and order are saved on the device. Finishing a session, changing the Level/Topic/Focus filters, or tapping **↻ New session** on the Session tab starts a fresh one.

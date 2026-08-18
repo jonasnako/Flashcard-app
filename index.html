@@ -352,17 +352,49 @@ const inSession=c=>inFilter(c)&&(isDue(c)||!isSeen(c));
 const LOG_KEY="lessico_log_v1";
 const dayNo=()=>Math.floor(Date.now()/DAY);
 const logGet=()=>{const l=readJSON(LOG_KEY);return Array.isArray(l)?l:[];};
+// Counters that accumulate across a day. Everything here is derived from answers as they happen
+// and cannot be reconstructed afterwards — the card record only ever holds present state — so a
+// day that goes unlogged is gone for good.
+const DAY_FIELDS=["cards","sess","nw","revN","revOK","newN","newOK","ms","up","down"];
+const blankDay=()=>{const t={d:dayNo(),back:0,learned:0,retired:0};DAY_FIELDS.forEach(k=>t[k]=0);return t;};
 function logNote(f){
   const L=logGet();let t=L[L.length-1];
-  if(!t||t.d!==dayNo()){t={d:dayNo(),cards:0,sess:0,back:0,nw:0};L.push(t);while(L.length>90)L.shift();}
-  if(f.cards)t.cards+=f.cards;
-  if(f.sess)t.sess+=f.sess;
-  if(f.nw)t.nw+=f.nw;
+  if(!t||t.d!==dayNo()){t=blankDay();L.push(t);while(L.length>90)L.shift();}
+  DAY_FIELDS.forEach(k=>{if(f[k])t[k]=(t[k]||0)+f[k];});
   if(f.back!=null)t.back=Math.max(t.back||0,f.back);
-  try{localStorage.setItem(LOG_KEY,JSON.stringify(L));}catch(e){}
+  if(f.learned!=null)t.learned=f.learned;
+  if(f.retired!=null)t.retired=f.retired;
+  logWrite(L);
   return t;
 }
-const logToday=()=>{const L=logGet(),t=L[L.length-1];return (t&&t.d===dayNo())?t:{d:dayNo(),cards:0,sess:0,back:0,nw:0};};
+function logWrite(L){try{localStorage.setItem(LOG_KEY,JSON.stringify(L));}catch(e){}}
+const logToday=()=>{const L=logGet(),t=L[L.length-1];return (t&&t.d===dayNo())?t:blankDay();};
+// Where the collection stood at the end of each day. Present state lives in lib, but nothing keeps
+// its history, so without this snapshot a progress-over-time curve can never be drawn for the past.
+function snapshotTotals(){
+  let learned=0,retired=0;
+  lib.forEach(c=>{if(c.retired)retired++;else if(dots(c)>=3)learned++;});
+  logNote({learned,retired});
+}
+
+/* ---- review log: one row per genuine test, the only way to check the model against reality ---- */
+// The scheduler bets that p(recall) = exp(-gap / (6.15 * stability)). Nothing has ever checked that
+// bet. Each row is [day, gap*10, stabilityBefore*10, recalled, side, easy, seconds*10] — enough to
+// bucket reviews by gap/stability and compare predicted recall against what actually happened.
+// Stability is the value BEFORE the answer: that is what the prediction was made from.
+const EV_KEY="lessico_ev_v1", EV_MAX=5000;
+const evGet=()=>{const e=readJSON(EV_KEY);return Array.isArray(e)?e:[];};
+function evPush(row){
+  const E=evGet();E.push(row);
+  while(E.length>EV_MAX)E.shift();
+  evWrite(E);
+}
+// localStorage is a hard wall shared with the word list; if we hit it, drop the oldest half rather
+// than silently stopping — half a history still calibrates, a dead writer never recovers.
+function evWrite(E){
+  try{localStorage.setItem(EV_KEY,JSON.stringify(E));}
+  catch(e){try{localStorage.setItem(EV_KEY,JSON.stringify(E.slice(Math.floor(E.length/2))));}catch(e2){}}
+}
 const avg=a=>a.length?a.reduce((p,c)=>p+c,0)/a.length:0;
 // sessions per active day, from the last two weeks — drives the first interval only
 function sessPerDay(){
@@ -421,6 +453,9 @@ function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random
 
 /* ============ session ============ */
 let session=null, flipped=false, view="session";
+// When the current card first appeared, for time-on-card. Keyed to the queue head so a repaint —
+// flipping, a mood change — does not restart the clock.
+let cardShownAt=0, cardShownFor=null;
 const SESS_KEY="lessico_sess_v1";
 function saveSession(){try{if(session)localStorage.setItem(SESS_KEY,JSON.stringify(session));else localStorage.removeItem(SESS_KEY);}catch(e){}}
 function clearSession(){session=null;try{localStorage.removeItem(SESS_KEY);}catch(e){}}
@@ -515,7 +550,9 @@ function startSession(){
   session={queue:chosen.map(c=>({id:c.id,f:front()})),total:chosen.length,learned:0,missed:[],mood,
     met:0,knew:0,gained:0,held:0,mastered:0,miss:0,slipped:0,dotsUp:0,active:chosen.length>0};
   nextMood="auto";                         // moods are for today, not forever
+  cardShownFor=null;
   logNote({sess:1,back:backlogNow()});
+  snapshotTotals();                        // so a day with an abandoned session still has a mark
   flipped=false;saveSession();
 }
 const cur=()=>session&&session.queue[0]?lib.find(c=>c.id===session.queue[0].id):null;
@@ -525,6 +562,12 @@ function rate(known,easy){
   const gapD=c.seenAt?(now-c.seenAt)/DAY:0;
   c.seen=(c.seen||0)+1;
   if(!session.missed)session.missed=[];
+  // Only the first answer to a word in a session is a real test; a requeued retry is re-study, and
+  // the engine already refuses to score it. Measuring it would flatter the recall rate, so the log
+  // applies the same guard. Captured before the arrays below are touched.
+  const firstTry=!session.missed.includes(c.id);
+  const stabBefore=c.stab||0;
+  const ms=cardShownAt?Math.min(60000,Math.max(0,now-cardShownAt)):0;
   if(first){
     // No gap exists yet, so the growth rule has nothing to bite on — but knowing a word the first
     // time it appears is real information, not merely having seen it. A correct first answer is
@@ -572,12 +615,27 @@ function rate(known,easy){
   c.jit=1+Math.random()*.3;   // upward-only: scheduling early forfeits growth, late costs nothing
   c.streak=dots(c);           // keep the legacy field in sync so dot rendering stays simple
   c.best=Math.max(c.best||0,dots(c)); // high-water mark: a slipped dot stays visible as an outline
-  logNote({cards:1,back:backlogNow()});
+  // New words and reviews are counted apart on purpose. One combined hit rate moves with how much
+  // new material a week happened to contain, not with how well anything is being retained; only the
+  // review figure answers "is what I learned staying learned".
+  const note={cards:1,back:backlogNow(),ms};
+  if(firstTry){
+    if(first){note.newN=1;if(known)note.newOK=1;}
+    else{note.revN=1;if(known)note.revOK=1;}
+    if(dots(c)>was)note.up=1;else if(dots(c)<was)note.down=1;
+  }
+  logNote(note);
+  // Only genuine reviews carry a gap, so only they can test the prediction; a first exposure has
+  // nothing to be right or wrong about in the model's terms.
+  if(firstTry&&!first){
+    evPush([dayNo(),Math.round(gapD*10),Math.round(stabBefore*10),known?1:0,
+            sideOf(head)==="de"?1:0,easy?1:0,Math.round(ms/100)]);
+  }
   saveProg();
   // missed cards come back later in the same session until you get them right
   session.queue=known?session.queue.slice(1):[...session.queue.slice(1),{id:head.id,f:front()}];
   flipped=false;
-  if(!session.queue.length)session.active=false;
+  if(!session.queue.length){session.active=false;snapshotTotals();}
   saveSession();
 }
 let justLearned=false, milestone=null;
@@ -863,6 +921,7 @@ function paintSession(){
     return;
   }
   const c=cur(), donePart=session.total-session.queue.length;
+  if(c&&cardShownFor!==session.queue[0].id){cardShownFor=session.queue[0].id;cardShownAt=Date.now();}
   area.appendChild(el("div",{class:"meta"},[el("span",{},[session.queue.length+" left"]),el("span",{},[session.learned+" learned"])]));
   area.appendChild(el("div",{class:"progress"},[el("i",{style:{width:Math.round(donePart/session.total*100)+"%"}})]));
   const f=sideOf(session.queue[0]), b=f==="it"?"de":"it";
@@ -1071,7 +1130,9 @@ function paintSettings(){
     el("button",{class:"ghost",onclick:exportLib},["Export"]),
     el("button",{class:"ghost",onclick:doImport},["Import"]),
     el("button",{class:"ghost dngr",onclick:async()=>{if(await ask("Reset all progress?","Every word stays, but all dots go back to zero and you start over from the beginning.","Reset",true))// clear every progress field, new engine and legacy alike — otherwise stability would survive the reset
-{lib=lib.map(c=>({...c,streak:0,correct:0,seen:0,seenAt:0,stab:0,best:0,jit:1,retired:false,ivl:0,due:0}));saveProgNow();clearSession();render();}}},["Reset"])
+// the history describes progress that no longer exists, so it goes with it
+{lib=lib.map(c=>({...c,streak:0,correct:0,seen:0,seenAt:0,stab:0,best:0,jit:1,retired:false,ivl:0,due:0}));
+ logWrite([]);evWrite([]);saveProgNow();clearSession();render();}}},["Reset"])
   ]));
   if(importMsg)app.appendChild(el("p",{class:"impmsg "+(importMsg.bad?"err":"hint"),style:{marginTop:"10px"}},[importMsg.text]));
   app.appendChild(el("div",{class:"hint",style:{marginTop:"10px"}},["Your progress is kept in this browser, not in an account. Export a backup, and import it if you switch phone or browser. Importing merges with what is already here — for each word, the more recent practice is the one you keep."]));
@@ -1089,7 +1150,10 @@ async function doImport(){
   if(!plan.scored){
     importMsg={bad:true,text:"That file has no scores in it, only words."};
     return render();}
-  if(!plan.update&&!plan.add.length){
+  // A backup made after this one may still carry days and reviews this browser never saw, so an
+  // import that moves no score can still be worth doing.
+  const hist=(parsed.log.length||parsed.events.length);
+  if(!plan.update&&!plan.add.length&&!hist){
     importMsg={text:"Nothing to import — this browser is already at least as far along on all "+plan.keep+" words."};
     return render();}
   const bits=[];
@@ -1097,12 +1161,24 @@ async function doImport(){
   if(plan.add.length)bits.push(plan.add.length+" word"+(plan.add.length===1?"":"s")+" added");
   if(plan.keep)bits.push(plan.keep+" left as they are, being newer here");
   if(plan.unknown)bits.push(plan.unknown+" skipped, not in this collection");
+  if(hist)bits.push("plus your study history");
   if(!await ask("Import these scores?",bits.join(", ")+".","Import"))return;
   applyImport(parsed,plan);
-  importMsg={text:"Imported. "+bits.join(", ")+"."};
+  const h=mergeHistory(parsed.log,parsed.events);
+  const done=bits.filter(b=>!/^plus your/.test(b));
+  if(h.days||h.rows)done.push(h.days+" new day"+(h.days===1?"":"s")+" and "+h.rows+" review"+(h.rows===1?"":"s")+" of history");
+  importMsg={text:"Imported. "+(done.length?done.join(", "):"nothing new")+"."};
   render();
 }
-function exportLib(){const blob=new Blob([JSON.stringify(lib,null,2)],{type:"application/json"});const a=el("a",{href:URL.createObjectURL(blob),download:"lessico.json"});document.body.appendChild(a);a.click();a.remove();}
+// v2 carries the history alongside the words. A v1 export was a bare array and still imports —
+// parseImport keeps that branch — but a backup that dropped your history on the way to a new phone
+// would be a poor kind of backup.
+function exportLib(){
+  const out={v:2,words:lib,log:logGet(),events:evGet()};
+  const blob=new Blob([JSON.stringify(out)],{type:"application/json"});
+  const a=el("a",{href:URL.createObjectURL(blob),download:"lessico.json"});
+  document.body.appendChild(a);a.click();a.remove();
+}
 
 /* ---- import: move scores from another browser ---- */
 // Scores live in this browser's localStorage, keyed by word id, so a second browser starts
@@ -1122,15 +1198,41 @@ const hasScore=p=>!!(p&&(p.streak||p.correct||p.seen||p.seenAt||p.stab||p.best||
 // so a file lifted straight out of localStorage works too.
 function parseImport(text){
   const data=JSON.parse(text);
-  const prog={}, words=[];
-  if(Array.isArray(data)){
-    data.forEach(c=>{if(!c||!c.id)return;const n=norm(c);prog[n.id]=stripProg(n);
-      if(n.it.word||n.de.word)words.push(stripWord(n));});
-  }else if(data&&typeof data==="object"){
-    const src=(data.progress&&typeof data.progress==="object")?data.progress:data;
-    Object.keys(src).forEach(id=>{const v=src[id];if(v&&typeof v==="object")prog[id]=stripProg(v);});
+  const prog={}, words=[]; let log=[], events=[];
+  const takeCards=a=>a.forEach(c=>{if(!c||!c.id)return;const n=norm(c);prog[n.id]=stripProg(n);
+    if(n.it.word||n.de.word)words.push(stripWord(n));});
+  if(Array.isArray(data))takeCards(data);                       // v1: a bare array of cards
+  else if(data&&typeof data==="object"){
+    if(Array.isArray(data.words)){                              // v2: words plus history
+      takeCards(data.words);
+      if(Array.isArray(data.log))log=data.log.filter(x=>x&&typeof x==="object"&&x.d!=null);
+      if(Array.isArray(data.events))events=data.events.filter(x=>Array.isArray(x)&&x.length>=4);
+    }else{                                                      // a bare progress map from storage
+      const src=(data.progress&&typeof data.progress==="object")?data.progress:data;
+      Object.keys(src).forEach(id=>{const v=src[id];if(v&&typeof v==="object")prog[id]=stripProg(v);});
+    }
   }
-  return {prog,words};
+  return {prog,words,log,events};
+}
+// History merges too, and has to survive being imported twice. Days are keyed by date and the
+// busier record wins rather than being summed, so a repeated import cannot inflate the past;
+// review rows are deduped on their full contents for the same reason.
+function mergeHistory(log,events){
+  let days=0,rows=0;
+  if(log&&log.length){
+    const byDay=new Map(logGet().map(t=>[t.d,t]));
+    log.forEach(t=>{const cur=byDay.get(t.d);
+      if(!cur||(t.cards||0)>(cur.cards||0)){byDay.set(t.d,t);if(!cur)days++;}});
+    const merged=[...byDay.values()].sort((a,b)=>a.d-b.d).slice(-90);
+    logWrite(merged);
+  }
+  if(events&&events.length){
+    const E=evGet(), seen=new Set(E.map(r=>r.join(",")));
+    events.forEach(r=>{const k=r.join(",");if(!seen.has(k)){seen.add(k);E.push(r);rows++;}});
+    E.sort((a,b)=>a[0]-b[0]);
+    evWrite(E.slice(-EV_MAX));
+  }
+  return {days,rows};
 }
 const pairKey=c=>((c.it&&c.it.word)||"").trim().toLowerCase()+"|"+((c.de&&c.de.word)||"").trim().toLowerCase();
 const newerThan=(p,c)=>{
