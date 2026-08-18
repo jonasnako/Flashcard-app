@@ -941,12 +941,16 @@ function paintSession(){
   area.appendChild(el("div",{id:"btns"}));
   paintButtons();
 }
-// Three dots = three successful recalls. A word met but not yet recalled shows a dimmed first dot
+// Three dots = three successful recalls. A word you have met but not yet earned a dot for shows a dimmed first dot
 // so it reads differently from one never opened; a dot you have lost stays as an outline rather
 // than vanishing; retirement fills the row in gold with a star instead of adding a fourth dot.
 function dotRow(c){
   const n=settings.learnY, d=dots(c), b=Math.min(n,Math.max(c.best||0,d));
-  const kids=Array.from({length:n},(_,i)=>el("span",{class:i<d?"f":(i<b?"g":(i===0&&metOnly(c)?"h":""))}));
+  // The faint first dot means "you have met this", not "you have met this and never got it right".
+  // Miss a new word and get it right again an hour later and growth is capped at 5x that short gap,
+  // so stability lands under the first threshold — the word had a dot's worth of work put into it
+  // and rendered as blank as one never touched. The progress bar already counted it as met.
+  const kids=Array.from({length:n},(_,i)=>el("span",{class:i<d?"f":(i<b?"g":(i===0&&isSeen(c)?"h":""))}));
   if(c.retired)kids.push(el("span",{class:"star"},["\u2726"]));
   return el("span",{class:"dots"+(c.retired?" ret":"")},kids);
 }
@@ -1106,7 +1110,7 @@ function paintSettings(){
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),topicSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Each topic's colour shows its progress at the selected level(s) — amber needs work, green is learned."])]));
   {const fp=filterProgress(0);
    app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in this filter"]),fp.bar,fp.legend,
-     el("span",{class:"sub"},["A word climbs one step each time you recall it after a longer gap: 1 day, then 5, then 25 — three dots, learned. Recall it once more after 125 days and it is mastered: it retires and never comes back. Words you have met but not yet recalled sit before the first dot. A miss steps a word back, and the dot it lost stays outlined on the card."])]));}
+     el("span",{class:"sub"},["A word climbs one step each time you recall it after a longer gap: 1 day, then 5, then 25 — three dots, learned. Recall it once more after 125 days and it is mastered: it retires and never comes back. A word you have met but not yet earned a dot for shows a faint first dot. A miss steps a word back, and the dot it lost stays outlined on the card."])]));}
 
   app.appendChild(el("div",{class:"sec"},["How"]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Direction (front side)"]),seg([["mixed","Mixed"],["it","IT → DE"],["de","DE → IT"]],settings.direction,v=>{settings.direction=v;saveSet();}),
