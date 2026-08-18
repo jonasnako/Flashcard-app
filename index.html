@@ -844,15 +844,27 @@ function paintSession(){
     // Describe the session you are about to do, never the pile you have not done. A "due" count
     // is an accusation; the same information as "12 review, 8 new" is just a plan.
     const inF=lib.filter(inFilter);
-    // Offer only the moods that would actually produce a session. A mood that yields nothing is
-    // not a choice, it is a dead end — and if the one you had selected has run dry, fall back
-    // rather than showing you an empty screen and making you work out why.
+    // Offer only the moods that would actually produce a different session. A mood that yields
+    // nothing is a dead end; two moods that yield the same mix are one choice wearing two hats —
+    // Explore and Auto both handing you "11 new · 9 review" is a decision with no consequence.
+    // Moods are compared on what the line underneath would say, since that is the whole of what
+    // the choice promises; which particular words get drawn is shuffled either way.
     const MOODS=[["explore","Explore","Lean into new words"],
                  ["auto","Auto","A steady mix, paced for you"],
                  ["review","Review","Only words you've already started"]];
     const cards={};MOODS.forEach(([id])=>{cards[id]=pickCards(Math.max(1,settings.sessionSize|0),id);});
-    const usable=MOODS.filter(([id])=>cards[id].length);
-    if(!cards[nextMood]||!cards[nextMood].length)nextMood=cards.auto.length?"auto":(usable.length?usable[0][0]:"auto");
+    const sig=a=>a.filter(started).length+"/"+a.length;
+    // Auto goes first so it survives a tie: it is the default, and the neutral thing to call a mix
+    // that no other mood would change.
+    const keep=[],seen=new Set();
+    ["auto","explore","review"].forEach(id=>{
+      if(!cards[id].length)return;
+      const k=sig(cards[id]);if(seen.has(k))return;
+      seen.add(k);keep.push(id);});
+    const usable=MOODS.filter(([id])=>keep.includes(id));
+    // A dropped mood is by definition identical to a kept one, so falling back changes the pills
+    // and nothing else about the session on offer.
+    if(!keep.includes(nextMood))nextMood=keep.includes("auto")?"auto":(keep[0]||"auto");
     const preview=cards[nextMood]||[];
     // Split by DOTS, the same way the progress bar and the header counts do: no dot is new,
     // whether or not the word has been met before. A word met once and never recalled has proved
