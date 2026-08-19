@@ -797,7 +797,7 @@ function filterName(){
   const some=(a,n,word)=>a.length<=n?a.join(" · "):a.length+" "+word;
   const parts=[];
   if(settings.topics.length)parts.push(some(settings.topics,2,"topics"));
-  if(settings.levels.length)parts.push(some(settings.levels,3,"levels"));
+  if(settings.levels.length)parts.push(some(settings.levels.slice().sort(),3,"levels"));
   return parts.length?parts.join(" · "):"all words";
 }
 function filterProgress(gained){
@@ -915,10 +915,13 @@ function paintSession(){
     // A full session is already waiting here, so more new topics is not the gap — only the review is.
     if(refAvail>=cap)rec.fresh=[];
     const pick=t=>{settings.topics=[t];clearSession();saveSet();render();};
+    // These sit under the Start button and are the alternative to pressing it, so they read as one:
+    // "…or review other topics". With nothing here to start, there is no "or" to continue from.
+    const alt=avail?"Or ":"";
     const recBlock=(rec.review.length||rec.fresh.length)?el("div",{class:"recs"},[
-      rec.review.length?el("div",{},[el("p",{class:"pcap"},["Ready to review elsewhere"]),
+      rec.review.length?el("div",{},[el("p",{class:"pcap"},[alt+"review other topics"]),
         topicChips(rec.review,pick,true)]):null,
-      rec.fresh.length?el("div",{},[el("p",{class:"pcap"},["Or start something new"]),
+      rec.fresh.length?el("div",{},[el("p",{class:"pcap"},[(rec.review.length?"or ":alt)+"start something new"]),
         topicChips(rec.fresh,pick,false)]):null
     ]):null;
     // One line describes the session, one bar shows the collection. No second explanation of the
@@ -943,8 +946,10 @@ function paintSession(){
       moods,
       el("p",{class:"lede"},[avail?readyMsg:emptyMsg]),
       avail?el("button",{class:"btn wide",style:{maxWidth:"260px",margin:"2px auto 0"},onclick:()=>{startSession();paintSession();}},["Start session"]):null,
-      recBlock,
-      fp.total?el("div",{style:{marginTop:"22px"}},[el("p",{class:"pcap"},[filterName()]),fp.bar,fp.legend]):null
+      // Everything about the words you are looking at, then the way out. The bar describes this
+      // selection, so it cannot sit below a block about other topics without reading as theirs.
+      fp.total?el("div",{style:{marginTop:"22px"}},[el("p",{class:"pcap"},[filterName()]),fp.bar,fp.legend]):null,
+      recBlock
     ]));
     return;
   }
