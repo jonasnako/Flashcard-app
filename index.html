@@ -81,12 +81,12 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .plegend span{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
 .plegend i{width:8px;height:8px;border-radius:2px;flex:0 0 auto}
 .pcap{font-size:11px;letter-spacing:.09em;text-transform:uppercase;opacity:.45;margin:0 0 7px}
-.pbar .s4,.plegend .s4{background:#C8912F}                      /* mastered — retired for good */
-.pbar .s3,.plegend .s3{background:var(--green)}
-.pbar .s2,.plegend .s2{background:#A7C178}
-.pbar .s1,.plegend .s1{background:#CBB05C}
-.pbar .sm,.plegend .sm{background:rgba(203,146,53,.32)}         /* met, not yet recalled */
-.pbar .s0,.plegend .s0{background:rgba(246,241,230,.16)}        /* not started */
+.pbar .s4,.plegend .s4,.seg .s4{background:#C8912F}                      /* mastered — retired for good */
+.pbar .s3,.plegend .s3,.seg .s3{background:var(--green)}
+.pbar .s2,.plegend .s2,.seg .s2{background:#A7C178}
+.pbar .s1,.plegend .s1,.seg .s1{background:#CBB05C}
+.pbar .sm,.plegend .sm,.seg .sm{background:rgba(203,146,53,.32)}         /* met, not yet recalled */
+.pbar .s0,.plegend .s0,.seg .s0{background:rgba(246,241,230,.16)}        /* not started */
 .pbar .new{background:#C7E39A;box-shadow:0 0 8px rgba(199,227,154,.7);animation:newpulse 1.2s ease-in-out 3}
 @keyframes newpulse{0%,100%{opacity:1}50%{opacity:.45}}
 .state .pbar{max-width:320px;margin:20px auto 0}
@@ -144,6 +144,8 @@ select.inp{appearance:none}
 .seg.segwrap{border-radius:16px;row-gap:4px;align-content:flex-start;justify-content:center}
 .seg button{font-family:inherit;font-size:12.5px;font-weight:500;color:rgba(246,241,230,.6);background:transparent;border:0;cursor:pointer;padding:6px 13px;border-radius:999px}
 .seg button.on{background:var(--paper);color:var(--ink)}
+/* band swatch inside a filter chip, matching the progress bar's colours */
+.seg button i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;vertical-align:middle}
 .solid{font-family:inherit;font-weight:600;font-size:14px;color:var(--ink);background:var(--paper);border:0;border-radius:11px;padding:11px 16px;cursor:pointer}
 .ghost{font-family:inherit;font-weight:500;font-size:13px;color:rgba(246,241,230,.78);background:rgba(246,241,230,.05);border:1px solid var(--line);border-radius:11px;padding:10px 14px;cursor:pointer}
 .ghost:disabled{opacity:.45}
@@ -329,6 +331,11 @@ const inFlight=c=>isSeen(c)&&!c.retired;     // still in rotation
 const started=c=>(c.correct||0)>0;
 const metOnly=c=>isSeen(c)&&!started(c);   // shown, but never yet recalled
 const step=c=>c.retired?4:dots(c);         // 0..4: three dots, then retirement as the fourth
+// The six bands the progress bar is built from, so the bar and the Words filter cannot drift apart:
+// 0 not started · 1 met · 2 one dot · 3 two dots · 4 learned · 5 mastered
+const band=c=>c.retired?5:(dots(c)>0?dots(c)+1:(isSeen(c)?1:0));
+const BANDS=[[5,"s4","Mastered"],[4,"s3","Learned"],[3,"s2","\u25CF\u25CF\u25CB"],
+             [2,"s1","\u25CF\u25CB\u25CB"],[1,"sm","Met"],[0,"s0","Not started"]];
 const inReview=c=>inFlight(c)&&started(c);
 const status=c=>c.retired?"retired":dots(c)>=3?"learned":"learning";
 // count words matching a predicate and how many are done — for topic/level completion milestones
@@ -720,7 +727,7 @@ function el(tag,props,kids){const e=document.createElement(tag);
 
 /* ============ render ============ */
 const app=document.getElementById("app"), tabs=document.getElementById("tabs");
-let search="", page=0; const PAGE=50; let addOpen=false, listLevel="all", listTopic="all", expandedId=null, editingId=null;
+let search="", page=0; const PAGE=50; let listLevel="all", listTopic="all", listStep="all", expandedId=null, editingId=null;
 let importMsg=null;   // result line under the Data section, cleared on the next import
 
 function paintCounts(){
@@ -805,7 +812,7 @@ function filterProgress(gained){
   // untouched · met · ●○○ · ●●○ · learned · mastered — the last band is what makes the final
   // step visible, and "met" is what makes early effort visible.
   const b=[0,0,0,0,0,0];
-  inF.forEach(c=>{b[c.retired?5:dots(c)>0?dots(c)+1:(isSeen(c)?1:0)]++;});
+  inF.forEach(c=>{b[band(c)]++;});
   const learned=b[4]+b[5],g=Math.max(0,Math.min(gained||0,b[4])),pc=n=>total?(n/total*100):0;
   const seg=(w,cls)=>w>0?el("i",{class:cls,style:{width:pc(w)+"%"}}):null;
   const bar=el("div",{class:"pbar"},[
@@ -1031,7 +1038,8 @@ function paintWords(){
   const s=el("input",{class:"inp search",placeholder:"Search…",value:search});
   s.addEventListener("input",()=>{search=s.value;page=0;paintList();});
   app.appendChild(s);
-  const seg=(opts,val,on)=>{const d=el("div",{class:"seg"});opts.forEach(o=>d.appendChild(el("button",{class:val===o[0]?"on":"",onclick:()=>on(o[0])},[o[1]])));return d;};
+  const seg=(opts,val,on)=>{const d=el("div",{class:"seg"});opts.forEach(o=>d.appendChild(
+    el("button",{class:val===o[0]?"on":"",onclick:()=>on(o[0])},Array.isArray(o[1])?o[1]:[o[1]])));return d;};
   const levels=["A1","A2","B1","B2","C1","C2"].filter(l=>lib.some(c=>c.level===l));
   const topics=sortedTopics();
   const wLvlOk=c=>listLevel==="all"||c.level===listLevel;
@@ -1042,36 +1050,20 @@ function paintWords(){
     return d;};
   app.appendChild(el("div",{class:"field"},[el("label",{},["Level"]),seg([["all","All"],...levels.map(l=>[l,l])],listLevel,v=>{listLevel=v;page=0;render();})]));
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topic"]),topicSegW(listTopic,v=>{listTopic=v;page=0;render();})]));
-  app.appendChild(el("div",{id:"add"}));paintAdd();
+  // Same six bands as the progress bar, same colours, so the thing you read there is the thing you
+  // can pick here. Only bands that actually contain words are offered.
+  const present=new Set(lib.filter(c=>wLvlOk(c)&&(listTopic==="all"||c.topic===listTopic)).map(band));
+  const stepOpts=[["all","All"],...BANDS.filter(([n])=>present.has(n))
+    .map(([n,cls,lab])=>[String(n),[el("i",{class:cls}),lab]])];
+  if(stepOpts.length>1)app.appendChild(el("div",{class:"field"},[el("label",{},["Progress"]),
+    seg(stepOpts,listStep,v=>{listStep=v;page=0;render();})]));
   app.appendChild(el("div",{id:"list"}));paintList();
-}
-function paintAdd(){
-  const w=document.getElementById("add");if(!w)return;w.innerHTML="";
-  w.appendChild(el("button",{class:"ghost",style:{marginBottom:"10px"},onclick:()=>{addOpen=!addOpen;paintAdd();}},[addOpen?"Close":"+ Add a word"]));
-  if(!addOpen)return;
-  const g={};const mk=(k,label,ph)=>{const i=el("input",{class:"inp",placeholder:ph||""});g[k]=i;return el("div",{class:"field"},[el("label",{},[label]),i]);};
-  const lvl=el("select",{class:"inp"},["A1","A2","B1","B2","C1","C2"].map(l=>el("option",{value:l},[l])));lvl.value="B1";
-  const topics=sortedTopics();if(!topics.includes("Other"))topics.push("Other");
-  const top=el("select",{class:"inp"},topics.map(x=>el("option",{value:x},[x])));
-  const err=el("div",{class:"err",style:{display:"none"}});
-  w.appendChild(el("div",{},[
-    el("div",{class:"two"},[mk("it","Italian","la casa"),mk("de","German","das Haus")]),
-    mk("its","Italian example (optional)"),mk("des","German example (optional)"),
-    el("div",{class:"two"},[el("div",{class:"field"},[el("label",{},["Level"]),lvl]),el("div",{class:"field"},[el("label",{},["Topic"]),top])]),
-    el("div",{class:"btnwrap"},[
-      el("button",{class:"solid",onclick:()=>{
-        if(!g.it.value.trim()||!g.de.value.trim()){err.textContent="Both words are required.";err.style.display="block";return;}
-        lib.unshift(norm({it:g.it.value.trim(),de:g.de.value.trim(),its:g.its.value.trim(),des:g.des.value.trim(),level:lvl.value,topic:top.value}));
-        saveWordsLocal();addOpen=false;render();
-      }},["Add"])
-    ]),err
-  ]));
 }
 function paintList(){
   const w=document.getElementById("list");if(!w)return;w.innerHTML="";
   const q=search.trim().toLowerCase();
   const artKey=s=>(s||"").toLowerCase().replace(/^(l'|un'|il |lo |la |i |gli |le |un |uno |una )/,"").trim();
-  const all=lib.filter(c=>(listLevel==="all"||c.level===listLevel)&&(listTopic==="all"||c.topic===listTopic)&&(!q||c.it.word.toLowerCase().includes(q)||c.de.word.toLowerCase().includes(q)||(c.it.sentence||"").toLowerCase().includes(q)||(c.de.sentence||"").toLowerCase().includes(q))).sort((a,b)=>artKey(a.it.word).localeCompare(artKey(b.it.word),"it"));
+  const all=lib.filter(c=>(listLevel==="all"||c.level===listLevel)&&(listTopic==="all"||c.topic===listTopic)&&(listStep==="all"||band(c)===+listStep)&&(!q||c.it.word.toLowerCase().includes(q)||c.de.word.toLowerCase().includes(q)||(c.it.sentence||"").toLowerCase().includes(q)||(c.de.sentence||"").toLowerCase().includes(q))).sort((a,b)=>artKey(a.it.word).localeCompare(artKey(b.it.word),"it"));
   const pages=Math.max(1,Math.ceil(all.length/PAGE));if(page>=pages)page=pages-1;
   const slice=all.slice(page*PAGE,page*PAGE+PAGE);
   w.appendChild(el("div",{class:"hint"},[all.length+" words"]));

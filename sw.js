@@ -1,7 +1,7 @@
 /* lessico service worker — network-first so the app auto-updates online,
    with a cached copy as an offline fallback. Scores live in localStorage and
    are never touched by this. */
-const CACHE = "lessico-shell-v18";
+const CACHE = "lessico-shell-v19";
 
 self.addEventListener("install", () => {
   // Take over as soon as the new worker is ready — no waiting for old tabs.
