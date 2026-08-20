@@ -349,7 +349,7 @@ const band=c=>c.retired?5:(dots(c)>0?dots(c)+1:(isSeen(c)?1:0));
 // Each band carries a name and a short note. The name is the one vocabulary used everywhere — the
 // bar's legend, the Words filter, the session screens — so the same rung is never called two
 // things; the note says what the rung means for a word you own.
-const BANDS=[[0,"Not started","not shown yet"],[1,"Met","met, never recalled"],
+const BANDS=[[0,"Not started","not shown yet"],[1,"Met","seen, but never recalled"],
   [2,"One dot","held for a few days"],[3,"Two dots","held for a few weeks"],
   [4,"Learned","held for months"],[5,"Mastered","retired for good"]];
 const BAND_CLS=["s0","sm","s1","s2","s3","s4"];   // band -> the colour it wears in the bar
