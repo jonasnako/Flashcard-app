@@ -338,7 +338,7 @@ const step=c=>c.retired?4:dots(c);         // 0..4: three dots, then retirement 
 // The six bands the progress bar is built from, so the bar and the Words filter cannot drift apart:
 // 0 not started · 1 met · 2 one dot · 3 two dots · 4 learned · 5 mastered
 const band=c=>c.retired?5:(dots(c)>0?dots(c)+1:(isSeen(c)?1:0));
-const BANDS=[[5,"Mastered"],[4,"Learned"],[3,"Two dots"],[2,"One dot"],[1,"Met"],[0,"Not started"]];
+const BANDS=[[0,"Not started"],[1,"Met"],[2,"One dot"],[3,"Two dots"],[4,"Learned"],[5,"Mastered"]];
 // One stand-in word per band, so the Progress chips are drawn by dotRow — the same function that
 // draws the cards and the word list. A chip cannot then show a ladder the cards do not.
 const BAND_CARD={0:{stab:0,correct:0,best:0},1:{stab:1,correct:0,best:0},
@@ -1060,11 +1060,10 @@ function paintWords(){
   // Same six bands as the progress bar, same colours, so the thing you read there is the thing you
   // can pick here. Only bands that actually contain words are offered.
   const present=new Set(lib.filter(c=>wLvlOk(c)&&(listTopic==="all"||c.topic===listTopic)).map(band));
-  const stepOpts=BANDS.filter(([n])=>present.has(n))
-    .map(([n,lab])=>[String(n),[el("span",{title:lab},[dotRow(BAND_CARD[n])])]]);
-  if(stepOpts.length>1)app.appendChild(el("div",{class:"field"},[el("label",{},["Progress"]),
-    seg(stepOpts,listStep,v=>{listStep=listStep===v?"all":v;page=0;render();}),
-    el("span",{class:"sub"},["Tap a step to see only those words, tap it again for all."])]));
+  const stepOpts=[["all","All"],...BANDS.filter(([n])=>present.has(n))
+    .map(([n,lab])=>[String(n),[el("span",{title:lab},[dotRow(BAND_CARD[n])])]])];
+  if(stepOpts.length>2)app.appendChild(el("div",{class:"field"},[el("label",{},["Progress"]),
+    seg(stepOpts,listStep,v=>{listStep=listStep===v?"all":v;page=0;render();})]));
   app.appendChild(el("div",{id:"list"}));paintList();
 }
 function paintList(){
