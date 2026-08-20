@@ -1162,7 +1162,9 @@ function paintSettings(){
   const topics=sortedTopics();
   app.appendChild(el("div",{class:"field"},[el("label",{},["Topics"]),topicSeg(topics,settings.topics,v=>{settings.topics=v;clearSession();saveSet();render();}),el("span",{class:"sub"},["Pick any combination, or “All”. Each topic's colour shows its progress at the selected level(s) — amber needs work, green is learned."])]));
   {const fp=filterProgress(0);
-   app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in "+filterName()]),fp.bar,fp.legend,
+   // Here the label need not spell the selection out: the pickers that made it are right above.
+   // On the session screen they are not, which is why the bar is captioned by name there.
+   app.appendChild(el("div",{class:"field"},[el("label",{},["Progress in this selection"]),fp.bar,fp.legend,
      el("span",{class:"sub"},["A word climbs one step each time you recall it after a longer gap: 1 day, then 5, then 25 — three dots, learned. Recall it once more after 125 days and it is mastered: it retires and never comes back. A word you have met but not yet earned a dot for shows a faint first dot. A miss steps a word back, and the dot it lost stays outlined on the card."])]));}
 
   app.appendChild(el("div",{class:"sec"},["How"]));
