@@ -79,6 +79,14 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .plegend{display:flex;flex-wrap:wrap;gap:3px 13px;margin-top:9px;font-size:11.5px;opacity:.7}
 .plegend span{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
 .plegend i{width:8px;height:8px;border-radius:2px;flex:0 0 auto}
+/* The legend says each band in dots, the same ladder the cards and the Words filter draw, so the
+   bar needs no vocabulary of its own. The square keeps it tied to the stripe it names. */
+.plegend .dots{gap:3px;flex-wrap:nowrap}
+.plegend .dots span{width:6px;height:6px;background:rgba(246,241,230,.2)}
+.plegend .dots span.f{background:rgba(246,241,230,.82)}
+.plegend .dots span.h{background:rgba(246,241,230,.44)}
+.plegend .dots span.g{background:transparent;box-shadow:inset 0 0 0 1.5px rgba(246,241,230,.34)}
+.plegend .dots.ret span,.plegend .dots.ret span.f{background:#C8912F}   /* mastered stays gold */
 .pcap{font-size:11px;letter-spacing:.09em;text-transform:uppercase;opacity:.45;margin:0 0 7px}
 .pbar .s4,.plegend .s4{background:#C8912F}                      /* mastered — retired for good */
 .pbar .s3,.plegend .s3{background:var(--green)}
@@ -338,7 +346,13 @@ const step=c=>c.retired?4:dots(c);         // 0..4: three dots, then retirement 
 // The six bands the progress bar is built from, so the bar and the Words filter cannot drift apart:
 // 0 not started · 1 met · 2 one dot · 3 two dots · 4 learned · 5 mastered
 const band=c=>c.retired?5:(dots(c)>0?dots(c)+1:(isSeen(c)?1:0));
-const BANDS=[[0,"Not started"],[1,"Met"],[2,"One dot"],[3,"Two dots"],[4,"Learned"],[5,"Mastered"]];
+// Each band carries a name and a short note. The name is the one vocabulary used everywhere — the
+// bar's legend, the Words filter, the session screens — so the same rung is never called two
+// things; the note says what the rung means for a word you own.
+const BANDS=[[0,"Not started","not shown yet"],[1,"Met","met, never recalled"],
+  [2,"One dot","held for a few days"],[3,"Two dots","held for a few weeks"],
+  [4,"Learned","held for months"],[5,"Mastered","retired for good"]];
+const BAND_CLS=["s0","sm","s1","s2","s3","s4"];   // band -> the colour it wears in the bar
 // One stand-in word per band, so the Progress chips are drawn by dotRow — the same function that
 // draws the cards and the word list. A chip cannot then show a ladder the cards do not.
 const BAND_CARD={0:{stab:0,correct:0,best:0},1:{stab:1,correct:0,best:0},
@@ -817,7 +831,7 @@ function filterName(){
 }
 function filterProgress(gained){
   const inF=lib.filter(inFilter),total=inF.length;
-  // untouched · met · ●○○ · ●●○ · learned · mastered — the last band is what makes the final
+  // not started · met · one dot · two dots · learned · mastered — the last band is what makes the final
   // step visible, and "met" is what makes early effort visible.
   const b=[0,0,0,0,0,0];
   inF.forEach(c=>{b[band(c)]++;});
@@ -830,11 +844,12 @@ function filterProgress(gained){
     seg(b[3],"s2"),seg(b[2],"s1"),seg(b[1],"sm"),seg(b[0],"s0")
   ]);
   // A legend rather than a sentence: six bands need naming, and the counts belong next to the
-  // colour they refer to. Empty bands are dropped so the row stays short early on.
-  const names=[["s4",b[5],"mastered"],["s3",b[4],"learned"],["s2",b[3],"●●○"],
-               ["s1",b[2],"●○○"],["sm",b[1],"met"],["s0",b[0],"not started"]];
-  const legend=el("div",{class:"plegend"},names.filter(n=>n[1]>0)
-    .map(([cls,n,lab])=>el("span",{},[el("i",{class:cls}),lab+" "+n])));
+  // colour they refer to. Empty bands are dropped so the row stays short early on. Each band is
+  // named in dots — the same ladder as the cards, the word list and the Progress filter — so the
+  // bar never mixes glyphs with words, and BAND_CARD guarantees it is the very same drawing.
+  const legend=el("div",{class:"plegend"},BANDS.slice().reverse().filter(([n])=>b[n]>0)
+    .map(([n,lab,note])=>el("span",{title:lab+" — "+note},
+      [el("i",{class:BAND_CLS[n]}),dotRow(BAND_CARD[n]),String(b[n])])));
   return {bar,legend,total,learned,g,mastered:b[5]};
 }
 
@@ -1061,9 +1076,15 @@ function paintWords(){
   // can pick here. Only bands that actually contain words are offered.
   const present=new Set(lib.filter(c=>wLvlOk(c)&&(listTopic==="all"||c.topic===listTopic)).map(band));
   const stepOpts=[["all","All"],...BANDS.filter(([n])=>present.has(n))
-    .map(([n,lab])=>[String(n),[el("span",{title:lab},[dotRow(BAND_CARD[n])])]])];
+    .map(([n,lab,note])=>[String(n),[el("span",{title:lab+" — "+note},[dotRow(BAND_CARD[n])])]])];
+  // The row itself is wordless, so a line underneath names the rung you are standing on — the dots
+  // alone don't say what "held for a few weeks" is. It reads the same on every band, All included,
+  // so picking one never shifts the list up or down.
+  const bandSub=()=>{const s=BANDS.find(([n])=>String(n)===listStep);
+    return s?s[1]+" — "+s[2]:"Every step, from not started to mastered";};
   if(stepOpts.length>2)app.appendChild(el("div",{class:"field"},[el("label",{},["Progress"]),
-    seg(stepOpts,listStep,v=>{listStep=listStep===v?"all":v;page=0;render();})]));
+    seg(stepOpts,listStep,v=>{listStep=listStep===v?"all":v;page=0;render();}),
+    el("span",{class:"sub"},[bandSub()])]));
   app.appendChild(el("div",{id:"list"}));paintList();
 }
 function paintList(){
