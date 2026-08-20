@@ -50,26 +50,26 @@ Each entry looks like:
 
 ## Studying
 
-- **Settings → Study → Levels / Topics** limit which words a session draws from. Both are multi-select: tap any combination of levels and topics (e.g. B1 + B2, or Household + Children), or **All** to clear a selection. An empty selection means everything. Topics are listed **alphabetically**, and each topic name is **coloured by its progress** — amber (needs work) → green (learned), computed for the levels you've selected — so you can see at a glance which topics to focus on. (The **Words** tab's Topic filter is coloured the same way, for the level filter shown there.)
-- **Direction (front side)** defaults to **DE → IT** (German prompt). Change it in Settings → Study — *Mixed*, *IT → DE*, or *DE → IT*.
-- **Settings → Focus** is a single lifecycle dial controlling which words a session draws from, running from introducing to maintaining:
-  - **Explore** — mostly new words, blended with some in-progress review.
-  - **Balanced** — adapts, shifting toward more review as your in-progress backlog grows.
-  - **Consolidate** — in-progress words only (1–2 dots), no new words.
-  - **Refresh** — spaced reviews of words you've already **learned** (within your Level/Topic filter). The gap grows each time you're right, until a word retires and stops coming back. Miss one and its score resets to zero, so it drops back into the learning pool.
+- **Settings → What → Levels / Topics** limit which words a session draws from. Both are multi-select: tap any combination of levels and topics (e.g. B1 + B2, or Household + Children), or **All** to clear a selection. An empty selection means everything. Topics are listed **alphabetically**, and each topic name is **coloured by its progress** — amber (needs work) → green (learned), computed for the levels you've selected — so you can see at a glance which topics to focus on. (The **Words** tab's Topic filter is coloured the same way, for the level filter shown there.)
+- **Settings → How → Direction (front side)** defaults to **DE → IT** (German prompt); *Mixed* and *IT → DE* are the alternatives. **Words per session (max)** is next to it.
+- **Moods** are chosen on the session start screen and last for one session, then revert to **Auto**:
+  - **Explore** — leans into new words, still leaving room for review.
+  - **Auto** — a steady mix, paced for you.
+  - **Review** — only words you have already started.
 
-  A word becomes **learned** after you get it right **3 times in a row** — the three dots on the card fill up as you go. Learned words leave the Explore/Balanced/Consolidate sessions and are reviewed via Refresh. The two states are *learning* and *learned*, and Refresh is what maintains learned words over time.
-- **How many words am I studying?** A **progress bar** shows your standing under the current study filter, coloured by ripeness: green = learned, then lighter shades for words at 2 dots and 1 dot, and amber for new/unstarted words. Its label breaks that down (*"40 learned · 30 ●●○ · 20 ●○○ · 10 new · 100 total"*). It appears in **Settings → Study** (updating as you change Levels/Topics), on the Session **start** screen ("Ready when you are"), and on the **completion** screen, where the words you just learned this session glow as their own brighter segment. The header (top-right) shows your **learned** total and how many are **in progress** (words at 1–2 of 3 dots) — it leads with what you've learned rather than a big "everything left" number, and updates live as you answer. The deck's total size is on the Words tab.
-- The **Words** tab is filterable by **Level**, **Topic** and **Progress**, on top of the search box. The Progress row offers the same six bands as the progress bar, in the same colours — mastered, learned, ●●○, ●○○, met, not started — and only lists bands that actually contain words under the other filters. **Tap any word** to expand its example sentences, level, and topic, then **✏️ Edit** to change any field, including moving it to a different topic (typing an existing topic name, in any case, folds it into that topic). Edits stay in this browser.
+  Only moods that would actually hand you a *different* session are offered, so a fresh topic shows no picker at all — there is one possible session — and two moods never appear side by side offering the same mix.
+- **How a word progresses.** Each word carries a **stability** in days. Recall it after a gap at least that long and the gap grows fivefold: 1 day → 5 → 25 (three dots, **learned**) → 125 → it **retires** and stops coming back (**mastered**). A miss cuts stability to a third rather than resetting it, and the dot it lost stays outlined on the card. Answering early earns less, because growth is capped by the gap you actually survived. A word you have met but not yet earned a dot for shows a faint first dot.
+- **How much have I done?** A **progress bar** shows six bands — mastered, learned, ●●○, ●○○, met, not started — captioned with the selection it covers (*"Food · B1"*, or *"all words"*). It appears in **Settings → What** and on the session start screen. The header (top-right) leads with your **learned** total (retired words included, so it never drops) and how many are **in progress**. The deck's total size is on the Words tab.
+- The **Words** tab is filterable by **Level**, **Topic** and **Progress**, on top of the search box. The Progress row is the dot ladder itself — three empty dots through to three gold ones — drawn by the same code as the cards, with no labels; hover or long-press for the name. Only bands that contain words under the other filters are shown. Tap a step to narrow to it, tap it again for all. **Tap any word** to expand its example sentences, level, and topic, then **✏️ Edit** to change any field, including moving it to a different topic (typing an existing topic name, in any case, folds it into that topic). Edits stay in this browser.
 
 ## Hands-free (audio) mode
 
-On the **Session** tab, **▶ Hands-free** reads each card aloud and runs the whole session without touching the screen — useful while cooking, walking, or driving. Tap the **🔊** on a card any time to hear just that side's word and example sentence. Two rating styles (pick one with the segmented control on the Session tab, or under **Settings → Voice**):
+On the **Session** tab, **▶ Hands-free** reads each card aloud and runs the whole session without touching the screen — useful while cooking, walking, or driving. Tap the **🔊** on a card any time to hear just that side's word and example sentence. Two rating styles (pick one with the segmented control on the Session tab, or under **Settings → Audio**):
 
 - **Self-assess** — the app reads the prompt (word and example sentence), then waits for you to say **“reveal”** before it reads the answer. You say **“yes”** or **“no”** and it scores the card and moves on.
 - **Auto-rate** — the app reads the prompt and listens for you to *say the translation out loud*. It compares what you said to the correct answer (article-insensitive, with a little tolerance for mishearing), tells you **“Correct.”** or **“Not quite.”**, then reads the answer and scores it automatically.
 
-Both modes read the example sentences by default; turn that off with **Settings → Voice → Read example sentences (hands-free)** if you want just the words. The mic only opens *after* the app finishes speaking (so it never mishears its own voice), and it waits a generous window for your answer before deciding none came.
+Both modes read the example sentences by default; turn that off with **Settings → Audio → Read example sentences (hands-free)** if you want just the words. The mic only opens *after* the app finishes speaking (so it never mishears its own voice), and it waits a generous window for your answer before deciding none came.
 
 Voice input uses the browser's Web Speech API, so hands-free scoring works best in a **Chromium-based browser (Chrome/Edge)** and needs microphone permission (granted automatically over https, e.g. GitHub Pages). In browsers without speech recognition, ▶ Hands-free still reads each card aloud and you tap ✓/✕ to rate.
 
@@ -128,6 +128,6 @@ That needs months of data, which is why collection starts before there is anythi
 
 ## Notes
 
-- A session you leave partway **resumes where you left off** when you come back — the remaining cards and order are saved on the device. Finishing a session, changing the Level/Topic/Focus filters, or tapping **↻ New session** on the Session tab starts a fresh one.
-- Scores and settings are stored in the browser (`localStorage`) on the device you study on — they don't sync across devices. Use Export/Import to move them, or see **Syncing words into the site** to share the word list across devices.
-- **Settings → Reset progress** zeroes out scores but keeps your words.
+- A session you leave partway **resumes where you left off** when you come back — the remaining cards and order are saved on the device. Finishing a session, changing the Level/Topic filters, or tapping **↻ New session** on the Session tab starts a fresh one.
+- Scores and settings are stored in the browser (`localStorage`) on the device you study on — they don't sync across devices. Use **Settings → Export / Import** to move them. The word list itself is shared: it comes from `words.json` in the repo, so every device gets the same one.
+- **Settings → Reset** zeroes out scores and clears both logs, but keeps your words.

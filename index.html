@@ -68,7 +68,6 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .dots span.g{background:transparent;box-shadow:inset 0 0 0 1.5px rgba(42,40,35,.34)}  /* a dot you had */
 .dots span.h{background:rgba(42,40,35,.42)}                                            /* met, not yet recalled */
 .dots.ret span{background:#C8912F;box-shadow:0 0 0 1px rgba(200,145,47,.35)}
-.dots .star{width:auto;height:auto;background:none;font-size:11px;line-height:1;color:#C8912F;margin-left:2px}
 .say{position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:999px;border:1px solid rgba(42,40,35,.16);background:rgba(42,40,35,.04);color:var(--ink);font-size:16px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;opacity:.55;z-index:2}
 .say:hover{opacity:.9}
 .say:active{transform:translateY(1px)}
@@ -81,12 +80,12 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .plegend span{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
 .plegend i{width:8px;height:8px;border-radius:2px;flex:0 0 auto}
 .pcap{font-size:11px;letter-spacing:.09em;text-transform:uppercase;opacity:.45;margin:0 0 7px}
-.pbar .s4,.plegend .s4,.seg .s4{background:#C8912F}                      /* mastered — retired for good */
-.pbar .s3,.plegend .s3,.seg .s3{background:var(--green)}
-.pbar .s2,.plegend .s2,.seg .s2{background:#A7C178}
-.pbar .s1,.plegend .s1,.seg .s1{background:#CBB05C}
-.pbar .sm,.plegend .sm,.seg .sm{background:rgba(203,146,53,.32)}         /* met, not yet recalled */
-.pbar .s0,.plegend .s0,.seg .s0{background:rgba(246,241,230,.16)}        /* not started */
+.pbar .s4,.plegend .s4{background:#C8912F}                      /* mastered — retired for good */
+.pbar .s3,.plegend .s3{background:var(--green)}
+.pbar .s2,.plegend .s2{background:#A7C178}
+.pbar .s1,.plegend .s1{background:#CBB05C}
+.pbar .sm,.plegend .sm{background:rgba(203,146,53,.32)}         /* met, not yet recalled */
+.pbar .s0,.plegend .s0{background:rgba(246,241,230,.16)}        /* not started */
 .pbar .new{background:#C7E39A;box-shadow:0 0 8px rgba(199,227,154,.7);animation:newpulse 1.2s ease-in-out 3}
 @keyframes newpulse{0%,100%{opacity:1}50%{opacity:.45}}
 .state .pbar{max-width:320px;margin:20px auto 0}
@@ -144,8 +143,6 @@ select.inp{appearance:none}
 .seg.segwrap{border-radius:16px;row-gap:4px;align-content:flex-start;justify-content:center}
 .seg button{font-family:inherit;font-size:12.5px;font-weight:500;color:rgba(246,241,230,.6);background:transparent;border:0;cursor:pointer;padding:6px 13px;border-radius:999px}
 .seg button.on{background:var(--paper);color:var(--ink)}
-/* band swatch inside a filter chip, matching the progress bar's colours */
-.seg button i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;vertical-align:middle}
 .solid{font-family:inherit;font-weight:600;font-size:14px;color:var(--ink);background:var(--paper);border:0;border-radius:11px;padding:11px 16px;cursor:pointer}
 .ghost{font-family:inherit;font-weight:500;font-size:13px;color:rgba(246,241,230,.78);background:rgba(246,241,230,.05);border:1px solid var(--line);border-radius:11px;padding:10px 14px;cursor:pointer}
 .ghost:disabled{opacity:.45}
@@ -165,6 +162,13 @@ select.inp{appearance:none}
 .row .dots span.g{background:transparent;box-shadow:inset 0 0 0 1.5px rgba(246,241,230,.34)}
 .row .dots span.h{background:rgba(246,241,230,.42)}
 .row .dots.ret span{background:#E0B36B;box-shadow:none}
+/* A chip carries the same dots as a card. Unselected it sits on the dark ground and needs the pale
+   palette; selected it turns paper, where the base .dots rules are already correct. */
+.seg .dots{flex-wrap:nowrap;vertical-align:middle}
+.seg button:not(.on) .dots span{background:rgba(246,241,230,.18)}
+.seg button:not(.on) .dots span.f{background:rgba(246,241,230,.8)}
+.seg button:not(.on) .dots span.h{background:rgba(246,241,230,.42)}
+.seg button:not(.on) .dots.ret span{background:#E0B36B}
 .row .del{background:none;border:0;color:rgba(246,241,230,.35);cursor:pointer;padding:4px;font-size:15px;line-height:1}
 .pager{display:flex;align-items:center;justify-content:space-between;margin-top:14px;font-size:13px;color:rgba(246,241,230,.6)}
 .rowdet{padding:6px 2px 16px;border-bottom:1px solid var(--line)}
@@ -329,15 +333,20 @@ const inFlight=c=>isSeen(c)&&!c.retired;     // still in rotation
 // as new material rather than review: it never appears in a Review session and competes for the
 // new-word slots instead. Growth only happens on a correct answer, so !started implies no dots.
 const started=c=>(c.correct||0)>0;
-const metOnly=c=>isSeen(c)&&!started(c);   // shown, but never yet recalled
+const metOnly=c=>isSeen(c)&&!started(c);   // met, and never once recalled
 const step=c=>c.retired?4:dots(c);         // 0..4: three dots, then retirement as the fourth
 // The six bands the progress bar is built from, so the bar and the Words filter cannot drift apart:
 // 0 not started · 1 met · 2 one dot · 3 two dots · 4 learned · 5 mastered
 const band=c=>c.retired?5:(dots(c)>0?dots(c)+1:(isSeen(c)?1:0));
-const BANDS=[[5,"s4","Mastered"],[4,"s3","Learned"],[3,"s2","\u25CF\u25CF\u25CB"],
-             [2,"s1","\u25CF\u25CB\u25CB"],[1,"sm","Met"],[0,"s0","Not started"]];
+const BANDS=[[5,"Mastered"],[4,"Learned"],[3,"Two dots"],[2,"One dot"],[1,"Met"],[0,"Not started"]];
+// One stand-in word per band, so the Progress chips are drawn by dotRow — the same function that
+// draws the cards and the word list. A chip cannot then show a ladder the cards do not.
+const BAND_CARD={0:{stab:0,correct:0,best:0},1:{stab:1,correct:0,best:0},
+  2:{stab:5,correct:1,best:1},3:{stab:25,correct:2,best:2},4:{stab:125,correct:3,best:3},
+  5:{stab:625,correct:4,best:3,retired:true}};
 const inReview=c=>inFlight(c)&&started(c);
 const status=c=>c.retired?"retired":dots(c)>=3?"learned":"learning";
+const inSession=c=>inFilter(c)&&(isDue(c)||!isSeen(c));
 // count words matching a predicate and how many are done — for topic/level completion milestones
 const tally=pred=>{let size=0,learned=0;for(const c of lib){if(pred(c)){size++;if(c.retired||dots(c)>=3)learned++;}}return{size,learned,done:size>0&&size===learned};};
 const inFilter=c=>(!settings.levels.length||settings.levels.includes(c.level))&&(!settings.topics.length||settings.topics.includes(c.topic));
@@ -353,7 +362,6 @@ const gapTarget=c=>{const s=c.stab||0;return s<=0?0:s<=S_START?firstGap():s*(c.j
 const dueAt=c=>(c.seenAt||0)+gapTarget(c)*DAY;
 const overdue=c=>(Date.now()-(c.seenAt||0))/Math.max(1e-9,gapTarget(c)*DAY); // >=1 means due
 const isDue=c=>inFlight(c)&&Date.now()>=dueAt(c);
-const inSession=c=>inFilter(c)&&(isDue(c)||!isSeen(c));
 
 /* ---- activity log: the only way to know how much time someone actually spends ---- */
 const LOG_KEY="lessico_log_v1";
@@ -991,7 +999,6 @@ function dotRow(c){
   // so stability lands under the first threshold — the word had a dot's worth of work put into it
   // and rendered as blank as one never touched. The progress bar already counted it as met.
   const kids=Array.from({length:n},(_,i)=>el("span",{class:i<d?"f":(i<b?"g":(i===0&&isSeen(c)?"h":""))}));
-  if(c.retired)kids.push(el("span",{class:"star"},["\u2726"]));
   return el("span",{class:"dots"+(c.retired?" ret":"")},kids);
 }
 function face(c,lang,back){
@@ -1053,10 +1060,11 @@ function paintWords(){
   // Same six bands as the progress bar, same colours, so the thing you read there is the thing you
   // can pick here. Only bands that actually contain words are offered.
   const present=new Set(lib.filter(c=>wLvlOk(c)&&(listTopic==="all"||c.topic===listTopic)).map(band));
-  const stepOpts=[["all","All"],...BANDS.filter(([n])=>present.has(n))
-    .map(([n,cls,lab])=>[String(n),[el("i",{class:cls}),lab]])];
+  const stepOpts=BANDS.filter(([n])=>present.has(n))
+    .map(([n,lab])=>[String(n),[el("span",{title:lab},[dotRow(BAND_CARD[n])])]]);
   if(stepOpts.length>1)app.appendChild(el("div",{class:"field"},[el("label",{},["Progress"]),
-    seg(stepOpts,listStep,v=>{listStep=v;page=0;render();})]));
+    seg(stepOpts,listStep,v=>{listStep=listStep===v?"all":v;page=0;render();}),
+    el("span",{class:"sub"},["Tap a step to see only those words, tap it again for all."])]));
   app.appendChild(el("div",{id:"list"}));paintList();
 }
 function paintList(){
@@ -1067,7 +1075,7 @@ function paintList(){
   const pages=Math.max(1,Math.ceil(all.length/PAGE));if(page>=pages)page=pages-1;
   const slice=all.slice(page*PAGE,page*PAGE+PAGE);
   w.appendChild(el("div",{class:"hint"},[all.length+" words"]));
-  slice.forEach(c=>{const s=status(c);const open=expandedId===c.id;
+  slice.forEach(c=>{const open=expandedId===c.id;
     w.appendChild(el("div",{class:"row"},[
       el("div",{class:"pair",style:{cursor:"pointer"},onclick:()=>{expandedId=open?null:c.id;editingId=null;paintList();}},[el("div",{class:"a"},[c.it.word]),el("div",{class:"b"},[c.de.word])]),
       el("span",{class:"lvl"},[c.level]),
