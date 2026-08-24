@@ -371,7 +371,10 @@ const front=()=>settings.direction==="it"||settings.direction==="de"?settings.di
 const sideOf=q=>settings.direction==="it"||settings.direction==="de"?settings.direction:((q&&q.f)||front());
 // The very first interval is cadence-relative — "come back in about two sessions" — so someone
 // doing five sessions a day gets review inside day one instead of a wall of new words.
-const firstGap=()=>Math.max(1/24,Math.min(1,2/Math.max(.5,sessPerDay())));
+const firstGap=()=>Math.max(S_START/S_GROW,Math.min(1,2/Math.max(.5,sessPerDay())));
+// Growth is S_GROW times the gap actually survived, so a word earns nothing until the gap passes
+// stability/S_GROW. Anything the session offers has to clear this, or it is asked for no reason.
+const earns=c=>(Date.now()-(c.seenAt||0))/DAY*S_GROW>(c.stab||S_START);
 const gapTarget=c=>{const s=c.stab||0;return s<=0?0:s<=S_START?firstGap():s*(c.jit||1);};
 const dueAt=c=>(c.seenAt||0)+gapTarget(c)*DAY;
 const overdue=c=>(Date.now()-(c.seenAt||0))/Math.max(1e-9,gapTarget(c)*DAY); // >=1 means due
@@ -555,12 +558,13 @@ function pickCards(size,mood){
   // new-word pacing intact. Only if those run out do we reach past the pace for more new words.
   const room=()=>size-revs.length-news.length;
   if(room()>0){
-    // Only pull a word forward if the answer will actually earn something. Growth is 5x the gap,
-    // so below a fifth of its slot a correct answer moves nothing at all — asking it is pure
-    // padding. Half its slot still roughly doubles stability, so that is the floor; anything
-    // shorter is left alone and new words fill the space instead.
+    // Only pull a word forward if the answer will actually earn something. Half its slot roughly
+    // doubles stability, so that is the floor; anything shorter is left alone and new words fill
+    // the space instead. Half a slot is not enough on its own, though: a word knocked back to the
+    // first interval is scheduled in hours, and half of six hours still earns nothing at all, so
+    // the absolute gain test has to be made as well.
     const have=new Set([...revs,...news].map(c=>c.id));
-    revs=revs.concat(inF.filter(c=>inReview(c)&&!have.has(c.id)&&overdue(c)>=MIN_EARLY)
+    revs=revs.concat(inF.filter(c=>inReview(c)&&!have.has(c.id)&&overdue(c)>=MIN_EARLY&&earns(c))
       .sort((a,b)=>overdue(b)-overdue(a)).slice(0,room()));
   }
   if(room()>0&&m!=="review"){
@@ -965,7 +969,9 @@ function paintSession(){
           session.mastered?el("li",{},[el("span",{},["Mastered — retired for good"]),el("b",{},[String(session.mastered)])]):null,
           session.knew?el("li",{},[el("span",{},["Knew already, first time"]),el("b",{},[String(session.knew)])]):null,
           session.met?el("li",{},[el("span",{},["Met for the first time"]),el("b",{},[String(session.met)])]):null,
-          session.held?el("li",{class:"dim"},[el("span",{},["Practised, too soon to count"]),el("b",{},[String(session.held)])]):null,
+          // No "too soon to count" line: a word is only ever asked at its slot or at least halfway
+          // to it, and both earn growth, so the count is unreachable. It is still tallied and
+          // logged — if the scheduler ever does hand out a wasted card the log will show it.
           session.miss?el("li",{class:"dim"},[el("span",{},["Missed"+(session.slipped?" · "+session.slipped+" lost a dot":"")]),
             el("b",{},[String(session.miss)])]):null,
           el("li",{class:"dim tot"},[el("span",{},["Words worked through"]),el("b",{},[String(session.total)])])
