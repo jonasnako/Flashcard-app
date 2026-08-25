@@ -34387,14 +34387,14 @@
   {
     "id": "d80f6846-bc17-4bfe-9d7e-58fabdf7ada4",
     "level": "B1",
-    "topic": "Nature",
+    "topic": "Media",
     "it": {
       "word": "il satellite",
-      "sentence": "Il satellite invia immagini della superficie terrestre."
+      "sentence": "Con il satellite prendiamo anche i canali italiani."
     },
     "de": {
       "word": "der Satellit",
-      "sentence": "Der Satellit sendet Bilder von der ganzen Erdoberfläche."
+      "sentence": "Über den Satelliten empfangen wir auch die italienischen Sender."
     }
   },
   {
@@ -34413,27 +34413,27 @@
   {
     "id": "7088e438-c3ca-44cc-8f95-baa04a0cfecb",
     "level": "B1",
-    "topic": "Nature",
+    "topic": "Travel",
     "it": {
       "word": "il razzo",
-      "sentence": "Il razzo è partito verso la stazione spaziale."
+      "sentence": "Da bambino sognavo di partire con un razzo."
     },
     "de": {
       "word": "die Rakete",
-      "sentence": "Die Rakete ist zur Raumstation gestartet."
+      "sentence": "Als Kind träumte ich davon, mit einer Rakete zu fliegen."
     }
   },
   {
     "id": "03558ea6-a9ee-4487-a3df-4c82dcc40300",
     "level": "B1",
-    "topic": "Nature",
+    "topic": "Work",
     "it": {
       "word": "l'astronauta",
-      "sentence": "L'astronauta cammina lentamente sulla superficie della Luna."
+      "sentence": "Mio figlio dice che da grande farà l'astronauta."
     },
     "de": {
       "word": "der Astronaut",
-      "sentence": "Der Astronaut geht langsam auf dem Mond."
+      "sentence": "Mein Sohn sagt, dass er später Astronaut wird."
     }
   },
   {
@@ -46849,6 +46849,662 @@
     "de": {
       "word": "durchhängen",
       "sentence": "Wegen der Prüfung am Montag hänge ich etwas durch."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "80465ce5-4e9e-417b-ad12-e258260f7e4f",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "fiorire",
+      "sentence": "I ciliegi fioriscono già alla fine di marzo."
+    },
+    "de": {
+      "word": "blühen",
+      "sentence": "Die Kirschbäume blühen schon Ende März."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "bb55c504-831a-41ae-9970-7ea80d4aafc6",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "sbocciare",
+      "sentence": "Aspetto che sboccino le prime rose del giardino."
+    },
+    "de": {
+      "word": "aufblühen",
+      "sentence": "Ich warte darauf, dass die ersten Rosen im Garten aufblühen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "49f66318-fbe4-432c-aefc-d4cd2de2a377",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "appassire",
+      "sentence": "I fiori appassiscono in fretta senza ricevere acqua."
+    },
+    "de": {
+      "word": "verwelken",
+      "sentence": "Die Blumen verwelken schnell, wenn sie kein Wasser bekommen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f8e5a912-53e0-4f42-b97b-ba1d49efc2f0",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "germogliare",
+      "sentence": "I semi germoglieranno solo quando il terreno si sarà scaldato."
+    },
+    "de": {
+      "word": "keimen",
+      "sentence": "Die Samen keimen erst, wenn sich der Boden erwärmt hat."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "a0ae6907-acff-46f0-ba2a-913840d6c1bb",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "spuntare",
+      "sentence": "Sono già spuntati i primi fiori in giardino?"
+    },
+    "de": {
+      "word": "spriessen",
+      "sentence": "Sind im Garten schon die ersten Blumen gesprossen?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "3b2b8c62-21c2-4666-94a8-8f45b128a7cc",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "potare",
+      "sentence": "Dovresti potare il melo prima che arrivi il gelo."
+    },
+    "de": {
+      "word": "beschneiden",
+      "sentence": "Du solltest den Apfelbaum beschneiden, bevor der Frost kommt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cafaa61d-77d7-42eb-80ad-e1f7a443d3b9",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "seminare",
+      "sentence": "Seminiamo le carote adesso, così crescono in primavera."
+    },
+    "de": {
+      "word": "säen",
+      "sentence": "Säen wir die Karotten jetzt, dann wachsen sie im Frühling."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "cdb4f71f-2655-447d-adc8-1d1044f23f02",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "irrigare",
+      "sentence": "Dopo aver irrigato i campi, il contadino chiude tutte le valvole."
+    },
+    "de": {
+      "word": "bewässern",
+      "sentence": "Nachdem der Bauer die Felder bewässert hat, schliesst er alle Ventile."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "2712a31a-a581-4ad5-918f-eca0e7d8d972",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "scorrere",
+      "sentence": "Il ruscello scorreva più forte dopo la pioggia."
+    },
+    "de": {
+      "word": "fliessen",
+      "sentence": "Der Bach floss nach dem Regen viel stärker."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "26b6e4f8-9662-4838-833c-876dc725d243",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "sgorgare",
+      "sentence": "La sorgente da cui sgorga l'acqua sta sopra il rifugio."
+    },
+    "de": {
+      "word": "entspringen",
+      "sentence": "Die Quelle, aus der das Wasser entspringt, liegt oberhalb der Hütte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4f2fd4f4-16b0-4ed4-bcfb-371824ef3974",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "sfociare",
+      "sentence": "Sai in quale lago sfocia questo fiume?"
+    },
+    "de": {
+      "word": "münden",
+      "sentence": "Weisst du, in welchen See dieser Fluss mündet?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ea5abbdc-ae76-4855-9d16-36d68eb7d33e",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "straripare",
+      "sentence": "Se continua a piovere così, il fiume strariperà stanotte."
+    },
+    "de": {
+      "word": "über die Ufer treten",
+      "sentence": "Wenn es so weiterregnet, tritt der Fluss heute Nacht über die Ufer."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e16e34e1-8b96-41d0-aaf6-324d7b46d179",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "tramontare",
+      "sentence": "A che ora tramonta il sole da voi?"
+    },
+    "de": {
+      "word": "untergehen",
+      "sentence": "Wann geht bei euch die Sonne unter?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "684aafe4-f88b-49f2-a91d-3f867bfbb885",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "sorgere",
+      "sentence": "Domani il sole sorgerà alle sei e mezza."
+    },
+    "de": {
+      "word": "aufgehen",
+      "sentence": "Morgen geht die Sonne um halb sieben auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9fca6b62-bffb-4110-9ef6-c4a9feaa7ebe",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "pascolare",
+      "sentence": "Le mucche pascolavano tranquille sopra la baita."
+    },
+    "de": {
+      "word": "weiden",
+      "sentence": "Die Kühe weideten ruhig oberhalb der Almhütte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4b657ffc-041d-45c6-9ba9-c6256cae0cdf",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "ronzare",
+      "sentence": "Senti anche tu qualcosa che ronza vicino alla finestra?"
+    },
+    "de": {
+      "word": "summen",
+      "sentence": "Hörst du auch etwas, das beim Fenster summt?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "8c34e00e-fcf9-43da-8d3c-0275edd099aa",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "frusciare",
+      "sentence": "Mentre salivamo, le foglie frusciavano sotto i nostri scarponi."
+    },
+    "de": {
+      "word": "rascheln",
+      "sentence": "Während wir aufstiegen, raschelte das Laub unter unseren Schuhen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d4d72108-a295-439b-838b-346c6a761acf",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "ululare",
+      "sentence": "I bambini credono che nel bosco ululino ancora i lupi."
+    },
+    "de": {
+      "word": "heulen",
+      "sentence": "Die Kinder glauben, dass im Wald noch Wölfe heulen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0133a903-b4cb-40ed-bf9c-13855eadbce8",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "posarsi",
+      "sentence": "Una farfalla si era posata sullo zaino senza che me ne accorgessi."
+    },
+    "de": {
+      "word": "sich niederlassen",
+      "sentence": "Ein Schmetterling hatte sich auf dem Rucksack niedergelassen, ohne dass ich es merkte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "9485e833-1310-47c2-a386-eeb848522d97",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "estinguersi",
+      "sentence": "Senza la riserva molte specie si sarebbero estinte da tempo."
+    },
+    "de": {
+      "word": "aussterben",
+      "sentence": "Ohne das Schutzgebiet wären viele Arten längst ausgestorben."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "45b8176a-cfc2-468a-b306-a1ebeecaa688",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "specchiarsi",
+      "sentence": "Le montagne si specchiano nel lago la mattina presto."
+    },
+    "de": {
+      "word": "sich spiegeln",
+      "sentence": "Die Berge spiegeln sich am frühen Morgen im See."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "737918a5-240c-4fdf-9a04-d63c0976d270",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "tutelare",
+      "sentence": "Il sentiero è chiuso affinché si tutelino i nidi degli uccelli."
+    },
+    "de": {
+      "word": "schützen",
+      "sentence": "Der Weg ist gesperrt, damit die Vogelnester geschützt werden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "02853671-335a-4899-942d-6d54bb7f818f",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "ondeggiare",
+      "sentence": "L'erba alta ondeggiava al vento mentre facevamo una pausa."
+    },
+    "de": {
+      "word": "sich wiegen",
+      "sentence": "Das hohe Gras wiegte sich im Wind, während wir Pause machten."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "87cacdba-b03a-4f29-af35-3226b58fe2b1",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "selvaggio",
+      "sentence": "Mi piace questa valle perché è rimasta selvaggia."
+    },
+    "de": {
+      "word": "wild",
+      "sentence": "Mir gefällt dieses Tal, weil es wild geblieben ist."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f5f03669-3163-40cb-8423-ceeba042da9e",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "ripido",
+      "sentence": "Il sentiero è troppo ripido per i bambini?"
+    },
+    "de": {
+      "word": "steil",
+      "sentence": "Ist der Weg für die Kinder zu steil?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4a9a5c16-0dbc-48a8-83d4-0ba75860f888",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "scosceso",
+      "sentence": "Eviterei quel versante scosceso, soprattutto quando la roccia è bagnata."
+    },
+    "de": {
+      "word": "schroff",
+      "sentence": "Ich würde diesen schroffen Hang meiden, besonders wenn der Fels nass ist."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "de0d48b0-c9ef-4e12-a1cd-40e83f5d9b1d",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "impervio",
+      "sentence": "Il tratto più impervio si supera con l'aiuto di una corda."
+    },
+    "de": {
+      "word": "unwegsam",
+      "sentence": "Das unwegsamste Stück überwindet man mit Hilfe eines Seils."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7742b019-e8ad-4925-9956-c97fd1885045",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "limpido",
+      "sentence": "Guarda com'è limpida l'acqua di questo ruscello!"
+    },
+    "de": {
+      "word": "klar",
+      "sentence": "Schau, wie klar das Wasser in diesem Bach ist!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ee556618-1f99-4d49-867b-735a0b2abd3f",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "torbido",
+      "sentence": "Perché il lago è diventato così torbido dopo il temporale?"
+    },
+    "de": {
+      "word": "trüb",
+      "sentence": "Warum ist der See nach dem Gewitter so trüb geworden?"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "d3b50855-d48b-41f9-af42-f97690b13a03",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "arido",
+      "sentence": "Il terreno era così arido che non era cresciuto niente."
+    },
+    "de": {
+      "word": "dürr",
+      "sentence": "Der Boden war so dürr, dass nichts gewachsen war."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b294b746-fb8f-471a-ac2b-c8caeed4a67b",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "fitto",
+      "sentence": "Il bosco è così fitto che fa quasi buio."
+    },
+    "de": {
+      "word": "dicht",
+      "sentence": "Der Wald ist so dicht, dass es fast dunkel ist."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7e65dd4e-d511-4068-8030-d9b44621d976",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "rado",
+      "sentence": "Più in alto il bosco diventa rado e magari vedremo i camosci."
+    },
+    "de": {
+      "word": "licht",
+      "sentence": "Weiter oben wird der Wald licht, und vielleicht sehen wir Gämsen."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "99692a85-9f01-4786-b567-2c9eb0159b15",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "roccioso",
+      "sentence": "L'ultimo tratto è roccioso, quindi mettete gli scarponi."
+    },
+    "de": {
+      "word": "felsig",
+      "sentence": "Das letzte Stück ist felsig, zieht also die Bergschuhe an."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "4df8c415-a63c-4e07-8ea1-1b3847b016d0",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "sconfinato",
+      "sentence": "Dalla vetta si apre un panorama sconfinato che toglie le parole."
+    },
+    "de": {
+      "word": "endlos",
+      "sentence": "Vom Gipfel öffnet sich eine endlose Aussicht, die einem die Worte nimmt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "b2621f0c-882a-40e0-9c0e-dab243dcaacb",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "mozzafiato",
+      "sentence": "Che vista mozzafiato, peccato che non abbia portato la macchina fotografica!"
+    },
+    "de": {
+      "word": "atemberaubend",
+      "sentence": "Was für eine atemberaubende Aussicht, schade, dass ich die Kamera nicht dabeihabe!"
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "7eed8fa6-004d-41ee-8800-1376d9cc2c72",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "ombroso",
+      "sentence": "Cerchiamo un posto ombroso per il picnic."
+    },
+    "de": {
+      "word": "schattig",
+      "sentence": "Suchen wir einen schattigen Platz für das Picknick."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "fe10e17b-76b8-4702-89a5-331ff9574561",
+    "level": "B1",
+    "topic": "Nature",
+    "it": {
+      "word": "in fiore",
+      "sentence": "Il ciliegio è in fiore già da una settimana."
+    },
+    "de": {
+      "word": "in Blüte",
+      "sentence": "Der Kirschbaum steht schon seit einer Woche in Blüte."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "f3e81d82-1eb4-4480-a7cb-0a25817c2750",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "rigoglioso",
+      "sentence": "Dopo tante settimane di pioggia l'orto è diventato rigoglioso."
+    },
+    "de": {
+      "word": "üppig",
+      "sentence": "Nach so vielen Regenwochen ist der Garten üppig geworden."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "ce2a8949-ec1b-40d6-9265-9153f83994b4",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "incontaminato",
+      "sentence": "Nonostante i tanti turisti, la valle sembra ancora incontaminata."
+    },
+    "de": {
+      "word": "unberührt",
+      "sentence": "Trotz der vielen Touristen wirkt das Tal noch unberührt."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "e5b9135f-3d78-4cd7-9bb0-322e121c6b99",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "brullo",
+      "sentence": "In autunno il pendio diventa brullo e il vento non smette mai."
+    },
+    "de": {
+      "word": "karg",
+      "sentence": "Im Herbst wird der Hang karg, und der Wind hört nie auf."
+    },
+    "streak": 0,
+    "correct": 0,
+    "seen": 0
+  },
+  {
+    "id": "0daac3cf-1265-4e40-a1e8-5a6d1dc6f3a3",
+    "level": "B2",
+    "topic": "Nature",
+    "it": {
+      "word": "maestoso",
+      "sentence": "Davanti a noi c'era un abete maestoso che i bambini volevano abbracciare."
+    },
+    "de": {
+      "word": "majestätisch",
+      "sentence": "Vor uns stand eine majestätische Tanne, die die Kinder umarmen wollten."
     },
     "streak": 0,
     "correct": 0,
