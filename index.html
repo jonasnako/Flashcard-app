@@ -72,9 +72,11 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 /* The speaker belongs to the face it reads, so it turns with the card and lands in the top right
    corner of whichever side is up. iOS is the reason it once sat outside the card: it renders the
    hidden face's button through the front, so backface-visibility alone cannot be trusted for it.
-   Switching the hidden one off outright fixes that on every browser — and it is switched at the
-   half-way point of the turn, where the card is edge-on and nothing can be seen changing. */
-.face .say{transition:visibility 0s linear .27s}
+   Switching the hidden one off outright fixes that on every browser — and it is switched exactly
+   when the card passes 90 degrees and is edge-on, so nothing can be seen changing. That moment is
+   NOT half the duration: the turn's easing is heavily front-loaded, and the card reaches 90 at 13%
+   of .55s = 70ms (it is already at 122 degrees by 110ms). Re-derive this if the easing changes. */
+.face .say{transition:visibility 0s linear .07s}
 .card:not(.flip) .face.back .say,.card.flip .face:not(.back) .say{visibility:hidden;pointer-events:none}
 .say:hover{opacity:.9}
 .say:active{transform:translateY(1px)}
