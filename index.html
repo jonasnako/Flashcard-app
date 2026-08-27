@@ -69,6 +69,13 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 .dots span.h{background:rgba(42,40,35,.42)}                                            /* met, not yet recalled */
 .dots.ret span{background:#C8912F;box-shadow:0 0 0 1px rgba(200,145,47,.35)}
 .say{position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:999px;border:1px solid rgba(42,40,35,.16);background:rgba(42,40,35,.04);color:var(--ink);font-size:16px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;opacity:.55;z-index:2}
+/* The speaker belongs to the face it reads, so it turns with the card and lands in the top right
+   corner of whichever side is up. iOS is the reason it once sat outside the card: it renders the
+   hidden face's button through the front, so backface-visibility alone cannot be trusted for it.
+   Switching the hidden one off outright fixes that on every browser — and it is switched at the
+   half-way point of the turn, where the card is edge-on and nothing can be seen changing. */
+.face .say{transition:visibility 0s linear .27s}
+.card:not(.flip) .face.back .say,.card.flip .face:not(.back) .say{visibility:hidden;pointer-events:none}
 .say:hover{opacity:.9}
 .say:active{transform:translateY(1px)}
 .say.playing{opacity:1;background:rgba(122,154,87,.18);border-color:rgba(122,154,87,.5)}
@@ -194,7 +201,7 @@ select.inp{appearance:none}
 .atools .seg{margin-left:auto}
 .atools .seg button{padding:6px 11px;font-size:12px}
 .astat{text-align:center;font-size:15px;color:rgba(246,241,230,.82);padding:16px 10px;min-height:26px;line-height:1.4}
-@media(prefers-reduced-motion:reduce){.card{transition:none}}
+@media(prefers-reduced-motion:reduce){.card{transition:none}.face .say{transition:none}}
 </style>
 </head>
 <body>
@@ -1003,10 +1010,7 @@ function paintSession(){
       {stopAudio();clearSession();paintSession();}}},["↻ New session"]));
   area.appendChild(el("div",{class:"atools"},controls));
   const card=el("div",{class:"card"+(flipped?" flip":""),onclick:()=>{if(audioOn||tapLocked())return;flipped=!flipped;card.classList.toggle("flip",flipped);paintButtons();}},[face(c,f,false),face(c,b,true)]);
-  const scene=el("div",{class:"scene"},[card]);
-  // one speaker over the card (not one per face) — avoids iOS backface-visibility rendering two; speaks whichever side is showing
-  if(ttsOK)scene.appendChild(el("button",{class:"say",title:"Hear this",onclick:(e)=>{e.stopPropagation();if(audioOn)return;speakFace(c,flipped?b:f,e.currentTarget);}},["🔊"]));
-  area.appendChild(scene);
+  area.appendChild(el("div",{class:"scene"},[card]));
   area.appendChild(el("div",{id:"btns"}));
   paintButtons();
 }
@@ -1026,6 +1030,10 @@ function face(c,lang,back){
   const s=c[lang];
   return el("div",{class:"face"+(back?" back":"")},[
     el("div",{class:"spine",style:{background:lang==="it"?"#7A9A57":"#CB9235"}}),
+    // each side carries its own speaker, so it reads the side you are looking at without having to
+    // ask which way the card is turned
+    ttsOK?el("button",{class:"say",title:"Hear this",onclick:e=>{e.stopPropagation();
+      if(audioOn)return;speakFace(c,lang,e.currentTarget);}},["🔊"]):null,
     el("h2",{class:"word"},[s.word]),
     s.sentence?el("p",{class:"sentence"},[s.sentence]):null,
     el("div",{class:"foot"},[
