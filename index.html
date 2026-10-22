@@ -117,6 +117,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:radial-gradient(120% 12
 /* inset:0 puts the sweep against the padding box, so it fills up to the border and never over it */
 .btn.know::after{content:"";position:absolute;inset:0;background:rgba(203,146,53,.5);transform:scaleX(0);transform-origin:left center;pointer-events:none}
 .btn.know.hold::after{transform:scaleX(1);transition:transform .6s linear}
+.btn.miss{position:relative;overflow:hidden;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+.btn.miss>span{position:relative;z-index:1}
+.btn.miss::after{content:"";position:absolute;inset:0;background:rgba(122,154,87,.4);transform:scaleX(0);transform-origin:left center;pointer-events:none}
+.btn.miss.hold::after{transform:scaleX(1);transition:transform .6s linear}
 .report{background:rgba(246,241,230,.05);border:1px solid rgba(246,241,230,.10);border-radius:14px;padding:16px 18px;margin:2px 0 4px}
 .report h3{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;opacity:.5;font-weight:600}
 .report ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
@@ -235,16 +239,16 @@ function norm(c){
   return {id:c.id||uid(),level:(c.level||"B1").toUpperCase(),topic:c.topic||"Other",
     it:{word:it.word||"",sentence:it.sentence||""},de:{word:de.word||"",sentence:de.sentence||""},
     streak:c.streak||0,correct:c.correct||0,seen:c.seen||0,seenAt:c.seenAt||0,ivl:c.ivl||0,due:c.due||0,retired:!!c.retired,
-    stab:c.stab||0,jit:c.jit||1,best:c.best||0};
+    stab:c.stab||0,jit:c.jit||1,best:c.best||0,snoozed:c.snoozed||0};
 }
 const stripWord=c=>({id:c.id,level:c.level,topic:c.topic,it:{word:c.it.word,sentence:c.it.sentence},de:{word:c.de.word,sentence:c.de.sentence}});
-const BLANK_PROG={streak:0,correct:0,seen:0,seenAt:0,ivl:0,due:0,retired:false,stab:0,jit:1,best:0};
+const BLANK_PROG={streak:0,correct:0,seen:0,seenAt:0,ivl:0,due:0,retired:false,stab:0,jit:1,best:0,snoozed:0};
 // "loading" until words.json has been fetched once; "failed" if it could not be reached and we
 // have nothing stored. Only visible when the library is empty — a first visit with no network.
 let libState="loading";
 // ivl/due are unused by the stability scheduler but are written through untouched, so reverting
 // to the old interval-based system stays lossless rather than resetting everyone's review queue.
-const stripProg=c=>{const o={streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};if(c.seenAt)o.seenAt=c.seenAt;if(c.ivl)o.ivl=c.ivl;if(c.due)o.due=c.due;if(c.retired)o.retired=true;if(c.stab)o.stab=Math.round(c.stab*100)/100;if(c.best)o.best=c.best;if(c.jit&&c.jit!==1)o.jit=Math.round(c.jit*100)/100;return o;};
+const stripProg=c=>{const o={streak:c.streak||0,correct:c.correct||0,seen:c.seen||0};if(c.seenAt)o.seenAt=c.seenAt;if(c.ivl)o.ivl=c.ivl;if(c.due)o.due=c.due;if(c.retired)o.retired=true;if(c.stab)o.stab=Math.round(c.stab*100)/100;if(c.best)o.best=c.best;if(c.jit&&c.jit!==1)o.jit=Math.round(c.jit*100)/100;if(c.snoozed&&c.snoozed>Date.now())o.snoozed=c.snoozed;return o;};
 const wordsFromLib=()=>lib.map(stripWord);
 function progFromLib(){const p={};lib.forEach(c=>{p[c.id]=stripProg(c);});return p;}
 function readJSON(k){try{const v=localStorage.getItem(k);return v?JSON.parse(v):null;}catch(e){return null;}}
@@ -369,7 +373,8 @@ const BAND_CARD={0:{stab:0,correct:0,best:0},1:{stab:1,correct:0,best:0},
   5:{stab:625,correct:4,best:3,retired:true}};
 const inReview=c=>inFlight(c)&&started(c);
 const status=c=>c.retired?"retired":dots(c)>=3?"learned":"learning";
-const inSession=c=>inFilter(c)&&(isDue(c)||!isSeen(c));
+const isSnoozed=c=>!!(c.snoozed&&c.snoozed>Date.now());
+const inSession=c=>inFilter(c)&&(isDue(c)||(!isSnoozed(c)&&!isSeen(c)));
 // count words matching a predicate and how many are done — for topic/level completion milestones
 const tally=pred=>{let size=0,learned=0;for(const c of lib){if(pred(c)){size++;if(c.retired||dots(c)>=3)learned++;}}return{size,learned,done:size>0&&size===learned};};
 const inFilter=c=>(!settings.levels.length||settings.levels.includes(c.level))&&(!settings.topics.length||settings.topics.includes(c.topic));
@@ -387,7 +392,7 @@ const earns=c=>(Date.now()-(c.seenAt||0))/DAY*S_GROW>(c.stab||S_START);
 const gapTarget=c=>{const s=c.stab||0;return s<=0?0:s<=S_START?firstGap():s*(c.jit||1);};
 const dueAt=c=>(c.seenAt||0)+gapTarget(c)*DAY;
 const overdue=c=>(Date.now()-(c.seenAt||0))/Math.max(1e-9,gapTarget(c)*DAY); // >=1 means due
-const isDue=c=>inFlight(c)&&Date.now()>=dueAt(c);
+const isDue=c=>inFlight(c)&&!isSnoozed(c)&&Date.now()>=dueAt(c);
 
 /* ---- activity log: the only way to know how much time someone actually spends ---- */
 const LOG_KEY="lessico_log_v1";
@@ -693,6 +698,18 @@ function assess(known,easy){tapLock=Math.max(tapLock,Date.now()+150); // swallow
   if(justLearned)celebrateLearned();
   if(milestone)celebrateMilestone(milestone);
   milestone=null;}
+function doSnooze(){
+  const c=cur();if(!c)return;
+  c.snoozed=Date.now()+21*DAY;
+  saveProg();
+  session.queue=session.queue.slice(1);
+  if(!session.queue.length){session.active=false;snapshotTotals();}
+  saveSession();
+  flipped=false;
+  tapLock=Date.now()+500;
+  celebrateMilestone({top:c.it.word,sub:"snoozed · 3 weeks"});
+  paintSession();paintCounts();
+}
 // Sleek learn cue on the top-right counter: number springs + flashes green, a thin ring radiates, a serif "+1" drifts up.
 function celebrateLearned(){
   const e=document.getElementById("counts");if(!e)return;
@@ -1065,9 +1082,18 @@ function paintButtons(){
     know.addEventListener("pointercancel",()=>{cancel();fired=false;});
     know.addEventListener("contextmenu",e=>e.preventDefault());
     know.addEventListener("click",e=>{if(fired){fired=false;e.preventDefault();return;}assess(true);});
-    a.appendChild(el("div",{class:"assess"},[
-      el("button",{class:"btn miss",onclick:()=>assess(false)},["✕ Missed"]),know]));
-    a.appendChild(el("div",{class:"hint"},["hold ✓ for Easy"]));
+    const miss=el("button",{class:"btn miss",title:"Tap if you missed it — hold to snooze 3 weeks"},[el("span",{},["✕ Missed"])]);
+    let mt=null,mfired=false;
+    const mcancel=()=>{if(mt)clearTimeout(mt);mt=null;miss.classList.remove("hold");};
+    miss.addEventListener("pointerdown",e=>{if(e.button)return;mfired=false;miss.classList.add("hold");
+      mt=setTimeout(()=>{mt=null;mfired=true;miss.classList.remove("hold");doSnooze();},600);});
+    miss.addEventListener("pointerup",mcancel);
+    miss.addEventListener("pointerleave",()=>{mcancel();mfired=false;});
+    miss.addEventListener("pointercancel",()=>{mcancel();mfired=false;});
+    miss.addEventListener("contextmenu",e=>e.preventDefault());
+    miss.addEventListener("click",e=>{if(mfired){mfired=false;e.preventDefault();return;}assess(false);});
+    a.appendChild(el("div",{class:"assess"},[miss,know]));
+    a.appendChild(el("div",{class:"hint"},["hold ✓ Easy  ·  hold ✕ Snooze 3 wks"]));
   }
 }
 
